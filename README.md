@@ -1,4 +1,8 @@
-standard
+360 Giving Standard
 ========
 
-A draft standard for UK philanthropic giving
+See [http://threesixtygiving.com/](http://threesixtygiving.com/) for more details. 
+
+This repository right now used for tracking issues. 
+
+More to come. 
