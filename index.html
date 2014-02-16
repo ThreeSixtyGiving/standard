@@ -1,0 +1,15 @@
+---
+layout: default
+title: 360 Giving Data Standard
+---
+
+This page will shortly contain instructions for creating your own data files using the draft 360 Giving Data Standard. For now, you can find <a href="{{site.baseurl}}research/implementation.html">documentation of the design decisions for the standard</a>.
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

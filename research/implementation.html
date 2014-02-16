@@ -1,0 +1,186 @@
+---
+layout: default
+title: Development principles
+---
+<div class="page-header">
+
+    <h1 id="overview" class="page-header">Design considerations: 360 Giving Data Standard</h1>
+    
+    Document status: draft<br/>
+    Last updated: Feb 15th 2014 
+    
+
+    <h3 id="overview">Overview</h3>
+    <p class="lead">
+        The draft 360 Giving Data Standard is built around the idea of having a <strong>core data model</strong> consisting of a number of building blocks which can be represented in a range of different data formats.
+    </p>
+    <p>
+        The proposed data formats include:
+        <ul>
+            <li>A single flat table, containing the most essential facts about a funding activity;</li>
+            <li>A multi-tab spreadsheet that allows more in-depth description of funding activities (particularly one-to-many relationships between funding activities and transactions, classifications, locations etc.)</li>
+            <li>A nested JSON data structure optimised for easy use in web applications;</li>
+            <li>A linked data representation in RDF;</li>
+        </ul>
+    </p>
+    <p>
+        The core data model should act as a <em>single source of definitions</em> for the standard, with each of the different representations and formats derived from the core data model. It should be possible to convert between any of the representations of the data using a simple set of rules which can be programatically applied. 
+    </p>
+    <p>
+        A key design principle is prioritising the simplicity and usability of the standard for non-technical users. The standard is also designed to be easy to internationalise and use in different languages. 
+    </p>
+    <p>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-target="#technical-implementation">
+                  Technical Implementation Details <span class="caret"></span>
+                </a>
+              </h4>
+            </div>
+            <div id="technical-implementation" class="panel-collapse collapse out">
+              <div class="panel-body">
+                  <p>
+                      In the prototype the core data model has been created as an RDF Schema using <a href="http://protege.stanford.edu/">Protege</a>. A set of <a href="https://github.com/ThreeSixtyGiving/prototype-tools">python scripts</a> are under development to transform this RDF Schema into spreadsheet and JSON formats, with work on a JSON-LD implementation to render the data into Linked Data forthcoming. The current implementation is proof-of-concept only. 
+                  </p>
+                  <p>
+                      More details of the approach taken can be found in following sections.
+                  </p>
+              </div>
+            </div>
+          </div>
+        
+    </p>
+    
+    
+    <h3 id="overview">Common Building Blocks</h3>
+    <p class="lead">
+        The 360 Giving Data Standard is designed to describe funding activities. It describes these in terms of their relationship to other common kinds of things, such as 'Events', 'Locations', 'Organisations', and 'Transactions'... 
+    </p>
+    <p>
+        By using common building blocks, data captured in the 360 Giving Data Standard is easier to map against data captured using other standards. The development of the draft 360 Giving Data Standard has taken place with particular reference to:
+        <ul>
+            <li>The <a href="http://foundationcenter.org/grantmakers/e-grants">eGrant</a> and <a href="http://www.foundationcenter.org/grantmakers/hgrant.html">hGrant</a> standards from the Foundation Center;</li>
+            <li>The <a href="http://www.iatistandard.org">International Aid Transparency Initiative standard</a>;</li>
+            <li><a href="http://www.schema.org">Schema.org</a>; and</li>
+            <li>in progress work on an <a href="http://open-contracting.github.io">Open Contracting Data Standard</a> and a <a href="http://drsinitiative.org/">Canadian Domestic Grant Reporting standard</a>.</li>
+        </ul>
+    </p>
+    
+    <p>
+        Each 'building block' of the standard is represented as a top-level class in the data model. These are kept very general. In table-based serialisations, each class becomes a table. In most cases the 360 Giving Standard represents data at the level of subclasses of these building blocks. The top-level building blocks are:
+    </p>       
+    
+    {% include buildingblocks.html %}
+    
+    <div class="alert alert-warning">
+          <span class="glyphicon glyphicon-warning-sign"></span> <strong>Issue</strong> - The conversion we use from the RDFS to generate these tables assumes that subClasses inherit the dataProperties and objectProperties of their parents class. Formally, inheritance doesn't really work like this in RDFS / OWL (subClass / subProperty exist to help systems infer facts about some entity, rather than to describe that properties an entity may have). What issues does ignoring this create? (Presumably we would need to apply some reasoning rules that <em>do apply inheritance</em> of properties to the RDFS before using it to validate data we generate - but any other problems this creates?)
+      </div>
+    
+    <h3 id="overview">Data model restrictions</h3>
+    <p class="lead">
+        In order that structured data can be reconstructed from flattened data, there are some restrictions on the core data model.
+    </p>
+    <p>
+        In particular, if it is important to know the specific type of some building block (e.g. to know that a Transaction is actually a Disbursement) then there should be a one-to-one relationship between an objectProperty and a specific subClass, such that whenever the objectProperty relationship is found, the Type of the object referred to can be identified from the range. 
+    </p>
+    <p>
+        As a design principle, the model should be kept as flat as possible. 
+    </p>
+  
+    
+    
+    <h3 id="overview">Rolling up - simplified structure</h3>
+    <p class="lead">
+        We introduce a special property to our RDF Schema (rollUp) to allow selected properties of related building blocks to be expressed in a flatter structure.
+    </p>
+    <p>
+        By way of example: in the basic model, to indicate the details of a 'recipient organization' for a grant, a data provider would need to add an entry to the 'Activity' table with an id for the grant, and then go the Organization table and create a row, entering the Activity id in the 'Activity ID' field, and noting the 'Relationship Type' as 'recipientOrganization'. Whilst this makes sense from a data modelling perspective, from the user perspective it is neither intuitive nor straightforward. In the vast majority of cases, grants will only have one recipient organization, so it would be much easier to provide data about it when filling in the basic details of a grant. 
+    </p>
+    <p>
+        So, with rollUp properties, we allow tables to include details of related entities. For example, below is an example of the Activity table, with various details rolled up into it:
+    </p>
+    
+    {% include rollup-example.html %}
+    
+    <p>
+        This tables allows most of the essential details of a grant to be expressed, providing there are are one-to-one relationships for the key facts. E.g. just one set of beneficiary locations. It should also be possible to render this information in a more semi-normalised form in the core data model, and to transform back and forth between these formats. Where one-to-many relationships exist (e.g. many beneficiary locations), then the semi-normalised structure can be used to record these. 
+    </p>
+    <p>
+       Note: this draft also invents an additional <strong>totalUp</strong> property which is used to sum transaction values.  ToDo: provide more details of this. 
+    </p>
+
+    <h3 id="overview">Identifiers</h3>
+    <p class="lead">
+        It will be easier to integrate data from multiple organisations when (a) globally unique identifiers are used for activities, transactions and any kind of thing which a single publisher of data can authoritatively define; (b) shared identifiers are used for organisations, locations, and any kind of thing which different data publishers may wish to refer to. 
+    </p>        
+        <h4 id="overview">Activity identifiers</h4>
+            <p>
+                Each publisher wishing to share their data should <strong>register</strong> and will receive a short identifier which the can use as a prefix to their activity identifiers. They then use this prefix, plus some internal identifier, to generate an activity ID.
+            </p>
+            <p>
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <strong>Example</strong>: Indigo trust are assigned the prefix 'indigo', and then add this to their internal identifiers for grants, with '-' as the separator, giving activity identifiers such as 'indigo-12345'
+                  </div>
+                </div>
+            </p>
+            <p>
+                The prefix and internal identifier should be separated by '-'. Only letters, numbers and underscore should be allowed in the identifiers. 
+            </p>
+            <div class="alert alert-warning">
+                <span class="glyphicon glyphicon-question-sign"></span> <strong>Question</strong> - What are the pros and cons of this approach? Should prefixes be meaningful (e.g. indigo) and open to publishers to choose when registering, or randomly generated? This proposal is based on experiences from the International Aid Transparency Initiative which uses organisation IDs as the foundation of activity identifiers, with the consequent problem of unstable organisation IDs leading to unstable activity IDs. 
+            </div>
+            
+        <h4 id="overview">Organisation identifiers</h4>
+            <p>
+              The <a href="http://practicalparticipation.github.io/organisation-id-tool/">IATI Organisation Identifier standard</a> will be used.
+            </p>
+            <p>
+              Where an organisation has not collected any organisation identifiers, they would use 'MISC-360G-{prefix}-{id}' where {prefix} is their activity ID prefix. This would indicate that no global ID for the organisation is available.    
+            </p>  
+
+    <h3 id="overview">Classifications</h3>
+    <p class="lead">
+        A major aim of a data standard is to help classify and categorise the things being described. There are two approaches to classification in the draft standard
+    </p>    
+    
+    <p>
+        <strong>Firstly</strong>, through the use of subClasses and objectProperties in the data model. So, for example, a transaction can be an 'Application', a 'Commitment' or a 'Disbursement'. And Grants can have a 'grantProgramme' or a 'fundingType'.  These classifications are <em>built in</em> to the standard, and are so are less flexible. However, there is the advantage that multiple kinds of classification can be 'rolled up' into the Activity table, whereas the general 'classification' objectProperty can only be rolled up once. 
+    </p>
+    <p>
+        <strong>Secondly</strong>, through the use of the classifications building block. Multiple building blocks can be given classifications, and classifications can draw on any number of different vocabularies. A vocabulary should usually point to some pre-defined code-list from which values should be taken. 
+    </p>
+    <p>
+        The 360 Giving Data Standard project should maintain a list of recognised vocabularies, and should allow anyone publishing data to also register their own. This list of recognised vocabularies should contain:
+        <ul>
+            <li>A unique string to identify the vocabulary - such as ICNPO for the '<a href="http://data.ncvo.org.uk/datastore/datasets/dataset-4-icnpo-classification-of-charities/">International Classification of Non-Profit Orgnaizations</a>'</li>
+            <li>A description of the vocabulary</li>
+            <li>Whether it is a free-tagging vocabulary, or whether it has a code list</li>
+            <li>A pointer to where the code list can be found, ideally in either SKOS or a simple CSV list format</li>
+            <li>(optional) A URI pattern for looking up codes from this vocabulary (and that could by used in conversion to linked data)</li>
+        </ul>
+        
+        This way, creating and consuming applications can validate data, whilst also allowing a diversity of classification schemes to be used by those publishing in the standard. 
+    </p>        
+    
+    <div class="alert alert-warning">
+        <span class="glyphicon glyphicon-question-sign"></span> <strong>Question</strong> - What classifications should be built into the standard? What classification schemes should be included in the list of recognised vocabularies? 
+    </div>
+    
+    
+    <h3 id="overview">JSON Serialization</h3>
+    <p class="lead">
+        An example JSON Serialization will be provided here.
+    </p>    
+
+    <h3 id="overview">Transformation between formats</h3>
+    <p class="lead">
+        Details of how transformation between different formats should be carried out will be provided here
+    </p>
+    
+    
+    
+    
+
+</div>
