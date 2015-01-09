@@ -516,7 +516,8 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Actual dates"
+      "title": "Actual dates",
+      "rollUp": ["startDate","endDate","duration"]      
     },
     "recipientOrganization": {
       "items": {
@@ -525,7 +526,8 @@
       "type": "array",
       "description": "-",
       "weight": 5,
-      "title": "Recipient Org"
+      "title": "Recipient Org",
+      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","postalCode","description","url"]      
     },
     "beneficiaryLocation": {
       "items": {
@@ -534,7 +536,8 @@
       "type": "array",
       "description": "-",
       "weight": 6.01,
-      "title": "Beneficiary Location"
+      "title": "Beneficiary Location",
+      "rollUp": ["name","countryCode","point"]
     },
     "fundingOrganization": {
       "items": {
@@ -543,7 +546,8 @@
       "type": "array",
       "description": "Details of the funder",
       "weight": 4,
-      "title": "Funding Org"
+      "title": "Funding Org",
+      "rollUp": ["id"]
     },
     "fromOpenCall": {
       "type": "string",
@@ -559,7 +563,8 @@
       "type": "array",
       "description": "-",
       "weight": 5,
-      "title": "Grant Programme"
+      "title": "Grant Programme",
+      "rollUp": ["code","title","url"]
     },
     "fundingType": {
       "items": {
@@ -633,7 +638,7 @@
     },
     "dataSource": {
       "format": "uri",
-      "type": ["string","null"]
+      "type": ["string","null"],
       "description": "A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.",
       "weight": 25,
       "title": "Data Source"
