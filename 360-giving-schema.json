@@ -509,6 +509,16 @@
          "weight": 5.04,
          "title": "Amount Disbursed"
     },
+    "plannedDates": {
+      "items": {
+        "$ref": "#/definitions/Event"
+      },
+      "type": "array",
+      "description": "-",
+      "weight": 5.041,
+      "title": "Planed Dates",
+      "rollUp": ["startDate","endDate","duration"]      
+    },
     "actualDates": {
       "items": {
         "$ref": "#/definitions/Event"
@@ -516,8 +526,7 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Actual dates",
-      "rollUp": ["startDate","endDate","duration"]      
+      "title": "Actual dates"
     },
     "recipientOrganization": {
       "items": {
