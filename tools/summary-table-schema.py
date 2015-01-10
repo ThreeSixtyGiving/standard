@@ -63,3 +63,15 @@ print "Writing updated schema"
 
 with open('../360-summary-json-table-schema.json', 'w') as outfile:
     json.dump({"fields":table_schema}, outfile,indent=True)
+    
+
+##Temporary process whilst waiting for flattening-ocds to do all of this:
+import csv
+
+csv_header = []
+for field in table_schema:
+    csv_header.append(field['title'])
+    
+with open('../template-360-giving-summary.csv', 'wb') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',',quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(csv_header)

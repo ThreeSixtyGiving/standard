@@ -135,7 +135,7 @@
           "type": ["string","null"],
           "description": "Enter a latitude and longitude, separated by a comma.",
           "weight": 4.001,
-          "title": "Latitude/Longitude"
+          "title": "Lat-Long"
         },
         "description": {
           "type": ["string","null"],
