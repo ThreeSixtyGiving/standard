@@ -1,0 +1,216 @@
+{
+ "fields": [
+  {
+   "title": "Identifier", 
+   "type": "string", 
+   "description": "Activity identifier (using the 360Giving identifier format)", 
+   "name": "id", 
+   "format": ""
+  }, 
+  {
+   "title": "Title", 
+   "type": "string", 
+   "description": "A title for this grant activity", 
+   "name": "title", 
+   "format": ""
+  }, 
+  {
+   "title": "Description", 
+   "type": "string", 
+   "description": "A short description of this grant activity", 
+   "name": "description", 
+   "format": ""
+  }, 
+  {
+   "title": "Web Address", 
+   "type": "string", 
+   "description": "A url for further information on this grant. This could point to the website of the recipient organisation, or might link to further details on the funder website.", 
+   "name": "url", 
+   "format": ""
+  }, 
+  {
+   "description": "The currency, using a three-digit currency code from [ISO 4217[(https://en.wikipedia.org/wiki/ISO_4217)]", 
+   "title": "Currency", 
+   "allowed_values": "GBP,USD,AED,AFN,ALL,AMD,ANG,AOA,ARS,AUD,AWG,AZN,BAM,BBD,BDT,BGN,BHD,BIF,BMD,BND,BOB,BRL,BSD,BTN,BWP,BYR,BZD,CAD,CDF,CHF,CLP,CNY,COP,CRC,CUC,CUP,CVE,CZK,DJF,DKK,DOP,DZD,EGP,ERN,ETB,EUR,FJD,FKP,GBP,GEL,GGP,GHS,GIP,GMD,GNF,GTQ,GYD,HKD,HNL,HRK,HTG,HUF,IDR,ILS,IMP,INR,IQD,IRR,ISK,JEP,JMD,JOD,JPY,KES,KGS,KHR,KMF,KPW,KRW,KWD,KYD,KZT,LAK,LBP,LKR,LRD,LSL,LTL,LVL,LYD,MAD,MDL,MGA,MKD,MMK,MNT,MOP,MRO,MUR,MVR,MWK,MXN,MYR,MZN,NAD,NGN,NIO,NOK,NPR,NZD,OMR,PAB,PEN,PGK,PHP,PKR,PLN,PYG,QAR,RON,RSD,RUB,RWF,SAR,SBD,SCR,SDG,SEK,SGD,SHP,SLL,SOS,SPL,SRD,STD,SVC,SYP,SZL,THB,TJS,TMT,TND,TOP,TRY,TTD,TVD,TWD,TZS,UAH,UGX,USD,UYU,UZS,VEF,VND,VUV,WST,XAF,XCD,XDR,XOF,XPF,YER,ZAR,ZMW,ZWD", 
+   "format": "", 
+   "type": "string", 
+   "name": "currency"
+  }, 
+  {
+   "title": "Planed Dates:Start Date", 
+   "type": "datetime", 
+   "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThe start date of an event. At a minimum events must have a start date. ", 
+   "name": "plannedDates/startDate", 
+   "format": ""
+  }, 
+  {
+   "title": "Planed Dates:End Date", 
+   "type": "datetime", 
+   "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents lasting more than one day should have either a duration (in days) or an end date.", 
+   "name": "plannedDates/endDate", 
+   "format": ""
+  }, 
+  {
+   "title": "Planed Dates:Duration (months)", 
+   "type": "string", 
+   "description": "Events lasting more than one day should have either a duration (in days) or an end date.", 
+   "name": "plannedDates/duration", 
+   "format": ""
+  }, 
+  {
+   "title": "Amount Applied For", 
+   "type": "integer", 
+   "description": "Total amount applied for (should be the same as the sum of any application transactions)", 
+   "name": "amountAppliedFor", 
+   "format": ""
+  }, 
+  {
+   "title": "Amount Awarded", 
+   "type": "integer", 
+   "description": "Total amount awarded (should be the same as the sum of any award transactions)", 
+   "name": "amountAwarded", 
+   "format": ""
+  }, 
+  {
+   "title": "Amount Disbursed", 
+   "type": "integer", 
+   "description": "Total amount disbursed (paid) to this grantee when this record was last updated.", 
+   "name": "amountDisbursed", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Identifier", 
+   "type": "string", 
+   "description": "An organisation identifier, following the Organisation ID standard.", 
+   "name": "recipientOrganization/id", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Name", 
+   "type": "string", 
+   "description": "Organisation name", 
+   "name": "recipientOrganization/name", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Charity Number", 
+   "type": "string", 
+   "description": "Registered charity number if available.", 
+   "name": "recipientOrganization/charityNumber", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Company Number", 
+   "type": "string", 
+   "description": "Registered company number, if available.", 
+   "name": "recipientOrganization/companyNumber", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Street Address", 
+   "type": "string", 
+   "description": "Building number and street name.", 
+   "name": "recipientOrganization/streetAddress", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:City", 
+   "type": "string", 
+   "description": "City or town.", 
+   "name": "recipientOrganization/addressLocality", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Postal Code", 
+   "type": "string", 
+   "description": "Postal code (please try and provide a post code whenever possible)", 
+   "name": "recipientOrganization/postalCode", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Description", 
+   "type": "string", 
+   "description": "-", 
+   "name": "recipientOrganization/description", 
+   "format": ""
+  }, 
+  {
+   "title": "Recipient Org:Web Address", 
+   "type": "string", 
+   "description": "A web address for the Organisation", 
+   "name": "recipientOrganization/url", 
+   "format": ""
+  }, 
+  {
+   "title": "Beneficiary Location:Name", 
+   "type": "string", 
+   "description": "A name for this location.", 
+   "name": "beneficiaryLocation/name", 
+   "format": ""
+  }, 
+  {
+   "title": "Beneficiary Location:Country Code", 
+   "type": "string", 
+   "description": "The ISO Country Code of the location of this activity.", 
+   "name": "beneficiaryLocation/countryCode", 
+   "format": ""
+  }, 
+  {
+   "title": "Beneficiary Location:Latitude/Longitude", 
+   "type": "string", 
+   "description": "Enter a latitude and longitude, separated by a comma.", 
+   "name": "beneficiaryLocation/point", 
+   "format": ""
+  }, 
+  {
+   "title": "Funding Org:Identifier", 
+   "type": "string", 
+   "description": "An organisation identifier, following the Organisation ID standard.", 
+   "name": "fundingOrganization/id", 
+   "format": ""
+  }, 
+  {
+   "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'", 
+   "title": "From an open call?", 
+   "allowed_values": "Yes,No", 
+   "format": "", 
+   "type": "string", 
+   "name": "fromOpenCall"
+  }, 
+  {
+   "title": "Grant Programme:Code", 
+   "type": "string", 
+   "description": "An identifier for this grant programme.", 
+   "name": "grantProgramme/code", 
+   "format": ""
+  }, 
+  {
+   "title": "Grant Programme:Title", 
+   "type": "string", 
+   "description": "The title of this grant programme.", 
+   "name": "grantProgramme/title", 
+   "format": ""
+  }, 
+  {
+   "title": "Grant Programme:URL", 
+   "type": "string", 
+   "description": "A web link to more details of this grant programme.", 
+   "name": "grantProgramme/url", 
+   "format": ""
+  }, 
+  {
+   "title": "Last modified", 
+   "type": "datetime", 
+   "description": "The date when information on this grant was last updated", 
+   "name": "dateModified", 
+   "format": ""
+  }, 
+  {
+   "title": "Data Source", 
+   "type": "string", 
+   "description": "A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.", 
+   "name": "dataSource", 
+   "format": ""
+  }
+ ]
+}

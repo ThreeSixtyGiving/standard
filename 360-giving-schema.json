@@ -1,5 +1,12 @@
 {
   "definitions": {
+      "currency": {
+        "type": "string",
+        "description": "The currency, using a three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) ",
+        "weight": 5.02,
+        "enum": ["GBP","USD","AED","AFN","ALL","AMD","ANG","AOA","ARS","AUD","AWG","AZN","BAM","BBD","BDT","BGN","BHD","BIF","BMD","BND","BOB","BRL","BSD","BTN","BWP","BYR","BZD","CAD","CDF","CHF","CLP","CNY","COP","CRC","CUC","CUP","CVE","CZK","DJF","DKK","DOP","DZD","EGP","ERN","ETB","EUR","FJD","FKP","GBP","GEL","GGP","GHS","GIP","GMD","GNF","GTQ","GYD","HKD","HNL","HRK","HTG","HUF","IDR","ILS","IMP","INR","IQD","IRR","ISK","JEP","JMD","JOD","JPY","KES","KGS","KHR","KMF","KPW","KRW","KWD","KYD","KZT","LAK","LBP","LKR","LRD","LSL","LTL","LVL","LYD","MAD","MDL","MGA","MKD","MMK","MNT","MOP","MRO","MUR","MVR","MWK","MXN","MYR","MZN","NAD","NGN","NIO","NOK","NPR","NZD","OMR","PAB","PEN","PGK","PHP","PKR","PLN","PYG","QAR","RON","RSD","RUB","RWF","SAR","SBD","SCR","SDG","SEK","SGD","SHP","SLL","SOS","SPL","SRD","STD","SVC","SYP","SZL","THB","TJS","TMT","TND","TOP","TRY","TTD","TVD","TWD","TZS","UAH","UGX","USD","UYU","UZS","VEF","VND","VUV","WST","XAF","XCD","XDR","XOF","XPF","YER","ZAR","ZMW","ZWD"],
+        "title": "Currency"
+      },
     "Transaction": {
       "type": "object",
       "properties": {
@@ -17,11 +24,7 @@
           "title": "Transaction date"
         },
         "currency": {
-          "type": "string",
-          "description": "The currency, using a three-digit currency code from [ISO 4217[(https://en.wikipedia.org/wiki/ISO_4217)]",
-          "weight": 5.02,
-          "enum": ["GBP","USD","AED","AFN","ALL","AMD","ANG","AOA","ARS","AUD","AWG","AZN","BAM","BBD","BDT","BGN","BHD","BIF","BMD","BND","BOB","BRL","BSD","BTN","BWP","BYR","BZD","CAD","CDF","CHF","CLP","CNY","COP","CRC","CUC","CUP","CVE","CZK","DJF","DKK","DOP","DZD","EGP","ERN","ETB","EUR","FJD","FKP","GBP","GEL","GGP","GHS","GIP","GMD","GNF","GTQ","GYD","HKD","HNL","HRK","HTG","HUF","IDR","ILS","IMP","INR","IQD","IRR","ISK","JEP","JMD","JOD","JPY","KES","KGS","KHR","KMF","KPW","KRW","KWD","KYD","KZT","LAK","LBP","LKR","LRD","LSL","LTL","LVL","LYD","MAD","MDL","MGA","MKD","MMK","MNT","MOP","MRO","MUR","MVR","MWK","MXN","MYR","MZN","NAD","NGN","NIO","NOK","NPR","NZD","OMR","PAB","PEN","PGK","PHP","PKR","PLN","PYG","QAR","RON","RSD","RUB","RWF","SAR","SBD","SCR","SDG","SEK","SGD","SHP","SLL","SOS","SPL","SRD","STD","SVC","SYP","SZL","THB","TJS","TMT","TND","TOP","TRY","TTD","TVD","TWD","TZS","UAH","UGX","USD","UYU","UZS","VEF","VND","VUV","WST","XAF","XCD","XDR","XOF","XPF","YER","ZAR","ZMW","ZWD"],
-          "title": "Currency"
+          "$ref": "#/definitions/currency"
         },
         "value": {
           "type": "integer",
@@ -305,49 +308,49 @@
         },
         "charityNumber": {
               "type": "string",
-              "description": "Registered charity number if available.",
+              "description": "Registered charity number, if applicable.",
               "weight": 6.01,
               "title": "Charity Number"
         },
         "companyNumber": {
           "type": "string",
-          "description": "Registered company number, if available.",
+          "description": "Registered UK company number, if applicable.",
           "weight": 6.02,
           "title": "Company Number"
         },
         "streetAddress": {
           "type": "string",
-          "description": "-",
+          "description": "Building number and street name.",
           "weight": 3.1,
           "title": "Street Address"
         }, 
         "addressLocality": {
           "type": "string",
-          "description": "-",
+          "description": "City or town.",
           "weight": 3.2,
           "title": "City"
         },
         "addressRegion": {
           "type": "string",
-          "description": "-",
+          "description": "County or state.",
           "weight": 3.3,
           "title": "County/State"
         },
         "addressCountry": {
           "type": "string",
-          "description": "-",
+          "description": "Country",
           "weight": 3.5,
           "title": "Country"
         },
         "postalCode": {
           "type": "string",
-          "description": "-",
+          "description": "Postal code (please try and provide a post code whenever possible)",
           "weight": 3.4,
           "title": "Postal Code"
         },
         "alternateName": {
           "type": "string",
-          "description": "-",
+          "description": "An alternative name for this organisation (e.g. trading name)",
           "weight": 6,
           "title": "Alternate Name"
         },
@@ -359,7 +362,7 @@
         },
         "description": {
           "type": "string",
-          "description": "-",
+          "description": "A short description of this organisation and its area of work",
           "weight": 9,
           "title": "Description"
         },
@@ -408,20 +411,20 @@
         "startDate": {
           "format": "date-time",
           "type": "string",
-          "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThe start date of an event. At a minimum events must have a start date. ",
+          "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThis field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ",
           "weight": 4.1,
           "title": "Start Date"
         },
         "endDate": {
           "format": "date-time",
           "type": "string",
-          "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents lasting more than one day should have either a duration (in days) or an end date.",
+          "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents or activities lasting more than one day should have either a duration (in days) or an end date.",
           "weight": 4.3,
           "title": "End Date"
         },
         "duration": {
           "type": "string",
-          "description": "Events lasting more than one day should have either a duration (in days) or an end date.",
+          "description": "Events or activities lasting more than one day should have either a duration (in days) or an end date.",
           "weight": 4.2,
           "title": "Duration (months)"
         },
@@ -477,10 +480,7 @@
       "title": "Web Address"
     },
     "currency": {
-      "type": "string",
-      "description": "-",
-      "weight": 5.02,
-      "title": "Currency"
+      "$ref": "#/definitions/currency"
     },
     "plannedDates": {
       "items": {
@@ -492,20 +492,20 @@
       "title": "Planned Dates"
     },
     "amountAppliedFor": {
-      "type": "integer",
-      "description": "Total amount applied for (should be the same as the sum of any application transactions)",
+      "type": "number",
+      "description": "Total amount applied for. Include numbers only. DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.",
       "weight": 5.03,
       "title": "Amount Applied For"
     },
     "amountAwarded": {
-      "type": "integer",
-      "description": "Total amount awarded (should be the same as the sum of any award transactions)",
+      "type": "number",
+      "description": "Total amount awarded (should be the same as the sum of any award transactions). DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.",
       "weight": 5.04,
       "title": "Amount Awarded"
     },
     "amountDisbursed": {
-         "type": "integer",
-         "description": "Total amount disbursed (paid) to this grantee when this record was last updated.",
+         "type": "number",
+         "description": "Total amount disbursed (paid) to this grantee when this record was last updated. DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.",
          "weight": 5.04,
          "title": "Amount Disbursed"
     },
@@ -556,7 +556,7 @@
       "description": "Details of the funder",
       "weight": 4,
       "title": "Funding Org",
-      "rollUp": ["id"]
+      "rollUp": ["id","name"]
     },
     "fromOpenCall": {
       "type": "string",
@@ -641,7 +641,7 @@
     "dateModified": {
       "format": "date-time",
       "type": "string",
-      "description": "-",
+      "description": "The date when information on this grant was last updated",
       "weight": 25,
       "title": "Last modified"
     },
