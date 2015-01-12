@@ -60,7 +60,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "What was information about this transaction last updated.",
+          "description": "When information about this transaction was last updated.",
           "weight": 25,
           "title": "Last modified"
         }
