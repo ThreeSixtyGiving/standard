@@ -40,21 +40,21 @@
    "title": "Planed Dates:Start Date", 
    "type": "datetime", 
    "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThis field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ", 
-   "name": "plannedDates/startDate", 
+   "name": "plannedDates[]/startDate", 
    "format": ""
   }, 
   {
    "title": "Planed Dates:End Date", 
    "type": "datetime", 
    "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents or activities lasting more than one day should have either a duration (in days) or an end date.", 
-   "name": "plannedDates/endDate", 
+   "name": "plannedDates[]/endDate", 
    "format": ""
   }, 
   {
    "title": "Planed Dates:Duration (months)", 
    "type": "string", 
    "description": "Events or activities lasting more than one day should have either a duration (in days) or an end date.", 
-   "name": "plannedDates/duration", 
+   "name": "plannedDates[]/duration", 
    "format": ""
   }, 
   {
@@ -82,98 +82,98 @@
    "title": "Recipient Org:Identifier", 
    "type": "string", 
    "description": "An organisation identifier, following the Organisation ID standard.", 
-   "name": "recipientOrganization/id", 
+   "name": "recipientOrganization[]/id", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Name", 
    "type": "string", 
    "description": "Organisation name", 
-   "name": "recipientOrganization/name", 
+   "name": "recipientOrganization[]/name", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Charity Number", 
    "type": "string", 
    "description": "Registered charity number, if applicable.", 
-   "name": "recipientOrganization/charityNumber", 
+   "name": "recipientOrganization[]/charityNumber", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Company Number", 
    "type": "string", 
    "description": "Registered UK company number, if applicable.", 
-   "name": "recipientOrganization/companyNumber", 
+   "name": "recipientOrganization[]/companyNumber", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Street Address", 
    "type": "string", 
    "description": "Building number and street name.", 
-   "name": "recipientOrganization/streetAddress", 
+   "name": "recipientOrganization[]/streetAddress", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:City", 
    "type": "string", 
    "description": "City or town.", 
-   "name": "recipientOrganization/addressLocality", 
+   "name": "recipientOrganization[]/addressLocality", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Postal Code", 
    "type": "string", 
    "description": "Postal code (please try and provide a post code whenever possible)", 
-   "name": "recipientOrganization/postalCode", 
+   "name": "recipientOrganization[]/postalCode", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Description", 
    "type": "string", 
    "description": "A short description of this organisation and its area of work", 
-   "name": "recipientOrganization/description", 
+   "name": "recipientOrganization[]/description", 
    "format": ""
   }, 
   {
    "title": "Recipient Org:Web Address", 
    "type": "string", 
    "description": "A web address for the Organisation", 
-   "name": "recipientOrganization/url", 
+   "name": "recipientOrganization[]/url", 
    "format": ""
   }, 
   {
    "title": "Beneficiary Location:Name", 
    "type": "string", 
    "description": "A name for this location.", 
-   "name": "beneficiaryLocation/name", 
+   "name": "beneficiaryLocation[]/name", 
    "format": ""
   }, 
   {
    "title": "Beneficiary Location:Country Code", 
    "type": "string", 
    "description": "The ISO Country Code of the location of this activity.", 
-   "name": "beneficiaryLocation/countryCode", 
+   "name": "beneficiaryLocation[]/countryCode", 
    "format": ""
   }, 
   {
    "title": "Beneficiary Location:Lat-Long", 
    "type": "string", 
    "description": "Enter a latitude and longitude, separated by a comma.", 
-   "name": "beneficiaryLocation/point", 
+   "name": "beneficiaryLocation[]/point", 
    "format": ""
   }, 
   {
    "title": "Funding Org:Identifier", 
    "type": "string", 
    "description": "An organisation identifier, following the Organisation ID standard.", 
-   "name": "fundingOrganization/id", 
+   "name": "fundingOrganization[]/id", 
    "format": ""
   }, 
   {
    "title": "Funding Org:Name", 
    "type": "string", 
    "description": "Organisation name", 
-   "name": "fundingOrganization/name", 
+   "name": "fundingOrganization[]/name", 
    "format": ""
   }, 
   {
@@ -188,21 +188,21 @@
    "title": "Grant Programme:Code", 
    "type": "string", 
    "description": "An identifier for this grant programme.", 
-   "name": "grantProgramme/code", 
+   "name": "grantProgramme[]/code", 
    "format": ""
   }, 
   {
    "title": "Grant Programme:Title", 
    "type": "string", 
    "description": "The title of this grant programme.", 
-   "name": "grantProgramme/title", 
+   "name": "grantProgramme[]/title", 
    "format": ""
   }, 
   {
    "title": "Grant Programme:URL", 
    "type": "string", 
    "description": "A web link to more details of this grant programme.", 
-   "name": "grantProgramme/url", 
+   "name": "grantProgramme[]/url", 
    "format": ""
   }, 
   {

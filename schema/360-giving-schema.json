@@ -348,6 +348,12 @@
           "weight": 3.4,
           "title": "Postal Code"
         },
+        "telephone":{
+         "type":"string",
+         "description":"Contact phone number.",
+         "weight":3.5,
+         "title": "Phone Number"
+        },
         "alternateName": {
           "type": "string",
           "description": "An alternative name for this organisation (e.g. trading name)",

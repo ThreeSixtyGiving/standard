@@ -5,7 +5,7 @@ import sys
 
 table_schema = []
 
-with open("../360-giving-schema.json") as schema_file:
+with open("../schema/360-giving-schema.json") as schema_file:
     data = jsonref.load(schema_file,object_pairs_hook=OrderedDict)
 
 def get_field_info(field_def):
@@ -46,7 +46,7 @@ for name, defs in data['properties'].iteritems():
                 subfield = {}
                 subdefs = defs['items']['properties'][item]
                 field_info = get_field_info(subdefs)
-                subfield.update({"name":name + "/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"]})
+                subfield.update({"name":name + "[]/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"]})
                 table_schema.append(subfield)
         except Exception as a:
             if defs['items'] == 'string':
@@ -61,17 +61,7 @@ for name, defs in data['properties'].iteritems():
 
 print "Writing updated schema"
 
-with open('../360-summary-json-table-schema.json', 'w') as outfile:
+with open('../schema/summary-table/360-summary-table-schema.json', 'w') as outfile:
     json.dump({"fields":table_schema}, outfile,indent=True)
     
 
-##Temporary process whilst waiting for flattening-ocds to do all of this:
-import csv
-
-csv_header = []
-for field in table_schema:
-    csv_header.append(field['title'])
-    
-with open('../template-360-giving-summary.csv', 'wb') as csvfile:
-    writer = csv.writer(csvfile, delimiter=',',quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    writer.writerow(csv_header)
