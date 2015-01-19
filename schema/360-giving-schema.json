@@ -522,7 +522,7 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Planed Dates",
+      "title": "Planned Dates",
       "rollUp": ["startDate","endDate","duration"]      
     },
     "actualDates": {
