@@ -412,7 +412,8 @@
     "Event": {
       "definitions": {},
       "type": "object",
-      "title":"An event in the life of the grant activity",
+      "title":"Event",
+      "description":"An event in the life of the grant activity",
       "properties": {
         "title": {
             "type": "string",
@@ -530,6 +531,7 @@
       "description": "-",
       "weight": 5.041,
       "title": "Planned Dates",
+      "description":"When did the applicant / implementing organisation originally intend this activity to take place.",
       "rollUp": ["startDate","endDate","duration"]      
     },
     "actualDates": {
@@ -549,6 +551,7 @@
       "description": "-",
       "weight": 5,
       "title": "Recipient Org",
+      "description":"Details of the recipient of this grant or implementer of this activity.",
       "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","postalCode","country","description","url"]      
     },
     "beneficiaryLocation": {
@@ -559,6 +562,7 @@
       "description": "-",
       "weight": 6.01,
       "title": "Beneficiary Location",
+      "description":"Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.",
       "rollUp": ["name","countryCode","point","gazeteerEntry"]
     },
     "fundingOrganization": {
