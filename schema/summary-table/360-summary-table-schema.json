@@ -37,21 +37,21 @@
    "name": "currency"
   }, 
   {
-   "title": "Planed Dates:Start Date", 
+   "title": "Planned Dates:Start Date", 
    "type": "datetime", 
    "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThis field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ", 
    "name": "plannedDates[]/startDate", 
    "format": ""
   }, 
   {
-   "title": "Planed Dates:End Date", 
+   "title": "Planned Dates:End Date", 
    "type": "datetime", 
    "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents or activities lasting more than one day should have either a duration (in days) or an end date.", 
    "name": "plannedDates[]/endDate", 
    "format": ""
   }, 
   {
-   "title": "Planed Dates:Duration (months)", 
+   "title": "Planned Dates:Duration (months)", 
    "type": "string", 
    "description": "Events or activities lasting more than one day should have either a duration (in days) or an end date.", 
    "name": "plannedDates[]/duration", 
@@ -76,6 +76,13 @@
    "type": "number", 
    "description": "Total amount disbursed (paid) to this grantee when this record was last updated. DO NOT include any currency symbols such as \u00a3 or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.", 
    "name": "amountDisbursed", 
+   "format": ""
+  }, 
+  {
+   "title": "Award Date:Start Date", 
+   "type": "datetime", 
+   "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThis field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ", 
+   "name": "awardDate[]/startDate", 
    "format": ""
   }, 
   {
@@ -125,20 +132,6 @@
    "type": "string", 
    "description": "Postal code (please try and provide a post code whenever possible)", 
    "name": "recipientOrganization[]/postalCode", 
-   "format": ""
-  }, 
-  {
-   "title": "Recipient Org:Description", 
-   "type": "string", 
-   "description": "A short description of this organisation and its area of work", 
-   "name": "recipientOrganization[]/description", 
-   "format": ""
-  }, 
-  {
-   "title": "Recipient Org:Web Address", 
-   "type": "string", 
-   "description": "A web address for the Organisation", 
-   "name": "recipientOrganization[]/url", 
    "format": ""
   }, 
   {
