@@ -1,4 +1,8 @@
 {
+  "id": "https://github.com/ThreeSixtyGiving/standard/blob/master/schema/360-giving-schema.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Three Sixty Giving Data Standard Schema",
+  "type":"object",
   "definitions": {
       "currency": {
         "type": "string",
@@ -150,7 +154,8 @@
           "type": "array",
           "description": "A gazeteer entry to identify this location.",
           "weight": 5,
-          "title": "Gazeteer Entry"
+          "title": "Gazeteer Entry",
+          "rollUp": ["vocabulary","code"]
         },
         "dateModified": {
           "format": "date-time",
@@ -332,9 +337,9 @@
         },
         "addressRegion": {
           "type": "string",
-          "description": "County or state.",
+          "description": "County",
           "weight": 3.3,
-          "title": "County/State"
+          "title": "County"
         },
         "addressCountry": {
           "type": "string",
@@ -407,6 +412,7 @@
     "Event": {
       "definitions": {},
       "type": "object",
+      "title":"An event in the life of the grant activity",
       "properties": {
         "title": {
             "type": "string",
@@ -439,15 +445,6 @@
           "description": "-",
           "weight": 9,
           "title": "Description"
-        },
-        "relatedDocument": {
-          "items": {
-            "$ref": "#/definitions/Documents"
-          },
-          "type": "array",
-          "description": "-",
-          "weight": 5,
-          "title": "Related Document"
         },
          "dateModified": {
               "format": "date-time",
@@ -515,6 +512,16 @@
          "weight": 5.04,
          "title": "Amount Disbursed"
     },
+    "awardDate": {
+      "items": {
+        "$ref": "#/definitions/Event"
+      },
+      "type": "array",
+      "description": "-",
+      "weight": 5.041,
+      "title": "Award Date",
+      "rollUp": ["startDate"]      
+    },
     "plannedDates": {
       "items": {
         "$ref": "#/definitions/Event"
@@ -522,7 +529,7 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Planed Dates",
+      "title": "Planned Dates",
       "rollUp": ["startDate","endDate","duration"]      
     },
     "actualDates": {
@@ -532,7 +539,7 @@
       "type": "array",
       "description": "-",
       "weight": 5.041,
-      "title": "Actual dates"
+      "title": "Actual Dates"
     },
     "recipientOrganization": {
       "items": {
@@ -542,7 +549,7 @@
       "description": "-",
       "weight": 5,
       "title": "Recipient Org",
-      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","postalCode","description","url"]      
+      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","postalCode","country","description","url"]      
     },
     "beneficiaryLocation": {
       "items": {
@@ -552,7 +559,7 @@
       "description": "-",
       "weight": 6.01,
       "title": "Beneficiary Location",
-      "rollUp": ["name","countryCode","point"]
+      "rollUp": ["name","countryCode","point","gazeteerEntry"]
     },
     "fundingOrganization": {
       "items": {
