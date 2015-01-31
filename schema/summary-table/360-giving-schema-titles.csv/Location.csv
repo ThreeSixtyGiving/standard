@@ -1,1 +1,1 @@
-ocid,Activity/id:location,Activity/recipientOrganization[]/id:location,Activity/id:beneficiaryLocation,Activity/fundingOrganization[]/id:location,Location,Beneficiary Location
+ocid,Activity/id:location,Activity/recipientOrganization[]/id:location,Activity/id:beneficiaryLocation,Activity/fundingOrganization[]/id:location,Identifier,Name,Country Code,Latitude,Longitude,Description,Geographic Code,Geographic Code Type,Last modified

@@ -149,13 +149,6 @@
    "format": ""
   }, 
   {
-   "title": "Beneficiary Location:Lat-Long", 
-   "type": "string", 
-   "description": "Enter a latitude and longitude, separated by a comma.", 
-   "name": "beneficiaryLocation[]/point", 
-   "format": ""
-  }, 
-  {
    "title": "Funding Org:Identifier", 
    "type": "string", 
    "description": "An organisation identifier, following the Organisation ID standard.", 

@@ -1,0 +1,64 @@
+Code,Name,Description,Documentation (URL),Values (URL),ONS Code
+OA,Output Areas,An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/E00,http://statistics.data.gov.uk/id/statistical-geography/E00000001
+LSOA,"Super Output Areas, Lower Layer",An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/E01,http://statistics.data.gov.uk/id/statistical-geography/E01000001
+MSOA,"Super Output Areas, Middle Layer",An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/E02,http://statistics.data.gov.uk/id/statistical-geography/E02000001
+PAR,Civil Parishes,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E04,http://statistics.data.gov.uk/id/statistical-geography/E04000001
+WD,Electoral Wards/Divisions,An ONS Administrative/Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/E05,http://statistics.data.gov.uk/id/statistical-geography/E05000026
+UA,Unitary Authorities,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E06,http://statistics.data.gov.uk/id/statistical-geography/E06000001
+NMD,Non-metropolitan Districts,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E07,http://statistics.data.gov.uk/id/statistical-geography/E07000004
+MD,Metropolitan Districts,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E08,http://statistics.data.gov.uk/id/statistical-geography/E08000001
+LONB,London Boroughs,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E09,http://statistics.data.gov.uk/id/statistical-geography/E09000001
+CTY,Counties,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E10,http://statistics.data.gov.uk/id/statistical-geography/E10000002
+RGN/GOR,Regions (from 1 April 2011 - formerly Government Office Regions),An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/E12,http://statistics.data.gov.uk/id/statistical-geography/E12000001
+WPC,Westminster Parliamentary Constituencies,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/E14,http://statistics.data.gov.uk/id/statistical-geography/E14000530
+EER,European Electoral Regions,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/E15,http://statistics.data.gov.uk/id/statistical-geography/E15000001
+CANNET,Cancer Networks,An ONS Health codelist,http://statistics.data.gov.uk/id/statistical-entity/E21,http://statistics.data.gov.uk/id/statistical-geography/E21000001
+CSP,Community Safety Partnerships,An ONS Crime and Justice codelist,http://statistics.data.gov.uk/id/statistical-entity/E22,http://statistics.data.gov.uk/id/statistical-geography/E22000001
+PFA,Police Force Areas,An ONS Crime and Justice codelist,http://statistics.data.gov.uk/id/statistical-entity/E23,http://statistics.data.gov.uk/id/statistical-geography/E23000001
+PUA,Primary Urban Areas,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/E25,http://statistics.data.gov.uk/id/statistical-geography/E25000001
+NPARK,National Parks,An ONS Environment codelist,http://statistics.data.gov.uk/id/statistical-entity/E26,http://statistics.data.gov.uk/id/statistical-geography/E26000001
+REGD,Registration Districts,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/E28,http://statistics.data.gov.uk/id/statistical-geography/E28000001
+REGSD,Registration Sub-district,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/E29,http://statistics.data.gov.uk/id/statistical-geography/E29000001
+TTWA,Travel to Work Areas 2007,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/E30,http://statistics.data.gov.uk/id/statistical-geography/E30000001
+FRA,Fire and Rescue Authorities,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/E31,http://statistics.data.gov.uk/id/statistical-geography/E31000001
+LAC,London Assembly Constituencies,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/E32,http://statistics.data.gov.uk/id/statistical-geography/E32000001
+WZ,Workplace Zones,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/E33,http://statistics.data.gov.uk/id/statistical-geography/E33000001
+CMWD,Census Merged Wards ,An ONS Census codelist,http://statistics.data.gov.uk/id/statistical-entity/E36,http://statistics.data.gov.uk/id/statistical-geography/E36000001
+LEP,Local Enterprise Partnerships,An ONS Economic codelist,http://statistics.data.gov.uk/id/statistical-entity/E37,http://statistics.data.gov.uk/id/statistical-geography/E37000001
+CCG,Clinical Commissioning Groups,An ONS Health codelist,http://statistics.data.gov.uk/id/statistical-entity/E38,http://statistics.data.gov.uk/id/statistical-geography/E38000001
+NHSAT,NHS Commissioning Area Teams,An ONS Health codelist,http://statistics.data.gov.uk/id/statistical-entity/E39,http://statistics.data.gov.uk/id/statistical-geography/E39000001
+CMLAD,Census Merged Local Authority Districts,An ONS Census codelist,http://statistics.data.gov.uk/id/statistical-entity/E41,http://statistics.data.gov.uk/id/statistical-geography/E41000001
+CMCTY,Census Merged Counties,An ONS Census codelist,http://statistics.data.gov.uk/id/statistical-entity/E42,http://statistics.data.gov.uk/id/statistical-geography/E42000001
+SA,Small Areas,An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/N00,http://statistics.data.gov.uk/id/statistical-geography/N00000001
+WPC,Westminster Parliamentary Constituencies,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/N06,http://statistics.data.gov.uk/id/statistical-geography/N06000001
+OA,Output Areas,An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/S00,http://statistics.data.gov.uk/id/statistical-geography/S00000001
+DZ,Data Zones,An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/S01,http://statistics.data.gov.uk/id/statistical-geography/S01000001
+IG,Intermediate Geography,An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/S02,http://statistics.data.gov.uk/id/statistical-geography/S02000001
+CHP,Community Health Partnerships,An ONS Health codelist,http://statistics.data.gov.uk/id/statistical-entity/S03,http://statistics.data.gov.uk/id/statistical-geography/S03000001
+ROA - CPP,Regeneration Outcome Agreement Areas - Community Planning Partnerships,An ONS Regeneration codelist,http://statistics.data.gov.uk/id/statistical-entity/S05,http://statistics.data.gov.uk/id/statistical-geography/S05000001
+ROA - Local,Regeneration Outcome Agreement Areas - Local Areas,An ONS Regeneration codelist,http://statistics.data.gov.uk/id/statistical-entity/S06,http://statistics.data.gov.uk/id/statistical-geography/S06000001
+HB,Health Board areas,An ONS Health codelist,http://statistics.data.gov.uk/id/statistical-entity/S08,http://statistics.data.gov.uk/id/statistical-geography/S08000001
+CA,Council Areas,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/S12,http://statistics.data.gov.uk/id/statistical-geography/S12000005
+WD,Electoral Wards,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/S13,http://statistics.data.gov.uk/id/statistical-geography/S13002476
+WPC,Westminster Parliamentary Constituencies,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/S14,http://statistics.data.gov.uk/id/statistical-geography/S14000001
+SPC,Scottish Parliamentary Constituencies ,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/S16,http://statistics.data.gov.uk/id/statistical-geography/S16000074
+TTWA,Travel to Work Areas 2007,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/S22,http://statistics.data.gov.uk/id/statistical-geography/S22000001
+OA,Output Areas,An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/W00,http://statistics.data.gov.uk/id/statistical-geography/W00000001
+LSOA,"Super Output Areas, Lower Layer",An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/W01,http://statistics.data.gov.uk/id/statistical-geography/W01000001
+MSOA,"Super Output Areas, Middle Layer",An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/W02,http://statistics.data.gov.uk/id/statistical-geography/W02000001
+USOA,"Super Output Areas, Upper Layer",An ONS Statistical Building Block codelist,http://statistics.data.gov.uk/id/statistical-entity/W03,http://statistics.data.gov.uk/id/statistical-geography/W03000001
+COM,Communities,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/W04,http://statistics.data.gov.uk/id/statistical-geography/W04000001
+WD,Electoral Divisions,An ONS Administrative/Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/W05,http://statistics.data.gov.uk/id/statistical-geography/W05000041
+UA,Unitary Authorities,An ONS Administrative codelist,http://statistics.data.gov.uk/id/statistical-entity/W06,http://statistics.data.gov.uk/id/statistical-geography/W06000001
+WPC,Westminster Parliamentary Constituencies,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/W07,http://statistics.data.gov.uk/id/statistical-geography/W07000041
+NAWC,National Assembly for Wales Constituencies,An ONS Electoral codelist,http://statistics.data.gov.uk/id/statistical-entity/W09,http://statistics.data.gov.uk/id/statistical-geography/W09000001
+CDRP,Community Safety Partnerships,An ONS Crime and Justice codelist,http://statistics.data.gov.uk/id/statistical-entity/W14,http://statistics.data.gov.uk/id/statistical-geography/W14000001
+REGD,Registration Districts,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/W20,http://statistics.data.gov.uk/id/statistical-geography/W20000001
+REGSD,Registration Sub-district,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/W21,http://statistics.data.gov.uk/id/statistical-geography/W21000001
+TTWA,Travel to Work Areas 2007,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/W22,http://statistics.data.gov.uk/id/statistical-geography/W22000001
+AgricSmall,Agricultural Small Areas,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/W30,http://statistics.data.gov.uk/id/statistical-geography/W30000001
+CFA,Communities First Areas,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/W33,http://statistics.data.gov.uk/id/statistical-geography/W33000154
+WZ,Workplace Zones,An ONS Other codelist,http://statistics.data.gov.uk/id/statistical-entity/W35,http://statistics.data.gov.uk/id/statistical-geography/W35000001
+CMWD,Census Merged Wards,An ONS Census codelist,http://statistics.data.gov.uk/id/statistical-entity/W39,http://statistics.data.gov.uk/id/statistical-geography/W39000001
+CMLAD,Census Merged Local Authority Districts,An ONS Census codelist,http://statistics.data.gov.uk/id/statistical-entity/W40,http://statistics.data.gov.uk/id/statistical-geography/W40000001
+CMCTY,Census Merged Counties,An ONS Census codelist,http://statistics.data.gov.uk/id/statistical-entity/W41,http://statistics.data.gov.uk/id/statistical-geography/W41000001

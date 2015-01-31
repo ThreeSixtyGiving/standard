@@ -135,11 +135,17 @@
           "weight": 2,
           "title": "Country Code"
         },
-        "point": {
+        "latitude": {
           "type": ["string","null"],
-          "description": "Enter a latitude and longitude, separated by a comma.",
+          "description": "The latitude of a point location",
           "weight": 4.001,
-          "title": "Lat-Long"
+          "title": "Latitude"
+        },
+        "longitude": {
+          "type": ["string","null"],
+          "description": "The longitude of a point location",
+          "weight": 4.002,
+          "title": "Longitude"
         },
         "description": {
           "type": ["string","null"],
@@ -147,15 +153,17 @@
           "weight": 9,
           "title": "Description"
         },
-        "gazeteerEntry": {
-          "items": {
-            "$ref": "#/definitions/Gazeteer"
-          },
-          "type": "array",
-          "description": "A gazeteer entry to identify this location.",
-          "weight": 5,
-          "title": "Gazeteer Entry",
-          "rollUp": ["vocabulary","code"]
+        "geoCode": {
+          "type": ["string","null"],
+          "description":"A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.",
+          "weight":5,
+          "title":"Geographic Code"
+        },
+        "geoCodeType": {
+          "type": ["string","null"],
+          "description":"The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).",
+          "weight":5.01,
+          "title":"Geographic Code Type"
         },
         "dateModified": {
           "format": "date-time",
@@ -209,50 +217,7 @@
         }
       }
     },
-      "Gazeteer": {
-          "type": "object",
-          "properties": {
-            "vocabulary": {
-              "type": "string",
-              "description": "An identifier of the gazeteer in use.",
-              "weight": 8,
-              "title": "Vocabulary"
-            },
-            "code": {
-              "type": "string",
-              "description": "A codelist value from the chosen gazeteer..",
-              "weight": 9,
-              "title": "Code"
-            },
-            "title": {
-              "type": ["string","null"],
-              "description": "The title of this gazeteer entry.",
-              "weight": 1.05,
-              "title": "Title"
-            },
-            "description": {
-              "type": ["string","null"],
-              "description": "A description of this gazeteer entry.",
-              "weight": 9,
-              "title": "Description"
-            },    
-            "url": {
-              "type": ["string","null"],
-              "format": "uri",
-              "description": "A web link to more details for this gazeteer entry.",
-              "weight": 9,
-              "title": "URL"
-            },
-            "dateModified": {
-              "format": "date-time",
-              "type": "string",
-              "description": "-",
-              "weight": 25,
-              "title": "Last modified"
-            }
-          }
-        },
-        "GrantProgramme": {
+    "GrantProgramme": {
               "type": "object",
               "properties": {
                "code": {
