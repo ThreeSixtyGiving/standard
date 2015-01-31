@@ -149,6 +149,34 @@
    "format": ""
   }, 
   {
+   "title": "Beneficiary Location:Latitude", 
+   "type": "string", 
+   "description": "The latitude of a point location", 
+   "name": "beneficiaryLocation[]/latitude", 
+   "format": ""
+  }, 
+  {
+   "title": "Beneficiary Location:Longitude", 
+   "type": "string", 
+   "description": "The longitude of a point location", 
+   "name": "beneficiaryLocation[]/longitude", 
+   "format": ""
+  }, 
+  {
+   "title": "Beneficiary Location:Geographic Code", 
+   "type": "string", 
+   "description": "A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.", 
+   "name": "beneficiaryLocation[]/geoCode", 
+   "format": ""
+  }, 
+  {
+   "title": "Beneficiary Location:Geographic Code Type", 
+   "type": "string", 
+   "description": "The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).", 
+   "name": "beneficiaryLocation[]/geoCodeType", 
+   "format": ""
+  }, 
+  {
    "title": "Funding Org:Identifier", 
    "type": "string", 
    "description": "An organisation identifier, following the Organisation ID standard.", 

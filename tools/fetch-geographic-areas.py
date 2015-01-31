@@ -23,7 +23,7 @@ def fetch_items(url):
 rows = fetch_items('http://statistics.data.gov.uk/doc/statistical-entity/.json?_pageSize=50&_view=full&_page=1')
 with open('../codelists/geoCodeType-temp.csv', 'w') as csvfile:
     writer = csv.writer(csvfile, delimiter=',',quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    writer.writerow(['Code','Name','Description','Documentation (URL)','Values (URL)','ONS Code'])   
+    writer.writerow(['Code','Name','Description','Documentation (URL)','Values (URL)'])   
     for row in rows:
         writer.writerow(row)
 

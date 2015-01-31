@@ -528,7 +528,7 @@
       "weight": 6.01,
       "title": "Beneficiary Location",
       "description":"Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.",
-      "rollUp": ["name","countryCode","point","gazeteerEntry"]
+      "rollUp": ["name","countryCode","latitude","longitude","geoCode","geoCodeType"]
     },
     "fundingOrganization": {
       "items": {
