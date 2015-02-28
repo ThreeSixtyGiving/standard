@@ -40,20 +40,36 @@ def get_field_info(field_def):
 for name, defs in data['properties'].iteritems():
     field = {}
     
+    if name in data['required']:
+        required = True
+    else:
+        required = False
+    
     if 'array' in defs['type'] or 'object' in defs['type']:
         try: # If we have rollUp properties, then include these in the summary table 
             for item in defs['rollUp']:
                 subfield = {}
                 subdefs = defs['items']['properties'][item]
+                
+                try:
+                    if item in defs['items'].get('required',False):
+                        sub_required = True
+                    else:
+                        sub_required = False
+                except Exception as a:
+                    sub_required = False             
+                
                 field_info = get_field_info(subdefs)
-                subfield.update({"name":name + "[]/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"]})
+
+                subfield.update({"name":name + "[]/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":sub_required})
                 table_schema.append(subfield)
+
         except Exception as a:
             if defs['items'] == 'string':
-                field.update({"name":name,'title':defs['title'],'description':defs.get('description','-'),'type':'array','format':'string'})
+                field.update({"name":name,'title':defs['title'],'description':defs.get('description','-'),'type':'array','format':'string',"required":required})
     else:
         field_info = get_field_info(defs)
-        field.update({'name':name,'title':defs['title'],'description':defs.get('description','-'),"type":field_info["type"],"format":field_info["format"]})
+        field.update({'name':name,'title':defs['title'],'description':defs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":required})
         if field_info['validation']:
             field.update({"allowed_values":field_info['validation']})
     

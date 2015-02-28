@@ -257,10 +257,11 @@
     
     "Organization": {
       "type": "object",
+      "required":["id","name"],
       "properties": {
         "id": {
           "type": "string",
-          "description": "An organisation identifier, following the Organisation ID standard.",
+          "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/docs/#organisation-identifiers) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
           "weight": 0.001,
           "title": "Identifier"
         },
@@ -269,6 +270,11 @@
           "description": "Organisation name",
           "weight": 1.1,
           "title": "Name"
+        },
+        "department": {
+            "type":"string",
+            "description":"The department or sub-unit of this organisation making or receiving the grant.",
+            "title":"Department"
         },
         "contactName": {
           "type": "string",
@@ -422,43 +428,29 @@
       }
     }
   },
+  "required":["id","title","description","currency","amountAwarded","awardDate"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Activity identifier (using the 360Giving identifier format)",
+      "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://docs.threesixtygiving.org/docs/#grant-identifiers) for details.",
       "weight": 0.001,
       "title": "Identifier"
     },
     "title": {
       "type": "string",
-      "description": "A title for this grant activity",
+      "description": "A title for this grant activity. This should be under 140 characters long.",
       "weight": 1.05,
       "title": "Title"
     },
     "description": {
       "type": "string",
-      "description": "A short description of this grant activity",
+      "description": "A short description of this grant activity.",
       "weight": 9,
       "title": "Description"
     },
-    "url": {
-      "type": "string",
-      "format": "uri",
-      "description": "A url for further information on this grant. This could point to the website of the recipient organisation, or might link to further details on the funder website.",
-      "weight": 11.01,
-      "title": "Web Address"
-    },
     "currency": {
-      "$ref": "#/definitions/currency"
-    },
-    "plannedDates": {
-      "items": {
-        "$ref": "#/definitions/Event"
-      },
-      "type": "array",
-      "description": "-",
-      "weight": 5.55,
-      "title": "Planned Dates"
+      "$ref": "#/definitions/currency",
+      "description":"The currency used in grant amounts and transactions using an ISO 3-Digit code. Use GBP for Pounds Sterling."
     },
     "amountAppliedFor": {
       "type": "number",
@@ -479,24 +471,28 @@
          "title": "Amount Disbursed"
     },
     "awardDate": {
-      "items": {
-        "$ref": "#/definitions/Event"
-      },
-      "type": "array",
-      "description": "-",
-      "weight": 5.041,
+      "format": "date-time",
+      "type": "string",
+      "description": "When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.",
+      "weight": 4.3,
       "title": "Award Date",
-      "rollUp": ["startDate"]      
+      "description":"When was this grant awarded."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "A url (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.",
+      "weight": 11.01,
+      "title": "URL"
     },
     "plannedDates": {
       "items": {
         "$ref": "#/definitions/Event"
       },
       "type": "array",
-      "description": "-",
       "weight": 5.041,
       "title": "Planned Dates",
-      "description":"When did the applicant / implementing organisation originally intend this activity to take place.",
+      "description":"When did the applicant / implementing organisation originally intend this activity to take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.",
       "rollUp": ["startDate","endDate","duration"]      
     },
     "actualDates": {
@@ -504,7 +500,7 @@
         "$ref": "#/definitions/Event"
       },
       "type": "array",
-      "description": "-",
+      "description": "When did this grant activity actually take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.",
       "weight": 5.041,
       "title": "Actual Dates"
     },
@@ -513,10 +509,9 @@
         "$ref": "#/definitions/Organization"
       },
       "type": "array",
-      "description": "-",
       "weight": 5,
       "title": "Recipient Org",
-      "description":"Details of the recipient of this grant or implementer of this activity.",
+      "description":"Details of the recipient of this grant.",
       "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","postalCode","country","description","url"]      
     },
     "beneficiaryLocation": {
@@ -524,7 +519,7 @@
         "$ref": "#/definitions/Location"
       },
       "type": "array",
-      "description": "-",
+      "description": "Beneficiary locations",
       "weight": 6.01,
       "title": "Beneficiary Location",
       "description":"Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.",
@@ -538,14 +533,7 @@
       "description": "Details of the funder",
       "weight": 4,
       "title": "Funding Org",
-      "rollUp": ["id","name"]
-    },
-    "fromOpenCall": {
-      "type": "string",
-      "enum": ["Yes","No"],
-      "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'",
-      "weight": 12,
-      "title": "From an open call?"
+      "rollUp": ["id","name","department"]
     },
     "grantProgramme": {
       "items": {
@@ -556,6 +544,13 @@
       "weight": 5,
       "title": "Grant Programme",
       "rollUp": ["code","title","url"]
+    },
+    "fromOpenCall": {
+      "type": "string",
+      "enum": ["Yes","No"],
+      "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'",
+      "weight": 12,
+      "title": "From an open call?"
     },
     "fundingType": {
       "items": {
