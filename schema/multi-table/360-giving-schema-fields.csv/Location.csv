@@ -1,1 +1,1 @@
-ocid,Activity/id:location,Activity/recipientOrganization[]/id:location,Activity/id:beneficiaryLocation,Activity/fundingOrganization[]/id:location,id,name,countryCode,latitude,longitude,description,geoCode,geoCodeType,dateModified
+Activity/id:location,Activity/recipientOrganization[]/id:location,Activity/id:beneficiaryLocation,Activity/fundingOrganization[]/id:location,id,name,countryCode,latitude,longitude,description,geoCode,geoCodeType,dateModified

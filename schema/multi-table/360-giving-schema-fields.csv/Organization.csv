@@ -1,1 +1,1 @@
-ocid,Activity/id:recipientOrganization,Activity/id:fundingOrganization,id,name,department,contactName,charityNumber,companyNumber,streetAddress,addressLocality,addressRegion,addressCountry,postalCode,telephone,alternateName,email,description,organisationType,url,dateModified
+Activity/id:recipientOrganization,Activity/id:fundingOrganization,id,name,department,contactName,charityNumber,companyNumber,streetAddress,addressLocality,addressRegion,addressCountry,postalCode,telephone,alternateName,email,description,organisationType,url,dateModified

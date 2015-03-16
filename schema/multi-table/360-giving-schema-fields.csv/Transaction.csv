@@ -1,1 +1,1 @@
-ocid,Activity/id:applicationTransaction,Activity/id:commitmentTransaction,Activity/id:disbursementTransaction,id,transactionDate,currency,value:integer,valueDate,description,provider,recipient,dateModified
+Activity/id:applicationTransaction,Activity/id:commitmentTransaction,Activity/id:disbursementTransaction,id,transactionDate,currency,value:integer,valueDate,description,provider,recipient,dateModified
