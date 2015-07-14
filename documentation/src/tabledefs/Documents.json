@@ -1,0 +1,52 @@
+{
+ "fields": [
+  {
+   "description": "An identifier for this document.", 
+   "format": "", 
+   "title": "Identifier", 
+   "required": true, 
+   "type": "string", 
+   "name": "id"
+  }, 
+  {
+   "description": "The document title", 
+   "format": "", 
+   "title": "Title", 
+   "required": true, 
+   "type": "string", 
+   "name": "title"
+  }, 
+  {
+   "description": "The URL of the document.", 
+   "format": "", 
+   "title": "Web Address", 
+   "required": false, 
+   "type": "string", 
+   "name": "url"
+  }, 
+  {
+   "description": "A description of the document", 
+   "format": "", 
+   "title": "Description", 
+   "required": true, 
+   "type": "string", 
+   "name": "description"
+  }, 
+  {
+   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.", 
+   "format": "", 
+   "title": "Document Type", 
+   "required": false, 
+   "type": "string", 
+   "name": "documentType"
+  }, 
+  {
+   "description": "What was this information last modified?", 
+   "format": "", 
+   "title": "Last modified", 
+   "required": false, 
+   "type": "datetime", 
+   "name": "dateModified"
+  }
+ ]
+}

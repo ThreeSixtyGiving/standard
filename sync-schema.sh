@@ -9,3 +9,7 @@ cd ../summary-table
 rm -rf 360-giving-schema-titles.csv
 flatten-tool create-template --root-id='' --output-format all --output-name 360-giving-schema-titles --schema ../360-giving-schema.json --main-sheet-name=grants --rollup --use-titles
 mv 360-giving-schema-titles 360-giving-schema-titles.csv
+
+cd ../../tools/
+python3 generate_reference_tables.py
+python3 build_docs.py

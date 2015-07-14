@@ -1,0 +1,7 @@
+title,name,description,type,format,allowed_values,required
+Vocabulary,vocabulary,A vocabulary used for this classification.,string,,,False
+Code,code,A codelist value in the chosen vocabulary.,string,,,False
+Title,title,The title of this classification.,string,,,True
+Description,description,A description of this classification.,string,,,True
+URL,url,A web link to more details of this classification.,string,,,False
+Last modified,dateModified,-,datetime,,,False

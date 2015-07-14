@@ -1,0 +1,52 @@
+{
+ "fields": [
+  {
+   "description": "A vocabulary used for this classification.", 
+   "format": "", 
+   "title": "Vocabulary", 
+   "required": false, 
+   "type": "string", 
+   "name": "vocabulary"
+  }, 
+  {
+   "description": "A codelist value in the chosen vocabulary.", 
+   "format": "", 
+   "title": "Code", 
+   "required": false, 
+   "type": "string", 
+   "name": "code"
+  }, 
+  {
+   "description": "The title of this classification.", 
+   "format": "", 
+   "title": "Title", 
+   "required": true, 
+   "type": "string", 
+   "name": "title"
+  }, 
+  {
+   "description": "A description of this classification.", 
+   "format": "", 
+   "title": "Description", 
+   "required": true, 
+   "type": "string", 
+   "name": "description"
+  }, 
+  {
+   "description": "A web link to more details of this classification.", 
+   "format": "", 
+   "title": "URL", 
+   "required": false, 
+   "type": "string", 
+   "name": "url"
+  }, 
+  {
+   "description": "-", 
+   "format": "", 
+   "title": "Last modified", 
+   "required": false, 
+   "type": "datetime", 
+   "name": "dateModified"
+  }
+ ]
+}
