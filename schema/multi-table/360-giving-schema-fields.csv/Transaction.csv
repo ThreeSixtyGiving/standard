@@ -1,1 +1,1 @@
-Activity/id:applicationTransaction,Activity/id:commitmentTransaction,Activity/id:disbursementTransaction,id,transactionDate,currency,value:integer,valueDate,description,provider,recipient,dateModified
+grants/id:applicationTransaction,grants/id:commitmentTransaction,grants/id:disbursementTransaction,id,transactionDate,currency,value:integer,valueDate,description,provider,recipient,dateModified
