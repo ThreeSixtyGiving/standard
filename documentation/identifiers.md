@@ -1,5 +1,7 @@
 <div id="toc"></div>
 
+# Why identifiers matter
+
 Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
 
 Whilst a human being may be good at recognising that:
@@ -24,7 +26,7 @@ That's why 360 Giving requires you to give identifiers to:
 
 These go in ```Identifier``` columns alongside human-readable text descriptions of the grant, the name of an organisation, or the title of a classification.
 
-## Creating identifiers
+# Creating identifiers
 
 Often you will already have identifiers in your own records. For example, you might assign a number to each application or grant, or you might record a reference ID for a funding recipient.
 
@@ -38,7 +40,7 @@ For your grants, and any <span class="tooltip" title="For example, you might mai
 
 For organisation identifiers, follow the [organisation identifier](#organisation-identifier) guidance below which is designed to support links to be made between 360 Giving, and other datasets about an organisation.
 
-## Using your identifiers
+# Using your identifiers
 
 We use simple text identifiers in 360 Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' (or hashtag) when uploading photos and videos to social media sites. 
 
@@ -52,7 +54,7 @@ To register a prefix see the [publisher guidance](/publish/).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
 
-# Grant Identifier
+## Grant Identifier
 
 To create your grant identifiers:
 
@@ -71,7 +73,7 @@ If your internal identifiers include spaces or special characters, we recommend 
 >360G-xyztrust-123_ABC
 
 
-# Organisation Identifier
+## Organisation Identifier
 
 There are many different kinds of grant recipient, including:
 
@@ -98,7 +100,7 @@ This can be summarised through the following process. As soon as a step gives yo
 Sometimes you may have recorded both the company number, and charity number, of an organisation in your data. Because having both of these is important, 360 Giving also includes two extra separate fields for ```Company Number``` and ```Charity Number```. If you have these details, you should fill them in, in addition to providing the unique organisation identifier using the method above. 
 
 
-# Codes
+## Codes
 
 Contact support for details of prefixes to use when publishing classification codes for your grants.
 

@@ -172,6 +172,27 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Last modified|When information about this transaction was last updated.|datetime|False|
 
 
+### Conformance
+
+In order to conform with the spreadsheet standard:
+
+You must:
+
+* **Read the column definitions carefully and follow the format they request** - for example, formatting identifiers and dates according to the standard. Full reference information is provided below.
+* **Provide an identifier** for each grant
+* **Update the last modified date** whenever the status of a grant changes
+
+You can:
+
+* **Remove or hide non-required columns that you are not using** - although make sure you check any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
+* **Re-order the columns** so that information is arranged in the way you want
+* **Add extra columns** to include information you want to share, but that is not covered by the standard. 
+
+You must not:
+
+* **Add extra rows at the top of the table**
+* **Change the field names provided by the standard**
+
 ## JSON data model
 
 The 360 Giving standard is defined by a modified [JSON Schema](http://json-schema.org/). This details the entities that can be described using the standard, and the properties it recognises. 
@@ -199,31 +220,44 @@ The field names are important for computers reading the data, and even if other 
 
 A mapping between column titles and field names for the Summary Table is given below:
 
-*****************
-      ToDo: COMING SOON 
-*****************
+|Title|Name|Type|
+|----|----|----|
+|Identifier|id|string|
+|Title|title|string|
+|Description|description|string|
+|Currency|currency|string|
+|Amount Applied For|amountAppliedFor|number|
+|Amount Awarded|amountAwarded|number|
+|Amount Disbursed|amountDisbursed|number|
+|Award Date|awardDate|datetime|
+|URL|url|string|
+|Planned Dates:Start Date|plannedDates[]/startDate|datetime|
+|Planned Dates:End Date|plannedDates[]/endDate|datetime|
+|Planned Dates:Duration (months)|plannedDates[]/duration|string|
+|Recipient Org:Identifier|recipientOrganization[]/id|string|
+|Recipient Org:Name|recipientOrganization[]/name|string|
+|Recipient Org:Charity Number|recipientOrganization[]/charityNumber|string|
+|Recipient Org:Company Number|recipientOrganization[]/companyNumber|string|
+|Recipient Org:Street Address|recipientOrganization[]/streetAddress|string|
+|Recipient Org:City|recipientOrganization[]/addressLocality|string|
+|Recipient Org:Postal Code|recipientOrganization[]/postalCode|string|
+|Beneficiary Location:Name|beneficiaryLocation[]/name|string|
+|Beneficiary Location:Country Code|beneficiaryLocation[]/countryCode|string|
+|Beneficiary Location:Latitude|beneficiaryLocation[]/latitude|string|
+|Beneficiary Location:Longitude|beneficiaryLocation[]/longitude|string|
+|Beneficiary Location:Geographic Code|beneficiaryLocation[]/geoCode|string|
+|Beneficiary Location:Geographic Code Type|beneficiaryLocation[]/geoCodeType|string|
+|Funding Org:Identifier|fundingOrganization[]/id|string|
+|Funding Org:Name|fundingOrganization[]/name|string|
+|Funding Org:Department|fundingOrganization[]/department|string|
+|Grant Programme:Code|grantProgramme[]/code|string|
+|Grant Programme:Title|grantProgramme[]/title|string|
+|Grant Programme:URL|grantProgramme[]/url|string|
+|From an open call?|fromOpenCall|string|
+|Last modified|dateModified|datetime|
+|Data Source|dataSource|string|
 
 
-## Conformance
-
-In order to conform with the standard:
-
-You must:
-
-* **Read the column definitions carefully and follow the format they request** - for example, formatting identifiers and dates according to the standard. Full reference information is provided below.
-* **Provide an identifier** for each grant
-* **Update the last modified date** whenever the status of a grant changes
-
-You can:
-
-* **Remove or hide non-required columns that you are not using** - although make sure you check any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
-* **Re-order the columns** so that information is arranged in the way you want
-* **Add extra columns** to include information you want to share, but that is not covered by the standard. 
-
-You must not:
-
-* **Add extra rows at the top of the table**
-* **Change the field names provided by the standard**
 
 ## Extending the summary table
 The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/assets/standard/schema/360-giving-schema.json). The [360 Bridge](/tools/) tool uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Activity table if a particular use-case requires. 

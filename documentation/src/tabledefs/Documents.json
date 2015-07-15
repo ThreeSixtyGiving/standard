@@ -1,52 +1,52 @@
 {
  "fields": [
   {
+   "required": true,
+   "name": "id",
    "title": "Identifier",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "An identifier for this document.",
-   "name": "id"
+   "format": "",
+   "description": "An identifier for this document."
   },
   {
+   "required": true,
+   "name": "title",
    "title": "Title",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "The document title",
-   "name": "title"
+   "format": "",
+   "description": "The document title"
   },
   {
+   "required": false,
+   "name": "url",
    "title": "Web Address",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "The URL of the document.",
-   "name": "url"
+   "format": "",
+   "description": "The URL of the document."
   },
   {
-   "title": "Description",
    "required": true,
-   "format": "",
+   "name": "description",
+   "title": "Description",
    "type": "string",
-   "description": "A description of the document",
-   "name": "description"
+   "format": "",
+   "description": "A description of the document"
   },
   {
+   "required": false,
+   "name": "documentType",
    "title": "Document Type",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
-   "name": "documentType"
+   "format": "",
+   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types."
   },
   {
-   "title": "Last modified",
    "required": false,
-   "format": "",
+   "name": "dateModified",
+   "title": "Last modified",
    "type": "datetime",
-   "description": "What was this information last modified?",
-   "name": "dateModified"
+   "format": "",
+   "description": "What was this information last modified?"
   }
  ]
 }

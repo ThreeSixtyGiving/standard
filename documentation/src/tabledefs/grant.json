@@ -1,278 +1,278 @@
 {
  "fields": [
   {
+   "required": true,
+   "name": "id",
    "title": "Identifier",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://docs.threesixtygiving.org/identifiers/#grant-identifier) for details.",
-   "name": "id"
+   "format": "",
+   "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://docs.threesixtygiving.org/identifiers/#grant-identifier) for details."
   },
   {
+   "required": true,
+   "name": "title",
    "title": "Title",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "A title for this grant activity. This should be under 140 characters long.",
-   "name": "title"
+   "format": "",
+   "description": "A title for this grant activity. This should be under 140 characters long."
   },
   {
+   "required": true,
+   "name": "description",
    "title": "Description",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "A short description of this grant activity.",
-   "name": "description"
+   "format": "",
+   "description": "A short description of this grant activity."
   },
   {
-   "title": "Currency",
    "required": true,
-   "format": "",
+   "name": "currency",
+   "title": "Currency",
    "allowed_values": "GBP,USD,AED,AFN,ALL,AMD,ANG,AOA,ARS,AUD,AWG,AZN,BAM,BBD,BDT,BGN,BHD,BIF,BMD,BND,BOB,BRL,BSD,BTN,BWP,BYR,BZD,CAD,CDF,CHF,CLP,CNY,COP,CRC,CUC,CUP,CVE,CZK,DJF,DKK,DOP,DZD,EGP,ERN,ETB,EUR,FJD,FKP,GBP,GEL,GGP,GHS,GIP,GMD,GNF,GTQ,GYD,HKD,HNL,HRK,HTG,HUF,IDR,ILS,IMP,INR,IQD,IRR,ISK,JEP,JMD,JOD,JPY,KES,KGS,KHR,KMF,KPW,KRW,KWD,KYD,KZT,LAK,LBP,LKR,LRD,LSL,LTL,LVL,LYD,MAD,MDL,MGA,MKD,MMK,MNT,MOP,MRO,MUR,MVR,MWK,MXN,MYR,MZN,NAD,NGN,NIO,NOK,NPR,NZD,OMR,PAB,PEN,PGK,PHP,PKR,PLN,PYG,QAR,RON,RSD,RUB,RWF,SAR,SBD,SCR,SDG,SEK,SGD,SHP,SLL,SOS,SPL,SRD,STD,SVC,SYP,SZL,THB,TJS,TMT,TND,TOP,TRY,TTD,TVD,TWD,TZS,UAH,UGX,USD,UYU,UZS,VEF,VND,VUV,WST,XAF,XCD,XDR,XOF,XPF,YER,ZAR,ZMW,ZWD",
    "type": "string",
-   "description": "The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) ",
-   "name": "currency"
+   "format": "",
+   "description": "The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) "
   },
   {
+   "required": false,
+   "name": "amountAppliedFor",
    "title": "Amount Applied For",
-   "required": false,
-   "format": "",
    "type": "number",
-   "description": "Total amount applied for in numbers (do not include commas or currency symbols such as \u00a3). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.",
-   "name": "amountAppliedFor"
+   "format": "",
+   "description": "Total amount applied for in numbers (do not include commas or currency symbols such as \u00a3). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant."
   },
   {
+   "required": true,
+   "name": "amountAwarded",
    "title": "Amount Awarded",
-   "required": true,
-   "format": "",
    "type": "number",
-   "description": "Total amount awarded in numbers (do not include commas or currency symbols such as \u00a3). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.",
-   "name": "amountAwarded"
+   "format": "",
+   "description": "Total amount awarded in numbers (do not include commas or currency symbols such as \u00a3). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant."
   },
   {
+   "required": false,
+   "name": "amountDisbursed",
    "title": "Amount Disbursed",
-   "required": false,
-   "format": "",
    "type": "number",
-   "description": "Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as \u00a3)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.",
-   "name": "amountDisbursed"
+   "format": "",
+   "description": "Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as \u00a3)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant."
   },
   {
+   "required": true,
+   "name": "awardDate",
    "title": "Award Date",
-   "required": true,
-   "format": "",
    "type": "datetime",
-   "description": "When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.",
-   "name": "awardDate"
+   "format": "",
+   "description": "When was the decision to award this grant made. Dates should be in YYYY-MM-DD format."
   },
   {
+   "required": false,
+   "name": "url",
    "title": "URL",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.",
-   "name": "url"
+   "format": "",
+   "description": "A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website."
   },
   {
+   "required": false,
+   "name": "plannedDates[]/startDate",
    "title": "Planned Dates:Start Date",
-   "required": false,
-   "format": "",
    "type": "datetime",
-   "description": "When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
-   "name": "plannedDates[]/startDate"
+   "format": "",
+   "description": "When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted."
   },
   {
+   "required": false,
+   "name": "plannedDates[]/endDate",
    "title": "Planned Dates:End Date",
-   "required": false,
-   "format": "",
    "type": "datetime",
-   "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
-   "name": "plannedDates[]/endDate"
+   "format": "",
+   "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted."
   },
   {
+   "required": false,
+   "name": "plannedDates[]/duration",
    "title": "Planned Dates:Duration (months)",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date.",
-   "name": "plannedDates[]/duration"
+   "format": "",
+   "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date."
   },
   {
+   "required": true,
+   "name": "recipientOrganization[]/id",
    "title": "Recipient Org:Identifier",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
-   "name": "recipientOrganization[]/id"
+   "format": "",
+   "description": "Details of the recipient of this grant. A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems."
   },
   {
+   "required": true,
+   "name": "recipientOrganization[]/name",
    "title": "Recipient Org:Name",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. Organisation name",
-   "name": "recipientOrganization[]/name"
+   "format": "",
+   "description": "Details of the recipient of this grant. Organisation name"
   },
   {
+   "required": false,
+   "name": "recipientOrganization[]/charityNumber",
    "title": "Recipient Org:Charity Number",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. Registered charity number, if applicable.",
-   "name": "recipientOrganization[]/charityNumber"
+   "format": "",
+   "description": "Details of the recipient of this grant. Registered charity number, if applicable."
   },
   {
+   "required": false,
+   "name": "recipientOrganization[]/companyNumber",
    "title": "Recipient Org:Company Number",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. Registered UK company number, if applicable.",
-   "name": "recipientOrganization[]/companyNumber"
+   "format": "",
+   "description": "Details of the recipient of this grant. Registered UK company number, if applicable."
   },
   {
+   "required": false,
+   "name": "recipientOrganization[]/streetAddress",
    "title": "Recipient Org:Street Address",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. Building number and street name.",
-   "name": "recipientOrganization[]/streetAddress"
+   "format": "",
+   "description": "Details of the recipient of this grant. Building number and street name."
   },
   {
+   "required": false,
+   "name": "recipientOrganization[]/addressLocality",
    "title": "Recipient Org:City",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. City or town.",
-   "name": "recipientOrganization[]/addressLocality"
+   "format": "",
+   "description": "Details of the recipient of this grant. City or town."
   },
   {
+   "required": false,
+   "name": "recipientOrganization[]/postalCode",
    "title": "Recipient Org:Postal Code",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)",
-   "name": "recipientOrganization[]/postalCode"
+   "format": "",
+   "description": "Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)"
   },
   {
+   "required": false,
+   "name": "beneficiaryLocation[]/name",
    "title": "Beneficiary Location:Name",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A name for this location.",
-   "name": "beneficiaryLocation[]/name"
+   "format": "",
+   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A name for this location."
   },
   {
+   "required": false,
+   "name": "beneficiaryLocation[]/countryCode",
    "title": "Beneficiary Location:Country Code",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The ISO Country Code of the location of this activity.",
-   "name": "beneficiaryLocation[]/countryCode"
+   "format": "",
+   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The ISO Country Code of the location of this activity."
   },
   {
+   "required": false,
+   "name": "beneficiaryLocation[]/latitude",
    "title": "Beneficiary Location:Latitude",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The latitude of a point location",
-   "name": "beneficiaryLocation[]/latitude"
+   "format": "",
+   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The latitude of a point location"
   },
   {
+   "required": false,
+   "name": "beneficiaryLocation[]/longitude",
    "title": "Beneficiary Location:Longitude",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The longitude of a point location",
-   "name": "beneficiaryLocation[]/longitude"
+   "format": "",
+   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The longitude of a point location"
   },
   {
+   "required": false,
+   "name": "beneficiaryLocation[]/geoCode",
    "title": "Beneficiary Location:Geographic Code",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.",
-   "name": "beneficiaryLocation[]/geoCode"
+   "format": "",
+   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency."
   },
   {
+   "required": false,
+   "name": "beneficiaryLocation[]/geoCodeType",
    "title": "Beneficiary Location:Geographic Code Type",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).",
-   "name": "beneficiaryLocation[]/geoCodeType"
+   "format": "",
+   "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv)."
   },
   {
+   "required": true,
+   "name": "fundingOrganization[]/id",
    "title": "Funding Org:Identifier",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "Details of the funder A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
-   "name": "fundingOrganization[]/id"
+   "format": "",
+   "description": "Details of the funder A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems."
   },
   {
+   "required": true,
+   "name": "fundingOrganization[]/name",
    "title": "Funding Org:Name",
-   "required": true,
-   "format": "",
    "type": "string",
-   "description": "Details of the funder Organisation name",
-   "name": "fundingOrganization[]/name"
+   "format": "",
+   "description": "Details of the funder Organisation name"
   },
   {
+   "required": false,
+   "name": "fundingOrganization[]/department",
    "title": "Funding Org:Department",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "Details of the funder The department or sub-unit of this organisation making or receiving the grant.",
-   "name": "fundingOrganization[]/department"
+   "format": "",
+   "description": "Details of the funder The department or sub-unit of this organisation making or receiving the grant."
   },
   {
+   "required": false,
+   "name": "grantProgramme[]/code",
    "title": "Grant Programme:Code",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "- An identifier for this grant programme.",
-   "name": "grantProgramme[]/code"
+   "format": "",
+   "description": "- An identifier for this grant programme."
   },
   {
+   "required": false,
+   "name": "grantProgramme[]/title",
    "title": "Grant Programme:Title",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "- The title of this grant programme.",
-   "name": "grantProgramme[]/title"
+   "format": "",
+   "description": "- The title of this grant programme."
   },
   {
+   "required": false,
+   "name": "grantProgramme[]/url",
    "title": "Grant Programme:URL",
-   "required": false,
-   "format": "",
    "type": "string",
-   "description": "- A web link to more details of this grant programme.",
-   "name": "grantProgramme[]/url"
+   "format": "",
+   "description": "- A web link to more details of this grant programme."
   },
   {
-   "title": "From an open call?",
    "required": false,
-   "format": "",
+   "name": "fromOpenCall",
+   "title": "From an open call?",
    "allowed_values": "Yes,No",
    "type": "string",
-   "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'",
-   "name": "fromOpenCall"
+   "format": "",
+   "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'"
   },
   {
+   "required": false,
+   "name": "dateModified",
    "title": "Last modified",
-   "required": false,
-   "format": "",
    "type": "datetime",
-   "description": "The date when information on this grant was last updated",
-   "name": "dateModified"
+   "format": "",
+   "description": "The date when information on this grant was last updated"
   },
   {
-   "title": "Data Source",
    "required": false,
-   "format": "",
+   "name": "dataSource",
+   "title": "Data Source",
    "type": "string",
-   "description": "A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.",
-   "name": "dataSource"
+   "format": "",
+   "description": "A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website."
   }
  ]
 }
