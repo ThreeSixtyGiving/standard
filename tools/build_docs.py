@@ -27,7 +27,6 @@ for file in os.listdir("../documentation/src/"):
 
                 except:
                     pass
-                print(table)
                 string = string.replace(match.group(0),table)
             with open("../documentation/"+ file,"w",encoding='utf-8') as write:
                 write.write(string)

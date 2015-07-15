@@ -1,11 +1,7 @@
 title,name,description,type,format,allowed_values,required
 Title,title,-,string,,,True
-Start Date,startDate,"Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.
-
-This field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ",datetime,,,False
-End Date,endDate,"Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.
-
-Events or activities lasting more than one day should have either a duration (in days) or an end date.",datetime,,,False
-Duration (months),duration,Events or activities lasting more than one day should have either a duration (in days) or an end date.,string,,,False
+Start Date,startDate,"All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",datetime,,,False
+End Date,endDate,"Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",datetime,,,False
+Duration (months),duration,Events or activities lasting more than one day should have either a duration (in months) or an end date.,string,,,False
 Description,description,-,string,,,True
 Last modified,dateModified,-,datetime,,,False

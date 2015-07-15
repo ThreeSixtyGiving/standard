@@ -10,7 +10,7 @@ If you are just getting started with the 360 Giving data standard, consult the [
 
 # Data formats
 
-There are tow main formats available for representing 360 Giving data.
+There are two main formats available for representing 360 Giving data.
 
 1. **Spreadsheet**: provided with user-friendly **column titles**, and for recording one grant per row. This is the most common template that publishers choose.
 2. **JSON Schema**: for providing a structured representation of your data direct from your internal databases or via an API. Ideal for direct use by developers building visualisations and web apps.
@@ -25,9 +25,20 @@ The 360Giving Spreadsheet format consists of a 'grants' sheet which contains the
 
 ### Grants Sheet
 
+The default grants sheet includes sections for:
+
+* Basic information about the grant;
+* Planned and actual dates of activity;
+* Details of the recipient organisation;
+* Details of the funding organisation;
+* The location of beneficiaries;
+* Details of the grant programme funding is from;
+
+To provide classifications of grants, more than one location, or additional documents related to the grant, you will need to publish information in sub-tables. 
+
 {{grant.csv|Title,Description,Type,Required}}
 
-### Additional tabs
+### Additional tables
 
 The grants sheet can only accommodate one-to-one relationships. For example, one classification or location per grant. It also only includes common information.
 

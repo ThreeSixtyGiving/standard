@@ -2,7 +2,7 @@ import json
 from collections import OrderedDict
 import jsonref
 import sys 
-import unicodecsv
+import csv
 
 with open("../schema/360-giving-schema.json") as schema_file:
     data = jsonref.load(schema_file,object_pairs_hook=OrderedDict)
@@ -37,7 +37,7 @@ def get_field_info(field_def):
 
 def generate_table(path):    
     table_schema = []
-    for name, defs in path.iteritems():
+    for name, defs in path.items(): #Was iteritems -- see https://github.com/mitsuhiko/jinja2/issues/150
         field = {}
     
         if name in data['required']:
@@ -61,7 +61,7 @@ def generate_table(path):
                 
                     field_info = get_field_info(subdefs)
 
-                    subfield.update({"name":name + "[]/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":sub_required})
+                    subfield.update({"name":name + "[]/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':defs.get('description','-') + " " +subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":sub_required})
                     table_schema.append(subfield)
 
             except Exception as a:
@@ -77,13 +77,13 @@ def generate_table(path):
 
     return table_schema
 
-print "Writing updated schema"
+print("Writing updated schema")
 
 for key in data['definitions']:
     try:
         table = generate_table(data['definitions'][key]['properties'])
-        with open('../documentation/src/tabledefs/'+key+'.csv', 'wb') as output_file:
-            dict_writer = unicodecsv.DictWriter(output_file,  fieldnames=['title','name','description', 'type', 'format', 'allowed_values', 'required'])
+        with open('../documentation/src/tabledefs/'+key+'.csv', 'w',encoding='utf8') as output_file:
+            dict_writer = csv.DictWriter(output_file,  fieldnames=['title','name','description', 'type', 'format', 'allowed_values', 'required'])
             dict_writer.writeheader()
             dict_writer.writerows(table)
         with open('../documentation/src/tabledefs/'+key+'.json', 'w') as outfile:
@@ -93,11 +93,11 @@ for key in data['definitions']:
     
 table = generate_table(data['properties'])
 
-with open('../documentation/src/tabledefs/grant.json', 'w') as outfile:
+with open('../documentation/src/tabledefs/grant.json', 'w',encoding='utf8') as outfile:
     json.dump({"fields":table}, outfile,indent=True)
 
-with open('../documentation/src/tabledefs/grant.csv', 'wb') as output_file:
-    dict_writer = unicodecsv.DictWriter(output_file,  fieldnames=['title','name','description', 'type', 'format', 'allowed_values', 'required'])
+with open('../documentation/src/tabledefs/grant.csv', 'w',encoding='utf8') as output_file:
+    dict_writer = csv.DictWriter(output_file,  fieldnames=['title','name','description', 'type', 'format', 'allowed_values', 'required'])
     dict_writer.writeheader()
     dict_writer.writerows(table)
         

@@ -1,52 +1,52 @@
 {
  "fields": [
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Title", 
-   "required": true, 
-   "type": "string", 
-   "name": "title"
-  }, 
+   "description": "-",
+   "title": "Title",
+   "name": "title",
+   "type": "string",
+   "format": "",
+   "required": true
+  },
   {
-   "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThis field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ", 
-   "format": "", 
-   "title": "Start Date", 
-   "required": false, 
-   "type": "datetime", 
-   "name": "startDate"
-  }, 
+   "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "title": "Start Date",
+   "name": "startDate",
+   "type": "datetime",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents or activities lasting more than one day should have either a duration (in days) or an end date.", 
-   "format": "", 
-   "title": "End Date", 
-   "required": false, 
-   "type": "datetime", 
-   "name": "endDate"
-  }, 
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "title": "End Date",
+   "name": "endDate",
+   "type": "datetime",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Events or activities lasting more than one day should have either a duration (in days) or an end date.", 
-   "format": "", 
-   "title": "Duration (months)", 
-   "required": false, 
-   "type": "string", 
-   "name": "duration"
-  }, 
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
+   "title": "Duration (months)",
+   "name": "duration",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Description", 
-   "required": true, 
-   "type": "string", 
-   "name": "description"
-  }, 
+   "description": "-",
+   "title": "Description",
+   "name": "description",
+   "type": "string",
+   "format": "",
+   "required": true
+  },
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Last modified", 
-   "required": false, 
-   "type": "datetime", 
-   "name": "dateModified"
+   "description": "-",
+   "title": "Last modified",
+   "name": "dateModified",
+   "type": "datetime",
+   "format": "",
+   "required": false
   }
  ]
 }

@@ -1,149 +1,149 @@
 {
  "fields": [
   {
-   "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.", 
-   "format": "", 
-   "title": "Identifier", 
-   "required": true, 
-   "type": "string", 
-   "name": "id"
-  }, 
+   "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
+   "title": "Identifier",
+   "name": "id",
+   "type": "string",
+   "format": "",
+   "required": true
+  },
   {
-   "description": "Organisation name", 
-   "format": "", 
-   "title": "Name", 
-   "required": false, 
-   "type": "string", 
-   "name": "name"
-  }, 
+   "description": "Organisation name",
+   "title": "Name",
+   "name": "name",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "The department or sub-unit of this organisation making or receiving the grant.", 
-   "format": "", 
-   "title": "Department", 
-   "required": false, 
-   "type": "string", 
-   "name": "department"
-  }, 
+   "description": "The department or sub-unit of this organisation making or receiving the grant.",
+   "title": "Department",
+   "name": "department",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Contact Name", 
-   "required": false, 
-   "type": "string", 
-   "name": "contactName"
-  }, 
+   "description": "-",
+   "title": "Contact Name",
+   "name": "contactName",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Registered charity number, if applicable.", 
-   "format": "", 
-   "title": "Charity Number", 
-   "required": false, 
-   "type": "string", 
-   "name": "charityNumber"
-  }, 
+   "description": "Registered charity number, if applicable.",
+   "title": "Charity Number",
+   "name": "charityNumber",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Registered UK company number, if applicable.", 
-   "format": "", 
-   "title": "Company Number", 
-   "required": false, 
-   "type": "string", 
-   "name": "companyNumber"
-  }, 
+   "description": "Registered UK company number, if applicable.",
+   "title": "Company Number",
+   "name": "companyNumber",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Building number and street name.", 
-   "format": "", 
-   "title": "Street Address", 
-   "required": false, 
-   "type": "string", 
-   "name": "streetAddress"
-  }, 
+   "description": "Building number and street name.",
+   "title": "Street Address",
+   "name": "streetAddress",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "City or town.", 
-   "format": "", 
-   "title": "City", 
-   "required": false, 
-   "type": "string", 
-   "name": "addressLocality"
-  }, 
+   "description": "City or town.",
+   "title": "City",
+   "name": "addressLocality",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "County", 
-   "format": "", 
-   "title": "County", 
-   "required": false, 
-   "type": "string", 
-   "name": "addressRegion"
-  }, 
+   "description": "County",
+   "title": "County",
+   "name": "addressRegion",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Country", 
-   "format": "", 
-   "title": "Country", 
-   "required": false, 
-   "type": "string", 
-   "name": "addressCountry"
-  }, 
+   "description": "Country",
+   "title": "Country",
+   "name": "addressCountry",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Postal code (please try and provide a post code whenever possible)", 
-   "format": "", 
-   "title": "Postal Code", 
-   "required": false, 
-   "type": "string", 
-   "name": "postalCode"
-  }, 
+   "description": "Postal code (please try and provide a post code whenever possible)",
+   "title": "Postal Code",
+   "name": "postalCode",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "Contact phone number.", 
-   "format": "", 
-   "title": "Phone Number", 
-   "required": false, 
-   "type": "string", 
-   "name": "telephone"
-  }, 
+   "description": "Contact phone number.",
+   "title": "Phone Number",
+   "name": "telephone",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "An alternative name for this organisation (e.g. trading name)", 
-   "format": "", 
-   "title": "Alternate Name", 
-   "required": false, 
-   "type": "string", 
-   "name": "alternateName"
-  }, 
+   "description": "An alternative name for this organisation (e.g. trading name)",
+   "title": "Alternate Name",
+   "name": "alternateName",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Email", 
-   "required": false, 
-   "type": "string", 
-   "name": "email"
-  }, 
+   "description": "-",
+   "title": "Email",
+   "name": "email",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "A short description of this organisation and its area of work", 
-   "format": "", 
-   "title": "Description", 
-   "required": true, 
-   "type": "string", 
-   "name": "description"
-  }, 
+   "description": "A short description of this organisation and its area of work",
+   "title": "Description",
+   "name": "description",
+   "type": "string",
+   "format": "",
+   "required": true
+  },
   {
-   "description": "A description of this organisation", 
-   "format": "", 
-   "title": "Organisation Type", 
-   "allowed_values": "Registered Charity,Registered Company,Community Group,List to be updated", 
-   "required": false, 
-   "type": "string", 
-   "name": "organisationType"
-  }, 
+   "description": "A description of this organisation",
+   "title": "Organisation Type",
+   "name": "organisationType",
+   "allowed_values": "Registered Charity,Registered Company,Community Group,List to be updated",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "A web address for the Organisation", 
-   "format": "", 
-   "title": "Web Address", 
-   "required": false, 
-   "type": "string", 
-   "name": "url"
-  }, 
+   "description": "A web address for the Organisation",
+   "title": "Web Address",
+   "name": "url",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Last modified", 
-   "required": false, 
-   "type": "datetime", 
-   "name": "dateModified"
+   "description": "-",
+   "title": "Last modified",
+   "name": "dateModified",
+   "type": "datetime",
+   "format": "",
+   "required": false
   }
  ]
 }

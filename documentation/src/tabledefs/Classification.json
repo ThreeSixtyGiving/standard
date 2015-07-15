@@ -1,52 +1,52 @@
 {
  "fields": [
   {
-   "description": "A vocabulary used for this classification.", 
-   "format": "", 
-   "title": "Vocabulary", 
-   "required": false, 
-   "type": "string", 
-   "name": "vocabulary"
-  }, 
+   "description": "A vocabulary used for this classification.",
+   "title": "Vocabulary",
+   "name": "vocabulary",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "A codelist value in the chosen vocabulary.", 
-   "format": "", 
-   "title": "Code", 
-   "required": false, 
-   "type": "string", 
-   "name": "code"
-  }, 
+   "description": "A codelist value in the chosen vocabulary.",
+   "title": "Code",
+   "name": "code",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "The title of this classification.", 
-   "format": "", 
-   "title": "Title", 
-   "required": true, 
-   "type": "string", 
-   "name": "title"
-  }, 
+   "description": "The title of this classification.",
+   "title": "Title",
+   "name": "title",
+   "type": "string",
+   "format": "",
+   "required": true
+  },
   {
-   "description": "A description of this classification.", 
-   "format": "", 
-   "title": "Description", 
-   "required": true, 
-   "type": "string", 
-   "name": "description"
-  }, 
+   "description": "A description of this classification.",
+   "title": "Description",
+   "name": "description",
+   "type": "string",
+   "format": "",
+   "required": true
+  },
   {
-   "description": "A web link to more details of this classification.", 
-   "format": "", 
-   "title": "URL", 
-   "required": false, 
-   "type": "string", 
-   "name": "url"
-  }, 
+   "description": "A web link to more details of this classification.",
+   "title": "URL",
+   "name": "url",
+   "type": "string",
+   "format": "",
+   "required": false
+  },
   {
-   "description": "-", 
-   "format": "", 
-   "title": "Last modified", 
-   "required": false, 
-   "type": "datetime", 
-   "name": "dateModified"
+   "description": "-",
+   "title": "Last modified",
+   "name": "dateModified",
+   "type": "datetime",
+   "format": "",
+   "required": false
   }
  ]
 }

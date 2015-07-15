@@ -11,5 +11,5 @@ flatten-tool create-template --root-id='' --output-format all --output-name 360-
 mv 360-giving-schema-titles 360-giving-schema-titles.csv
 
 cd ../../tools/
-python3 generate_reference_tables.py
-python3 build_docs.py
+python generate_reference_tables.py
+python build_docs.py

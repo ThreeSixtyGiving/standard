@@ -10,7 +10,7 @@ If you are just getting started with the 360 Giving data standard, consult the [
 
 # Data formats
 
-There are tow main formats available for representing 360 Giving data.
+There are two main formats available for representing 360 Giving data.
 
 1. **Spreadsheet**: provided with user-friendly **column titles**, and for recording one grant per row. This is the most common template that publishers choose.
 2. **JSON Schema**: for providing a structured representation of your data direct from your internal databases or via an API. Ideal for direct use by developers building visualisations and web apps.
@@ -30,34 +30,34 @@ The 360Giving Spreadsheet format consists of a 'grants' sheet which contains the
 |Identifier|The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://docs.threesixtygiving.org/identifiers/#grant-identifier) for details.|string|True|
 |Title|A title for this grant activity. This should be under 140 characters long.|string|True|
 |Description|A short description of this grant activity.|string|True|
-|Currency|The currency, using a three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
-|Amount Applied For|Total amount applied for. Include numbers only. DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.|number|False|
-|Amount Awarded|Total amount awarded (should be the same as the sum of any award transactions). DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.|number|True|
-|Amount Disbursed|Total amount disbursed (paid) to this grantee when this record was last updated. DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.|number|False|
-|Award Date|When was this grant awarded.|datetime|True|
-|URL|A url (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.|string|False|
-|Planned Dates:Start Date|Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.  This field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. |datetime|False|
-|Planned Dates:End Date|Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.  Events or activities lasting more than one day should have either a duration (in days) or an end date.|datetime|False|
-|Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in days) or an end date.|string|False|
-|Recipient Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Recipient Org:Name|Organisation name|string|True|
-|Recipient Org:Charity Number|Registered charity number, if applicable.|string|False|
-|Recipient Org:Company Number|Registered UK company number, if applicable.|string|False|
-|Recipient Org:Street Address|Building number and street name.|string|False|
-|Recipient Org:City|City or town.|string|False|
-|Recipient Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
-|Beneficiary Location:Name|A name for this location.|string|False|
-|Beneficiary Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Beneficiary Location:Latitude|The latitude of a point location|string|False|
-|Beneficiary Location:Longitude|The longitude of a point location|string|False|
-|Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Funding Org:Name|Organisation name|string|True|
-|Funding Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Grant Programme:Code|An identifier for this grant programme.|string|False|
-|Grant Programme:Title|The title of this grant programme.|string|False|
-|Grant Programme:URL|A web link to more details of this grant programme.|string|False|
+|Currency|The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
+|Amount Applied For|Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.|number|False|
+|Amount Awarded|Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.|number|True|
+|Amount Disbursed|Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.|number|False|
+|Award Date|When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.|datetime|True|
+|URL|A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.|string|False|
+|Planned Dates:Start Date|When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|datetime|False|
+|Planned Dates:End Date|When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|datetime|False|
+|Planned Dates:Duration (months)|When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
+|Recipient Org:Identifier|Details of the recipient of this grant. A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
+|Recipient Org:Name|Details of the recipient of this grant. Organisation name|string|True|
+|Recipient Org:Charity Number|Details of the recipient of this grant. Registered charity number, if applicable.|string|False|
+|Recipient Org:Company Number|Details of the recipient of this grant. Registered UK company number, if applicable.|string|False|
+|Recipient Org:Street Address|Details of the recipient of this grant. Building number and street name.|string|False|
+|Recipient Org:City|Details of the recipient of this grant. City or town.|string|False|
+|Recipient Org:Postal Code|Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)|string|False|
+|Beneficiary Location:Name|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A name for this location.|string|False|
+|Beneficiary Location:Country Code|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The ISO Country Code of the location of this activity.|string|False|
+|Beneficiary Location:Latitude|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The latitude of a point location|string|False|
+|Beneficiary Location:Longitude|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The longitude of a point location|string|False|
+|Beneficiary Location:Geographic Code|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
+|Beneficiary Location:Geographic Code Type|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
+|Funding Org:Identifier|Details of the funder A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
+|Funding Org:Name|Details of the funder Organisation name|string|True|
+|Funding Org:Department|Details of the funder The department or sub-unit of this organisation making or receiving the grant.|string|False|
+|Grant Programme:Code|- An identifier for this grant programme.|string|False|
+|Grant Programme:Title|- The title of this grant programme.|string|False|
+|Grant Programme:URL|- A web link to more details of this grant programme.|string|False|
 |From an open call?|Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'|string|False|
 |Last modified|The date when information on this grant was last updated|datetime|False|
 |Data Source|A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.|string|False|
@@ -115,9 +115,9 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Title|-|string|True|
-|Start Date|Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.  This field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. |datetime|False|
-|End Date|Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.  Events or activities lasting more than one day should have either a duration (in days) or an end date.|datetime|False|
-|Duration (months)|Events or activities lasting more than one day should have either a duration (in days) or an end date.|string|False|
+|Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|datetime|False|
+|End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|datetime|False|
+|Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
 |Description|-|string|True|
 |Last modified|-|datetime|False|
 
@@ -152,7 +152,7 @@ In the first column of each tab you would enter the identifier of the grant to w
 |----|----|----|----|
 |Identifier|Identifier|string|True|
 |Transaction date|When did this transaction take place? Please use YYYY-MM-DD format.|datetime|False|
-|Currency|The currency, using a three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
+|Currency|The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
 |Value|The total value of this transaction.|integer|False|
 |Value date|The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|datetime|False|
 |Description|A description of this transaction.|string|True|

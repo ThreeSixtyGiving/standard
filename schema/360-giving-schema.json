@@ -6,7 +6,7 @@
   "definitions": {
       "currency": {
         "type": "string",
-        "description": "The currency, using a three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) ",
+        "description": "The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) ",
         "weight": 5.02,
         "enum": ["GBP","USD","AED","AFN","ALL","AMD","ANG","AOA","ARS","AUD","AWG","AZN","BAM","BBD","BDT","BGN","BHD","BIF","BMD","BND","BOB","BRL","BSD","BTN","BWP","BYR","BZD","CAD","CDF","CHF","CLP","CNY","COP","CRC","CUC","CUP","CVE","CZK","DJF","DKK","DOP","DZD","EGP","ERN","ETB","EUR","FJD","FKP","GBP","GEL","GGP","GHS","GIP","GMD","GNF","GTQ","GYD","HKD","HNL","HRK","HTG","HUF","IDR","ILS","IMP","INR","IQD","IRR","ISK","JEP","JMD","JOD","JPY","KES","KGS","KHR","KMF","KPW","KRW","KWD","KYD","KZT","LAK","LBP","LKR","LRD","LSL","LTL","LVL","LYD","MAD","MDL","MGA","MKD","MMK","MNT","MOP","MRO","MUR","MVR","MWK","MXN","MYR","MZN","NAD","NGN","NIO","NOK","NPR","NZD","OMR","PAB","PEN","PGK","PHP","PKR","PLN","PYG","QAR","RON","RSD","RUB","RWF","SAR","SBD","SCR","SDG","SEK","SGD","SHP","SLL","SOS","SPL","SRD","STD","SVC","SYP","SZL","THB","TJS","TMT","TND","TOP","TRY","TTD","TVD","TWD","TZS","UAH","UGX","USD","UYU","UZS","VEF","VND","VUV","WST","XAF","XCD","XDR","XOF","XPF","YER","ZAR","ZMW","ZWD"],
         "title": "Currency"
@@ -395,20 +395,20 @@
         "startDate": {
           "format": "date-time",
           "type": "string",
-          "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nThis field records the start date of some event, activity or moment in the lifetime of a grant. At a minimum events/activities must have a start date. ",
+          "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
           "weight": 4.1,
           "title": "Start Date"
         },
         "endDate": {
           "format": "date-time",
           "type": "string",
-          "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents or activities lasting more than one day should have either a duration (in days) or an end date.",
+          "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
           "weight": 4.3,
           "title": "End Date"
         },
         "duration": {
           "type": "string",
-          "description": "Events or activities lasting more than one day should have either a duration (in days) or an end date.",
+          "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
           "weight": 4.2,
           "title": "Duration (months)"
         },
@@ -454,19 +454,19 @@
     },
     "amountAppliedFor": {
       "type": "number",
-      "description": "Total amount applied for. Include numbers only. DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.",
+      "description": "Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.",
       "weight": 5.03,
       "title": "Amount Applied For"
     },
     "amountAwarded": {
       "type": "number",
-      "description": "Total amount awarded (should be the same as the sum of any award transactions). DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.",
+      "description": "Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.",
       "weight": 5.04,
       "title": "Amount Awarded"
     },
     "amountDisbursed": {
          "type": "number",
-         "description": "Total amount disbursed (paid) to this grantee when this record was last updated. DO NOT include any currency symbols such as £ or $. If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.",
+         "description": "Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.",
          "weight": 5.04,
          "title": "Amount Disbursed"
     },
@@ -475,13 +475,12 @@
       "type": "string",
       "description": "When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.",
       "weight": 4.3,
-      "title": "Award Date",
-      "description":"When was this grant awarded."
+      "title": "Award Date"
     },
     "url": {
       "type": "string",
       "format": "uri",
-      "description": "A url (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.",
+      "description": "A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.",
       "weight": 11.01,
       "title": "URL"
     },
@@ -492,7 +491,7 @@
       "type": "array",
       "weight": 5.041,
       "title": "Planned Dates",
-      "description":"When did the applicant / implementing organisation originally intend this activity to take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.",
+      "description":"When the applicant / implementing organisation originally intend this activity to take place. ",
       "rollUp": ["startDate","endDate","duration"]      
     },
     "actualDates": {
