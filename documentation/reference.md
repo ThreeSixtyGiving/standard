@@ -181,11 +181,11 @@ At the root of the data model is a grant. Grants have a number of direct propert
 ### JSON Schema
 The JSON Schema is the authoritative source of information about the standard, and it should always be possible to transform 360 Giving data into structured JSON data according to this schema. 
 
-You can view the JSON Schema below, or [fullscreen here](/js/docson/index.html#/assets/standard/schema/360-giving-schema.json). In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
+You can view the JSON Schema below, or [fullscreen here](//wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="/js/docson/widget.js" 
-        data-schema="/assets/standard/schema/360-giving-schema.json">      
+<script src="/wp-content/plugins/threesixty_docs/docson/widget.js" 
+        data-schema="/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json">      
 </script>
 </div>
 
