@@ -1,44 +1,44 @@
 {
  "fields": [
   {
-   "name": "code",
-   "format": "",
    "title": "Code",
+   "required": false,
+   "format": "",
    "type": "string",
    "description": "An identifier for this grant programme.",
-   "required": false
+   "name": "code"
   },
   {
-   "name": "title",
-   "format": "",
    "title": "Title",
+   "required": true,
+   "format": "",
    "type": "string",
    "description": "The title of this grant programme.",
-   "required": true
+   "name": "title"
   },
   {
-   "name": "description",
-   "format": "",
    "title": "Description",
+   "required": true,
+   "format": "",
    "type": "string",
    "description": "A description of this grant programme.",
-   "required": true
+   "name": "description"
   },
   {
-   "name": "url",
-   "format": "",
    "title": "URL",
+   "required": false,
+   "format": "",
    "type": "string",
    "description": "A web link to more details of this grant programme.",
-   "required": false
+   "name": "url"
   },
   {
-   "name": "dateModified",
-   "format": "",
    "title": "Last modified",
+   "required": false,
+   "format": "",
    "type": "datetime",
    "description": "-",
-   "required": false
+   "name": "dateModified"
   }
  ]
 }

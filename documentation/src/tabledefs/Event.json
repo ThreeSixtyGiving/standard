@@ -1,52 +1,52 @@
 {
  "fields": [
   {
-   "name": "title",
-   "format": "",
    "title": "Title",
+   "required": true,
+   "format": "",
    "type": "string",
    "description": "-",
-   "required": true
+   "name": "title"
   },
   {
-   "name": "startDate",
-   "format": "",
    "title": "Start Date",
+   "required": false,
+   "format": "",
    "type": "datetime",
    "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
-   "required": false
+   "name": "startDate"
   },
   {
-   "name": "endDate",
-   "format": "",
    "title": "End Date",
+   "required": false,
+   "format": "",
    "type": "datetime",
    "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
-   "required": false
+   "name": "endDate"
   },
   {
-   "name": "duration",
-   "format": "",
    "title": "Duration (months)",
+   "required": false,
+   "format": "",
    "type": "string",
    "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
-   "required": false
+   "name": "duration"
   },
   {
-   "name": "description",
-   "format": "",
    "title": "Description",
+   "required": true,
+   "format": "",
    "type": "string",
    "description": "-",
-   "required": true
+   "name": "description"
   },
   {
-   "name": "dateModified",
-   "format": "",
    "title": "Last modified",
+   "required": false,
+   "format": "",
    "type": "datetime",
    "description": "-",
-   "required": false
+   "name": "dateModified"
   }
  ]
 }

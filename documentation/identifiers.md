@@ -1,4 +1,5 @@
-# Identifiers
+<div id="toc"></div>
+
 Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
 
 Whilst a human being may be good at recognising that:
@@ -104,7 +105,7 @@ Contact support for details of prefixes to use when publishing classification co
 
 <script>
 $('#toc').toc({
-    'selectors': 'h2,h3,h4', //elements to use as headings
+    'selectors': 'h1,h2,h3,h4', //elements to use as headings
     'smoothScrolling': true, //enable or disable smooth scrolling on click
     'prefix': 'toc', //prefix for anchor tags and class names
     'onHighlight': function(el) {}, //called when a new section is highlighted 
@@ -114,7 +115,11 @@ $('#toc').toc({
         return prefix+i;
     },
     'headerText': function(i, heading, $heading) { //custom function building the header-item text
-        return $heading.text();
+        if ($heading.text()=="About") {
+            return ""
+        } else {
+           return $heading.text();
+        }
     }
 });
 </script>

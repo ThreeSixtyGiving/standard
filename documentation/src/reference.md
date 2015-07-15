@@ -1,6 +1,6 @@
 <div id="toc"></div>
 
-# Standard Reference
+## Standard Reference
 
 This page provides reference information on publishing to the 360 Giving Data Standard.
 
@@ -8,7 +8,7 @@ It assumes some technical knowledge.
 
 If you are just getting started with the 360 Giving data standard, consult the [start publishing](/get-involved/publish-your-data/) pages.
 
-# Data formats
+## Data formats
 
 There are two main formats available for representing 360 Giving data.
 
@@ -170,7 +170,7 @@ Identifiers are documented on the [identifiers](/identifiers/) pages.
 
 <script>
 $('#toc').toc({
-    'selectors': 'h2,h3,h4', //elements to use as headings
+    'selectors': 'h1,h2,h3,h4', //elements to use as headings
     'smoothScrolling': true, //enable or disable smooth scrolling on click
     'prefix': 'toc', //prefix for anchor tags and class names
     'onHighlight': function(el) {}, //called when a new section is highlighted 
@@ -180,7 +180,11 @@ $('#toc').toc({
         return prefix+i;
     },
     'headerText': function(i, heading, $heading) { //custom function building the header-item text
-        return $heading.text();
+        if ($heading.text()=="About") {
+            return ""
+        } else {
+           return $heading.text();
+        }
     }
 });
 </script>
