@@ -25,6 +25,17 @@ The 360Giving Spreadsheet format consists of a 'grants' sheet which contains the
 
 ### Grants Sheet
 
+The default grants sheet includes sections for:
+
+* Basic information about the grant;
+* Planned and actual dates of activity;
+* Details of the recipient organisation;
+* Details of the funding organisation;
+* The location of beneficiaries;
+* Details of the grant programme funding is from;
+
+To provide classifications of grants, more than one location, or additional documents related to the grant, you will need to publish information in sub-tables. 
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Identifier|The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://docs.threesixtygiving.org/identifiers/#grant-identifier) for details.|string|True|
@@ -63,7 +74,7 @@ The 360Giving Spreadsheet format consists of a 'grants' sheet which contains the
 |Data Source|A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.|string|False|
 
 
-### Additional tabs
+### Additional tables
 
 The grants sheet can only accommodate one-to-one relationships. For example, one classification or location per grant. It also only includes common information.
 

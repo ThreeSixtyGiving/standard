@@ -1,51 +1,51 @@
 {
  "fields": [
   {
-   "description": "An identifier for this document.",
-   "title": "Identifier",
    "name": "id",
-   "type": "string",
    "format": "",
+   "title": "Identifier",
+   "type": "string",
+   "description": "An identifier for this document.",
    "required": true
   },
   {
-   "description": "The document title",
-   "title": "Title",
    "name": "title",
-   "type": "string",
    "format": "",
+   "title": "Title",
+   "type": "string",
+   "description": "The document title",
    "required": true
   },
   {
-   "description": "The URL of the document.",
-   "title": "Web Address",
    "name": "url",
-   "type": "string",
    "format": "",
+   "title": "Web Address",
+   "type": "string",
+   "description": "The URL of the document.",
    "required": false
   },
   {
-   "description": "A description of the document",
-   "title": "Description",
    "name": "description",
-   "type": "string",
    "format": "",
+   "title": "Description",
+   "type": "string",
+   "description": "A description of the document",
    "required": true
   },
   {
-   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
-   "title": "Document Type",
    "name": "documentType",
-   "type": "string",
    "format": "",
+   "title": "Document Type",
+   "type": "string",
+   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
    "required": false
   },
   {
-   "description": "What was this information last modified?",
-   "title": "Last modified",
    "name": "dateModified",
-   "type": "datetime",
    "format": "",
+   "title": "Last modified",
+   "type": "datetime",
+   "description": "What was this information last modified?",
    "required": false
   }
  ]
