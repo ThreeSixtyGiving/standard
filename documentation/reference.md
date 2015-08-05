@@ -38,7 +38,7 @@ To provide classifications of grants, more than one location, or additional docu
 
 |Title|Description|Type|Required|
 |----|----|----|----|
-|Identifier|The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#grant-identifier) for details.|string|True|
+|Identifier|The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
 |Title|A title for this grant activity. This should be under 140 characters long.|string|True|
 |Description|A short description of this grant activity.|string|True|
 |Currency|The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
@@ -50,7 +50,7 @@ To provide classifications of grants, more than one location, or additional docu
 |Planned Dates:Start Date|When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|datetime|False|
 |Planned Dates:End Date|When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|datetime|False|
 |Planned Dates:Duration (months)|When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
-|Recipient Org:Identifier|Details of the recipient of this grant. A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
+|Recipient Org:Identifier|Details of the recipient of this grant. A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
 |Recipient Org:Name|Details of the recipient of this grant. Organisation name|string|True|
 |Recipient Org:Charity Number|Details of the recipient of this grant. Registered charity number, if applicable.|string|False|
 |Recipient Org:Company Number|Details of the recipient of this grant. Registered UK company number, if applicable.|string|False|
@@ -63,7 +63,7 @@ To provide classifications of grants, more than one location, or additional docu
 |Beneficiary Location:Longitude|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The longitude of a point location|string|False|
 |Beneficiary Location:Geographic Code|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
 |Beneficiary Location:Geographic Code Type|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Identifier|Details of the funder A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
+|Funding Org:Identifier|Details of the funder A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
 |Funding Org:Name|Details of the funder Organisation name|string|True|
 |Funding Org:Department|Details of the funder The department or sub-unit of this organisation making or receiving the grant.|string|False|
 |Grant Programme:Code|- An identifier for this grant programme.|string|False|
@@ -137,7 +137,7 @@ In the first column of each tab you would enter the identifier of the grant to w
 
 |Title|Description|Type|Required|
 |----|----|----|----|
-|Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
+|Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
 |Name|Organisation name|string|False|
 |Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
 |Contact Name|-|string|False|
@@ -300,28 +300,3 @@ The [360 Bridge tool](/tools/) supports round-tripping of data between Summary s
 
 
 Identifiers are documented on the [identifiers](/identifiers/) pages.
-
-
-
-
-<script>
-$('#toc').toc({
-    'selectors': 'h1,h2,h3,h4', //elements to use as headings
-    'smoothScrolling': true, //enable or disable smooth scrolling on click
-    'prefix': 'toc', //prefix for anchor tags and class names
-    'onHighlight': function(el) {}, //called when a new section is highlighted 
-    'highlightOnScroll': true, //add class to heading that is currently in focus
-    'highlightOffset': 100, //offset to trigger the next headline
-    'anchorName': function(i, heading, prefix) { //custom function for anchor name
-        return prefix+i;
-    },
-    'headerText': function(i, heading, $heading) { //custom function building the header-item text
-        if ($heading.text()=="About") {
-            return ""
-        } else {
-           return $heading.text();
-        }
-    }
-});
-</script>
-
