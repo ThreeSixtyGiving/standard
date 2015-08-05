@@ -17,7 +17,7 @@ There are two main formats available for representing 360 Giving data.
 
 In future, [a CSV Data Package](http://data.okfn.org/doc/data-package) serialisation will be available. Contact us if you need this.
 
-The [CoVE](http://cove.threesixtygiving.org) (Convert, Validate and Explore) can be used to round-trip data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
+The [CoVE](http://cove.opendataservices.coop/360/) (Convert, Validate and Explore) can be used to round-trip data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
 
 ## Spreadsheet format
 
