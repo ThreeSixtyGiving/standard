@@ -1,52 +1,52 @@
 {
  "fields": [
   {
+   "description": "An identifier for this document.",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "id",
-   "title": "Identifier",
-   "type": "string",
-   "format": "",
-   "description": "An identifier for this document."
+   "title": "Identifier"
   },
   {
+   "description": "The document title",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "title",
-   "title": "Title",
-   "type": "string",
-   "format": "",
-   "description": "The document title"
+   "title": "Title"
   },
   {
+   "description": "The URL of the document.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "url",
-   "title": "Web Address",
-   "type": "string",
-   "format": "",
-   "description": "The URL of the document."
+   "title": "Web Address"
   },
   {
+   "description": "A description of the document",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "description",
-   "title": "Description",
-   "type": "string",
-   "format": "",
-   "description": "A description of the document"
+   "title": "Description"
   },
   {
+   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "documentType",
-   "title": "Document Type",
-   "type": "string",
-   "format": "",
-   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types."
+   "title": "Document Type"
   },
   {
-   "required": false,
-   "name": "dateModified",
-   "title": "Last modified",
-   "type": "datetime",
+   "description": "What was this information last modified?",
    "format": "",
-   "description": "What was this information last modified?"
+   "required": false,
+   "type": "datetime",
+   "name": "dateModified",
+   "title": "Last modified"
   }
  ]
 }

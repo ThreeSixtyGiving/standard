@@ -1,77 +1,77 @@
 {
  "fields": [
   {
+   "description": "Identifier",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "id",
-   "title": "Identifier",
-   "type": "string",
-   "format": "",
-   "description": "Identifier"
+   "title": "Identifier"
   },
   {
+   "description": "When did this transaction take place? Please use YYYY-MM-DD format.",
+   "format": "",
    "required": false,
+   "type": "datetime",
    "name": "transactionDate",
-   "title": "Transaction date",
-   "type": "datetime",
-   "format": "",
-   "description": "When did this transaction take place? Please use YYYY-MM-DD format."
+   "title": "Transaction date"
   },
   {
-   "required": true,
-   "name": "currency",
-   "title": "Currency",
+   "description": "The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) ",
+   "format": "",
    "allowed_values": "GBP,USD,AED,AFN,ALL,AMD,ANG,AOA,ARS,AUD,AWG,AZN,BAM,BBD,BDT,BGN,BHD,BIF,BMD,BND,BOB,BRL,BSD,BTN,BWP,BYR,BZD,CAD,CDF,CHF,CLP,CNY,COP,CRC,CUC,CUP,CVE,CZK,DJF,DKK,DOP,DZD,EGP,ERN,ETB,EUR,FJD,FKP,GBP,GEL,GGP,GHS,GIP,GMD,GNF,GTQ,GYD,HKD,HNL,HRK,HTG,HUF,IDR,ILS,IMP,INR,IQD,IRR,ISK,JEP,JMD,JOD,JPY,KES,KGS,KHR,KMF,KPW,KRW,KWD,KYD,KZT,LAK,LBP,LKR,LRD,LSL,LTL,LVL,LYD,MAD,MDL,MGA,MKD,MMK,MNT,MOP,MRO,MUR,MVR,MWK,MXN,MYR,MZN,NAD,NGN,NIO,NOK,NPR,NZD,OMR,PAB,PEN,PGK,PHP,PKR,PLN,PYG,QAR,RON,RSD,RUB,RWF,SAR,SBD,SCR,SDG,SEK,SGD,SHP,SLL,SOS,SPL,SRD,STD,SVC,SYP,SZL,THB,TJS,TMT,TND,TOP,TRY,TTD,TVD,TWD,TZS,UAH,UGX,USD,UYU,UZS,VEF,VND,VUV,WST,XAF,XCD,XDR,XOF,XPF,YER,ZAR,ZMW,ZWD",
-   "type": "string",
-   "format": "",
-   "description": "The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) "
-  },
-  {
-   "required": false,
-   "name": "value",
-   "title": "Value",
-   "type": "integer",
-   "format": "",
-   "description": "The total value of this transaction."
-  },
-  {
-   "required": false,
-   "name": "valueDate",
-   "title": "Value date",
-   "type": "datetime",
-   "format": "",
-   "description": "The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD)."
-  },
-  {
    "required": true,
-   "name": "description",
-   "title": "Description",
    "type": "string",
-   "format": "",
-   "description": "A description of this transaction."
+   "name": "currency",
+   "title": "Currency"
   },
   {
-   "required": false,
-   "name": "provider",
-   "title": "Provider",
-   "type": "string",
+   "description": "The total value of this transaction.",
    "format": "",
-   "description": "The organisation identifier of the provider of transaction funds."
+   "required": false,
+   "type": "integer",
+   "name": "value",
+   "title": "Value"
   },
   {
-   "required": false,
-   "name": "recipient",
-   "title": "Recipient",
-   "type": "string",
+   "description": "The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).",
    "format": "",
-   "description": "The organisation identifier of the recipient of transaction funds."
-  },
-  {
    "required": false,
-   "name": "dateModified",
-   "title": "Last modified",
    "type": "datetime",
+   "name": "valueDate",
+   "title": "Value date"
+  },
+  {
+   "description": "A description of this transaction.",
    "format": "",
-   "description": "When information about this transaction was last updated."
+   "required": true,
+   "type": "string",
+   "name": "description",
+   "title": "Description"
+  },
+  {
+   "description": "The organisation identifier of the provider of transaction funds.",
+   "format": "",
+   "required": false,
+   "type": "string",
+   "name": "provider",
+   "title": "Provider"
+  },
+  {
+   "description": "The organisation identifier of the recipient of transaction funds.",
+   "format": "",
+   "required": false,
+   "type": "string",
+   "name": "recipient",
+   "title": "Recipient"
+  },
+  {
+   "description": "When information about this transaction was last updated.",
+   "format": "",
+   "required": false,
+   "type": "datetime",
+   "name": "dateModified",
+   "title": "Last modified"
   }
  ]
 }

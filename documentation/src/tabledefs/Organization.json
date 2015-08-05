@@ -1,149 +1,149 @@
 {
  "fields": [
   {
+   "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "id",
-   "title": "Identifier",
-   "type": "string",
-   "format": "",
-   "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems."
+   "title": "Identifier"
   },
   {
+   "description": "Organisation name",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "name",
-   "title": "Name",
-   "type": "string",
-   "format": "",
-   "description": "Organisation name"
+   "title": "Name"
   },
   {
+   "description": "The department or sub-unit of this organisation making or receiving the grant.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "department",
-   "title": "Department",
-   "type": "string",
-   "format": "",
-   "description": "The department or sub-unit of this organisation making or receiving the grant."
+   "title": "Department"
   },
   {
+   "description": "-",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "contactName",
-   "title": "Contact Name",
-   "type": "string",
-   "format": "",
-   "description": "-"
+   "title": "Contact Name"
   },
   {
+   "description": "Registered charity number, if applicable.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "charityNumber",
-   "title": "Charity Number",
-   "type": "string",
-   "format": "",
-   "description": "Registered charity number, if applicable."
+   "title": "Charity Number"
   },
   {
+   "description": "Registered UK company number, if applicable.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "companyNumber",
-   "title": "Company Number",
-   "type": "string",
-   "format": "",
-   "description": "Registered UK company number, if applicable."
+   "title": "Company Number"
   },
   {
+   "description": "Building number and street name.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "streetAddress",
-   "title": "Street Address",
-   "type": "string",
-   "format": "",
-   "description": "Building number and street name."
+   "title": "Street Address"
   },
   {
+   "description": "City or town.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "addressLocality",
-   "title": "City",
-   "type": "string",
-   "format": "",
-   "description": "City or town."
+   "title": "City"
   },
   {
+   "description": "County",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "addressRegion",
-   "title": "County",
-   "type": "string",
-   "format": "",
-   "description": "County"
+   "title": "County"
   },
   {
+   "description": "Country",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "addressCountry",
-   "title": "Country",
-   "type": "string",
-   "format": "",
-   "description": "Country"
+   "title": "Country"
   },
   {
+   "description": "Postal code (please try and provide a post code whenever possible)",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "postalCode",
-   "title": "Postal Code",
-   "type": "string",
-   "format": "",
-   "description": "Postal code (please try and provide a post code whenever possible)"
+   "title": "Postal Code"
   },
   {
+   "description": "Contact phone number.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "telephone",
-   "title": "Phone Number",
-   "type": "string",
-   "format": "",
-   "description": "Contact phone number."
+   "title": "Phone Number"
   },
   {
+   "description": "An alternative name for this organisation (e.g. trading name)",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "alternateName",
-   "title": "Alternate Name",
-   "type": "string",
-   "format": "",
-   "description": "An alternative name for this organisation (e.g. trading name)"
+   "title": "Alternate Name"
   },
   {
+   "description": "-",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "email",
-   "title": "Email",
-   "type": "string",
-   "format": "",
-   "description": "-"
+   "title": "Email"
   },
   {
+   "description": "A short description of this organisation and its area of work",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "description",
-   "title": "Description",
-   "type": "string",
-   "format": "",
-   "description": "A short description of this organisation and its area of work"
+   "title": "Description"
   },
   {
-   "required": false,
-   "name": "organisationType",
-   "title": "Organisation Type",
+   "description": "A description of this organisation",
+   "format": "",
    "allowed_values": "Registered Charity,Registered Company,Community Group,List to be updated",
+   "required": false,
    "type": "string",
-   "format": "",
-   "description": "A description of this organisation"
+   "name": "organisationType",
+   "title": "Organisation Type"
   },
   {
+   "description": "A web address for the Organisation",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "url",
-   "title": "Web Address",
-   "type": "string",
-   "format": "",
-   "description": "A web address for the Organisation"
+   "title": "Web Address"
   },
   {
-   "required": false,
-   "name": "dateModified",
-   "title": "Last modified",
-   "type": "datetime",
+   "description": "-",
    "format": "",
-   "description": "-"
+   "required": false,
+   "type": "datetime",
+   "name": "dateModified",
+   "title": "Last modified"
   }
  ]
 }

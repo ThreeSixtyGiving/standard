@@ -1,6 +1,6 @@
 <div id="toc"></div>
 
-# Why identifiers matter
+## Why identifiers matter
 
 Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
 
@@ -26,7 +26,7 @@ That's why 360 Giving requires you to give identifiers to:
 
 These go in ```Identifier``` columns alongside human-readable text descriptions of the grant, the name of an organisation, or the title of a classification.
 
-# Creating identifiers
+## Creating identifiers
 
 Often you will already have identifiers in your own records. For example, you might assign a number to each application or grant, or you might record a reference ID for a funding recipient.
 
@@ -40,7 +40,7 @@ For your grants, and any <span class="tooltip" title="For example, you might mai
 
 For organisation identifiers, follow the [organisation identifier](#organisation-identifier) guidance below which is designed to support links to be made between 360 Giving, and other datasets about an organisation.
 
-# Using your identifiers
+### Using your identifiers
 
 We use simple text identifiers in 360 Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' (or hashtag) when uploading photos and videos to social media sites. 
 

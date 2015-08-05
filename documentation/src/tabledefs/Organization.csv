@@ -1,5 +1,5 @@
 title,name,description,type,format,allowed_values,required
-Identifier,id,"A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",string,,,True
+Identifier,id,"A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",string,,,True
 Name,name,Organisation name,string,,,False
 Department,department,The department or sub-unit of this organisation making or receiving the grant.,string,,,False
 Contact Name,contactName,-,string,,,False

@@ -1,52 +1,52 @@
 {
  "fields": [
   {
+   "description": "-",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "title",
-   "title": "Title",
-   "type": "string",
-   "format": "",
-   "description": "-"
+   "title": "Title"
   },
   {
+   "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "format": "",
    "required": false,
+   "type": "datetime",
    "name": "startDate",
-   "title": "Start Date",
-   "type": "datetime",
-   "format": "",
-   "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted."
+   "title": "Start Date"
   },
   {
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "format": "",
    "required": false,
+   "type": "datetime",
    "name": "endDate",
-   "title": "End Date",
-   "type": "datetime",
-   "format": "",
-   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted."
+   "title": "End Date"
   },
   {
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "duration",
-   "title": "Duration (months)",
-   "type": "string",
-   "format": "",
-   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date."
+   "title": "Duration (months)"
   },
   {
+   "description": "-",
+   "format": "",
    "required": true,
-   "name": "description",
-   "title": "Description",
    "type": "string",
-   "format": "",
-   "description": "-"
+   "name": "description",
+   "title": "Description"
   },
   {
-   "required": false,
-   "name": "dateModified",
-   "title": "Last modified",
-   "type": "datetime",
+   "description": "-",
    "format": "",
-   "description": "-"
+   "required": false,
+   "type": "datetime",
+   "name": "dateModified",
+   "title": "Last modified"
   }
  ]
 }

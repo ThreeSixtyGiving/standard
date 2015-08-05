@@ -1,52 +1,52 @@
 {
  "fields": [
   {
+   "description": "A vocabulary used for this classification.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "vocabulary",
-   "title": "Vocabulary",
-   "type": "string",
-   "format": "",
-   "description": "A vocabulary used for this classification."
+   "title": "Vocabulary"
   },
   {
+   "description": "A codelist value in the chosen vocabulary.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "code",
-   "title": "Code",
-   "type": "string",
-   "format": "",
-   "description": "A codelist value in the chosen vocabulary."
+   "title": "Code"
   },
   {
+   "description": "The title of this classification.",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "title",
-   "title": "Title",
-   "type": "string",
-   "format": "",
-   "description": "The title of this classification."
+   "title": "Title"
   },
   {
+   "description": "A description of this classification.",
+   "format": "",
    "required": true,
+   "type": "string",
    "name": "description",
-   "title": "Description",
-   "type": "string",
-   "format": "",
-   "description": "A description of this classification."
+   "title": "Description"
   },
   {
+   "description": "A web link to more details of this classification.",
+   "format": "",
    "required": false,
+   "type": "string",
    "name": "url",
-   "title": "URL",
-   "type": "string",
-   "format": "",
-   "description": "A web link to more details of this classification."
+   "title": "URL"
   },
   {
-   "required": false,
-   "name": "dateModified",
-   "title": "Last modified",
-   "type": "datetime",
+   "description": "-",
    "format": "",
-   "description": "-"
+   "required": false,
+   "type": "datetime",
+   "name": "dateModified",
+   "title": "Last modified"
   }
  ]
 }
