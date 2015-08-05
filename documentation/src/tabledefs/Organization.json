@@ -1,149 +1,149 @@
 {
  "fields": [
   {
-   "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
-   "format": "",
-   "required": true,
-   "type": "string",
    "name": "id",
-   "title": "Identifier"
-  },
-  {
-   "description": "Organisation name",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "name",
-   "title": "Name"
-  },
-  {
-   "description": "The department or sub-unit of this organisation making or receiving the grant.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "department",
-   "title": "Department"
-  },
-  {
-   "description": "-",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "contactName",
-   "title": "Contact Name"
-  },
-  {
-   "description": "Registered charity number, if applicable.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "charityNumber",
-   "title": "Charity Number"
-  },
-  {
-   "description": "Registered UK company number, if applicable.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "companyNumber",
-   "title": "Company Number"
-  },
-  {
-   "description": "Building number and street name.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "streetAddress",
-   "title": "Street Address"
-  },
-  {
-   "description": "City or town.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "addressLocality",
-   "title": "City"
-  },
-  {
-   "description": "County",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "addressRegion",
-   "title": "County"
-  },
-  {
-   "description": "Country",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "addressCountry",
-   "title": "Country"
-  },
-  {
-   "description": "Postal code (please try and provide a post code whenever possible)",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "postalCode",
-   "title": "Postal Code"
-  },
-  {
-   "description": "Contact phone number.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "telephone",
-   "title": "Phone Number"
-  },
-  {
-   "description": "An alternative name for this organisation (e.g. trading name)",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "alternateName",
-   "title": "Alternate Name"
-  },
-  {
-   "description": "-",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "email",
-   "title": "Email"
-  },
-  {
-   "description": "A short description of this organisation and its area of work",
-   "format": "",
+   "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
+   "title": "Identifier",
    "required": true,
-   "type": "string",
-   "name": "description",
-   "title": "Description"
-  },
-  {
-   "description": "A description of this organisation",
    "format": "",
-   "allowed_values": "Registered Charity,Registered Company,Community Group,List to be updated",
-   "required": false,
-   "type": "string",
-   "name": "organisationType",
-   "title": "Organisation Type"
+   "type": "string"
   },
   {
-   "description": "A web address for the Organisation",
+   "name": "name",
+   "description": "Organisation name",
+   "title": "Name",
+   "required": false,
    "format": "",
-   "required": false,
-   "type": "string",
-   "name": "url",
-   "title": "Web Address"
+   "type": "string"
   },
   {
+   "name": "department",
+   "description": "The department or sub-unit of this organisation making or receiving the grant.",
+   "title": "Department",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "contactName",
    "description": "-",
-   "format": "",
+   "title": "Contact Name",
    "required": false,
-   "type": "datetime",
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "charityNumber",
+   "description": "Registered charity number, if applicable.",
+   "title": "Charity Number",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "companyNumber",
+   "description": "Registered UK company number, if applicable.",
+   "title": "Company Number",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "streetAddress",
+   "description": "Building number and street name.",
+   "title": "Street Address",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "addressLocality",
+   "description": "City or town.",
+   "title": "City",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "addressRegion",
+   "description": "County",
+   "title": "County",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "addressCountry",
+   "description": "Country",
+   "title": "Country",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "postalCode",
+   "description": "Postal code (please try and provide a post code whenever possible)",
+   "title": "Postal Code",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "telephone",
+   "description": "Contact phone number.",
+   "title": "Phone Number",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "alternateName",
+   "description": "An alternative name for this organisation (e.g. trading name)",
+   "title": "Alternate Name",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "email",
+   "description": "-",
+   "title": "Email",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "description",
+   "description": "A short description of this organisation and its area of work",
+   "title": "Description",
+   "required": true,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "organisationType",
+   "description": "A description of this organisation",
+   "title": "Organisation Type",
+   "required": false,
+   "format": "",
+   "type": "string",
+   "allowed_values": "Registered Charity,Registered Company,Community Group,List to be updated"
+  },
+  {
+   "name": "url",
+   "description": "A web address for the Organisation",
+   "title": "Web Address",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
    "name": "dateModified",
-   "title": "Last modified"
+   "description": "-",
+   "title": "Last modified",
+   "required": false,
+   "format": "",
+   "type": "datetime"
   }
  ]
 }

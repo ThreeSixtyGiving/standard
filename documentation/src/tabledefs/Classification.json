@@ -1,52 +1,52 @@
 {
  "fields": [
   {
-   "description": "A vocabulary used for this classification.",
-   "format": "",
-   "required": false,
-   "type": "string",
    "name": "vocabulary",
-   "title": "Vocabulary"
+   "description": "A vocabulary used for this classification.",
+   "title": "Vocabulary",
+   "required": false,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "A codelist value in the chosen vocabulary.",
-   "format": "",
-   "required": false,
-   "type": "string",
    "name": "code",
-   "title": "Code"
+   "description": "A codelist value in the chosen vocabulary.",
+   "title": "Code",
+   "required": false,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "The title of this classification.",
-   "format": "",
-   "required": true,
-   "type": "string",
    "name": "title",
-   "title": "Title"
-  },
-  {
-   "description": "A description of this classification.",
-   "format": "",
+   "description": "The title of this classification.",
+   "title": "Title",
    "required": true,
-   "type": "string",
+   "format": "",
+   "type": "string"
+  },
+  {
    "name": "description",
-   "title": "Description"
+   "description": "A description of this classification.",
+   "title": "Description",
+   "required": true,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "A web link to more details of this classification.",
-   "format": "",
-   "required": false,
-   "type": "string",
    "name": "url",
-   "title": "URL"
+   "description": "A web link to more details of this classification.",
+   "title": "URL",
+   "required": false,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "-",
-   "format": "",
-   "required": false,
-   "type": "datetime",
    "name": "dateModified",
-   "title": "Last modified"
+   "description": "-",
+   "title": "Last modified",
+   "required": false,
+   "format": "",
+   "type": "datetime"
   }
  ]
 }

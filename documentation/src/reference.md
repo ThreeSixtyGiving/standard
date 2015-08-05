@@ -17,7 +17,7 @@ There are two main formats available for representing 360 Giving data.
 
 In future, [a CSV Data Package](http://data.okfn.org/doc/data-package) serialisation will be available. Contact us if you need this.
 
-The [CoVE](http://cove.threesixtygiving.org) (Convert, Validate and Explore) can be used to round-trip data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
+The [CoVE](http://cove.opendataservices.coop/360/) (Convert, Validate and Explore) can be used to round-trip data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
 
 ## Spreadsheet format
 
@@ -163,27 +163,4 @@ The [360 Bridge tool](/tools/) supports round-tripping of data between Summary s
 
 Identifiers are documented on the [identifiers](/identifiers/) pages.
 
-
-
-
-<script>
-$('#toc').toc({
-    'selectors': 'h1,h2,h3,h4', //elements to use as headings
-    'smoothScrolling': true, //enable or disable smooth scrolling on click
-    'prefix': 'toc', //prefix for anchor tags and class names
-    'onHighlight': function(el) {}, //called when a new section is highlighted 
-    'highlightOnScroll': true, //add class to heading that is currently in focus
-    'highlightOffset': 100, //offset to trigger the next headline
-    'anchorName': function(i, heading, prefix) { //custom function for anchor name
-        return prefix+i;
-    },
-    'headerText': function(i, heading, $heading) { //custom function building the header-item text
-        if ($heading.text()=="About") {
-            return ""
-        } else {
-           return $heading.text();
-        }
-    }
-});
-</script>
 

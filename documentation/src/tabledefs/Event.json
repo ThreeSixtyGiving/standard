@@ -1,52 +1,52 @@
 {
  "fields": [
   {
-   "description": "-",
-   "format": "",
-   "required": true,
-   "type": "string",
    "name": "title",
-   "title": "Title"
-  },
-  {
-   "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
-   "format": "",
-   "required": false,
-   "type": "datetime",
-   "name": "startDate",
-   "title": "Start Date"
-  },
-  {
-   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
-   "format": "",
-   "required": false,
-   "type": "datetime",
-   "name": "endDate",
-   "title": "End Date"
-  },
-  {
-   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "duration",
-   "title": "Duration (months)"
-  },
-  {
    "description": "-",
-   "format": "",
+   "title": "Title",
    "required": true,
-   "type": "string",
-   "name": "description",
-   "title": "Description"
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "-",
-   "format": "",
+   "name": "startDate",
+   "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "title": "Start Date",
    "required": false,
-   "type": "datetime",
+   "format": "",
+   "type": "datetime"
+  },
+  {
+   "name": "endDate",
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+   "title": "End Date",
+   "required": false,
+   "format": "",
+   "type": "datetime"
+  },
+  {
+   "name": "duration",
+   "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
+   "title": "Duration (months)",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "description",
+   "description": "-",
+   "title": "Description",
+   "required": true,
+   "format": "",
+   "type": "string"
+  },
+  {
    "name": "dateModified",
-   "title": "Last modified"
+   "description": "-",
+   "title": "Last modified",
+   "required": false,
+   "format": "",
+   "type": "datetime"
   }
  ]
 }

@@ -1,52 +1,52 @@
 {
  "fields": [
   {
-   "description": "An identifier for this document.",
-   "format": "",
-   "required": true,
-   "type": "string",
    "name": "id",
-   "title": "Identifier"
+   "description": "An identifier for this document.",
+   "title": "Identifier",
+   "required": true,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "The document title",
-   "format": "",
-   "required": true,
-   "type": "string",
    "name": "title",
-   "title": "Title"
-  },
-  {
-   "description": "The URL of the document.",
-   "format": "",
-   "required": false,
-   "type": "string",
-   "name": "url",
-   "title": "Web Address"
-  },
-  {
-   "description": "A description of the document",
-   "format": "",
+   "description": "The document title",
+   "title": "Title",
    "required": true,
-   "type": "string",
+   "format": "",
+   "type": "string"
+  },
+  {
+   "name": "url",
+   "description": "The URL of the document.",
+   "title": "Web Address",
+   "required": false,
+   "format": "",
+   "type": "string"
+  },
+  {
    "name": "description",
-   "title": "Description"
+   "description": "A description of the document",
+   "title": "Description",
+   "required": true,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
-   "format": "",
-   "required": false,
-   "type": "string",
    "name": "documentType",
-   "title": "Document Type"
+   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
+   "title": "Document Type",
+   "required": false,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "What was this information last modified?",
-   "format": "",
-   "required": false,
-   "type": "datetime",
    "name": "dateModified",
-   "title": "Last modified"
+   "description": "What was this information last modified?",
+   "title": "Last modified",
+   "required": false,
+   "format": "",
+   "type": "datetime"
   }
  ]
 }

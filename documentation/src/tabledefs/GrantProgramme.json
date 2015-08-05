@@ -1,44 +1,44 @@
 {
  "fields": [
   {
-   "description": "An identifier for this grant programme.",
-   "format": "",
-   "required": false,
-   "type": "string",
    "name": "code",
-   "title": "Code"
+   "description": "An identifier for this grant programme.",
+   "title": "Code",
+   "required": false,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "The title of this grant programme.",
-   "format": "",
-   "required": true,
-   "type": "string",
    "name": "title",
-   "title": "Title"
-  },
-  {
-   "description": "A description of this grant programme.",
-   "format": "",
+   "description": "The title of this grant programme.",
+   "title": "Title",
    "required": true,
-   "type": "string",
+   "format": "",
+   "type": "string"
+  },
+  {
    "name": "description",
-   "title": "Description"
+   "description": "A description of this grant programme.",
+   "title": "Description",
+   "required": true,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "A web link to more details of this grant programme.",
-   "format": "",
-   "required": false,
-   "type": "string",
    "name": "url",
-   "title": "URL"
+   "description": "A web link to more details of this grant programme.",
+   "title": "URL",
+   "required": false,
+   "format": "",
+   "type": "string"
   },
   {
-   "description": "-",
-   "format": "",
-   "required": false,
-   "type": "datetime",
    "name": "dateModified",
-   "title": "Last modified"
+   "description": "-",
+   "title": "Last modified",
+   "required": false,
+   "format": "",
+   "type": "datetime"
   }
  ]
 }

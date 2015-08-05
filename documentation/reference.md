@@ -302,26 +302,3 @@ The [360 Bridge tool](/tools/) supports round-tripping of data between Summary s
 Identifiers are documented on the [identifiers](/identifiers/) pages.
 
 
-
-
-<script>
-$('#toc').toc({
-    'selectors': 'h1,h2,h3,h4', //elements to use as headings
-    'smoothScrolling': true, //enable or disable smooth scrolling on click
-    'prefix': 'toc', //prefix for anchor tags and class names
-    'onHighlight': function(el) {}, //called when a new section is highlighted 
-    'highlightOnScroll': true, //add class to heading that is currently in focus
-    'highlightOffset': 100, //offset to trigger the next headline
-    'anchorName': function(i, heading, prefix) { //custom function for anchor name
-        return prefix+i;
-    },
-    'headerText': function(i, heading, $heading) { //custom function building the header-item text
-        if ($heading.text()=="About") {
-            return ""
-        } else {
-           return $heading.text();
-        }
-    }
-});
-</script>
-
