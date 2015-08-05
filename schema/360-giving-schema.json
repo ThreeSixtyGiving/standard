@@ -256,12 +256,12 @@
             },
     
     "Organization": {
-      "type": "object",
+      "type": "object",http://www.threesixtygiving.org/standard/identifiers/
       "required":["id","name"],
       "properties": {
         "id": {
           "type": "string",
-          "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://docs.threesixtygiving.org/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
+          "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
           "weight": 0.001,
           "title": "Identifier"
         },
@@ -432,7 +432,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://docs.threesixtygiving.org/identifiers/#grant-identifier) for details.",
+      "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#grant-identifier) for details.",
       "weight": 0.001,
       "title": "Identifier"
     },
