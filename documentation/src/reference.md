@@ -2,15 +2,15 @@
 
 ## Standard Reference
 
-This page provides reference information on publishing to the 360 Giving Data Standard.
+This page provides reference information on publishing to the 360Giving Data Standard.
 
 It assumes some technical knowledge.
 
-If you are just getting started with the 360 Giving data standard, consult the [start publishing](/get-involved/publish-your-data/) pages.
+If you are just getting started with the 360Giving data standard, consult the [start publishing](/get-involved/publish-your-data/) pages.
 
 ## Data formats
 
-There are two main formats available for representing 360 Giving data.
+There are two main formats available for representing 360Giving data.
 
 1. **Spreadsheet**: provided with user-friendly **column titles**, and for recording one grant per row. This is the most common template that publishers choose.
 2. **JSON Schema**: for providing a structured representation of your data direct from your internal databases or via an API. Ideal for direct use by developers building visualisations and web apps.
@@ -93,12 +93,12 @@ You must not:
 
 ## JSON data model
 
-The 360 Giving standard is defined by a modified [JSON Schema](http://json-schema.org/). This details the entities that can be described using the standard, and the properties it recognises. 
+The 360Giving standard is defined by a modified [JSON Schema](http://json-schema.org/). This details the entities that can be described using the standard, and the properties it recognises. 
 
 At the root of the data model is a grant. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
 
 ### JSON Schema
-The JSON Schema is the authoritative source of information about the standard, and it should always be possible to transform 360 Giving data into structured JSON data according to this schema. 
+The JSON Schema is the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to this schema. 
 
 You can view the JSON Schema below, or [fullscreen here](//wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
