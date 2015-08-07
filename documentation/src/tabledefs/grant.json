@@ -2,7 +2,7 @@
  "fields": [
   {
    "name": "id",
-   "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.",
+   "description": "The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.",
    "title": "Identifier",
    "required": true,
    "format": "",
