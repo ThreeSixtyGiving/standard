@@ -1,5 +1,4 @@
 {
-  "id": "https://github.com/ThreeSixtyGiving/standard/blob/master/schema/360-giving-schema.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Three Sixty Giving Data Standard Schema",
   "type":"object",
