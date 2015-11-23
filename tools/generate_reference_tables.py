@@ -87,14 +87,14 @@ for key in data['definitions']:
             dict_writer.writeheader()
             dict_writer.writerows(table)
         with open('../documentation/src/tabledefs/'+key+'.json', 'w') as outfile:
-            json.dump({"fields":table}, outfile,indent=True)
+            json.dump({"fields":table}, outfile,indent=True,sort_keys=True)
     except KeyError:
         pass
     
 table = generate_table(data['properties'])
 
 with open('../documentation/src/tabledefs/grant.json', 'w',encoding='utf8') as outfile:
-    json.dump({"fields":table}, outfile,indent=True)
+    json.dump({"fields":table}, outfile,indent=True,sort_keys=True)
 
 with open('../documentation/src/tabledefs/grant.csv', 'w',encoding='utf8') as output_file:
     dict_writer = csv.DictWriter(output_file,  fieldnames=['title','name','description', 'type', 'format', 'allowed_values', 'required'])
