@@ -1,51 +1,51 @@
 {
  "fields": [
   {
-   "name": "vocabulary",
    "description": "A vocabulary used for this classification.",
+   "format": "",
+   "name": "vocabulary",
+   "required": false,
    "title": "Vocabulary",
-   "required": false,
-   "format": "",
    "type": "string"
   },
   {
-   "name": "code",
    "description": "A codelist value in the chosen vocabulary.",
+   "format": "",
+   "name": "code",
+   "required": false,
    "title": "Code",
-   "required": false,
-   "format": "",
    "type": "string"
   },
   {
-   "name": "title",
    "description": "The title of this classification.",
+   "format": "",
+   "name": "title",
+   "required": true,
    "title": "Title",
-   "required": true,
-   "format": "",
    "type": "string"
   },
   {
-   "name": "description",
    "description": "A description of this classification.",
-   "title": "Description",
+   "format": "",
+   "name": "description",
    "required": true,
-   "format": "",
+   "title": "Description",
    "type": "string"
   },
   {
-   "name": "url",
    "description": "A web link to more details of this classification.",
-   "title": "URL",
-   "required": false,
    "format": "",
+   "name": "url",
+   "required": false,
+   "title": "URL",
    "type": "string"
   },
   {
-   "name": "dateModified",
    "description": "-",
-   "title": "Last modified",
-   "required": false,
    "format": "",
+   "name": "dateModified",
+   "required": false,
+   "title": "Last modified",
    "type": "datetime"
   }
  ]
