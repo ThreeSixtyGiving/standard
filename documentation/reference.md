@@ -199,12 +199,12 @@ The 360Giving standard is defined by a modified [JSON Schema](http://json-schema
 
 At the root of the data model is a grant. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
 
-### JSON Schema
-The JSON Schema is the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to this schema. 
+### 360Giving JSON Schemas
+The 360Giving JSON Schemas are the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schema. 
 
-The JSON Schema defining a grant is [here](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json) and the documentation from this is displayed below, or [fullscreen here](/wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json).
+The [360Giving Grant Schema](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json) defines the structure of an individual 'grant' and the documentation from this is displayed below, or [fullscreen here](/wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json).
 
-There is also a schema describing how multiple grants are packaged into one JSON file [here](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-package-schema.json).
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The [360Giving Package  Schema](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-package-schema.json) describes how grants are packaged into one file.
 
 In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
