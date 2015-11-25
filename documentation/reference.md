@@ -202,7 +202,11 @@ At the root of the data model is a grant. Grants have a number of direct propert
 ### JSON Schema
 The JSON Schema is the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to this schema. 
 
-You can view the JSON Schema below, or [fullscreen here](//wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
+The JSON Schema defining a grant is [here](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json) and the documentation from this is displayed below, or [fullscreen here](/wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json).
+
+There is also a schema describing how multiple grants are packaged into one JSON file [here](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-package-schema.json).
+
+In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
 <script src="/wp-content/plugins/threesixty_docs/docson/widget.js" 
@@ -260,7 +264,7 @@ A mapping between column titles and field names for the Summary Table is given b
 
 
 ## Extending the summary table
-The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/assets/standard/schema/360-giving-schema.json). The [360 Bridge](/tools/) tool uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Activity table if a particular use-case requires. 
+The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). The [360 Bridge](/tools/) tool uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Activity table if a particular use-case requires. 
 
 For example, the structure:
 
