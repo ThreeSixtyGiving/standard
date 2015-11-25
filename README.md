@@ -1,15 +1,15 @@
-![360 Giving Logo](http://openphilanthropy.files.wordpress.com/2014/02/cropped-360givinglogo-2010-size.jpg)
+![360Giving Logo](http://openphilanthropy.files.wordpress.com/2014/02/cropped-360givinglogo-2010-size.jpg)
 
-360 Giving Standard
+360Giving Standard
 ========
 
-360 Giving aims to help UK grant makers and philanthropists to publish their grant information online in an easy to use way.  We are motivated by a commitment to the value of open data and strategic funding.
+360Giving aims to help UK grant makers and philanthropists to publish their grant information online in an easy to use way.  We are motivated by a commitment to the value of open data and strategic funding.
 
-The **360 Giving Data Standard** provides a common approach for publishing grant data. 
+The **360Giving Data Standard** provides a common approach for publishing grant data. 
 
-For more about the overall project, visit the main [360 Giving website](http://threesixtygiving.com/about/).
+For more about the overall project, visit the main [360Giving website](http://threesixtygiving.com/about/).
 
-Full documentation of the data standard is provided at [http://threesixtygiving.github.io](http://threesixtygiving.github.io)
+Full documentation of the data standard is provided at [http://www.threesixtygiving.org/standard](http://www.threesixtygiving.org/standard/)
 
 ## Schema and tools
 
