@@ -150,7 +150,7 @@ The naming convention for field names is to:
 
 The naming convention for field titles is to:
 
-* Concatenate the relationship and property titles using :
+* Concatenate the relationship and property titles using a ```:```.
 
 In the event that a value for a property is given in both a sub-table, and the summary table, the sub-table value always takes precedence, and will over-write the summary value. 
 
