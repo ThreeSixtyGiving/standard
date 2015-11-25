@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "Three Sixty Giving Data Standard Schema",
+  "title": "360Giving Data Standard Schema",
   "type":"object",
   "definitions": {
       "currency": {
