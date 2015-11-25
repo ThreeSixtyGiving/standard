@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Schema for a Three Sixty Giving Data Grant Package",
+    "type": "object",
+    "required": ["grants"],
+    "properties": {
+        "grants": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "https://raw.githubusercontent.com/ThreeSixtyGiving/standard/package-schema/schema/360-giving-schema.json" },
+            "uniqueItems": true
+        }
+    }
+}
