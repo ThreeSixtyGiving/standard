@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Schema for a Three Sixty Giving Data Grant Package",
+    "title": "Schema for a 360Giving Data Grant Package",
     "type": "object",
     "required": ["grants"],
     "properties": {
