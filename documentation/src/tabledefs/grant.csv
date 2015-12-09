@@ -17,6 +17,7 @@ Recipient Org:Charity Number,recipientOrganization[]/charityNumber,"Details of t
 Recipient Org:Company Number,recipientOrganization[]/companyNumber,"Details of the recipient of this grant. Registered UK company number, if applicable.",string,,,False
 Recipient Org:Street Address,recipientOrganization[]/streetAddress,Details of the recipient of this grant. Building number and street name.,string,,,False
 Recipient Org:City,recipientOrganization[]/addressLocality,Details of the recipient of this grant. City or town.,string,,,False
+Recipient Org:County,recipientOrganization[]/addressRegion,Details of the recipient of this grant. County,string,,,False
 Recipient Org:Postal Code,recipientOrganization[]/postalCode,Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible),string,,,False
 Recipient Org:Country,recipientOrganization[]/addressCountry,Details of the recipient of this grant. Country,string,,,False
 Recipient Org:Description,recipientOrganization[]/description,Details of the recipient of this grant. A short description of this organisation and its area of work,string,,,False

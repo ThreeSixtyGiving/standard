@@ -56,6 +56,7 @@ To provide classifications of grants, more than one location, or additional docu
 |Recipient Org:Company Number|Details of the recipient of this grant. Registered UK company number, if applicable.|string|False|
 |Recipient Org:Street Address|Details of the recipient of this grant. Building number and street name.|string|False|
 |Recipient Org:City|Details of the recipient of this grant. City or town.|string|False|
+|Recipient Org:County|Details of the recipient of this grant. County|string|False|
 |Recipient Org:Postal Code|Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)|string|False|
 |Recipient Org:Country|Details of the recipient of this grant. Country|string|False|
 |Recipient Org:Description|Details of the recipient of this grant. A short description of this organisation and its area of work|string|False|
@@ -247,6 +248,7 @@ A mapping between column titles and field names for the Summary Table is given b
 |Recipient Org:Company Number|recipientOrganization[]/companyNumber|string|
 |Recipient Org:Street Address|recipientOrganization[]/streetAddress|string|
 |Recipient Org:City|recipientOrganization[]/addressLocality|string|
+|Recipient Org:County|recipientOrganization[]/addressRegion|string|
 |Recipient Org:Postal Code|recipientOrganization[]/postalCode|string|
 |Recipient Org:Country|recipientOrganization[]/addressCountry|string|
 |Recipient Org:Description|recipientOrganization[]/description|string|

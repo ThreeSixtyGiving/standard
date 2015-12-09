@@ -510,7 +510,7 @@
       "weight": 5,
       "title": "Recipient Org",
       "description":"Details of the recipient of this grant.",
-      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","postalCode","addressCountry","description","url"]      
+      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","addressRegion","postalCode","addressCountry","description","url"]      
     },
     "beneficiaryLocation": {
       "items": {
