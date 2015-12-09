@@ -154,6 +154,30 @@
    "type": "string"
   },
   {
+   "description": "Details of the recipient of this grant. Country",
+   "format": "",
+   "name": "recipientOrganization[]/addressCountry",
+   "required": false,
+   "title": "Recipient Org:Country",
+   "type": "string"
+  },
+  {
+   "description": "Details of the recipient of this grant. A short description of this organisation and its area of work",
+   "format": "",
+   "name": "recipientOrganization[]/description",
+   "required": false,
+   "title": "Recipient Org:Description",
+   "type": "string"
+  },
+  {
+   "description": "Details of the recipient of this grant. A web address for the Organisation",
+   "format": "",
+   "name": "recipientOrganization[]/url",
+   "required": false,
+   "title": "Recipient Org:Web Address",
+   "type": "string"
+  },
+  {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A name for this location.",
    "format": "",
    "name": "beneficiaryLocation[]/name",

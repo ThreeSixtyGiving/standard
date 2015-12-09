@@ -57,6 +57,9 @@ To provide classifications of grants, more than one location, or additional docu
 |Recipient Org:Street Address|Details of the recipient of this grant. Building number and street name.|string|False|
 |Recipient Org:City|Details of the recipient of this grant. City or town.|string|False|
 |Recipient Org:Postal Code|Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)|string|False|
+|Recipient Org:Country|Details of the recipient of this grant. Country|string|False|
+|Recipient Org:Description|Details of the recipient of this grant. A short description of this organisation and its area of work|string|False|
+|Recipient Org:Web Address|Details of the recipient of this grant. A web address for the Organisation|string|False|
 |Beneficiary Location:Name|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A name for this location.|string|False|
 |Beneficiary Location:Country Code|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The ISO Country Code of the location of this activity.|string|False|
 |Beneficiary Location:Latitude|Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The latitude of a point location|string|False|
@@ -245,6 +248,9 @@ A mapping between column titles and field names for the Summary Table is given b
 |Recipient Org:Street Address|recipientOrganization[]/streetAddress|string|
 |Recipient Org:City|recipientOrganization[]/addressLocality|string|
 |Recipient Org:Postal Code|recipientOrganization[]/postalCode|string|
+|Recipient Org:Country|recipientOrganization[]/addressCountry|string|
+|Recipient Org:Description|recipientOrganization[]/description|string|
+|Recipient Org:Web Address|recipientOrganization[]/url|string|
 |Beneficiary Location:Name|beneficiaryLocation[]/name|string|
 |Beneficiary Location:Country Code|beneficiaryLocation[]/countryCode|string|
 |Beneficiary Location:Latitude|beneficiaryLocation[]/latitude|string|
