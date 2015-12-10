@@ -146,11 +146,43 @@
    "type": "string"
   },
   {
+   "description": "Details of the recipient of this grant. County",
+   "format": "",
+   "name": "recipientOrganization[]/addressRegion",
+   "required": false,
+   "title": "Recipient Org:County",
+   "type": "string"
+  },
+  {
    "description": "Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)",
    "format": "",
    "name": "recipientOrganization[]/postalCode",
    "required": false,
    "title": "Recipient Org:Postal Code",
+   "type": "string"
+  },
+  {
+   "description": "Details of the recipient of this grant. Country",
+   "format": "",
+   "name": "recipientOrganization[]/addressCountry",
+   "required": false,
+   "title": "Recipient Org:Country",
+   "type": "string"
+  },
+  {
+   "description": "Details of the recipient of this grant. A short description of this organisation and its area of work",
+   "format": "",
+   "name": "recipientOrganization[]/description",
+   "required": false,
+   "title": "Recipient Org:Description",
+   "type": "string"
+  },
+  {
+   "description": "Details of the recipient of this grant. A web address for the Organisation",
+   "format": "",
+   "name": "recipientOrganization[]/url",
+   "required": false,
+   "title": "Recipient Org:Web Address",
    "type": "string"
   },
   {
