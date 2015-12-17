@@ -21,6 +21,9 @@ From Version 1.0 of the schema and onwards:
 
 This repository stores the latest versions of the schema, along with tools used in generating secondary serialisations and documentation.
 
+## Editing documentation
+
+Edit the documentation in the [documentation/src](documentation/src) directory, and then run `sync_schema.sh` (described below) to pull information from the schema into the compiled docs in the [documentation](documentation) directory.
 
 ## Synchronising schemas
 
