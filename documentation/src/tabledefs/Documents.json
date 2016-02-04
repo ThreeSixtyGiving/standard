@@ -33,7 +33,7 @@
    "type": "string"
   },
   {
-   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
+   "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.",
    "format": "",
    "name": "documentType",
    "required": false,
