@@ -38,7 +38,7 @@ To provide classifications of grants, more than one location, or additional docu
 
 |Title|Description|Type|Required|
 |----|----|----|----|
-|Identifier|The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
+|Identifier|The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
 |Title|A title for this grant activity. This should be under 140 characters long.|string|True|
 |Description|A short description of this grant activity.|string|True|
 |Currency|The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
@@ -121,7 +121,7 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Title|The document title|string|True|
 |Web Address|The URL of the document.|string|False|
 |Description|A description of the document|string|True|
-|Document Type|A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.|string|False|
+|Document Type|A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.|string|False|
 |Last modified|What was this information last modified?|datetime|False|
 
 

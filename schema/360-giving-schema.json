@@ -99,7 +99,7 @@
         },
         "documentType": {
           "type": ["string","null"],
-          "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360 Giving will provide a codelist of document types.",
+          "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.",
           "weight": 0.8,
           "title": "Document Type"
         },
@@ -431,7 +431,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "The unique identifier for this grant. Made up of your 360 Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.",
+      "description": "The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.",
       "weight": 0.001,
       "title": "Identifier"
     },
