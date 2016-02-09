@@ -41,7 +41,7 @@ To provide classifications of grants, more than one location, or additional docu
 |Identifier|The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
 |Title|A title for this grant activity. This should be under 140 characters long.|string|True|
 |Description|A short description of this grant activity.|string|True|
-|Currency|The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
+|Currency|The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|True|
 |Amount Applied For|Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.|number|False|
 |Amount Awarded|Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.|number|True|
 |Amount Disbursed|Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.|number|False|
@@ -167,7 +167,7 @@ In the first column of each tab you would enter the identifier of the grant to w
 |----|----|----|----|
 |Identifier|Identifier|string|True|
 |Transaction date|When did this transaction take place? Please use YYYY-MM-DD format.|datetime|False|
-|Currency|The currency used in amounts. Use the three-digit currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) |string|True|
+|Currency|The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|True|
 |Value|The total value of this transaction.|integer|False|
 |Value date|The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|datetime|False|
 |Description|A description of this transaction.|string|True|
