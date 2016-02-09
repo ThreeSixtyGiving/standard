@@ -87,7 +87,7 @@ Some recipients will have official registration numbers that can be used to iden
 
 To give users of 360Giving data the best chance of joining up information about the same organisations across different data files, we follow a simple methodology to create Organisation Identifiers.
 
-This can be summarised through the following process. As soon as a step gives you an identifier, you can stop use the given identifier. 
+This can be summarised through the following process. As soon as a step gives you an identifier, you can stop there and use the given identifier. 
 
 1. If you have a **registered company number** for the organisation, use the prefix 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
 
