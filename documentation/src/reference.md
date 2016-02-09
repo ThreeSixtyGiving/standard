@@ -17,7 +17,7 @@ There are two main formats available for representing 360Giving data.
 
 In future, [a CSV Data Package](http://data.okfn.org/doc/data-package) serialisation will be available. Contact us if you need this.
 
-The [CoVE](http://cove.opendataservices.coop/360/) (Convert, Validate and Explore) can be used to round-trip data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
+The [CoVE](http://cove.opendataservices.coop/360/) (Convert, Validate and Explore) tool can be used to round-trip data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
 
 ## Spreadsheet format
 
@@ -126,7 +126,7 @@ A mapping between column titles and field names for the Summary Table is given b
 
 
 ## Extending the summary table
-The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). The [360 Bridge](/tools/) tool uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Activity table if a particular use-case requires. 
+The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). There is a [Flatten Tool](https://github.com/OpenDataServices/flatten-tool) that uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Activity table if a particular use-case requires. 
 
 For example, the structure:
 
@@ -160,10 +160,10 @@ When data is being generated directly out of a database system, publishers shoul
 
 Developers may also wish to build their applications of JSON versions of the data. 
 
-The [360 Bridge tool](/tools/) supports round-tripping of data between Summary spreadsheet, multi-table datapackage and JSON representations. 
+The [CoVE](http://cove.opendataservices.coop/360/) (Convert, Validate and Explore) tool supports round-tripping of data between Summary spreadsheet, multi-table datapackage and JSON representations. 
+
 
 ## Schema documentation
-
 
 Identifiers are documented on the [identifiers](/identifiers/) pages.
 
