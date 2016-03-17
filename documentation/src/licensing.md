@@ -51,6 +51,4 @@ What if I need more help?
 -------------
 Please contact the support team: support [at] threesixtygiving.org
 
-Support is provided by [Open Data Services](http://opendataservices.coop/ "Open Data Services") through the 360Giving Helpdesk, which is funded by 360Giving.
-
 _Note: Helpdesk services are provided on a best efforts basis, without warranty of the accuracy or completeness of information provided._
