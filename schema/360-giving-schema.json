@@ -583,8 +583,7 @@
       },
       "type": "array",
       "description": "-",
-      "weight": 5.02,
-      "title": "Amount applied for"
+      "weight": 5.02
     },
     "commitmentTransaction": {
       "items": {
@@ -592,8 +591,7 @@
       },
       "type": "array",
       "description": "-",
-      "weight": 5.02,
-      "title": "Amount awarded"
+      "weight": 5.02
     },
     "disbursementTransaction": {
          "items": {
@@ -601,8 +599,7 @@
          },
          "type": "array",
          "description": "-",
-         "weight": 5,
-         "title": "Amount paid out"
+         "weight": 5
        },
     "relatedActivity": {
       "type": "array",
