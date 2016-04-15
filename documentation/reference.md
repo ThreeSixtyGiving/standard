@@ -1,7 +1,5 @@
 <div id="toc"></div>
 
-## Standard Reference
-
 This page provides reference information on publishing to the 360Giving Data Standard.
 
 It assumes some technical knowledge.
