@@ -272,15 +272,15 @@ A mapping between column titles and field names for the Summary Table is given b
 
 
 ## Extending the summary table
-The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). There is a [Flatten Tool](https://github.com/OpenDataServices/flatten-tool) that uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Activity table if a particular use-case requires. 
+The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). There is a [Flatten Tool](https://github.com/OpenDataServices/flatten-tool) that uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Grants table if a particular use-case requires. 
 
 For example, the structure:
 
-* Activity
+* grants
   * relatedDocument
     * url
 
-can by represented in the Activity table under the column name:
+can by represented in the `Grants` table under the column name:
 
 * ```relatedDocument/0/url``` 
 
