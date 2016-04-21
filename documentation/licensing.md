@@ -3,17 +3,17 @@ Guide to 360Giving Open Data Licensing
 
 About this Guide
 -------------
-This guide is for organisations in the UK publishing grant-making information to the 360Giving format. We assume that you have permission to publish grant-making information if you are not the primary owner. For example, if the information was collected or published by donors, subsidiaries or other third parties.
+This guide is for organisations publishing grantmaking information to the 360Giving format. We assume that you have permission to publish the information if you are not the primary owner. For example, if the information was collected or published by donors, subsidiaries or other third parties.
 
 What is open data?
 -------------
-Open data is data available to everyone to use and share without restrictions. Open data is non-personal data released by people, organisations and governments, so you're probably using open data without realising it! 
+Open data is data available to everyone to use and share without restrictions. Open data is non-personal data released by people, organisations and governments.
 
-This could be getting around London with real-time travel updates thanks to [CityMapper](https://citymapper.com "Citymapper - The Ultimate Transport App"), which uses open data from Transport for London and OpenStreetMaps amongst others. Or it could be getting up-to-date with the state of the voluntary sector with the [NCVO Almanac](https://data.ncvo.org.uk/ "NCVO UK Civil Society Almanac") which uses open data from the Charity Commission and Companies House. 
+You are probably using open data without realising it. An example could be getting around London with real-time travel updates thanks to [CityMapper](https://citymapper.com "Citymapper - The Ultimate Transport App"), which uses open data from Transport for London and OpenStreetMaps amongst others. Or it could be getting up-to-date with the state of the voluntary sector with the [NCVO Almanac](https://data.ncvo.org.uk/ "NCVO UK Civil Society Almanac") which uses open data from the Charity Commission and Companies House. 
 
 Why license 360Giving data?
 -------------
-Without a license, data isn't open data and potential users wouldn't know what they are allowed to do with it. At 360Giving, we believe that with better information, grantmakers can be more effective and strategic decision-makers. To achieve this, 360Giving recommends using an open license which removes restrictions on anyone interested in using, sharing and understanding the grants landscape.
+Without a license, data isn't open data and potential users wouldn't know what they are allowed to do with it. At 360Giving, we believe that with better information, grantmakers can be more effective and strategic decision makers. To achieve this, 360Giving recommends using an open license which removes restrictions on anyone interested in using, sharing and understanding the grants landscape.
 
 Which license should you choose?
 -------------
@@ -37,11 +37,11 @@ Here's an example of a license statement based on our recommended CC BY 4.0 lice
 >
 > This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. This means the data is freely accessible to anyone to be used and shared as they wish. The data must be attributed to [Organisation].
 >
-> We believe that with better information, grantmakers can be more effective and strategic decision-makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant-making more effective. For more information, visit http://www.threesixtygiving.org/
+> We believe that with better information, grantmakers can be more effective and strategic decision makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant making more effective. For more information, visit http://www.threesixtygiving.org/
 
 Where can I find more information?
 -------------
-There are several guides available on licensing open data. An excellent place to start is [Publisher's Guide to Open Data Licensing](https://theodi.org/guides/publishers-guide-open-data-licensing "Publisher's Guide to Open Data Licensing") by The Open Data Institute.
+There are several guides available on licensing open data. A good place to start is [Publisher's Guide to Open Data Licensing](https://theodi.org/guides/publishers-guide-open-data-licensing "Publisher's Guide to Open Data Licensing") by the Open Data Institute.
 
 If you need more in-depth guides that cover a wide variety of legal and technical considerations, we recommend:
 * [Licensing Open Data: A Practical Guide](http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf "Licensing Open Data: A Practical Guide") from Higher Education Funding Council for England (HEFCE) on behalf of JISC
@@ -50,5 +50,3 @@ If you need more in-depth guides that cover a wide variety of legal and technica
 What if I need more help?
 -------------
 Please contact the support team: support [at] threesixtygiving.org
-
-_Note: Helpdesk services are provided on a best efforts basis, without warranty of the accuracy or completeness of information provided._
