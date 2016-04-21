@@ -45,7 +45,7 @@ def generate_table(path):
         else:
             required = False
     
-        if 'array' in defs['type'] or 'object' in defs['type']:
+        if 'array' in defs['type']:
             try: # If we have rollUp properties, then include these in the summary table 
                 for item in defs['rollUp']:
                     subfield = {}
@@ -61,12 +61,14 @@ def generate_table(path):
                 
                     field_info = get_field_info(subdefs)
 
-                    subfield.update({"name":name + "[]/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':defs.get('description','-') + " " +subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":sub_required})
+                    subfield.update({"name":name + "/0/"+ item + field_info['suffix'],'title':defs['title'] + ":" + subdefs['title'],'description':defs.get('description','-') + " " +subdefs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":sub_required})
                     table_schema.append(subfield)
 
             except Exception as a:
                 if defs['items'] == 'string':
                     field.update({"name":name,'title':defs['title'],'description':defs.get('description','-'),'type':'array','format':'string',"required":required})
+        elif  'object' in defs['type']:
+            raise NotImplementedError
         else:
             field_info = get_field_info(defs)
             field.update({'name':name,'title':defs['title'],'description':defs.get('description','-'),"type":field_info["type"],"format":field_info["format"],"required":required})

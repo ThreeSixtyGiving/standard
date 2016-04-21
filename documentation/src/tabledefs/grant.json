@@ -76,7 +76,7 @@
   {
    "description": "When the applicant / implementing organisation originally intend this activity to take place.  All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
    "format": "",
-   "name": "plannedDates[]/startDate",
+   "name": "plannedDates/0/startDate",
    "required": false,
    "title": "Planned Dates:Start Date",
    "type": "datetime"
@@ -84,7 +84,7 @@
   {
    "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
    "format": "",
-   "name": "plannedDates[]/endDate",
+   "name": "plannedDates/0/endDate",
    "required": false,
    "title": "Planned Dates:End Date",
    "type": "datetime"
@@ -92,7 +92,7 @@
   {
    "description": "When the applicant / implementing organisation originally intend this activity to take place.  Events or activities lasting more than one day should have either a duration (in months) or an end date.",
    "format": "",
-   "name": "plannedDates[]/duration",
+   "name": "plannedDates/0/duration",
    "required": false,
    "title": "Planned Dates:Duration (months)",
    "type": "string"
@@ -100,7 +100,7 @@
   {
    "description": "Details of the recipient of this grant. A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
    "format": "",
-   "name": "recipientOrganization[]/id",
+   "name": "recipientOrganization/0/id",
    "required": true,
    "title": "Recipient Org:Identifier",
    "type": "string"
@@ -108,7 +108,7 @@
   {
    "description": "Details of the recipient of this grant. Organisation name",
    "format": "",
-   "name": "recipientOrganization[]/name",
+   "name": "recipientOrganization/0/name",
    "required": true,
    "title": "Recipient Org:Name",
    "type": "string"
@@ -116,7 +116,7 @@
   {
    "description": "Details of the recipient of this grant. Registered charity number, if applicable.",
    "format": "",
-   "name": "recipientOrganization[]/charityNumber",
+   "name": "recipientOrganization/0/charityNumber",
    "required": false,
    "title": "Recipient Org:Charity Number",
    "type": "string"
@@ -124,7 +124,7 @@
   {
    "description": "Details of the recipient of this grant. Registered UK company number, if applicable.",
    "format": "",
-   "name": "recipientOrganization[]/companyNumber",
+   "name": "recipientOrganization/0/companyNumber",
    "required": false,
    "title": "Recipient Org:Company Number",
    "type": "string"
@@ -132,7 +132,7 @@
   {
    "description": "Details of the recipient of this grant. Building number and street name.",
    "format": "",
-   "name": "recipientOrganization[]/streetAddress",
+   "name": "recipientOrganization/0/streetAddress",
    "required": false,
    "title": "Recipient Org:Street Address",
    "type": "string"
@@ -140,7 +140,7 @@
   {
    "description": "Details of the recipient of this grant. City or town.",
    "format": "",
-   "name": "recipientOrganization[]/addressLocality",
+   "name": "recipientOrganization/0/addressLocality",
    "required": false,
    "title": "Recipient Org:City",
    "type": "string"
@@ -148,7 +148,7 @@
   {
    "description": "Details of the recipient of this grant. County",
    "format": "",
-   "name": "recipientOrganization[]/addressRegion",
+   "name": "recipientOrganization/0/addressRegion",
    "required": false,
    "title": "Recipient Org:County",
    "type": "string"
@@ -156,7 +156,7 @@
   {
    "description": "Details of the recipient of this grant. Postal code (please try and provide a post code whenever possible)",
    "format": "",
-   "name": "recipientOrganization[]/postalCode",
+   "name": "recipientOrganization/0/postalCode",
    "required": false,
    "title": "Recipient Org:Postal Code",
    "type": "string"
@@ -164,7 +164,7 @@
   {
    "description": "Details of the recipient of this grant. Country",
    "format": "",
-   "name": "recipientOrganization[]/addressCountry",
+   "name": "recipientOrganization/0/addressCountry",
    "required": false,
    "title": "Recipient Org:Country",
    "type": "string"
@@ -172,7 +172,7 @@
   {
    "description": "Details of the recipient of this grant. A short description of this organisation and its area of work",
    "format": "",
-   "name": "recipientOrganization[]/description",
+   "name": "recipientOrganization/0/description",
    "required": false,
    "title": "Recipient Org:Description",
    "type": "string"
@@ -180,7 +180,7 @@
   {
    "description": "Details of the recipient of this grant. A web address for the Organisation",
    "format": "",
-   "name": "recipientOrganization[]/url",
+   "name": "recipientOrganization/0/url",
    "required": false,
    "title": "Recipient Org:Web Address",
    "type": "string"
@@ -188,7 +188,7 @@
   {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A name for this location.",
    "format": "",
-   "name": "beneficiaryLocation[]/name",
+   "name": "beneficiaryLocation/0/name",
    "required": false,
    "title": "Beneficiary Location:Name",
    "type": "string"
@@ -196,7 +196,7 @@
   {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The ISO Country Code of the location of this activity.",
    "format": "",
-   "name": "beneficiaryLocation[]/countryCode",
+   "name": "beneficiaryLocation/0/countryCode",
    "required": false,
    "title": "Beneficiary Location:Country Code",
    "type": "string"
@@ -204,7 +204,7 @@
   {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The latitude of a point location",
    "format": "",
-   "name": "beneficiaryLocation[]/latitude",
+   "name": "beneficiaryLocation/0/latitude",
    "required": false,
    "title": "Beneficiary Location:Latitude",
    "type": "string"
@@ -212,7 +212,7 @@
   {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The longitude of a point location",
    "format": "",
-   "name": "beneficiaryLocation[]/longitude",
+   "name": "beneficiaryLocation/0/longitude",
    "required": false,
    "title": "Beneficiary Location:Longitude",
    "type": "string"
@@ -220,7 +220,7 @@
   {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.",
    "format": "",
-   "name": "beneficiaryLocation[]/geoCode",
+   "name": "beneficiaryLocation/0/geoCode",
    "required": false,
    "title": "Beneficiary Location:Geographic Code",
    "type": "string"
@@ -228,7 +228,7 @@
   {
    "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications. The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).",
    "format": "",
-   "name": "beneficiaryLocation[]/geoCodeType",
+   "name": "beneficiaryLocation/0/geoCodeType",
    "required": false,
    "title": "Beneficiary Location:Geographic Code Type",
    "type": "string"
@@ -236,7 +236,7 @@
   {
    "description": "Details of the funder A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
    "format": "",
-   "name": "fundingOrganization[]/id",
+   "name": "fundingOrganization/0/id",
    "required": true,
    "title": "Funding Org:Identifier",
    "type": "string"
@@ -244,7 +244,7 @@
   {
    "description": "Details of the funder Organisation name",
    "format": "",
-   "name": "fundingOrganization[]/name",
+   "name": "fundingOrganization/0/name",
    "required": true,
    "title": "Funding Org:Name",
    "type": "string"
@@ -252,7 +252,7 @@
   {
    "description": "Details of the funder The department or sub-unit of this organisation making or receiving the grant.",
    "format": "",
-   "name": "fundingOrganization[]/department",
+   "name": "fundingOrganization/0/department",
    "required": false,
    "title": "Funding Org:Department",
    "type": "string"
@@ -260,7 +260,7 @@
   {
    "description": "- An identifier for this grant programme.",
    "format": "",
-   "name": "grantProgramme[]/code",
+   "name": "grantProgramme/0/code",
    "required": false,
    "title": "Grant Programme:Code",
    "type": "string"
@@ -268,7 +268,7 @@
   {
    "description": "- The title of this grant programme.",
    "format": "",
-   "name": "grantProgramme[]/title",
+   "name": "grantProgramme/0/title",
    "required": false,
    "title": "Grant Programme:Title",
    "type": "string"
@@ -276,7 +276,7 @@
   {
    "description": "- A web link to more details of this grant programme.",
    "format": "",
-   "name": "grantProgramme[]/url",
+   "name": "grantProgramme/0/url",
    "required": false,
    "title": "Grant Programme:URL",
    "type": "string"

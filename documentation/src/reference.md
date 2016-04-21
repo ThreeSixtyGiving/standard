@@ -136,7 +136,7 @@ For example, the structure:
 
 can by represented in the Activity table under the column name:
 
-* ```relatedDocument[]/url``` 
+* ```relatedDocument/0/url``` 
 
 or the column title
 
@@ -144,7 +144,7 @@ or the column title
 
 The naming convention for field names is to:
 
-* If the relationship can be a one-to-many relationship, append ```[]``` to the relationship property name 
+* If the relationship can be a one-to-many relationship, append ```/0``` to the relationship property name 
 * Concatenate the relationship and property names using /
 * If required, indicate the type of the column values using the ```:number```, ```:integer```, ```:string```, ```:date-time``` and so-on.
 

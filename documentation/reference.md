@@ -239,32 +239,32 @@ A mapping between column titles and field names for the Summary Table is given b
 |Amount Disbursed|amountDisbursed|number|
 |Award Date|awardDate|datetime|
 |URL|url|string|
-|Planned Dates:Start Date|plannedDates[]/startDate|datetime|
-|Planned Dates:End Date|plannedDates[]/endDate|datetime|
-|Planned Dates:Duration (months)|plannedDates[]/duration|string|
-|Recipient Org:Identifier|recipientOrganization[]/id|string|
-|Recipient Org:Name|recipientOrganization[]/name|string|
-|Recipient Org:Charity Number|recipientOrganization[]/charityNumber|string|
-|Recipient Org:Company Number|recipientOrganization[]/companyNumber|string|
-|Recipient Org:Street Address|recipientOrganization[]/streetAddress|string|
-|Recipient Org:City|recipientOrganization[]/addressLocality|string|
-|Recipient Org:County|recipientOrganization[]/addressRegion|string|
-|Recipient Org:Postal Code|recipientOrganization[]/postalCode|string|
-|Recipient Org:Country|recipientOrganization[]/addressCountry|string|
-|Recipient Org:Description|recipientOrganization[]/description|string|
-|Recipient Org:Web Address|recipientOrganization[]/url|string|
-|Beneficiary Location:Name|beneficiaryLocation[]/name|string|
-|Beneficiary Location:Country Code|beneficiaryLocation[]/countryCode|string|
-|Beneficiary Location:Latitude|beneficiaryLocation[]/latitude|string|
-|Beneficiary Location:Longitude|beneficiaryLocation[]/longitude|string|
-|Beneficiary Location:Geographic Code|beneficiaryLocation[]/geoCode|string|
-|Beneficiary Location:Geographic Code Type|beneficiaryLocation[]/geoCodeType|string|
-|Funding Org:Identifier|fundingOrganization[]/id|string|
-|Funding Org:Name|fundingOrganization[]/name|string|
-|Funding Org:Department|fundingOrganization[]/department|string|
-|Grant Programme:Code|grantProgramme[]/code|string|
-|Grant Programme:Title|grantProgramme[]/title|string|
-|Grant Programme:URL|grantProgramme[]/url|string|
+|Planned Dates:Start Date|plannedDates/0/startDate|datetime|
+|Planned Dates:End Date|plannedDates/0/endDate|datetime|
+|Planned Dates:Duration (months)|plannedDates/0/duration|string|
+|Recipient Org:Identifier|recipientOrganization/0/id|string|
+|Recipient Org:Name|recipientOrganization/0/name|string|
+|Recipient Org:Charity Number|recipientOrganization/0/charityNumber|string|
+|Recipient Org:Company Number|recipientOrganization/0/companyNumber|string|
+|Recipient Org:Street Address|recipientOrganization/0/streetAddress|string|
+|Recipient Org:City|recipientOrganization/0/addressLocality|string|
+|Recipient Org:County|recipientOrganization/0/addressRegion|string|
+|Recipient Org:Postal Code|recipientOrganization/0/postalCode|string|
+|Recipient Org:Country|recipientOrganization/0/addressCountry|string|
+|Recipient Org:Description|recipientOrganization/0/description|string|
+|Recipient Org:Web Address|recipientOrganization/0/url|string|
+|Beneficiary Location:Name|beneficiaryLocation/0/name|string|
+|Beneficiary Location:Country Code|beneficiaryLocation/0/countryCode|string|
+|Beneficiary Location:Latitude|beneficiaryLocation/0/latitude|string|
+|Beneficiary Location:Longitude|beneficiaryLocation/0/longitude|string|
+|Beneficiary Location:Geographic Code|beneficiaryLocation/0/geoCode|string|
+|Beneficiary Location:Geographic Code Type|beneficiaryLocation/0/geoCodeType|string|
+|Funding Org:Identifier|fundingOrganization/0/id|string|
+|Funding Org:Name|fundingOrganization/0/name|string|
+|Funding Org:Department|fundingOrganization/0/department|string|
+|Grant Programme:Code|grantProgramme/0/code|string|
+|Grant Programme:Title|grantProgramme/0/title|string|
+|Grant Programme:URL|grantProgramme/0/url|string|
 |From an open call?|fromOpenCall|string|
 |Last modified|dateModified|datetime|
 |Data Source|dataSource|string|
@@ -282,7 +282,7 @@ For example, the structure:
 
 can by represented in the Activity table under the column name:
 
-* ```relatedDocument[]/url``` 
+* ```relatedDocument/0/url``` 
 
 or the column title
 
@@ -290,7 +290,7 @@ or the column title
 
 The naming convention for field names is to:
 
-* If the relationship can be a one-to-many relationship, append ```[]``` to the relationship property name 
+* If the relationship can be a one-to-many relationship, append ```/0``` to the relationship property name 
 * Concatenate the relationship and property names using /
 * If required, indicate the type of the column values using the ```:number```, ```:integer```, ```:string```, ```:date-time``` and so-on.
 
