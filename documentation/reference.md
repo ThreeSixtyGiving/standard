@@ -290,15 +290,14 @@ or the column title
 
 The naming convention for field names is to:
 
-* If the relationship can be a one-to-many relationship, append ```/0``` to the relationship property name 
+* If the relationship can be a one-to-many relationship, append ```/0``` to the relationship property name
 * Concatenate the relationship and property names using /
-* If required, indicate the type of the column values using the ```:number```, ```:integer```, ```:string```, ```:date-time``` and so-on.
 
 The naming convention for field titles is to:
 
 * Concatenate the relationship and property titles using a ```:```.
 
-In the event that a value for a property is given in both a sub-table, and the summary table, the sub-table value always takes precedence, and will over-write the summary value. 
+In the event that a value for a property is given in both a sub-table, and the summary table, flatten-tool will issue a warning if the values are not the same.
 
 ### JSON
 
