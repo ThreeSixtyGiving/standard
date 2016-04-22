@@ -36,7 +36,7 @@ The default grants sheet includes sections for:
 
 To provide classifications of grants, more than one location, or additional documents related to the grant, you will need to publish information in sub-tables. 
 
-{{grant.csv|Title,Description,Type,Required}}
+{{grants.csv|Title,Description,Type,Required}}
 
 ### Additional tables
 
@@ -46,29 +46,20 @@ To provide details of additional classifications, locations, events, documents, 
 
 In the first column of each tab you would enter the identifier of the grant to which the additional information relates, as recorded in the id column of the grant sheet. 
 
-#### Classification
-
-{{Classification.csv|Title,Description,Type,Required}}
-
-#### Location
-
-{{Location.csv|Title,Description,Type,Required}}
-
-#### Documents 
-
-{{Documents.csv|Title,Description,Type,Required}}
-
-#### Event
-
-{{Event.csv|Title,Description,Type,Required}}
-
-#### Organization
-
-{{Organization.csv|Title,Description,Type,Required}}
-
-#### Transaction
-
-{{Transaction.csv|Title,Description,Type,Required}}
+{{actualDates.csv|Title,Description,Type,Required}}
+{{applicationTransaction.csv|Title,Description,Type,Required}}
+{{beneficiaryLocation.csv|Title,Description,Type,Required}}
+{{classifications.csv|Title,Description,Type,Required}}
+{{commitmentTransaction.csv|Title,Description,Type,Required}}
+{{disbursementTransaction.csv|Title,Description,Type,Required}}
+{{fundingOrganization.csv|Title,Description,Type,Required}}
+{{fundingType.csv|Title,Description,Type,Required}}
+{{fun_location.csv|Title,Description,Type,Required}}
+{{grantProgramme.csv|Title,Description,Type,Required}}
+{{grants.csv|Title,Description,Type,Required}}
+{{plannedDates.csv|Title,Description,Type,Required}}
+{{recipientOrganization.csv|Title,Description,Type,Required}}
+{{rec_location.csv|Title,Description,Type,Required}}
 
 ### Conformance
 
@@ -122,7 +113,7 @@ The field names are important for computers reading the data, and even if other 
 
 A mapping between column titles and field names for the Summary Table is given below:
 
-{{grant.csv|Title,Name,Type}}
+{{grants.csv|Title,Name,Type}}
 
 
 ## Extending the summary table

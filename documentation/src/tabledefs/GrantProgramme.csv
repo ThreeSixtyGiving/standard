@@ -1,6 +1,0 @@
-title,name,description,type,format,allowed_values,required
-Code,code,An identifier for this grant programme.,string,,,False
-Title,title,The title of this grant programme.,string,,,True
-Description,description,A description of this grant programme.,string,,,True
-URL,url,A web link to more details of this grant programme.,string,,,False
-Last modified,dateModified,-,datetime,,,False

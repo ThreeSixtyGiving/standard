@@ -1,0 +1,7 @@
+title,name,description,type,format,allowed_values,required
+Planned Dates:Title,plannedDates/0/title,-,string,,,False
+Planned Dates:Start Date,plannedDates/0/startDate,"All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",date-time,,,False
+Planned Dates:End Date,plannedDates/0/endDate,"Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",date-time,,,False
+Planned Dates:Duration (months),plannedDates/0/duration,Events or activities lasting more than one day should have either a duration (in months) or an end date.,string,,,False
+Planned Dates:Description,plannedDates/0/description,-,string,,,False
+Planned Dates:Last modified,plannedDates/0/dateModified,-,date-time,,,False

@@ -12,6 +12,7 @@ flatten-tool create-template --root-id='' --output-format all --output-name 360-
 mv 360-giving-schema-titles 360-giving-schema-titles.csv
 mv README.md 360-giving-schema-titles.csv/
 
+cd ../../documentation/src
+flatten-tool create-template --root-id='' --output-format csv --output-name tabledefs --schema ../../schema/360-giving-schema.json --main-sheet-name=grants --rollup --use-titles --create-reference-tables
 cd ../../tools/
-python generate_reference_tables.py
 python build_docs.py
