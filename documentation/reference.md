@@ -204,6 +204,18 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Recipient Org:Location:Last modified|The date when location information was last modified.|date-time|False|
 
 
+#### Related Document
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+|Related Document:Identifier|An identifier for this document.|string|False|
+|Related Document:Title|The document title|string|False|
+|Related Document:Web Address|The URL of the document.|uri|False|
+|Related Document:Description|A description of the document|string|False|
+|Related Document:Document Type|A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.|string|False|
+|Related Document:Last modified|What was this information last modified?|date-time|False|
+
+
 #### Classifications
 
 |Title|Description|Type|Required|

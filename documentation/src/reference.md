@@ -74,6 +74,10 @@ In the first column of each tab you would enter the identifier of the grant to w
 
 {{rec_location.csv|Title,Description,Type,Required}}
 
+#### Related Document
+
+{{relatedDocument.csv|Title,Description,Type,Required}}
+
 #### Classifications
 
 {{classifications.csv|Title,Description,Type,Required}}
