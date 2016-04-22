@@ -87,6 +87,8 @@ To provide details of additional classifications, locations, events, documents, 
 
 In the first column of each tab you would enter the identifier of the grant to which the additional information relates, as recorded in the id column of the grant sheet. 
 
+#### Actual Dates
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Actual Dates:Title|-|string|False|
@@ -96,62 +98,20 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Actual Dates:Description|-|string|False|
 |Actual Dates:Last modified|-|date-time|False|
 
-|Title|Description|Type|Required|
-|----|----|----|----|
-||Identifier|string|False|
-||When did this transaction take place? Please use YYYY-MM-DD format.|date-time|False|
-||The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|False|
-||The total value of this transaction.|integer|False|
-||The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|date-time|False|
-||A description of this transaction.|string|False|
-||The organisation identifier of the provider of transaction funds.|string|False|
-||The organisation identifier of the recipient of transaction funds.|string|False|
-||When information about this transaction was last updated.|date-time|False|
+
+#### Planned Dates
 
 |Title|Description|Type|Required|
 |----|----|----|----|
-|Beneficiary Location:Identifier|Location identifier|string|False|
-|Beneficiary Location:Name|A name for this location.|string|False|
-|Beneficiary Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Beneficiary Location:Latitude|The latitude of a point location|string|False|
-|Beneficiary Location:Longitude|The longitude of a point location|string|False|
-|Beneficiary Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
-|Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Beneficiary Location:Last modified|The date when location information was last modified.|date-time|False|
+|Planned Dates:Title|-|string|False|
+|Planned Dates:Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
+|Planned Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
+|Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
+|Planned Dates:Description|-|string|False|
+|Planned Dates:Last modified|-|date-time|False|
 
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Classifications:Vocabulary|A vocabulary used for this classification.|string|False|
-|Classifications:Code|A codelist value in the chosen vocabulary.|string|False|
-|Classifications:Title|The title of this classification.|string|False|
-|Classifications:Description|A description of this classification.|string|False|
-|Classifications:URL|A web link to more details of this classification.|uri|False|
-|Classifications:Last modified|-|date-time|False|
 
-|Title|Description|Type|Required|
-|----|----|----|----|
-||Identifier|string|False|
-||When did this transaction take place? Please use YYYY-MM-DD format.|date-time|False|
-||The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|False|
-||The total value of this transaction.|integer|False|
-||The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|date-time|False|
-||A description of this transaction.|string|False|
-||The organisation identifier of the provider of transaction funds.|string|False|
-||The organisation identifier of the recipient of transaction funds.|string|False|
-||When information about this transaction was last updated.|date-time|False|
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-||Identifier|string|False|
-||When did this transaction take place? Please use YYYY-MM-DD format.|date-time|False|
-||The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|False|
-||The total value of this transaction.|integer|False|
-||The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|date-time|False|
-||A description of this transaction.|string|False|
-||The organisation identifier of the provider of transaction funds.|string|False|
-||The organisation identifier of the recipient of transaction funds.|string|False|
-||When information about this transaction was last updated.|date-time|False|
+#### Funding Org
 
 |Title|Description|Type|Required|
 |----|----|----|----|
@@ -174,85 +134,8 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Funding Org:Web Address|A web address for the Organisation|uri|False|
 |Funding Org:Last modified|-|date-time|False|
 
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Funding Type:Vocabulary|A vocabulary used for this classification.|string|False|
-|Funding Type:Code|A codelist value in the chosen vocabulary.|string|False|
-|Funding Type:Title|The title of this classification.|string|False|
-|Funding Type:Description|A description of this classification.|string|False|
-|Funding Type:URL|A web link to more details of this classification.|uri|False|
-|Funding Type:Last modified|-|date-time|False|
 
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Funding Org:Location:Identifier|Location identifier|string|False|
-|Funding Org:Location:Name|A name for this location.|string|False|
-|Funding Org:Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Funding Org:Location:Latitude|The latitude of a point location|string|False|
-|Funding Org:Location:Longitude|The longitude of a point location|string|False|
-|Funding Org:Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
-|Funding Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Funding Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Location:Last modified|The date when location information was last modified.|date-time|False|
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Grant Programme:Code|An identifier for this grant programme.|string|False|
-|Grant Programme:Title|The title of this grant programme.|string|False|
-|Grant Programme:Description|A description of this grant programme.|string|False|
-|Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
-|Grant Programme:Last modified|-|date-time|False|
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Identifier|The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
-|Title|A title for this grant activity. This should be under 140 characters long.|string|True|
-|Description|A short description of this grant activity.|string|True|
-|Currency|The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|True|
-|Amount Applied For|Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.|number|False|
-|Amount Awarded|Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.|number|True|
-|Amount Disbursed|Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.|number|False|
-|Award Date|When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.|date-time|True|
-|URL|A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.|uri|False|
-|Planned Dates:Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
-|Recipient Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Recipient Org:Name|Organisation name|string|True|
-|Recipient Org:Charity Number|Registered charity number, if applicable.|string|False|
-|Recipient Org:Company Number|Registered UK company number, if applicable.|string|False|
-|Recipient Org:Street Address|Building number and street name.|string|False|
-|Recipient Org:City|City or town.|string|False|
-|Recipient Org:County|County|string|False|
-|Recipient Org:Country|Country|string|False|
-|Recipient Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
-|Recipient Org:Description|A short description of this organisation and its area of work|string|False|
-|Recipient Org:Web Address|A web address for the Organisation|uri|False|
-|Beneficiary Location:Name|A name for this location.|string|False|
-|Beneficiary Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Beneficiary Location:Latitude|The latitude of a point location|string|False|
-|Beneficiary Location:Longitude|The longitude of a point location|string|False|
-|Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Funding Org:Name|Organisation name|string|True|
-|Funding Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Grant Programme:Code|An identifier for this grant programme.|string|False|
-|Grant Programme:Title|The title of this grant programme.|string|False|
-|Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
-|From an open call?|Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'|string|False|
-|Related Activity|The identifiers of any related activities (e.g. other grants given as part of a multi-grant project)|array|False|
-|Last modified|The date when information on this grant was last updated|date-time|False|
-|Data Source|A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.|uri|False|
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Planned Dates:Title|-|string|False|
-|Planned Dates:Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
-|Planned Dates:Description|-|string|False|
-|Planned Dates:Last modified|-|date-time|False|
+#### Recipient Org
 
 |Title|Description|Type|Required|
 |----|----|----|----|
@@ -275,6 +158,39 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Recipient Org:Web Address|A web address for the Organisation|uri|False|
 |Recipient Org:Last modified|-|date-time|False|
 
+
+#### Beneficiary Location
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+|Beneficiary Location:Identifier|Location identifier|string|False|
+|Beneficiary Location:Name|A name for this location.|string|False|
+|Beneficiary Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
+|Beneficiary Location:Latitude|The latitude of a point location|string|False|
+|Beneficiary Location:Longitude|The longitude of a point location|string|False|
+|Beneficiary Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
+|Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
+|Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
+|Beneficiary Location:Last modified|The date when location information was last modified.|date-time|False|
+
+
+#### Funding Org:Location
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+|Funding Org:Location:Identifier|Location identifier|string|False|
+|Funding Org:Location:Name|A name for this location.|string|False|
+|Funding Org:Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
+|Funding Org:Location:Latitude|The latitude of a point location|string|False|
+|Funding Org:Location:Longitude|The longitude of a point location|string|False|
+|Funding Org:Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
+|Funding Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
+|Funding Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
+|Funding Org:Location:Last modified|The date when location information was last modified.|date-time|False|
+
+
+#### Recipient Org:Location
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Recipient Org:Location:Identifier|Location identifier|string|False|
@@ -286,6 +202,86 @@ In the first column of each tab you would enter the identifier of the grant to w
 |Recipient Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
 |Recipient Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
 |Recipient Org:Location:Last modified|The date when location information was last modified.|date-time|False|
+
+
+#### Classifications
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+|Classifications:Vocabulary|A vocabulary used for this classification.|string|False|
+|Classifications:Code|A codelist value in the chosen vocabulary.|string|False|
+|Classifications:Title|The title of this classification.|string|False|
+|Classifications:Description|A description of this classification.|string|False|
+|Classifications:URL|A web link to more details of this classification.|uri|False|
+|Classifications:Last modified|-|date-time|False|
+
+
+#### Funding Type
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+|Funding Type:Vocabulary|A vocabulary used for this classification.|string|False|
+|Funding Type:Code|A codelist value in the chosen vocabulary.|string|False|
+|Funding Type:Title|The title of this classification.|string|False|
+|Funding Type:Description|A description of this classification.|string|False|
+|Funding Type:URL|A web link to more details of this classification.|uri|False|
+|Funding Type:Last modified|-|date-time|False|
+
+
+#### Grant Programme
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+|Grant Programme:Code|An identifier for this grant programme.|string|False|
+|Grant Programme:Title|The title of this grant programme.|string|False|
+|Grant Programme:Description|A description of this grant programme.|string|False|
+|Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
+|Grant Programme:Last modified|-|date-time|False|
+
+
+#### commitmentTransaction
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+||Identifier|string|False|
+||When did this transaction take place? Please use YYYY-MM-DD format.|date-time|False|
+||The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|False|
+||The total value of this transaction.|integer|False|
+||The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|date-time|False|
+||A description of this transaction.|string|False|
+||The organisation identifier of the provider of transaction funds.|string|False|
+||The organisation identifier of the recipient of transaction funds.|string|False|
+||When information about this transaction was last updated.|date-time|False|
+
+
+#### disbursementTransaction
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+||Identifier|string|False|
+||When did this transaction take place? Please use YYYY-MM-DD format.|date-time|False|
+||The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|False|
+||The total value of this transaction.|integer|False|
+||The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|date-time|False|
+||A description of this transaction.|string|False|
+||The organisation identifier of the provider of transaction funds.|string|False|
+||The organisation identifier of the recipient of transaction funds.|string|False|
+||When information about this transaction was last updated.|date-time|False|
+
+
+#### applicationTransaction
+
+|Title|Description|Type|Required|
+|----|----|----|----|
+||Identifier|string|False|
+||When did this transaction take place? Please use YYYY-MM-DD format.|date-time|False|
+||The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP|string|False|
+||The total value of this transaction.|integer|False|
+||The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).|date-time|False|
+||A description of this transaction.|string|False|
+||The organisation identifier of the provider of transaction funds.|string|False|
+||The organisation identifier of the recipient of transaction funds.|string|False|
+||When information about this transaction was last updated.|date-time|False|
 
 
 ### Conformance

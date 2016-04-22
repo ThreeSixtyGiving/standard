@@ -46,20 +46,57 @@ To provide details of additional classifications, locations, events, documents, 
 
 In the first column of each tab you would enter the identifier of the grant to which the additional information relates, as recorded in the id column of the grant sheet. 
 
+#### Actual Dates
+
 {{actualDates.csv|Title,Description,Type,Required}}
-{{applicationTransaction.csv|Title,Description,Type,Required}}
-{{beneficiaryLocation.csv|Title,Description,Type,Required}}
-{{classifications.csv|Title,Description,Type,Required}}
-{{commitmentTransaction.csv|Title,Description,Type,Required}}
-{{disbursementTransaction.csv|Title,Description,Type,Required}}
-{{fundingOrganization.csv|Title,Description,Type,Required}}
-{{fundingType.csv|Title,Description,Type,Required}}
-{{fun_location.csv|Title,Description,Type,Required}}
-{{grantProgramme.csv|Title,Description,Type,Required}}
-{{grants.csv|Title,Description,Type,Required}}
+
+#### Planned Dates
+
 {{plannedDates.csv|Title,Description,Type,Required}}
+
+#### Funding Org
+
+{{fundingOrganization.csv|Title,Description,Type,Required}}
+
+#### Recipient Org
+
 {{recipientOrganization.csv|Title,Description,Type,Required}}
+
+#### Beneficiary Location
+
+{{beneficiaryLocation.csv|Title,Description,Type,Required}}
+
+#### Funding Org:Location
+
+{{fun_location.csv|Title,Description,Type,Required}}
+
+#### Recipient Org:Location
+
 {{rec_location.csv|Title,Description,Type,Required}}
+
+#### Classifications
+
+{{classifications.csv|Title,Description,Type,Required}}
+
+#### Funding Type
+
+{{fundingType.csv|Title,Description,Type,Required}}
+
+#### Grant Programme
+
+{{grantProgramme.csv|Title,Description,Type,Required}}
+
+#### commitmentTransaction
+
+{{commitmentTransaction.csv|Title,Description,Type,Required}}
+
+#### disbursementTransaction
+
+{{disbursementTransaction.csv|Title,Description,Type,Required}}
+
+#### applicationTransaction
+
+{{applicationTransaction.csv|Title,Description,Type,Required}}
 
 ### Conformance
 
