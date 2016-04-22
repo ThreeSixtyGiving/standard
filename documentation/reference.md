@@ -34,8 +34,6 @@ The default grants sheet includes sections for:
 * The location of beneficiaries;
 * Details of the grant programme funding is from;
 
-To provide classifications of grants, more than one location, or additional documents related to the grant, you will need to publish information in sub-tables. 
-
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Identifier|The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
@@ -79,13 +77,9 @@ To provide classifications of grants, more than one location, or additional docu
 |Data Source|A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.|uri|False|
 
 
-### Additional tables
+### Additional fields
 
-The grants sheet can only accommodate one-to-one relationships. For example, one classification or location per grant. It also only includes common information.
-
-To provide details of additional classifications, locations, events, documents, organization and transaction information you can use the other tabs of the spreadsheet. 
-
-In the first column of each tab you would enter the identifier of the grant to which the additional information relates, as recorded in the id column of the grant sheet. 
+The default grants sheet only includes common information. Other fields can be added to the Grants sheet with the column headings described below.
 
 #### Actual Dates
 
@@ -296,6 +290,27 @@ In the first column of each tab you would enter the identifier of the grant to w
 ||When information about this transaction was last updated.|date-time|False|
 
 
+### Many to one relationships
+
+Each of the sections of additional fields above can have multiple occurrences for one grant. There are two ways of describing this in a spreadsheet.
+
+#### Additional tabs
+
+Use the other tabs in the spreadsheet template. These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
+
+For the funding org location and recipient org location there is also an extra column for the identifier of the relevant funding/recipient org.
+
+#### Numbering
+
+You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This immitates json pointer's approach.
+
+e.g. to have two related documents with their own title and web address:
+
+|Related Document:0:Title|Related Document:0:Web Address|Related Document:1:Title|Related Document:1:Web Address    |
+|------------------------|------------------------------|------------------------|----------------------------------|
+|A Document              |http://example.com/adocument  |Another Document        |http://example.com/anotherdocument|
+
+
 ### Conformance
 
 In order to conform with the spreadsheet standard:
@@ -390,35 +405,6 @@ A mapping between column titles and field names for the Summary Table is given b
 |Last modified|dateModified|date-time|
 |Data Source|dataSource|uri|
 
-
-
-## Extending the summary table
-The default summary table template is defined by use of special ‘rollUp’ properties in the [underlying JSON Schema file](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json). There is a [Flatten Tool](https://github.com/OpenDataServices/flatten-tool) that uses these properties when creating templates. However, it is possible, following the same naming convention for fields, to bring most properties into the Grants table if a particular use-case requires. 
-
-For example, the structure:
-
-* grants
-  * relatedDocument
-    * url
-
-can by represented in the `Grants` table under the column name:
-
-* ```relatedDocument/0/url``` 
-
-or the column title
-
-* ```Related Document:URL```
-
-The naming convention for field names is to:
-
-* If the relationship can be a one-to-many relationship, append ```/0``` to the relationship property name
-* Concatenate the relationship and property names using /
-
-The naming convention for field titles is to:
-
-* Concatenate the relationship and property titles using a ```:```.
-
-In the event that a value for a property is given in both a sub-table, and the summary table, flatten-tool will issue a warning if the values are not the same.
 
 ### JSON
 
