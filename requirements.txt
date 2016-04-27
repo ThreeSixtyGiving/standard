@@ -1,4 +1,4 @@
--e git+https://github.com/OpenDataServices/flatten-tool.git@e4f949c04e9b2942d4d12f8368c40d979d4ac684#egg=flattentool
+-e git+https://github.com/OpenDataServices/flatten-tool.git@d87ae8ae40ded987df6f0465b143b181226f4b50#egg=flattentool
 jdcal==1.2
 jsonref==0.1
 openpyxl==2.3.2

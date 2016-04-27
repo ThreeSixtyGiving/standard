@@ -1,0 +1,19 @@
+title,name,description,type,format,allowed_values,required
+Funding Org:Identifier,fundingOrganization/0/id,"A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",string,,,True
+Funding Org:Name,fundingOrganization/0/name,Organisation name,string,,,True
+Funding Org:Department,fundingOrganization/0/department,The department or sub-unit of this organisation making or receiving the grant.,string,,,False
+Funding Org:Contact Name,fundingOrganization/0/contactName,-,string,,,False
+Funding Org:Charity Number,fundingOrganization/0/charityNumber,"Registered charity number, if applicable.",string,,,False
+Funding Org:Company Number,fundingOrganization/0/companyNumber,"Registered UK company number, if applicable.",string,,,False
+Funding Org:Street Address,fundingOrganization/0/streetAddress,Building number and street name.,string,,,False
+Funding Org:City,fundingOrganization/0/addressLocality,City or town.,string,,,False
+Funding Org:County,fundingOrganization/0/addressRegion,County,string,,,False
+Funding Org:Country,fundingOrganization/0/addressCountry,Country,string,,,False
+Funding Org:Postal Code,fundingOrganization/0/postalCode,Postal code (please try and provide a post code whenever possible),string,,,False
+Funding Org:Phone Number,fundingOrganization/0/telephone,Contact phone number.,string,,,False
+Funding Org:Alternate Name,fundingOrganization/0/alternateName,An alternative name for this organisation (e.g. trading name),string,,,False
+Funding Org:Email,fundingOrganization/0/email,-,string,,,False
+Funding Org:Description,fundingOrganization/0/description,A short description of this organisation and its area of work,string,,,False
+Funding Org:Organisation Type,fundingOrganization/0/organisationType,A description of this organisation,string,,,False
+Funding Org:Web Address,fundingOrganization/0/url,A web address for the Organisation,uri,,,False
+Funding Org:Last modified,fundingOrganization/0/dateModified,-,date-time,,,False
