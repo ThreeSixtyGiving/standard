@@ -6,13 +6,7 @@ Identifiers are an important part of any dataset. They let a computer uniquely i
 
 Whilst a human being may be good at recognising that:
 
->INDIGO TRUST
-
->The Indigo Trust
-
-and
-
->indigo-trust
+>INDIGO TRUST, The Indigo Trust, and indigo-trust
 
 ... all refer to the same organisation, computers find this is lot trickier. 
 
