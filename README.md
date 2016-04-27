@@ -39,8 +39,8 @@ To use the sync_schema.sh script you will need a virtual environment set up.
 ```
 git clone https://github.com/ThreeSixtyGiving/standard.git
 cd standard
-virtualenv pyenv
-source pyenv/bin/activate
+python3 -m virtualenv -p $(which python3) .ve
+source .ve/bin/activate
 pip install -r requirements.txt
 ```
 

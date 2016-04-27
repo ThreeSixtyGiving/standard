@@ -1,7 +1,0 @@
-title,name,description,type,format,allowed_values,required
-Identifier,id,An identifier for this document.,string,,,True
-Title,title,The document title,string,,,True
-Web Address,url,The URL of the document.,string,,,False
-Description,description,A description of the document,string,,,True
-Document Type,documentType,"A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.",string,,,False
-Last modified,dateModified,What was this information last modified?,datetime,,,False

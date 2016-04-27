@@ -1,1 +1,0 @@
-grants/id:location,grants/recipientOrganization[]/id:location,grants/id:beneficiaryLocation,grants/fundingOrganization[]/id:location,id,name,countryCode,latitude,longitude,description,geoCode,geoCodeType,dateModified

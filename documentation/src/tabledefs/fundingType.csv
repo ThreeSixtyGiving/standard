@@ -1,0 +1,7 @@
+title,name,description,type,format,allowed_values,required
+Funding Type:Vocabulary,fundingType/0/vocabulary,A vocabulary used for this classification.,string,,,False
+Funding Type:Code,fundingType/0/code,A codelist value in the chosen vocabulary.,string,,,False
+Funding Type:Title,fundingType/0/title,The title of this classification.,string,,,False
+Funding Type:Description,fundingType/0/description,A description of this classification.,string,,,False
+Funding Type:URL,fundingType/0/url,A web link to more details of this classification.,uri,,,False
+Funding Type:Last modified,fundingType/0/dateModified,-,date-time,,,False

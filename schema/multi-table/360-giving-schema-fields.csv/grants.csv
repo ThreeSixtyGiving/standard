@@ -1,1 +1,1 @@
-id,title,description,currency,amountAppliedFor:number,amountAwarded:number,amountDisbursed:number,awardDate,url,fromOpenCall,relatedActivity:array,dateModified,dataSource
+id,title,description,currency,amountAppliedFor,amountAwarded,amountDisbursed,awardDate,url,fromOpenCall,relatedActivity,dateModified,dataSource
