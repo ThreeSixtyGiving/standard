@@ -28,7 +28,7 @@ To produce 360Giving data in a spreadsheet, it is possible to start with an empt
 
 For convenience we provide a [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) that can be used directly, or adapted to your needs.
 
-The template is a mulit-sheet spreadsheet, and each sheet is described below.
+The template is a multi-sheet spreadsheet, and each sheet is described below.
 
 Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.
 
