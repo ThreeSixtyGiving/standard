@@ -39,7 +39,7 @@ Information about how to create data with [Many to one relationships](/#toc-many
 
 The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields. 
 
-The [Additional fields](/#toc-additional-fields) section provides details of all the possible fields that can be reported. (These are derived from the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas) ).
+The [Additional fields](/#toc-additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas) ).
 
 
 ### Grants Sheet
@@ -104,15 +104,15 @@ The other sheets in the [360Giving Spreadsheet Template](https://github.com/Thre
 
 1. As a way to add more information to our 'grants' sheet
    
-   The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fileds avaiable in the 360Giving Data Standard. 
+   The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fields available in the 360Giving Data Standard. 
    
    You can use any of these column titles on your main 'grants' sheet if you wish.  
 
 2. As a way of providing information about [Many to one relationships](/#toc-many-to-one-relationships)
 
-If, when creating your data, you only need a few additonal fields from the additonal sheets, you can simply copy them from one sheet to another.
+If, when creating your data, you only need a few additional fields from the additional sheets, you can simply copy them from one sheet to another.
 
-If you have additonal data to report that does not fit any of the columns provided in the spreadsheet, it is ok to create your own column titles in order to report it.
+If you have additional data to report that does not fit any of the columns provided in the spreadsheet, it is okay to create your own column titles in order to report it.
 
 
 #### Actual Dates
@@ -289,7 +289,7 @@ The 360Giving Data Standard also allows for the reporting of three types of tran
 
 These do not currently have nice human readable titles, but can still be added as spreadsheet columns if needed.
 
-To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction[0]/id
+To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
 ### Many to one relationships
 
@@ -303,7 +303,7 @@ For the Funding Org: Location and Recipient Org: Location there is also an extra
 
 #### Numbering
 
-You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This immitates json pointer's approach.
+You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This imitates JSON Pointer's approach.
 
 e.g. to have two related documents with their own title and web address:
 
@@ -313,7 +313,7 @@ e.g. to have two related documents with their own title and web address:
 
 #### Multiple Rows
 
-You can place the additonal information about a grant in an additional row. Use the same Identifier for the grant, and place the additonal information in the relevent columns. Consuming applications will then be able to try to merge the information into a single record, so be careful not to place contradictory information in fields that cannot have more than one value (e.g. a title or description)
+You can place the additional information about a grant in an additional row. Use the same Identifier for the grant, and place the additional information in the relevant columns. Consuming applications will then be able to try to merge the information into a single record, so be careful not to place contradictory information in fields that cannot have more than one value (e.g. a title or description)
 
 
 ### Conformance
