@@ -22,7 +22,7 @@
         "transactionDate": {
           "oneOf": [
             {"format": "date-time"},
-            {"format": "date"}
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
           ],
           "type": "string",
           "description": "When did this transaction take place? The date should be written as YYYY-MM-DD, or in full date-time format.",
@@ -41,7 +41,7 @@
         "valueDate": {
           "oneOf": [
             {"format": "date-time"},
-            {"format": "date"}
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
           ],
           "type": ["string","null"],
           "description": "The date that this value was set (to allow historical currency conversion). The date should be written as YYYY-MM-DD, or in full date-time format.",
@@ -401,7 +401,7 @@
         "startDate": {
           "oneOf": [
             {"format": "date-time"},
-            {"format": "date"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"},
             {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
           ],
           "type": "string",
@@ -412,7 +412,7 @@
         "endDate": {
           "oneOf": [
             {"format": "date-time"},
-            {"format": "date"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"},
             {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
           ],
           "type": "string",
@@ -487,7 +487,7 @@
     "awardDate": {
       "oneOf": [
             {"format": "date-time"},
-            {"format": "date"}
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
       ],
       "type": "string",
       "description": "When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.",
