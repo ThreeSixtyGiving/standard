@@ -32,8 +32,8 @@ The template is a multi-sheet spreadsheet, and each sheet is described below.
 
 Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.
 
-Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [Many to one relationship](/#toc-many-to-one-relationships).
-Information about how to create data with [Many to one relationships](/#toc-many-to-one-relationships) is described below.
+Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](/#toc-one-to-many-relationships).
+Information about how to create data with [One to many relationships](/#toc-one-to-many-relationships) is described below.
 
 The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields. 
 
@@ -289,7 +289,7 @@ These do not currently have nice human readable titles, but can still be added a
 
 To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
-### Many to one relationships
+### One to many relationships
 
 Each of the sections of additional fields above can have multiple occurrences for one grant. There are three ways of describing this in a spreadsheet.
 
