@@ -293,13 +293,13 @@ To create the column titles, refer to the 360Giving JSON Schema and use the JSON
 
 Each of the sections of additional fields above can have multiple occurrences for one grant. There are three ways of describing this in a spreadsheet.
 
-#### Additional sheets
+##### Additional sheets
 
 Use the other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx). These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding/Recipient Org.
 
-#### Numbering
+##### Numbering
 
 You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This imitates JSON Pointer's approach.
 
@@ -309,7 +309,7 @@ e.g. to have two related documents with their own title and web address:
 |------------------------|------------------------------|------------------------|----------------------------------|
 |A Document              |http://example.com/adocument  |Another Document        |http://example.com/anotherdocument|
 
-#### Multiple Rows
+##### Multiple Rows
 
 You can place the additional information about a grant in an additional row. Use the same Identifier for the grant, and place the additional information in the relevant columns. Consuming applications will then be able to try to merge the information into a single record, so be careful not to place contradictory information in fields that cannot have more than one value (e.g. a title or description)
 
