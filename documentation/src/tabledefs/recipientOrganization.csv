@@ -16,4 +16,4 @@ Recipient Org:Email,recipientOrganization/0/email,-,string,,,False
 Recipient Org:Description,recipientOrganization/0/description,A short description of this organisation and its area of work,string,,,False
 Recipient Org:Organisation Type,recipientOrganization/0/organisationType,A description of this organisation,string,,,False
 Recipient Org:Web Address,recipientOrganization/0/url,A web address for the Organisation,uri,,,False
-Recipient Org:Last modified,recipientOrganization/0/dateModified,-,date-time,,,False
+Recipient Org:Last modified,recipientOrganization/0/dateModified,When was the organisation information for this grant last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False

@@ -16,4 +16,4 @@ Funding Org:Email,fundingOrganization/0/email,-,string,,,False
 Funding Org:Description,fundingOrganization/0/description,A short description of this organisation and its area of work,string,,,False
 Funding Org:Organisation Type,fundingOrganization/0/organisationType,A description of this organisation,string,,,False
 Funding Org:Web Address,fundingOrganization/0/url,A web address for the Organisation,uri,,,False
-Funding Org:Last modified,fundingOrganization/0/dateModified,-,date-time,,,False
+Funding Org:Last modified,fundingOrganization/0/dateModified,When was the organisation information for this grant last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False

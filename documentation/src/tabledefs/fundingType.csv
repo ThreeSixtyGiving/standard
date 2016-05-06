@@ -4,4 +4,4 @@ Funding Type:Code,fundingType/0/code,A codelist value in the chosen vocabulary.,
 Funding Type:Title,fundingType/0/title,The title of this classification.,string,,,False
 Funding Type:Description,fundingType/0/description,A description of this classification.,string,,,False
 Funding Type:URL,fundingType/0/url,A web link to more details of this classification.,uri,,,False
-Funding Type:Last modified,fundingType/0/dateModified,-,date-time,,,False
+Funding Type:Last modified,fundingType/0/dateModified,When was this grant classification information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False

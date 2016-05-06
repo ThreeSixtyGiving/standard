@@ -1,10 +1,10 @@
 title,name,description,type,format,allowed_values,required
 ,applicationTransaction/0/id,Identifier,string,,,False
-,applicationTransaction/0/transactionDate,When did this transaction take place? Please use YYYY-MM-DD format.,date-time,,,False
+,applicationTransaction/0/transactionDate,"When did this transaction take place? The date should be written as YYYY-MM-DD, or in full date-time format.",string,,,False
 ,applicationTransaction/0/currency,The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP,string,,,False
 ,applicationTransaction/0/value,The total value of this transaction.,integer,,,False
-,applicationTransaction/0/valueDate,The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).,date-time,,,False
+,applicationTransaction/0/valueDate,"The date that this value was set (to allow historical currency conversion). The date should be written as YYYY-MM-DD, or in full date-time format.",string,,,False
 ,applicationTransaction/0/description,A description of this transaction.,string,,,False
 ,applicationTransaction/0/provider,The organisation identifier of the provider of transaction funds.,string,,,False
 ,applicationTransaction/0/recipient,The organisation identifier of the recipient of transaction funds.,string,,,False
-,applicationTransaction/0/dateModified,When information about this transaction was last updated.,date-time,,,False
+,applicationTransaction/0/dateModified,When was information about this transaction last updated? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False
