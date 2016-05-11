@@ -63,7 +63,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "When information about this transaction was last updated.",
+          "description": "The date and time when information about this transaction was last updated.",
           "weight": 25,
           "title": "Last modified"
         }
@@ -106,7 +106,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "What was this information last modified?",
+          "description": "The date and time when information about this document was last updated.",
           "weight": 25,
           "title": "Last modified"
         }
@@ -167,7 +167,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date when location information was last modified.",
+          "description": "The date and time when information about this location was last updated.",
           "weight": 25,
           "title": "Last modified"
         }
@@ -210,7 +210,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "-",
+          "description": "The date and time when the information was last updated",
           "weight": 25,
           "title": "Last modified"
         }
@@ -247,7 +247,7 @@
                "dateModified": {
                  "format": "date-time",
                  "type": "string",
-                 "description": "-",
+                 "description": "The date and time when information about this grant programme was last updated.",
                  "weight": 25,
                  "title": "Last modified"
                }
@@ -277,7 +277,7 @@
         },
         "contactName": {
           "type": "string",
-          "description": "-",
+          "description": "The contact person at this organisation.",
           "weight": 2,
           "title": "Contact Name"
         },
@@ -337,7 +337,7 @@
         },
       "email": {
           "type": "string",
-          "description": "-",
+          "description": "The email address for this organisation.",
           "weight": 5,
           "title": "Email"
         },
@@ -373,7 +373,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "-",
+          "description": "The date and time when information about this organisation was last updated.",
           "weight": 25,
           "title": "Last modified"
         }
@@ -420,7 +420,7 @@
          "dateModified": {
               "format": "date-time",
               "type": "string",
-              "description": "-",
+              "description": "The date and time when information about this event was last updated.",
               "weight": 25,
               "title": "Last modified"
             }
@@ -613,7 +613,7 @@
     "dateModified": {
       "format": "date-time",
       "type": "string",
-      "description": "The date when information on this grant was last updated",
+      "description": "The date and time when information about this grant was last updated.",
       "weight": 25,
       "title": "Last modified"
     },

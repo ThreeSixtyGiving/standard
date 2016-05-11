@@ -90,7 +90,7 @@ The main 'grants' sheet includes sections for:
 |Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
 |From an open call?|Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'|string|False|
 |Related Activity|The identifiers of any related activities (e.g. other grants given as part of a multi-grant project)|array|False|
-|Last modified|The date when information on this grant was last updated|date-time|False|
+|Last modified|The date and time when information about this grant was last updated.|date-time|False|
 |Data Source|A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.|uri|False|
 
 
@@ -122,7 +122,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Actual Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
 |Actual Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
 |Actual Dates:Description|-|string|False|
-|Actual Dates:Last modified|-|date-time|False|
+|Actual Dates:Last modified|The date and time when information about this event was last updated.|date-time|False|
 
 
 #### Planned Dates
@@ -134,7 +134,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Planned Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
 |Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
 |Planned Dates:Description|-|string|False|
-|Planned Dates:Last modified|-|date-time|False|
+|Planned Dates:Last modified|The date and time when information about this event was last updated.|date-time|False|
 
 
 #### Funding Org
@@ -144,7 +144,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Funding Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
 |Funding Org:Name|Organisation name|string|True|
 |Funding Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Funding Org:Contact Name|-|string|False|
+|Funding Org:Contact Name|The contact person at this organisation.|string|False|
 |Funding Org:Charity Number|Registered charity number, if applicable.|string|False|
 |Funding Org:Company Number|Registered UK company number, if applicable.|string|False|
 |Funding Org:Street Address|Building number and street name.|string|False|
@@ -154,11 +154,11 @@ If you have additional data to report that does not fit any of the columns provi
 |Funding Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
 |Funding Org:Phone Number|Contact phone number.|string|False|
 |Funding Org:Alternate Name|An alternative name for this organisation (e.g. trading name)|string|False|
-|Funding Org:Email|-|string|False|
+|Funding Org:Email|The email address for this organisation.|string|False|
 |Funding Org:Description|A short description of this organisation and its area of work|string|False|
 |Funding Org:Organisation Type|A description of this organisation|string|False|
 |Funding Org:Web Address|A web address for the Organisation|uri|False|
-|Funding Org:Last modified|-|date-time|False|
+|Funding Org:Last modified|The date and time when information about this organisation was last updated.|date-time|False|
 
 
 #### Recipient Org
@@ -168,7 +168,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Recipient Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
 |Recipient Org:Name|Organisation name|string|True|
 |Recipient Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Recipient Org:Contact Name|-|string|False|
+|Recipient Org:Contact Name|The contact person at this organisation.|string|False|
 |Recipient Org:Charity Number|Registered charity number, if applicable.|string|False|
 |Recipient Org:Company Number|Registered UK company number, if applicable.|string|False|
 |Recipient Org:Street Address|Building number and street name.|string|False|
@@ -178,11 +178,11 @@ If you have additional data to report that does not fit any of the columns provi
 |Recipient Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
 |Recipient Org:Phone Number|Contact phone number.|string|False|
 |Recipient Org:Alternate Name|An alternative name for this organisation (e.g. trading name)|string|False|
-|Recipient Org:Email|-|string|False|
+|Recipient Org:Email|The email address for this organisation.|string|False|
 |Recipient Org:Description|A short description of this organisation and its area of work|string|False|
 |Recipient Org:Organisation Type|A description of this organisation|string|False|
 |Recipient Org:Web Address|A web address for the Organisation|uri|False|
-|Recipient Org:Last modified|-|date-time|False|
+|Recipient Org:Last modified|The date and time when information about this organisation was last updated.|date-time|False|
 
 
 #### Beneficiary Location
@@ -197,7 +197,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Beneficiary Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
 |Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
 |Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Beneficiary Location:Last modified|The date when location information was last modified.|date-time|False|
+|Beneficiary Location:Last modified|The date and time when information about this location was last updated.|date-time|False|
 
 
 #### Funding Org:Location
@@ -212,7 +212,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Funding Org:Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
 |Funding Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
 |Funding Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Location:Last modified|The date when location information was last modified.|date-time|False|
+|Funding Org:Location:Last modified|The date and time when information about this location was last updated.|date-time|False|
 
 
 #### Recipient Org:Location
@@ -227,7 +227,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Recipient Org:Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
 |Recipient Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
 |Recipient Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Recipient Org:Location:Last modified|The date when location information was last modified.|date-time|False|
+|Recipient Org:Location:Last modified|The date and time when information about this location was last updated.|date-time|False|
 
 
 #### Related Document
@@ -239,7 +239,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Related Document:Web Address|The URL of the document.|uri|False|
 |Related Document:Description|A description of the document|string|False|
 |Related Document:Document Type|A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.|string|False|
-|Related Document:Last modified|What was this information last modified?|date-time|False|
+|Related Document:Last modified|The date and time when information about this document was last updated.|date-time|False|
 
 
 #### Classifications
@@ -251,7 +251,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Classifications:Title|The title of this classification.|string|False|
 |Classifications:Description|A description of this classification.|string|False|
 |Classifications:URL|A web link to more details of this classification.|uri|False|
-|Classifications:Last modified|-|date-time|False|
+|Classifications:Last modified|The date and time when the information was last updated|date-time|False|
 
 
 #### Funding Type
@@ -263,7 +263,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Funding Type:Title|The title of this classification.|string|False|
 |Funding Type:Description|A description of this classification.|string|False|
 |Funding Type:URL|A web link to more details of this classification.|uri|False|
-|Funding Type:Last modified|-|date-time|False|
+|Funding Type:Last modified|The date and time when the information was last updated|date-time|False|
 
 
 #### Grant Programme
@@ -274,7 +274,7 @@ If you have additional data to report that does not fit any of the columns provi
 |Grant Programme:Title|The title of this grant programme.|string|False|
 |Grant Programme:Description|A description of this grant programme.|string|False|
 |Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
-|Grant Programme:Last modified|-|date-time|False|
+|Grant Programme:Last modified|The date and time when information about this grant programme was last updated.|date-time|False|
 
 
 #### Transactions

@@ -4,4 +4,4 @@ Classifications:Code,classifications/0/code,A codelist value in the chosen vocab
 Classifications:Title,classifications/0/title,The title of this classification.,string,,,False
 Classifications:Description,classifications/0/description,A description of this classification.,string,,,False
 Classifications:URL,classifications/0/url,A web link to more details of this classification.,uri,,,False
-Classifications:Last modified,classifications/0/dateModified,-,date-time,,,False
+Classifications:Last modified,classifications/0/dateModified,The date and time when the information was last updated,date-time,,,False

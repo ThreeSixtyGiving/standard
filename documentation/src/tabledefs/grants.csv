@@ -36,5 +36,5 @@ Grant Programme:Title,grantProgramme/0/title,The title of this grant programme.,
 Grant Programme:URL,grantProgramme/0/url,A web link to more details of this grant programme.,uri,,,False
 From an open call?,fromOpenCall,Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No',string,,,False
 Related Activity,relatedActivity,The identifiers of any related activities (e.g. other grants given as part of a multi-grant project),array,,,False
-Last modified,dateModified,The date when information on this grant was last updated,date-time,,,False
+Last modified,dateModified,The date and time when information about this grant was last updated.,date-time,,,False
 Data Source,dataSource,"A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.",uri,,,False

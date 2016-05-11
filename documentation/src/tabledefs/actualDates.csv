@@ -4,4 +4,4 @@ Actual Dates:Start Date,actualDates/0/startDate,"All events should have a start 
 Actual Dates:End Date,actualDates/0/endDate,"Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",date-time,,,False
 Actual Dates:Duration (months),actualDates/0/duration,Events or activities lasting more than one day should have either a duration (in months) or an end date.,string,,,False
 Actual Dates:Description,actualDates/0/description,-,string,,,False
-Actual Dates:Last modified,actualDates/0/dateModified,-,date-time,,,False
+Actual Dates:Last modified,actualDates/0/dateModified,The date and time when information about this event was last updated.,date-time,,,False
