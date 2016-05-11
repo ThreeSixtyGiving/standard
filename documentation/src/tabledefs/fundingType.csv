@@ -4,4 +4,4 @@ Funding Type:Code,fundingType/0/code,A codelist value in the chosen vocabulary.,
 Funding Type:Title,fundingType/0/title,The title of this classification.,string,,,False
 Funding Type:Description,fundingType/0/description,A description of this classification.,string,,,False
 Funding Type:URL,fundingType/0/url,A web link to more details of this classification.,uri,,,False
-Funding Type:Last modified,fundingType/0/dateModified,-,date-time,,,False
+Funding Type:Last modified,fundingType/0/dateModified,The date and time when the information was last updated,date-time,,,False
