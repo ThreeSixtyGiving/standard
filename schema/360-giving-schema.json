@@ -210,7 +210,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this classification was last updated",
+          "description": "The date and time when the information was last updated",
           "weight": 25,
           "title": "Last modified"
         }
@@ -247,7 +247,7 @@
                "dateModified": {
                  "format": "date-time",
                  "type": "string",
-                 "description": "The date and time when information about this grant was last updated.",
+                 "description": "The date and time when information about this grant programme was last updated.",
                  "weight": 25,
                  "title": "Last modified"
                }
@@ -277,7 +277,7 @@
         },
         "contactName": {
           "type": "string",
-          "description": "The person at this organisation to contact about making or receiving the grant.",
+          "description": "The contact person at this organisation.",
           "weight": 2,
           "title": "Contact Name"
         },
