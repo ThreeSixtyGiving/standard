@@ -427,7 +427,7 @@
       }
     }
   },
-  "required":["id","title","description","currency","amountAwarded","awardDate"],
+  "required":["id","title","description","currency","amountAwarded","awardDate", "recipientOrganization", "fundingOrganization"],
   "properties": {
     "id": {
       "type": "string",
@@ -506,6 +506,7 @@
       "items": {
         "$ref": "#/definitions/Organization"
       },
+      "minItems": 1,
       "type": "array",
       "weight": 5,
       "title": "Recipient Org",
@@ -527,6 +528,7 @@
       "items": {
         "$ref": "#/definitions/Organization"
       },
+      "minItems": 1,
       "type": "array",
       "description": "Details of the funder",
       "weight": 4,
