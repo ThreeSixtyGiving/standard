@@ -85,9 +85,9 @@ This can be summarised through the following process. As soon as a step gives yo
 
 1. If you have a **registered company number** for the organisation, use the prefix 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
 
-2. If you have a **registered charity number** for the organisation, use the prefix 'GB-CHC-' for a charity [registered in England and Wales](http://www.charitycommission.gov.uk/), 'GB-SC-' for a [charity registered in Scotland](http://www.oscr.org.uk/), or 'GB-NIC-' for a [charity registered in Northern Ireland](http://www.charitycommissionni.org.uk/) along with the registered number.
+2. If you have a **registered charity number** for the organisation, use the prefix 'GB-CHC-' for a [charity registered in England and Wales](http://www.charitycommission.gov.uk/), 'GB-SC-' for a [charity registered in Scotland](http://www.oscr.org.uk/), or 'GB-NIC-' for a [charity registered in Northern Ireland](http://www.charitycommissionni.org.uk/) along with the registered number.
 
-3. If you have an **educational establishment** for the organisation, use the prefix 'GB-EDU-' for a school, university or other educational establishment [in England and Wales](http://www.education.gov.uk/edubase/home.xhtml) along with the URN. Use 'GB-UKPRN-' for a school, university or other educational establishment in Scotland or Northern Ireland. This is the prefix for the [UK Register of Learning](https://www.ukrlp.co.uk/) and is provided along with the UKPRN.
+3. If you have an **educational establishment** for the organisation, use the prefix 'GB-EDU-' for a school, university or other educational establishment in England and Wales along with the [EduBase](http://www.education.gov.uk/edubase/home.xhtml) URN identifier. Use the 'GB-UKPRN-' prefix for a school, university or other educational establishment in Scotland or Northern Ireland along with the [UK Register of Learning](https://www.ukrlp.co.uk/) UKPRN number.
 
 4. If you have a registered number from some other scheme, including overseas registrars, check the [IATI Organisation Registration Codelist](http://iatistandard.org/201/codelists/OrganisationRegistrationAgency/) for a prefix to use. If the prefix you need is not listed, [contact the support team](/contact/).
 
