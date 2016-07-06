@@ -81,7 +81,9 @@ Some recipients will have official registration numbers that can be used to iden
 
 To give users of 360Giving data the best chance of joining up information about the same organisations across different data files, we follow a simple methodology to create Organisation Identifiers.
 
-This can be summarised through the following process. As soon as a step gives you an identifier, you can stop there and use the given identifier. 
+We use the International Aid Transparency Initiative (IATI) [Organisation Registration Codelist](http://iatistandard.org/201/codelists/OrganisationRegistrationAgency/) as a prefix for each organisation’s official registration number. Not only does this mean we are re-using an open and well maintained standard, it also means that information about organisations can be provided in a clear and consistent way.
+
+This can be summarised through the following process (as soon as a step gives you an identifier, you can stop there and use the given identifier):
 
 1. If you have a **registered company number** for the organisation, use the prefix 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
 
@@ -98,6 +100,12 @@ Sometimes you may have recorded both the company number, and charity number, of 
 
 ## Codes
 
-Contact support for details of prefixes to use when publishing classification codes for your grants.
+For a list of codes, please see the check the [IATI Organisation Registration Codelist](http://iatistandard.org/201/codelists/OrganisationRegistrationAgency/) for a prefix to use. Remember that when publishing to 360Giving, to separate the IATI organisation prefix and the organisation’s registered number with a dash.
 
+For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of ''''1070468'''' will use an IATI prefix of GB-CHC. The number  in your 360Giving publication would be:
 
+>''''GB-CHC-1070468''''
+
+Is there a registrar missing from the [IATI Organisation Registration Codelist](http://iatistandard.org/201/codelists/OrganisationRegistrationAgency/)? You can request a code addition through the IATI helpdesk support@iatistandard.org or get in touch with 360Giving Support Team.
+
+You can also contact 360Giving support for advice on prefixes to use when publishing organisation codes for your grants.
