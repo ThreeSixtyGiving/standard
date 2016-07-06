@@ -102,9 +102,9 @@ Sometimes you may have recorded both the company number, and charity number, of 
 
 For a list of codes, please see the check the [IATI Organisation Registration Codelist](http://iatistandard.org/201/codelists/OrganisationRegistrationAgency/) for a prefix to use. Remember that when publishing to 360Giving, to separate the IATI organisation prefix and the organisation’s registered number with a dash.
 
-For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of ''''1070468'''' will use an IATI prefix of GB-CHC. The number  in your 360Giving publication would be:
+For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of 1070468 will use an IATI prefix of GB-CHC. The number  in your 360Giving publication would be:
 
->''''GB-CHC-1070468''''
+>GB-CHC-1070468
 
 Is there a registrar missing from the [IATI Organisation Registration Codelist](http://iatistandard.org/201/codelists/OrganisationRegistrationAgency/)? You can request a code addition through the IATI helpdesk support@iatistandard.org or get in touch with 360Giving Support Team.
 
