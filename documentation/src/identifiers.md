@@ -8,7 +8,7 @@ Whilst a human being may be good at recognising that:
 
 >INDIGO TRUST, The Indigo Trust, and indigo-trust
 
-... all refer to the same organisation, computers find this is lot trickier. 
+... all refer to the same organisation, computers find this a lot trickier. 
 
 That's why 360Giving requires you to give identifiers to:
 
