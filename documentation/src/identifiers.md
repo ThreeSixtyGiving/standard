@@ -83,7 +83,7 @@ Organisation Identifiers take the form:
 
 >*Registration Agency Code* (dash) *Identifer*
 
-The Registration Agency Code is taken from the [International Aid Transparency Initiative]((http://iatistandard.org/) (IATI) [Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) that provides an open, mainatined list of reference codes for many Registration Agencies.
+The Registration Agency Code is taken from the [International Aid Transparency Initiative](http://iatistandard.org/) (IATI) [Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) that provides an open, mainatined list of reference codes for many Registration Agencies.
 
 For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of **1070468** will use an [IATI Organisation Registration Agency Code](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) of **GB-CHC**. The organisation identifier in your 360Giving data would be:
 
@@ -95,7 +95,7 @@ To give users of 360Giving data the best chance of joining up information about 
 
 Work your way through the following steps. As soon as a step gives you an identifier, you can stop there and use the given identifier.
 
-1. **Registered Company Number (UK)**
+1. **Registered company number (UK)**
 
     If you have a registered company number for the organisation, use the Registration Agency Code 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
 
