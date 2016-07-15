@@ -77,19 +77,19 @@ There are many different kinds of organisations that give, receive or benefit fr
 * Overseas organisations
 * Individuals
 
-Many organisations will have official registration numbers, assigned by official registration agencies, that can be used to identify them. For example, in the UK [Companies House](http://www.companieshouse.gov.uk) can be considered to be a registration agency that assigns unique numbers to companies. In order to uniquely identify that company you would need to know both the company number and that it came from Companies House. (Cruicially, you can also look up a company, given it's number, at Companies House to find out more detail about that company.) Wherever possible 360Giving encourages you to collect and record these registered identifiers (Organisation Identifiers). 
+Many organisations will have official registration numbers, assigned by official registration agencies, that can be used to identify them. For example, in the UK [Companies House](http://www.companieshouse.gov.uk) can be considered to be a registration agency that assigns unique numbers to companies. In order to uniquely identify that company you would need to know both the company number and that it came from Companies House. (Crucially, you can also look up a company, given its number, at Companies House to find out more detail about that company.) Wherever possible 360Giving encourages you to collect and record these registered identifiers (Organisation Identifiers). 
 
 Organisation Identifiers take the form:
 
->*Registration Agency Code* (dash) *Identifer*
+>*Registration Agency Code* (dash) *Identifier*
 
-The Registration Agency Code is taken from the [International Aid Transparency Initiative](http://iatistandard.org/) (IATI) [Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) that provides an open, mainatined list of reference codes for many Registration Agencies.
+The Registration Agency Code is taken from the [International Aid Transparency Initiative](http://iatistandard.org/) (IATI) [Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) that provides an open, maintained list of reference codes for many Registration Agencies.
 
 For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of **1070468** will use an [IATI Organisation Registration Agency Code](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) of **GB-CHC**. The organisation identifier in your 360Giving data would be:
 
 >GB-CHC-1070468
 
-However, some organisations have more than one such identifer (e.g. where they are both a company and a charity), and others are not registered anywhere, and so you may only have names, or internal IDs, for them recorded on your data.
+However, some organisations have more than one such identifier (e.g. where they are both a company and a charity), and others are not registered anywhere, and so you may only have names, or internal IDs, for them recorded on your data.
 
 To give users of 360Giving data the best chance of joining up information about the same organisations across different data files, we follow a simple methodology to create Organisation Identifiers via the following process.
 
