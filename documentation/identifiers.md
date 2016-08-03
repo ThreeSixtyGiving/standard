@@ -30,7 +30,7 @@ You can use these existing **internal identifiers** in constructing the identifi
 
 > For example, if Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
 
-For your grants, and any <span class="tooltip" title="For example, you might maintain your own codes to classify grants, or you might have an internal numbering scheme for organisations rather than recording charity and company numbers.">other identifiers that are particular to your organisation</span>, you use can use a **360Giving prefix**. You can get this when registering on the data registry. 
+For your grants, and any other identifiers that are particular to your organisation, you use can use a **360Giving prefix**. You can get this when registering on the data registry. (For example, you might maintain your own codes to classify grants, or you might have an internal numbering scheme for organisations rather than recording charity and company numbers.)
 
 For organisation identifiers, follow the [organisation identifier](#organisation-identifier) guidance below which is designed to support links to be made between 360Giving, and other datasets about an organisation.
 
@@ -53,7 +53,7 @@ All registered prefixes should start with 360G unless you have been advised othe
 To create your grant identifiers:
 
 1. Make sure you have registered for 360Giving prefix;
-2. Look for an <span class="tooltip" title="This might be a sequential number assigned to each grant at the point of application, or a combination of the 'funding scheme' identifier and a sequential number for the grant. The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.">existing internal identifier</span> given to your grants;
+2. Look for an existing internal identifier given to your grants (This might be a sequential number assigned to each grant at the point of application, or a combination of the 'funding scheme' identifier and a sequential number for the grant. The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.);
 2. Add this onto the end of your 360Giving prefix;
 
 For example, if your prefix is ```360G-xyztrust``` and you have a grant identified internally as '123', you would combine these to give:
