@@ -1,7 +1,7 @@
 title,name,description,type,format,allowed_values,required
 ,commitmentTransaction/0/id,Identifier,string,,,False
 ,commitmentTransaction/0/transactionDate,When did this transaction take place? Please use YYYY-MM-DD format.,date-time,,,False
-,commitmentTransaction/0/currency,The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP,string,,,False
+,commitmentTransaction/0/currency,The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.,string,,,False
 ,commitmentTransaction/0/value,The total value of this transaction.,integer,,,False
 ,commitmentTransaction/0/valueDate,The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).,date-time,,,False
 ,commitmentTransaction/0/description,A description of this transaction.,string,,,False
