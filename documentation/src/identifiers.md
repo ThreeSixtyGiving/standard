@@ -75,6 +75,7 @@ There are many different kinds of organisations that give, receive or benefit fr
 * Registered charities
 * Community organisations
 * Overseas organisations
+* Schools, universities and other educational establishments
 * Individuals
 
 Many organisations will have official registration numbers, assigned by official registration agencies, that can be used to identify them. For example, in the UK [Companies House](http://www.companieshouse.gov.uk) can be considered to be a registration agency that assigns unique numbers to companies. In order to uniquely identify that company you would need to know both the company number and that it came from Companies House. (Crucially, you can also look up a company, given its number, at Companies House to find out more detail about that company.) Wherever possible 360Giving encourages you to collect and record these registered identifiers (Organisation Identifiers). 
