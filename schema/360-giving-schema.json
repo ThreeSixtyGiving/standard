@@ -323,7 +323,7 @@
           "weight": 3.4,
           "title": "Postal Code"
         },
-        "telephone":{
+        "telephone": {
          "type":"string",
          "description":"Contact phone number.",
          "weight":3.5,
