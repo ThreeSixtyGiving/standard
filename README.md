@@ -46,4 +46,4 @@ pip install -r requirements.txt
 
 ### Synchronising schema
 
-With the virtual environment activated (```source pyenv/bin/activate```) run ```./sync_schema.sh```
+With the virtual environment activated (```source pyenv/bin/activate```) run ```./sync-schema.sh```
