@@ -23,11 +23,11 @@ This repository stores the latest versions of the schema, along with tools used 
 
 ## Editing documentation
 
-Edit the documentation in the [documentation/src](documentation/src) directory, and then run `sync_schema.sh` (described below) to pull information from the schema into the compiled docs in the [documentation](documentation) directory.
+Edit the documentation in the [documentation/src](documentation/src) directory, and then run `sync-schema.sh` (described below) to pull information from the schema into the compiled docs in the [documentation](documentation) directory.
 
 ## Synchronising schemas
 
-After any changes to the schemas, or to the [source documentation](documentation/src),  `sync_schema.sh` script should be run to:
+After any changes to the schemas, or to the [source documentation](documentation/src),  `sync-schema.sh` script should be run to:
 
 * Generate CSV and XLSX templates
 * Update the documentation
@@ -43,7 +43,8 @@ python3 -m virtualenv -p $(which python3) .ve
 source .ve/bin/activate
 pip install -r requirements.txt
 ```
+In Windows, instead of `source .ve/bin/activate` run `pyenv\Scripts\activate.bat`
 
 ### Synchronising schema
 
-With the virtual environment activated (```source pyenv/bin/activate```) run ```./sync_schema.sh```
+With the virtual environment activated (```source pyenv/bin/activate```) run ```./sync-schema.sh```
