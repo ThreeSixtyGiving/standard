@@ -23,7 +23,7 @@ If you are not comfortable working with GitHub, but would still like to contribu
 
 # Contributing Code and Documentation
 
-In order to be clear with everyone involved about how code (and documentation) contributions are accepted and used, we use Contributor Licence Agreements (CLA). We only require CLA's to accept 'commits' to the repository. Bug reports, feature requests, etc do not require a CLA.
+In order to be clear with everyone involved about how code (and documentation) contributions are accepted and used, we use Contributor Licence Agreements (CLA). We only require CLA's to accept non-trivial 'commits' to the repository. Bug reports, feature requests, etc do not require a CLA. We follow the [guidance of the GNU project coding guidelines on accepting contributions](https://www.gnu.org/prep/standards/standards.html#Contributions) to help us decide what is a non-trivial contribution.
 
 ## Contributor Licence Agreements (CLA)
 
