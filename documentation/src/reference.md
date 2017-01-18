@@ -74,45 +74,67 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Actual Dates
 
+{{properties.actualDates.description}}
+
 {{actualDates.csv|Title,Description,Type,Required}}
 
 #### Planned Dates
+
+{{properties.plannedDates.description}}
 
 {{plannedDates.csv|Title,Description,Type,Required}}
 
 #### Funding Org
 
+{{properties.fundingOrganization.description}}
+
 {{fundingOrganization.csv|Title,Description,Type,Required}}
 
 #### Recipient Org
+
+{{properties.recipientOrganization.description}}
 
 {{recipientOrganization.csv|Title,Description,Type,Required}}
 
 #### Beneficiary Location
 
+{{properties.beneficiaryLocation.description}}
+
 {{beneficiaryLocation.csv|Title,Description,Type,Required}}
 
 #### Funding Org:Location
+
+{{definitions.Organization.properties.location.description}}
 
 {{fun_location.csv|Title,Description,Type,Required}}
 
 #### Recipient Org:Location
 
+{{definitions.Organization.properties.location.description}}
+
 {{rec_location.csv|Title,Description,Type,Required}}
 
 #### Related Document
+
+{{properties.relatedDocument.description}}
 
 {{relatedDocument.csv|Title,Description,Type,Required}}
 
 #### Classifications
 
+{{properties.classifications.description}}
+
 {{classifications.csv|Title,Description,Type,Required}}
 
 #### Funding Type
 
+{{properties.fundingType.description}}
+
 {{fundingType.csv|Title,Description,Type,Required}}
 
 #### Grant Programme
+
+{{properties.grantProgramme.description}}
 
 {{grantProgramme.csv|Title,Description,Type,Required}}
 
