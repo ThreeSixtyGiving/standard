@@ -115,6 +115,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Actual Dates
 
+When did this grant activity actually take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Actual Dates:Title|-|string|False|
@@ -127,6 +129,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Planned Dates
 
+When the applicant / implementing organisation originally intend this activity to take place. 
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Planned Dates:Title|-|string|False|
@@ -138,6 +142,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 
 #### Funding Org
+
+Details of the funder
 
 |Title|Description|Type|Required|
 |----|----|----|----|
@@ -163,6 +169,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Recipient Org
 
+Details of the recipient of this grant.
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Recipient Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
@@ -187,6 +195,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Beneficiary Location
 
+Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Beneficiary Location:Identifier|Location identifier|string|False|
@@ -201,6 +211,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 
 #### Funding Org:Location
+
+-
 
 |Title|Description|Type|Required|
 |----|----|----|----|
@@ -217,6 +229,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Recipient Org:Location
 
+-
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Recipient Org:Location:Identifier|Location identifier|string|False|
@@ -232,6 +246,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Related Document
 
+-
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Related Document:Identifier|An identifier for this document.|string|False|
@@ -243,6 +259,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 
 #### Classifications
+
+-
 
 |Title|Description|Type|Required|
 |----|----|----|----|
@@ -256,6 +274,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Funding Type
 
+-
+
 |Title|Description|Type|Required|
 |----|----|----|----|
 |Funding Type:Vocabulary|A vocabulary used for this classification.|string|False|
@@ -267,6 +287,8 @@ If you have additional data to report that does not fit any of the columns provi
 
 
 #### Grant Programme
+
+-
 
 |Title|Description|Type|Required|
 |----|----|----|----|
