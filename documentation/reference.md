@@ -24,7 +24,7 @@ The [360Giving Data Quality Tool](http://cove.opendataservices.coop/360/) can be
 
 To produce 360Giving data in a spreadsheet, it is possible to start with an empty spreadsheet and construct the column titles (and any additional sheets), using the information given below. However, for many people, the starting point is the spreadsheet template described below.
 
-###Spreadsheet template
+### Spreadsheet template
 
 For convenience we provide a [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) that can be used directly, or adapted to your needs.
 
