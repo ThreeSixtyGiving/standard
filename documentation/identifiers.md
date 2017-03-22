@@ -1,4 +1,4 @@
-<div id="toc"></div>
+# Identifiers
 
 ## Why identifiers matter
 

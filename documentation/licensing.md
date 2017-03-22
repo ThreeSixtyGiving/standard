@@ -1,4 +1,4 @@
-<div id="toc"></div>
+# Licensing
 
 ## Guide to 360Giving Open Data Licensing
 

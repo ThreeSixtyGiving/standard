@@ -1,4 +1,4 @@
-<div id="toc"></div>
+# Reference
 
 This page provides reference information on publishing to the 360Giving Data Standard.
 
