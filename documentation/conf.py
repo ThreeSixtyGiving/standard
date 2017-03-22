@@ -350,6 +350,35 @@ locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 
+from sphinx.directives import Directive
+from docutils.parsers.rst import directives
+from docutils import nodes
+import json
+
+
+def deep_access(x,keylist):
+     val = x
+     for key in keylist:
+         val = val[key]
+     return val
+
+
+class SchemaValue(Directive):
+    required_arguments = 1
+
+    def run(self):
+        with open("../schema/360-giving-schema.json", 'r') as fp:
+            schema = json.loads(fp.read())
+            try:
+                schema_text = deep_access(schema, self.arguments[0].split('.'))
+            except:
+                schema_text = "- Documentation Error: Schema path not found -"
+            print(schema_text)
+        return [nodes.Text(schema_text)]
+
+directives.register_directive('schemavalue', SchemaValue)
+
+
 
 def setup(app):
     app.add_config_value('recommonmark_config', {

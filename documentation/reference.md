@@ -51,7 +51,11 @@ The main 'grants' sheet includes sections for:
 * The location of beneficiaries;
 * Details of the grant programme funding is from;
 
-{{grants.csv|Title,Description,Type,Required}}
+```eval_rst
+.. csv-table::
+    :file: tabledefs/grants.csv
+    :header-rows: 1
+```
 
 ### Additional fields
 
@@ -74,9 +78,18 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Actual Dates
 
-{{properties.actualDates.description}}
+```eval_rst
 
-{{actualDates.csv|Title,Description,Type,Required}}
+.. schemavalue:: properties.actualDates.description
+
+```
+
+```eval_rst
+
+.. csv-table::
+    :file: tabledefs/actualDates.csv
+    :header-rows: 1
+```
 
 #### Planned Dates
 
