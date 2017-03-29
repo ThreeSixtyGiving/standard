@@ -1,6 +1,7 @@
 Sphinx==1.5.3
 sphinx-intl==0.9.9
 transifex-client==0.12.4
+sphinx-rtd-theme==0.2.4
 # recommonmark commit pinned from master branch
 -e git+https://github.com/rtfd/recommonmark.git@50be4978d7d91d0b8a69643c63450c8cd92d1212#egg=recommonmark
 -e git+https://github.com/OpenDataServices/flatten-tool.git@579d7ae64ddb6e34b29b55e5a15016e500cb1018#egg=flattentool
