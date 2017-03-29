@@ -323,7 +323,7 @@
           "weight": 3.4,
           "title": "Postal Code"
         },
-        "telephone":{
+        "telephone": {
          "type":"string",
          "description":"Contact phone number.",
          "weight":3.5,
@@ -517,7 +517,6 @@
         "$ref": "#/definitions/Location"
       },
       "type": "array",
-      "description": "Beneficiary locations",
       "weight": 6.01,
       "title": "Beneficiary Location",
       "description":"Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.",
