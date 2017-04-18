@@ -226,8 +226,8 @@ When exchanging data about a single grant or any number of grants, those grants 
 In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="/wp-content/plugins/threesixty_docs/docson/widget.js" 
-        data-schema="/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json">      
+<script src="../_static/docson/widget.js" 
+        data-schema="../360-giving-schema.json">      
 </script>
 </div>
 
