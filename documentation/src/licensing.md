@@ -20,7 +20,7 @@ Without a license, data isn't open data and potential users wouldn't know what t
 
 While there are several choices for open data licenses, we recommend a license that doesn't restrict use but does acknowledge you, the publisher. To this end, our default recommendation is the Creative Commons Attribution 4.0 International (CC BY 4.0). 
 
-With this license, anyone can share or adapt your data for any purpose, even commercially. The only restrictions are they must give appropriate credit, provide a link to the license, and note any changes made. Finally, anything shared or adapted has to be licensed as CC BY 4.0. [Find out more about CC BY 4.0](https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International").
+With this license, anyone can share or adapt your data for any purpose, even commercially. The only restrictions are they must give appropriate credit, provide a link to the license, and note any changes made. [Find out more about CC BY 4.0](https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International").
 
 If you are a UK public sector organisation, we encourage you to use the [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ "Open Government License for public sector information"). This is the UK government's open data license which public sector bodies are encouraged to use by the [Re-use of Public Sector Information Regulations 2015 (RPSI)](https://ico.org.uk/for-organisations/guide-to-rpsi/ "Guide to RPSI").
 
