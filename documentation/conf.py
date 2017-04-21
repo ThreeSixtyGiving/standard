@@ -364,27 +364,58 @@ from docutils import nodes
 import json
 
 
-def deep_access(x,keylist):
-     val = x
-     for key in keylist:
-         val = val[key]
-     return val
+import sphinxcontrib.jsonschema
+
+class JSONSchemaDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
+    headers = ['Title', 'Description', 'Type', 'Required']
+    widths = [1, 1, 1, 1]
+    option_spec = {
+        'child': directives.unchanged,
+    }
+    child = None
+
+    def make_nodes(self, schema):
+        child = self.options.get('child')
+        if child:
+            for prop in schema:
+                if prop.name == child:
+                    return [nodes.paragraph('', nodes.Text(prop.description)), self.table(prop)]
+            else:
+                raise KeyError
+        else:
+            return [self.table(schema)]
+    
+    def row(self, prop, tbody):
+        # Don't display rows for arrays and objects (only their children)
+        if isinstance(prop, (sphinxcontrib.jsonschema.Array, sphinxcontrib.jsonschema.Object)):
+            return
+        if not prop.rollup and prop.parent.parent.name != self.options.get('child'):
+            return
+        row = nodes.row()
+        row += self.cell(prop.full_title)
+        row += self.cell(prop.description or '')
+        row += self.cell(prop.type)
+        row += self.cell(prop.required)
+        tbody += row
+
+directives.register_directive('jsonschema', JSONSchemaDirective)
 
 
-class SchemaValue(Directive):
-    required_arguments = 1
+class JSONSchemaFieldsDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
+    headers = ['Title', 'Name', 'Type']
+    widths = [1, 1, 1]
+    
+    def row(self, prop, tbody):
+        # Don't display rows for arrays and objects (only their children)
+        if isinstance(prop, (sphinxcontrib.jsonschema.Array, sphinxcontrib.jsonschema.Object)):
+            return
+        row = nodes.row()
+        row += self.cell(prop.full_title)
+        row += self.cell(prop.name)
+        row += self.cell(prop.type)
+        tbody += row
 
-    def run(self):
-        with open("../schema/360-giving-schema.json", 'r') as fp:
-            schema = json.loads(fp.read())
-            try:
-                schema_text = deep_access(schema, self.arguments[0].split('.'))
-            except:
-                schema_text = "- Documentation Error: Schema path not found -"
-            print(schema_text)
-        return [nodes.Text(schema_text)]
-
-directives.register_directive('schemavalue', SchemaValue)
+directives.register_directive('jsonschema_fields', JSONSchemaFieldsDirective)
 
 
 

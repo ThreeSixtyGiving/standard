@@ -1,7 +1,0 @@
-title,name,description,type,format,allowed_values,required
-Related Document:Identifier,relatedDocument/0/id,An identifier for this document.,string,,,False
-Related Document:Title,relatedDocument/0/title,The document title,string,,,False
-Related Document:Web Address,relatedDocument/0/url,The URL of the document.,uri,,,False
-Related Document:Description,relatedDocument/0/description,A description of the document,string,,,False
-Related Document:Document Type,relatedDocument/0/documentType,"A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.",string,,,False
-Related Document:Last modified,relatedDocument/0/dateModified,The date and time when information about this document was last updated.,date-time,,,False

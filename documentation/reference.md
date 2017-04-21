@@ -52,9 +52,7 @@ The main 'grants' sheet includes sections for:
 * Details of the grant programme funding is from;
 
 ```eval_rst
-.. csv-table::
-    :file: tabledefs/grants.csv
-    :header-rows: 1
+.. jsonschema:: ../schema/360-giving-schema.json
 ```
 
 ### Additional fields
@@ -79,77 +77,79 @@ If you have additional data to report that does not fit any of the columns provi
 #### Actual Dates
 
 ```eval_rst
-
-.. schemavalue:: properties.actualDates.description
-
-```
-
-```eval_rst
-
-.. csv-table::
-    :file: tabledefs/actualDates.csv
-    :header-rows: 1
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: actualDates
 ```
 
 #### Planned Dates
 
-{{properties.plannedDates.description}}
-
-{{plannedDates.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: plannedDates
+```
 
 #### Funding Org
 
-{{properties.fundingOrganization.description}}
-
-{{fundingOrganization.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: fundingOrganization
+```
 
 #### Recipient Org
 
-{{properties.recipientOrganization.description}}
-
-{{recipientOrganization.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: recipientOrganization
+```
 
 #### Beneficiary Location
 
-{{properties.beneficiaryLocation.description}}
-
-{{beneficiaryLocation.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: beneficiaryLocation
+```
 
 #### Funding Org:Location
 
-{{definitions.Organization.properties.location.description}}
-
-{{fun_location.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: fundingOrganization/0/location
+```
 
 #### Recipient Org:Location
 
-{{definitions.Organization.properties.location.description}}
-
-{{rec_location.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: recipientOrganization/0/location
+```
 
 #### Related Document
 
-{{properties.relatedDocument.description}}
-
-{{relatedDocument.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: relatedDocument
+```
 
 #### Classifications
 
-{{properties.classifications.description}}
-
-{{classifications.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: classifications
+```
 
 #### Funding Type
 
-{{properties.fundingType.description}}
-
-{{fundingType.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: fundingType
+```
 
 #### Grant Programme
 
-{{properties.grantProgramme.description}}
-
-{{grantProgramme.csv|Title,Description,Type,Required}}
+```eval_rst
+.. jsonschema:: ../schema/360-giving-schema.json
+    :child: grantProgramme
+```
 
 #### Transactions
 
@@ -241,7 +241,9 @@ The field names are important for computers reading the data, and even if other 
 
 A mapping between column titles and field names for the Grants sheet is given below:
 
-{{grants.csv|Title,Name,Type}}
+```eval_rst
+.. jsonschema_fields:: ../schema/360-giving-schema.json
+```
 
 ### JSON
 
