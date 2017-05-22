@@ -1,4 +1,4 @@
-# Reference
+<div id="toc"></div>
 
 This page provides reference information on publishing to the 360Giving Data Standard.
 
@@ -24,7 +24,7 @@ The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can
 
 To produce 360Giving data in a spreadsheet, it is possible to start with an empty spreadsheet and construct the column titles (and any additional sheets), using the information given below. However, for many people, the starting point is the spreadsheet template described below.
 
-### Spreadsheet template
+###Spreadsheet template
 
 For convenience we provide a [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) that can be used directly, or adapted to your needs.
 
@@ -51,9 +51,7 @@ The main 'grants' sheet includes sections for:
 * The location of beneficiaries;
 * Details of the grant programme funding is from;
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-```
+{{grants.csv|Title,Description,Type,Required}}
 
 ### Additional fields
 
@@ -76,80 +74,69 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Actual Dates
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: actualDates
-```
+{{properties.actualDates.description}}
+
+{{actualDates.csv|Title,Description,Type,Required}}
 
 #### Planned Dates
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: plannedDates
-```
+{{properties.plannedDates.description}}
+
+{{plannedDates.csv|Title,Description,Type,Required}}
 
 #### Funding Org
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: fundingOrganization
-```
+{{properties.fundingOrganization.description}}
+
+{{fundingOrganization.csv|Title,Description,Type,Required}}
 
 #### Recipient Org
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: recipientOrganization
-```
+{{properties.recipientOrganization.description}}
+
+{{recipientOrganization.csv|Title,Description,Type,Required}}
 
 #### Beneficiary Location
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: beneficiaryLocation
-```
+{{properties.beneficiaryLocation.description}}
+
+{{beneficiaryLocation.csv|Title,Description,Type,Required}}
 
 #### Funding Org:Location
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: fundingOrganization/0/location
-```
+{{definitions.Organization.properties.location.description}}
+
+{{fun_location.csv|Title,Description,Type,Required}}
 
 #### Recipient Org:Location
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: recipientOrganization/0/location
-```
+{{definitions.Organization.properties.location.description}}
+
+{{rec_location.csv|Title,Description,Type,Required}}
 
 #### Related Document
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: relatedDocument
-```
+{{properties.relatedDocument.description}}
+
+{{relatedDocument.csv|Title,Description,Type,Required}}
 
 #### Classifications
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: classifications
-```
+{{properties.classifications.description}}
+
+{{classifications.csv|Title,Description,Type,Required}}
 
 #### Funding Type
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: fundingType
-```
+{{properties.fundingType.description}}
+
+{{fundingType.csv|Title,Description,Type,Required}}
 
 #### Grant Programme
 
-```eval_rst
-.. jsonschema:: ../schema/360-giving-schema.json
-    :child: grantProgramme
-```
+{{properties.grantProgramme.description}}
+
+{{grantProgramme.csv|Title,Description,Type,Required}}
 
 #### Transactions
 
@@ -226,8 +213,8 @@ When exchanging data about a single grant or any number of grants, those grants 
 In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="../_static/docson/widget.js" 
-        data-schema="../360-giving-schema.json">      
+<script src="/wp-content/plugins/threesixty_docs/docson/widget.js" 
+        data-schema="/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json">      
 </script>
 </div>
 
@@ -241,9 +228,7 @@ The field names are important for computers reading the data, and even if other 
 
 A mapping between column titles and field names for the Grants sheet is given below:
 
-```eval_rst
-.. jsonschema_fields:: ../schema/360-giving-schema.json
-```
+{{grants.csv|Title,Name,Type}}
 
 ### JSON
 
