@@ -366,6 +366,15 @@ import json
 
 import sphinxcontrib.jsonschema
 
+def type_format_simple(prop):
+    prop_type = prop.attributes.get('type')
+    if prop.format:
+        return prop.format
+    elif isinstance(prop_type, list) and len(prop_type) == 2 and prop_type[1] == 'null':
+        return prop_type[0]
+    else:
+        return prop.type
+
 class JSONSchemaDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
     headers = ['Title', 'Description', 'Type', 'Required']
     widths = [1, 3, 1, 1]
@@ -394,7 +403,7 @@ class JSONSchemaDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
         row = nodes.row()
         row += self.cell(prop.full_title)
         row += self.cell(prop.description or '')
-        row += self.cell(prop.type)
+        row += self.cell(type_format_simple(prop))
         row += self.cell(prop.required)
         tbody += row
 
@@ -412,7 +421,7 @@ class JSONSchemaFieldsDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
         row = nodes.row()
         row += self.cell(prop.full_title)
         row += self.cell(prop.name)
-        row += self.cell(prop.type)
+        row += self.cell(type_format_simple(prop))
         tbody += row
 
 directives.register_directive('jsonschema_fields', JSONSchemaFieldsDirective)
