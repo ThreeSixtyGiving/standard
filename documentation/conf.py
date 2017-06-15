@@ -368,7 +368,7 @@ import sphinxcontrib.jsonschema
 
 class JSONSchemaDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
     headers = ['Title', 'Description', 'Type', 'Required']
-    widths = [1, 1, 1, 1]
+    widths = [1, 3, 1, 1]
     option_spec = {
         'child': directives.unchanged,
     }
