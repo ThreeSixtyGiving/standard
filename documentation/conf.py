@@ -419,6 +419,59 @@ directives.register_directive('jsonschema_fields', JSONSchemaFieldsDirective)
 
 
 
+class DirectoryListDirective(Directive):
+    option_spec = {
+        'path': directives.unchanged,
+        'url': directives.unchanged,
+    }
+
+    def run(self):
+        bl = nodes.bullet_list()
+        for fname in os.listdir(self.options.get('path')):
+            bl += nodes.list_item('', nodes.paragraph('', '', nodes.reference('', '',
+                    nodes.Text(fname),
+                    internal=False,
+                    refuri=self.options.get('url') + fname, anchorname='')))
+        return [bl]
+
+directives.register_directive('directory_list', DirectoryListDirective)
+
+
+import flattentool
+import shutil
+
+for dirname in ['../schema/multi-table', '../schema/summary-table']:
+    try:
+        shutil.rmtree(dirname)
+    except FileNotFoundError:
+        pass
+    os.makedirs(dirname)
+
+for output_format in ['csv', 'xlsx']:
+    flattentool.create_template(
+        root_id='',
+        output_format=output_format,
+        output_name='../schema/multi-table/360-giving-schema-fields.'+output_format,
+        schema='../schema/360-giving-schema.json',
+        main_sheet_name='grants',
+    )
+
+    flattentool.create_template(
+        root_id='',
+        output_format=output_format,
+        output_name='../schema/summary-table/360-giving-schema-titles.'+output_format,
+        schema='../schema/360-giving-schema.json',
+        main_sheet_name='grants',
+        rollup=True,
+        use_titles=True,
+    )
+
+#mv README.md 360-giving-schema-titles.csv/
+
+
+
+
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
         #'url_resolver': lambda url: github_doc_root + url,
