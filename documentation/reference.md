@@ -4,7 +4,7 @@ This page provides reference information on publishing to the 360Giving Data Sta
 
 It assumes some technical knowledge.
 
-If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](/get-involved/publish-your-data/) pages.
+If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](http://www.threesixtygiving.org/data/publish-data/) pages.
 
 ## Data formats
 
@@ -16,7 +16,7 @@ There are two main formats available for representing 360Giving data.
  
 2. **JSON**
    
-   Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas).
+   Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schema](360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schema](360giving-json-schemas).
 
 The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can be used to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
 
@@ -32,12 +32,12 @@ The template is a multi-sheet spreadsheet, and each sheet is described below.
 
 Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.
 
-Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](/#toc-one-to-many-relationships).
-Information about how to create data with [One to many relationships](/#toc-one-to-many-relationships) is described below.
+Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](one-to-many-relationships).
+Information about how to create data with [One to many relationships](one-to-many-relationships) is described below.
 
 The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields. 
 
-The [Additional fields](/#toc-additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas) ).
+The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
 
 ### Grants Sheet
@@ -55,6 +55,10 @@ The main 'grants' sheet includes sections for:
 .. jsonschema:: ../schema/360-giving-schema.json
 ```
 
+```eval_rst
+.. _additional-fields:
+```
+
 ### Additional fields
 
 The main 'grants' sheet only includes the most common information used by most data publishers. For many people this is enough.
@@ -67,7 +71,7 @@ The other sheets in the [360Giving Spreadsheet Template](https://github.com/Thre
    
    You can use any of these column titles on your main 'grants' sheet if you wish.  
 
-2. As a way of providing information about [Many to one relationships](/#toc-many-to-one-relationships)
+2. As a way of providing information about [One to many relationships](one-to-many-relationships)
 
 If, when creating your data, you only need a few additional fields from the additional sheets, you can simply copy them from one sheet to another.
 
@@ -163,6 +167,10 @@ These do not currently have nice human readable titles, but can still be added a
 
 To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
+```eval_rst
+.. _one-to-many-relationships:
+```
+
 ### One to many relationships
 
 Each of the sections of additional fields above can have multiple occurrences for one grant. There are three ways of describing this in a spreadsheet.
@@ -216,12 +224,16 @@ The 360Giving standard is defined by a [JSON Schema](http://json-schema.org/), w
 
 At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
 
+```eval_rst
+.. _360giving-json-schemas:
+```
+
 ### 360Giving JSON Schemas
 The 360Giving JSON Schemas are the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schema. 
 
-The [360Giving Grant Schema](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json) defines the structure of an individual 'grant' and the documentation from this is displayed below, or [fullscreen here](/wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json).
+The <a href="../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
 
-When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The [360Giving Package  Schema](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-package-schema.json) describes how grants are packaged into one file.
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The <a href="../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file.
 
 In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
