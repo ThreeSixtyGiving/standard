@@ -255,7 +255,7 @@ The English language titles are important for humans working to make sense of th
 
 The field names are important for computers reading the data, and even if other language titles are provided in future, the underlying field names will remain constant.
 
-A mapping between column titles and field names for the Grants sheet is given below:
+A mapping between column titles and field names is given below:
 
 ```eval_rst
 .. jsonschema_fields:: ../schema/360-giving-schema.json
