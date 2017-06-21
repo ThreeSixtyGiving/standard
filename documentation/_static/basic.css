@@ -1,3 +1,10 @@
 .wy-table-responsive table td {
     white-space: normal !important;
 }
+.wy-side-nav-search {
+    background: #ff9222;
+}
+.wy-side-nav-search input[type=text] {
+    border-color: #ff9222;
+}
+
