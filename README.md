@@ -23,18 +23,11 @@ This repository stores the latest versions of the schema, along with tools used 
 
 ## Editing documentation
 
-Edit the documentation in the [documentation/src](documentation/src) directory, and then run `sync-schema.sh` (described below) to pull information from the schema into the compiled docs in the [documentation](documentation) directory.
-
-## Synchronising schemas
-
-After any changes to the schemas, or to the [source documentation](documentation/src),  `sync-schema.sh` script should be run to:
-
-* Generate CSV and XLSX templates
-* Update the documentation
+Documentation can now be edited directly in the [documentation](documentation) directory.
 
 ### Installation
 
-To use the sync_schema.sh script you will need a virtual environment set up. 
+To build the documentation you will need a virtual environment set up. 
 
 ```
 git clone https://github.com/ThreeSixtyGiving/standard.git
@@ -55,7 +48,3 @@ make html
 ```
 
 Then open `_build/html/index.html` in your browser.
-
-### Synchronising schema
-
-With the virtual environment activated (```source pyenv/bin/activate```) run ```./sync-schema.sh```
