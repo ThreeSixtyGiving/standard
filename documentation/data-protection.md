@@ -1,4 +1,4 @@
-<div id="toc"></div>
+# Data Protection
 
 ## What is data protection?
 

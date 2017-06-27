@@ -1,6 +1,12 @@
 # 360Giving CSV Templates
 
-The CSV files available in this directory can be used as templates to create data to fit the 360Giving Data Standard.
+The CSV files listed below can be used as templates to create data to fit the 360Giving Data Standard:
+
+```eval_rst
+.. directory_list::
+    :path: ../schema/summary-table/360-giving-schema-titles.csv/
+    :url: ../_static/summary-table/360-giving-schema-titles.csv/
+```
 
 ## grants.csv
 

@@ -39,11 +39,22 @@ To use the sync_schema.sh script you will need a virtual environment set up.
 ```
 git clone https://github.com/ThreeSixtyGiving/standard.git
 cd standard
+git submodule init
+git submodule update
 python3 -m virtualenv -p $(which python3) .ve
 source .ve/bin/activate
 pip install -r requirements.txt
 ```
 In Windows, instead of `source .ve/bin/activate` run `pyenv\Scripts\activate.bat`
+
+### Build the docs
+
+```
+cd documentation
+make html
+```
+
+Then open `_build/html/index.html` in your browser.
 
 ### Synchronising schema
 

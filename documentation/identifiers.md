@@ -1,4 +1,4 @@
-<div id="toc"></div>
+# Identifiers
 
 ## Why identifiers matter
 
@@ -32,7 +32,7 @@ You can use these existing **internal identifiers** in constructing the identifi
 
 For your grants, and any other identifiers that are particular to your organisation, you use can use a **360Giving prefix**. You can get this when registering on the data registry. (For example, you might maintain your own codes to classify grants, or you might have an internal numbering scheme for organisations rather than recording charity and company numbers.)
 
-For organisation identifiers, follow the [organisation identifier](#organisation-identifier) guidance below which is designed to support links to be made between 360Giving, and other datasets about an organisation.
+For organisation identifiers, follow the [organisation identifier](organisation-identifier) guidance below which is designed to support links to be made between 360Giving, and other datasets about an organisation.
 
 ### Using your identifiers
 
@@ -44,7 +44,7 @@ You can also make use of your 360Giving identifiers in internal reports and docu
 
 ## Register a prefix
 
-To register a prefix see the [publisher guidance](/publish/).
+To register a prefix see the [publisher guidance](http://www.threesixtygiving.org/data/publish-data/).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
 
@@ -66,6 +66,9 @@ If your internal identifiers include spaces or special characters, we recommend 
 
 >360G-xyztrust-123_ABC
 
+```eval_rst
+.. _organisation-identifier:
+```
 
 ## Organisation Identifier
 
@@ -117,7 +120,7 @@ Work your way through the following steps. As soon as a step gives you an identi
 
 4. **Other registered number**
 
-    If you have a registered number from some other scheme, including overseas registrars, check the [IATI Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) for a Registration Agency Code to use. If the Registration Agency Code you need is not listed, [contact the support team](/contact/).
+    If you have a registered number from some other scheme, including overseas registrars, check the [IATI Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) for a Registration Agency Code to use. If the Registration Agency Code you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
 
 5. **No registered number**
 
@@ -136,4 +139,4 @@ Sometimes you may have recorded both the company number, and charity number, of 
 
 ## Codes
 
-[Contact the support team](/contact/) for details of prefixes to use when publishing classification codes for your grants.
+[Contact the support team](http://www.threesixtygiving.org/contact/) for details of prefixes to use when publishing classification codes for your grants.

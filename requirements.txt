@@ -1,7 +1,29 @@
--e git+https://github.com/OpenDataServices/flatten-tool.git@579d7ae64ddb6e34b29b55e5a15016e500cb1018#egg=flattentool
+Sphinx==1.5.3
+sphinx-intl==0.9.9
+transifex-client==0.12.4
+sphinx-rtd-theme==0.2.4
+# recommonmark commit pinned from master branch
+-e git+https://github.com/rtfd/recommonmark.git@50be4978d7d91d0b8a69643c63450c8cd92d1212#egg=recommonmark
+-e git+https://github.com/OpenDataServices/flatten-tool.git@4e4a07a771408b3c566fa65ebbbff42c9560227a#egg=flattentool
+-e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@bfbd5bdfdea11c70f91dc7a40ffbc8722408aff4#egg=sphinxcontrib-jsonschema
+alabaster==0.7.10
+appdirs==1.4.3
+Babel==2.3.4
+click==6.7
+CommonMark==0.5.4
+docutils==0.13.1
+imagesize==0.7.1
+Jinja2==2.9.5
+MarkupSafe==1.0
+packaging==16.8
+Pygments==2.2.0
+pyparsing==2.2.0
+pytz==2016.10
+requests==2.13.0
+six==1.10.0
+snowballstemmer==1.2.1
+urllib3==1.20
 jdcal==1.2
 jsonref==0.1
 openpyxl==2.3.2
-pytz==2015.7
 schema==0.4.0
-six==1.10.0
