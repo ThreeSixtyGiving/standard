@@ -27,7 +27,7 @@ Documentation can now be edited directly in the [documentation](documentation) d
 
 ### Installation
 
-To use the sync_schema.sh script you will need a virtual environment set up. 
+To build the documentation you will need a virtual environment set up. 
 
 ```
 git clone https://github.com/ThreeSixtyGiving/standard.git
