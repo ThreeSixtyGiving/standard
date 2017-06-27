@@ -15,13 +15,17 @@ The 360Giving data standard is:
 
 Two standard templates are available.
 
-<div class='content-column one_half'><p style="text-align: center;"><a href="https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx"><img class="alignnone wp-image-369 size-full" src="https://www.threesixtygiving.org/wp-content/uploads/noun_5872_cc.png" alt="Spreadsheet Icon" width="150" height="150" srcset="https://www.threesixtygiving.org/wp-content/uploads/noun_5872_cc.png 150w, https://www.threesixtygiving.org/wp-content/uploads/noun_5872_cc-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a></p>
+<div class='content-column one_half'><p><a href="https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx"><img class="alignnone wp-image-369 size-full" src="https://www.threesixtygiving.org/wp-content/uploads/noun_5872_cc.png" alt="Spreadsheet Icon" width="150" height="150" srcset="https://www.threesixtygiving.org/wp-content/uploads/noun_5872_cc.png 150w, https://www.threesixtygiving.org/wp-content/uploads/noun_5872_cc-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a></p>
 <div style="font-size: 0.7em; text-align: center;margin:-25px 0;">(Document by Jamison Wieser from the Noun Project)</div>
-<p style="text-align: center;"><strong><a href="https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx">Spreadsheet Template (Excel)</a></strong>, with user-friendly column headings, summary sheet and tabs for additional information.<br />
-(<a href="https://github.com/ThreeSixtyGiving/standard/tree/legacy/schema/summary-table/360-giving-schema-titles.csv">CSV versions also available</a>.)</p></div>
-<div class='content-column one_half'><p style="text-align: center;"><a href="http://www.threesixtygiving.org/standard/reference/#toc-360giving-json-schemas"><img class="alignnone size-thumbnail wp-image-101" src="https://www.threesixtygiving.org/wp-content/uploads/2015/07/json-150x150.png" alt="json" width="150" height="150" /></a></p>
+<p><strong><a href="_static/summary-table/360-giving-schema-titles.xlsx">Spreadsheet Template (Excel)</a></strong>, with user-friendly column headings, summary sheet and tabs for additional information.<br />
+(<a href="templates-csv">CSV versions also available</a>.)</p></div>
+<div class='content-column one_half'><p><a href="http://www.threesixtygiving.org/standard/reference/#toc-360giving-json-schemas"><img class="alignnone size-thumbnail wp-image-101" src="https://www.threesixtygiving.org/wp-content/uploads/2015/07/json-150x150.png" alt="json" width="150" height="150" /></a></p>
 <div style="font-size: 0.7em; text-align: center;margin:-25px 0;">(JSON File by useiconic.com from the Noun Project)</div>
-<p style="text-align: center;">Our <a href="http://www.threesixtygiving.org/standard/reference/#toc-360giving-json-schemas">JSON Schema</a> provides the canonical definition of fields, as well as developer-friendly structure for working with 360Giving data.</p></div>
+<p>
+
+Our [JSON Schema](360giving-json-schemas) provide the canonical definition of fields, as well as developer-friendly structure for working with 360Giving data.
+
+</p></div>
 <br clear="all" />
 
 Free support, helping you to publish and use 360Giving data is [available from our data support team](http://www.threesixtygiving.org/contact/).
