@@ -26,7 +26,7 @@ To produce 360Giving data in a spreadsheet, it is possible to start with an empt
 
 ### Spreadsheet template
 
-For convenience we provide a <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs.
+For convenience we provide a <a href="https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs.
 
 The template is a multi-sheet spreadsheet, and each sheet is described below.
 
