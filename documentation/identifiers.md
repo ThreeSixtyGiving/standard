@@ -1,52 +1,57 @@
 # Identifiers
 
-## Why identifiers matter
+```eval_rst 
 
-Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
+.. admonition:: Why identifiers matter
 
-Whilst a human being may be good at recognising that:
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
 
->INDIGO TRUST, The Indigo Trust, and indigo-trust
+  Whilst a human being may be good at recognising that "INDIGO TRUST", "The Indigo Trust", and "indigo-trust" all refer to the same organisation, computers find this a lot trickier. 
 
-... all refer to the same organisation, computers find this a lot trickier. 
+```
 
-That's why 360Giving requires you to give identifiers to:
+360Giving asks you to give identifiers to:
 
-* Grants;
+* [Grants](grant-identifier)
+* [Organisations](organisation-identifier);
 * Transactions; 
 * Classifications;
-* Organisations;
 * and other unique elements in your data.
 
-These go in ```Identifier``` columns alongside human-readable text descriptions of the grant, the name of an organisation, or the title of a classification.
+These go in an ```Identifier``` column alongside accessible text descriptions of the grant, the name of an organisation, or the title of a classification.
 
 ## Creating identifiers
 
-Often you will already have identifiers in your own records. For example, you might assign a number to each application or grant, or you might record a reference ID for a funding recipient.
+You may already have identifiers in your own data. For example, a number for each application or grant. You can use these existing **internal identifiers** as part of your published data. 
 
-You can use these existing **internal identifiers** in constructing the identifiers that you will use in your 360Giving data files. 
+*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, you need to add a **prefix** to avoid this possible clash. 
 
-*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, in 360Giving you add a **prefix** to your internal identifiers. 
+```eval_rst
 
-> For example, if Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+.. admonition:: For example
 
-For your grants, and any other identifiers that are particular to your organisation, you use can use a **360Giving prefix**. You can get this when registering on the data registry. (For example, you might maintain your own codes to classify grants, or you might have an internal numbering scheme for organisations rather than recording charity and company numbers.)
+  If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
 
-For organisation identifiers, follow the [organisation identifier](organisation-identifier) guidance below which is designed to support links to be made between 360Giving, and other datasets about an organisation.
+```
 
-### Using your identifiers
+For grants, and other identifiers particular to your organisation, you use can use a **360G prefix** assigned to you when you start publishing data. 
 
-We use simple text identifiers in 360Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' (or hashtag) when uploading photos and videos to social media sites. 
+For organisation identifiers, if you can, use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below. If you can't do this right away, you can also use your internal identifiers for grantees along with your assigned 360G prefix. 
 
-> For example, some of the development of 360Giving was funded by grant '360G-indigotrust:IND233'. If you [search the web for that identifier](https://www.google.co.uk/search?q=360G-indigotrust%3AIND233), you will find this site. If there were project reports published online about this grant, or photos and videos, you might be able to discover those as well. If you just searched for the **internal identifer** [IND233](https://www.google.co.uk/search?q=IND233) you would have to comb through details of all sorts of other things identified as IND233 before finding any information about the grant.
 
-You can also make use of your 360Giving identifiers in internal reports and documents, as this will make it easier to digitally link these up with the data in your 360Giving data files in future.
+```eval_rst
+.. _register-prefix:
+```
 
 ## Register a prefix
 
 To register a prefix see the [publisher guidance](http://www.threesixtygiving.org/data/publish-data/).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
+
+```eval_rst
+.. _grant-identifier:
+```
 
 ## Grant Identifier
 
@@ -136,7 +141,15 @@ Work your way through the following steps. As soon as a step gives you an identi
 
 Sometimes you may have recorded both the company number, and charity number, of an organisation in your data. Because having both of these is important, 360Giving also includes two extra separate fields for ```Company Number``` and ```Charity Number```. If you have these details, you should fill them in, in addition to providing the unique organisation identifier using the method above. 
 
-
 ## Codes
 
 [Contact the support team](http://www.threesixtygiving.org/contact/) for details of prefixes to use when publishing classification codes for your grants.
+
+
+### Using your identifiers
+
+We use simple text identifiers in 360Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' (or hashtag) when uploading photos and videos to social media sites. 
+
+> For example, some of the development of 360Giving was funded by grant '360G-indigotrust:IND233'. If you [search the web for that identifier](https://www.google.co.uk/search?q=360G-indigotrust%3AIND233), you will find this site. If there were project reports published online about this grant, or photos and videos, you might be able to discover those as well. If you just searched for the **internal identifer** [IND233](https://www.google.co.uk/search?q=IND233) you would have to comb through details of all sorts of other things identified as IND233 before finding any information about the grant.
+
+You can also make use of your 360Giving identifiers in internal reports and documents, as this will make it easier to digitally link these up with the data in your 360Giving data files in future.

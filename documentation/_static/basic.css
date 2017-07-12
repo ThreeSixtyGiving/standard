@@ -8,3 +8,17 @@
     border-color: #ff9222;
 }
 
+.admonition {
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background: #e7f2fa;
+}
+
+div.admonition-for-example {
+    background: rgb(253, 217, 180);
+}
+
+div.admonition-for-example p.admonition-title {
+    background:#ff9222;
+}
