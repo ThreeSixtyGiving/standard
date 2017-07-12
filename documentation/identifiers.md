@@ -83,6 +83,7 @@ There are many different kinds of organisations that give, receive or benefit fr
 * Registered charities
 * Community organisations
 * Overseas organisations
+* Public bodies
 * Schools, universities and other educational establishments
 * Individuals
 
@@ -92,13 +93,13 @@ Organisation Identifiers take the form:
 
 >*Registration Agency Code* (dash) *Identifier*
 
-The Registration Agency Code is taken from the [International Aid Transparency Initiative](http://iatistandard.org/) (IATI) [Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) that provides an open, maintained list of reference codes for many Registration Agencies.
+The Registration Agency Code is taken from the [org-id List Locator](http://org-id.guide/) that provides an open, maintained list of reference codes for many registration agencies around the world.
 
-For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of **1070468** will use an [IATI Organisation Registration Agency Code](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) of **GB-CHC**. The organisation identifier in your 360Giving data would be:
+For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of **1070468** will use a prefix of **[GB-CHC](http://org-id.guide/list/GB-CHC)**. The organisation identifier in your 360Giving data would be:
 
 >GB-CHC-1070468
 
-However, some organisations have more than one such identifier (e.g. where they are both a company and a charity), and others are not registered anywhere, and so you may only have names, or internal IDs, for them recorded on your data.
+However, some organisations have more than one such identifier (e.g. where they are both a company and a charity), and others are not registered anywhere, and so you may only have names, or internal identifiers, for them.
 
 To give users of 360Giving data the best chance of joining up information about the same organisations across different data files, we follow a simple methodology to create Organisation Identifiers via the following process.
 
@@ -106,28 +107,37 @@ Work your way through the following steps. As soon as a step gives you an identi
 
 1. **Registered company number (UK)**
 
-    If you have a registered company number for the organisation, use the Registration Agency Code 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
+    If you have a registered company number for the organisation, use the Registration Agency Code ['GB-COH-'](http://org-id.guide/list/GB-COH) and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk)).
+
+    **Tip**: Companies House use an 8 digit number, so always provide the leading 0 where needed. For example GB-COH-03416658.
 
 2. **Registered charity number (UK)**
 
    If you have a **registered charity number** for the organisation, use the Registration Agency Code:
-    * 'GB-CHC-' for a [charity registered in England and Wales](http://www.charitycommission.gov.uk/), 
-    * 'GB-SC-' for a [charity registered in Scotland](http://www.oscr.org.uk/), or
-    * 'GB-NIC-' for a [charity registered in Northern Ireland](http://www.charitycommissionni.org.uk/) 
+    * ['GB-CHC-'](http://org-id.guide/list/GB-CHC) for a [charity registered in England and Wales](http://www.charitycommission.gov.uk/), 
+    * ['GB-SC-'](http://org-id.guide/list/GB-SC) for a [charity registered in Scotland](http://www.oscr.org.uk/), or
+    * ['GB-NIC-'](http://org-id.guide/list/GB-NIC) for a [charity registered in Northern Ireland](http://www.charitycommissionni.org.uk/) 
     
     along with the registered number.
 
 3.  **Educational establishment (UK)**
 
     If you have an educational establishment for the organisation, use the Registration Agency Code:
-      * 'GB-EDU-' for a school, university or other educational establishment in England and Wales along with the [EduBase](http://www.education.gov.uk/edubase/home.xhtml) URN identifier. 
-      * 'GB-UKPRN-' for a school, university or other educational establishment in Scotland or Northern Ireland along with the [UK Register of Learning](https://www.ukrlp.co.uk/) UKPRN number.
+      * ['GB-EDU-'](http://org-id.guide/list/GB-EDU) for a school, university or other educational establishment in England and Wales along with the [EduBase](http://www.education.gov.uk/edubase/home.xhtml) URN identifier. 
+      * ['GB-UKPRN-'](org-id.guide/list/GB-UKPRN) for a school, university or other educational establishment in Scotland or Northern Ireland along with the [UK Register of Learning](https://www.ukrlp.co.uk/) UKPRN number.
+      
+4.  **Local authorities (UK)**
 
-4. **Other registered number**
+  For local authorities, use the Registration Agency Code:
+      * ['GB-LAE-'](http://org-id.guide/list/GB-LAE) for a local authority in England along with the [local authority's ISO 3166-1 alpha3 code](https://local-authority-eng.register.gov.uk/). 
 
-    If you have a registered number from some other scheme, including overseas registrars, check the [IATI Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) for a Registration Agency Code to use. If the Registration Agency Code you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
+  Codes for Wales, Scotland and Northern Ireland will be available shortly in the [org-id List Locator](http://org-id.guide/).
 
-5. **No registered number**
+5. **Other registered number**
+
+    If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a Registration Agency Code to use. If the Registration Agency Code you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
+
+6. **No registered number**
 
     If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier* you have for this organisation.
     
