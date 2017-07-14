@@ -8,3 +8,13 @@
     border-color: #ff9222;
 }
 
+.one_half {
+    width: 45%;
+    padding-right: 2%;
+    padding-left: 2%;
+    float: left;
+}
+.one_half p {
+    margin: 1.6em 0;
+    text-align: center;
+}
