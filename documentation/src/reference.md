@@ -26,7 +26,7 @@ To produce 360Giving data in a spreadsheet, it is possible to start with an empt
 
 ###Spreadsheet template
 
-For convenience we provide a [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) that can be used directly, or adapted to your needs.
+For convenience we provide a [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx) that can be used directly, or adapted to your needs.
 
 The template is a multi-sheet spreadsheet, and each sheet is described below.
 
@@ -57,7 +57,7 @@ The main 'grants' sheet includes sections for:
 
 The main 'grants' sheet only includes the most common information used by most data publishers. For many people this is enough.
 
-The other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
+The other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx) provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
 
 1. As a way to add more information to our 'grants' sheet
    
@@ -156,7 +156,7 @@ Each of the sections of additional fields above can have multiple occurrences fo
 
 ##### Additional sheets
 
-Use the other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx). These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
+Use the other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx). These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding/Recipient Org.
 
@@ -190,7 +190,7 @@ You can:
 * **Remove or hide non-required columns that you are not using** - although make sure you check any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
 * **Re-order the columns** so that information is arranged in the way you want
 * **Add extra columns** to include information you want to share, but that is not covered by the standard. 
-* Move columns in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) between sheets.
+* Move columns in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/legacy/schema/summary-table/360-giving-schema-titles.xlsx) between sheets.
 
 You must not:
 
