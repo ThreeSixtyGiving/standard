@@ -48,3 +48,13 @@ make html
 ```
 
 Then open `_build/html/index.html` in your browser.
+
+### Adding a new branch on Read the Docs
+
+Make sure you are a "Maintainer" of the Read the Docs project. If you are, you will see an Admin button on https://readthedocs.org/projects/threesixtygiving-standard/. If not, you can request access via code@opendataservices.coop.
+
+If your branch has been recently created, then you need to trigger a build (of any other branch) in order for Read the Docs to refresh the branch list (due to [this bug](https://github.com/rtfd/readthedocs.org/issues/337#issuecomment-13445779)).
+
+Then hit the [Versions button](https://readthedocs.org/projects/threesixtygiving-standard/builds/), and "Edit" next to the branch you want to set up. Then tick "Active" and hit "Save".
+
+This should also trigger a build, which you can see via the [Builds button](https://readthedocs.org/projects/threesixtygiving-standard/builds/).
