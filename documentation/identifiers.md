@@ -154,7 +154,7 @@ If you do not have any external registration numbers for the organisation, use y
 
 ### Collecting organisation identifiers
 
-Make sure that when you collect charity or company numbers, you clearly identifier in your forms of systems what kind of number they are. 
+Make sure that when you collect charity or company numbers, you clearly identify in your forms or systems which type of number they are. 
 
 ```eval_rst
 .. _codes:
