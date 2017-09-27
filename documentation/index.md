@@ -33,8 +33,8 @@ Full schema documentation is [available on the reference page](reference).
 ## An open standard
 
 The 360Giving data standard is an open standard. You can get involved in shaping the development of the standard through:
-* [The 360 Discuss google group](https://groups.google.com/forum/#!forum/360-discuss): open for general discussions of the standard.
-* [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports and proposed updates to the standard.
+* [The 360 Discourse forum](https://forum.threesixtygiving.org): open for general discussions of the standard and proposed updates to the standard..
+* [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.  
 You can also contact the 360Giving data support team with your questions and suggestions.
 
 ## Contents
