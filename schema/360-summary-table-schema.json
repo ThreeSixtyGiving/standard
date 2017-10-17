@@ -261,9 +261,9 @@
   {
    "description": "The date when information on this grant was last updated", 
    "format": "", 
-   "title": "Last modified", 
    "required": false, 
    "type": "datetime", 
+   "title": "Last Modified", 
    "name": "dateModified"
   }, 
   {

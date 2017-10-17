@@ -65,7 +65,7 @@
           "type": "string",
           "description": "The date and time when information about this transaction was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -108,7 +108,7 @@
           "type": "string",
           "description": "The date and time when information about this document was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -169,7 +169,7 @@
           "type": "string",
           "description": "The date and time when information about this location was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -212,7 +212,7 @@
           "type": "string",
           "description": "The date and time when the information was last updated",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -375,7 +375,7 @@
           "type": "string",
           "description": "The date and time when information about this organisation was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -422,7 +422,7 @@
               "type": "string",
               "description": "The date and time when information about this event was last updated.",
               "weight": 25,
-              "title": "Last modified"
+              "title": "Last Modified"
             }
       }
     }
@@ -615,7 +615,7 @@
       "type": "string",
       "description": "The date and time when information about this grant was last updated.",
       "weight": 25,
-      "title": "Last modified"
+      "title": "Last Modified"
     },
     "dataSource": {
       "format": "uri",
