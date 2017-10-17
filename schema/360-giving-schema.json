@@ -249,7 +249,7 @@
                  "type": "string",
                  "description": "The date and time when information about this grant programme was last updated.",
                  "weight": 25,
-                 "title": "Last modified"
+                 "title": "Last Modified"
                }
               }
             },
