@@ -135,13 +135,13 @@
           "title": "Country Code"
         },
         "latitude": {
-          "type": ["string","null"],
+          "type": ["number","null"],
           "description": "The latitude of a point location",
           "weight": 4.001,
           "title": "Latitude"
         },
         "longitude": {
-          "type": ["string","null"],
+          "type": ["number","null"],
           "description": "The longitude of a point location",
           "weight": 4.002,
           "title": "Longitude"

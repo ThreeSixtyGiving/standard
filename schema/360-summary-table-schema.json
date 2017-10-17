@@ -174,7 +174,7 @@
    "format": "", 
    "title": "Beneficiary Location:Latitude", 
    "required": false, 
-   "type": "string", 
+   "type": "number", 
    "name": "beneficiaryLocation[]/latitude"
   }, 
   {
@@ -182,7 +182,7 @@
    "format": "", 
    "title": "Beneficiary Location:Longitude", 
    "required": false, 
-   "type": "string", 
+   "type": "number", 
    "name": "beneficiaryLocation[]/longitude"
   }, 
   {
