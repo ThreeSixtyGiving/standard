@@ -48,7 +48,7 @@ For organisation identifiers, if you can, use an officially recognised identifie
 
 ## Get your prefix
 
-To register a prefix see the [publisher guidance](http://www.threesixtygiving.org/standard/register/).
+To register a prefix for your organisation, [click here](http://www.threesixtygiving.org/support/standard/register/).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
 
@@ -60,9 +60,9 @@ All registered prefixes should start with 360G unless you have been advised othe
 
 To create your grant identifiers:
 
-1. Make sure you have asked for a 360Giving prefix;
-2. Look for an existing internal identifier given to your grants (e.g. a sequential number assigned to each grant at the point of application, or a combination of the 'funding scheme' identifier and a number for the grant. The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.);
-3. Add this onto the end of your 360Giving prefix;
+1. Make sure you have asked for a 360Giving prefix.
+2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.
+3. Add this to the end of your 360Giving prefix.
 
 ```eval_rst
 .. admonition:: For example
@@ -70,7 +70,7 @@ To create your grant identifiers:
   If your prefix is ``360G-xyztrust`` and you have a grant identified internally as ``123``, you would combine these to give ``360G-xyztrust-123``
 ```
 
-  There are no set rules on the separator to use between your prefix and the internal identifier but we recommend using a hyphen (-).
+  We recommend using a hyphen (-) for the separator to use between your prefix and the internal identifier. Avoid using slashes (\ and /) as these can cause problems with some applications.
 
   If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_):
 
@@ -96,7 +96,7 @@ Most organisations have some sort of official registration number that can be us
 
 There are two parts to an organisation identifier:
 
-* **A list code** that describes the list the identifier is taken from
+* **A list code** that describes the list the identifier is taken from.
 * **An identifier** taken from that list.
 
 In 360Giving data we ask publishers to use a list code taken from the [org-id list locator](http://org-id.guide/). This provides an open, maintained list of codes for many different lists around with world, giving a way to identify almost any organisation. 
