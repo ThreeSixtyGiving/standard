@@ -48,7 +48,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 
 ## Get your prefix
 
-To register a prefix for your organisation, [click here](http://www.threesixtygiving.org/support/standard/register/).
+To register a prefix for your organisation see the [publisher guidance](http://www.threesixtygiving.org/support/publish-data).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
 
@@ -96,16 +96,16 @@ Most organisations (with the exception of unregistered voluntary and community g
 
 There are two parts to an organisation identifier:
 
-* **A list code** that describes the list the identifier is taken from.
+* **A list code**: a prefix that describes the list the identifier is taken from.
 * **An identifier** taken from that list.
 
-In 360Giving data we ask publishers to use a list code taken from the [org-id list locator](http://org-id.guide/). This provides an open, maintained list of codes for many different lists around with world, giving a way to identify almost any organisation. 
+In 360Giving data we ask publishers to use a list code prefix taken from the [org-id list locator](http://org-id.guide/). This provides an open, maintained list of codes for many different lists around with world, giving a way to identify almost any organisation.
 
 ```eval_rst
 
 .. admonition:: For example
 
-  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1070468' will use a prefix of ``GB-CHC``. 
+  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1070468' will use a list code prefix of ``GB-CHC``.
 
   This gives an unique organisation identifier of ``GB-CHC-1070468``
 
@@ -117,7 +117,7 @@ Some organisations have more than one identifier: they might be a charity **and*
 
 In these cases, it's important to know which identifier to pick so that users of data have the best possible chance of understanding that two grants have been made to the same organisation. 
 
-[org-id.guide](http://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier. 
+[org-id.guide](http://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier, based on what you have available.
 
 ```eval_rst
 
@@ -131,14 +131,16 @@ Search on [org-id.guide](http://org-id.guide) for identifier sources for [UK org
 
 ### Commonly used identifier lists
 
-The following identifier lists are often used in 360Giving publication. They are listed here in rough order of priority (e.g. if you already know the company number, use this in preference to the charity number).
+The following identifier lists are often used in 360Giving publication. They are listed here in rough order of priority (e.g. if you already know the company number and the charity number, use the company number in preference to the charity number).
 
 * UK Company Number - [GB-COH](http://org-id.guide/list/GB-COH)
 * Charity Numbers - [GB-CHC](http://org-id.guide/list/GB-CHC), [GB-SC](http://org-id.guide/list/GB-SC), [GB-NIC](http://org-id.guide/list/GB-NIC)
-* Education establishments - [GB-EDU](http://org-id.guide/list/GB-EDU) and [GB-UKPRN](http://org-id.guide/list/GB-UKPRN) 
-* Local authorities - [GB-LAE](http://org-id.guide/list/GB-LAE) (England), [GB-LAS](http://org-id.guide/list/GB-LAS) (Scotland), [GB-PLA](http://org-id.guide/list/GB-PLA) (Wales)  - 
+* Education establishments - [GB-EDU](http://org-id.guide/list/GB-EDU) and [GB-UKPRN](http://org-id.guide/list/GB-UKPRN)
+* Local authorities - [GB-LAE](http://org-id.guide/list/GB-LAE) (England), [GB-LAS](http://org-id.guide/list/GB-LAS) (Scotland), [GB-PLA](http://org-id.guide/list/GB-PLA) (Wales)
+* Mutual societies - [GB-MPR](http://org-id.guide/list/GB-MPR)
+* HMRC-recognised charities - [GB-REV](http://org-id.guide/list/GB-REV)
 
-If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a Registration Agency Code to use. If the Registration Agency Code you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
+If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
 
 If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation.
 
