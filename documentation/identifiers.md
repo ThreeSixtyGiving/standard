@@ -115,7 +115,7 @@ In 360Giving data we ask publishers to use a list code prefix taken from the [or
 
 Some organisations have more than one identifier: they might be a charity **and** a company (charitable companies), or a charity **and** an educational establishment. 
 
-In these cases, it's important to know which identifier to pick so that users of data have the best possible chance of understanding that two grants have been made to the same organisation. 
+In these cases, it's important to pick an identifier that helps data users have the best possible chance of understanding that two grants have been made to the same organisation.
 
 [org-id.guide](http://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier, based on what you have available.
 
@@ -147,9 +147,9 @@ If you do not have any external registration numbers for the organisation, use y
 
 ```eval_rst
 
-.. admonition:: Special 360 giving fields for charity and company number
+.. admonition:: Additional 360 giving fields for charity and company number
 
-   Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360 Giving Standard includes additional special fields these on their own (without the prefixes), to help users of the data. 
+   Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360 Giving Standard includes additional fields these on their own (without the prefixes), to help users of the data.
 
    If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above. 
 ```
@@ -158,10 +158,4 @@ If you do not have any external registration numbers for the organisation, use y
 
 Make sure that when you collect charity or company numbers, you clearly identify in your forms or systems which type of number they are. 
 
-```eval_rst
-.. _codes:
-```
-
-## Classifications
-
-[Contact the support team](http://www.threesixtygiving.org/contact/) for details of prefixes to use when publishing classification codes for your grants.
+If you have these details, you should include them in the Company Number and Charity Number fields, **in addition to** providing the unique organisation identifier using the method above.
