@@ -147,7 +147,7 @@ If you do not have any external registration numbers for the organisation, use y
 
 ```eval_rst
 
-.. admonition:: Additional 360 Giving fields for charity and company number
+.. admonition:: Additional 360Giving fields for charity and company number
 
    Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360Giving Standard includes additional fields these on their own (without the prefixes), to help users of the data.
 
