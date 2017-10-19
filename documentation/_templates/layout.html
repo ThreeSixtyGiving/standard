@@ -14,3 +14,19 @@ Data Standard
 
 {% include "searchbox.html" %}
 {% endblock %}
+
+{% block menu %}
+{{ super() }}
+
+<p></p>
+<ul>
+   <li class="toctree-l1" style="color: #cccccc; padding-left: 1em">Useful links:</li>
+   <li class="toctree-l1"><a href="http://www.threesixtygiving.org/">360Giving main website</a></li>
+</ul>
+{% endblock %}
+
+{% block footer %}
+<script type="text/javascript">
+    window.location.hash = window.location.hash.replace('#toc-', '#') // look for old anchors starting #toc- and remove that bit
+</script>
+{% endblock %}
