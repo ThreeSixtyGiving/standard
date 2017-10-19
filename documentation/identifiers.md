@@ -62,7 +62,7 @@ To create your grant identifiers:
 
 1. Make sure you have asked for a 360Giving prefix.
 2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.
-3. Add this to the end of your 360Giving prefix.
+3. Add your 360Giving prefix in front of your identifier.
 
 ```eval_rst
 .. admonition:: For example
@@ -92,7 +92,7 @@ There are many different kinds of organisations that give, receive or benefit fr
 * Schools, universities and other educational establishments
 * Individuals
 
-Most organisations (with the exception of unregistered voluntary and community groups) have some sort of official registration number that can be used as a uniquely identifier and used to look up their details from an official registers or public list. 
+Most organisations (with the exception of unregistered voluntary and community groups) have some sort of official registration number that can be used as a unique identifier and used to look up their details from an official registers or public list.
 
 There are two parts to an organisation identifier:
 
@@ -115,9 +115,9 @@ In 360Giving data we ask publishers to use a list code prefix taken from the [or
 
 Some organisations have more than one identifier: they might be a charity **and** a company (charitable companies), or a charity **and** an educational establishment. 
 
-In these cases, it's important to pick an identifier that helps data users have the best possible chance of understanding that two grants have been made to the same organisation.
+If you have more than one type of identifier for an organisation recorded in your system, it will be necessary to pick which one to use when creating an Organisation identifier.
 
-[org-id.guide](http://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier, based on what you have available.
+[org-id.guide](http://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier, based on what information you hold.
 
 ```eval_rst
 
@@ -142,20 +142,14 @@ The following identifier lists are often used in 360Giving publication. They are
 
 If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
 
-If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation.
+If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](mailto:support@threesixtygiving.org).
 
 
 ```eval_rst
 
-.. admonition:: Additional 360 giving fields for charity and company number
+.. admonition:: Additional 360 Giving fields for charity and company number
 
-   Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360 Giving Standard includes additional fields these on their own (without the prefixes), to help users of the data.
+   Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360Giving Standard includes additional fields these on their own (without the prefixes), to help users of the data.
 
    If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above. 
 ```
-
-### Collecting organisation identifiers
-
-Make sure that when you collect charity or company numbers, you clearly identify in your forms or systems which type of number they are. 
-
-If you have these details, you should include them in the Company Number and Charity Number fields, **in addition to** providing the unique organisation identifier using the method above.
