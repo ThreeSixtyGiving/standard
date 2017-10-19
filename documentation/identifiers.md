@@ -131,7 +131,7 @@ Search on [org-id.guide](http://org-id.guide) for identifier sources for [UK org
 
 ### Commonly used identifier lists
 
-The following identifier lists are often used in 360Giving publication. They are listed here in rough order of priority (e.g. if you already know the company number and the charity number, use the company number in preference to the charity number).
+The following identifier lists are often used in 360Giving publication. They are listed here in rough order of priority.
 
 * UK Company Number - [GB-COH](http://org-id.guide/list/GB-COH)
 * Charity Numbers - [GB-CHC](http://org-id.guide/list/GB-CHC), [GB-SC](http://org-id.guide/list/GB-SC), [GB-NIC](http://org-id.guide/list/GB-NIC)
@@ -142,7 +142,7 @@ The following identifier lists are often used in 360Giving publication. They are
 
 If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
 
-If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](mailto:support@threesixtygiving.org).
+If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](http://www.threesixtygiving.org/contact/).
 
 
 ```eval_rst
