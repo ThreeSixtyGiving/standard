@@ -131,7 +131,7 @@ Search on [org-id.guide](http://org-id.guide) for identifier sources for [UK org
 
 ### Commonly used identifier lists
 
-The following identifier lists are often used in 360Giving publication. They are listed here in rough order of priority.
+The following identifier lists are often used in 360Giving publication.
 
 * UK Company Number - [GB-COH](http://org-id.guide/list/GB-COH)
 * Charity Numbers - [GB-CHC](http://org-id.guide/list/GB-CHC), [GB-SC](http://org-id.guide/list/GB-SC), [GB-NIC](http://org-id.guide/list/GB-NIC)
