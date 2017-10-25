@@ -1,70 +1,80 @@
 # Identifiers
 
-## Why identifiers matter
+```eval_rst 
 
-Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
+.. admonition:: Why identifiers matter
 
-Whilst a human being may be good at recognising that:
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
 
->INDIGO TRUST, The Indigo Trust, and indigo-trust
+  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided. 
 
-... all refer to the same organisation, computers find this a lot trickier. 
+```
 
-That's why 360Giving requires you to give identifiers to:
+360Giving asks you to give identifiers to any of the following elements that you include in your data:
 
-* Grants;
+* [Grants](grant-identifier)
+* [Organisations](organisation-identifier);
 * Transactions; 
 * Classifications;
-* Organisations;
 * and other unique elements in your data.
 
-These go in ```Identifier``` columns alongside human-readable text descriptions of the grant, the name of an organisation, or the title of a classification.
+These go in an ```Identifier``` column alongside accessible text descriptions of the grant, the name of an organisation, or the title of a classification.
 
-## Creating identifiers
 
-Often you will already have identifiers in your own records. For example, you might assign a number to each application or grant, or you might record a reference ID for a funding recipient.
+```eval_rst
+.. _creating-identifiers:
+```
 
-You can use these existing **internal identifiers** in constructing the identifiers that you will use in your 360Giving data files. 
+## Identifier basics
 
-*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, in 360Giving you add a **prefix** to your internal identifiers. 
+You may already have identifiers in your own data. For example, a number for each application or grant. You can use these existing **internal identifiers** as part of your published data. 
 
-> For example, if Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, you need to add a **prefix** to avoid this possible clash. 
 
-For your grants, and any other identifiers that are particular to your organisation, you use can use a **360Giving prefix**. You can get this when registering on the data registry. (For example, you might maintain your own codes to classify grants, or you might have an internal numbering scheme for organisations rather than recording charity and company numbers.)
+```eval_rst
+.. admonition:: For example
 
-For organisation identifiers, follow the [organisation identifier](organisation-identifier) guidance below which is designed to support links to be made between 360Giving, and other datasets about an organisation.
+  If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+```
 
-### Using your identifiers
+For grants, and other identifiers particular to your organisation, you use can use a **360G prefix**.
 
-We use simple text identifiers in 360Giving. As well as using these identifiers in your published data, you could also tell your grantees their prefixed identifier, and encourage them to include it in any documents they publish about their funded projects, or to include it as a 'machine tag' (or hashtag) when uploading photos and videos to social media sites. 
+For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below. 
 
-> For example, some of the development of 360Giving was funded by grant '360G-indigotrust:IND233'. If you [search the web for that identifier](https://www.google.co.uk/search?q=360G-indigotrust%3AIND233), you will find this site. If there were project reports published online about this grant, or photos and videos, you might be able to discover those as well. If you just searched for the **internal identifer** [IND233](https://www.google.co.uk/search?q=IND233) you would have to comb through details of all sorts of other things identified as IND233 before finding any information about the grant.
 
-You can also make use of your 360Giving identifiers in internal reports and documents, as this will make it easier to digitally link these up with the data in your 360Giving data files in future.
+```eval_rst
+.. _register-prefix:
+```
 
-## Register a prefix
+## Get your prefix
 
-To register a prefix see the [publisher guidance](http://www.threesixtygiving.org/data/publish-data/).
+To register a prefix for your organisation see the [publisher guidance](http://www.threesixtygiving.org/support/publish-data).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
+
+```eval_rst
+.. _grant-identifier:
+```
 
 ## Grant Identifier
 
 To create your grant identifiers:
 
-1. Make sure you have registered for 360Giving prefix;
-2. Look for an existing internal identifier given to your grants (This might be a sequential number assigned to each grant at the point of application, or a combination of the 'funding scheme' identifier and a sequential number for the grant. The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.);
-2. Add this onto the end of your 360Giving prefix;
+1. Make sure you have asked for a 360Giving prefix.
+2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.
+3. Add your 360Giving prefix in front of your identifier.
 
-For example, if your prefix is ```360G-xyztrust``` and you have a grant identified internally as '123', you would combine these to give:
+```eval_rst
+.. admonition:: For example
 
->360G-xyztrust-123
+  If your prefix is ``360G-xyztrust`` and you have a grant identified internally as ``123``, you would combine these to give ``360G-xyztrust-123``
+```
 
-There are no set rules on the separator to use between your prefix and the internal identifier but we recommend using a hyphen (-).
+  We recommend using a hyphen (-) for the separator to use between your prefix and the internal identifier. Avoid using slashes (\ and /) as these can cause problems with some applications.
 
-If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_):
+  If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_):
 
->360G-xyztrust-123_ABC
+  ``360G-xyztrust-123_ABC``
 
 ```eval_rst
 .. _organisation-identifier:
@@ -76,67 +86,70 @@ There are many different kinds of organisations that give, receive or benefit fr
 
 * Registered companies
 * Registered charities
-* Community organisations
+* Voluntary and community organisations
 * Overseas organisations
+* Public bodies
 * Schools, universities and other educational establishments
 * Individuals
 
-Many organisations will have official registration numbers, assigned by official registration agencies, that can be used to identify them. For example, in the UK [Companies House](http://www.companieshouse.gov.uk) can be considered to be a registration agency that assigns unique numbers to companies. In order to uniquely identify that company you would need to know both the company number and that it came from Companies House. (Crucially, you can also look up a company, given its number, at Companies House to find out more detail about that company.) Wherever possible 360Giving encourages you to collect and record these registered identifiers (Organisation Identifiers). 
+Most organisations (with the exception of unregistered voluntary and community groups) have some sort of official registration number that can be used as a unique identifier and used to look up their details from an official registers or public list.
 
-Organisation Identifiers take the form:
+There are two parts to an organisation identifier:
 
->*Registration Agency Code* (dash) *Identifier*
+* **A list code**: a prefix that describes the list the identifier is taken from.
+* **An identifier** taken from that list.
 
-The Registration Agency Code is taken from the [International Aid Transparency Initiative](http://iatistandard.org/) (IATI) [Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) that provides an open, maintained list of reference codes for many Registration Agencies.
+In 360Giving data we ask publishers to use a list code prefix taken from the [org-id list locator](http://org-id.guide/). This provides an open, maintained list of codes for many different lists around with world, giving a way to identify almost any organisation.
 
-For example, a charity registered in England and Wales with the [Charity Commission](https://www.gov.uk/government/organisations/charity-commission) and a number of **1070468** will use an [IATI Organisation Registration Agency Code](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) of **GB-CHC**. The organisation identifier in your 360Giving data would be:
+```eval_rst
 
->GB-CHC-1070468
+.. admonition:: For example
 
-However, some organisations have more than one such identifier (e.g. where they are both a company and a charity), and others are not registered anywhere, and so you may only have names, or internal IDs, for them recorded on your data.
+  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1070468' will use a list code prefix of ``GB-CHC``.
 
-To give users of 360Giving data the best chance of joining up information about the same organisations across different data files, we follow a simple methodology to create Organisation Identifiers via the following process.
+  This gives an unique organisation identifier of ``GB-CHC-1070468``
 
-Work your way through the following steps. As soon as a step gives you an identifier, you can stop there and use the given identifier.
+```
 
-1. **Registered company number (UK)**
+### Choose the best identifier
 
-    If you have a registered company number for the organisation, use the Registration Agency Code 'GB-COH-' and the registered number (indicating that the number could be looked up at [Companies House](http://www.companieshouse.gov.uk))
+Some organisations have more than one identifier: they might be a charity **and** a company (charitable companies), or a charity **and** an educational establishment. 
 
-2. **Registered charity number (UK)**
+If you have more than one type of identifier for an organisation recorded in your system, it will be necessary to pick which one to use when creating an Organisation identifier.
 
-   If you have a **registered charity number** for the organisation, use the Registration Agency Code:
-    * 'GB-CHC-' for a [charity registered in England and Wales](http://www.charitycommission.gov.uk/), 
-    * 'GB-SC-' for a [charity registered in Scotland](http://www.oscr.org.uk/), or
-    * 'GB-NIC-' for a [charity registered in Northern Ireland](http://www.charitycommissionni.org.uk/) 
-    
-    along with the registered number.
+[org-id.guide](http://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier, based on what information you hold.
 
-3.  **Educational establishment (UK)**
+```eval_rst
 
-    If you have an educational establishment for the organisation, use the Registration Agency Code:
-      * 'GB-EDU-' for a school, university or other educational establishment in England and Wales along with the [EduBase](http://www.education.gov.uk/edubase/home.xhtml) URN identifier. 
-      * 'GB-UKPRN-' for a school, university or other educational establishment in Scotland or Northern Ireland along with the [UK Register of Learning](https://www.ukrlp.co.uk/) UKPRN number.
+.. hint:: Relevance and quality defined: 
 
-4. **Other registered number**
+  * Relevance: are you likely to find the organisation you are looking for in this list?
+  * Quality: are the identifiers in this list stable and linked to open, accessible contextual data, and can they be easily mapped to other identifiers.
+```
 
-    If you have a registered number from some other scheme, including overseas registrars, check the [IATI Organisation Registration Agency Codelist](http://iatistandard.org/codelists/OrganisationRegistrationAgency/) for a Registration Agency Code to use. If the Registration Agency Code you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
+Search on [org-id.guide](http://org-id.guide) for identifier sources for [UK organisations](http://org-id.guide/?structure=&coverage=GB&subnational=&sector=), [UK charities](http://org-id.guide/?structure=charity&coverage=GB&sector=), or [any other organisation type](http://org-id.guide/).
 
-5. **No registered number**
+### Commonly used identifier lists
 
-    If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier* you have for this organisation.
-    
-    *If you use a database that records details of organisations in a separate lookup table, this may provide an identifier you can use. 
-    
-    If you only record data in a spreadsheet, and don't assign organisations an ID, you could use a spreadsheet formula to turn the organisation name into an identifier (e.g. removing spaces and lowercasing the name). The support team can provide guidance on this. 
-    
-    If there is a chance that your organisation identifiers might overlap with grant identifiers, just add 'ORG' into the identifier string (e.g. '360G-xyztrust-ORG123')
-    
-### Company Numbers and Charity Numbers
+The following identifier lists are often used in 360Giving publication.
 
-Sometimes you may have recorded both the company number, and charity number, of an organisation in your data. Because having both of these is important, 360Giving also includes two extra separate fields for ```Company Number``` and ```Charity Number```. If you have these details, you should fill them in, in addition to providing the unique organisation identifier using the method above. 
+* UK Company Number - [GB-COH](http://org-id.guide/list/GB-COH)
+* Charity Numbers - [GB-CHC](http://org-id.guide/list/GB-CHC), [GB-SC](http://org-id.guide/list/GB-SC), [GB-NIC](http://org-id.guide/list/GB-NIC)
+* Education establishments - [GB-EDU](http://org-id.guide/list/GB-EDU) and [GB-UKPRN](http://org-id.guide/list/GB-UKPRN)
+* Local authorities - [GB-LAE](http://org-id.guide/list/GB-LAE) (England), [GB-LAS](http://org-id.guide/list/GB-LAS) (Scotland), [GB-PLA](http://org-id.guide/list/GB-PLA) (Wales)
+* Mutual societies - [GB-MPR](http://org-id.guide/list/GB-MPR)
+* HMRC-recognised charities - [GB-REV](http://org-id.guide/list/GB-REV)
+
+If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
+
+If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](http://www.threesixtygiving.org/contact/).
 
 
-## Codes
+```eval_rst
 
-[Contact the support team](http://www.threesixtygiving.org/contact/) for details of prefixes to use when publishing classification codes for your grants.
+.. admonition:: Additional 360Giving fields for charity and company number
+
+   Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360Giving Standard includes additional fields these on their own (without the prefixes), to help users of the data.
+
+   If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above. 
+```
