@@ -1,3 +1,5 @@
 _site
 .ve/
 *.swp
+documentation/_build/
+documentation/_static/
