@@ -1,5 +1,5 @@
 _site
 .ve/
 *.swp
-documentation/_build/
-documentation/_static/
+schema/multi-table
+schema/summary-table

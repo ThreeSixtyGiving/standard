@@ -5,7 +5,7 @@
   "definitions": {
       "currency": {
         "type": "string",
-        "description": "The currency used in amounts. The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: GBP",
+        "description": "The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.",
         "weight": 5.02,
         "enum": ["AED","AFN","ALL","AMD","ANG","AOA","ARS","AUD","AWG","AZN","BAM","BBD","BDT","BGN","BHD","BIF","BMD","BND","BOB","BRL","BSD","BTN","BWP","BYR","BZD","CAD","CDF","CHF","CLP","CNY","COP","CRC","CUC","CUP","CVE","CZK","DJF","DKK","DOP","DZD","EGP","ERN","ETB","EUR","FJD","FKP","GBP","GEL","GGP","GHS","GIP","GMD","GNF","GTQ","GYD","HKD","HNL","HRK","HTG","HUF","IDR","ILS","IMP","INR","IQD","IRR","ISK","JEP","JMD","JOD","JPY","KES","KGS","KHR","KMF","KPW","KRW","KWD","KYD","KZT","LAK","LBP","LKR","LRD","LSL","LTL","LVL","LYD","MAD","MDL","MGA","MKD","MMK","MNT","MOP","MRO","MUR","MVR","MWK","MXN","MYR","MZN","NAD","NGN","NIO","NOK","NPR","NZD","OMR","PAB","PEN","PGK","PHP","PKR","PLN","PYG","QAR","RON","RSD","RUB","RWF","SAR","SBD","SCR","SDG","SEK","SGD","SHP","SLL","SOS","SPL","SRD","STD","SVC","SYP","SZL","THB","TJS","TMT","TND","TOP","TRY","TTD","TVD","TWD","TZS","UAH","UGX","USD","UYU","UZS","VEF","VND","VUV","WST","XAF","XCD","XDR","XOF","XPF","YER","ZAR","ZMW","ZWD"],
         "title": "Currency"
@@ -33,7 +33,7 @@
           "$ref": "#/definitions/currency"
         },
         "value": {
-          "type": "integer",
+          "type": "number",
           "description": "The total value of this transaction.",
           "weight": 6,
           "title": "Value"
@@ -205,7 +205,7 @@
           "description": "A description of this classification.",
           "weight": 9,
           "title": "Description"
-        },    
+        },
         "url": {
           "type": ["string","null"],
           "format": "uri",
@@ -242,7 +242,7 @@
                  "description": "A description of this grant programme.",
                  "weight": 9,
                  "title": "Description"
-               },    
+               },
                "url": {
                  "type": ["string","null"],
                  "format": "uri",
@@ -259,7 +259,7 @@
                }
               }
             },
-    
+
     "Organization": {
       "type": "object",
       "required":["id","name"],
@@ -283,7 +283,7 @@
         },
         "contactName": {
           "type": "string",
-          "description": "-",
+          "description": "The contact person at this organisation.",
           "weight": 2,
           "title": "Contact Name"
         },
@@ -304,7 +304,7 @@
           "description": "Building number and street name.",
           "weight": 3.1,
           "title": "Street Address"
-        }, 
+        },
         "addressLocality": {
           "type": "string",
           "description": "City or town.",
@@ -329,7 +329,7 @@
           "weight": 3.4,
           "title": "Postal Code"
         },
-        "telephone":{
+        "telephone": {
          "type":"string",
          "description":"Contact phone number.",
          "weight":3.5,
@@ -343,7 +343,7 @@
         },
       "email": {
           "type": "string",
-          "description": "-",
+          "description": "The email address for this organisation.",
           "weight": 5,
           "title": "Email"
         },
@@ -442,7 +442,7 @@
       }
     }
   },
-  "required":["id","title","description","currency","amountAwarded","awardDate"],
+  "required":["id","title","description","currency","amountAwarded","awardDate", "recipientOrganization", "fundingOrganization"],
   "properties": {
     "id": {
       "type": "string",
@@ -463,8 +463,7 @@
       "title": "Description"
     },
     "currency": {
-      "$ref": "#/definitions/currency",
-      "description":"The currency used in grant amounts and transactions using an ISO 3-letter code. Use GBP for Pounds Sterling."
+      "$ref": "#/definitions/currency"
     },
     "amountAppliedFor": {
       "type": "number",
@@ -509,7 +508,7 @@
       "weight": 5.041,
       "title": "Planned Dates",
       "description":"When the applicant / implementing organisation originally intend this activity to take place. ",
-      "rollUp": ["startDate","endDate","duration"]      
+      "rollUp": ["startDate","endDate","duration"]
     },
     "actualDates": {
       "items": {
@@ -524,18 +523,18 @@
       "items": {
         "$ref": "#/definitions/Organization"
       },
+      "minItems": 1,
       "type": "array",
       "weight": 5,
       "title": "Recipient Org",
       "description":"Details of the recipient of this grant.",
-      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","addressRegion","postalCode","addressCountry","description","url"]      
+      "rollUp": ["id","name","charityNumber","companyNumber","streetAddress","addressLocality","addressRegion","postalCode","addressCountry","description","url"]
     },
     "beneficiaryLocation": {
       "items": {
         "$ref": "#/definitions/Location"
       },
       "type": "array",
-      "description": "Beneficiary locations",
       "weight": 6.01,
       "title": "Beneficiary Location",
       "description":"Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.",
@@ -545,6 +544,7 @@
       "items": {
         "$ref": "#/definitions/Organization"
       },
+      "minItems": 1,
       "type": "array",
       "description": "Details of the funder",
       "weight": 4,
