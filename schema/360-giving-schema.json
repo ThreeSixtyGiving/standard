@@ -507,7 +507,7 @@
       "type": "array",
       "weight": 5.041,
       "title": "Planned Dates",
-      "description":"When the applicant / implementing organisation originally intend this activity to take place. ",
+      "description":"When the recipient organisation intends this activity to take place. A date range can include a start date and duration in months, or a start and end date.",
       "rollUp": ["startDate","endDate","duration"]
     },
     "actualDates": {
