@@ -209,14 +209,21 @@ You can place the additional information about a grant in an additional row. Use
 
 There are three different rules for validating dates:
 
-##### Award dates
+##### Full dates (Award Dates)
 The ```Award Date``` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
 
 In some rare cases, an award date might also need to include the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
 
-**Tip**: You can set Excel to present a date column in YYYY-MM-DD format using a custom format [as described here](http://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899).
+```eval_rst
 
-##### Other events
+.. hint::
+  You can set Excel to present a date column in YYYY-MM-DD format using a custom format `as described here`_.
+
+.. _as described here: http://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899
+
+```
+
+##### Uncertain dates (Planned Dates and Actual Dates)
 Other events in the lifetime of a grant, such as for when the funded activity will take place, may include less specific date information. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they are not certain or do not yet know.
 
 Dates in the ```Planned Dates``` and ```Actual Dates``` groups should be provided in YYYY-MM-DD format, but the day or the day can be dropped or on the year provided (e.g. YYYY-MM or YYYY).
@@ -225,13 +232,16 @@ For example, if an application only indicates that a project will start in May 2
 
 It is up to users of the data to judge how to interpret dates which only include a year, or year and month. Different applications and analysis may require different judgements.
 
-##### Last Modified dates
+##### Date-time (Last Modified dates)
 All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can have a ```Last Modified``` date.
 
 If used, this must always be in full date-time format so that if multiple updates take place on a single day, consuming applications can work out which version to use.
 
-**Tip**: You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you set the formula for the column to ```=Now()``` then the last updated value will be refreshed automatically everytime you save the file.
+``` eval_rst
 
+.. hint::
+  You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to ```=Now()``` then this value will be refreshed automatically every time you save the file.
+```
 
 ### Conformance
 
