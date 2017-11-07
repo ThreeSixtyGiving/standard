@@ -205,32 +205,32 @@ You can place the additional information about a grant in an additional row. Use
 
 #### Dates and times
 
-360Giving allows you to provide information on when a grant was awarded, when a project is taking place, and when you last updated information about aspects of the grant.
+360Giving requires you to provide information on when a grant was awarded, and allows you to add details of when a project is taking place, and when you last updated information about aspects of the grant.
 
-There are three different rules for validating dates
+There are three different rules for validating dates:
 
 ##### Award dates
-The ```Award Date``` must provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2016-04-02 for the 2nd April 2016).
+The ```Award Date``` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
 
-In some rare cases, an award date might also need to include the time of the grant, using a date-time format (e.g. 2016-04-02T16:45:00Z for a grant made at 4.45 if the afternoon).
+In some rare cases, an award date might also need to include the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
 
 **Tip**: You can set Excel to present a date column in YYYY-MM-DD format using a custom format [as described here](http://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899).
 
 ##### Other events
-Other events in the lifetime of a grant, such as the planned dates when the funded activity will take place may include more or less specific dates. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they do not know. Dates should always be provided in YYYY-(MM)-(DD) format.
+Other events in the lifetime of a grant, such as for when the funded activity will take place, may include less specific date information. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they are not certain or do not yet know.
 
-For example, if an application only indicates a project will start in May 2016, then the ```Planned Dates:Start Date``` field may be '2016-05'.
+Dates in the ```Planned Dates``` and ```Actual Dates``` groups should be provided in YYYY-MM-DD format, but the day or the day can be dropped or on the year provided (e.g. YYYY-MM or YYYY).
+
+For example, if an application only indicates that a project will start in May 2019, then the ```Planned Dates:Start Date``` value may be '2019-05'.
 
 It is up to users of the data to judge how to interpret dates which only include a year, or year and month. Different applications and analysis may require different judgements.
 
-##### Last modified dates
+##### Last Modified dates
 All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can have a ```Last Modified``` date.
 
-This should always be a full date-time so that if multiple updates take place on a single day, consuming applications can work out which version to use.
+If used, this must always be in full date-time format so that if multiple updates take place on a single day, consuming applications can work out which version to use.
 
 **Tip**: You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you set the formula for the column to ```=Now()``` then the last updated value will be refreshed automatically everytime you save the file.
-
-* **Award Date** - this should be the full date
 
 
 ### Conformance
@@ -240,8 +240,8 @@ In order to conform with the spreadsheet standard:
 You must:
 
 * **Read the column definitions carefully and follow the format they request** - for example, formatting identifiers and dates according to the standard. Full reference information is provided below.
-* **Provide an identifier** for each grant
-* **Update the last modified date** whenever the status of a grant changes
+* **Provide an Identifier** for each grant
+* **Update the Last Modified date** whenever the status of a grant changes
 
 You can:
 
