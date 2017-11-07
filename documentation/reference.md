@@ -209,7 +209,7 @@ You can place the additional information about a grant in an additional row. Use
 
 There are three different rules for validating dates:
 
-##### Full dates (Award Dates)
+##### Full dates (Award Dates and Transaction Dates)
 The ```Award Date``` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
 
 In some rare cases, an award date might also need to include the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
