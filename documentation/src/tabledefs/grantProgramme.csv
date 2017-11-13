@@ -1,6 +1,0 @@
-title,name,description,type,format,allowed_values,required
-Grant Programme:Code,grantProgramme/0/code,An identifier for this grant programme.,string,,,False
-Grant Programme:Title,grantProgramme/0/title,The title of this grant programme.,string,,,False
-Grant Programme:Description,grantProgramme/0/description,A description of this grant programme.,string,,,False
-Grant Programme:URL,grantProgramme/0/url,A web link to more details of this grant programme.,uri,,,False
-Grant Programme:Last modified,grantProgramme/0/dateModified,When was the link between this grant and its grant programme last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False

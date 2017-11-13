@@ -1,7 +1,0 @@
-title,name,description,type,format,allowed_values,required
-Actual Dates:Title,actualDates/0/title,The title of this event,string,,,False
-Actual Dates:Start Date,actualDates/0/startDate,"All events should have a start date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",string,,,False
-Actual Dates:End Date,actualDates/0/endDate,"Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",string,,,False
-Actual Dates:Duration (months),actualDates/0/duration,Events or activities lasting more than one day should have either a duration (in months) or an end date.,string,,,False
-Actual Dates:Description,actualDates/0/description,A description of this event,string,,,False
-Actual Dates:Last modified,actualDates/0/dateModified,When was information about this event last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False

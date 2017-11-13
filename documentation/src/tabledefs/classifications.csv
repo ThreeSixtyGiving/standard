@@ -1,7 +1,0 @@
-title,name,description,type,format,allowed_values,required
-Classifications:Vocabulary,classifications/0/vocabulary,A vocabulary used for this classification.,string,,,False
-Classifications:Code,classifications/0/code,A codelist value in the chosen vocabulary.,string,,,False
-Classifications:Title,classifications/0/title,The title of this classification.,string,,,False
-Classifications:Description,classifications/0/description,A description of this classification.,string,,,False
-Classifications:URL,classifications/0/url,A web link to more details of this classification.,uri,,,False
-Classifications:Last modified,classifications/0/dateModified,When was this grant classification information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.,date-time,,,False
