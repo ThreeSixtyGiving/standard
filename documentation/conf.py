@@ -33,7 +33,7 @@ from recommonmark.parser import CommonMarkParser
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ['sphinxcontrib.opendataservices']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -358,94 +358,6 @@ locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 
-from sphinx.directives import Directive
-from docutils.parsers.rst import directives
-from docutils import nodes
-import json
-
-
-import sphinxcontrib.jsonschema
-
-def type_format_simple(prop):
-    prop_type = prop.attributes.get('type')
-    if prop.format:
-        return prop.format
-    elif isinstance(prop_type, list) and len(prop_type) == 2 and prop_type[1] == 'null':
-        return prop_type[0]
-    else:
-        return prop.type
-
-class JSONSchemaDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
-    headers = ['Title', 'Description', 'Type', 'Required']
-    widths = [1, 3, 1, 1]
-    option_spec = {
-        'child': directives.unchanged,
-    }
-    child = None
-
-    def make_nodes(self, schema):
-        child = self.options.get('child')
-        if child:
-            for prop in schema:
-                if prop.name == child:
-                    return [nodes.paragraph('', nodes.Text(prop.description)), self.table(prop)]
-            else:
-                raise KeyError
-        else:
-            return [self.table(schema)]
-    
-    def row(self, prop, tbody):
-        # Don't display rows for arrays and objects (only their children)
-        if isinstance(prop, (sphinxcontrib.jsonschema.Array, sphinxcontrib.jsonschema.Object)):
-            return
-        if not prop.rollup and prop.parent.parent.name != self.options.get('child'):
-            return
-        row = nodes.row()
-        row += self.cell(prop.full_title)
-        row += self.cell(prop.description or '')
-        row += self.cell(type_format_simple(prop))
-        row += self.cell(prop.required)
-        tbody += row
-
-directives.register_directive('jsonschema', JSONSchemaDirective)
-
-
-class JSONSchemaFieldsDirective(sphinxcontrib.jsonschema.JSONSchemaDirective):
-    headers = ['Title', 'Name', 'Type']
-    widths = [1, 1, 1]
-    
-    def row(self, prop, tbody):
-        # Don't display rows for arrays and objects (only their children)
-        if isinstance(prop, (sphinxcontrib.jsonschema.Array, sphinxcontrib.jsonschema.Object)):
-            return
-        row = nodes.row()
-        row += self.cell(prop.full_title)
-        row += self.cell(prop.name)
-        row += self.cell(type_format_simple(prop))
-        tbody += row
-
-directives.register_directive('jsonschema_fields', JSONSchemaFieldsDirective)
-
-
-
-class DirectoryListDirective(Directive):
-    option_spec = {
-        'path': directives.unchanged,
-        'url': directives.unchanged,
-    }
-
-    def run(self):
-        bl = nodes.bullet_list()
-        for fname in os.listdir(self.options.get('path')):
-            bl += nodes.list_item('', nodes.paragraph('', '', nodes.reference('', '',
-                    nodes.Text(fname),
-                    internal=False,
-                    refuri=self.options.get('url') + fname, anchorname='')))
-        return [bl]
-
-directives.register_directive('directory_list', DirectoryListDirective)
-
-
 import flattentool
 import shutil
 
@@ -476,9 +388,6 @@ for output_format in ['csv', 'xlsx']:
     )
 
 #mv README.md 360-giving-schema-titles.csv/
-
-
-
 
 
 def setup(app):
