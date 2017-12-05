@@ -252,10 +252,10 @@
   {
    "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'", 
    "format": "", 
-   "title": "From an open call?", 
    "allowed_values": "Yes,No", 
    "required": false, 
    "type": "string", 
+   "title": "From An Open Call?",
    "name": "fromOpenCall"
   }, 
   {

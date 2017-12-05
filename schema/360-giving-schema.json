@@ -24,7 +24,7 @@
           "type": "string",
           "description": "When did this transaction take place? Please use YYYY-MM-DD format.",
           "weight": 5,
-          "title": "Transaction date"
+          "title": "Transaction Date"
         },
         "currency": {
           "$ref": "#/definitions/currency"
@@ -40,7 +40,7 @@
           "type": ["string","null"],
           "description": "The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).",
           "weight": 6.1,
-          "title": "Value date"
+          "title": "Value Date"
         },
         "description": {
           "type": ["string","null"],
@@ -548,7 +548,7 @@
       "enum": ["Yes","No"],
       "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'",
       "weight": 12,
-      "title": "From an open call?"
+      "title": "From An Open Call?"
     },
     "fundingType": {
       "items": {
