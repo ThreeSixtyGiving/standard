@@ -221,7 +221,7 @@ You can:
 * **Remove or hide non-required columns that you are not using** - although make sure you check any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
 * **Re-order the columns** so that information is arranged in the way you want
 * **Add extra columns** to include information you want to share, but that is not covered by the standard. (See [additional fields](additional-fields)).
-* Move columns in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> between sheets.
+* **Move columns** in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> between sheets.
 
 You must not:
 
