@@ -77,6 +77,13 @@ If, when creating your data, you only need a few additional fields from the addi
 
 If you have additional data to report that does not fit any of the columns provided in the spreadsheet, it is okay to create your own column titles in order to report it.
 
+```eval_rst
+.. hint:: **Naming your own columns.**
+
+  If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
+
+  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations.
+```
 
 #### Actual Dates
 
@@ -212,10 +219,10 @@ You must:
 
 You can:
 
-* **Remove or hide non-required columns that you are not using** - although make sure you check any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
+* **Remove or hide non-required columns that you are not using** - although make sure you check for any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
 * **Re-order the columns** so that information is arranged in the way you want
-* **Add extra columns** to include information you want to share, but that is not covered by the standard. 
-* Move columns in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> between sheets.
+* **Add extra columns** to include information you want to share, but that is not covered by the standard. (See [additional fields](additional-fields)).
+* **Move columns** in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> between sheets.
 
 You must not:
 
