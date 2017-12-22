@@ -114,7 +114,9 @@ In 360Giving data we ask publishers to use a list code prefix taken from the [or
 ````eval_rst
 .. hint::
 
-  Publishers should be aware of the problems that leading zeros in UK company numbers present to creating identifiers. `Learn more`__ about how to avoid this pitfall.
+  UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
+
+  Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. `Learn more`__ about how to avoid this pitfall.
 .. __: https://www.threesixtygiving.org/support/company-numbers/
 
 ````
