@@ -1,12 +1,12 @@
 # Identifiers
 
-```eval_rst 
+```eval_rst
 
 .. admonition:: Why identifiers matter
 
-  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on. 
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on.
 
-  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided. 
+  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
 
 ```
 
@@ -14,7 +14,7 @@
 
 * [Grants](grant-identifier)
 * [Organisations](organisation-identifier);
-* Transactions; 
+* Transactions;
 * Classifications;
 * and other unique elements in your data.
 
@@ -27,9 +27,9 @@ These go in an ```Identifier``` column alongside accessible text descriptions of
 
 ## Identifier basics
 
-You may already have identifiers in your own data. For example, a number for each application or grant. You can use these existing **internal identifiers** as part of your published data. 
+You may already have identifiers in your own data. For example, a number for each application or grant. You can use these existing **internal identifiers** as part of your published data.
 
-*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, you need to add a **prefix** to avoid this possible clash. 
+*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, you need to add a **prefix** to avoid this possible clash.
 
 ```eval_rst
 .. admonition:: For example
@@ -39,7 +39,7 @@ You may already have identifiers in your own data. For example, a number for eac
 
 For grants, and other identifiers particular to your organisation, you use can use a **360G prefix**.
 
-For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below. 
+For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below.
 
 
 ```eval_rst
@@ -50,7 +50,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 
 To register a prefix for your organisation see the [publisher guidance](http://www.threesixtygiving.org/support/publish-data).
 
-All registered prefixes should start with 360G unless you have been advised otherwise by the support team. 
+All registered prefixes should start with 360G unless you have been advised otherwise by the support team.
 
 ```eval_rst
 .. _grant-identifier:
@@ -111,9 +111,19 @@ In 360Giving data we ask publishers to use a list code prefix taken from the [or
 
 ```
 
+````eval_rst
+.. hint::
+
+  UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
+
+  Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. `Learn more`__ about how to avoid this pitfall.
+.. __: https://www.threesixtygiving.org/support/company-numbers/
+
+````
+
 ### Choose the best identifier
 
-Some organisations have more than one identifier: they might be a charity **and** a company (charitable companies), or a charity **and** an educational establishment. 
+Some organisations have more than one identifier: they might be a charity **and** a company (charitable companies), or a charity **and** an educational establishment.
 
 If you have more than one type of identifier for an organisation recorded in your system, it will be necessary to pick which one to use when creating an Organisation identifier.
 
@@ -121,7 +131,7 @@ If you have more than one type of identifier for an organisation recorded in you
 
 ```eval_rst
 
-.. hint:: Relevance and quality defined: 
+.. hint:: Relevance and quality defined:
 
   * Relevance: are you likely to find the organisation you are looking for in this list?
   * Quality: are the identifiers in this list stable and linked to open, accessible contextual data, and can they be easily mapped to other identifiers.
@@ -151,5 +161,5 @@ If you do not have any external registration numbers for the organisation, use y
 
    Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360Giving Standard includes additional fields these on their own (without the prefixes), to help users of the data.
 
-   If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above. 
+   If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above.
 ```
