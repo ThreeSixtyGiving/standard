@@ -1,10 +1,10 @@
-<div id="toc"></div>
+# Reference
 
 This page provides reference information on publishing to the 360Giving Data Standard.
 
 It assumes some technical knowledge.
 
-If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](/get-involved/publish-your-data/) pages.
+If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](http://www.threesixtygiving.org/data/publish-data/) pages.
 
 ## Data formats
 
@@ -16,7 +16,7 @@ There are two main formats available for representing 360Giving data.
  
 2. **JSON**
    
-   Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas).
+   Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schema](360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schema](360giving-json-schemas).
 
 The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can be used to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
 
@@ -24,20 +24,20 @@ The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can
 
 To produce 360Giving data in a spreadsheet, it is possible to start with an empty spreadsheet and construct the column titles (and any additional sheets), using the information given below. However, for many people, the starting point is the spreadsheet template described below.
 
-###Spreadsheet template
+### Spreadsheet template
 
-For convenience we provide a [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) that can be used directly, or adapted to your needs.
+For convenience we provide a <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs.
 
 The template is a multi-sheet spreadsheet, and each sheet is described below.
 
 Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.
 
-Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](/#toc-one-to-many-relationships).
-Information about how to create data with [One to many relationships](/#toc-one-to-many-relationships) is described below.
+Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](one-to-many-relationships).
+Information about how to create data with [One to many relationships](one-to-many-relationships) is described below.
 
 The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields. 
 
-The [Additional fields](/#toc-additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](/standard/reference/#toc-360giving-json-schemas) ).
+The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
 
 ### Grants Sheet
@@ -51,54 +51,19 @@ The main 'grants' sheet includes sections for:
 * The location of beneficiaries;
 * Details of the grant programme funding is from;
 
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Identifier|The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.|string|True|
-|Title|A title for this grant activity. This should be under 140 characters long.|string|True|
-|Description|A short description of this grant activity.|string|True|
-|Currency|The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.|string|True|
-|Amount Applied For|Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.|number|False|
-|Amount Awarded|Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.|number|True|
-|Amount Disbursed|Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.|number|False|
-|Award Date|When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.|date-time|True|
-|URL|A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.|uri|False|
-|Planned Dates:Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
-|Recipient Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Recipient Org:Name|Organisation name|string|True|
-|Recipient Org:Charity Number|Registered charity number, if applicable.|string|False|
-|Recipient Org:Company Number|Registered UK company number, if applicable.|string|False|
-|Recipient Org:Street Address|Building number and street name.|string|False|
-|Recipient Org:City|City or town.|string|False|
-|Recipient Org:County|County|string|False|
-|Recipient Org:Country|Country|string|False|
-|Recipient Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
-|Recipient Org:Description|A short description of this organisation and its area of work|string|False|
-|Recipient Org:Web Address|A web address for the Organisation|uri|False|
-|Beneficiary Location:Name|A name for this location.|string|False|
-|Beneficiary Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Beneficiary Location:Latitude|The latitude of a point location|string|False|
-|Beneficiary Location:Longitude|The longitude of a point location|string|False|
-|Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Funding Org:Name|Organisation name|string|True|
-|Funding Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Grant Programme:Code|An identifier for this grant programme.|string|False|
-|Grant Programme:Title|The title of this grant programme.|string|False|
-|Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
-|From an open call?|Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'|string|False|
-|Related Activity|The identifiers of any related activities (e.g. other grants given as part of a multi-grant project)|array|False|
-|Last modified|The date and time when information about this grant was last updated.|date-time|False|
-|Data Source|A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.|uri|False|
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+```
 
+```eval_rst
+.. _additional-fields:
+```
 
 ### Additional fields
 
 The main 'grants' sheet only includes the most common information used by most data publishers. For many people this is enough.
 
-The other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
+The other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
 
 1. As a way to add more information to our 'grants' sheet
    
@@ -106,198 +71,96 @@ The other sheets in the [360Giving Spreadsheet Template](https://github.com/Thre
    
    You can use any of these column titles on your main 'grants' sheet if you wish.  
 
-2. As a way of providing information about [Many to one relationships](/#toc-many-to-one-relationships)
+2. As a way of providing information about [One to many relationships](one-to-many-relationships)
 
 If, when creating your data, you only need a few additional fields from the additional sheets, you can simply copy them from one sheet to another.
 
 If you have additional data to report that does not fit any of the columns provided in the spreadsheet, it is okay to create your own column titles in order to report it.
 
+```eval_rst
+.. hint:: **Naming your own columns.**
+
+  If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
+
+  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations.
+```
 
 #### Actual Dates
 
-When did this grant activity actually take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Actual Dates:Title|-|string|False|
-|Actual Dates:Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Actual Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Actual Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
-|Actual Dates:Description|-|string|False|
-|Actual Dates:Last modified|The date and time when information about this event was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: actualDates
+```
 
 #### Planned Dates
 
-When the applicant / implementing organisation originally intend this activity to take place. 
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Planned Dates:Title|-|string|False|
-|Planned Dates:Start Date|All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:End Date|Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.|date-time|False|
-|Planned Dates:Duration (months)|Events or activities lasting more than one day should have either a duration (in months) or an end date.|string|False|
-|Planned Dates:Description|-|string|False|
-|Planned Dates:Last modified|The date and time when information about this event was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: plannedDates
+```
 
 #### Funding Org
 
-Details of the funder
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Funding Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Funding Org:Name|Organisation name|string|True|
-|Funding Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Funding Org:Contact Name|The contact person at this organisation.|string|False|
-|Funding Org:Charity Number|Registered charity number, if applicable.|string|False|
-|Funding Org:Company Number|Registered UK company number, if applicable.|string|False|
-|Funding Org:Street Address|Building number and street name.|string|False|
-|Funding Org:City|City or town.|string|False|
-|Funding Org:County|County|string|False|
-|Funding Org:Country|Country|string|False|
-|Funding Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
-|Funding Org:Phone Number|Contact phone number.|string|False|
-|Funding Org:Alternate Name|An alternative name for this organisation (e.g. trading name)|string|False|
-|Funding Org:Email|The email address for this organisation.|string|False|
-|Funding Org:Description|A short description of this organisation and its area of work|string|False|
-|Funding Org:Organisation Type|A description of this organisation|string|False|
-|Funding Org:Web Address|A web address for the Organisation|uri|False|
-|Funding Org:Last modified|The date and time when information about this organisation was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: fundingOrganization
+```
 
 #### Recipient Org
 
-Details of the recipient of this grant.
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Recipient Org:Identifier|A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.|string|True|
-|Recipient Org:Name|Organisation name|string|True|
-|Recipient Org:Department|The department or sub-unit of this organisation making or receiving the grant.|string|False|
-|Recipient Org:Contact Name|The contact person at this organisation.|string|False|
-|Recipient Org:Charity Number|Registered charity number, if applicable.|string|False|
-|Recipient Org:Company Number|Registered UK company number, if applicable.|string|False|
-|Recipient Org:Street Address|Building number and street name.|string|False|
-|Recipient Org:City|City or town.|string|False|
-|Recipient Org:County|County|string|False|
-|Recipient Org:Country|Country|string|False|
-|Recipient Org:Postal Code|Postal code (please try and provide a post code whenever possible)|string|False|
-|Recipient Org:Phone Number|Contact phone number.|string|False|
-|Recipient Org:Alternate Name|An alternative name for this organisation (e.g. trading name)|string|False|
-|Recipient Org:Email|The email address for this organisation.|string|False|
-|Recipient Org:Description|A short description of this organisation and its area of work|string|False|
-|Recipient Org:Organisation Type|A description of this organisation|string|False|
-|Recipient Org:Web Address|A web address for the Organisation|uri|False|
-|Recipient Org:Last modified|The date and time when information about this organisation was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: recipientOrganization
+```
 
 #### Beneficiary Location
 
-Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Beneficiary Location:Identifier|Location identifier|string|False|
-|Beneficiary Location:Name|A name for this location.|string|False|
-|Beneficiary Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Beneficiary Location:Latitude|The latitude of a point location|string|False|
-|Beneficiary Location:Longitude|The longitude of a point location|string|False|
-|Beneficiary Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
-|Beneficiary Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Beneficiary Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Beneficiary Location:Last modified|The date and time when information about this location was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: beneficiaryLocation
+```
 
 #### Funding Org:Location
 
--
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Funding Org:Location:Identifier|Location identifier|string|False|
-|Funding Org:Location:Name|A name for this location.|string|False|
-|Funding Org:Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Funding Org:Location:Latitude|The latitude of a point location|string|False|
-|Funding Org:Location:Longitude|The longitude of a point location|string|False|
-|Funding Org:Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
-|Funding Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Funding Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Funding Org:Location:Last modified|The date and time when information about this location was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: fundingOrganization/0/location
+```
 
 #### Recipient Org:Location
 
--
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Recipient Org:Location:Identifier|Location identifier|string|False|
-|Recipient Org:Location:Name|A name for this location.|string|False|
-|Recipient Org:Location:Country Code|The ISO Country Code of the location of this activity.|string|False|
-|Recipient Org:Location:Latitude|The latitude of a point location|string|False|
-|Recipient Org:Location:Longitude|The longitude of a point location|string|False|
-|Recipient Org:Location:Description|A description of this location. This could include details of the element of the activity that takes place here.|string|False|
-|Recipient Org:Location:Geographic Code|A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.|string|False|
-|Recipient Org:Location:Geographic Code Type|The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).|string|False|
-|Recipient Org:Location:Last modified|The date and time when information about this location was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: recipientOrganization/0/location
+```
 
 #### Related Document
 
--
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Related Document:Identifier|An identifier for this document.|string|False|
-|Related Document:Title|The document title|string|False|
-|Related Document:Web Address|The URL of the document.|uri|False|
-|Related Document:Description|A description of the document|string|False|
-|Related Document:Document Type|A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.|string|False|
-|Related Document:Last modified|The date and time when information about this document was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: relatedDocument
+```
 
 #### Classifications
 
--
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Classifications:Vocabulary|A vocabulary used for this classification.|string|False|
-|Classifications:Code|A codelist value in the chosen vocabulary.|string|False|
-|Classifications:Title|The title of this classification.|string|False|
-|Classifications:Description|A description of this classification.|string|False|
-|Classifications:URL|A web link to more details of this classification.|uri|False|
-|Classifications:Last modified|The date and time when the information was last updated|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: classifications
+```
 
 #### Funding Type
 
--
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Funding Type:Vocabulary|A vocabulary used for this classification.|string|False|
-|Funding Type:Code|A codelist value in the chosen vocabulary.|string|False|
-|Funding Type:Title|The title of this classification.|string|False|
-|Funding Type:Description|A description of this classification.|string|False|
-|Funding Type:URL|A web link to more details of this classification.|uri|False|
-|Funding Type:Last modified|The date and time when the information was last updated|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: fundingType
+```
 
 #### Grant Programme
 
--
-
-|Title|Description|Type|Required|
-|----|----|----|----|
-|Grant Programme:Code|An identifier for this grant programme.|string|False|
-|Grant Programme:Title|The title of this grant programme.|string|False|
-|Grant Programme:Description|A description of this grant programme.|string|False|
-|Grant Programme:URL|A web link to more details of this grant programme.|uri|False|
-|Grant Programme:Last modified|The date and time when information about this grant programme was last updated.|date-time|False|
-
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-schema.json
+    :child: grantProgramme
+```
 
 #### Transactions
 
@@ -311,13 +174,17 @@ These do not currently have nice human readable titles, but can still be added a
 
 To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
+```eval_rst
+.. _one-to-many-relationships:
+```
+
 ### One to many relationships
 
 Each of the sections of additional fields above can have multiple occurrences for one grant. There are three ways of describing this in a spreadsheet.
 
 ##### Additional sheets
 
-Use the other sheets in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx). These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
+Use the other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a>. These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding/Recipient Org.
 
@@ -327,9 +194,13 @@ You can describe multiple occurrences within the Grants sheet by having multiple
 
 e.g. to have two related documents with their own title and web address:
 
+```eval_rst
++------------------------+------------------------------+------------------------+----------------------------------+
 |Related Document:0:Title|Related Document:0:Web Address|Related Document:1:Title|Related Document:1:Web Address    |
-|------------------------|------------------------------|------------------------|----------------------------------|
++------------------------+------------------------------+------------------------+----------------------------------+
 |A Document              |http://example.com/adocument  |Another Document        |http://example.com/anotherdocument|
++------------------------+------------------------------+------------------------+----------------------------------+
+```
 
 ##### Multiple Rows
 
@@ -348,10 +219,10 @@ You must:
 
 You can:
 
-* **Remove or hide non-required columns that you are not using** - although make sure you check any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
+* **Remove or hide non-required columns that you are not using** - although make sure you check for any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
 * **Re-order the columns** so that information is arranged in the way you want
-* **Add extra columns** to include information you want to share, but that is not covered by the standard. 
-* Move columns in the [360Giving Spreadsheet Template](https://github.com/ThreeSixtyGiving/standard/raw/master/schema/summary-table/360-giving-schema-titles.xlsx) between sheets.
+* **Add extra columns** to include information you want to share, but that is not covered by the standard. (See [additional fields](additional-fields)).
+* **Move columns** in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> between sheets.
 
 You must not:
 
@@ -364,18 +235,22 @@ The 360Giving standard is defined by a [JSON Schema](http://json-schema.org/), w
 
 At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
 
+```eval_rst
+.. _360giving-json-schemas:
+```
+
 ### 360Giving JSON Schemas
 The 360Giving JSON Schemas are the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schema. 
 
-The [360Giving Grant Schema](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json) defines the structure of an individual 'grant' and the documentation from this is displayed below, or [fullscreen here](/wp-content/plugins/threesixty_docs/docson/index.html#/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json).
+The <a href="../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
 
-When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The [360Giving Package  Schema](/wp-content/plugins/threesixty_docs/standard/schema/360-giving-package-schema.json) describes how grants are packaged into one file.
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The <a href="../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file.
 
 In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="/wp-content/plugins/threesixty_docs/docson/widget.js" 
-        data-schema="/wp-content/plugins/threesixty_docs/standard/schema/360-giving-schema.json">      
+<script src="../_static/docson/widget.js" 
+        data-schema="../360-giving-schema.json">      
 </script>
 </div>
 
@@ -387,50 +262,11 @@ The English language titles are important for humans working to make sense of th
 
 The field names are important for computers reading the data, and even if other language titles are provided in future, the underlying field names will remain constant.
 
-A mapping between column titles and field names for the Grants sheet is given below:
+A mapping between column titles and field names is given below:
 
-|Title|Name|Type|
-|----|----|----|
-|Identifier|id|string|
-|Title|title|string|
-|Description|description|string|
-|Currency|currency|string|
-|Amount Applied For|amountAppliedFor|number|
-|Amount Awarded|amountAwarded|number|
-|Amount Disbursed|amountDisbursed|number|
-|Award Date|awardDate|date-time|
-|URL|url|uri|
-|Planned Dates:Start Date|plannedDates/0/startDate|date-time|
-|Planned Dates:End Date|plannedDates/0/endDate|date-time|
-|Planned Dates:Duration (months)|plannedDates/0/duration|string|
-|Recipient Org:Identifier|recipientOrganization/0/id|string|
-|Recipient Org:Name|recipientOrganization/0/name|string|
-|Recipient Org:Charity Number|recipientOrganization/0/charityNumber|string|
-|Recipient Org:Company Number|recipientOrganization/0/companyNumber|string|
-|Recipient Org:Street Address|recipientOrganization/0/streetAddress|string|
-|Recipient Org:City|recipientOrganization/0/addressLocality|string|
-|Recipient Org:County|recipientOrganization/0/addressRegion|string|
-|Recipient Org:Country|recipientOrganization/0/addressCountry|string|
-|Recipient Org:Postal Code|recipientOrganization/0/postalCode|string|
-|Recipient Org:Description|recipientOrganization/0/description|string|
-|Recipient Org:Web Address|recipientOrganization/0/url|uri|
-|Beneficiary Location:Name|beneficiaryLocation/0/name|string|
-|Beneficiary Location:Country Code|beneficiaryLocation/0/countryCode|string|
-|Beneficiary Location:Latitude|beneficiaryLocation/0/latitude|string|
-|Beneficiary Location:Longitude|beneficiaryLocation/0/longitude|string|
-|Beneficiary Location:Geographic Code|beneficiaryLocation/0/geoCode|string|
-|Beneficiary Location:Geographic Code Type|beneficiaryLocation/0/geoCodeType|string|
-|Funding Org:Identifier|fundingOrganization/0/id|string|
-|Funding Org:Name|fundingOrganization/0/name|string|
-|Funding Org:Department|fundingOrganization/0/department|string|
-|Grant Programme:Code|grantProgramme/0/code|string|
-|Grant Programme:Title|grantProgramme/0/title|string|
-|Grant Programme:URL|grantProgramme/0/url|uri|
-|From an open call?|fromOpenCall|string|
-|Related Activity|relatedActivity|array|
-|Last modified|dateModified|date-time|
-|Data Source|dataSource|uri|
-
+```eval_rst
+.. jsonschema-title-fieldname-map:: ../schema/360-giving-schema.json
+```
 
 ### JSON
 

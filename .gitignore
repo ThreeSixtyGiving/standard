@@ -1,3 +1,5 @@
 _site
 .ve/
 *.swp
+schema/multi-table
+schema/summary-table

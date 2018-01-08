@@ -30,7 +30,7 @@
           "$ref": "#/definitions/currency"
         },
         "value": {
-          "type": "integer",
+          "type": "number",
           "description": "The total value of this transaction.",
           "weight": 6,
           "title": "Value"
