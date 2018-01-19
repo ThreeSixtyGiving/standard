@@ -1,5 +1,7 @@
 # Governance and Revision Control 
-* You can also downnload this document in PDF format [here](https://drive.google.com/open?id=0B9BNREfuP8HbRkpKU2kyVmtjYWM).
+```eval_rst
+You can also download this document in PDF format :download:`here <../assets/governance_and_review_process.pdf>`.
+```
 
 ## Introduction
 The 360Giving Standard has many stakeholders: grantmakers (including charitable trusts and foundations, government, non-departmental public bodies, lottery funders); fundraisers; policy makers and researchers; civil society organisations; and oversight authorities (such as the Charity Commission and HMRC). These stakeholders are primarily in the UK, where 360Giving is based and where it has focused its efforts to date. The needs and interests of these stakeholders are varied. As the 360Giving Standard develops over time, with updated versions and new publishers, it is important that a diverse group of stakeholders are engaged in the process.
@@ -61,45 +63,7 @@ These are captured by a version number in the format MAJOR.MINOR
 ### Revision process
 To release a new minor or major version upgrade will involve a number of stages outlined in the flowchart below, and described in more depth in the following sections.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Revision process](../assets/upgrade_process_feb_2016.png)
 
 The revision process will follow these general principles:
 * Publicity: All stages of the revision process will be announced via the 360Giving online forum. This is the formal channel for notification during the process.
