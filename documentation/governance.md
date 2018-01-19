@@ -1,6 +1,9 @@
 # Governance and Revision Control 
 ```eval_rst
-You can also download this document in PDF format :download:`here <../assets/governance_and_review_process.pdf>`.
+
+.. admonition:: Download
+
+  You can also download this document in PDF format :download:`here <../assets/governance_and_review_process.pdf>`.
 ```
 
 ## Introduction
