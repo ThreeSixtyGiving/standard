@@ -25,9 +25,12 @@ The organisation is led by a Chief Executive Officer (CEO) who is supported by a
 
 The technical team work under contract to 360Giving, providing a help desk service and being responsible for the day-to-day management of the Standard documentation and validation tools. The technical team can be contacted via [support@threesixtygiving.org](support@threesixtygiving.org).
 
-In the pursuit of openness and community-driven process, subscribers to the [360Giving online discussion forum](https://forum.threesixtygiving.org/c/standard) and those engaging with the [Standard GitHub repository](https://github.com/ThreeSixtyGiving/standard) will be kept informed at all stages about planned revisions to the 360 Standard, and will be offered clear and timely opportunities to input and comment.
+```eval_rst
+
+In the pursuit of openness and community-driven process, subscribers to the `360Giving online discussion forum <https://forum.threesixtygiving.org/c/standard>`_ and those engaging with the `Standard GitHub repository <https://github.com/ThreeSixtyGiving/standard>`_ will be kept informed at all stages about planned revisions to the 360 Standard, and will be offered clear and timely opportunities to input and comment.
 To ensure the relevance, quality and effective implementation of proposed updates to the Standard, new version releases will be subjected to a process of peer review with invited reviewers from publisher and user communities, and an open review process.
-A Standard Stewardship Committee, made up of representatives from 360Giving staff and Board members, current and potential publishers, end users of 360 data and the technical team, is responsible for giving final approval to formal upgrades of the Standard and ensuring the processes in this document have been properly carried out. [#f1]_
+A Standard Stewardship Committee, made up of representatives from 360Giving staff and Board members, current and potential publishers, end users of 360 data and the technical team, is responsible for giving final approval to formal upgrades of the Standard and ensuring the processes in this document have been properly carried out. [1]_
+```
 
 ### Intellectual property
 The 360Giving Standard is the intellectual property of 360Giving. The schema is provided under a [Creative Commons Attribution 4.0 International License]( https://creativecommons.org/licenses/by/4.0/).
@@ -35,7 +38,9 @@ The 360Giving Standard is the intellectual property of 360Giving. The schema is 
 Contributors to the Standard agree to transfer any copyright in their contributions to 360Giving, in order that it is held in trust as part of the Standard. No content infringing upon third-party Intellectual Property Rights will be included in the Standard.
 
 ### Governance principles
-We are committed to the [Open Stand principles]( https://open-stand.org/about-us/principles/) for standards development. [#f2]_  The 360Giving Standard has been developed with:
+```eval_rst
+We are committed to the `Open Stand principles <https://open-stand.org/about-us/principles/>`_ for standards development. [2]_  The 360Giving Standard has been developed with:
+```
 * Due process: Decisions will be made with equity and fairness among participants. Through an open process for submitting issues, extensions and requests for updates, no one party will dominate or guide standard development. All processes will be transparent and opportunities will exist to appeal decisions. Processes for periodic standards review and updating are well defined in this document.
 * Broad consensus: The process will allow for all views to be considered and addressed, such that agreement can be found across a range of interests.
 * Transparency: We will provide advance public notice of proposed standards development activities, the scope of work to be undertaken and conditions for participation. Easily accessible records of decisions and the materials used in reaching those decisions will be provided. Public comment periods will be provided before final standards approval and adoption.
@@ -111,7 +116,9 @@ Once all reviewer comments have been addressed to the satisfaction of the review
 Following Stewardship Committee approval, the revision branch can be set to live.
 
 ## Deprecation Policy
-If a term (a class or property) is scheduled to be renamed or removed from the specification as a result of the revision process, the next release of the specification must deprecate [#f3]_ the term within the schema, and the following major release must rename or remove the term from the schema, making the term obsolete. Implementations may use deprecated terms, but will receive warnings from the 360Giving Data Quality tool described below. [#f4]_  Implementations may not use obsolete terms, and will receive errors from the Data Quality tool.
+```eval_rst
+If a term (a class or property) is scheduled to be renamed or removed from the specification as a result of the revision process, the next release of the specification must deprecate [3]_ the term within the schema, and the following major release must rename or remove the term from the schema, making the term obsolete. Implementations may use deprecated terms, but will receive warnings from the 360Giving Data Quality tool described below. [4]_  Implementations may not use obsolete terms, and will receive errors from the Data Quality tool.
+```
 
 ## Support Policy
 Support will be offered for one prior version of the Standard. Support for any earlier versions than this will be ended when a new version is released. For example, when 1.1 is the latest release, 1.0 will be supported in the Data Quality tool and other relevant tools and platforms managed by 360Giving. When 1.2 is released, support for 1.0 will no longer be guaranteed.
@@ -122,14 +129,19 @@ Publishers are encouraged to review each new version when released, and to consi
 **Stakeholder**
 Anyone who is a current or potential publisher or user of the 360Giving Standard can be considered a stakeholder. When engaging with stakeholders, attention will be paid to representation of both publishers and users; representation of public and private sectors and civil society; and broad geographical representation.
 
+```eval_rst
 **Consensus**
-“The principle of consensus has its origins in the desire to achieve the general acceptance and application of a Standard within its intended sphere of influence. This entails trying to ensure that the interests of all those likely to be affected by it are taken into account, and that individual concerns are carefully and fairly balanced against the wider public interest.” [#5]_
+“The principle of consensus has its origins in the desire to achieve the general acceptance and application of a Standard within its intended sphere of influence. This entails trying to ensure that the interests of all those likely to be affected by it are taken into account, and that individual concerns are carefully and fairly balanced against the wider public interest.” [5]_
+```
 
+----------
 
-Rubric:: Footnotes
+```eval_rst
+**Footnotes**
 
-* [#f1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: http://www.threesixtygiving.org/governance-of-the-360giving-standard/.
-* [#f2] See https://open-stand.org/about-us/principles/.
-* [#f3] See https://en.wikipedia.org/wiki/Deprecation
-* [#4] See http://cove.opendataservices.coop/360/.
-* [#5] See Pocket Guide to Standards Development, the British Standards Institution, 2012, p.9: https://www.bsigroup.com/Documents/about-bsi/NSB/BSI-pocket-guide-to-standards-development-UK-EN.pdf.
+.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: http://www.threesixtygiving.org/governance-of-the-360giving-standard/.
+.. [2] See https://open-stand.org/about-us/principles/.
+.. [3] See https://en.wikipedia.org/wiki/Deprecation
+.. [4] See http://cove.opendataservices.coop/360/.
+.. [5] See Pocket Guide to Standards Development, the British Standards Institution, 2012, p.9: https://www.bsigroup.com/Documents/about-bsi/NSB/BSI-pocket-guide-to-standards-development-UK-EN.pdf.
+```
