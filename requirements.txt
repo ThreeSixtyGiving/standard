@@ -26,5 +26,6 @@ snowballstemmer==1.2.1
 urllib3==1.20
 jdcal==1.2
 jsonref==0.1
+lxml==4.1.1
 openpyxl==2.3.2
 schema==0.4.0
