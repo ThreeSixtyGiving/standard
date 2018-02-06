@@ -25,10 +25,11 @@ The organisation is led by a Chief Executive Officer (CEO) who is supported by a
 
 The technical team work under contract to 360Giving, providing a help desk service and being responsible for the day-to-day management of the Standard documentation and validation tools. The technical team can be contacted via [support@threesixtygiving.org](support@threesixtygiving.org).
 
-```eval_rst
+In the pursuit of openness and community-driven process, subscribers to the [360Giving online discussion forum](https://forum.threesixtygiving.org/c/standard) and those engaging with the [Standard GitHub repository](https://github.com/ThreeSixtyGiving/standard) will be kept informed at all stages about planned revisions to the 360 Standard, and will be offered clear and timely opportunities to input and comment.
 
-In the pursuit of openness and community-driven process, subscribers to the `360Giving online discussion forum <https://forum.threesixtygiving.org/c/standard>`_ and those engaging with the `Standard GitHub repository <https://github.com/ThreeSixtyGiving/standard>`_ will be kept informed at all stages about planned revisions to the 360 Standard, and will be offered clear and timely opportunities to input and comment.
 To ensure the relevance, quality and effective implementation of proposed updates to the Standard, new version releases will be subjected to a process of peer review with invited reviewers from publisher and user communities, and an open review process.
+
+```eval_rst
 A Standard Stewardship Committee, made up of representatives from 360Giving staff and Board members, current and potential publishers, end users of 360 data and the technical team, is responsible for giving final approval to formal upgrades of the Standard and ensuring the processes in this document have been properly carried out. [1]_
 ```
 
@@ -41,11 +42,11 @@ Contributors to the Standard agree to transfer any copyright in their contributi
 ```eval_rst
 We are committed to the `Open Stand principles <https://open-stand.org/about-us/principles/>`_ for standards development. [2]_  The 360Giving Standard has been developed with:
 ```
-* Due process: Decisions will be made with equity and fairness among participants. Through an open process for submitting issues, extensions and requests for updates, no one party will dominate or guide standard development. All processes will be transparent and opportunities will exist to appeal decisions. Processes for periodic standards review and updating are well defined in this document.
-* Broad consensus: The process will allow for all views to be considered and addressed, such that agreement can be found across a range of interests.
-* Transparency: We will provide advance public notice of proposed standards development activities, the scope of work to be undertaken and conditions for participation. Easily accessible records of decisions and the materials used in reaching those decisions will be provided. Public comment periods will be provided before final standards approval and adoption.
-* Balance: Standard activities will not be exclusively dominated by any particular person, company or interest group.
-* Openness: The 360Giving Standard processes are open to all interested and informed parties.
+* **Due process**: Decisions will be made with equity and fairness among participants. Through an open process for submitting issues, extensions and requests for updates, no one party will dominate or guide standard development. All processes will be transparent and opportunities will exist to appeal decisions. Processes for periodic standards review and updating are well defined in this document.
+* **Broad consensus**: The process will allow for all views to be considered and addressed, such that agreement can be found across a range of interests.
+* **Transparency**: We will provide advance public notice of proposed standards development activities, the scope of work to be undertaken and conditions for participation. Easily accessible records of decisions and the materials used in reaching those decisions will be provided. Public comment periods will be provided before final standards approval and adoption.
+* **Balance**: Standard activities will not be exclusively dominated by any particular person, company or interest group.
+* **Openness**: The 360Giving Standard processes are open to all interested and informed parties.
 
 ## Versioning and Upgrade Process
 Over time, changes will be needed to the Standard, including addition of new codes and fields, and occasionally involving changes to existing fields and structures.
@@ -74,9 +75,9 @@ To release a new minor or major version upgrade will involve a number of stages 
 ![Revision process](../assets/upgrade_process_feb_2016.png)
 
 The revision process will follow these general principles:
-* Publicity: All stages of the revision process will be announced via the 360Giving online forum. This is the formal channel for notification during the process.
-* Consensus: The process should act in the interest of the data standard, with particular consideration given to what the changes will mean for current publishers. All processes should aim towards gaining community consensus for changes. In cases where consensus cannot be reached, the process will be escalated to the CEO of 360Giving and put to a final majority vote by the Stewardship Committee. The 360Giving technical team are responsible for generating key documentation during the process, but should always be guided by community consensus, submitting all decisions for public discussion.
-* Appeal: Any party may appeal against decisions made during the process by writing to the Standard Stewardship Committee via the 360Giving discussion forum. The Stewardship Committee has the authority to reject proposed revisions on the Standard in response to appeals.
+* **Publicity**: All stages of the revision process will be announced via the 360Giving online forum. This is the formal channel for notification during the process.
+* **Consensus**: The process should act in the interest of the data standard, with particular consideration given to what the changes will mean for current publishers. All processes should aim towards gaining community consensus for changes. In cases where consensus cannot be reached, the process will be escalated to the CEO of 360Giving and put to a final majority vote by the Stewardship Committee. The 360Giving technical team are responsible for generating key documentation during the process, but should always be guided by community consensus, submitting all decisions for public discussion.
+* **Appeal**: Any party may appeal against decisions made during the process by writing to the Standard Stewardship Committee via the 360Giving discussion forum. The Stewardship Committee has the authority to reject proposed revisions on the Standard in response to appeals.
 
 ### Proposals
 Changes to the Standard can be proposed by anyone at any point via the 360Giving discussion forum either as issues for discussion, or [pull requests]( https://help.github.com/articles/about-pull-requests/) with a clear description of the proposed change. Contributors are encouraged to raise discussions in order to seek consensus on proposed changes. Changes may be proposed as updated field definitions or codelist entries, or as new features to the Standard.
@@ -100,7 +101,7 @@ At the point where all open issues are suitably addressed, the development branc
 
 ## Review by the Stewardship Committee
 The updated schema, documentation along with a change log and narrative description of the changes will be released for review by the Stewardship Committee. The Committee will be asked to complete a full review of the changes, and to submit to 360Giving’s CEO:
-* A judgement on whether the overall upgrade, and/or specific changes should be accepted, accepted with minor changes, substantially revised or rejected.
+* A judgement on whether the overall upgrade, and/or specific changes should be **accepted, accepted with minor changes, substantially revised** or **rejected**.
 * Comments on each request for revisions or rejection.
 
 All reviews and the judgement made will be published. Community members may also submit their own reviews of the whole revision, or specific elements. The minimum period for Committee review is one month.
