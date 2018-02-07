@@ -1,10 +1,4 @@
 # Governance and Revision Control 
-```eval_rst
-
-.. admonition:: Download
-
-  You can also download this document in PDF format :download:`here <../assets/governance_and_review_process.pdf>`.
-```
 
 ## Introduction
 The 360Giving Standard has many stakeholders: grantmakers (including charitable trusts and foundations, government, non-departmental public bodies, lottery funders); fundraisers; policy makers and researchers; civil society organisations; and oversight authorities (such as the Charity Commission and HMRC). These stakeholders are primarily in the UK, where 360Giving is based and where it has focused its efforts to date. The needs and interests of these stakeholders are varied. As the 360Giving Standard develops over time, with updated versions and new publishers, it is important that a diverse group of stakeholders are engaged in the process.
