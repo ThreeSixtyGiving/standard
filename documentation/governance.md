@@ -17,7 +17,9 @@ This document outlines a process for managing changes to the 360Giving Standard 
 
 The organisation is led by a Chief Executive Officer (CEO) who is supported by a staff team of two as well as a technical team. The organisation’s activities and governance is overseen by a Board of Directors that includes representatives from across the charitable giving sector.
 
-The technical team work under contract to 360Giving, providing a help desk service and being responsible for the day-to-day management of the Standard documentation and validation tools. The technical team can be contacted via [support@threesixtygiving.org](support@threesixtygiving.org).
+```eval_rst
+The technical team work under contract to 360Giving, providing a help desk service and being responsible for the day-to-day management of the Standard documentation and validation tools. The technical team can be contacted via `support@threesixtygiving.org <mailto:support@threesixtygiving.org>`_.
+```
 
 In the pursuit of openness and community-driven process, subscribers to the [360Giving online discussion forum](https://forum.threesixtygiving.org/c/standard) and those engaging with the [Standard GitHub repository](https://github.com/ThreeSixtyGiving/standard) will be kept informed at all stages about planned revisions to the 360 Standard, and will be offered clear and timely opportunities to input and comment.
 
