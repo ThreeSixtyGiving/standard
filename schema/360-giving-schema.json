@@ -325,7 +325,7 @@
           "type": "string",
           "description": "When did this transaction take place? Please use YYYY-MM-DD format.",
           "weight": 5,
-          "title": "Transaction date"
+          "title": "Transaction Date"
         },
         "currency": {
           "$ref": "#/definitions/currency"
@@ -344,7 +344,7 @@
           ],
           "description": "The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).",
           "weight": 6.1,
-          "title": "Value date"
+          "title": "Value Date"
         },
         "description": {
           "type": [
@@ -378,7 +378,7 @@
           "type": "string",
           "description": "The date and time when information about this transaction was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -433,7 +433,7 @@
           "type": "string",
           "description": "The date and time when information about this document was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -717,7 +717,7 @@
         },
         "latitude": {
           "type": [
-            "string",
+            "number",
             "null"
           ],
           "description": "The latitude of a point location",
@@ -726,7 +726,7 @@
         },
         "longitude": {
           "type": [
-            "string",
+            "number",
             "null"
           ],
           "description": "The longitude of a point location",
@@ -765,7 +765,7 @@
           "type": "string",
           "description": "The date and time when information about this location was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -817,7 +817,7 @@
           "type": "string",
           "description": "The date and time when the information was last updated",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -863,7 +863,7 @@
           "type": "string",
           "description": "The date and time when information about this grant programme was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -999,7 +999,7 @@
           "type": "string",
           "description": "The date and time when information about this organisation was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     },
@@ -1046,7 +1046,7 @@
           "type": "string",
           "description": "The date and time when information about this event was last updated.",
           "weight": 25,
-          "title": "Last modified"
+          "title": "Last Modified"
         }
       }
     }
@@ -1215,7 +1215,7 @@
       ],
       "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'",
       "weight": 12,
-      "title": "From an open call?"
+      "title": "From An Open Call?"
     },
     "fundingType": {
       "items": {
@@ -1282,7 +1282,7 @@
       "type": "string",
       "description": "The date and time when information about this grant was last updated.",
       "weight": 25,
-      "title": "Last modified"
+      "title": "Last Modified"
     },
     "dataSource": {
       "format": "uri",

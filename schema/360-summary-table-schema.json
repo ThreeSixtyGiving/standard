@@ -174,7 +174,7 @@
    "format": "", 
    "title": "Beneficiary Location:Latitude", 
    "required": false, 
-   "type": "string", 
+   "type": "number", 
    "name": "beneficiaryLocation[]/latitude"
   }, 
   {
@@ -182,7 +182,7 @@
    "format": "", 
    "title": "Beneficiary Location:Longitude", 
    "required": false, 
-   "type": "string", 
+   "type": "number", 
    "name": "beneficiaryLocation[]/longitude"
   }, 
   {
@@ -252,18 +252,18 @@
   {
    "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'", 
    "format": "", 
-   "title": "From an open call?", 
    "allowed_values": "Yes,No", 
    "required": false, 
    "type": "string", 
+   "title": "From An Open Call?",
    "name": "fromOpenCall"
   }, 
   {
    "description": "The date when information on this grant was last updated", 
    "format": "", 
-   "title": "Last modified", 
    "required": false, 
    "type": "datetime", 
+   "title": "Last Modified", 
    "name": "dateModified"
   }, 
   {
