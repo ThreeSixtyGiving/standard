@@ -146,6 +146,7 @@ The following identifier lists are often used in 360Giving publication.
 * UK Company Number - [GB-COH](http://org-id.guide/list/GB-COH)
 * Charity Numbers - [GB-CHC](http://org-id.guide/list/GB-CHC), [GB-SC](http://org-id.guide/list/GB-SC), [GB-NIC](http://org-id.guide/list/GB-NIC)
 * Education establishments - [GB-EDU](http://org-id.guide/list/GB-EDU) and [GB-UKPRN](http://org-id.guide/list/GB-UKPRN)
+* UK health and social care organisations - [GB-NHS](http://org-id.guide/list/GB-NHS)
 * Local authorities - [GB-LAE](http://org-id.guide/list/GB-LAE) (England), [GB-LAS](http://org-id.guide/list/GB-LAS) (Scotland), [GB-PLA](http://org-id.guide/list/GB-PLA) (Wales)
 * Mutual societies - [GB-MPR](http://org-id.guide/list/GB-MPR)
 * HMRC-recognised charities - [GB-REV](http://org-id.guide/list/GB-REV)
