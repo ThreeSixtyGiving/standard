@@ -1030,7 +1030,7 @@
           "title": "End Date"
         },
         "duration": {
-          "type": "integer",
+          "type": "number",
           "minimum": 0,
           "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
           "weight": 4.2,
