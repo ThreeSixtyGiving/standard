@@ -321,9 +321,12 @@
           "title": "Identifier"
         },
         "transactionDate": {
-          "format": "date-time",
+          "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+          ],
           "type": "string",
-          "description": "When did this transaction take place? Please use YYYY-MM-DD format.",
+          "description": "When did this transaction take place? The date should be written as YYYY-MM-DD, or in full date-time format.",
           "weight": 5,
           "title": "Transaction Date"
         },
@@ -337,12 +340,15 @@
           "title": "Value"
         },
         "valueDate": {
-          "format": "date-time",
+          "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+          ],
           "type": [
             "string",
             "null"
           ],
-          "description": "The date that this value was set (to allow historical currency conversion). The date must be in ISO 8601 format (YYYY-MM-DD).",
+          "description": "The date that this value was set (to allow historical currency conversion). The date should be written as YYYY-MM-DD, or in full date-time format.",
           "weight": 6.1,
           "title": "Value Date"
         },
@@ -376,7 +382,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this transaction was last updated.",
+          "description": "When was information about this transaction last updated? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -431,7 +437,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this document was last updated.",
+          "description": "What was this information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -763,7 +769,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this location was last updated.",
+          "description": "When was this location information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -815,7 +821,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when the information was last updated",
+          "description": "When was this grant classification information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -861,7 +867,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this grant programme was last updated.",
+          "description": "When was the link between this grant and its grant programme last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -997,7 +1003,7 @@
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this organisation was last updated.",
+          "description": "When was the organisation information for this grant last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -1011,21 +1017,30 @@
       "properties": {
         "title": {
           "type": "string",
-          "description": "-",
+          "title":"Title",
+          "description": "The title of this event",
           "weight": 1.05,
           "title": "Title"
         },
         "startDate": {
-          "format": "date-time",
+          "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"},
+            {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
+          ],
           "type": "string",
-          "description": "All events should have a start date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+          "description": "All events should have a start date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
           "weight": 4.1,
           "title": "Start Date"
         },
         "endDate": {
-          "format": "date-time",
+          "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"},
+            {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
+          ],
           "type": "string",
-          "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD format. If the month or day are not available, these may be omitted.",
+          "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
           "weight": 4.3,
           "title": "End Date"
         },
@@ -1038,14 +1053,14 @@
         },
         "description": {
           "type": "string",
-          "description": "-",
+          "description": "A description of this event",
           "weight": 9,
           "title": "Description"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
-          "description": "The date and time when information about this event was last updated.",
+          "description": "When was information about this event last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
           "weight": 25,
           "title": "Last Modified"
         }
@@ -1103,9 +1118,12 @@
       "title": "Amount Disbursed"
     },
     "awardDate": {
-      "format": "date-time",
+      "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+      ],
       "type": "string",
-      "description": "When was the decision to award this grant made. Dates should be in YYYY-MM-DD format.",
+      "description": "When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.",
       "weight": 4.3,
       "title": "Award Date"
     },
@@ -1123,7 +1141,7 @@
       "type": "array",
       "weight": 5.041,
       "title": "Planned Dates",
-      "description": "When the applicant / implementing organisation originally intend this activity to take place. ",
+      "description":"When the recipient organisation intends this activity to take place. A date range can include a start date and duration in months, or a start and end date.",
       "rollUp": [
         "startDate",
         "endDate",
@@ -1147,7 +1165,7 @@
       "type": "array",
       "weight": 5,
       "title": "Recipient Org",
-      "description": "Details of the recipient of this grant.",
+      "description":"Details of the recipient of this grant.",
       "rollUp": [
         "id",
         "name",
@@ -1281,7 +1299,7 @@
     "dateModified": {
       "format": "date-time",
       "type": "string",
-      "description": "The date and time when information about this grant was last updated.",
+      "description": "When was information on this grant last updated? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
       "weight": 25,
       "title": "Last Modified"
     },

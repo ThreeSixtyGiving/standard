@@ -13,12 +13,12 @@ There are two main formats available for representing 360Giving data.
 1. **Spreadsheet**
 
    Data placed in a spreadsheet can make use of easy to read, user-friendly **column titles**, and is ideal for recording one grant per row. This is the most common format that publishers choose. More complex representations of data can also be reported if required.
- 
+
 2. **JSON**
-   
+
    Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schema](360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schema](360giving-json-schemas).
 
-The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can be used to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop. 
+The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can be used to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop.
 
 ## Spreadsheet format
 
@@ -35,7 +35,7 @@ Many data producers will be able to fit all the information about a single grant
 Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](one-to-many-relationships).
 Information about how to create data with [One to many relationships](one-to-many-relationships) is described below.
 
-The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields. 
+The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields.
 
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
@@ -46,6 +46,7 @@ The main 'grants' sheet includes sections for:
 
 * Basic information about the grant;
 * Planned dates for the grant;
+* Planned dates of the activity;
 * Details of the recipient organisation;
 * Details of the funding organisation;
 * The location of beneficiaries;
@@ -66,9 +67,9 @@ The main 'grants' sheet only includes the most common information used by most d
 The other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
 
 1. As a way to add more information to our 'grants' sheet
-   
-   The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fields available in the 360Giving Data Standard. 
-   
+
+   The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fields available in the 360Giving Data Standard.
+
    You can use any of these column titles on your main 'grants' sheet if you wish.  
 
 2. As a way of providing information about [One to many relationships](one-to-many-relationships)
@@ -207,6 +208,48 @@ e.g. to have two related documents with their own title and web address:
 You can place the additional information about a grant in an additional row. Use the same Identifier for the grant, and place the additional information in the relevant columns. Consuming applications will then be able to try to merge the information into a single record, so be careful not to place contradictory information in fields that cannot have more than one value (e.g. a title or description)
 
 
+### Field guidance
+
+#### Dates and times
+
+360Giving requires you to provide information on when a grant was awarded, and allows you to add details of when a project is taking place, and when you last updated information about aspects of the grant.
+
+There are three different rules for validating dates:
+
+##### Full dates (Award Dates and Transaction Dates)
+The ```Award Date``` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
+
+In some rare cases, an award date might also need to include the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
+
+```eval_rst
+
+.. hint::
+  You can set Excel to present a date column in YYYY-MM-DD format using a custom format `as described here`_.
+
+.. _as described here: http://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899
+
+```
+
+##### Uncertain dates (Planned Dates and Actual Dates)
+Other events in the lifetime of a grant, such as for when the funded activity will take place, may include less specific date information. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they are not certain or do not yet know.
+
+Dates in the ```Planned Dates``` and ```Actual Dates``` groups should be provided in YYYY-MM-DD format, but the day or the day can be dropped or on the year provided (e.g. YYYY-MM or YYYY).
+
+For example, if an application only indicates that a project will start in May 2019, then the ```Planned Dates:Start Date``` value may be '2019-05'.
+
+It is up to users of the data to judge how to interpret dates which only include a year, or year and month. Different applications and analysis may require different judgements.
+
+##### Date-time (Last Modified dates)
+All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can have a ```Last Modified``` date.
+
+If used, this must always be in full date-time format so that if multiple updates take place on a single day, consuming applications can work out which version to use.
+
+``` eval_rst
+
+.. hint::
+  You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to ```=Now()``` then this value will be refreshed automatically every time you save the file.
+```
+
 ### Conformance
 
 In order to conform with the spreadsheet standard:
@@ -214,8 +257,8 @@ In order to conform with the spreadsheet standard:
 You must:
 
 * **Read the column definitions carefully and follow the format they request** - for example, formatting identifiers and dates according to the standard. Full reference information is provided below.
-* **Provide an identifier** for each grant
-* **Update the last modified date** whenever the status of a grant changes
+* **Provide an Identifier** for each grant
+* **Update the Last Modified date** whenever the status of a grant changes
 
 You can:
 
@@ -231,16 +274,16 @@ You must not:
 
 ## JSON format
 
-The 360Giving standard is defined by a [JSON Schema](http://json-schema.org/), which details the entities that can be described using the standard, and the properties it recognises. 
+The 360Giving standard is defined by a [JSON Schema](http://json-schema.org/), which details the entities that can be described using the standard, and the properties it recognises.
 
-At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions. 
+At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
 
 ```eval_rst
 .. _360giving-json-schemas:
 ```
 
 ### 360Giving JSON Schemas
-The 360Giving JSON Schemas are the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schema. 
+The 360Giving JSON Schemas are the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schema.
 
 The <a href="../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
 
@@ -249,7 +292,7 @@ When exchanging data about a single grant or any number of grants, those grants 
 In general, most publishers will initially only use a sub-set of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="../_static/docson/widget.js" 
+<script src="../_static/docson/widget.js"
         data-schema="../360-giving-schema.json">      
 </script>
 </div>
@@ -258,7 +301,7 @@ In general, most publishers will initially only use a sub-set of the possible fe
 
 Each entity, property and relationship in the schema has both a machine-readable field name and an English language title (apart from Transactions).
 
-The English language titles are important for humans working to make sense of the data in everyday desktop software, and so the Spreadsheet Template and the documentation above makes use of titles as opposed to field names. 
+The English language titles are important for humans working to make sense of the data in everyday desktop software, and so the Spreadsheet Template and the documentation above makes use of titles as opposed to field names.
 
 The field names are important for computers reading the data, and even if other language titles are provided in future, the underlying field names will remain constant.
 
@@ -272,8 +315,6 @@ A mapping between column titles and field names is given below:
 
 When data is being generated directly out of a database system, publishers should consider using the JSON schema to provide a JSON file.
 
-Developers may also wish to build their applications of JSON versions of the data. 
+Developers may also wish to build their applications of JSON versions of the data.
 
-The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports round-tripping of data between the Spreadsheet Template and JSON representations. 
-
-
+The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports round-tripping of data between the Spreadsheet Template and JSON representations.
