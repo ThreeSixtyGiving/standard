@@ -1047,7 +1047,7 @@
         "duration": {
           "type": "number",
           "minimum": 0,
-          "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date.",
+          "description": "The duration of the grant, in months. Must be in number format.",
           "weight": 4.2,
           "title": "Duration (months)"
         },
