@@ -1040,7 +1040,7 @@
             {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
           ],
           "type": "string",
-          "description": "Events or activities lasting more than one day should have either a duration (in months) or an end date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
+          "description": "An end date for the grant. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
           "weight": 4.3,
           "title": "End Date"
         },
