@@ -82,7 +82,7 @@
    "name": "plannedDates[]/startDate"
   }, 
   {
-   "description": "Dates should be in YYYY-MM-DD format. If only a month or day are not available, these may be omitted.\n\nEvents or activities lasting more than one day should have either a duration (in days) or an end date.", 
+   "description": "An end date for the grant. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.", 
    "format": "", 
    "title": "Planned Dates:End Date", 
    "required": false, 
@@ -90,7 +90,7 @@
    "name": "plannedDates[]/endDate"
   }, 
   {
-   "description": "Events or activities lasting more than one day should have either a duration (in days) or an end date.", 
+   "description": "The duration of the grant, in months. Must be in number format.", 
    "format": "", 
    "title": "Planned Dates:Duration (months)", 
    "required": false, 
