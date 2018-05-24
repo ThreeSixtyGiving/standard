@@ -1,6 +1,10 @@
-# Get 360Giving Data
+# Get Data
+
+## List
 
 A list of all known data in the 360Giving format can be found on the website at: [http://www.threesixtygiving.org/data/find-data/](http://www.threesixtygiving.org/data/data-registry/)
+
+## JSON Feed
 
 A JSON feed of this data can be found at the following endpoint: 
 [http://data.threesixtygiving.org/data.json](http://data.threesixtygiving.org/data.json)
@@ -62,7 +66,7 @@ No.
 This documentation is maintained on GitHub
 [https://github.com/ThreeSixtyGiving/standard/tree/master/documentation/getdata](https://github.com/ThreeSixtyGiving/standard/tree/master/documentation/getdata)
 
-As the documentation changes we will publish a changelog on the home page.
+As the documentation changes we will publish a changelog on this page.
 
 ### How do I report bugs
 
