@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "360Giving Data Standard Schema",
   "type": "object",
+  "additionalProperties": false,
   "definitions": {
     "currency": {
       "type": "string",
@@ -313,6 +314,7 @@
     },
     "Transaction": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "id": {
           "type": "string",
@@ -390,6 +392,7 @@
     },
     "Documents": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "id": {
           "type": "string",
@@ -445,6 +448,7 @@
     },
     "Location": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "id": {
           "type": "string",
@@ -777,6 +781,7 @@
     },
     "Classification": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "vocabulary": {
           "type": "string",
@@ -829,6 +834,7 @@
     },
     "GrantProgramme": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "code": {
           "type": "string",
@@ -875,6 +881,7 @@
     },
     "Organization": {
       "type": "object",
+      "additionalProperties": false,
       "required": [
         "id",
         "name"
@@ -1012,6 +1019,7 @@
     "Event": {
       "definitions": {},
       "type": "object",
+      "additionalProperties": false,
       "title": "Event",
       "description": "An event in the life of the grant activity",
       "properties": {
