@@ -322,8 +322,12 @@
         },
         "transactionDate": {
           "oneOf": [
-            {"format": "date-time"},
-            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+            {
+              "format": "date-time"
+            },
+            {
+              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+            }
           ],
           "type": "string",
           "description": "When did this transaction take place? The date should be written as YYYY-MM-DD, or in full date-time format.",
@@ -341,8 +345,12 @@
         },
         "valueDate": {
           "oneOf": [
-            {"format": "date-time"},
-            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+            {
+              "format": "date-time"
+            },
+            {
+              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+            }
           ],
           "type": [
             "string",
@@ -1017,16 +1025,21 @@
       "properties": {
         "title": {
           "type": "string",
-          "title":"Title",
+          "title": "Title",
           "description": "The title of this event",
-          "weight": 1.05,
-          "title": "Title"
+          "weight": 1.05
         },
         "startDate": {
           "oneOf": [
-            {"format": "date-time"},
-            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"},
-            {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
+            {
+              "format": "date-time"
+            },
+            {
+              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+            },
+            {
+              "pattern": "^[0-9]{4}(-(0[1-9]|1[012]))?$"
+            }
           ],
           "type": "string",
           "description": "All events should have a start date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
@@ -1035,9 +1048,15 @@
         },
         "endDate": {
           "oneOf": [
-            {"format": "date-time"},
-            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"},
-            {"pattern":"^[0-9]{4}(-(0[1-9]|1[012]))?$"}
+            {
+              "format": "date-time"
+            },
+            {
+              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+            },
+            {
+              "pattern": "^[0-9]{4}(-(0[1-9]|1[012]))?$"
+            }
           ],
           "type": "string",
           "description": "An end date for the grant. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
@@ -1119,8 +1138,12 @@
     },
     "awardDate": {
       "oneOf": [
-            {"format": "date-time"},
-            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+        {
+          "format": "date-time"
+        },
+        {
+          "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+        }
       ],
       "type": "string",
       "description": "When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.",
@@ -1141,7 +1164,7 @@
       "type": "array",
       "weight": 5.041,
       "title": "Planned Dates",
-      "description":"When the recipient organisation intends this activity to take place. A date range can include a start date and duration in months, or a start and end date.",
+      "description": "When the recipient organisation intends this activity to take place. A date range can include a start date and duration in months, or a start and end date.",
       "rollUp": [
         "startDate",
         "endDate",
@@ -1165,7 +1188,7 @@
       "type": "array",
       "weight": 5,
       "title": "Recipient Org",
-      "description":"Details of the recipient of this grant.",
+      "description": "Details of the recipient of this grant.",
       "rollUp": [
         "id",
         "name",
