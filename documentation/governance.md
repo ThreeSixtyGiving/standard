@@ -8,9 +8,9 @@ This document outlines the governance and revision processes for the 360Giving S
 ## Version 1.0 and Beyond
 The 360Giving Standard was initially developed through an iterative process in 2014, resulting in an initial draft version in February 2015. During 2015, several organisations piloted use of the Standard.
 
-During 2017, we have been working towards a first version of the Standard, version 1.0. Our work has focused on addressing some issues identified through wider adoption of the Standard during 2015 and 2016.
+During 2017, we have been working towards a first version of the Standard, version 1.0. Our work has focused on addressing some issues identified through wider adoption of the Standard during 2015 and 2016. 
 
-This document outlines a process for managing changes to the 360Giving Standard during the move from a draft version to an officially agreed version, which will be numbered 1.0.
+In June 2018, we approved the draft version to become version 1.0/ This document outlines a process for managing changes to the 360Giving Standard during the move from version 1.0 to 2.0 
 
 ## Stewardship and Governance
 360Giving was established as an independent non-profit in July 2015, and acts as the lead steward of the 360Giving Standard.
