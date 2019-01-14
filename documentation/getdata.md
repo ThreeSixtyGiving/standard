@@ -1,6 +1,6 @@
 # Get Data
 
-In order to help grant-makers, developers and analysts discover data that uses the 360Giving Standard, 360Giving maintains a register of data at [http://data.threesixtgiving.org/](http://data.threesixtgiving.org/)
+In order to help grantmakers, developers and analysts discover data that uses the 360Giving Standard, 360Giving maintains a register of data at [http://data.threesixtgiving.org/](http://data.threesixtgiving.org/)
 
 ## JSON Feeds
 
