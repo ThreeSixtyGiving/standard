@@ -55,7 +55,7 @@ Additionally, a [CSV report](https://gist.github.com/30d835ae16e2a30efde8a63acf0
 
 ## Downloading Data
 
-[datagetter](https://github.com/datagetter/) downloads all of the data that is listed in the registry, and converts it to JSON for use in an application.
+[datagetter](https://github.com/ThreeSixtyGiving/datagetter) downloads all of the data that is listed in the registry, and converts it to JSON for use in an application.
 
 ## FAQ
 
