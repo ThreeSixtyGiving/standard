@@ -219,7 +219,7 @@ There are three different rules for validating dates:
 ##### Full dates (Award Dates and Transaction Dates)
 The ```Award Date``` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
 
-In some cases, in order to allow easier export of 360Giving daat from grant systems, an award date might also need to include the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
+In some cases, in order to allow easier export of 360Giving data from grant systems, an award date might also need to include the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
 
 
 **Note** - the time component of a grant is not significant to Award Dates or Transaction Dates, and there is no importance in which hour a grant was made. 
