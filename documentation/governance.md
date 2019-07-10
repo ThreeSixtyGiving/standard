@@ -1,16 +1,14 @@
-# Governance and Revision Control 
+# Governance and Revision Control
 
 ## Introduction
 The 360Giving Standard has many stakeholders: grantmakers (including charitable trusts and foundations, government, non-departmental public bodies, lottery funders); fundraisers; policy makers and researchers; civil society organisations; and oversight authorities (such as the Charity Commission and HMRC). These stakeholders are primarily in the UK, where 360Giving is based and where it has focused its efforts to date. The needs and interests of these stakeholders are varied. As the 360Giving Standard develops over time, with updated versions and new publishers, it is important that a diverse group of stakeholders are engaged in the process.
 
-This document outlines the governance and revision processes for the 360Giving Standard. It was agreed at a Standard Stewardship Committee meeting on 4th May 2017. The Stewardship Committee must be consulted before any changes are made either to this document or to the governance and revision processes for the 360Giving Standard.
+This document outlines the governance and revision processes for the 360Giving Standard. It was agreed at a Standard Stewardship Committee meeting on Friday 5th April 2019. The Stewardship Committee must be consulted before any changes are made either to this document or to the governance and revision processes for the 360Giving Standard.
 
 ## Version 1.0 and Beyond
-The 360Giving Standard was initially developed through an iterative process in 2014, resulting in an initial draft version in February 2015. During 2015, several organisations piloted use of the Standard.
+The 360Giving Standard was initially developed through an iterative process in 2014, resulting in an initial draft version in February 2015. During 2015, several organisations piloted use of the Standard. During 2017, we worked towards a first version of the Standard, version 1.0, focussing on addressing some issues identified through wider adoption of the Standard during 2015 and 2016. Version 1.0 was released on June 1st, 2018.
 
-During 2017, we have been working towards a first version of the Standard, version 1.0. Our work has focused on addressing some issues identified through wider adoption of the Standard during 2015 and 2016.
-
-This document outlines a process for managing changes to the 360Giving Standard during the move from a draft version to an officially agreed version, which will be numbered 1.0.
+This document outlines the process for managing changes to the 360Giving Standard.
 
 ## Stewardship and Governance
 360Giving was established as an independent non-profit in July 2015, and acts as the lead steward of the 360Giving Standard.
@@ -59,21 +57,25 @@ Distinct branches of the Standard will be maintained within Github for each vers
 * Development – indicated by a -dev suffix (e.g. 1.0-dev). Both schema and documentation on a development branch can be updated and should only be implemented on an experimental basis.
 * Live – with no suffix (e.g. 1.0). Only documentation updates are permitted on a live branch. All documentation changes must be reviewed to ensure they do not make any changes to the meaning of the Standard.
 
-Semantic Versioning practices will be used to distinguish between:
-* Major versions which make backwards-incompatible API changes; and
-* Minor versions which add functionality in a backwards-compatible manner.
+[Semantic Versioning](https://semver.org/) practices will be used to distinguish between:
+* MAJOR versions which make backwards-incompatible API changes; and
+* MINOR versions which add functionality in a backwards-compatible manner.
+* PATCH version which make backwards-compatible bug fixes.
 
-These are captured by a version number in the format MAJOR.MINOR
+These are captured by a version number in the format MAJOR.MINOR.PATCH.
 
 ### Revision process
-To release a new minor or major version upgrade will involve a number of stages outlined in the flowchart below, and described in more depth in the following sections.
+To release a new MINOR or MAJOR version upgrade will involve a number of stages outlined in the flowchart below, and described in more depth in the following sections.
 
 ![Revision process](../assets/upgrade_process_feb_2016.png)
+
+PATCH version upgrades are a smaller process, in recognition of the low impact that PATCH changes can have on the whole standard. A proposal for a PATCH version upgrade is made via the forum, with the Stewardship Comittee and technical team notified via email. If no objections are received within one week, the PATCH change will be considered approved.
 
 The revision process will follow these general principles:
 * **Publicity**: All stages of the revision process will be announced via the 360Giving online forum. This is the formal channel for notification during the process.
 * **Consensus**: The process should act in the interest of the data standard, with particular consideration given to what the changes will mean for current publishers. All processes should aim towards gaining community consensus for changes. In cases where consensus cannot be reached, the process will be escalated to the CEO of 360Giving and put to a final majority vote by the Stewardship Committee. The 360Giving technical team are responsible for generating key documentation during the process, but should always be guided by community consensus, submitting all decisions for public discussion.
 * **Appeal**: Any party may appeal against decisions made during the process by writing to the Standard Stewardship Committee via the 360Giving discussion forum. The Stewardship Committee has the authority to reject proposed revisions on the Standard in response to appeals.
+
 
 ### Proposals
 Changes to the Standard can be proposed by anyone at any point via the 360Giving discussion forum either as issues for discussion, or [pull requests]( https://help.github.com/articles/about-pull-requests/) with a clear description of the proposed change. Contributors are encouraged to raise discussions in order to seek consensus on proposed changes. Changes may be proposed as updated field definitions or codelist entries, or as new features to the Standard.
@@ -119,6 +121,8 @@ If a term (a class or property) is scheduled to be renamed or removed from the s
 
 ## Support Policy
 Support will be offered for one prior version of the Standard. Support for any earlier versions than this will be ended when a new version is released. For example, when 1.1 is the latest release, 1.0 will be supported in the Data Quality tool and other relevant tools and platforms managed by 360Giving. When 1.2 is released, support for 1.0 will no longer be guaranteed.
+
+Only the most recent PATCH version for a given MAJOR.MINOR version will be supported. For example, once 1.1.4 is released, 1.1.3 will no longer be supported.
 
 Publishers are encouraged to review each new version when released, and to consider how they might adopt new features. Publishers should aim to move to a new major version within 18 months of its release.
 
