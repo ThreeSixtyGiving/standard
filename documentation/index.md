@@ -43,8 +43,13 @@ You can also contact the 360Giving data support team with your questions and sug
 .. toctree::
    :maxdepth: 2
 
+   :caption: Normative
+
    reference
    identifiers
+
+   :caption: Non-normative
+
    data-protection
    licensing
    governance
