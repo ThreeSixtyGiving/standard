@@ -55,4 +55,19 @@ You can also contact the 360Giving data support team with your questions and sug
    getdata
    sc-tor
 ```
- 
+
+
+```eval_rst
+.. toctree::
+   :maxdepth: 2
+   :caption: Non Normative
+
+   reference
+   identifiers
+
+   data-protection
+   licensing
+   governance
+   getdata
+   sc-tor
+``` 
