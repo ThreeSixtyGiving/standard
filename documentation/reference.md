@@ -6,6 +6,9 @@ It assumes some technical knowledge.
 
 If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](https://www.threesixtygiving.org/data/publish-data/) pages.
 
+## Data and Metadata
+
+
 ## Data formats
 
 There are two main formats available for representing 360Giving data.
