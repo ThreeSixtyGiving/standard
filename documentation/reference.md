@@ -6,8 +6,6 @@ It assumes some technical knowledge.
 
 If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](http://www.threesixtygiving.org/data/publish-data/) pages.
 
-## Data and Metadata
-
 
 ## Data formats
 
@@ -321,3 +319,18 @@ When data is being generated directly out of a database system, publishers shoul
 Developers may also wish to build their applications of JSON versions of the data.
 
 The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports round-tripping of data between the Spreadsheet Template and JSON representations.
+
+## Data and Metadata
+360Giving is the standard for publishing information about your grants. This your data. It also recommends that you provide *Metadata*; which is additional information that can make your grants data easier to use.
+
+Metadata is data about data. If you've ever looked at the file size of a file on your computer you've used metadata. Metadata is useful to assist humans and computers to build a picture of what the contents of a dataset are so they can make decisions about how to use it. Declaring metadata helps people such as data users understand what is contained in your data and if people understand what is in your data then they'll be able to determine whether or not it fits their needs. Further to this, publishers of 360Giving data may want to make sure that a data user understands some of the context around their data before they use it.
+
+If you would like to read more about what metadata is and why it's useful some more information may be found in [this blog post](https://www.threesixtygiving.org/2019/03/20/metadata-explaining-the-data/).
+
+
+### Implementing Metdata
+The metadata in the 360Giving Standard is authoritative metadata that the publisher declares about *the file or dataset* (not the grant itself). In the schema, it sits in [package schema](../schema/package-schema) and is declared using the fields in the package schema (except for `grants` which is a list of grant data).
+
+```eval_rst
+.. jsonschema:: ../../schema/360-giving-package-schema.json
+```
