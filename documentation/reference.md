@@ -6,6 +6,9 @@ It assumes some technical knowledge.
 
 If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](http://www.threesixtygiving.org/data/publish-data/) pages.
 
+## Data and Metadata
+
+
 ## Data formats
 
 There are two main formats available for representing 360Giving data.
@@ -70,7 +73,7 @@ The other sheets in the <a href="../_static/summary-table/360-giving-schema-titl
 
    The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fields available in the 360Giving Data Standard.
 
-   You can use any of these column titles on your main 'grants' sheet if you wish.  
+   You can use any of these column titles on your main 'grants' sheet if you wish.
 
 2. As a way of providing information about [One to many relationships](one-to-many-relationships)
 
@@ -293,7 +296,7 @@ In general, most publishers will initially only use a sub-set of the possible fe
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
 <script src="../_static/docson/widget.js"
-        data-schema="../360-giving-schema.json">      
+        data-schema="../360-giving-schema.json">
 </script>
 </div>
 
