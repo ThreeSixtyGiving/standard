@@ -40,6 +40,21 @@ The 360Giving Spreadsheet template consists of a 'grants' sheet which contains t
 
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
+### Meta Sheet
+
+The 'Meta' sheet includes space to add metadata about the grants file. You can read more about metadata in the [Data and Metadata section](#data-and-metadata). The 'meta' sheet includes sections for:
+
+* The version of the 360Giving Schema used for the file
+* The title of your 360Giving file
+* A description of the contents of this file
+* The date this file was first issued
+* The date this file was last modified
+* A unique identifier for this file
+* Information about the publisher of the package such as name, logo, website and a 360Giving identifier
+* A link to download a copy of this file
+* A link for the web page where this data may be found
+* A link for the license that applies to this file
+* Any additional information
 
 ### Grants Sheet
 
@@ -320,7 +335,7 @@ Developers may also wish to build their applications of JSON versions of the dat
 
 The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports round-tripping of data between the Spreadsheet Template and JSON representations.
 
-## Data and Metadata
+## Data and Metadata {#data-and-metadata}
 360Giving is the standard for publishing information about your grants. This your data. It also recommends that you provide *Metadata*; which is additional information that can make your grants data easier to use.
 
 Metadata is data about data. If you've ever looked at the file size of a file on your computer you've used metadata. Metadata is useful to assist humans and computers to build a picture of what the contents of a dataset are so they can make decisions about how to use it. Declaring metadata helps people such as data users understand what is contained in your data and if people understand what is in your data then they'll be able to determine whether or not it fits their needs. Further to this, publishers of 360Giving data may want to make sure that a data user understands some of the context around their data before they use it.
@@ -329,4 +344,10 @@ If you would like to read more about what metadata is and why it's useful some m
 
 
 ### Implementing Metdata
-The metadata in the 360Giving Standard is authoritative metadata that the publisher declares about *the file or dataset* (not the grant itself). In the schema, it sits in [package schema](../schema/package-schema) and is declared using the fields in the package schema (except for `grants` which is a list of grant data).
+The metadata in the 360Giving Standard is authoritative metadata that the publisher declares about *the file or dataset* (not a grant). In the schema, it sits in [package schema](../schema/package-schema) and is declared using the fields in the package schema (except for `grants` which is a list of grant data).
+
+
+**space for the schema table**
+
+
+In the Spreadsheet Template you may declare metadata using the `Meta` tab of the spreadsheet.
