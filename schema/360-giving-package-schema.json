@@ -5,6 +5,7 @@
     "required": ["grants"],
     "properties": {
         "grants": {
+            "title": "Grants",
             "type": "array",
             "minItems": 1,
             "items": { "$ref": "https://raw.githubusercontent.com/ThreeSixtyGiving/standard/master/schema/360-giving-schema.json" },
