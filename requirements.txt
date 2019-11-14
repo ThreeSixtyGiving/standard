@@ -5,7 +5,7 @@ sphinx-rtd-theme==0.2.4
 # recommonmark commit pinned from master branch
 -e git+https://github.com/rtfd/recommonmark.git@50be4978d7d91d0b8a69643c63450c8cd92d1212#egg=recommonmark
 -e git+https://github.com/OpenDataServices/flatten-tool.git@4e4a07a771408b3c566fa65ebbbff42c9560227a#egg=flattentool
--e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema/commit/75e4427b0f6f6a23dff9019aeb5d64833aab104a
+-e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema/commit/75e4427b0f6f6a23dff9019aeb5d64833aab104a#egg=sphinxcontrib-jsonschema
 -e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices.git@23ce17656feaa237584af8822bd57ac39b498f93#egg=sphinxcontrib-opendataservices
 alabaster==0.7.10
 appdirs==1.4.3
