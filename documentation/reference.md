@@ -57,7 +57,7 @@ The 'Meta' sheet includes space to add metadata about the grants file. You can r
 * Any additional information
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../schema/360-giving-package-schema.json
 ```
 
 ### Grants Sheet
