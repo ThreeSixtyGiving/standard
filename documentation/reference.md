@@ -335,7 +335,7 @@ Developers may also wish to build their applications of JSON versions of the dat
 
 The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports round-tripping of data between the Spreadsheet Template and JSON representations.
 
-## Data and Metadata {#data-and-metadata}
+## Data and Metadata
 360Giving is the standard for publishing information about your grants. This your data. It also recommends that you provide *Metadata*; which is additional information that can make your grants data easier to use.
 
 Metadata is data about data. If you've ever looked at the file size of a file on your computer you've used metadata. Metadata is useful to assist humans and computers to build a picture of what the contents of a dataset are so they can make decisions about how to use it. Declaring metadata helps people such as data users understand what is contained in your data and if people understand what is in your data then they'll be able to determine whether or not it fits their needs. Further to this, publishers of 360Giving data may want to make sure that a data user understands some of the context around their data before they use it.
