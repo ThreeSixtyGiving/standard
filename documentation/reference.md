@@ -56,10 +56,6 @@ The 'Meta' sheet includes space to add metadata about the grants file. You can r
 * A link for the license that applies to this file
 * Any additional information
 
-```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-package-schema.json
-```
-
 ### Grants Sheet
 
 The main 'grants' sheet includes sections for:
