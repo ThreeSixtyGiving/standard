@@ -20,6 +20,7 @@
 #
 import os
 import sys
+import datetime
 sys.path.insert(0, os.path.abspath('.'))
 from recommonmark.transform import AutoStructify
 from recommonmark.parser import CommonMarkParser
@@ -247,6 +248,11 @@ html_static_path = ['_static', '../schema']
 # implements a search results scorer. If empty, the default will be used.
 #
 # html_search_scorer = 'scorer.js'
+
+# additional variables for templates
+html_context = {
+    'now': datetime.datetime.now()
+}
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxdoc'
