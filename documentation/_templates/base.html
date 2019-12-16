@@ -104,10 +104,11 @@
 
 {% set home_link = pathto(master_doc) %}
 {% set logo_url = pathto('_static/images/360-logos/360giving-standard.svg', 1) %}
-{% set title = '' %}
-{% set blurb = '360 Resources is a repository of resources to help Data Champions make better informed decisions by leveraging other people’s experiences' %}
+{% set title = 'A standard for sharing grants data' %}
+{% set blurb = 'A uniform and consistent way to describe grantmaking data. Find and compare grantmaking across the UK.' %}
 
 <body>
+    {% include '_parts/top-bar.html' %}
     <div class="layout layout--two-columns">
       <header class="layout__header">
         {% block header %}
@@ -121,6 +122,7 @@
             <section class="prose__section">
               {% block body %}{% endblock %}
             </section>
+            {% include '_parts/pagination.html' %}
           </div>
         </div>
       </main>
@@ -130,6 +132,7 @@
         <div class="sidebar-section">
           <div class="layout__content-inner">
             <div class="sidebar-section__item">
+              {% block menu %}
               {% if 'singlehtml' not in builder %}
                 {% set global_toc = get_toctree(maxdepth=theme_navigation_depth|int,
                                             collapse=theme_collapse_navigation|tobool,
@@ -137,6 +140,8 @@
                                             titles_only=theme_titles_only|tobool) %}
               {% endif %}
               {% include '_parts/sidebar-list.html' %}
+              {% endblock %}
+              {% include 'versions.html' %}
             </div>
           </div>
         </div>
@@ -148,15 +153,10 @@
         {% include '_parts/footer.html' %}
       </footer>
     </div>
-    
-    <footer class="by-ccm-design">
-        <a class="by-line" href="http://ccmdesign.ca" target="_blank" title="Website design and development by ccm.design">by ccm.design</a>
-    </footer>
-  {% include "versions.html" %}
 
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.Navigation.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
+          SphinxRtdTheme.StickyNav.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
       });
   </script>
 

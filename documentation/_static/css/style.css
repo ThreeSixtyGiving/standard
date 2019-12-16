@@ -426,6 +426,17 @@ a {
   opacity: .3;
   pointer-events: none; }
 
+.code-block {
+  padding: 0 16px;
+  margin-top: 24px;
+  background-color: rgba(21, 54, 52, 0.03);
+  border: 1px solid rgba(21, 54, 52, 0.1); }
+  .code-block--wrap pre, .code-block--wrap code {
+    white-space: pre-wrap; }
+
+.hljs.bash {
+  background-color: transparent !important; }
+
 .filter {
   color: #153634;
   border: 1px solid #153634;
@@ -560,7 +571,8 @@ a {
 .p {
   font-size: 1rem;
   font-weight: 300;
-  color: #153634; }
+  color: #153634;
+  margin-bottom: 0; }
   .p + .p {
     margin-top: 12px; }
   @media (min-width: 36em) {
@@ -651,6 +663,68 @@ p {
   height: auto;
   max-height: 4000px; }
 
+.prose .box,
+.box {
+  background-color: rgba(21, 54, 52, 0.1);
+  position: relative;
+  padding: 24px 24px 24px 24px; }
+  .prose .box:before,
+  .box:before {
+    background-color: #153634;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    left: 0;
+    top: 0; }
+  .prose .box h3, .prose .box__heading,
+  .box h3,
+  .box__heading {
+    margin: 0 0 4px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4DACB6; }
+
+.prose .box.box--teal,
+.box--teal {
+  background-color: rgba(77, 172, 182, 0.1); }
+  .prose .box.box--teal:before,
+  .box--teal:before {
+    background-color: #4DACB6; }
+  .prose .box.box--teal .box__heading,
+  .box--teal .box__heading {
+    color: #4DACB6; }
+
+.prose .box.box--orange,
+.box--orange {
+  background-color: rgba(222, 110, 38, 0.1); }
+  .prose .box.box--orange:before,
+  .box--orange:before {
+    background-color: #DE6E26; }
+  .prose .box.box--orange .box__heading,
+  .box--orange .box__heading {
+    color: #DE6E26; }
+
+.prose .box.box--yellow,
+.box--yellow {
+  background-color: rgba(239, 195, 41, 0.1); }
+  .prose .box.box--yellow:before,
+  .box--yellow:before {
+    background-color: #EFC329; }
+  .prose .box.box--yellow .box__heading,
+  .box--yellow .box__heading {
+    color: #EFC329; }
+
+.prose .box.box--red,
+.box--red {
+  background-color: rgba(188, 44, 38, 0.1); }
+  .prose .box.box--red:before,
+  .box--red:before {
+    background-color: #BC2C26; }
+  .prose .box.box--red .box__heading,
+  .box--red .box__heading {
+    color: #BC2C26; }
+
 .header-group__title {
   color: var(--colors-dark-blue);
   font-size: 3.6em;
@@ -674,6 +748,62 @@ p {
 @media (max-width: 59.98em) {
   .header-group br {
     display: none; } }
+
+.table {
+  font-size: .9rem;
+  border: 1px solid rgba(21, 54, 52, 0.2);
+  border-radius: 3px; }
+  .table table {
+    margin: 0; }
+  .table th, .table td {
+    padding: 8px;
+    vertical-align: top;
+    color: #153634;
+    display: block; }
+    @media (min-width: 36em) {
+      .table th, .table td {
+        display: table-cell;
+        padding: 8px 16px; } }
+  .table th {
+    background-color: rgba(21, 54, 52, 0.1); }
+  .table tr + tr {
+    border-top: 1px solid rgba(21, 54, 52, 0.2); }
+  .table th {
+    display: none; }
+    @media (min-width: 36em) {
+      .table th {
+        display: table-cell; } }
+  .table td {
+    display: block; }
+    @media (min-width: 36em) {
+      .table td {
+        display: table-cell; } }
+
+@media (max-width: 35.98em) {
+  .table td:before {
+    content: attr(data-header);
+    display: block;
+    font-weight: 400;
+    background-color: rgba(21, 54, 52, 0.1);
+    margin: -8px -8px 4px -8px;
+    padding: 4px 8px; } }
+
+.table--zebra tr:nth-of-type(even) {
+  background-color: rgba(21, 54, 52, 0.04); }
+
+.table__lead-cell {
+  font-weight: 500;
+  min-width: 180px; }
+
+@media (min-width: 36em) {
+  .table__checks {
+    text-align: center; } }
+
+.table--true {
+  color: #4DACB6; }
+
+.table--false {
+  color: #BC2C26; }
 
 .card-list {
   list-style-type: none;
@@ -899,6 +1029,17 @@ p {
 .footer p a:hover {
   color: white; }
 
+@media (max-width: 59.98em) {
+  .grid {
+    margin-left: 8px;
+    margin-right: 8px; } }
+
+@media (min-width: 85em) {
+  .grid {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto; } }
+
 @media (min-width: 36em) {
   .grid {
     display: grid;
@@ -996,12 +1137,16 @@ p {
 .hero--red .hero__title {
   color: #BC2C26; }
 
+.prose * + * {
+  margin-top: 8px; }
+
 .prose p,
 .prose li,
 .p {
   font-size: 1rem;
   font-weight: 300;
-  color: #153634; }
+  color: #153634;
+  margin-bottom: 0; }
   .prose p + .prose p,
   .prose li + .prose p,
   .p + .prose p, .prose p +
@@ -1046,14 +1191,17 @@ p {
     .h1 {
       font-size: 3rem; } }
 
+.prose .intro,
 .intro {
   font-size: 1.1rem;
   font-weight: 300;
   color: rgba(21, 54, 52, 0.6); }
   @media (min-width: 36em) {
+    .prose .intro,
     .intro {
       font-size: 1.2rem; } }
   @media (min-width: 85em) {
+    .prose .intro,
     .intro {
       font-size: 1.5rem; } }
 
@@ -1137,7 +1285,7 @@ p {
   padding-left: 0; }
   .prose ul li {
     list-style-type: none;
-    padding-bottom: 12px;
+    padding-bottom: 0;
     padding-left: 16px;
     position: relative; }
     .prose ul li:before {
@@ -1167,6 +1315,10 @@ p {
     margin-bottom: 16px; }
   .prose__intro {
     margin-bottom: 56px; }
+  .prose__section {
+    padding-bottom: 24px; }
+  .prose .box {
+    margin-bottom: 16px; }
 
 .registry-card {
   display: flex; }
@@ -1274,6 +1426,36 @@ p {
     max-width: 32px; }
   .license--pddl {
     max-width: 32px; }
+
+.sidebar-content {
+  padding: 16px 32px;
+  text-align: right; }
+  .sidebar-content__heading {
+    font-size: 1rem;
+    font-weight: bold;
+    color: currentColor; }
+  .sidebar-content__text {
+    font-size: .9rem;
+    color: #153634; }
+  .sidebar-content__image {
+    padding: 16px 0; }
+  .sidebar-content__image figcaption {
+    padding-top: 8px;
+    font-size: .8rem;
+    color: #153634;
+    font-size: italic; }
+
+.sidebar-content--orange .sidebar-content__heading {
+  color: #DE6E26; }
+
+.sidebar-content--teal .sidebar-content__heading {
+  color: #4DACB6; }
+
+.sidebar-content--yellow .sidebar-content__heading {
+  color: #EFC329; }
+
+.sidebar-content--red .sidebar-content__heading {
+  color: #BC2C26; }
 
 .sidebar-list {
   text-align: right;
