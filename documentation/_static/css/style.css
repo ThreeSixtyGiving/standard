@@ -376,6 +376,15 @@ template, [hidden] {
     margin-left: auto;
     margin-right: auto; } }
 
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
 a {
   font-weight: 400;
   color: #4DACB6; }
@@ -1130,7 +1139,51 @@ p {
 .hero--red .hero__title {
   color: #BC2C26; }
 
-.prose * + * {
+.prose .prose-card {
+  background: white;
+  box-shadow: 0px 4px 8px #1536341A;
+  position: relative;
+  text-align: center; }
+  .prose .prose-card:before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #153634; }
+
+.prose .prose-card__content {
+  padding: 16px 24px 16px 24px; }
+  @media (min-width: 85em) {
+    .prose .prose-card__content {
+      padding: 48px 64px 48px 64px; } }
+
+.prose .prose-card__image {
+  padding-bottom: 32px; }
+
+.prose .prose-card__title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0; }
+
+.prose .prose-card__text {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.prose .prose-card--orange:before {
+  background-color: #DE6E26; }
+
+.prose .prose-card--yellow:before {
+  background-color: #EFC329; }
+
+.prose .prose-card--teal:before {
+  background-color: #4DACB6; }
+
+.prose .prose-card--red:before {
+  background-color: #BC2C26; }
+
+.prose__section * + * {
   margin-top: 8px; }
 
 .prose p,
@@ -1362,7 +1415,7 @@ p {
     font-weight: 400;
     padding-bottom: 4px; }
   .registry-grant--amounts-line td {
-    line-height: 1;
+    line-height: 1.3;
     border-bottom: 0; }
   .registry-grant--data-line {
     border-bottom: 1px solid rgba(21, 54, 52, 0.1); }
