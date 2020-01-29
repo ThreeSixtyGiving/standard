@@ -1186,6 +1186,9 @@ p {
 .prose__section * + * {
   margin-top: 8px; }
 
+.prose__section .grid > * + * {
+  margin-top: 0; }
+
 .prose p,
 .prose li,
 .p {
