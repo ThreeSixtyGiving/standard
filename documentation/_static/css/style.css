@@ -23,7 +23,7 @@
   height: 0;
   clear: both; }
 
-.u-material-icons {
+.u-material-icons, .prose blockquote:before {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -339,7 +339,7 @@ template, [hidden] {
   height: 0;
   clear: both; }
 
-.u-material-icons {
+.u-material-icons, .prose blockquote:before {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -685,6 +685,9 @@ p {
     font-weight: 600;
     color: #4DACB6; }
 
+.prose .box:only-child {
+  margin-top: 0; }
+
 .prose .box.box--teal,
 .box--teal {
   background-color: rgba(77, 172, 182, 0.1); }
@@ -804,6 +807,87 @@ p {
 
 .table--false {
   color: #BC2C26; }
+
+.base-card {
+  background: white;
+  box-shadow: 0px 4px 8px rgba(21, 54, 52, 0.15);
+  position: relative;
+  text-align: center; }
+  .base-card:before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #153634; }
+
+.base-card__content {
+  padding: 16px; }
+  @media (min-width: 85em) {
+    .base-card__content {
+      padding: 16px; } }
+
+.base-card__title {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 0; }
+
+.base-card__text {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.base-card--orange:before {
+  background-color: #DE6E26; }
+
+.base-card--yellow:before {
+  background-color: #EFC329; }
+
+.base-card--teal:before {
+  background-color: #4DACB6; }
+
+.base-card--red:before {
+  background-color: #BC2C26; }
+
+.base-card--none:before {
+  background-color: transparent; }
+
+@media (min-width: 85em) {
+  .base-card--spacious {
+    padding: 24px 16px; } }
+
+.blog-card {
+  background: white;
+  box-shadow: 0px 4px 8px rgba(21, 54, 52, 0.15);
+  display: flex;
+  position: relative; }
+  .blog-card:before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4DACB6; }
+  .blog-card__content {
+    flex: 1;
+    padding: 32px; }
+    @media (min-width: 85em) {
+      .blog-card__content {
+        padding: 32px 48px 32px 48px; } }
+  .blog-card__heading {
+    margin: 0 0 16px 0; }
+  .blog-card__image {
+    height: 0;
+    width: 26%;
+    padding-bottom: 26%;
+    background-position: center;
+    background-size: cover; }
+  .blog-card__byline {
+    font-size: .8rem;
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(21, 54, 52, 0.6); }
 
 .card-list {
   list-style-type: none;
@@ -1057,6 +1141,10 @@ p {
 @media (min-width: 36em) {
   .grid--three-columns {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media (min-width: 36em) {
+  .grid--four-columns {
+    grid-template-columns: repeat(4, 1fr); } }
 
 .grid__2 {
   grid-column: auto / span 2; }
@@ -1369,6 +1457,21 @@ p {
   .prose .box {
     margin-bottom: 16px;
     margin-top: 16px; }
+
+.prose blockquote {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #de6e26;
+  position: relative;
+  z-index: 1; }
+  .prose blockquote:before {
+    content: "format_quote";
+    font-size: 10rem;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    color: rgba(222, 110, 38, 0.12);
+    z-index: -1; }
 
 .registry-card {
   display: flex; }
@@ -1694,6 +1797,20 @@ p {
 .off-canvas-menu--expanded {
   left: 0; }
 
+.base-section {
+  padding: 48px 0; }
+
+.cards-section {
+  padding: 32px 0; }
+  .cards-section__heading, .cards-section__tagline {
+    text-align: center;
+    font-size: 2rem; }
+  .cards-section__tagline {
+    font-weight: 200; }
+    .cards-section__tagline > a {
+      color: #DE6E26;
+      font-weight: 200; }
+
 .layout {
   min-height: 100vh; }
   .layout__content-inner {
@@ -1701,7 +1818,7 @@ p {
     padding-bottom: 64px; }
   .layout--single-column {
     display: grid;
-    grid-template-areas: "header" "content" "footer"; }
+    grid-template-areas: "header" "content" "footer"; }
     .layout--single-column .layout__content {
       max-width: 960px;
       margin-left: auto;
@@ -1710,12 +1827,12 @@ p {
     max-width: 700px; }
   .layout--two-columns {
     display: grid;
-    grid-template-areas: "header" "content" "footer"; }
+    grid-template-areas: "header" "content" "footer"; }
     @media (min-width: 36em) {
       .layout--two-columns {
         grid-template-columns: 320px 1fr;
         grid-template-rows: auto 1fr auto;
-        grid-template-areas: "header header" "sidebar content" "footer footer"; } }
+        grid-template-areas: "header header" "sidebar content" "footer footer"; } }
     .layout--two-columns .layout__header {
       grid-area: header; }
     .layout--two-columns .layout__content {
