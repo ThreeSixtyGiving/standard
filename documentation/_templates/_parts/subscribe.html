@@ -1,10 +1,10 @@
 <div class="subscribe-section">
   <div class="subscribe-section__wrapper">
-    <form action="https://threesixtygiving.us10.list-manage.com/subscribe" method="POST" class="subscribe-section__form">
-      <input type="hidden" name="u" value="216b8b926250184f90c7198e8">
-      <input type="hidden" name="id" value="91870dde44">
-      <input type="email" name="EMAIL" id="EMAIL" placeholder="Subscribe to our newsletter">
-      <input type="submit" value="Submit">
+    <form action="{{ settings360.newsletter.form_url }}" method="POST" class="subscribe-section__form">
+      <input type="hidden" name="u" value="{{ settings360.newsletter.u }}">
+      <input type="hidden" name="id" value="{{ settings360.newsletter.id }}">
+      <input type="email" name="{{ settings360.newsletter.email_field }}" id="{{ settings360.newsletter.email_field }}" placeholder="Subscribe to our newsletter">
+      <input type="submit" value="Send">
     </form>
   </div>
 </div>

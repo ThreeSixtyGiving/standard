@@ -19,6 +19,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+import json
 import sys
 import datetime
 sys.path.insert(0, os.path.abspath('.'))
@@ -250,8 +251,11 @@ html_static_path = ['_static', '../schema']
 # html_search_scorer = 'scorer.js'
 
 # additional variables for templates
+with open(os.path.join(os.path.dirname(__file__), 'footer.json')) as a:
+    settings360 = json.load(a)
 html_context = {
-    'now': datetime.datetime.now()
+    'now': datetime.datetime.now(),
+    'settings360': settings360,
 }
 
 # Output file base name for HTML help builder.

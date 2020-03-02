@@ -1,0 +1,122 @@
+{
+  "menus": {
+    "menu_1": {
+      "title": "For grantmakers",
+      "items": [
+        {
+          "url": "http://stag360giving.wpengine.com/support/",
+          "title": "Why publish?",
+          "description": ""
+        },
+        {
+          "url": "http://stag360giving.wpengine.com/support/standard/",
+          "title": "The Data Standard",
+          "description": ""
+        },
+        {
+          "url": "http://stag360giving.wpengine.com/2019/11/01/datachampionsunite/",
+          "title": "Data Champions",
+          "description": ""
+        },
+        {
+          "url": "http://stag360giving.wpengine.com/support/",
+          "title": "Support",
+          "description": ""
+        }
+      ]
+    },
+    "menu_2": {
+      "title": "Explore grants data",
+      "items": [
+        {
+          "url": "https://grantnav.threesixtygiving.org/",
+          "title": "GrantNav",
+          "description": ""
+        },
+        {
+          "url": "https://data.threesixtygiving.org/",
+          "title": "360Registry",
+          "description": ""
+        },
+        {
+          "url": "https://insights.threesixtygiving.org.uk/",
+          "title": "360Insights",
+          "description": ""
+        },
+        {
+          "url": "#",
+          "title": "Press",
+          "description": ""
+        }
+      ]
+    },
+    "menu_terms": {
+      "title": "Footer2",
+      "items": [
+        {
+          "url": "http://stag360giving.wpengine.com/privacy/",
+          "title": "Privacy Notice",
+          "description": ""
+        },
+        {
+          "url": "http://stag360giving.wpengine.com/terms-conditions/",
+          "title": "Terms &#038; Conditions",
+          "description": ""
+        },
+        {
+          "url": "http://stag360giving.wpengine.com/cookie-policy/",
+          "title": "Cookie Policy",
+          "description": ""
+        },
+        {
+          "url": "http://stag360giving.wpengine.com/take-down-policy/",
+          "title": "Take Down Policy",
+          "description": ""
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "title": "License",
+          "description": ""
+        }
+      ]
+    },
+    "menu_off_canvas": {
+      "title": "Explore grants data",
+      "items": [
+        {
+          "url": "https://grantnav.threesixtygiving.org/",
+          "title": "GrantNav",
+          "description": ""
+        },
+        {
+          "url": "https://data.threesixtygiving.org/",
+          "title": "360Registry",
+          "description": ""
+        },
+        {
+          "url": "https://insights.threesixtygiving.org.uk/",
+          "title": "360Insights",
+          "description": ""
+        },
+        {
+          "url": "#",
+          "title": "Press",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "widgets": [
+    {
+      "title": "360Giving",
+      "contents": "<p>We help funders openly publish grants data, and help people use it to improve charitable giving.</p>"
+    }
+  ],
+  "newsletter": {
+    "form_url": "https://threesixtygiving.us10.list-manage.com/subscribe",
+    "u": "216b8b926250184f90c7198e8",
+    "id": "91870dde44",
+    "email_field": "EMAIL"
+  },
+  "footer_tagline": "Open data for more effective grantmaking"
+}
