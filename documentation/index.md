@@ -24,7 +24,7 @@ Two standard templates are available.
                 <div class="align-left">
                     <h3 class="prose-card__title"><a href="_static/summary-table/360-giving-schema-titles.xlsx">Spreadsheet Template (Excel)</a></h3>
                     <p class="prose-card__text">With user-friendly column headings, summary sheet and tabs for additional information. <br>
-                    <strong>(CSV versions also available.)</strong></p>
+                    <strong><a href="templates-csv">(CSV versions also available.)</a></strong></p>
                 </div>
                 </div>
             </div>
