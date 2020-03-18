@@ -18,9 +18,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import json
+import sys
+import datetime
+sys.path.insert(0, os.path.abspath('.'))
 from recommonmark.transform import AutoStructify
 from recommonmark.parser import CommonMarkParser
 
@@ -33,7 +35,7 @@ from recommonmark.parser import CommonMarkParser
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.opendataservices']
+extensions = ['sphinxcontrib.opendataservices', 'toctemplate']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -247,6 +249,14 @@ html_static_path = ['_static', '../schema']
 # implements a search results scorer. If empty, the default will be used.
 #
 # html_search_scorer = 'scorer.js'
+
+# additional variables for templates
+with open(os.path.join(os.path.dirname(__file__), 'footer.json')) as a:
+    settings360 = json.load(a)
+html_context = {
+    'now': datetime.datetime.now(),
+    'settings360': settings360,
+}
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxdoc'

@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dokku": {
+            "predeploy": "cd /app/documentation && make dirhtml"
+        }
+    }
+}
