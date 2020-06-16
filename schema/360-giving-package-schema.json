@@ -47,7 +47,7 @@
         },
         "identifier": {
           "title": "Identifier",
-          "description": "A unique identifier for this data package. Should be unique for a particular publisher.",
+          "description": "A unique identifier for this data package. This should be unique for a particular publisher.",
           "type": "string"
         },
         "publisher": {
