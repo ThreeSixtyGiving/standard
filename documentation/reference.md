@@ -319,7 +319,7 @@ In general, most publishers will initially only use a sub-set of the possible fe
 
 ### Field names and titles
 
-Each entity, property and relationship in the schema has both a machine-readable field name and an English language title (apart from Transactions).
+Each entity, property and relationship in each the 360Giving Grant shcema and 360Giving Package schema has both a machine-readable field name and an English language title (apart from Transactions in the Grant schema).
 
 The English language titles are important for humans working to make sense of the data in everyday desktop software, and so the Spreadsheet Template and the documentation above makes use of titles as opposed to field names.
 
