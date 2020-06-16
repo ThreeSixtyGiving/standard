@@ -24,7 +24,7 @@
         },
         "description": {
           "title": "Description",
-          "description": "Full Description of the information contained in the 360Giving data package.",
+          "description": "Full description of the information contained in the 360Giving data package.",
           "type": "string"
         },
         "issued": {
