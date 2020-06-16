@@ -337,6 +337,11 @@ A mapping between column titles and field names is given below:
 .. jsonschema-title-fieldname-map:: ../schema/360-giving-schema.json
 ```
 
+### Package Schema (incorporating Metadata)
+```eval_rst
+.. jsonschema-title-fieldname-map:: ../schema/360-giving-package-schema.json
+```
+
 ### JSON
 
 When data is being generated directly out of a database system, publishers should consider using the JSON schema to provide a JSON file.
