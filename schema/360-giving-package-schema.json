@@ -84,7 +84,7 @@
         },
         "downloadURL": {
           "title": "Download URL",
-          "description": "URL of where to download this data package.",
+          "description": "URL of where this data package can be downloaded.",
           "type": "string",
           "format": "uri"
         },
