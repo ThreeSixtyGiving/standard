@@ -13,7 +13,7 @@
         },
         "version": {
           "title": "Version",
-          "description": "The version of the 360Giving schema used in this package, expressed as major.minor For example: 1.0",
+          "description": "The version of the 360Giving schema used in this package, expressed as major.minor For example: 1.1",
           "type": "string",
           "pattern": "^(\\d+\\.)(\\d+)$"
         },
