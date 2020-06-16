@@ -90,7 +90,7 @@
         },
         "accessURL": {
           "title": "Access URL",
-          "description": "URL of the website where the data this data package could be found.",
+          "description": "URL of where this data package can be found.",
           "type": "string",
           "format": "uri"
         },
