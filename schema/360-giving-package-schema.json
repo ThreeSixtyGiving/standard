@@ -38,7 +38,7 @@
         },
         "modified": {
           "title": "Modified",
-          "description": "The date that this package was last modified.",
+          "description": "The date that this data package was last modified.",
           "type": "string",
           "oneOf": [
             {"format": "date-time"},
