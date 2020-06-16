@@ -29,7 +29,7 @@
         },
         "issued": {
           "title": "Issued",
-          "description": "The date that this package was issued.",
+          "description": "The date that this data package was issued.",
           "type": "string",
           "oneOf": [
             {"format": "date-time"},
