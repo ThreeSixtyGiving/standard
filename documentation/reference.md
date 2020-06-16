@@ -317,6 +317,12 @@ In general, most publishers will initially only use a sub-set of the possible fe
   </script>
 </div>
 
+<div style="height:400px; overflow:auto; border:1px solid grey;">
+<script src="../_static/docson/widget.js"
+        data-schema="../360-giving-package-schema.json">
+</script>
+</div>
+
 ### Field names and titles
 
 Each entity, property and relationship in each the 360Giving Grant shcema and 360Giving Package schema has both a machine-readable field name and an English language title (apart from Transactions in the Grant schema).
