@@ -35,7 +35,7 @@ Two standard templates are available.
                 <img class="prose-card__image" src="_static/images/icon-json.svg" alt="">
                 <div class="align-left">
                     <h3 class="prose-card__title">
-                        <a href="/reference/#id3">360Giving JSON Schemas</a>
+                        <a href="reference/#json-format">360Giving JSON Schemas</a>
                     </h3>
                     <p class="prose-card__text">Provide the canonical definition of fields, as well as developer-friendly structure for working with 360Giving data.</p>
                 </div>
