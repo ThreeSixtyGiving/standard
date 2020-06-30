@@ -984,12 +984,6 @@
             "null"
           ],
           "description": "A description of this organisation",
-          "enum": [
-            "Registered Charity",
-            "Registered Company",
-            "Community Group",
-            "List to be updated"
-          ],
           "weight": 5,
           "title": "Organisation Type"
         },
