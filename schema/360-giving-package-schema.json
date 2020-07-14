@@ -5,10 +5,100 @@
     "required": ["grants"],
     "properties": {
         "grants": {
+            "title": "Grants",
             "type": "array",
             "minItems": 1,
             "items": { "$ref": "https://raw.githubusercontent.com/ThreeSixtyGiving/standard/master/schema/360-giving-schema.json" },
             "uniqueItems": true
+        },
+        "version": {
+          "title": "Version",
+          "description": "The version of the 360Giving schema used in this package, expressed as major.minor For example: 1.1",
+          "type": "string",
+          "pattern": "^(\\d+\\.)(\\d+)$"
+        },
+        "title": {
+          "title": "Title",
+          "description": "The title of the 360Giving data package. Should be a human readable version of information contained in the filename of the data and should be unique ",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "description": "Full description of the information contained in the 360Giving data package.",
+          "type": "string"
+        },
+        "issued": {
+          "title": "Issued",
+          "description": "The date that this data package was issued.",
+          "type": "string",
+          "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+          ]
+        },
+        "modified": {
+          "title": "Modified",
+          "description": "The date that this data package was last modified.",
+          "type": "string",
+          "oneOf": [
+            {"format": "date-time"},
+            {"pattern":"^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"}
+          ]
+        },
+        "identifier": {
+          "title": "Identifier",
+          "description": "A unique identifier for this data package. This should be unique for a particular publisher.",
+          "type": "string"
+        },
+        "publisher": {
+          "title": "Publisher",
+          "description": "Information to uniquely identify the publisher of this package.",
+          "type": "object",
+          "required": [
+            "name"
+          ],
+          "properties": {
+            "identifier": {
+              "title": "identifier",
+              "description": "The organisation identifier as descriibed by [org-id.guide](http://org-id.guide/)",
+              "type": "string"
+            },
+            "name": {
+              "title": "Name",
+              "description": "The name of the organisation or department responsible for publishing this data.",
+              "type": "string"
+            },
+            "website": {
+              "title": "Website",
+              "description": "URL of the website of the publishing organisation.",
+              "type": "string",
+              "format": "uri"
+            },
+            "logo": {
+              "title": "Logo",
+              "description": "URL of the logo of the publishing organisation.",
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "downloadURL": {
+          "title": "Download URL",
+          "description": "URL of where this data package can be downloaded.",
+          "type": "string",
+          "format": "uri"
+        },
+        "accessURL": {
+          "title": "Access URL",
+          "description": "URL of where this data package can be found.",
+          "type": "string",
+          "format": "uri"
+        },
+        "license": {
+          "title": "License",
+          "description": "A link to the license that applies to the data in this package. A Public Domain Dedication or [Open Definition Conformant](http://opendefinition.org/licenses/) license is strongly recommended. The canonical URI of the license should be used. Documents linked from this file may be under other license conditions.",
+          "type": "string",
+          "format": "uri"
         }
     }
 }
