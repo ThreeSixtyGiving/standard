@@ -10,7 +10,7 @@ This guide is for organisations publishing grantmaking information to the 360Giv
 
 Open data is data available to everyone to use and share without restrictions. Open data is non-personal data released by people, organisations and governments.
 
-You are probably using open data without realising it. An example could be getting around London with real-time travel updates thanks to [CityMapper](https://citymapper.com "Citymapper - The Ultimate Transport App"), which uses open data from Transport for London and OpenStreetMaps amongst others. Or it could be getting up-to-date with the state of the voluntary sector with the [NCVO Almanac](https://data.ncvo.org.uk/ "NCVO UK Civil Society Almanac") which uses open data from the Charity Commission and Companies House. 
+You are probably using open data without realising it. An example could be getting around London with real-time travel updates thanks to [CityMapper](https://citymapper.com "Citymapper - The Ultimate Transport App"), which uses open data from Transport for London and OpenStreetMaps amongst others. Or it could be getting up-to-date with the state of the voluntary sector with the [NCVO Almanac](https://data.ncvo.org.uk/ "NCVO UK Civil Society Almanac") which uses open data from the Charity Commission and Companies House.
 
 ### Why license 360Giving data?
 
@@ -18,11 +18,11 @@ Without a license, data isn't open data and potential users wouldn't know what t
 
 ### Which license should you choose?
 
-While there are several choices for open data licenses, we recommend a license that doesn't restrict use but does acknowledge you, the publisher. To this end, our default recommendation is the Creative Commons Attribution 4.0 International (CC BY 4.0). 
+While there are several choices for open data licenses, we recommend a license that doesn't restrict use but does acknowledge you, the publisher. To this end, our default recommendation is the Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 With this license, anyone can share or adapt your data for any purpose, even commercially. The only restrictions are they must give appropriate credit, provide a link to the license, and note any changes made. [Find out more about CC BY 4.0](https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International").
 
-If you are a UK public sector organisation, we encourage you to use the [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ "Open Government License for public sector information"). This is the UK government's open data license which public sector bodies are encouraged to use by the [Re-use of Public Sector Information Regulations 2015 (RPSI)](https://ico.org.uk/for-organisations/guide-to-rpsi/ "Guide to RPSI").
+If you are a UK public sector organisation, we encourage you to use the [Open Government License](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ "Open Government License for public sector information"). This is the UK government's open data license which public sector bodies are encouraged to use by the [Re-use of Public Sector Information Regulations 2015 (RPSI)](https://ico.org.uk/for-organisations/guide-to-rpsi/ "Guide to RPSI").
 
 ### Where to display the license?
 
@@ -36,9 +36,9 @@ Here's an example of a license statement based on our recommended CC BY 4.0 lice
 >
 > Using the 360Giving data standard, our awarded grants since [Year] are available as [File Type] here.
 >
-> This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. This means the data is freely accessible to anyone to be used and shared as they wish. The data must be attributed to [Organisation].
+> This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. This means the data is freely accessible to anyone to be used and shared as they wish. The data must be attributed to [Organisation].
 >
-> We believe that with better information, grantmakers can be more effective and strategic decision makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant making more effective. For more information, visit http://www.threesixtygiving.org/
+> We believe that with better information, grantmakers can be more effective and strategic decision makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant making more effective. For more information, visit https://www.threesixtygiving.org/
 
 ### Where can I find more information?
 

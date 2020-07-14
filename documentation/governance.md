@@ -140,9 +140,9 @@ Anyone who is a current or potential publisher or user of the 360Giving Standard
 ```eval_rst
 **Footnotes**
 
-.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: http://www.threesixtygiving.org/governance-of-the-360giving-standard/.
+.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: https://www.threesixtygiving.org/governance-of-the-360giving-standard/.
 .. [2] See https://open-stand.org/about-us/principles/.
 .. [3] See https://en.wikipedia.org/wiki/Deprecation
-.. [4] See http://cove.opendataservices.coop/360/.
+.. [4] See https://cove.opendataservices.coop/360/.
 .. [5] See Pocket Guide to Standards Development, the British Standards Institution, 2012, p.9: https://www.bsigroup.com/Documents/about-bsi/NSB/BSI-pocket-guide-to-standards-development-UK-EN.pdf.
 ```

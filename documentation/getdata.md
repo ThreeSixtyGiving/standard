@@ -1,13 +1,13 @@
 # Get Data
 
-In order to help grantmakers, developers and analysts discover data that uses the 360Giving Standard, 360Giving maintains a register of data at [http://data.threesixtygiving.org/](http://data.threesixtygiving.org/)
+In order to help grantmakers, developers and analysts discover data that uses the 360Giving Standard, 360Giving maintains a register of data at [https://data.threesixtygiving.org/](https://data.threesixtygiving.org/)
 
 ## JSON Feeds
 
 ### Registry
 
 A JSON feed is available at
-[http://data.threesixtygiving.org/data.json](http://data.threesixtygiving.org/data.json). The JSON is an array of objects in the following format:
+[https://data.threesixtygiving.org/data.json](https://data.threesixtygiving.org/data.json). The JSON is an array of objects in the following format:
 
 ~~~json
 
@@ -74,5 +74,4 @@ We welcome all feedback! Please open an issue at [https://github.com/ThreeSixtyG
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All JSON feeds linked from this page are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All JSON feeds linked from this page are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
