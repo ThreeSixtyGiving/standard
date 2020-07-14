@@ -10,12 +10,12 @@ The 360Giving Standard was initially developed through an iterative process in 2
 
 During 2017, we have been working towards a first version of the Standard, version 1.0. Our work has focused on addressing some issues identified through wider adoption of the Standard during 2015 and 2016.
 
-In June 2018, we approved the draft version to become version 1.0/ This document outlines a process for managing changes to the 360Giving Standard during any future move beyond version 1.0. 
+In June 2018, we approved the draft version to become version 1.0. This document outlines a process for managing changes to the 360Giving Standard during any future move beyond version 1.0.
 
 ## Stewardship and Governance
 360Giving was established as an independent non-profit in July 2015, and acts as the lead steward of the 360Giving Standard.
 
-The organisation is led by a Chief Executive Officer (CEO) who is supported by a staff team of two as well as a technical team. The organisation’s activities and governance is overseen by a Board of Directors that includes representatives from across the charitable giving sector.
+The organisation is led by a Chief Executive Officer (CEO) who is supported by a staff team as well as a technical team. The organisation’s activities and governance is overseen by a Board of Directors that includes representatives from across the charitable giving sector.
 
 ```eval_rst
 The technical team work under contract to 360Giving, providing a help desk service and being responsible for the day-to-day management of the Standard documentation and validation tools. The technical team can be contacted via `support@threesixtygiving.org <mailto:support@threesixtygiving.org>`_.
