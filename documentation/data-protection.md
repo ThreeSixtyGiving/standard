@@ -31,5 +31,5 @@ Organisations:
 
 Resources:
 * [Guide to data protection: Anonymisation](https://ico.org.uk/for-organisations/guide-to-data-protection/anonymisation/)
-* [UKAN workshops](http://ukanon.net/services-for-members/advisory-service/)
+* [UKAN workshops](https://ukanon.net/services-for-members/advisory-service/)
 * [The Anonymisation Decision-Making Framework Course](https://theodi.github.io/ukan-course/#0.1)

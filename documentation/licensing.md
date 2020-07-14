@@ -46,7 +46,7 @@ There are several guides available on licensing open data. A good place to start
 
 If you need more in-depth guides that cover a wide variety of legal and technical considerations, we recommend:
 * [Licensing Open Data: A Practical Guide](http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf "Licensing Open Data: A Practical Guide") from Higher Education Funding Council for England (HEFCE) on behalf of JISC
-* [Guide to Open Data Licensing](http://opendefinition.org/guide/data/ "Guide to Open Data Licensing") from Open Knowledge
+* [Guide to Open Data Licensing](https://opendefinition.org/guide/data/ "Guide to Open Data Licensing") from Open Knowledge
 
 ### What if I need more help?
 
