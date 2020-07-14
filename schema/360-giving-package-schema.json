@@ -60,23 +60,23 @@
           "properties": {
             "identifier": {
               "title": "identifier",
-              "description": "The organisation identifier as descriibed by [org-id.guide](http://org-id.guide/)",
+              "description": "The organization identifier as described by [org-id.guide](http://org-id.guide/)",
               "type": "string"
             },
             "name": {
               "title": "Name",
-              "description": "The name of the organisation or department responsible for publishing this data.",
+              "description": "The name of the organization or department responsible for publishing this data.",
               "type": "string"
             },
             "website": {
               "title": "Website",
-              "description": "URL of the website of the publishing organisation.",
+              "description": "URL of the website of the publishing organization.",
               "type": "string",
               "format": "uri"
             },
             "logo": {
               "title": "Logo",
-              "description": "URL of the logo of the publishing organisation.",
+              "description": "URL of the logo of the publishing organization.",
               "type": "string",
               "format": "uri"
             }

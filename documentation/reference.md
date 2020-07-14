@@ -42,7 +42,7 @@ The [Additional fields](additional-fields) section provides details of all other
 
 ### Meta Sheet
 
-The 'Meta' sheet includes space to add metadata about the grants file. You can read more about metadata in the [Data and Metadata section](#data-and-metadata). The 'meta' sheet includes sections for:
+The 'meta' sheet includes space to add metadata about the grants file. You can read more about metadata in the [Data and Metadata section](#data-and-metadata). The 'meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title of your 360Giving file
@@ -325,7 +325,7 @@ In general, most publishers will initially only use a sub-set of the possible fe
 
 ### Field names and titles
 
-Each entity, property and relationship in each the 360Giving Grant shcema and 360Giving Package schema has both a machine-readable field name and an English language title (apart from Transactions in the Grant schema).
+Each entity, property and relationship in each the 360Giving Grant schema and 360Giving Package schema has both a machine-readable field name and an English language title (apart from Transactions in the Grant schema).
 
 The English language titles are important for humans working to make sense of the data in everyday desktop software, and so the Spreadsheet Template and the documentation above makes use of titles as opposed to field names.
 
