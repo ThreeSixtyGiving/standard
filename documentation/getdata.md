@@ -1,6 +1,6 @@
 # Get Data
 
-In order to help grantmakers, developers and analysts discover data that uses the 360Giving Standard, 360Giving maintains a register of data at [http://data.threesixtgiving.org/](http://data.threesixtgiving.org/)
+In order to help grantmakers, developers and analysts discover data that uses the 360Giving Standard, 360Giving maintains a register of data at [http://data.threesixtygiving.org/](http://data.threesixtygiving.org/)
 
 ## JSON Feeds
 
@@ -55,7 +55,7 @@ Additionally, a [CSV report](https://gist.github.com/30d835ae16e2a30efde8a63acf0
 
 ## Downloading Data
 
-[datagetter](https://github.com/datagetter/) downloads all of the data that is listed in the registry, and converts it to JSON for use in an application.
+[datagetter](https://github.com/ThreeSixtyGiving/datagetter) downloads all of the data that is listed in the registry, and converts it to JSON for use in an application.
 
 ## FAQ
 
