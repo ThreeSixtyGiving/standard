@@ -200,7 +200,7 @@ e.g. to have two related documents with their own title and web address:
 |Related Document:0:Title|Related Document:0:Web Address|Related Document:1:Title|Related Document:1:Web Address    |
 +------------------------+------------------------------+------------------------+----------------------------------+
 |A Document              |https://example.com/adocument  |Another Document        |https://example.com/anotherdocument|
-+------------------------+------------------------------+------------------------+----------------------------------+
++------------------------+-------------------------------+------------------------+-----------------------------------+
 ```
 
 ##### Multiple Rows
