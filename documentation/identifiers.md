@@ -48,7 +48,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 
 ## Get your prefix
 
-To register a prefix for your organisation see the [publisher guidance](http://www.threesixtygiving.org/support/publish-data).
+To register a prefix for your organisation see the [publisher guidance](https://www.threesixtygiving.org/support/publish-data).
 
 All registered prefixes should start with 360G unless you have been advised otherwise by the support team.
 
@@ -150,9 +150,9 @@ The following identifier lists are often used in 360Giving publication.
 * Mutual societies - [GB-MPR](http://org-id.guide/list/GB-MPR)
 * HMRC-recognised charities - [GB-REV](http://org-id.guide/list/GB-REV)
 
-If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](http://www.threesixtygiving.org/contact/).
+If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](http://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](https://www.threesixtygiving.org/contact/).
 
-If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](http://www.threesixtygiving.org/contact/).
+If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](https://www.threesixtygiving.org/contact/).
 
 
 ```eval_rst

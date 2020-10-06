@@ -4,7 +4,7 @@ This page provides reference information on publishing to the 360Giving Data Sta
 
 It assumes some technical knowledge.
 
-If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](http://www.threesixtygiving.org/data/publish-data/) pages.
+If you are just getting started with the 360Giving data standard, consult the [Publish Your Data](https://www.threesixtygiving.org/data/publish-data/) pages.
 
 ## Data formats
 
@@ -70,7 +70,7 @@ The other sheets in the <a href="../_static/summary-table/360-giving-schema-titl
 
    The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fields available in the 360Giving Data Standard.
 
-   You can use any of these column titles on your main 'grants' sheet if you wish.  
+   You can use any of these column titles on your main 'grants' sheet if you wish.
 
 2. As a way of providing information about [One to many relationships](one-to-many-relationships)
 
@@ -196,11 +196,11 @@ You can describe multiple occurrences within the Grants sheet by having multiple
 e.g. to have two related documents with their own title and web address:
 
 ```eval_rst
-+------------------------+------------------------------+------------------------+----------------------------------+
++------------------------+-------------------------------+------------------------+-----------------------------------+
 |Related Document:0:Title|Related Document:0:Web Address|Related Document:1:Title|Related Document:1:Web Address    |
 +------------------------+------------------------------+------------------------+----------------------------------+
-|A Document              |http://example.com/adocument  |Another Document        |http://example.com/anotherdocument|
-+------------------------+------------------------------+------------------------+----------------------------------+
+|A Document              |https://example.com/adocument  |Another Document        |https://example.com/anotherdocument|
++------------------------+-------------------------------+------------------------+-----------------------------------+
 ```
 
 ##### Multiple Rows
@@ -222,7 +222,7 @@ The ```Award Date``` **must** provide a full date, including year, month and day
 In some cases, award date data exported from grant systems includes the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
 
 
-**Note** - The time component is never significant in Award Dates or Transaction Dates. Applications should ignore the time component when processing grants data. 
+**Note** - The time component is never significant in Award Dates or Transaction Dates. Applications should ignore the time component when processing grants data.
 
 
 ```eval_rst
@@ -230,7 +230,7 @@ In some cases, award date data exported from grant systems includes the time of 
 .. hint::
   You can set Excel to present a date column in YYYY-MM-DD format using a custom format `as described here`_.
 
-.. _as described here: http://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899
+.. _as described here: https://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899
 
 ```
 
@@ -278,7 +278,7 @@ You must not:
 
 ## JSON format
 
-The 360Giving standard is defined by a [JSON Schema](http://json-schema.org/), which details the entities that can be described using the standard, and the properties it recognises.
+The 360Giving standard is defined by a [JSON Schema](https://json-schema.org/), which details the entities that can be described using the standard, and the properties it recognises.
 
 At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
 
@@ -297,7 +297,7 @@ In general, most publishers will initially only use a sub-set of the possible fe
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
 <script src="../_static/docson/widget.js"
-        data-schema="../360-giving-schema.json">      
+        data-schema="../360-giving-schema.json">
 </script>
 </div>
 
