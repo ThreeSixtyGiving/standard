@@ -4,7 +4,7 @@
   "type": "object",
   "definitions": {
     "currency": {
-      "type": "string",
+      "type": "CATSPAYUSINCATS",
       "description": "The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.",
       "weight": 5.02,
       "enum": [
