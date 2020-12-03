@@ -1,4 +1,4 @@
 [submodule "documentation/_static/docson"]
 	path = documentation/_static/docson
 	url = https://github.com/OpenDataServices/docson
-	branch = master
+	branch = master-360
