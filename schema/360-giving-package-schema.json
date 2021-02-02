@@ -59,13 +59,13 @@
           ],
           "properties": {
             "identifier": {
-              "title": "identifier",
+              "title": "Identifier",
               "description": "The organization identifier as described by [Organisation Identifer Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier)",
               "type": "string"
             },
             "name": {
               "title": "Name",
-              "description": "The name of the organization or department responsible for publishing this data.",
+              "description": "The name of the entity responsible for publishing this data.",
               "type": "string"
             },
             "website": {
