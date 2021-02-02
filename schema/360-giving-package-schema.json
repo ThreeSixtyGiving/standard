@@ -70,13 +70,13 @@
             },
             "website": {
               "title": "Website",
-              "description": "URL of the website of the publishing organization.",
+              "description": "URL of the website of the publishing entity.",
               "type": "string",
               "format": "uri"
             },
             "logo": {
               "title": "Logo",
-              "description": "URL of the logo of the publishing organization.",
+              "description": "URL of the logo of the publishing entity.",
               "type": "string",
               "format": "uri"
             }
