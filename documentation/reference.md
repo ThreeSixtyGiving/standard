@@ -41,7 +41,7 @@ The 360Giving Spreadsheet template consists of a 'grants' sheet which contains t
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
 ### Meta Sheet
-We also provide a version of the 360Giving Spreadsheet Template with the Metadata template included. The 'Meta' sheet may be used to publish authoritative metadtaa about the publisher, the file or dataaset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the 360Giving Spreadsheet Template with the Metadata template included. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
@@ -320,7 +320,7 @@ data-schema="../360-giving-package-schema.json">
 
 ### Field names and titles
 
-Each entity, property and relationship in each the 360Giving Data Standard Schema and 360Giving Package Schema has both a machine-readable field name and an English language title (apart from Transactions in the 360Giving Data Standard Schema).
+Each entity, property and relationship in the 360Giving Data Standard Schema and 360Giving Package Schema has both a machine-readable field name and an English language title (apart from Transactions in the 360Giving Data Standard Schema).
 
 The English language titles are important for humans working to make sense of the data in everyday desktop software, and so the Spreadsheet Template and the documentation above makes use of titles as opposed to field names.
 
@@ -328,14 +328,14 @@ The field names are important for computers reading the data, and even if other 
 
 A mapping between column titles and field names for each schema is given below:
 
-#### 360Giving Data Standard Schema
-```eval_rst
-.. jsonschema-title-fieldname-map:: ../schema/360-giving-schema.json
-```
-
 #### 360Giving Package Schema (incorporating Metadata)
 ```eval_rst
 .. jsonschema-title-fieldname-map:: ../schema/360-giving-package-schema.json
+```
+
+#### 360Giving Data Standard Schema
+```eval_rst
+.. jsonschema-title-fieldname-map:: ../schema/360-giving-schema.json
 ```
 
 ### JSON
