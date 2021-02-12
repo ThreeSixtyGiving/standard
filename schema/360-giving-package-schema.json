@@ -60,7 +60,7 @@
           "properties": {
             "identifier": {
               "title": "Identifier",
-              "description": "The organization identifier as described by [Organisation Identifer Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier)",
+              "description": "The organisation identifier as described by [Organisation Identifer Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier)",
               "type": "string"
             },
             "name": {
@@ -90,7 +90,7 @@
         },
         "accessURL": {
           "title": "Access URL",
-          "description": "URL of where this data package can be found.",
+          "description": "URL of the website where this data package can be found.",
           "type": "string",
           "format": "uri"
         },
