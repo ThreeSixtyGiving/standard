@@ -40,7 +40,7 @@ You can opt out of this processing: If you have set your web browser to "I do no
 
 Matomo also it’s own opt out mechanism:
 <!-- opt out iframe - clicking this will mean people can opt out of tracking -->
-<iframe style="border: 1; height: 150px; width: 600px;" src="https://mon.opendataservices.coop/piwik/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en"></iframe>
+<iframe style="border: 1; height: 150px; width: 600px;" src="https://matomo.opendataservices.coop/threesixtygiving/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en"></iframe>
 
 Data processors: Open Data Services Co-operative Limited, Bytemark.
 
