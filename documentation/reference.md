@@ -41,7 +41,7 @@ The 360Giving Spreadsheet template consists of a 'grants' sheet which contains t
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
 ### Meta Sheet
-We also provide a version of the 360Giving Spreadsheet Template with the Metadata template included. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the 360Giving <a href="../_static/360-giving-schema-titles-with-meta-tab.xlsx">Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
