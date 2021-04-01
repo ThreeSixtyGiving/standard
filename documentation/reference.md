@@ -50,6 +50,10 @@ We also provide a version of the 360Giving Spreadsheet Template with the Metadat
 * Links to access and download the file
 * A link for the open license that applies to the file
 
+```eval_rst
+.. jsonschema-titles:: ../schema/360-giving-package-schema.json
+```
+
 ### Grants Sheet
 
 The main 'grants' sheet includes sections for:
