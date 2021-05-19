@@ -3,18 +3,19 @@
   {% set nextlevel = level + 1 %}
   
   {% if el.tagname == 'bullet_list' %}
-  <ul class="sidebar-list">
+  {% if level == 0 %}
+  <ul class="sidebar-blog__content categories-list">
     {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
   </ul>
+  {% elif level <= 2 and el.get('iscurrent') %}
+  <ul class="">
+    {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
+  </ul>
+  {% endif %}
 
   {% elif el.tagname == 'list_item' %}
-  <li class="sidebar-list__item level-{{ level }} {% if el.get('iscurrent') and level == 1 %}sidebar-list--expanded{% endif %}">
-    {% if el|length > 1 %}
-    <span class="sidebar-list__trigger">
-      <i class="material-icons">add</i>
-    </span>
-    {% endif %}
-    {% for i in el %}{{ tocentry(i, level) }}{% endfor %}
+  <li class="{% if level == 1 %}categories-list__item category{% endif %} level-{{ level }} {% if el.get('iscurrent') and level == 1 %}category--active{% endif %}">
+    {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
   </li>
 
   {% elif el.tagname == 'compact_paragraph' %}

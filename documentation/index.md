@@ -69,4 +69,5 @@ You can also contact the 360Giving data support team with your questions and sug
    governance
    getdata
    sc-tor
+   guidance/index
 ```

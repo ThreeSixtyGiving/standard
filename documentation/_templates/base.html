@@ -14,6 +14,7 @@
   <meta charset="utf-8">
   {{ metatags }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   {% block htmltitle %}
   <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
   {% endblock %}
@@ -119,61 +120,56 @@
 
 {% set home_link = pathto(master_doc) %}
 {% set logo_url = pathto('_static/images/360-logos/360giving-standard.svg', 1) %}
-{% set title = 'A standard for sharing grants data' %}
+{% set sitetitle = '360Giving Data Standard' %}
 {% set blurb = 'A uniform and consistent way to describe grantmaking data. Find and compare grantmaking across the UK.' %}
 
 <body>
-    {% include '_parts/top-bar.html' %}
-    <div class="layout layout--two-columns">
-      <header class="layout__header">
-        {% block header %}
-          {% include '_parts/hero.html' %}
-        {% endblock %}
-      </header>
+    <div class="layout layout--docs">
 
-      <main class="layout__content">
-        <div class="layout__content-inner">
-          <div class="prose">
-            <section class="prose__section">
-              {% block body %}{% endblock %}
-            </section>
-            {% include '_parts/pagination.html' %}
-          </div>
-        </div>
-      </main>
+        <header class="layout__header">
+            <div class="" style="background-color: var(--color-red);
+            color: var(--colors-white);
+            padding: 1rem;
+            text-align: center;">DEVELOPMENT SITE - NOT FOR GENERAL USE</div>
 
-      <aside class="layout__sidebar">
-        {% block sidebar %}
-        <div class="sidebar-section sidebar-section--orange">
-          <div class="layout__content-inner">
-            <div class="sidebar-section__item">
-              {% block menu %}
-              {% if 'singlehtml' not in builder %}
-                {% set global_toc = get_toctree(maxdepth=theme_navigation_depth|int,
-                                            collapse=theme_collapse_navigation|tobool,
-                                            includehidden=theme_includehidden|tobool,
-                                            titles_only=theme_titles_only|tobool) %}
-              {% endif %}
-              {% include '_parts/sidebar-list.html' %}
+            {% include '_parts/navbar.html' %}
+        </header>
+
+        <div class="layout__body">
+            <aside class="layout__sidebar">
+              {% block sidebar %}
+              <nav class="sidebar-blog">
+                {% block menu %}
+                {% if 'singlehtml' not in builder %}
+                  {% set global_toc = get_toctree(maxdepth=theme_navigation_depth|int,
+                                              collapse=theme_collapse_navigation|tobool,
+                                              includehidden=theme_includehidden|tobool,
+                                              titles_only=theme_titles_only|tobool) %}
+                {% endif %}
+                {% include '_parts/sidebar-list.html' %}
+                {% endblock %}
+                {% include 'versions.html' %}
+              </nav>
               {% endblock %}
-              {% include 'versions.html' %}
+            </aside>
+            <div class="layout__content">
+                <main class="layout__content-inner">
+                    <div class="prose prose--left">
+                        {% include '_parts/breadcrumbs.html' %}
+                        <section class="prose__section">
+                            <span id="top"></span>
+                            {% block body %}{% endblock %}
+                        </section>
+                        {% include '_parts/pagination.html' %}
+                    </div>
+                </main>
+                <footer class="layout__footer">
+                  {% include '_parts/footer.html' %}
+                </footer>
             </div>
-          </div>
         </div>
-        {% endblock %}
-      </aside>
 
-      <footer class="layout__footer">
-        {% include '_parts/subscribe.html' %}
-        {% include '_parts/footer.html' %}
-      </footer>
     </div>
-
-  <script type="text/javascript">
-      jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
-      });
-  </script>
 
   {# Do not conflict with RTD insertion of analytics script #}
   {% if not READTHEDOCS %}

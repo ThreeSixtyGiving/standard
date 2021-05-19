@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 
 {% set css_files = [
-  "_static/css/sanitize.css",
-  "_static/css/style.css",
+  "https://cdn.threesixtygiving.org/css/global.css",
   '_static/css/custom.css',
   "https://fonts.googleapis.com/icon?family=Material+Icons",
 ] %}
@@ -19,11 +18,15 @@
 {% include "searchbox.html" %}
 {{ super() }}
 
-<div class="sidebar-content sidebar-content--orange">
-  <h3 class="sidebar-content__heading">Useful links</h3>
-  <p class="sidebar-content__text"><a class="" href="https://www.threesixtygiving.org/">360Giving main website</a></p>
-  <p class="sidebar-content__text"><a class="" href="https://dataquality.threesixtygiving.org/">Data Quality Tool</a></p>
-</div>
+<ul class="sidebar-blog__content categories-list">
+  <li class="categories-list__item category">
+    <a id="useful-links" href="#">Useful links</a>
+    <ul>
+  <li><a class="" href="https://www.threesixtygiving.org/">360Giving main website</a></li>
+  <li><a class="" href="https://dataquality.threesixtygiving.org/">Data Quality Tool</a></li>
+    </ul>
+  </li>
+</ul>
 {% endblock %}
 
 {% block footer %}

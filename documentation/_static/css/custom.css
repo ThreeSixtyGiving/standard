@@ -79,7 +79,6 @@ h6:hover .headerlink::after {
 
 /* table */
 table.docutils {
-  font-size: .9rem;
   border: 1px solid rgba(21, 54, 52, 0.2);
   border-radius: 3px; }
   table.docutils table {
