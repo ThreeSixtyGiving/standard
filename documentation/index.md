@@ -60,7 +60,7 @@ You can also contact the 360Giving data support team with your questions and sug
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    reference
    identifiers
