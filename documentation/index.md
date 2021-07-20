@@ -9,7 +9,7 @@ The 360Giving data standard is:
 * **Open data driven:** providing a common way to share transparent and interoperable information on grant-making.
 * **Easy to use:** offering a simple spreadsheet format for publishing and consuming data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
 * **Comprehensive:** providing a 360 degree view of grantmaking. Describing the whole grantmaking process and supporting in-depth analysis of grants, grantees and beneficiaries.
- 
+
 
 ## Templates
 
@@ -45,7 +45,7 @@ Two standard templates are available.
     </section>
 </div>
 
-Free support, helping you to publish and use 360Giving data is [available from our data support team](http://www.threesixtygiving.org/contact/).
+Free support, helping you to publish and use 360Giving data is [available from our data support team](https://www.threesixtygiving.org/contact/).
 
 Full schema documentation is [available on the reference page](reference).
 
@@ -53,7 +53,7 @@ Full schema documentation is [available on the reference page](reference).
 
 The 360Giving data standard is an open standard. You can get involved in shaping the development of the standard through:
 * [The 360 Discourse forum](https://forum.threesixtygiving.org): open for general discussions of the standard and proposed updates to the standard..
-* [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.  
+* [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.
 You can also contact the 360Giving data support team with your questions and suggestions.
 
 ## Contents
@@ -70,4 +70,3 @@ You can also contact the 360Giving data support team with your questions and sug
    getdata
    sc-tor
 ```
- 

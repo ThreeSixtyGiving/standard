@@ -21,7 +21,7 @@
 
 <div class="sidebar-content sidebar-content--orange">
   <h3 class="sidebar-content__heading">Useful links</h3>
-  <p class="sidebar-content__text"><a class="" href="http://www.threesixtygiving.org/">360Giving main website</a></p>
+  <p class="sidebar-content__text"><a class="" href="https://www.threesixtygiving.org/">360Giving main website</a></p>
   <p class="sidebar-content__text"><a class="" href="https://dataquality.threesixtygiving.org/">Data Quality Tool</a></p>
 </div>
 {% endblock %}
@@ -35,10 +35,11 @@
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['disableCookies']);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//mon.opendataservices.coop/piwik/";
+    var u="//matomo.opendataservices.coop/threesixtygiving/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', '13']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];

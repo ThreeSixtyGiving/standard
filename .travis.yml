@@ -1,8 +1,0 @@
-sudo: false
-language: python
-python:
-  - "3.5"
-install:
-  - pip install jsonschema
-script:
-  - wget "http://json-schema.org/draft-04/schema" -O schemaschema && python -m jsonschema -V Draft4Validator -i schema/360-giving-schema.json -i schema/360-giving-package-schema.json schemaschema
