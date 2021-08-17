@@ -5,4 +5,5 @@
    :maxdepth: 2
 
    plan
+   decide-to-publish
 ```
