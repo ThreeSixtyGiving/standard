@@ -1,4 +1,4 @@
-##Building 360Giving publishing into grants management systems
+## Building 360Giving publishing into grants management systems
 
 If you use a proprietary grants management system it is unlikely that you will be able to build in 360Giving publishing into the system itself. However you should be able to set up and save a report to export the source information for your 360Giving data and convert it into the right formats in a spreadsheet.
 
@@ -7,7 +7,7 @@ If you use Salesforce as a grants management system, it is possible to build-in 
 It may also be possible to build-in 360Giving publishing into other types of configurable CRM systems, so please contact the 360Giving Helpdesk via support@threesixtygiving.org to discuss what might be possible in your situation. 
 
 
-##Setting up Salesforce for 360Giving data publishing
+## Setting up Salesforce for 360Giving data publishing
 
 Some Salesforce grantmaking systems that are managed by consultancies have basic 360Giving data exporting functions built-in, so check with your Salesforce administrator or technical support provider to find out if this is the case for your organisation. Even with this built-in functionality there will be extra steps to customise your system to allow you to export the full range of fields you have decided to publish.
 
