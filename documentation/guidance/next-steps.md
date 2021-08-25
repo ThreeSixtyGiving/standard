@@ -2,9 +2,19 @@
 
 ## Document your publishing process
 
+We recommend documenting your internal process for publishing your grants data in the 360Giving Data Standard. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process if done infrequently.  
+
+It will also be valuable if someone new takes responsibility for publishing your data. 
+
+You may want to make a note of:
+- The range of data you are publishing, and where it can be found in your systems or reports.
+- The practical steps you take to transform the data into 360Giving format.
+- Any data protection or responsible data checks and changes are needed before the data is ready for publishing.
+- Who is involved in checking or signing off the data?
+
 ### Look at how your data can be used to improve your own processes
 
-PLACEHOLDER - COPY NEEDED HERE
+PLACEHOLDER - COPY NEEDED HERE - this used to be a sentence under "Use the data" but now is a heading
 
 ## Updating your 360Giving data
 
@@ -62,10 +72,14 @@ An organisation is free to decide to stop publishing data and/or can remove the 
 
 ## Get to know the 360Giving Tools
 
-PLACEHOLDER
+Explore your data in 360Giving tools: GrantNav and 360Insights.
+
+PLACEHOLDER - COPY NEEDED HERE
 
 ## Share with your colleagues
 
+How can using grants data support your work?
+
 ### Celebrate publishing your grants data using the 360Giving Data Standard
 
-PLACEHOLDER
+Your information will contribute to the understanding of grantmaking across the UK.
