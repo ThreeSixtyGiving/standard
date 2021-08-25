@@ -8,5 +8,6 @@
    Useful-information
    before-you-start
    plan-and-process
+   publish-data-openly
    next-steps
 ```
