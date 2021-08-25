@@ -5,7 +5,7 @@
    :maxdepth: 2
 
    plan
-   useful information before you publish
+   Useful-information
    decide-to-publish
    plan-and-process
    next-steps
