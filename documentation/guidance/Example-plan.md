@@ -1,4 +1,4 @@
-# Plan
+# Example page from David: Plan
 
 ```eval_rst
 .. admonition:: For example
