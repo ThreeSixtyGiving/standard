@@ -6,7 +6,7 @@
 
    plan
    Useful-information
-   decide-to-publish
+   before-you-start
    plan-and-process
    next-steps
 ```
