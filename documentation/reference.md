@@ -19,7 +19,7 @@ There are two main formats available for representing 360Giving data.
 
    Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schema](360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schema](360giving-json-schemas).
 
-The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) can be used to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop.
+You can use the [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop.
 
 ## Spreadsheet format
 
@@ -27,21 +27,21 @@ To produce 360Giving data in a spreadsheet, it is possible to start with an empt
 
 ### Spreadsheet template
 
-For convenience we provide a <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred.
+For convenience we provide a <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred. [Comma-separated value file](/templates-csv) (.csv) versions are also available.
 
-The template is a multi-sheet spreadsheet, and each sheet is described below.
+The Excel template is a multi-sheet spreadsheet, and each sheet is described below. The Comma-separated value (CSV) templates correspond to each sheet of the Excel template.
 
 Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.
 
 Where data producers have more complex information, for example where a grant has many beneficiary locations, we call this a [One to many relationship](one-to-many-relationships).
 Information about how to create data with [One to many relationships](one-to-many-relationships) is described below.
 
-The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields.
+The 360Giving Spreadsheet template consists of a 'grants' sheet which contains the most common data fields and fourteen sheets which cover the Additional fields sections.
 
-The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
+The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas)).
 
 ### Meta Sheet
-We also provide a version of the 360Giving <a href="../_static/360-giving-schema-titles-with-meta-tab.xlsx">Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the <a href="../_static/360-giving-schema-titles-with-meta-tab.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
@@ -80,7 +80,7 @@ The main 'grants' sheet only includes the most common information used by most d
 
 The other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
 
-1. As a way to add more information to our 'grants' sheet
+1. As a way to add more information about the grants
 
    The column titles in the extra sheets provide a handy mapping from the JSON Schema to a more human readable form, showing us all of the possible fields available in the 360Giving Data Standard.
 
@@ -88,7 +88,7 @@ The other sheets in the <a href="../_static/summary-table/360-giving-schema-titl
 
 2. As a way of providing information about [One to many relationships](one-to-many-relationships)
 
-If, when creating your data, you only need a few additional fields from the additional sheets, you can simply copy them from one sheet to another.
+If, when creating your data, you only need a few additional fields from the additional sheets, you can copy them from one sheet to the main 'grants' sheet. Any additional sheets that aren't used can be deleted.
 
 If you have additional data to report that does not fit any of the columns provided in the spreadsheet, it is okay to create your own column titles in order to report it.
 
@@ -97,10 +97,12 @@ If you have additional data to report that does not fit any of the columns provi
 
   If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
 
-  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations.
+  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations. `Contact 360Giving support <mailto:support@threesixtygiving.org`_ with further queries about naming your own columns.
 ```
 
 #### Actual Dates
+
+When did this grant activity actually take place? Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.
 
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
@@ -109,12 +111,16 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Planned Dates
 
+When the recipient organisation intends this activity to take place. A date range can include a start date and duration in months, or a start and end date.
+
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
     :child: plannedDates
 ```
 
 #### Funding Org
+
+Details of the funder.
 
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
@@ -123,12 +129,17 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Recipient Org
 
+Details of the recipient of this grant.
+
+
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
     :child: recipientOrganization
 ```
 
 #### Beneficiary Location
+
+Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.
 
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
@@ -137,12 +148,16 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Funding Org:Location
 
+Information about the location of the funding organisation.
+
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
     :child: fundingOrganization/0/location
 ```
 
 #### Recipient Org:Location
+
+Information about the location of the recipient of this grant.
 
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
@@ -151,12 +166,16 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Related Document
 
+Information about a document related to the grant.
+
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
     :child: relatedDocument
 ```
 
 #### Classifications
+
+Information about a classification associated with the grant.
 
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
@@ -165,12 +184,16 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Funding Type
 
+Information about the type of funding provided by the grant.
+
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
     :child: fundingType
 ```
 
 #### Grant Programme
+
+Information about the grant programme under which the grant was awarded.
 
 ```eval_rst
 .. jsonschema-titles:: ../schema/360-giving-schema.json
@@ -185,9 +208,9 @@ The 360Giving Data Standard also allows for the reporting of three types of tran
 * disbursementTransaction
 * applicationTransaction
 
-These do not currently have nice human readable titles, but can still be added as spreadsheet columns if needed.
+These do not currently have the more user friendly human readable titles, but can still be added as spreadsheet columns if needed.
 
-To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
+To create the column titles, refer to the [360Giving JSON Schema](#giving-json-schemas) and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
 ```eval_rst
 .. _one-to-many-relationships:
@@ -201,7 +224,7 @@ Each of the sections of additional fields above can have multiple occurrences fo
 
 Use the other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a>. These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
 
-For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding/Recipient Org.
+For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding or Recipient Org.
 
 ##### Numbering
 
@@ -219,10 +242,25 @@ e.g. to have two related documents with their own title and web address:
 
 ##### Multiple Rows
 
-You can place the additional information about a grant in an additional row. Use the same Identifier for the grant, and place the additional information in the relevant columns. Consuming applications will then be able to try to merge the information into a single record, so be careful not to place contradictory information in fields that cannot have more than one value (e.g. a title or description)
+There may be cases where you need to release additional information about a grant in a new row, or you can’t update the row where the grant is originally described. In these cases, use the same Identifier for the grant, and place the additional information in a new row under the relevant columns. You should only add new information, because consuming applications may try to merge the information into a single record.So placing contradictory information in fields that cannot have more than one value will result in a validation error.
+
+Original row:
+|Identifier       |Title                 |… (other columns)|Amount Disbursed|
+|-----------------|----------------------|-----------------|----------------|
+|360G-xyztrust-123|An example grant title|…                |                |
+
+
+The new row:
+|Identifier       |Title|… (other columns)|Amount Disbursed|
+|-----------------|-----|-----------------|----------------|
+|360G-xyztrust-123|     |…                |2500            |
+
+In the second row, the fields which were originally populated with information are left blank so as to avoid conflicts, and the additional information is added to the "Amount Disbursed" column. This means the multiple rows method can only be used to add new data, and it is not suitable for amending data that has already been published.
 
 
 ### Field guidance
+
+Field guidance provides further useful information about fields in the 360Giving Data Standard. It provides guidance about the correct data formatting to use and some examples of how to apply the formatting when using spreadsheets.
 
 #### Dates and times
 
@@ -249,6 +287,7 @@ In some cases, award date data exported from grant systems includes the time of 
 ```
 
 ##### Uncertain dates (Planned Dates and Actual Dates)
+
 Other events in the lifetime of a grant, such as for when the funded activity will take place, may include less specific date information. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they are not certain or do not yet know.
 
 Dates in the ```Planned Dates``` and ```Actual Dates``` groups should be provided in YYYY-MM-DD format, but the day or the day can be dropped or on the year provided (e.g. YYYY-MM or YYYY).
@@ -307,7 +346,7 @@ The <a href="../_static/360-giving-schema.json">360Giving Grant Schema</a> defin
 
 When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The <a href="../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not a grant). Metdata is declared using the fields in the package schema (except for grants which is a list of grant data)
 
-In general, most publishers will initially only use a subset of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
+In general, most publishers will use a subset of the possible features of the 360Giving Data Standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
 <script src="../_static/docson/widget.js"
@@ -348,4 +387,4 @@ When data is being generated directly out of a database system, publishers shoul
 
 Developers may also wish to build their applications of JSON versions of the data.
 
-The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports round-tripping of data between the Spreadsheet Template and JSON representations.
+The [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) supports conversion of data between the Spreadsheet Template and JSON representations.
