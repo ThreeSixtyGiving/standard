@@ -36,6 +36,7 @@ The 360Giving Data Standard is:
 - Comprehensive:  Supporting in-depth analysis of grants, grantees, and beneficiaries to provide a 360 degree view of grantmaking.
 
 Free support is available from our support team to help you to publish and use 360Giving data.
+
 Full schema documentation is in the Reference section.
 
 ### An open standard
