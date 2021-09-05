@@ -1,13 +1,12 @@
 # Useful information before you start
 
 ## What to expect
-This guide sets out the four key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
+This guide sets out the three key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
 
 The four stages are:
 1. Plan
 2. Prepare
 3. Publish
-4. Use
 
 These stages apply to all types of funder. However, the approach you take, the support you need, and how long the process will take can all vary, depending on a few factors:
 - The information you collect about your grantmaking
@@ -41,10 +40,6 @@ Your prepared file of 360Giving data needs to be made available online accompani
 Once your file of 360Giving data has been published openly, a link to it will be added to the [360Giving Data Registry](https://data.threesixtygiving.org/). Your grant data will then start to appear in GrantNav, 360Insights and other tools and platforms that use 360Giving data.
 
 Go to the Publishing section of this guide. (Link to be added)
-
-### 4. Use
-
-PLACEHOLDER - text to be written? Promote...
 
 ## Who publishes 360Giving data
 Any type of funder can publish their grants data to the 360Giving Data Standard. Over 200 funders share 360Giving data which include family, corporate and community foundations, central and local government, lottery distributors and livery companies.
