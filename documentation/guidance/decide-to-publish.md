@@ -77,4 +77,4 @@ We want to help you achieve your goal of publishing open and comparable grants d
 
 **This isn’t a reporting process, it’s an opportunity to let people know about your grantmaking using data.**
 
-Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible. At any point in this process we invite you to contact our free Helpdesk via support@threesixtygiving.org with any queries, large or small.
+Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible. At any point in this process we invite you to contact our free Helpdesk via support@threesixtygiving.org with queries, large or small.
