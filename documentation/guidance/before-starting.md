@@ -1,4 +1,4 @@
-# Useful information before you start planning
+# Useful information before you start
 
 ## The process: what to expect
 
