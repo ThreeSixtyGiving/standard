@@ -1,4 +1,4 @@
-# Deciding if you want to publish
+# Decide whether to publish 360Giving data
 
 ## The benefits of publishing 360Giving grants data
 
