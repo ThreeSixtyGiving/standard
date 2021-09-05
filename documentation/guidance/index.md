@@ -4,10 +4,9 @@
 .. toctree::
    :maxdepth: 2
 
-   plan
-   Useful-information
-   before-you-start
-   plan-and-process
+   decide-to-publish
+   before-starting
+   plan-the-process
    prepare-data
    publish-data-openly
    next-steps
