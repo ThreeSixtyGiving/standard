@@ -25,12 +25,44 @@ Information is an asset. It is also knowledge and power. With 360Giving data, we
 
 Read our blog to find out more about how 360Giving data is being used: https://www.threesixtygiving.org/ideas-updates/
 
-## An Open standard
+## 360Giving Data Standard
+For open data to be really useful it has to follow an agreed format – a standard – so it can be easily compared with data from other organisations.
 
+For UK grantmakers, we have developed the 360Giving Data Standard for this purpose. We use this standard to make sure that when all your data is linked to the 360Giving Data Registry, it can be easily "read" by different applications. This is how we make sure that when you use the data, the information can be compared.
+
+The 360Giving Data Standard is:
+- Open data driven: providing a common way to share transparent and interoperable information on grantmaking.
+- Easy to use: offering a simple spreadsheet format for publishing and consuming data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
+- Comprehensive:  Supporting in-depth analysis of grants, grantees, and beneficiaries to provide a 360 degree view of grantmaking.
+
+Free support is available from our support team to help you to publish and use 360Giving data.
+Full schema documentation is in the Reference section.
+
+### An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
 - [The 360Giving forum](https://forum.threesixtygiving.org/): open for general discussions about the standard and proposed updates.
 - [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.You can also contact the 360Giving support team with your questions and suggestions via support@threesixtygiving.org
 - The [Governance and Revision Control](https://standard.threesixtygiving.org/en/latest/governance/) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
+
+### Key concepts
+
+#### Open data
+360Giving data is open data, which is defined as follows:
+
+> Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).
+
+For further information visit Open Definition: https://opendefinition.org/
+
+#### 360Giving data
+360Giving data is the term we use to describe any grant information shared using the 360Giving Data Standard. The 360Giving data it can be viewed in files published by by a wide range of funding organisations or explored in online tools built by 360Giving and others.
+
+#### Publishers and publishing
+Organisations that share 360Giving data are the owners of the information and when they make the files of data available online as open data, it is called **publishing the data**. That is why the funders that share 360Giving are called **Publishers**.
+
+#### JSON
+The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
+
+For further information visit JSON Schema: https://json-schema.org/
 
 ## Who is this guide for?
 This guide is for anyone from a UK funding organisation who wants to publish their grants data openly in the 360Giving Data Standard. 
