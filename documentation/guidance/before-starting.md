@@ -69,8 +69,7 @@ One of the first questions we’ll ask you when you start on your 360Giving publ
 ```eval_rst
 .. hint:: **Further guidance about grants management systems**
 
-See the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/) for further details about the likely impact your grants management system will have on the publishing process.
+See the Prepare section for further details about the likely impact your grants management system will have on the publishing process.
 
-  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations.
 ```
 
