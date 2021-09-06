@@ -1,6 +1,6 @@
 # Deciding to publish 360Giving data
 
-## Why publish 360Giving grants data
+## Why publish 360Giving data
 Over 200 funders now publish their grants data in the 360Giving Data Standard, meaning that over £100bn of grants data can be looked up, compared and analysed across the UK.
 
 This brings lots of benefits, both for the funders who publish their grants data and for society.
@@ -23,7 +23,7 @@ Information is an asset. It is also knowledge and power. With 360Giving data, we
 
 - **It helps bring better outcomes for recipients**. By saving resources and enabling better, more targeted funding decisions, 360Giving data helps funders focus on what’s most important: meeting the needs of their beneficiaries – the people, organisations and causes that they want to support.
 
-Read our blog to find out more about how 360Giving data is being used: https://www.threesixtygiving.org/ideas-updates/
+Read our blog to find out more about how 360Giving data is being used: [https://www.threesixtygiving.org/ideas-updates/](https://www.threesixtygiving.org/ideas-updates/)
 
 ## 360Giving Data Standard
 For open data to be really useful it has to follow an agreed format – a standard – so it can be easily compared with data from other organisations.
@@ -37,7 +37,7 @@ The 360Giving Data Standard is:
 
 Free support is available from our support team to help you to publish and use 360Giving data.
 
-Full schema documentation is in the Reference section.
+Full schema documentation is in the [Reference section](https://standard.threesixtygiving.org/en/new-docs-style/reference/).
 
 ### An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
@@ -52,7 +52,7 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
 
 > Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).
 
-For further information visit Open Definition: https://opendefinition.org/
+For further information visit Open Definition: [https://opendefinition.org/](https://opendefinition.org/)
 
 #### 360Giving data
 360Giving data is the term we use to describe any grant information shared using the 360Giving Data Standard. The 360Giving data it can be viewed in files published by by a wide range of funding organisations or explored in online tools built by 360Giving and others.
@@ -63,7 +63,7 @@ Organisations that share 360Giving data are the owners of the information and wh
 #### JSON
 The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
 
-For further information visit JSON Schema: https://json-schema.org/
+For further information visit JSON Schema: [https://json-schema.org/](https://json-schema.org/)
 
 ## Who is this guide for?
 This guide is for anyone from a UK funding organisation who wants to publish their grants data openly in the 360Giving Data Standard. 
@@ -78,4 +78,6 @@ We want to help you achieve your goal of publishing open and comparable grants d
 
 **This isn’t a reporting process, it’s an opportunity to let people know about your grantmaking using data.**
 
-Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible. At any point in this process we invite you to contact our free Helpdesk via support@threesixtygiving.org with queries, large or small.
+Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
+
+At any point in this process we invite you to contact our free Helpdesk via <support@threesixtygiving.org> with queries, large or small.
