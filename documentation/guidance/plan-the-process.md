@@ -21,18 +21,18 @@ There are **10 core fields** of information which all 360Giving data must includ
 
 ### 10 core fields
 Seven of the 10 core fields are commonly collected as part of the grantmaking process, and may be stored in a grants management system: 
-1. Grant identifier
-2. Grant amount
-3. Grant award date
-4. Grant or project title
-5. Grant or project description
-6. Recipient name
-7. Recipient identifier
+- Grant identifier
+- Grant amount
+- Grant award date
+- Grant or project title
+- Grant or project description
+- Recipient name
+- Recipient identifier
 
 Three pieces of information are usually added as part of the data preparation process:
-8. Funder name
-9. Funder identifier
-10. Currency
+- Funder name
+- Funder identifier
+- Currency
 
 #### Recommended fields
 All other fields are optional, however the majority of publishers do share a range of further information. Including these fields can make your data more useful and help users to understand your grantmaking better.
@@ -40,9 +40,8 @@ All other fields are optional, however the majority of publishers do share a ran
 The following types of information are commonly shared.
 - Recipient location
 - Beneficiary location
-- Grant programme details
 - Grant duration and/or planned start and end dates
-- Classifications
+- Grant programme details
 - Metadata
 
 You can be pragmatic when making these choices. If you have information available, consider including it.
@@ -52,7 +51,7 @@ If you don’t collect certain data or the information is not relevant to your g
 It is possible to start by publishing simpler information and over time, extend the range of fields you include.
 
 #### Further information about core and recommended fields
-You can view and download further details about the core, recommended and optional fields in the [Notes about the 360Giving Data Standard.](https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing)
+You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard.</a>
 
 For further information about all the possible fields in the 360Giving Data Standard visit the [Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/) 
 
@@ -61,7 +60,7 @@ If you have information that doesn’t fit any of the 360Giving Data Standard fi
 
 A file of 360Giving data can include any number of non-Standard fields, however you will need to take care with the titles and make sure the data formatting is consistent.
 
-For guidance on naming your own fields visit the [Additional fields section](https://standard.threesixtygiving.org/en/new-docs-style/reference/#additional-fields)
+For guidance on naming your own fields visit the [Additional fields section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/#additional-fields)
 
 ### Decide what kind of grants to include
 360Giving is a voluntary initiative and you can decide what information to share in your open grants data, based on what is appropriate to your circumstances. 
