@@ -68,7 +68,7 @@ One of the first questions we’ll ask you when you start on your 360Giving publ
 ``` eval_rst
 
 .. hint::
-  You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to ```=Now()``` then this value will be refreshed automatically every time you save the file.
+  See the Prepare section for further details about the likely impact your grants management system will have on the publishing process.
 ```
 
 ```eval_rst
