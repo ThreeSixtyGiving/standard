@@ -68,7 +68,8 @@ One of the first questions we’ll ask you when you start on your 360Giving publ
 ``` eval_rst
 
 .. hint::
-  See the Prepare section for further details about the likely impact your grants management system will have on the publishing process.
+  See the `Prepare section` for further details about the likely impact your grants management system will have on the publishing process.
+.. _Prepare section: https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/
 ```
 
 ```eval_rst
