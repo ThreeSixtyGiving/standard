@@ -42,7 +42,7 @@ If your 360Giving data file has a generic name and it is uploaded to a consisten
 ### Making changes to your published data
 You can make changes to your data at any time. This may be to add new grants data or amend details or to fix typos. It might also be to remove grants that were awarded but didn’t go ahead, or to amend grants that have been varied in some way. 
  
-For further guidance about making changes to your data to note variations to your grants, <a href="https://www.threesixtygiving.org/2020/04/20/covid19-guidance-on-tagging-and-tracking-changes-to-existing-grants/" target="_blank">see our blog post about amending existing grants.</a>
+For further guidance about making changes to your data to note variations to your grants, <a href="https://www.threesixtygiving.org/2020/04/20/covid19-guidance-on-tagging-and-tracking-changes-to-existing-grants/" target="_blank">see our blog post.</a>
  
 Making amendments to your 360Giving data can be done manually, by taking a copy of your published data file and making the necessary changes. You then save the file and re-upload it to your website, replacing the current file.
  
@@ -56,25 +56,17 @@ The name of the funding organisation that appears on GrantNav and 360Insights is
 
 The name that appears on the 360Giving Data Registry is controlled by 360Giving. For any queries about the process to change the name in your data, and to request an amendment to the 360Giving Data Registry please contact the 360Giving Helpdesk via support@threesixtygiving.org.
 
-### Deleting data
-
-#### Taking down published data
-
+### Taking down published data
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
 An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
-360Giving has a [Take Down policy](https://www.threesixtygiving.org/take-down-policy/) for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request. 
+360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request. 
 
 ## Get to know the 360Giving Tools
-
 Explore your data in 360Giving tools: GrantNav and 360Insights.
 
-PLACEHOLDER - COPY NEEDED HERE
-
 ## Share with your colleagues
-
 How can using grants data support your work?
 
 ### Celebrate publishing your grants data using the 360Giving Data Standard
-
 Your information will contribute to the understanding of grantmaking across the UK.
