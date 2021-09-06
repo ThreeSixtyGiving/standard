@@ -37,14 +37,14 @@ Go to the [Preparing section](https://standard.threesixtygiving.org/en/new-docs-
 
 Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use by 360Giving and others. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. The final step is to let 360Giving know that your data has been published.
 
-Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>,<a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
+Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
 
 Go to the [Publishing section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) of this guide.
 
 ## Who publishes 360Giving data
 Any type of funder can publish their grants data to the 360Giving Data Standard. Over 200 funders share 360Giving data which include family, corporate and community foundations, central, devolved and local governments, lottery distributors and livery companies.
 
-The majority of funders sharing 360Giving data make grants to recipients based in the UK, but it is also possible to use the 360Giving Data Standard to share data about international grantmaking.
+The majority of funders sharing 360Giving data make grants to recipients based in the UK, however it is also possible to use the 360Giving Data Standard to share data about international grants.
 
 Read our blog to find out more about the different types of funders publishing 360Giving data: <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank">https://www.threesixtygiving.org/ideas-updates/</a>
 
@@ -63,7 +63,7 @@ Funders of all shapes and sizes have become 360Giving data publishers, using a w
 
 Where and how you collect and store information about your grants has a fundamental impact on the data you will be able to share. This will also influence the practical process taken to format your data to the 360Giving Data Standard. 
 
-One of the first questions we’ll ask you when you start on your 360Giving publishing journey is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
+One of the first questions we’ll ask when you contact 360Giving Helpdesk is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
 
 ``` eval_rst
 .. hint::
