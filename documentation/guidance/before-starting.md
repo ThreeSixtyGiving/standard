@@ -66,7 +66,6 @@ Where and how you collect and store information about your grants has a fundamen
 One of the first questions we’ll ask you when you start on your 360Giving publishing journey is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
 
 ``` eval_rst
-
 .. hint::
   See the `Prepare section` for further details about the likely impact your grants management system will have on the publishing process.
 .. _Prepare section: https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/
@@ -74,3 +73,4 @@ One of the first questions we’ll ask you when you start on your 360Giving publ
 
 ```eval_rst
 
+Click **Next** to find out more progress to the first stage of the 360Giving publishing process.
