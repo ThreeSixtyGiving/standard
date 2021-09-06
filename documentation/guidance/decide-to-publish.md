@@ -1,4 +1,4 @@
-# Decide whether to publish 360Giving data
+# Deciding to publish 360Giving data
 
 ## Why publish 360Giving grants data
 Over 200 funders now publish their grants data in the 360Giving Data Standard, meaning that over £100bn of grants data can be looked up, compared and analysed across the UK.
