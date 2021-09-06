@@ -1,53 +1,48 @@
 # Next steps once you've published your data
+Publishing open grants data for the first time is a cause for celebration! In addition to sharing the good news and exploring your grants data in 360Giving tools, it can be a good idea to make a note of your process for future reference.
 
 ## Document your publishing process
+We recommend documenting your internal process for publishing your grants data in the 360Giving Data Standard. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process when done infrequently.  
 
-We recommend documenting your internal process for publishing your grants data in the 360Giving Data Standard. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process if done infrequently.  
-
-It will also be valuable if someone new takes responsibility for publishing your data. 
+These notes will also be valuable if someone new takes responsibility for publishing your 360Giving data. 
 
 You may want to make a note of:
-- The range of data you are publishing, and where it can be found in your systems or reports.
-- The practical steps you take to transform the data into 360Giving format.
-- Any data protection or responsible data checks and changes are needed before the data is ready for publishing.
-- Who is involved in checking or signing off the data?
-
-### Look at how your data can be used to improve your own processes
-
-PLACEHOLDER - COPY NEEDED HERE - this used to be a sentence under "Use the data" but now is a heading
+- The range of data you are publishing, and where it can be found in your systems or files.
+- The practical steps you take to transform the data into 360Giving format - are you exporting data directly from your system, using a conversion tool or another method.
+- Any data protection or responsible data checks and changes that need to be made before the data is ready for publishing.
+- Who is involved in checking or signing off the data.
+- Where your 360Giving files are hosted, and who is able to make file updates to your website or hosting platform.
 
 ## Updating your 360Giving data
-
-### Updating & Publishing
-
-#### How often you should update your data
-
-This decision is up to each publishing organisation to decide and should be informed by your grantmaking cycles and capacity. However, the minimum good practice is to update data on an annual basis.
-
-Many organisations choose to publish annually, some publish every six months or quarterly, with others doing an update following each grant award round. 
+Many organisations choose to update their data annually, some publish every six months or quarterly, with others doing an update following each grant award round. 
 
 The aim is to have timely information available - but what ‘timely’ means will be different for different organisations, depending on circumstances and how often grants are awarded.
 
-#### How to make updates to your data
+### How often should you update your data?
+Minimum good practice is to update data on an annual basis.
 
+The decision about how frequently to make updates is for each publishing organisation to decide and should be informed by your grantmaking cycles and capacity. 
+
+Once you have completed the 360Giving publication process for the first time, you will have a better understanding of the amount of time and resources needed. This will help you work out how to fit updating your 360Giving data alongside your other grantmaking and publicity cycles.
+
+### How to make updates to your data
 When you have more grant data to publish you will follow the same steps you used to prepare your data. 
  
 Once the data is ready and it has passed the Data Quality Tool tests you can either: 
 - Add the new grant data into the existing file of published data and re-upload the file to your website. If you can keep the file name and the position of the file the same following an update it will mean the link from the Data Registry to your data will stay the same – so your updates will automatically get picked up in our system.
 - Upload a new file alongside your existing file, add a link to the file from your hosting page and let the 360Giving Helpdesk know about the new file.
 
-#### Letting 360Giving know about updates to your data
-
+### Letting 360Giving know about updates to your data
 If you publish a new file of data, or if your existing data file has been updated and the location or name of your data file has changed, you need to let 360Giving know so the Data Registry can be updated with the new file links.
+
 Remember to remove any old files from your website when making updates. 
 
 If your 360Giving data file has a generic name and it is uploaded to a consistent place in your website then any subsequent updates you make to the file will get picked up by the Data Registry automatically because the link to your file will be unchanged.
 
-#### Making changes to your published data
-
+### Making changes to your published data
 You can make changes to your data at any time. This may be to add new grants data or amend details or to fix typos. It might also be to remove grants that were awarded but didn’t go ahead, or to amend grants that have been varied in some way. 
  
-For further guidance about making changes to your data to note variations to your grants, [see our guidance](https://www.threesixtygiving.org/2020/04/20/covid19-guidance-on-tagging-and-tracking-changes-to-existing-grants/).
+For further guidance about making changes to your data to note variations to your grants, <a href="https://www.threesixtygiving.org/2020/04/20/covid19-guidance-on-tagging-and-tracking-changes-to-existing-grants/" target="_blank">see our blog post about amending existing grants.</a>
  
 Making amendments to your 360Giving data can be done manually, by taking a copy of your published data file and making the necessary changes. You then save the file and re-upload it to your website, replacing the current file.
  
