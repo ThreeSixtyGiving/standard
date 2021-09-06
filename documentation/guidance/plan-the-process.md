@@ -261,4 +261,5 @@ Resources:
 - [UKAN training](https://ukanon.net/training/)
 - [ODI Anonymisation Decision-Making Framework](http://theodi.github.io/ukan-course/assets/odi-data-anonymization.pdf)
 
+Click **Next** to progress to the second stage of the 360Giving publishing process - Preparing your grant data.
 
