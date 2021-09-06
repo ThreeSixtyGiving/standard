@@ -23,7 +23,7 @@ Information is an asset. It is also knowledge and power. With 360Giving data, we
 
 - **It helps bring better outcomes for recipients**. By saving resources and enabling better, more targeted funding decisions, 360Giving data helps funders focus on what’s most important: meeting the needs of their beneficiaries – the people, organisations and causes that they want to support.
 
-Read our blog to find out more about how 360Giving data is being used: [https://www.threesixtygiving.org/ideas-updates/](https://www.threesixtygiving.org/ideas-updates/)
+Read our blog to find out more about how 360Giving data is being used: <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank">https://www.threesixtygiving.org/ideas-updates/</a>
 
 ## 360Giving Data Standard
 For open data to be really useful it has to follow an agreed format – a standard – so it can be easily compared with data from other organisations.
@@ -37,12 +37,12 @@ The 360Giving Data Standard is:
 
 Free support is available from our support team to help you to publish and use 360Giving data.
 
-Full schema documentation is in the [Reference section](https://standard.threesixtygiving.org/en/new-docs-style/reference/).
+Full schema documentation is in the [Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/)
 
 ### An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
-- [The 360Giving forum](https://forum.threesixtygiving.org/): open for general discussions about the standard and proposed updates.
-- [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.You can also contact the 360Giving support team with your questions and suggestions via support@threesixtygiving.org
+- <a href="https://forum.threesixtygiving.org/" target="_blank">The 360Giving forum</a>: open for general discussions about the standard and proposed updates.
+- <a href="https://github.com/ThreeSixtyGiving/standard/issues" target="_blank">The issue tracker for the standard/</a>: for bug reports.You can also contact the 360Giving support team with your questions and suggestions via <support@threesixtygiving.org>
 - The [Governance and Revision Control](https://standard.threesixtygiving.org/en/new-docs-style/governance/) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
 
 ### Key concepts
@@ -52,7 +52,7 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
 
 > Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).
 
-For further information visit Open Definition: [https://opendefinition.org/](https://opendefinition.org/)
+For further information visit Open Definition: <a href="https://opendefinition.org/" target="_blank">https://opendefinition.org/</a>
 
 #### 360Giving data
 360Giving data is the term we use to describe any grant information shared using the 360Giving Data Standard. 360Giving data can be viewed in files published by a wide range of funders or explored in online tools built by 360Giving and others.
@@ -63,7 +63,7 @@ Organisations that share 360Giving data are the owners of the information and wh
 #### JSON
 The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
 
-For further information visit JSON Schema: [https://json-schema.org/](https://json-schema.org/)
+For further information visit JSON Schema:<a href="https://json-schema.org/" target="_blank">https://json-schema.org/</a>
 
 ## Who is this guide for?
 This guide is for anyone from a UK funding organisation who wants to publish their grants data openly in the 360Giving Data Standard. 
@@ -81,3 +81,5 @@ We want to help you achieve your goal of publishing open and comparable grants d
 Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
 
 At any point in this process we invite you to contact our free Helpdesk via <support@threesixtygiving.org> with queries, large or small.
+
+Click **Next** to find out what to expect during the 360Giving publishing process.
