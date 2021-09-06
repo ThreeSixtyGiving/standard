@@ -37,7 +37,7 @@ Go to the [Preparing section](https://standard.threesixtygiving.org/en/new-docs-
 
 Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use by 360Giving and others. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. The final step is to let 360Giving know that your data has been published.
 
-Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>,<a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> [360Insights] and other tools and platforms that use 360Giving data.
+Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>,<a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
 
 Go to the [Publishing section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) of this guide.
 
