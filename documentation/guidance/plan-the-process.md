@@ -88,24 +88,24 @@ You may find it helpful to look at the data published by other grantmakers when 
 We can also put you in touch with grantmakers who can share relevant experiences with you. 
 
 #### Data Registry
-360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources. You can access and download files of published data by visiting the [Data Registry.](https://data.threesixtygiving.org/)
-
+360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources. You can access and download files of published data by visiting the <a href="https://data.threesixtygiving.org/" target="_blank">Data Registry.</a>
 #### GrantNav
-GrantNav is a search-engine for grants data. You can explore and download data about where funding goes and how much is given across billions of pounds of grants. You can access GrantNav by visiting [https://grantnav.threesixtygiving.org](https://grantnav.threesixtygiving.org)
+GrantNav is a search-engine for grants data. You can explore and download data about where funding goes and how much is given across billions of pounds of grants. You can access GrantNav by visiting <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav.</a>
 
 Each grant record has its own page with the 10 core fields showing at the top. The other fields that have been shared are displayed in a table.
 
 As well as looking at a single grant record view you can view lists:
-- [Grants awarded to a particular organisation](https://grantnav.threesixtygiving.org/recipient/GB-CHC-219278)
-- [Grants to recipients located in a particular place](https://grantnav.threesixtygiving.org/district/Shropshire)
+- <a href="https://grantnav.threesixtygiving.org/recipient/GB-CHC-219278" target="_blank">Grants awarded to a particular organisation</a>
+- <a href="https://grantnav.threesixtygiving.org/district/Shropshire" target="_blank">Grants to recipients located in a particular place</a>
 
-You can also search the data by keyword. For example, this search shows grants awarded with the [term ‘village hall’ in the grant title or description]( https://grantnav.threesixtygiving.org/search?query=%22village+hall%22&default_field=title_and_description) 
+You can also search the data by keyword. For example, this search shows grants awarded with the <a href="https://grantnav.threesixtygiving.org/search?query=%22village+hall%22&default_field=title_and_description" target="_blank">term ‘village hall’ in the grant title or description.</a>
 
-For more guidance about how to explore 360Giving data in GrantNav visit the [Help section](https://help.grantnav.threesixtygiving.org/en/latest)
+For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">Help section.</a>**
 
 #### 360Insights
 360Insights is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funding across different areas – from grant dates to types of recipients.
-You can access 360Insights by visiting [https://insights.threesixtygiving.org]([https://insights.threesixtygiving.org])
+
+You can access 360Insights by visiting <a href="https://insights.threesixtygiving.org" target="_blank">https://insights.threesixtygiving.org</a>
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
@@ -172,7 +172,7 @@ For further information see our [guidance about how to convert postcodes into ge
 We encourage publishers to carefully consider the value of publishing any personal information  as part of their 360Giving data and discourage sharing of special category data (including racial or ethnic origin and health information).
 
 Before making a decision on including personal data:
-- Review the ICO’s [Key definitions of the data protection act](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/) to understand the difference between non-personal data, personal data and sensitive personal data;
+- Review the ICO’s <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/" target="_blank">Key definitions of the data protection act</a> to understand the difference between non-personal data, personal data and sensitive personal data;
 - Review the ICO’s [Guide to data protection](https://ico.org.uk/for-organisations/guide-to-data-protection/) to understand your organisation’s obligations;
 - Ensure your organisation has the power to [share the data](https://ico.org.uk/for-organisations/data-sharing-information-hub/).
 
