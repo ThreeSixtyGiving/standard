@@ -43,7 +43,7 @@ Full schema documentation is in the [Reference section](https://standard.threesi
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
 - [The 360Giving forum](https://forum.threesixtygiving.org/): open for general discussions about the standard and proposed updates.
 - [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.You can also contact the 360Giving support team with your questions and suggestions via support@threesixtygiving.org
-- The [Governance and Revision Control](https://standard.threesixtygiving.org/en/latest/governance/) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
+- The [Governance and Revision Control](https://standard.threesixtygiving.org/en/new-docs-style/governance/) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
 
 ### Key concepts
 
@@ -55,10 +55,10 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
 For further information visit Open Definition: [https://opendefinition.org/](https://opendefinition.org/)
 
 #### 360Giving data
-360Giving data is the term we use to describe any grant information shared using the 360Giving Data Standard. The 360Giving data it can be viewed in files published by by a wide range of funding organisations or explored in online tools built by 360Giving and others.
+360Giving data is the term we use to describe any grant information shared using the 360Giving Data Standard. 360Giving data can be viewed in files published by a wide range of funders or explored in online tools built by 360Giving and others.
 
 #### Publishers and publishing
-Organisations that share 360Giving data are the owners of the information and when they make the files of data available online as open data, it is called **publishing the data**. That is why the funders that share 360Giving are called **Publishers**.
+Organisations that share 360Giving data are the owners of the information and when they make the files of data available online as open data, it is called **publishing the data**. That is why we call the funders that share 360Giving data **Publishers**.
 
 #### JSON
 The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
