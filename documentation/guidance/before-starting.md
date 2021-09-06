@@ -70,3 +70,11 @@ One of the first questions we’ll ask you when you start on your 360Giving publ
 
 See the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/) for further details about the likely impact your grants management system will have on the publishing process.
 ```
+
+```eval_rst
+.. hint:: **Naming your own columns.**
+
+  If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
+
+  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations.
+```
