@@ -27,7 +27,7 @@ Go to the [Planning section](https://standard.threesixtygiving.org/en/new-docs-s
 
 ### 2. Prepare
 
-Your grant information needs to be transformed into 360Giving data, using the correct formatting and headings. You can use the [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/) to check if your data is ready to be published.
+Your grant information needs to be transformed into 360Giving data, using the correct formatting and headings. You can use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
 
 For many publishers, preparing their data is a manual process that involves converting data exported into a spreadsheet from a grants management system. However, some grants management systems make it possible to export data with some or all of the preparations needed to convert the information into 360Giving data built-in.
 
@@ -37,7 +37,7 @@ Go to the [Preparing section](https://standard.threesixtygiving.org/en/new-docs-
 
 Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use by 360Giving and others. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. The final step is to let 360Giving know that your data has been published.
 
-Once your file of 360Giving data has been published openly, a link to it will be added to the [360Giving Data Registry](https://data.threesixtygiving.org/). Your grant data will then start to appear in [GrantNav](https://grantnav.threesixtygiving.org/), [360Insights](https://insights.threesixtygiving.org/) and other tools and platforms that use 360Giving data.
+Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>,<a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> [360Insights] and other tools and platforms that use 360Giving data.
 
 Go to the [Publishing section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) of this guide.
 
@@ -46,7 +46,7 @@ Any type of funder can publish their grants data to the 360Giving Data Standard.
 
 The majority of funders sharing 360Giving data make grants to recipients based in the UK, but it is also possible to use the 360Giving Data Standard to share data about international grantmaking.
 
-Read our blog to find out more about the different types of funders publishing 360Giving data: [https://www.threesixtygiving.org/ideas-updates/](https://www.threesixtygiving.org/ideas-updates/)
+Read our blog to find out more about the different types of funders publishing 360Giving data: <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank">https://www.threesixtygiving.org/ideas-updates/</a>
 
 ## Support
 This guide has been developed to support funders through the 360Giving publishing process.
@@ -56,7 +56,7 @@ For further guidance and practical support at any stage, please contact the 360G
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-To access the Community Foundations Guide to 360Giving data publishing visit: [https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/](https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/)
+To access the Community Foundations Guide to 360Giving data publishing visit: <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/</a>
 
 ## About grants management systems
 Funders of all shapes and sizes have become 360Giving data publishers, using a wide range of grants management systems and some by collecting basic data in spreadsheets.
@@ -67,7 +67,7 @@ One of the first questions we’ll ask you when you start on your 360Giving publ
 
 ``` eval_rst
 .. hint::
-  See the <a href="http://example.com/">Prepare section</a> for further details about the likely impact your grants management system will have on the publishing process.
+  See the Prepare section for further details about the likely impact your grants management system might have on the publishing process.
 ```
 ```eval_rst
 
