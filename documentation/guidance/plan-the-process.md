@@ -89,6 +89,7 @@ We can also put you in touch with grantmakers who can share relevant experiences
 
 #### Data Registry
 360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources. You can access and download files of published data by visiting the <a href="https://data.threesixtygiving.org/" target="_blank">Data Registry.</a>
+
 #### GrantNav
 GrantNav is a search-engine for grants data. You can explore and download data about where funding goes and how much is given across billions of pounds of grants. You can access GrantNav by visiting <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav.</a>
 
@@ -173,8 +174,8 @@ We encourage publishers to carefully consider the value of publishing any person
 
 Before making a decision on including personal data:
 - Review the ICO’s <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/" target="_blank">Key definitions of the data protection act</a> to understand the difference between non-personal data, personal data and sensitive personal data;
-- Review the ICO’s [Guide to data protection](https://ico.org.uk/for-organisations/guide-to-data-protection/) to understand your organisation’s obligations;
-- Ensure your organisation has the power to [share the data](https://ico.org.uk/for-organisations/data-sharing-information-hub/).
+- Review the ICO’s <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/" target="_blank">Guide to data protection</a> to understand your organisation’s obligations;
+- Ensure your organisation has the power to (<a href="https://ico.org.uk/for-organisations/data-sharing-information-hub/" target="_blank">share the data</a>.
 
 #### Grants to named individuals
 The 360Giving Data Standard was designed for publishing data about grants awarded to organisations, however it is technically possible to publish grants awarded to individuals as well. 
@@ -183,7 +184,7 @@ In this case, all personally identifying data should be appropriately anonymised
 
 Examples of how to anonymise personally identifying data include: 
 - Replacing individual names with ‘Grant to individual’.
-- Redacting street-level addresses, and including just postal town or the first part of the postcode (known in the UK as [the Outward code](https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Outward_code)) or converting postcode data into geocodes. (Note: the appropriate approach to redaction will depend on the context of the data.)
+- Redacting street-level addresses, and including just postal town or the first part of the postcode (known in the UK as <a href="https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Outward_code" target="_blank">the Outward code</a>) or converting postcode data into geocodes. **Note**: the appropriate approach to redaction will depend on the context of the data.
 - Replacing individual contact person names with their roles (e.g. Project Manager) and generic email addresses.
 
 #### Seeking consent to include personal data
@@ -191,21 +192,21 @@ In cases where you do wish to seek permission to include personal or sensitive p
 - The specific scope of personal data to be published.
 - The terms under which it will be made available as open data.
 
-You can find a [definition of personal data and sensitive personal data](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/special-category-data/) – known as special category data – on the Information Commissioner’s website.
+You can find a <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/special-category-data/" target="_blank">definition of personal data and sensitive personal data</a> – known as special category data – on the Information Commissioner’s website.
 
 For example, if you were looking to publish names and abbreviated location information, you might include:
-> "We are seeking your permission to include the contact person for your grant and the first part of your postcode (known as [the Outward code](https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Outward_code)), alongside other general grant information, as part of open data about our grant making. This information will be included in a public dataset under an open license. This means that any third party is free to access and re-use the data."
+> "We are seeking your permission to include the contact person for your grant and the first part of your postcode (known as <a href="https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Outward_code" target="_blank">the Outward code</a>), alongside other general grant information, as part of open data about our grant making. This information will be included in a public dataset under an open license. This means that any third party is free to access and re-use the data."
 
 You will need to write the permission request based on the particular data you plan to publish.
 
 #### Managing consent
 Consider including additional fields in your internal data systems to log:
-- When a grant record includes [personal, or personally identifying](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/), data (e.g. an individual’s residential address as the registered address of a charity; grants to named individuals) or otherwise sensitive data (e.g. grants to a refuge or other location that should not be disclosed for safety reasons).
+- When a grant record includes <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/" target="_blank">personal, or personally identifying</a>, data (e.g. an individual’s residential address as the registered address of a charity; grants to named individuals) or otherwise sensitive data (e.g. grants to a refuge or other location that should not be disclosed for safety reasons).
 - Whether or not consent has been obtained.
 
 Be aware that consent can be withdrawn at any time so you will also need to put in place processes to trigger a change to your open grants data if that happens.
 
-360Giving has a Take Down policy which sets out how we respond to requests to remove any published data linked from our Data Registry and loaded into our tools. To read the 360Giving Take Down policy visit: [https://threesixtygiving.org/take-down-policy](https://threesixtygiving.org/take-down-policy)
+360Giving has a Take Down policy which sets out how we respond to requests to remove any published data linked from our Data Registry and loaded into our tools. To read the 360Giving Take Down policy visit: <a href="https://threesixtygiving.org/take-down-policy" target="_blank">https://threesixtygiving.org/take-down-policy</a>
 
 #### Start by publishing what you can
 You can still take steps toward publishing your data, even if you find that there are some data protection policy issues to address.. Consider which fields and grant records are not affected by any barriers, and move forward with publishing these. The learning from this process can then be applied back to other grants once the policy issues are resolved.
@@ -217,7 +218,7 @@ Consider whether any of your grant data might contain other sensitive informatio
 
 **Sharing Data Responsibly – A Conversation Guide for Funders** is designed for funders and grantmakers who want practical advice on how to treat their grantees’ data responsibly. Published by the Ariadne Network and Engine Room, this report is aimed at Human Rights funders working internationally, but has relevant information for all other types of funders.
 
-To read the Responsible Data guide visit: [http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/](http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/)
+To read the Responsible Data guide visit: <a href="http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/" target="_blank">http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/</a>
 
 The guide follows the grant management cycle, providing information to guide decisions at each stage:
 - Data collecting: managing data in the application, monitoring and reporting phases.
@@ -240,10 +241,10 @@ The data will be available to download from our website (insert link). The data 
 #### Why are you publishing data in this way?
 We are proud to be associated with our partner organisations and this is a way to share information about our collective work that can support learning and better decision-making in the charitable giving sector. Publishing open data about grants awarded in this way complements the news shared about the partners’ work and achievements.
 
-For more information about the 360Giving initiative visit their website: [https://www.threesixtygiving.org/](https://www.threesixtygiving.org/)
+For more information about the 360Giving initiative visit their website: <a href="https://www.threesixtygiving.org/" target="_blank">https://www.threesixtygiving.org/</a>
 
 ### Example open data policy
-An example of [an open data policy](https://github.com/opendataservices/opendatapolicy) is available, written by some of the experts who helped create the 360Giving Data Standard. It can be used as a template for any organisation’s data policy and adjusted to reflect specific circumstances and needs.
+An example of <a href="https://github.com/opendataservices/opendatapolicy" target="_blank">an open data policy</a> is available, written by some of the experts who helped create the 360Giving Data Standard. It can be used as a template for any organisation’s data policy and adjusted to reflect specific circumstances and needs.
 
 Adopting an open data policy for your organisation will help to guide the checks you make before publishing data, and record the range and type of changes that may need to be made to your grant information before sharing it openly.
 
@@ -253,13 +254,13 @@ If you want to discuss this data protection guidance and how it relates to your 
 Further help with data protection:
 
 Organisations:
-- [The UK Anonymisation Network (UKAN)](https://ukanon.net/)
-- [ICO](https://ico.org.uk/)
+- <a href="https://ukanon.net/" target="_blank">The UK Anonymisation Network (UKAN)</a>
+- <a href="https://ico.org.uk/" target="_blank">ICO</a>
 
 Resources:
-- [ICO Guide to data protection: Anonymisation](https://ico.org.uk/media/for-organisations/documents/1061/anonymisation-code.pdf)
-- [UKAN training](https://ukanon.net/training/)
-- [ODI Anonymisation Decision-Making Framework](http://theodi.github.io/ukan-course/assets/odi-data-anonymization.pdf)
+- <a href="https://ico.org.uk/media/for-organisations/documents/1061/anonymisation-code.pdf" target="_blank">ICO Guide to data protection: Anonymisation</a>
+- <a href="https://ukanon.net/training/" target="_blank">UKAN training</a>
+- <a href="http://theodi.github.io/ukan-course/assets/odi-data-anonymization.pdf" target="_blank">ODI Anonymisation Decision-Making Framework</a>
 
 Click **Next** to progress to the second stage of the 360Giving publishing process - Preparing your grant data.
 
