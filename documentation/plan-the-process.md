@@ -18,6 +18,7 @@ It will normally be possible to estimate the work involved once you have decided
 .. admonition:: Key tasks
 
   Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
+  
   Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
 ```
 
