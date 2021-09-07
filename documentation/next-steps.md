@@ -28,7 +28,7 @@ Once you have completed the 360Giving publication process for the first time, yo
 ### How to make updates to your data
 When you have more grant data to publish you will follow the same steps you used to prepare your data. 
  
-Once the data is ready and it has passed the Data Quality Tool tests you can either: 
+Once the data is ready and it has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> tests you can either: 
 - Add the new grant data into the existing file of published data and re-upload the file to your website. If you can keep the file name and the position of the file the same following an update it will mean the link from the Data Registry to your data will stay the same – so your updates will automatically get picked up in our system.
 - Upload a new file alongside your existing file, add a link to the file from your hosting page and let the 360Giving Helpdesk know about the new file.
 
