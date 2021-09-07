@@ -4,9 +4,9 @@ By the end of this stage you will have a plan for the scope of the data you want
 ```eval_rst
 .. admonition:: Key tasks
 
-- Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
+1. Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
   
-- Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
+2. Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
 ```
 
 ## How long the process takes
