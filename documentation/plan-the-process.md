@@ -15,9 +15,10 @@ The amount of time it takes to prepare and share 360Giving data can vary dependi
 It will normally be possible to estimate the work involved once you have decided on the scope of your data.
 
 ```eval_rst
-.. admonition:: For example
+.. admonition:: Key tasks
 
-  If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+  Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
+  Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
 ```
 
 ## Decide what information to share
