@@ -1,4 +1,4 @@
-# 360Giving guide to metadata
+# Guide to metadata
 The 360Giving Data Standard allows funders to describe information about their grants, and provide information about the related organisations, programmes and activities.
 
 It is also possible to publish data about the data itself, called metadata.
