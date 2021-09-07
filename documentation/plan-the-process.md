@@ -51,7 +51,7 @@ If you don’t collect certain data or the information is not relevant to your g
 It is possible to start by publishing simpler information and over time, extend the range of fields you include.
 
 #### Further information about core and recommended fields
-You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard.</a>
+You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard.</a> (link opens in Google Sheets)
 
 For further information about all the possible fields in the 360Giving Data Standard visit the [Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/) 
 
@@ -88,10 +88,14 @@ You may find it helpful to look at the data published by other grantmakers when 
 We can also put you in touch with grantmakers who can share relevant experiences with you. 
 
 #### Data Registry
-360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources. You can access and download files of published data by visiting the <a href="https://data.threesixtygiving.org/" target="_blank">Data Registry.</a>
+360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
+
+You can access and download files on the Data Registry <a href="https://data.threesixtygiving.org/" target="_blank">here.</a>
 
 #### GrantNav
-GrantNav is a search-engine for grants data. You can explore and download data about where funding goes and how much is given across billions of pounds of grants. You can access GrantNav by visiting <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav.</a>
+GrantNav is a search-engine for grants data. You can explore and download data about where funding goes and how much is given across billions of pounds of grants.
+
+You can access GrantNav <a href="https://grantnav.threesixtygiving.org" target="_blank">here.</a>
 
 Each grant record has its own page with the 10 core fields showing at the top. The other fields that have been shared are displayed in a table.
 
@@ -104,12 +108,12 @@ You can also search the data by keyword. For example, this search shows grants a
 - You can download the results of your searches to see what data from a range of funders looks like.
 - You can also open the results of a search in <a href="https://insights.threesixtygiving.org" target="_blank">360Insights.</a>
 
-For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">Help section.</a>**
+For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">Help section.</a>
 
 #### 360Insights
 360Insights is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funding across different areas – from grant dates to types of recipients.
 
-You can access 360Insights by visiting <a href="https://insights.threesixtygiving.org" target="_blank">https://insights.threesixtygiving.org</a>
+You can access 360Insights <a href="https://insights.threesixtygiving.org" target="_blank">here.</a>
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
@@ -178,7 +182,7 @@ We encourage publishers to carefully consider the value of publishing any person
 Before making a decision on including personal data:
 - Review the ICO’s <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/" target="_blank">Key definitions of the data protection act</a> to understand the difference between non-personal data, personal data and sensitive personal data;
 - Review the ICO’s <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/" target="_blank">Guide to data protection</a> to understand your organisation’s obligations;
-- Ensure your organisation has the power to (<a href="https://ico.org.uk/for-organisations/data-sharing-information-hub/" target="_blank">share the data</a>.
+- Ensure your organisation has the power to <a href="https://ico.org.uk/for-organisations/data-sharing-information-hub/" target="_blank">share the data</a>.
 
 #### Grants to named individuals
 The 360Giving Data Standard was designed for publishing data about grants awarded to organisations, however it is possible to publish grants awarded to individuals as well. 
@@ -209,7 +213,7 @@ Consider including additional fields in your internal data systems to log:
 
 Be aware that consent can be withdrawn at any time so you will also need to put in place processes to trigger a change to your open grants data if that happens.
 
-360Giving has a Take Down policy which sets out how we respond to requests to remove any published data linked from our Data Registry and loaded into our tools. To read the 360Giving Take Down policy visit: <a href="https://threesixtygiving.org/take-down-policy" target="_blank">https://threesixtygiving.org/take-down-policy</a>
+360Giving has a Take Down policy which sets out how we respond to requests to remove any published data linked from our Data Registry and loaded into our tools. You can read the 360Giving Take Down policy <a href="https://threesixtygiving.org/take-down-policy" target="_blank">here.</a>
 
 #### Start by publishing what you can
 You can still take steps toward publishing your data, even if you find that there are some data protection policy issues to address. Consider which fields and grant records are not affected by any barriers, and move forward with publishing these. The learning from this process can then be applied back to other grants once the policy issues are resolved.
@@ -221,7 +225,7 @@ Consider whether any of your grant data might contain other sensitive informatio
 
 **Sharing Data Responsibly – A Conversation Guide for Funders** is designed for funders and grantmakers who want practical advice on how to treat their grantees’ data responsibly. Published by the Ariadne Network and Engine Room, this report is aimed at Human Rights funders working internationally, but has relevant information for all other types of funders.
 
-To read the Responsible Data guide visit: <a href="http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/" target="_blank">http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/</a>
+You can access the Responsible Data guide <a href="http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/" target="_blank">here.</a>
 
 The guide follows the grant management cycle, providing information to guide decisions at each stage:
 - **Data collecting**: managing data in the application, monitoring and reporting phases.
