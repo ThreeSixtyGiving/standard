@@ -11,6 +11,43 @@ First Header | Second Header | Extra column
 Content from cell 1 | Content from cell 2 | more data
 Content in the first column | Content in the second column | more data
 
+```eval_rst
+
+.. admonition:: Why identifiers matter
+
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on.
+
+  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
+
+```
+
+```eval_rst
+.. admonition:: For example
+
+  If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+```
+
+```eval_rst
+
+.. admonition:: For example
+
+  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1070468' will use a list code prefix of ``GB-CHC``.
+
+  This gives an unique organisation identifier of ``GB-CHC-1070468``
+
+```
+
+````eval_rst
+.. hint::
+
+  UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
+
+  Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. `Learn more`__ about how to avoid this pitfall.
+.. __: https://www.threesixtygiving.org/support/company-numbers/
+
+````
+
+
 ## Who is this guide for?
 
 This guide is for anyone from a UK funding organisation who wants to publish their grants data openly in the 360Giving Data Standard. 
