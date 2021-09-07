@@ -10,6 +10,12 @@ By the end of this stage you will have a plan for the scope of the data you want
 
 ```
 
+```eval_rst
+.. admonition:: For example
+
+  If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+```
+
 ## How long the process takes
 The amount of time it takes to prepare and share 360Giving data can vary depending on your circumstances. The key factors that can determine how long the process will take are:
 - The type of grants management system used
