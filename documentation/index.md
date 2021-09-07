@@ -70,6 +70,7 @@ You can also contact the 360Giving data support team with your questions and sug
    next-steps
    reference
    identifiers
+   metadata
    governance
    sc-tor
 ```
