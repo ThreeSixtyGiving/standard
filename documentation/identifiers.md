@@ -75,6 +75,19 @@ To create your grant identifiers:
 
   ``360G-xyztrust-123_ABC``
 
+  ```eval_rst
+  .. admonition:: Hint
+
+  If you do not have a unique grant reference to use, or the ones you have should not be shared in open data due to privacy or security issues, then you will need to create an identifier for each grant.
+
+  If you need to create identifiers you can use sequential numbers. Also including the year in which the grant was awarded helps to group the grants and makes it possible to restart the sequential numbers at the beginning of each year.
+
+  You can use any reference you choose as long as it is unique within your organisation. The 360Giving prefix will then be added to make the identifier globally unique.
+
+```
+
+
+
 ```eval_rst
 .. _organisation-identifier:
 ```
@@ -91,7 +104,7 @@ There are many different kinds of organisations that give, receive or benefit fr
 * Schools, universities and other educational establishments
 * Individuals
 
-Most organisations (with the exception of unregistered voluntary and community groups) have some sort of official registration number that can be used as a unique identifier and used to look up their details from an official registers or public list.
+Most organisations (with the exception of unregistered voluntary and community groups) have some sort of official registration number that can be used as a unique identifier and used to look up their details from an official register or public list.
 
 There are two parts to an organisation identifier:
 
@@ -104,9 +117,9 @@ In 360Giving data we ask publishers to use a list code prefix taken from the [or
 
 .. admonition:: For example
 
-  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1070468' will use a list code prefix of ``GB-CHC``.
+  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1164883' will use a list code prefix of ``GB-CHC``.
 
-  This gives an unique organisation identifier of ``GB-CHC-1070468``
+  This gives an unique organisation identifier of ``GB-CHC-1164883``
 
 ```
 
@@ -153,6 +166,27 @@ If you have a registered number from some other scheme, including overseas regis
 
 If you do not have any external registration numbers for the organisation, use your 360Giving prefix and any internal identifier you have for this organisation. For guidance about how to create unique internal identifiers, [contact the support team](https://www.threesixtygiving.org/contact/).
 
+### Organisations without official registration numbers
+
+Not all organisations have an official registration number to use, including small unregistered groups and individuals.
+
+When there isn’t an official registration number for a recipient then you must provide an internal identifier instead, combining your 360Giving publisher prefix with any internal identifier you have for this organisation. This could be the organisation’s account record reference from your database.
+
+If no account record reference is available, or there are security or privacy reasons that mean this information should not be published, the internal identifier can be created using the recipient name. The name can be turned into an identifier by removing the spaces between words or replacing spaces with dash or underscore.
+
+```eval_rst
+
+.. admonition:: Hint: Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
+
+
+  360Giving publisher prefix: 360G-XYZFunder
+  Recipient Org:Name: ABC Recipient
+  Account ID: 123456
+
+  If using the account ID: 360G-XYZFunder-123456
+  If using the recipient name: 360G-XYZFunder-ABC-Recipient
+
+```
 
 ```eval_rst
 
