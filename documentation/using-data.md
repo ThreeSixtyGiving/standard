@@ -4,15 +4,15 @@ The 360Giving Data Standard enables funders to share information about their gra
 
 360Giving has developed tools to make the data easier for people to explore
 
-* GrantNav: [https://grantnav.threesixtygiving.org/]
+* GrantNav: [https://grantnav.threesixtygiving.org/](https://grantnav.threesixtygiving.org/)
 
 A search-engine for grants data. Explore and download in detail on where and how much funding goes across billions of pounds of grants.
 
-* 360Insights: [https://insights.threesixtygiving.org/]
+* 360Insights: [https://insights.threesixtygiving.org/](https://insights.threesixtygiving.org/)
 
 A tool to combine and visualise 360Giving and charity data to understand funders better. You can explore funding across different areas – from grant dates to types of recipients.
 
-* Data Registry: [https://data.threesixtygiving.org/]
+* Data Registry: [https://data.threesixtygiving.org/](https://data.threesixtygiving.org/)
 
 A list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
 
@@ -20,4 +20,4 @@ A list of all the organisations that currently publish their grants data in the 
 
 For guidance for developers and data analysts how to access and use grants data published to the 360Giving Data Standard please visit:
 
-[https://www.threesixtygiving.org/data/using-360giving-data/]
+[https://www.threesixtygiving.org/data/using-360giving-data/](https://www.threesixtygiving.org/data/using-360giving-data/)
