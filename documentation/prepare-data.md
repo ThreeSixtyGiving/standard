@@ -52,7 +52,7 @@ This multi-sheet spreadsheet template consists of all the fields in the 360Givin
 
 There is a main ‘grants’ sheet which includes the 10 core fields and other common data fields. Additional sheets allow for the sharing of further information. 
 
-To download the 360Giving Spreadsheet Template visit: [https://standard.threesixtygiving.org/en/latest/reference/#spreadsheet-format](https://standard.threesixtygiving.org/en/latest/reference/#spreadsheet-format)
+You can download the 360Giving Spreadsheet Template [here.](https://standard.threesixtygiving.org/en/latest/reference/#spreadsheet-format)
 
 #### Making changes to the 360Giving Spreadsheet Template
 You can adapt the template to suit your needs and make changes to:
@@ -133,7 +133,7 @@ If you manage your own Salesforce system, you can either get support from a Sale
 Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss your options for setting up your Salesforce grants management system for 360Giving publishing.
 
 #### Guidance for community foundations using Digits2 Salesforce system
-If you are a community foundation using the Digits2 grants management system, please refer to our special guidance about the built-in 360Giving data extract to publishing 360Giving data: <a href="https://threesixtygiving.org/communityfoundations/cf-publishing-guide" target="_blank">https://threesixtygiving.org/communityfoundations/cf-publishing-guide</a>
+If you are a community foundation using the Digits2 grants management system, please refer to our special guidance about the built-in 360Giving data extract to publishing 360Giving data <a href="https://threesixtygiving.org/communityfoundations/cf-publishing-guide" target="_blank">here.</a>
 
 The guide includes a video walk-through and instructions on how to export 360Giving-formatted data from your Digits2 system. The step-by-step instructions for using the extract tool are also available to download in a PDF version.
 
@@ -213,7 +213,7 @@ See our full guidance on metadata for further details.**NEED TO ADD METADATA SEC
 ### Converting Postcodes into Geocodes to anonymise address information
 Converting postcode data into geocodes protects the privacy of recipients while allowing you to include useful data that will allow your grants to be geolocated. The practical process may vary depending on the process you use for preparing your 360Giving data and the volume of data.
 
-Geocodes can be found using the Find that Postcode website: <a href="https://findthatpostcode.uk/" target="_blank">https://findthatpostcode.uk/</a>
+Geocodes can be found using the <a href="https://findthatpostcode.uk/" target="_blank">Find that Postcode website.</a>
 
 Firstly, use the search on the homepage. You can enter a postcode and get details of the full range of geocodes associated with that location, for example these are the results for the <a href="https://findthatpostcode.uk/postcodes/N1%209AG.html" target="_blank">London postcode N1 9AG</a>. 
 
@@ -224,15 +224,15 @@ You should then decide which type of geocode to include in your data.
 If you’re preparing a small number of grants at a time then manually searching to get the relevant codes and adding these into your data at the data preparation stage could be a straightforward approach.
 
 #### Using Postcode to Geocode lookup tool
-Find that Postcode has a ‘Add fields to CSV’ service which means you can upload a list of postcodes into the tool and then download a file with all the geodata you’ve chosen to use: <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">https://findthatpostcode.uk/addtocsv/</a>
+Find that Postcode has a <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">'Add fields to CSV'</a> service which means you can upload a list of postcodes into the tool and then download a file with all the geodata you’ve chosen to use.
 
 If you have a batch of postcodes to convert to geocodes, the practical steps might involve: 
 
 1. Prepare your 360Giving data including a column with the relevant postcode data.
 2. If using Excel, convert this file into CSV format. See this guidance for further details of <a href="https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba" target="_blank">how to convert a file between Excel Workbook and CSV.</a>
-3. Upload this file into the ‘Add fields to CSV’ service: <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">https://findthatpostcode.uk/addtocsv/</a>
+3. Upload this file into the 'Add fields to CSV' service at <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">https://findthatpostcode.uk/addtocsv/</a>
 4. Select your preferred geocode types.
-5. Click ‘Add data to CSV’. The tool will automatically download an updated version of your file with geocodes included.
+5. Click 'Add data to CSV'. The tool will automatically download an updated version of your file with geocodes included.
 6. Delete the column of postcode data from this version of the file.
 7. Rename the new columns to match the 360Giving Data Standard.
 For example if using Ward codes the headings should be renamed as follows:
