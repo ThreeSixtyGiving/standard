@@ -4,9 +4,9 @@ By the end of this stage you will have a plan for the scope of the data you want
 ```eval_rst
 .. admonition:: Key tasks
 
-  1. Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
+- Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
   
-  2. Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
+- Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
 ```
 
 ## How long the process takes
@@ -17,14 +17,6 @@ The amount of time it takes to prepare and share 360Giving data can vary dependi
 - If key data is poor quality or missing
 
 It will normally be possible to estimate the work involved once you have decided on the scope of your data.
-
-```eval_rst
-.. admonition:: Key tasks
-
-  1. Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
-  
-  2. Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
-```
 
 ## Decide what information to share
 The full 360Giving Data Standard is comprehensive, with over 100 fields available to describe information about grants, recipients and funding organisations, programmes, locations and more.
