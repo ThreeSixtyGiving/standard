@@ -60,10 +60,21 @@ The name that appears on the 360Giving Data Registry is controlled by 360Giving.
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
 An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
-360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request. 
+360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
-## Get to know the 360Giving Tools
-Explore your data in 360Giving tools: GrantNav and 360Insights.
+**Using 360Giving data**
+The 360Giving Data Standard enables funders to share information about their grants in a way that anyone can access and use, for free. Because the data is standardised, it can be looked at and analysed all together, helping us all to understand grantmaking across the UK.
+
+360Giving has developed tools to make the data easier for people to explore.
+GrantNav: https://grantnav.threesixtygiving.org/ 
+A search-engine for grant data. Explore and download in detail on where and how much funding goes across billions of pounds of grants.
+360Insights: https://insights.threesixtygiving.org/
+A tool to combine and visualise 360Giving and charity data to understand funders better. You can explore funding across different areas – from grant dates to types of recipients.
+Data Registry: https://data.threesixtygiving.org/ 
+A list of all the organisations that currently publish their grant data in the 360Giving Data Standard, with direct links to their data sources.
+
+***Access for developers and data analysts***
+Find further guidance for developers and data analysts on how to access and use 360Giving datandard <a href>"https://www.threesixtygiving.org/data/using-360giving-data/" target="_blank">here.</a> 
 
 ## Share with your colleagues
 How can using grants data support your work?
