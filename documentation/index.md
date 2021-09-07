@@ -68,7 +68,6 @@ You can also contact the 360Giving data support team with your questions and sug
    prepare-data
    publish-data-openly
    next-steps
-   getdata
    reference
    identifiers
    governance
