@@ -5,21 +5,21 @@ Key tasks
 - Decide what open license to use.
 - Select a location online to host your data.
 - Publish your 360Giving data file alongside the details of the open license.
-- Let 360Giving know about your file so it can be added to the 360Giving Data Registry: <a href="https://data.threesixtygiving.org/" target="_blank">https://data.threesixtygiving.org/</a>
+- Let 360Giving know about your file so it can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
 
 ## How to make your 360Giving data open
-Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit Open Definition: <a href="https://opendefinition.org" target="_blank">https://opendefinition.org</a>
+Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit the <a href="https://opendefinition.org" target="_blank">Open Definition website.</a>
 
 ### Choose an open license
 While there are several choices for open data licenses, we recommend a license that does not restrict use but does acknowledge you, the publisher. 
 
 To this end, our default recommendation is the Creative Commons Attribution 4.0 International (CC BY 4.0). With this license, anyone can share or adapt your data for any purpose, even commercially. The only restrictions are that they must give appropriate credit, provide a link to the license, and note any changes made. 
 
-Find out more about the <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 license</a> 
+Find out more about the <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 license.</a> 
 
 If you are a UK public sector organisation, you should use the Open Government License. This is the UK government’s open data license which public sector bodies are encouraged to use by the (<a href="https://ico.org.uk/for-organisations/guide-to-rpsi/" target="_blank">Re-use of Public Sector Information Regulations 2015 (RPSI.)</a>
 
-Find out more about Open Government License 3.0: <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</a>
+Find out more about the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">Open Government License 3.0.</a>
 
 #### Why 360Giving data is openly licensed
 Without a license, data is not open data and potential users would not know what they are allowed to do with it.
@@ -90,7 +90,7 @@ If you can upload the 360Giving file into the backend of your website but cannot
 Please see our guidance on metadata for further guidance. **need to link to guidance**
 
 ### Register your file with 360Giving
-Once your 360Giving data file is published, the final step is to let us know so we can add a link to the file from the 360Giving Data Registry: <a href="https://data.threesixtygiving.org/" target="_blank">https://data.threesixtygiving.org/</a>
+Once your 360Giving data file is published, the final step is to let us know so we can add a link to the file from the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
 
 The 360Giving Data Registry is a list of all the organisations that currently publish their grant data in the 360Giving Data Standard, with direct links to their data sources. Anyone can access the Registry to view, download and use the data.
 
@@ -142,3 +142,5 @@ By default, Wordpress websites organise uploads by year and month but it is poss
 Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/#alternative-options-for-360giving-data-hosting) for more details.
  
 Maintaining a consistent link can be a convenient approach to file 360Giving file management however you can always contact 360Giving Helpdesk via <support@threesixtygiving.org> about data updates, and we can check the file and update the Data Registry as needed.
+
+Click **Next** for your next steps after publishing.
