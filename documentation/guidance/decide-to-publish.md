@@ -32,17 +32,17 @@ For UK grantmakers, we have developed the 360Giving Data Standard for this purpo
 
 The 360Giving Data Standard is:
 - Open data driven: providing a common way to share transparent and interoperable information on grantmaking.
-- Easy to use: offering a simple spreadsheet format for publishing and consuming data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
+- Easy to use: offering a simple spreadsheet format for publishing and using data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
 - Comprehensive:  Supporting in-depth analysis of grants, grantees, and beneficiaries to provide a 360 degree view of grantmaking.
 
 Free support is available from our support team to help you to publish and use 360Giving data.
 
-Full schema documentation is in the [Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/)
+Full schema documentation can be found in the [Reference section](https://standard.threesixtygiving.org/en/new-docs-style/reference/),which provides all the technical reference information on publishing using the 360Giving Data Standard.
 
 ### An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
 - <a href="https://forum.threesixtygiving.org/" target="_blank">The 360Giving forum</a>: open for general discussions about the standard and proposed updates.
-- <a href="https://github.com/ThreeSixtyGiving/standard/issues" target="_blank">The issue tracker for the standard/</a>: for bug reports.You can also contact the 360Giving support team with your questions and suggestions via <support@threesixtygiving.org>
+- <a href="https://github.com/ThreeSixtyGiving/standard/issues" target="_blank">The issue tracker for the standard</a>: for bug reports.You can also contact the 360Giving support team with your questions and suggestions via <support@threesixtygiving.org>
 - The [Governance and Revision Control](https://standard.threesixtygiving.org/en/new-docs-style/governance/) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
 
 ### Key concepts
@@ -63,12 +63,14 @@ Organisations that share 360Giving data are the owners of the information and wh
 #### JSON
 The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
 
-For further information visit JSON Schema:<a href="https://json-schema.org/" target="_blank">https://json-schema.org/</a>
+For further information visit JSON Schema: <a href="https://json-schema.org/" target="_blank">https://json-schema.org/</a>
 
 ## Who is this guide for?
 This guide is for anyone from a UK funding organisation who wants to publish their grants data openly in the 360Giving Data Standard. 
 
-This guide will help organisations publish data for the first time. It will also be useful to:
+This guide will help organisations publish 360Giving data for the first time.
+
+It will also be useful to:
 - People taking over responsibility for preparing and sharing 360Giving data for their organisation from a colleague.
 - Anyone who wants to know more about what sharing 360Giving data involves.
 
@@ -76,8 +78,9 @@ It is designed to help you at any stage of the publishing process – whether yo
 
 We want to help you achieve your goal of publishing open and comparable grants data using the 360Giving Data Standard.
 
-**This isn’t a reporting process, it’s an opportunity to let people know about your grantmaking using data.**
+This isn’t a reporting process, it’s an opportunity to let people know about your grantmaking using data.
 
+### 360Giving Helpdesk
 Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
 
 At any point in this process we invite you to contact our free Helpdesk via <support@threesixtygiving.org> with queries, large or small.
