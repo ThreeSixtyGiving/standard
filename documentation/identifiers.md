@@ -6,7 +6,7 @@
 
   Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on.
 
-  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
+  Whilst a human being may be good at recognising that “R S P B”, “Royal Society for the Protection of Birds” and “The RSPB” all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
 
 ```
 
@@ -29,15 +29,15 @@ These go in an ```Identifier``` column alongside accessible text descriptions of
 
 You may already have identifiers in your own data. For example, a number for each application or grant. You can use these existing **internal identifiers** as part of your published data.
 
-*However,* because there might be an overlap between the internal identifiers you use, and the internal identifiers another funder uses, you need to add a **prefix** to avoid this possible clash.
+However, to avoid overlap between the internal identifiers you use and the internal identifiers another funder uses, you need to add a **prefix**.
 
 ```eval_rst
 .. admonition:: For example
 
-  If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
+  If Indigo Trust have a grant called 'Grant27', and the Dulverton Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-dulverton-Grant27'
 ```
 
-For grants, and other identifiers particular to your organisation, you use can use a **360G prefix**.
+For grants, and other identifiers particular to your organisation, you use can use a **360Giving prefix**.
 
 For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below.
 
@@ -50,8 +50,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 
 To register a prefix for your organisation see the [publisher guidance](https://www.threesixtygiving.org/support/publish-data).
 
-All registered prefixes should start with 360G unless you have been advised otherwise by the support team.
-
+All registered prefixes should start with 360G.
 ```eval_rst
 .. _grant-identifier:
 ```
@@ -61,7 +60,7 @@ All registered prefixes should start with 360G unless you have been advised othe
 To create your grant identifiers:
 
 1. Make sure you have asked for a 360Giving prefix.
-2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique inside your organisation, so adding the prefix will make it unique across the whole world.
+2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique **inside your organisation**, so adding the prefix will make it unique across the whole world.
 3. Add your 360Giving prefix in front of your identifier.
 
 ```eval_rst
