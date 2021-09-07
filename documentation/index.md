@@ -62,12 +62,15 @@ You can also contact the 360Giving data support team with your questions and sug
 .. toctree::
    :maxdepth: 1
 
+   decide-to-publish
+   before-starting
+   plan-the-process
+   prepare-data
+   publish-data-openly
+   next-steps
+   getdata
    reference
    identifiers
-   data-protection
-   licensing
    governance
-   getdata
    sc-tor
-   guidance/index
 ```
