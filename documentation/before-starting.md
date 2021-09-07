@@ -46,7 +46,7 @@ Any type of funder can publish their grants data to the 360Giving Data Standard.
 
 The majority of funders sharing 360Giving data make grants to recipients based in the UK, however it is also possible to use the 360Giving Data Standard to share data about international grants.
 
-Read our blog to find out more about the different types of funders publishing 360Giving data: <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank">https://www.threesixtygiving.org/ideas-updates/</a>
+Read <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank">our blog</a>to find out more about the different types of funders publishing 360Giving data. 
 
 ## Support
 This guide has been developed to support funders through the 360Giving publishing process.
@@ -56,7 +56,7 @@ For further guidance and practical support at any stage, please contact the 360G
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-To access the Community Foundations Guide to 360Giving data publishing visit: <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/</a>
+Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.</a>
 
 ## About grants management systems
 Funders of all shapes and sizes have become 360Giving data publishers, using a wide range of grants management systems and some by collecting basic data in spreadsheets.
