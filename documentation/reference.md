@@ -259,9 +259,11 @@ Original row:
 The new row:
 
 ```eval_rst
-|Identifier       |Title|… (other columns)|Amount Disbursed|
-|-----------------|-----|-----------------|----------------|
-|360G-xyztrust-123|     |…                |2500            |
++-----------------+----------------------+-----------------+----------------+
+|Identifier       |Title                 |… (other columns)|Amount Disbursed|
++-----------------+----------------------+-----------------+----------------+
+|360G-xyztrust-123|                      |…                |2500            |
++-----------------+----------------------+-----------------+----------------+
 ```
 
 In the second row, the fields which were originally populated with information are left blank so as to avoid conflicts, and the additional information is added to the "Amount Disbursed" column. This means the multiple rows method can only be used to add new data, and it is not suitable for amending data that has already been published.
