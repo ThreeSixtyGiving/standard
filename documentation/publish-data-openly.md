@@ -17,6 +17,7 @@ To this end, our default recommendation is the Creative Commons Attribution 4.0 
 
 Find out more about the <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 license.</a> 
 
+#### Open license for the public sector
 If you are a UK public sector organisation, you should use the Open Government License. This is the UK government’s open data license which public sector bodies are encouraged to use by the (<a href="https://ico.org.uk/for-organisations/guide-to-rpsi/" target="_blank">Re-use of Public Sector Information Regulations 2015 (RPSI.)</a>
 
 Find out more about the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">Open Government License 3.0.</a>
@@ -46,8 +47,8 @@ It is best practise for organisations publishing data to the 360Giving Data Stan
 
 You can host the data file anywhere on your site and place a link to it where it can be easily found.
 - You could create a dedicated “open grants” section/page on your website.
-- You could link to your data file from an existing page which shares information about your grants awarded, or alongside your annual report
-- Or another place which makes sense for your website’s structure.
+- You could link to your data file from an existing page which shares information about your grants awarded, or alongside your annual report.
+- Or you can choose another place which makes sense for your website’s structure.
 
 #### Example hosting pages
 Here are some examples of what other 360Giving publishers have done.
@@ -139,7 +140,7 @@ Some websites automatically assign a new folder position to files each time they
  
 By default, Wordpress websites organise uploads by year and month but it is possible to turn off this feature if preferred. See this guidance about <a href="https://answeryourtech.com/how-to-stop-putting-uploads-into-month-and-date-folders-in-wordpress/" target="_blank">updating the folder settings in Wordpress</a> for further details.
  
-Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/#alternative-options-for-360giving-data-hosting) for more details.
+Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](https://standard.threesixtygiving.org/en/new-docs-style/publish-data-openly/#alternative-options-for-360giving-data-hosting) for more details.
  
 Maintaining a consistent link can be a convenient approach to file 360Giving file management however you can always contact 360Giving Helpdesk via <support@threesixtygiving.org> about data updates, and we can check the file and update the Data Registry as needed.
 
