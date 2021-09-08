@@ -65,11 +65,6 @@ Where and how you collect and store information about your grants has a fundamen
 
 One of the first questions we’ll ask when you contact 360Giving Helpdesk is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
 
-``` eval_rst
-.. hint::
-  See the Prepare section for further details about the likely impact your grants management system on your publishing process.
-```
-```eval_rst
-
+See the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/) for further details about the likely impact your grants management system on your publishing process.
 
 Click **Next** to find out more about the first stage of the 360Giving publishing process - Planning your data.

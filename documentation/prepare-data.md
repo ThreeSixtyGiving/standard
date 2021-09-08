@@ -232,10 +232,9 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
 4. Select your preferred geocode types.
 5. Click 'Add data to CSV'. The tool will automatically download an updated version of your file with geocodes included.
 6. Delete the column of postcode data from this version of the file.
-7. Rename the new columns to match the 360Giving Data Standard.
-For example if using Ward codes the headings should be renamed as follows:
-- Ward Code = Recipient Org:Location:Geographic Code
-- Ward Name = Recipient Org:Location:Name
+7. Rename the new columns to match the 360Giving Data Standard. For example if using Ward codes the headings should be renamed as follows:
+  - Ward Code = Recipient Org:Location:Geographic Code
+  - Ward Name = Recipient Org:Location:Name
 8. Re-save as Excel file (xlsx file format).
 
 Click **Next** to progress to the third stage of the 360Giving publishing process - Publishing your grant data.
