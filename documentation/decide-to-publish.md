@@ -23,7 +23,7 @@ Information is an asset. It is also knowledge and power. With 360Giving data, we
 
 - **It helps bring better outcomes for recipients**. By saving resources and enabling better, more targeted funding decisions, 360Giving data helps funders focus on what’s most important: meeting the needs of their beneficiaries – the people, organisations and causes that they want to support.
 
-Read <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank">our blog</a>to find out more about how 360Giving data is being used. 
+Read <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank"> our blog</a> to find out more about how 360Giving data is being used. 
 
 ## 360Giving Data Standard
 For open data to be really useful it has to follow an agreed format – a standard – so it can be easily compared with data from other organisations.
@@ -37,7 +37,8 @@ The 360Giving Data Standard is:
 
 Free support is available from our support team to help you to publish and use 360Giving data.
 
-Full schema documentation can be found in the [Reference section](https://standard.threesixtygiving.org/en/new-docs-style/reference/),which provides all the technical reference information on publishing using the 360Giving Data Standard.
+Full schema documentation can be found in the [Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/)
+This part of this guide provides the technical reference information on publishing using the 360Giving Data Standard.
 
 ### An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
@@ -50,7 +51,7 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
 #### Open data
 360Giving data is open data, which is defined as follows:
 
-> Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).
+   > Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).
 
 For further information visit the <a href="https://opendefinition.org/" target="_blank">Open Definition website.</a>
 
