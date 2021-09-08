@@ -4,9 +4,9 @@ By the end of this stage you will have prepared your grant data ready for publis
 **Key tasks**
 - Decide whether to publish using spreadsheet or JSON file format.
 - Prepare your data.
-
-For many publishers this is a manual process which involves exporting data from a grants management system and converting it into a spreadsheet. However, some grants management systems have some or all of the steps needed to convert the information into 360Giving data built-in to the system. 
 - Check that this file passes the tests in the Data Quality Tool, so that it is compatible with other 360Giving data.
+
+For many publishers preparing data is a manual process which involves exporting data from a grants management system and converting it into a spreadsheet. However, some grants management systems have some or all of the steps needed to convert the information into 360Giving data built-in to the system. 
 
 ## Register to become a 360Giving data publisher
 Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk: <support@threesixtygiving.org>. 
@@ -28,7 +28,7 @@ There are 360Giving publishers without a database or grants management system wh
 
 However if you don’t currently collect information about your grants, you will need to start gathering that data in order to publish it using the 360Giving Data Standard. 
 
-Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a 360Giving Conversion Tool template. 
+Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a 360Giving Conversion Tool template. For further details see the options for publishing using a spreadsheet section [below.](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#options-for-publishing-using-a-spreadsheet)
 
 #### Publishing with a grants management system
 If you use a grants management system provided by a software company it is unlikely that you will be able to build in 360Giving publishing into the system itself. However you should be able to set up and save a report to export the source information for your 360Giving data and convert it into the right formats in a spreadsheet.
@@ -108,8 +108,6 @@ For example to create an **Identifier** which is a unique grant ID from your sys
 **Recipient Org:Identifier** are also created using a formula which provides the correct prefix depending on whether there is charity, company or other type of register number available. If there is no register number, the formula can instead create an organisation identifier using a unique ID for the recipient from your system or the recipient organisation name. 
 
 See our guidance for further details about [Organisation Identifiers.](https://standard.threesixtygiving.org/en/new-docs-style/identifiers/#organisation-identifier)
-
-You can view and download a simple example version of a conversion tool template here.**NEED TO DECIDE WHETHER TO LINK OR REMOVE**
 
 For further guidance about setting up and using a conversion tool, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
@@ -208,7 +206,7 @@ Including metadata allows you as the publisher to ensure key information is prov
 
 As with the main 360Giving Data Standard, alongside the official fields is it possible to include additional information.
 
-See our full guidance on metadata for further details.**NEED TO ADD METADATA SECTION AND ADD LINK**
+See our full [guidance on metadata](https://standard.threesixtygiving.org/en/new-docs-style/metadata/) for further details.
 
 ### Converting Postcodes into Geocodes to anonymise address information
 Converting postcode data into geocodes protects the privacy of recipients while allowing you to include useful data that will allow your grants to be geolocated. The practical process may vary depending on the process you use for preparing your 360Giving data and the volume of data.
