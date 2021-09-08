@@ -247,9 +247,12 @@ There may be cases where you need to release additional information about a gran
 Original row:
 
 ```eval_rst
++-----------------+----------------------+-----------------+----------------+
 |Identifier       |Title                 |… (other columns)|Amount Disbursed|
 |-----------------|----------------------|-----------------|----------------|
-|360G-xyztrust-123|An example grant title|…                |                |`
+|360G-xyztrust-123|An example grant title|…                |                |
++-----------------+----------------------+-----------------+----------------+
+
 ```
 
 The new row:
