@@ -245,15 +245,20 @@ e.g. to have two related documents with their own title and web address:
 There may be cases where you need to release additional information about a grant in a new row, or you can’t update the row where the grant is originally described. In these cases, use the same Identifier for the grant, and place the additional information in a new row under the relevant columns. You should only add new information, because consuming applications may try to merge the information into a single record.So placing contradictory information in fields that cannot have more than one value will result in a validation error.
 
 Original row:
+
+```eval_rst
 |Identifier       |Title                 |… (other columns)|Amount Disbursed|
 |-----------------|----------------------|-----------------|----------------|
-|360G-xyztrust-123|An example grant title|…                |                |
-
+|360G-xyztrust-123|An example grant title|…                |                |`
+```
 
 The new row:
+
+```eval_rst
 |Identifier       |Title|… (other columns)|Amount Disbursed|
 |-----------------|-----|-----------------|----------------|
 |360G-xyztrust-123|     |…                |2500            |
+```
 
 In the second row, the fields which were originally populated with information are left blank so as to avoid conflicts, and the additional information is added to the "Amount Disbursed" column. This means the multiple rows method can only be used to add new data, and it is not suitable for amending data that has already been published.
 
