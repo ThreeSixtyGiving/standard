@@ -54,7 +54,7 @@ However this process is only possible if you do not make significant changes to 
 
 The name of the funding organisation that appears on GrantNav and 360Insights is derived from the 360Giving data that is published. This means that to update how your name appears you need to update the text in the Funding Org:Name column in your data, and then re-publish the file(s).
 
-The name that appears on the 360Giving Data Registry is controlled by 360Giving. For any queries about the process to change the name in your data, and to request an amendment to the 360Giving Data Registry please contact the 360Giving Helpdesk via support@threesixtygiving.org.
+The name that appears on the 360Giving Data Registry is controlled by 360Giving. For any queries about the process to change the name in your data, and to request an amendment to the 360Giving Data Registry please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ### Taking down published data
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
@@ -62,7 +62,7 @@ An organisation is free to decide to stop publishing data and/or can remove the 
 
 360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
-**Using 360Giving data**
+## Using 360Giving data
 The 360Giving Data Standard enables funders to share information about their grants in a way that anyone can access and use, for free. Because the data is standardised, it can be looked at and analysed all together, helping us all to understand grantmaking across the UK.
 
 360Giving has developed tools to make the data easier for people to explore.
