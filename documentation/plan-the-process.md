@@ -4,9 +4,10 @@ By the end of this stage you will have a plan for the scope of the data you want
 ```eval_rst
 .. admonition:: Key tasks
 
-1. Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
+Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
   
-2. Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
+Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
+
 ```
 
 ## How long the process takes
@@ -178,7 +179,7 @@ Some publishers avoid the possibility of publishing home address data by sharing
 
 This option has been used by funders who frequently fund smaller or informal groups where there is a high likelihood of home addresses appearing in their data. This approach also suits funders who award large volumes of grants where distinguishing which recipients use home addresses would be challenging or time-consuming.
 
-For further information see our [guidance about how to convert postcodes into geocodes.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information)
+For further information see our [guidance about how to convert postcodes into geocodes.](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information)
 
 ### If you intend to publish personal data
 We encourage publishers to carefully consider the value of publishing any personal information as part of their 360Giving data and discourage sharing of special category data (including racial or ethnic origin and health information).
