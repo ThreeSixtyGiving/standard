@@ -83,12 +83,12 @@ Examples of public sector data hosting pages:
 #### Alternative file hosting methods
 For organisations without a website (or web hosting), an alternative solution is to share the data through accessible and popular file sharing services ie. cloud storage.
 
-Please see our step by step guide on how to use Google Drive and Dropbox sharing services to host 360Giving data. **need to make accessible version of PDF or include content here**
+Please see our <a href="https://docs.google.com/document/d/18jekvaES60bea89sHZ_eqyzxAt-PE-ePikXJMeVNUm8/edit?usp=sharing" target="_blank">step by step guide</a> on how to use Google Drive and Dropbox sharing services to host 360Giving data.
 
 #### Include open licensing information into your 360Giving data file
 If you can upload the 360Giving file into the backend of your website but cannot add the license text to a public page – in the short or longer term – you can include the open license information within the file itself using the Metadata sheet (or Package Schema if you are using JSON file format to publish). 
 
-Please see our guidance on metadata for further guidance. **need to link to guidance**
+Please see our [guidance about metadata](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#including-metadata-in-your-360giving-file) for further information.
 
 ### Register your file with 360Giving
 Once your 360Giving data file is published, the final step is to let us know so we can add a link to the file from the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
