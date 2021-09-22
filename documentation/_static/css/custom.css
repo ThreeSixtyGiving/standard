@@ -202,3 +202,20 @@ table.docutils--false {
   margin-top: 0.8rem;
   font-size: 1rem;
 }
+
+.sidebar-blog {
+  text-align: left;
+}
+
+@media (min-width: 36em) {
+  .layout--docs .layout__sidebar {
+    width: 380px;
+  }
+}
+
+.sidebar-blog__content .categories-list__item ul {
+  display: none;
+}
+.sidebar-blog__content .categories-list__item.category--active ul {
+  display: inherit;
+}
