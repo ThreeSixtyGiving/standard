@@ -139,7 +139,7 @@ Some organisations have more than one identifier: they might be a charity **and*
 
 If you have more than one type of identifier for an organisation recorded in your system, it will be necessary to pick which one to use when creating an Organisation identifier.
 
-[org-id.guide](https://org-id.guide) ranks identifier lists by relevance and quality to help you pick the best identifier, based on what information you hold.
+<a href="https://org-id.guide/" target="_blank"> org-id.guide</a> ranks identifier lists by relevance and quality to help you pick the best identifier, based on what information you hold.
 
 ```eval_rst
 
@@ -149,20 +149,20 @@ If you have more than one type of identifier for an organisation recorded in you
   * Quality: are the identifiers in this list stable and linked to open, accessible contextual data, and can they be easily mapped to other identifiers.
 ```
 
-Search on [org-id.guide](https://org-id.guide) for identifier sources for [UK organisations](https://org-id.guide/?structure=&coverage=GB&subnational=&sector=), [UK charities](https://org-id.guide/?structure=charity&coverage=GB&sector=), or [any other organisation type](https://org-id.guide/).
+Search on <a href="https://org-id.guide/" target="_blank"> org-id.guide</a> for identifier sources for <a href="https://org-id.guide/?structure=&coverage=GB&subnational=&sector=" target="_blank"> UK organisations</a>, <a href="https://org-id.guide/?structure=charity&coverage=GB&sector=" target="_blank"> UK charities</a>, or <a href="https://org-id.guide/" target="_blank"> any other organisation type</a>.
 
 ### Commonly used identifier lists
 
 The following identifier lists are often used in 360Giving publication.
 
-* UK Company Number - [GB-COH](https://org-id.guide/list/GB-COH)
-* Charity Numbers - [GB-CHC](https://org-id.guide/list/GB-CHC), [GB-SC](https://org-id.guide/list/GB-SC), [GB-NIC](https://org-id.guide/list/GB-NIC)
-* Education establishments - [GB-EDU](http://org-id.guide/list/GB-EDU) and [GB-UKPRN](http://org-id.guide/list/GB-UKPRN)
-* Local authorities - [GB-LAE](http://org-id.guide/list/GB-LAE) (England), [GB-LAS](http://org-id.guide/list/GB-LAS) (Scotland), [GB-PLA](http://org-id.guide/list/GB-PLA) (Wales),[GB-LANI](https://org-id.guide/list/GB-LANI)
-* Mutual societies - [GB-MPR](https://org-id.guide/list/GB-MPR)
-* HMRC-recognised charities - [GB-REV](https://org-id.guide/list/GB-REV)
+* UK Company Number - <a href="https://org-id.guide/list/GB-COH" target="_blank">GB-COH</a>
+* Charity Numbers - <a href="https://org-id.guide/list/GB-CHC" target="_blank">GB-CHC</a> (Eng & Wales), <a href="https://org-id.guide/list/GB-SC" target="_blank">GB-SC</a> (Scotland), <a href="https://org-id.guide/list/GB-NIC" target="_blank">GB-NIC</a> (Northern Ireland)
+* Education establishments - <a href="https://org-id.guide/list/GB-EDU" target="_blank">GB-EDU</a> and <a href="https://org-id.guide/list/GB-UKPRN" target="_blank">GB-UKPRN</a>
+* Local authorities - <a href="https://org-id.guide/list/GB-LAE" target="_blank">GB-LAE</a> (England), <a href="https://org-id.guide/list/GB-LAS" target="_blank">GB-LAS</a> (Scotland), <a href="https://org-id.guide/list/GB-PLA" target="_blank">GB-PLA</a> (Wales), <a href="https://org-id.guide/list/GB-LANI" target="_blank">GB-LANI</a> (Northern Ireland)
+* Mutual societies - <a href="https://org-id.guide/list/GB-MPR" target="_blank">GB-MPR</a>
+* HMRC-recognised charities - <a href="https://org-id.guide/list/GB-REV" target="_blank">GB-REV</a>
 
-If you have a registered number from some other scheme, including overseas registrars, check the [org-id List Locator](https://org-id.guide/) for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](https://www.threesixtygiving.org/contact/).
+If you have a registered number from some other scheme, including overseas registrars, check the <a href="https://org-id.guide/" target="_blank"> org-id List Locator</a> for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](https://www.threesixtygiving.org/contact/).
 
 ### Organisations without official registration numbers
 
