@@ -174,12 +174,15 @@ If no account record reference is available, or there are security or privacy re
 
 ```eval_rst
 
-.. admonition:: Hint: Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
+.. admonition:: Hint:
 
-
-  360Giving publisher prefix: 360G-XYZFunder </br>
-  Recipient Org:Name: ABC Recipient </br>
-  Account ID: 123456</br>
+  Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
+  
+  360Giving publisher prefix: 360G-XYZFunder
+  
+  Recipient Org:Name: ABC Recipient
+  
+  Account ID: 123456
 
   If using the account ID: 360G-XYZFunder-123456
   
