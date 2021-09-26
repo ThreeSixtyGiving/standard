@@ -194,4 +194,7 @@ If no account record reference is available, or there are security or privacy re
 
 Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360Giving Data Standard includes additional fields these on their own (without the prefixes), to help users of the data.
 
+
+
+
 If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above.
