@@ -32,6 +32,7 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
    data-protection
    licensing
    governance
-   getdata
    sc-tor
+   getdata
+   
 ```
