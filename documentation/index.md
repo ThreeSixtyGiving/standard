@@ -33,6 +33,6 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
    licensing
    governance
    sc-tor
-   getdata
+   using-data
    
 ```
