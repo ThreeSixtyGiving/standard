@@ -77,7 +77,7 @@ You can access 360Insights <a href="https://insights.threesixtygiving.org" targe
 You can access and download files on the Data Registry <a href="https://data.threesixtygiving.org/" target="_blank">here.</a>
 
 ### Access for developers and data analysts
-Find further guidance for developers and data analysts on how to access and use 360Giving datandard <a href="https://www.threesixtygiving.org/data/using-360giving-data/" target="_blank">here.</a> 
+Find further guidance for developers and data analysts on how to access and use 360Giving data <a href="https://www.threesixtygiving.org/data/using-360giving-data/" target="_blank">here.</a> 
 
 ## Share with your colleagues
 How can using grants data support your work?
