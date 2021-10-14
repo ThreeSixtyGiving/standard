@@ -212,10 +212,39 @@ table.docutils--false {
     width: 380px;
   }
 }
+.layout--docs .layout__sidebar {
+  scrollbar-width: thin;
+  overflow-y: scroll;
+}
 
 .sidebar-blog__content .categories-list__item ul {
   display: none;
 }
-.sidebar-blog__content .categories-list__item.category--active ul {
+
+.sidebar-blog__content .categories-list__item.sidebar-list--expanded ul {
   display: inherit;
+}
+
+.sidebar-list__trigger {
+  position: inherit;
+  padding: 0;
+  cursor: pointer;
+  float: right;
+  transform: rotate(270deg);
+  margin-right: -18px;
+}
+
+.categories-list__item.sidebar-list--expanded>.sidebar-list__trigger {
+  transform: rotate(0deg);
+}
+
+/* Footer */
+
+table.docutils.footnote {
+  border: 0px solid rgba(21, 54, 52, 0.2);
+  border-radius: 0px;
+}
+
+.rst-footer-buttons {
+  margin-top: 32px;
 }

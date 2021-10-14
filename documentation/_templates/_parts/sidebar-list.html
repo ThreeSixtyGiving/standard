@@ -15,7 +15,15 @@
   {% endif %}
 
   {% elif el.tagname == 'list_item' %}
-  <li class="{% if level == 1 %}categories-list__item category{% endif %} level-{{ level }} {% if el.get('iscurrent') and level == 1 %}category--active{% endif %}">
+  <li class="{% if level == 1 %}categories-list__item category{% endif %} level-{{ level }} {% if el.get('iscurrent') and level == 1 %}category--active sidebar-list--expanded{% endif %}">
+    {% if el.children|length > 1 %}
+    <a href="#" class="sidebar-list__trigger">
+      <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13.5715 2L7.73867 7.66956L2 2.0128" stroke="#153634" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    {% endif %}
+    {# {{ el }} #}
     {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
   </li>
 

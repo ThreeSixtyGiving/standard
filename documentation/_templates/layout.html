@@ -14,11 +14,6 @@
 <p>Test</p>
 {% endblock %}
 
-{% block menu %}
-{% include "searchbox.html" %}
-{{ super() }}
-{% endblock %}
-
 {% block footer %}
 <script type="text/javascript">
     window.location.hash = window.location.hash.replace('#toc-', '#') // look for old anchors starting #toc- and remove that bit
