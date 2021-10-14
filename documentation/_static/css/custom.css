@@ -122,19 +122,24 @@ table.docutils th {
   display: none;
 }
 
-@media (min-width: 36em) {
-  table.docutils th {
-    display: table-cell;
-  }
-}
-
 table.docutils td {
   display: block;
 }
 
 @media (min-width: 36em) {
-  table.docutils td {
+  table.docutils th, table.docutils td {
     display: table-cell;
+  }
+}
+
+@media print {
+  table.docutils th, table.docutils td {
+    display: table-cell;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .rst-footer-buttons {
+    display: none;
   }
 }
 
