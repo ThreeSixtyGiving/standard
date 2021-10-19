@@ -13,34 +13,17 @@ This website also includes information about the governance and change managemen
 .. toctree::
    :maxdepth: 1
    
-  :caption: Guidance for publishers
-
    decide-to-publish
    before-starting
    plan-the-process
    prepare-data
    publish-data-openly
    next-steps
-```
-
-```eval_rst
-.. toctree::
-   :maxdepth: 1
-   
-  :caption: Technical information
-  
    reference
    identifiers
    metadata
-```
+   governance
+   sc-tor
 
-```eval_rst
-.. toctree::
-   :maxdepth: 1
-   
-  :caption: About the standard
-  
-     governance
-     sc-tor
 ```
    
