@@ -1,4 +1,4 @@
-# Guidance
+# Guidance for publishers
 
 ```eval_rst
 .. toctree::
