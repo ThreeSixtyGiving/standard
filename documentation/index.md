@@ -14,7 +14,6 @@ This website also includes information about the governance and change managemen
    :maxdepth: 2
    
    :caption: Table of Contents
-   :name: mastertoc
 
    decide-to-publish
    before-starting
