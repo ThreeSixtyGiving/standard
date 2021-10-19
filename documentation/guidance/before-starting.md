@@ -68,3 +68,8 @@ One of the first questions we’ll ask when you contact 360Giving Helpdesk is wh
 See the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/) for further details about the likely impact your grants management system on your publishing process.
 
 Click **Next** to find out more about the first stage of the 360Giving publishing process - Planning your data.
+
+<div class="box box--teal">
+    <h3 class="box__heading">Get help</h3>
+    <p>For further guidance or if you can't find the information you need please contact 360Giving Helpdesk by emailing <support@threesixtygiving.org>
+</div>
