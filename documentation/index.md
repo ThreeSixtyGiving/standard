@@ -13,17 +13,17 @@ This website also includes information about the governance and change managemen
 .. toctree::
    :maxdepth: 1
    
-   decide-to-publish
-   before-starting
-   plan-the-process
-   prepare-data
-   publish-data-openly
-   next-steps
-   reference
-   identifiers
-   metadata
-   governance
-   sc-tor
+   guidance/decide-to-publish
+   guidance/before-starting
+   guidance/plan-the-process
+   guidance/prepare-data
+   guidance/publish-data-openly
+   guidance/next-steps
+   technical/reference
+   technical/identifiers
+   technical/metadata
+   about/governance
+   about/sc-tor
 
 ```
    
