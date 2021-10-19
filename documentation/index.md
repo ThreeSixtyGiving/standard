@@ -12,16 +12,20 @@ This website also includes information about the governance and change managemen
 ```eval_rst
 .. toctree::
    :maxdepth: 1
-
+:caption: Publisher guidance
    decide-to-publish
    before-starting
    plan-the-process
    prepare-data
    publish-data-openly
    next-steps
+   
+:caption: Technical information
    reference
    identifiers
    metadata
+   
+:caption: About the 360Giving Data Standard  
    governance
    sc-tor
 ```
