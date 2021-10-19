@@ -53,10 +53,12 @@ This guide has been developed to support funders through the 360Giving publishin
 
 For further guidance and practical support at any stage, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
-### Publishing resources for community foundations
-For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
+<div class="box box--teal">
+    <h3 class="box__heading">Publishing resources for community foundations</h3>
+    <p>For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
+Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.</a></p>
+</div>
 
-Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.</a>
 
 ## About grants management systems
 Funders of all shapes and sizes have become 360Giving data publishers, using a wide range of grants management systems and some by collecting basic data in spreadsheets.
