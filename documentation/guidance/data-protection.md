@@ -1,4 +1,4 @@
-# Data protection and responsible data sharing
+# Data protection
 Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.
 
 ## Data protection and 360Giving data
@@ -57,7 +57,7 @@ This option has been used by funders who frequently fund smaller or informal gro
 
 For further information see our [guidance about how to convert postcodes into geocodes.](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information)
 
-## If you intend to publish personal data
+## If you do intend to publish personal data
 We encourage publishers to carefully consider the value of publishing any personal information as part of their 360Giving data and discourage sharing of special category data (including racial or ethnic origin and health information).
 
 Before making a decision on including personal data:
@@ -120,13 +120,16 @@ If your organisation has not shared detailed information about your grants befor
 
 For example, in your communication with grantees you could cover the following:
 
-### What data will be published?
+**What data will be published?**
+
 The data will include the name of the grant recipient organisation, amount, date and a brief description of the purpose of the grant. (This section should be updated to reflect the fields included in your data.)
 
-### How will data be published?
+**How will data be published?**
+
 The data will be available to download from our website (insert link). The data will then be available for tools that use open data, for example [GrantNav](https://grantnav.threesixtygiving.org/). This is a tool created by 360Giving, but anyone could create a tool that uses the data.
 
-### Why are you publishing data in this way?
+**Why are you publishing data in this way?**
+
 We are proud to be associated with our partner organisations and this is a way to share information about our collective work that can support learning and better decision-making in the charitable giving sector. Publishing open data about grants awarded in this way complements the news shared about the partners’ work and achievements.
 
 For more information about the 360Giving initiative visit their website: <a href="https://www.threesixtygiving.org/" target="_blank">https://www.threesixtygiving.org/</a>
