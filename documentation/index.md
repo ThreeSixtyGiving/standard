@@ -11,7 +11,7 @@ This website also includes information about the governance and change managemen
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    guidance/index
    technical/index
