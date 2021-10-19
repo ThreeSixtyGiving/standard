@@ -12,6 +12,9 @@ This website also includes information about the governance and change managemen
 ```eval_rst
 .. toctree::
    :maxdepth: 2
+   
+   :caption: Table of Contents
+   :name: mastertoc
 
    decide-to-publish
    before-starting
