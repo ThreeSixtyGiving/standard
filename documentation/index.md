@@ -14,11 +14,8 @@ This website also includes information about the governance and change managemen
    :maxdepth: 1
    
    guidance/index
-   technical/reference
-   technical/identifiers
-   technical/metadata
-   about/governance
-   about/sc-tor
+   technical/index
+   about/index
 
 ```
    
