@@ -7,6 +7,7 @@
    decide-to-publish
    before-starting
    plan-the-process
+   data-protection
    prepare-data
    publish-data-openly
    next-steps
