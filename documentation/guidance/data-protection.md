@@ -1,9 +1,8 @@
 # Data protection
 
 <div class="box box--teal">
-    <h3 class="box__heading">About this guidance</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.</p>
-</div>
+    <h3 class="box__heading">Summary</h3>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.</p></div>
 
 ## Data protection and 360Giving data
 The data collected by funders about the awards made to grantees belongs to the funder, and information about organisations and the grants they receive is not personal data. However, grants to individuals, grants to smaller organisations, or named contact details for organisations, may contain or constitute personal data.
