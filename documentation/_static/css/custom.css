@@ -1,12 +1,12 @@
 /* boxes */
 
-.prose .admonition, .admonition {
+.prose .admonition, .admonition, .prose details {
   background-color: rgba(77, 172, 182, 0.1);
   position: relative;
   padding: 24px 24px 24px 24px;
 }
 
-.prose .admonition:before, .admonition:before {
+.prose .admonition:before, .admonition:before, .prose details:before {
   background-color: #4DACB6;
   content: "";
   position: absolute;
@@ -16,9 +16,9 @@
   top: 0;
 }
 
-.prose .admonition h3, .prose .admonition-title, .admonition h3, .admonition-title {
-  margin: 0 0 4px 0;
-  font-size: 1rem;
+.prose .admonition h3, .prose .admonition-title, .admonition h3, .admonition-title, .prose .box>.box__heading, .prose details summary {
+  margin: 0 0 12px 0;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #4DACB6;
 }
@@ -69,6 +69,15 @@
 
 .prose .admonition.admonition--red .admonition-title, .admonition--red .admonition-title {
   color: #BC2C26;
+}
+
+.prose details summary {
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.prose .admonition>p:last-of-type, .prose .box>p:last-of-type, .prose details>p:last-of-type {
+  margin-bottom: 0px;
 }
 
 /* headerlink */
@@ -223,12 +232,16 @@ table.docutils--false {
   overflow-y: scroll;
 }
 
-.sidebar-blog__content .categories-list__item ul {
+.sidebar-blog__content .categories-list__item>ul {
   display: none;
 }
 
-.sidebar-blog__content .categories-list__item.sidebar-list--expanded ul {
+.sidebar-blog__content .categories-list__item.sidebar-list--expanded>ul {
   display: inherit;
+}
+
+.sidebar-blog__content ul {
+  padding-left: 22px;
 }
 
 .sidebar-list__trigger {
@@ -242,6 +255,22 @@ table.docutils--false {
 
 .categories-list__item.sidebar-list--expanded>.sidebar-list__trigger {
   transform: rotate(0deg);
+}
+
+.category--active {
+  background-color: inherit;
+}
+
+.category--active.level-1 {
+  background-color: hsl(var(--teal-hsl), 0.2);
+}
+
+.categories-list__item>a {
+  font-weight: normal;
+}
+
+.categories-list__item.category--active.level-2>a, .categories-list__item.level-1>a {
+  font-weight: bold;
 }
 
 /* Footer */

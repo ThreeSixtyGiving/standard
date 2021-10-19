@@ -15,7 +15,7 @@
   {% endif %}
 
   {% elif el.tagname == 'list_item' %}
-  <li class="{% if level == 1 %}categories-list__item category{% endif %} level-{{ level }} {% if el.get('iscurrent') and level == 1 %}category--active sidebar-list--expanded{% endif %}">
+  <li class="categories-list__item {% if level == 1 %}category{% endif %} level-{{ level }} {% if el.get('iscurrent') %}category--active sidebar-list--expanded{% endif %}">
     {% if el.children|length > 1 %}
     <a href="#" class="sidebar-list__trigger" aria-haspopup="true">
       <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
   {% endif %}
 {% endmacro %}
 
-{% set global_toc = get_toctree(maxdepth=2,
+{% set global_toc = get_toctree(maxdepth=3,
                             collapse=false,
                             includehidden=false,
                             titles_only=false) %}
