@@ -7,7 +7,7 @@ The second part provides full techinical reference about the 360Giving Data Stan
 
 This website also includes information about the governance and change management of the 360Giving Data Standard.
 
-## Contents
+## Guidance for publishers
 
 ```eval_rst
 .. toctree::
@@ -18,4 +18,23 @@ This website also includes information about the governance and change managemen
    about/index
 
 ```
+
+## Technical information
    
+```eval_rst
+.. toctree::
+   :maxdepth: 2
+   
+   technical/index
+
+```
+
+## About the 360Giving Data Standard
+
+```eval_rst
+.. toctree::
+   :maxdepth: 2
+
+   about/index
+
+```
