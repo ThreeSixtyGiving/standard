@@ -10,6 +10,16 @@
 
 ```
 
+<details>
+  <summary>Why identifiers matter [EXAMPLE REMOVE]</summary>
+
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on.
+
+  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
+
+</details>
+
+
 360Giving asks you to give identifiers to any of the following elements that you include in your data:
 
 * [Grants](grant-identifier)
