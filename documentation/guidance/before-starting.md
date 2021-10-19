@@ -70,6 +70,6 @@ See the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-styl
 Click **Next** to find out more about the first stage of the 360Giving publishing process - Planning your data.
 
 <div class="box box--teal">
-    <h2 class="box__heading">Getting further help</h2>
+    <h3 class="box__heading">Getting further help</h3>
     <p>If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our feedback form.
 </div>
