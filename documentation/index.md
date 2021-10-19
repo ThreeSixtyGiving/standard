@@ -13,12 +13,7 @@ This website also includes information about the governance and change managemen
 .. toctree::
    :maxdepth: 1
    
-   guidance/decide-to-publish
-   guidance/before-starting
-   guidance/plan-the-process
-   guidance/prepare-data
-   guidance/publish-data-openly
-   guidance/next-steps
+   guidance/index
    technical/reference
    technical/identifiers
    technical/metadata
