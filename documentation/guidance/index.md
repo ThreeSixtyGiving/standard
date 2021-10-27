@@ -4,8 +4,8 @@
 .. toctree::
    :maxdepth: 2
 
-   decide-to-publish
    before-starting
+   decide-to-publish
    plan-the-process
    data-protection
    prepare-data
