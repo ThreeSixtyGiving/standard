@@ -1,6 +1,4 @@
 # Prepare and format your grant data
-By the end of this stage you will have prepared your grant data ready for publishing, and have tested that the file is formatted correctly in the 360Giving Data Quality tool. How you prepare your data will be influenced by how you collect and store information about your grants.
-
 <div class="box box--teal">
     <h3 class="box__heading">Key tasks</h3>
     <p><ol>
@@ -8,6 +6,8 @@ By the end of this stage you will have prepared your grant data ready for publis
       <li>Prepare your data.</li>
       <li>Check that this file passes the tests in the Data Quality Tool, so that it is compatible with other 360Giving data.</li>
       </ol></p></div>
+
+By the end of this stage you will have prepared your grant data ready for publishing, and have tested that the file is formatted correctly in the 360Giving Data Quality tool. How you prepare your data will be influenced by how you collect and store information about your grants.
 
 For many publishers preparing data is a manual process which involves exporting data from a grants management system and converting it into a spreadsheet. However, some grants management systems have some or all of the steps needed to convert the information into 360Giving data built-in to the system. 
 
