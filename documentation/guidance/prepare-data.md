@@ -7,13 +7,7 @@ By the end of this stage you will have prepared your grant data ready for publis
       <li>Decide whether to publish using spreadsheet or JSON file format.</li>
       <li>Prepare your data.</li>
       <li>Check that this file passes the tests in the Data Quality Tool, so that it is compatible with other 360Giving data.</li>
-      </ol></p>
-</div>
-
-**Key tasks**
-- Decide whether to publish using spreadsheet or JSON file format.
-- Prepare your data.
-- Check that this file passes the tests in the Data Quality Tool, so that it is compatible with other 360Giving data.
+      </ol></p></div>
 
 For many publishers preparing data is a manual process which involves exporting data from a grants management system and converting it into a spreadsheet. However, some grants management systems have some or all of the steps needed to convert the information into 360Giving data built-in to the system. 
 
@@ -250,5 +244,5 @@ Click **Next** to progress to the third stage of the 360Giving publishing proces
 
 <div class="box box--teal">
     <h3 class="box__heading">Getting further help</h3>
-    <p>If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.
+    <p>If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.</p>
 </div>
