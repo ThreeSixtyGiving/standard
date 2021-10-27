@@ -9,6 +9,8 @@
    plan-the-process
    data-protection
    prepare-data
+   data-quality
+   meta-geocoding
    publish-data-openly
    next-steps
 ```
