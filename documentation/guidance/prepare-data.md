@@ -1,6 +1,15 @@
 # Prepare and format your grant data
 By the end of this stage you will have prepared your grant data ready for publishing, and have tested that the file is formatted correctly in the 360Giving Data Quality tool. How you prepare your data will be influenced by how you collect and store information about your grants.
 
+<div class="box box--teal">
+    <h3 class="box__heading">Key tasks</h3>
+    <p><ol>
+      <li>Decide whether to publish using spreadsheet or JSON file format.</li>
+      <li>Prepare your data.</li>
+      <li>Check that this file passes the tests in the Data Quality Tool, so that it is compatible with other 360Giving data.</li>
+      </ol></p>
+</div>
+
 **Key tasks**
 - Decide whether to publish using spreadsheet or JSON file format.
 - Prepare your data.
@@ -238,3 +247,8 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
 8. Re-save as Excel file (xlsx file format).
 
 Click **Next** to progress to the third stage of the 360Giving publishing process - Publishing your grant data.
+
+<div class="box box--teal">
+    <h3 class="box__heading">Getting further help</h3>
+    <p>If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.
+</div>
