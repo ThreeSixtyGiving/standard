@@ -97,9 +97,9 @@ GrantNav is a search-engine for grants data. You can explore and download data a
 
 You can access GrantNav <a href="https://grantnav.threesixtygiving.org" target="_blank">here.</a>
 
-Each grant record has its own page with the 10 core fields showing at the top. The other fields that have been shared are displayed in a table.
+Each grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
 
-![GrantNav screenshot showing example data](https://github.com/ThreeSixtyGiving/standard/blob/new-docs-style/assets/Example_GrantNav_grant_record.PNG)
+<img src="https://github.com/ThreeSixtyGiving/standard/blob/new-docs-style/assets/Example_GrantNav_grant_record.PNG" alt="GrantNav screenshot showing example grant record">
 
 As well as looking at a single grant record view you can view lists:
 - <a href="https://grantnav.threesixtygiving.org/recipient/GB-CHC-219278" target="_blank">Grants awarded to a particular organisation</a>
