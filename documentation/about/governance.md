@@ -67,7 +67,7 @@ These are captured by a version number in the format MAJOR.MINOR.PATCH.
 ### Revision process
 To release a new MINOR or MAJOR version upgrade will involve a number of stages outlined in the flowchart below, and described in more depth in the following sections.
 
-![Revision process](../assets/upgrade_process_feb_2016.png)
+![Revision process](https://standard.threesixtygiving.org/en/new-docs-style/assets/upgrade_process_feb_2016.png)
 
 PATCH version upgrades are a smaller process, in recognition of the low impact that PATCH changes can have on the whole standard. A proposal for a PATCH version upgrade is made via the forum, with the Stewardship Comittee and technical team notified via email. If no objections are received within one week, the PATCH change will be considered approved.
 
