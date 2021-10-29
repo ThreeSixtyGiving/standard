@@ -135,10 +135,11 @@ Anyone who is a current or potential publisher or user of the 360Giving Standard
 “The principle of consensus has its origins in the desire to achieve the general acceptance and application of a Standard within its intended sphere of influence. This entails trying to ensure that the interests of all those likely to be affected by it are taken into account, and that individual concerns are carefully and fairly balanced against the wider public interest.” [5]_
 ```
 
-## Terms of Reference - Stewardship Committee of the 360Giving Data Standard
-1. Role of the Committee 
+## Terms of Reference
+For the Stewardship Committee of the 360Giving Data Standard
 
-  * 1.1 The Stewardship Committee of the 360Giving Open Data Standard (the “Standard”) oversees and
+1. Role of the Committee 
+* 1.1 The Stewardship Committee of the 360Giving Open Data Standard (the “Standard”) oversees and
 accounts for the appropriate and timely maintenance of the Standard, including what upgrades are
 required and the process for making them.
 
@@ -150,6 +151,7 @@ required and the process for making them.
 * Reviewing any changes, upgrades or extensions that may be required to the Standard and advising on a process for how and when to address them.
 * 2.2 The Committee will review the Standard at minimum on a biannual basis, ensuring that it remains
 fit for purpose and guided by principles of good practice for managing open data standards.
+
 3. Appointment of members
 * 3.1 It is 360Giving’s aim that the Committee includes a minimum of one member from each of its key
 stakeholder groups, including its Board, staff, publishers, open data experts and end users.
@@ -161,12 +163,14 @@ the Chief Executive of 360Giving and in consultation with the other Committee me
 cost for reasonable out-of-pocket expenses (against presentation of supporting receipts) incurred
 in relation to attending Committee meetings, or other activities undertaken at the request of the
 Chief Executive of 360Giving.
+
 4. Chair
 * 4.1 The Committee may appoint one of their members to be the Chair of the Committee for such term
 of office as they determine. The Chair will be appointed by a majority vote of the Committee. The
 Chair will advise the Chief Executive of 360Giving on appropriate maintenance of the Standard and
 on the approval of the Committee.
 * 4.2 The Chair cannot be a paid employee of 360Giving.
+
 5. Committee proceedings
 * 5.1 The Committee will meet every six months to review the 360Giving data standard, formats and
 classifications and to discuss whether any changes or upgrades are required.
@@ -180,12 +184,14 @@ in its activities by making full and accurate information about its activities a
 available so that anyone can review them.
 These Terms of Reference were prepared on 16th August 2016 by 360Giving and approved by members at the
 inaugural Stewardship Committee meeting on 1st December 2016.
+
 6. Conflicts of interest
 * 6.1 Committee members are to declare any direct or indirect interest (whether personal, or by a duty of
 loyalty to another organisation) that conflicts, or might conflict with the interests of 360Giving and
 the appropriate maintenance of the Standard at the outset of any discussion on the relevant issue.
 * 6.2 Any declaration of a conflict of interest is to be noted in the public record of discussions, together
 with details of any proposals made.
+
 7. Individual member’s responsibilities
 * 7.1 Committee members will at all times:
 Remain appropriately informed on 360Giving’s open data Standard and operating environment.
@@ -197,6 +203,7 @@ Contribute to the broader promotion of 360Giving’s objects, aims and reputatio
 application of their skills, expertise, knowledge and contacts.
 * 7.2 Members shall at all times have unrestricted access to all information, records and documents
 relevant to the 360Giving Standard.
+
 8. Amendments
 * 8.1 The Committee shall periodically review these Terms of Reference to ensure they remain relevant to
 and are consistent with 360Giving’s overall strategy and goals. It will advise the Chief Executive of
