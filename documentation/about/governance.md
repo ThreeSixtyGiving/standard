@@ -136,7 +136,7 @@ Anyone who is a current or potential publisher or user of the 360Giving Standard
 ```
 
 ## Terms of Reference
-For the Stewardship Committee of the 360Giving Data Standard
+The terms of reference of the Stewardship Committee of the 360Giving Data Standard
 
 1. Role of the Committee 
 * 1.1 The Stewardship Committee of the 360Giving Open Data Standard (the “Standard”) oversees and
