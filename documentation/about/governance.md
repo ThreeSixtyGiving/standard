@@ -136,15 +136,15 @@ Anyone who is a current or potential publisher or user of the 360Giving Standard
 ```
 
 <ol>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item
+  <li>1. First item</li>
+  <li>2. Second item</li>
+  <li>3. Third item
     <ol>
-      <li>Indented item</li>
-      <li>Indented item</li>
+      <li>3.1 Indented item</li>
+      <li>3.2 Indented item</li>
     </ol>
   </li>
-  <li>Fourth item</li>
+  <li>4. Fourth item</li>
 </ol>
 
 ## Terms of Reference
