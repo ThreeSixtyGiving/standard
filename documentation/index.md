@@ -26,32 +26,15 @@ This section provides information about 360Giving Data Standard itself which set
 
 
 
-## Guidance for publishers
+### Contents
 
 ```eval_rst
 .. toctree::
    :maxdepth: 1
    
    guidance/index
-
-```
-
-## Technical information
-   
-```eval_rst
-.. toctree::
-   :maxdepth: 1
-   
    technical/index
-
-```
-
-## About the 360Giving Data Standard
-
-```eval_rst
-.. toctree::
-   :maxdepth: 1
-
    about/index
 
 ```
+
