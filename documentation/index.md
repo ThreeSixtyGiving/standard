@@ -30,6 +30,7 @@ This features information about governance and change management of the 360Givin
 .. toctree::
    :maxdepth: 2
    
+   welcome
    guidance/index
    technical/index
    about/index
