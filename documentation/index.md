@@ -25,3 +25,11 @@ This features information about governance and change management of the 360Givin
 </p>
 
 
+### Contents
+```eval_rst
+.. toctree::
+   :maxdepth: 2
+guidance/index
+technical/index
+about/index
+```
