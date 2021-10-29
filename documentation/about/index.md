@@ -5,5 +5,4 @@
    :maxdepth: 2
 
    governance
-   sc-tor
 ```
