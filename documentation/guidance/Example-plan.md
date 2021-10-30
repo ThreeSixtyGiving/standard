@@ -137,3 +137,23 @@ See Section 2 on preparing your data for further details about the likely impact
 ## Publishing resources for community foundations
 
 If you are a community foundation using the Digits2 grants management system please refer to [our special guidance](https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/) about the built-in 360Giving data extract to publishing 360Giving data.
+
+
+<div class="prose">
+    <div class="accordion">
+        <section class="prose__section">
+            <button class="accordion__trigger button button--small button--yellow">More Information</button>
+            <p>For convenience we provide a <a href="#">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs.</p>
+            <p>The template is a multi-sheet spreadsheet, and each sheet is described below.</p>
+            <p>Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.</p>
+        </section>
+
+        <section class="prose__section accordion__extra" aria-hidden>
+            <h5>This is a heading 5</h5>
+            <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the 360Giving JSON Schemas.</p>
+
+            <h6>This is a heading 6</h6>
+            <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the 360Giving JSON Schemas.</p>
+        </section>
+    </div>
+</div>
