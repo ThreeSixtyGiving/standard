@@ -12,7 +12,7 @@
 - Ensuring that the schema documentation remains up to date.
 - Reviewing any changes, upgrades or extensions that may be required to the Standard and advising on a process for how and when to address them.
 
-  2.2 The Committee will review the Standard at minimum on a biannual basis, ensuring that it remains fit for purpose and guided by principles of good practice for managing open data standards.
+2.2 The Committee will review the Standard at minimum on a biannual basis, ensuring that it remains fit for purpose and guided by principles of good practice for managing open data standards.
 
  3\. Appointment of members  
 
@@ -57,7 +57,7 @@ These Terms of Reference were prepared on 16th August 2016 by 360Giving and appr
 - Exercise independence of judgment, acting legally and in good faith to promote and protect 360Giving’s interests.
 - Contribute to the broader promotion of 360Giving’s objects, aims and reputation through the application of their skills, expertise, knowledge and contacts.
 
-  7.2 Members shall at all times have unrestricted access to all information, records and documents relevant to the 360Giving Standard.
+7.2 Members shall at all times have unrestricted access to all information, records and documents relevant to the 360Giving Standard.
 
  8\. Amendments  
 
