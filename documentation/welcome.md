@@ -68,7 +68,7 @@ There are no registration fees or costs associated with publishing your grants d
 
 Preparing 360Giving data does require a commitment of resources from the publisher in terms of staff time, especially when publishing your data for the first time. 
 
-There can be costs in terms of consultancy or support fees to get a grants management system set up to export 360Giving data. 
+There can however be costs related to consultancy or support fees to get a grants management system set up to export 360Giving data. 
 
 
 <div class="box">
