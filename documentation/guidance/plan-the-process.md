@@ -119,6 +119,10 @@ You can access 360Insights <a href="https://insights.threesixtygiving.org" targe
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
+<div class="box box--teal">
+    <h3 class="box__heading">Data protection</h3>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. Click Next to find out more</p></div>
+
 <div class="box">
     <h3 class="box__heading">Getting further help</h3>
     <p>This guidance has been developed to support funders through the 360Giving publishing process. If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a></p>
