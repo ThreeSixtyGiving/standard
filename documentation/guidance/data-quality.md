@@ -1,5 +1,5 @@
 # Check data quality
-Once you have prepared your file of grants data the next step is to check that it is correctly formatted 360Giving data – known technically as 'valid' data – using the 360Giving Data Quality tool.
+Once you have prepared your file of grants data the next step is to check that it is correctly formatted 360Giving data – known technically as 'valid' data – using the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool.</a>
 
 The term 'valid' means the file includes the 10 core fields and the information has all the correct data formatting. 
 
@@ -8,9 +8,11 @@ Only valid 360Giving data can be combined with other published data and be inclu
 ## About the 360Giving Data Quality Tool
 The Data Quality Tool has been specially designed to support the preparation and publication of 360Giving data.
 
+The Data Quality tool can be found at <a href="https://dataquality.threesixtygiving.org/" target="_blank">https://dataquality.threesixtygiving.org/</a>
+
 You can upload, paste or provide a link to a data file. 
 
-Once you have submitted your file into the Tool, the screen will display feedback on key information points about the data. Use the small arrow icon on the far right to display or hide the details.
+Once you have submitted your file the screen will display feedback on key information points about the data. Use the small arrow icon on the far right to display or hide the details.
 
 At the top, the summary provides basic details about the content of the file – how many grants, funders and the date range and total value of the grants broken down by currency.
 
