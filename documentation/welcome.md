@@ -15,7 +15,7 @@ This features the full technical reference for the 360Giving Data Standard, incl
 
 This features information about governance and change management of the 360Giving Data Standard itself. Here you will also find out how you can contribute to the maintenance and development of the Standard.
 
-## What to expect
+### What to expect
 Guidance for publishers sets out the three key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
 
 These stages apply to all types of funder. However, the approach you take, the support you need, and how long the process will take can all vary, depending on a few factors:
