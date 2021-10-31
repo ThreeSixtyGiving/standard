@@ -1,4 +1,13 @@
 # Check data quality
+
+<div class="box box--teal">
+    <h3 class="box__heading">Key tasks</h3>
+    <p><ol>
+      <li>Upload your prepared 360Giving data into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool.
+      <li>Review feedback and make updates if the data is invalid.</li>
+      <li>Check data quality and usefulness feedback.</li>
+      </ol></p></div>
+
 Once you have prepared your file of grants data the next step is to check that it is correctly formatted 360Giving data – known technically as 'valid' data – using the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool.</a>
 
 The term 'valid' means the file includes the 10 core fields and the information has all the correct data formatting. 
