@@ -1,9 +1,12 @@
 # Plan your process and data
-By the end of this stage you will have a plan for the scope of the data you want to publish, taking data protection into consideration.
+<div class="box box--teal">
+    <h3 class="box__heading">Key tasks</h3>
+    <p><ol>
+      <li>Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.</li>
+      <li>Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly</li>
+       </ol></p></div>
 
-**Key tasks**
-- Decide what information to publish – the scope of the fields, what time period your data will cover and whether you will be sharing data about all of your grants.
-- Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly.
+By the end of this stage you will have a plan for the scope of the data you want to publish, taking data protection into consideration.
 
 ## How long the process takes
 The amount of time it takes to prepare and share 360Giving data can vary depending on your circumstances. The key factors that can determine how long the process will take are:
@@ -65,7 +68,7 @@ For guidance on naming your own fields visit the [Additional fields section.](ht
 ### Decide what kind of grants to include
 360Giving is a voluntary initiative and you can decide what information to share in your open grants data, based on what is appropriate to your circumstances. 
 
-While most 360Giving publishers include data about all their grants, there are examples of those who share data about certain programmes but not others, or only grants over a certain value. It is common for funders that give grants to individuals and to organisations to only publish data about their grants to organisations.
+While the majority of 360Giving publishers include data about all their grants, there are examples of those who share data about certain programmes, or only grants over a certain value. Funders that give grants to individuals and to organisations often decide to only publish data about their grants to organisations.
 
 If your goal is to publish data about all your grants but you find there are practical or policy issues to address first, work out which grant programmes or records are unaffected by these barriers, and move forward with publishing these. The learning from this process can then be applied to other areas of your grantmaking once the issues are resolved.
 
@@ -119,5 +122,7 @@ You can access 360Insights <a href="https://insights.threesixtygiving.org" targe
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
-Click **Next** for guidance on data protection and responsible data practice.
-
+<div class="box">
+    <h3 class="box__heading">Getting further help</h3>
+    <p>This guidance has been developed to support funders through the 360Giving publishing process. If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a></p>
+</div>
