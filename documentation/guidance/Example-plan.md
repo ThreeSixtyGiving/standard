@@ -215,12 +215,24 @@ If you are a community foundation using the Digits2 grants management system ple
 
 ### Prose image box
 
-<div class="prose">
-
     <figure>
         <img src="https://www.threesixtygiving.org/wp-content/uploads/47319360032_51d21156a2_c.jpg" alt="">
         <figcaption>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. <em>Fuga deleniti architecto nisi</em>, rerum aliquid aperiam minima <strong>saepe magnam eum. Odit aliquid similique magnam minima</strong>, corrupti, aliquam laudantium eos asperiores possimus?</figcaption>
     </figure>
+    
+    <html>
+<body>
+
+<h1>The figure and figcaption element</h1>
+
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+</body>
+</html>
+
 
 </div>
 
