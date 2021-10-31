@@ -45,6 +45,11 @@ The 360Giving Data Standard is defined by a JSON Schema, which describes the str
 
 For further information visit the <a href="https://json-schema.org/" target="_blank">JSON schema website.</a>
    
+## 360Giving Helpdesk
+Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
+
+At any point in this process we invite you to contact our free Helpdesk via <support@threesixtygiving.org> with queries, large or small.
+   
 ## Contents
 
 ```eval_rst
