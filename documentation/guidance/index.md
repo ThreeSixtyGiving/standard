@@ -25,27 +25,27 @@ Go to the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-st
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data. Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.
 
-## Key concepts
+### Key concepts
 
-### Open data
+#### Open data
 360Giving data is open data, which is defined as follows:
 
    > Open means anyone can freely access, use, modify, and share for any purpose (subject, at most, to requirements that preserve provenance and openness).
 
 For further information visit the <a href="https://opendefinition.org/" target="_blank">Open Definition website.</a>
 
-### 360Giving data
+#### 360Giving data
 360Giving data is the term we use to describe any grant information shared using the 360Giving Data Standard. 360Giving data can be viewed in files published by a wide range of funders or explored in online tools built by 360Giving and others.
 
-### Publishers and publishing
+#### Publishers and publishing
 Organisations that share 360Giving data are the owners of the information and when they make the files of data available online as open data, it is called **publishing the data**. That is why we call the funders that share 360Giving data **Publishers**.
 
-### JSON
+#### JSON
 The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
 
 For further information visit the <a href="https://json-schema.org/" target="_blank">JSON schema website.</a>
    
-### Contents
+## Contents
 
 ```eval_rst
 .. toctree::
