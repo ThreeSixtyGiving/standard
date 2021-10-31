@@ -2,16 +2,18 @@
 <div class="box box--teal">
     <h3 class="box__heading">Key tasks</h3>
     <p><ol>
+      <li>Register with 360Giving Helpdesk.</li>
       <li>Decide whether to publish using spreadsheet or JSON file format.</li>
-      <li>Prepare your data.</li>
-      <li>Check that this file passes the tests in the Data Quality Tool, so that it is compatible with other 360Giving data.</li>
+      <li>Choose a data preparation method, informed by your grants data management systems.</li>
+      <li>Decide whether to publish Metadata about your 360Giving data.</li>
+      <li>Check that your prepared data passes the 360Giving Data Quality Tool checks.</li>
       </ol></p></div>
 
 By the end of this stage you will have prepared your grant data ready for publishing, and have tested that the file is formatted correctly in the 360Giving Data Quality tool. How you prepare your data will be influenced by how you collect and store information about your grants.
 
 For many publishers preparing data is a manual process which involves exporting data from a grants management system and converting it into a spreadsheet. However, some grants management systems have some or all of the steps needed to convert the information into 360Giving data built-in to the system. 
 
-## Register to become a 360Giving data publisher
+## Register your intention to become a 360Giving data publisher
 Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk: <support@threesixtygiving.org>. 
 
 You will be provided with a 360Giving Publisher prefix, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant.
@@ -194,7 +196,7 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
   - Ward Name = Recipient Org:Location:Name
 8. Re-save as Excel file (xlsx file format).
 
-<div class="box box--teal">
+<div class="box">
     <h3 class="box__heading">Getting further help</h3>
     <p>If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.</p>
 </div>
