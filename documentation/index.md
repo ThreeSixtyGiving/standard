@@ -34,7 +34,7 @@ Read our introduction to this guidance and what to expect when publishing 360Giv
 ### Contents
 ```eval_rst
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    welcome
    guidance/index
