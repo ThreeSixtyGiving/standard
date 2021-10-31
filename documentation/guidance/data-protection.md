@@ -1,10 +1,15 @@
 # Data protection
 
 <div class="box box--teal">
-    <h3 class="box__heading">Summary</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.</p></div>
+    <h3 class="box__heading">Key tasks</h3>
+    <p><ol>
+      <li>Check your privacy policies and grant agreements.</li>
+      <li>Consider whether your 360Giving data could include personal data.</li>
+      <li>Remove or anonymise personal data or get informed consent if including personal data.</li>
+      <li>Decide whether to notify your grantees about your 360Giving data.</li>
+      </ol></p></div>
 
-## Data protection and 360Giving data
+## Introduction
 The data collected by funders about the awards made to grantees belongs to the funder, and information about organisations and the grants they receive is not personal data. However, grants to individuals, grants to smaller organisations, or named contact details for organisations, may contain or constitute personal data.
 
 In general, **open data should not contain personal or sensitive personal data that could allow a living person to be identified**. Data to be published using the 360Giving Data Standard which does relate to identified individuals should be removed or anonymised to protect their privacy. 
@@ -145,15 +150,7 @@ Adopting an open data policy for your organisation will help to guide the checks
 ## Further information about data protection
 If you want to discuss this data protection guidance and how it relates to your specific circumstances, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
-Further help with data protection:
-
-Organisations:
-- <a href="https://ukanon.net/" target="_blank">The UK Anonymisation Network (UKAN)</a>
-- <a href="https://ico.org.uk/" target="_blank">ICO</a>
-
-Resources:
-- <a href="https://ico.org.uk/media/for-organisations/documents/1061/anonymisation-code.pdf" target="_blank">ICO Guide to data protection: Anonymisation</a>
-- <a href="https://ukanon.net/training/" target="_blank">UKAN training</a>
-- <a href="http://theodi.github.io/ukan-course/assets/odi-data-anonymization.pdf" target="_blank">ODI Anonymisation Decision-Making Framework</a>
-
-Click **Next** to progress to the second stage of the 360Giving publishing process - Preparing your grant data.
+<div class="box box--teal">
+    <h3 class="box__heading">Getting further help</h3>
+    <p>If you can't find the information you need or you have further questions, please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.
+</div>
