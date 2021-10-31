@@ -37,14 +37,12 @@ Where and how you collect and store information about your grants has a fundamen
 
 One of the first questions we’ll ask when you contact 360Giving Helpdesk is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
 
-See the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/) for further details about the likely impact your grants management system on your publishing process.
+Go to the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/) for further details about the likely impact your grants management system on your publishing process.
 
-<div class="box box--teal">
-    <h3 class="box__heading">Publishing resources for community foundations</h3>
-    <p>For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data. Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.</a></p>
-</div>
+### Publishing resources for community foundations
+For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data. Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.
 
-### Contents
+
 ```eval_rst
 .. toctree::
    :maxdepth: 2
