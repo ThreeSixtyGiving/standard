@@ -85,10 +85,8 @@ If your historical grant awards are not representative of what you fund now, you
 
 The more grant data you can share, the greater the benefit to users of 360Giving data. However, if you start by publishing recent grants, you can decide to include more historical data at a future point.
 
-## Taking inspiration from what others have published
-You may find it helpful to look at the data published by other grantmakers when deciding the scope of the data you want to share and to see what it looks like in practice.
-
-We can also put you in touch with grantmakers who can share relevant experiences with you. 
+## Taking inspiration from others
+You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
 
 #### Data Registry
 360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
@@ -110,8 +108,7 @@ As well as looking at a single grant record view you can view lists:
 
 You can also search the data by keyword. For example, this search shows grants awarded with the <a href="https://grantnav.threesixtygiving.org/search?query=%22village+hall%22&default_field=title_and_description" target="_blank">term ‘village hall’ in the grant title or description.</a>
 
-- You can download the results of your searches to see what data from a range of funders looks like.
-- You can also open the results of a search in <a href="https://insights.threesixtygiving.org" target="_blank">360Insights.</a>
+You can filter your results by grant size, date, location, grant programme, funder and recipient. You can also download the results of any searches or open the results for searches with under 10,000 grants in <a href="https://insights.threesixtygiving.org" target="_blank">360Insights.</a>
 
 For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">Help section.</a>
 
