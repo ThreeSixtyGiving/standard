@@ -1,4 +1,4 @@
-# Check data quality and receive feedback
+# Check data quality
 Once you have prepared your file of grants data the next step is to check that it is correctly formatted 360Giving data – known technically as 'valid' data – using the 360Giving Data Quality tool.
 
 The term 'valid' means the file includes the 10 core fields and the information has all the correct data formatting. 
