@@ -25,7 +25,7 @@ Go to the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-st
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data. Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.</a>
 
-### Key concepts
+## Key concepts
 
 #### Open data
 360Giving data is open data, which is defined as follows:
@@ -45,8 +45,8 @@ The 360Giving Data Standard is defined by a JSON Schema, which describes the str
 
 For further information visit the <a href="https://json-schema.org/" target="_blank">JSON schema website.</a>
    
-## 360Giving Helpdesk
-Our pro-bono support helps funders to navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
+#### 360Giving Helpdesk
+Our Helpdesk provides pro-bono support to help funders navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
 
 At any point in this process we invite you to contact our free Helpdesk via <support@threesixtygiving.org> with queries, large or small.
    
