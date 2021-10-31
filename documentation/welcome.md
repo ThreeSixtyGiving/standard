@@ -24,7 +24,7 @@ These stages apply to all types of funder. However, the approach you take, the s
 - How much data you want to publish 
 - Your organisational and technical capacity
 
-### The three stages
+### The three stages of the publishing process
 
 - ***1. Plan***
 
