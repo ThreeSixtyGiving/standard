@@ -6,6 +6,16 @@
   If Indigo Trust have a grant called 'Grant27', and Nominet Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-Nominet-Grant27'
 ```
 
+<details>
+  <summary>Why identifiers matter [EXAMPLE REMOVE]</summary>
+
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on.
+
+  Whilst a human being may be good at recognising that "Big Lottery Fund", "BLF", and "big-lottery-fund" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
+
+</details>
+
+
 First Header | Second Header | Extra column
 ------------ | ------------- | -------
 Content from cell 1 | Content from cell 2 | more data
