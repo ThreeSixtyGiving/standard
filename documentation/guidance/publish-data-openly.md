@@ -148,4 +148,7 @@ Publishing your data using cloud-hosting solutions is one way to avoid file loca
  
 Maintaining a consistent link can be a convenient approach to file 360Giving file management however you can always contact 360Giving Helpdesk via <support@threesixtygiving.org> about data updates, and we can check the file and update the Data Registry as needed.
 
-Click **Next** for your next steps after publishing.
+<div class="box">
+    <h3 class="box__heading">Getting further help</h3>
+    <p>If you can't find the information you need or you have further questions, please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.
+
