@@ -1,7 +1,7 @@
 # Documentation
 This documentation site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
 
-This guide is divided into three parts.
+The guidance is divided into three parts.
 
 ### Guidance for publishers
 This features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
