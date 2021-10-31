@@ -41,9 +41,9 @@ Go to the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-st
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data. Access the Community Foundations Guide to 360Giving data <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">here.
-
    
-### Contents
+## Contents
+
 ```eval_rst
 .. toctree::
    :maxdepth: 2
