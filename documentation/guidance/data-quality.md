@@ -44,7 +44,7 @@ This means there may be further checks needed to make sure the information is ac
 
 The 360Giving Helpdesk can look at the data you are preparing to check and provide further feedback prior to publication. 
 
-<div class="box box--teal">
+<div class="box">
     <h3 class="box__heading">Getting further help</h3>
     <p>If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a>.</p>
 </div>
