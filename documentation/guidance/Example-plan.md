@@ -138,19 +138,194 @@ See Section 2 on preparing your data for further details about the likely impact
 
 If you are a community foundation using the Digits2 grants management system please refer to [our special guidance](https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/) about the built-in 360Giving data extract to publishing 360Giving data.
 
+# Examples
+
+### Media card
+
+<article class="media-card media-card--red">
+    <div class="media-card__content">
+        <header class="media-card__header">
+            <h3 class="media-card__heading">Rachel Rank</h3>
+            <span class="media-card__subtitle">Chief Operating Officer</span>
+        </header>
+        <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing elit</a>. Harum quod vel voluptas recusandae dignissimos fugit deserunt molestiae, quae, blanditiis autem nesciunt odio consectetur error facilis. Ipsum, maiores cumque quo atque. Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae magni. </p>
+    </div>
+
+    <div class="media-card__image-wrapper">
+        <div class="media-card__image" style="background-image: url(https://www.threesixtygiving.org/wp-content/uploads/47319360032_51d21156a2_c.jpg)"></div>
+    </div>
+</article>
+
+### Alert tag
+
+<div class="alert-tag">
+    <span class="alert-tag__icon"><svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 5.83333C6.70833 5.83333 6.41667 6.06667 6.41667 6.41667V9.91667C6.41667 10.2667 6.65 10.5 7 10.5C7.29167 10.5 7.58333 10.2667 7.58333 9.91667V6.41667C7.58333 6.125 7.29167 5.83333 7 5.83333ZM7 3.5C6.70833 3.5 6.41667 3.73333 6.41667 4.08333C6.41667 4.375 6.65 4.66667 7 4.66667C7.29167 4.66667 7.58333 4.43333 7.58333 4.08333C7.58333 3.79167 7.29167 3.5 7 3.5ZM7 0C3.15 0 0 3.15 0 7C0 10.85 3.15 14 7 14C10.85 14 14 10.85 14 7C14 3.15 10.85 0 7 0ZM7 12.8333C3.79167 12.8333 1.16667 10.2083 1.16667 7C1.16667 3.79167 3.79167 1.16667 7 1.16667C10.2083 1.16667 12.8333 3.79167 12.8333 7C12.8333 10.2083 10.2083 12.8333 7 12.8333Z" fill="#1D1536" />
+        </svg>
+    </span>
+    <span class="alert-tag__content"><a href="#">Our guide to targeting your search</a></span>
+</div>
+
+<a class="alert-tag alert-tag--anchor" href="#">
+    <span class="alert-tag__icon"><svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 5.83333C6.70833 5.83333 6.41667 6.06667 6.41667 6.41667V9.91667C6.41667 10.2667 6.65 10.5 7 10.5C7.29167 10.5 7.58333 10.2667 7.58333 9.91667V6.41667C7.58333 6.125 7.29167 5.83333 7 5.83333ZM7 3.5C6.70833 3.5 6.41667 3.73333 6.41667 4.08333C6.41667 4.375 6.65 4.66667 7 4.66667C7.29167 4.66667 7.58333 4.43333 7.58333 4.08333C7.58333 3.79167 7.29167 3.5 7 3.5ZM7 0C3.15 0 0 3.15 0 7C0 10.85 3.15 14 7 14C10.85 14 14 10.85 14 7C14 3.15 10.85 0 7 0ZM7 12.8333C3.79167 12.8333 1.16667 10.2083 1.16667 7C1.16667 3.79167 3.79167 1.16667 7 1.16667C10.2083 1.16667 12.8333 3.79167 12.8333 7C12.8333 10.2083 10.2083 12.8333 7 12.8333Z" fill="#1D1536" />
+        </svg>
+    </span>
+    <span class="alert-tag__content">Learn more about this</span>
+</a>
+
+### Buttons
+
+<p>
+    <a href="#" class="button">Button</a>
+    <button class="button button--orange">Button Orange</button>
+    <button class="button button--teal">Button teal</button>
+    <button class="button button--yellow">Button yellow</button>
+    <button class="button button--red">Button red</button>
+    <button class="button button--black">Button black</button>
+    <button class="button button--disabled">Button disabled</button>
+</p>
+
+<p>
+    <a href="#" class="button button--large">Button</a>
+    <button class="button button--large button--orange">Button Orange</button>
+    <button class="button button--large button--teal">Button teal</button>
+    <button class="button button--large button--yellow">Button yellow</button>
+    <button class="button button--large button--red">Button red</button>
+    <button class="button button--large button--black">Button black</button>
+    <button class="button button--large button--disabled">Button disabled</button>
+</p>
+
+<p>
+    <a href="#" class="button button--small">Button</a>
+    <button class="button button--small button--orange">Button Orange</button>
+    <button class="button button--small button--teal">Button teal</button>
+    <button class="button button--small button--yellow">Button yellow</button>
+    <button class="button button--small button--red">Button red</button>
+    <button class="button button--small button--black">Button black</button>
+    <button class="button button--small button--disabled">Button disabled</button>
+</p>
+
+### Default box (dark colour
+
+<div class="box">
+    <h3 class="box__heading">Developers</h3>
+    <p>For a JSON feed of published datasets visit <a href="http://standard.threesixtygiving.org/en/latest/getdata/" target="_blank">standard.threesixtygiving.org</a></p>
+</div>
+
+### Prose image box
 
 <div class="prose">
-    <div class="accordion">
-        <section class="prose__section">
-            <button class="accordion__trigger button button--small button--yellow">More Information</button>
-            <p>For convenience we provide a <a href="#">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs.</p>
-            <p>The template is a multi-sheet spreadsheet, and each sheet is described below.</p>
-            <p>Many data producers will be able to fit all the information about a single grant on one row of a spreadsheet. In fact most data producers do exactly that, and provide a single sheet with many individual grants.</p>
 
-          <section class="prose__section accordion__extra" aria-hidden>
-            <h5>This is a heading 5</h5>
-            <p>Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the 360Giving JSON Schemas. Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the 360Giving JSON Schemas.</p>
+    <figure>
+        <img src="https://www.threesixtygiving.org/wp-content/uploads/47319360032_51d21156a2_c.jpg" alt="">
+        <figcaption>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. <em>Fuga deleniti architecto nisi</em>, rerum aliquid aperiam minima <strong>saepe magnam eum. Odit aliquid similique magnam minima</strong>, corrupti, aliquam laudantium eos asperiores possimus?</figcaption>
+    </figure>
 
-        </section>
-    </div>
+</div>
+
+### Table
+
+<div class="table table--zebra">
+    <table>
+
+        <thead>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th>Required</th>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Identifier</td>
+                <td data-header="Description">The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the 360Giving Grant identifier guidance for details.</td>
+                <td data-header="Type"><code>string</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--true">check</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Title</td>
+                <td data-header="Description">A title for this grant activity. This should be under 140 characters long.</td>
+                <td data-header="Type"><code>string</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--true">check</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Description</td>
+                <td data-header="Description">A short description of this grant activity.</td>
+                <td data-header="Type"><code>string</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--true">check</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Currency</td>
+                <td data-header="Description">The currency used in amounts. Use the three-letter <a href='#'>currency code from ISO 4217</a> eg: Use GBP for Pounds Sterling.</td>
+                <td data-header="Type"><code>string</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--true">check</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Amount Applied For</td>
+                <td data-header="Description">Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.</td>
+                <td data-header="Type"><code>number</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--false">close</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Amount Awarded</td>
+                <td data-header="Description">Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.</td>
+                <td data-header="Type"><code>number</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--true">check</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Amount Disbursed</td>
+                <td data-header="Description">Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.</td>
+                <td data-header="Type"><code>number</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--false">close</i>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="table__lead-cell" data-header="Title">Award Date</td>
+                <td data-header="Description">When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.</td>
+                <td data-header="Type"><code>string</code></td>
+                <td data-header="Required" class="table__checks">
+
+                    <i class="material-icons table--true">check</i>
+
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
 </div>
