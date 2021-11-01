@@ -85,6 +85,10 @@ If your historical grant awards are not representative of what you fund now, you
 
 The more grant data you can share, the greater the benefit to users of 360Giving data. However, if you start by publishing recent grants, you can decide to include more historical data at a future point.
 
+<div class="box box--teal">
+    <h3 class="box__heading">Data protection</h3>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. To find out more go <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" target="_blank">here</a></p></div>
+
 ## Taking inspiration from others
 You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
 
@@ -118,10 +122,6 @@ For more guidance about how to explore 360Giving data in GrantNav visit the <a h
 You can access 360Insights <a href="https://insights.threesixtygiving.org" target="_blank">here.</a>
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
-
-<div class="box box--teal">
-    <h3 class="box__heading">Data protection</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. Click Next to find out more</p></div>
 
 <div class="box">
     <h3 class="box__heading">Getting further help</h3>
