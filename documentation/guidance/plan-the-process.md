@@ -104,7 +104,7 @@ You can access GrantNav <a href="https://grantnav.threesixtygiving.org" target="
 
 Each grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
 
-<img src="../../assets/Example_GrantNav_grant_record.PNG" alt="GrantNav screenshot showing example grant record">
+<img src="../../../assets/Example_GrantNav_grant_record.PNG" alt="GrantNav screenshot showing example grant record">
 
 As well as looking at a single grant record view you can view lists:
 - <a href="https://grantnav.threesixtygiving.org/recipient/GB-CHC-219278" target="_blank">Grants awarded to a particular organisation</a>
