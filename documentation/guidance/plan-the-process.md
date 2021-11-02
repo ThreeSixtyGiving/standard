@@ -104,7 +104,7 @@ You can access GrantNav <a href="https://grantnav.threesixtygiving.org" target="
 
 Each grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
 
-<img src="../guidance/Example_GrantNav_grant_record.PNG" alt="GrantNav screenshot showing example grant record">
+![GrantNav screenshot showing example grant record](../../assets/Example_GrantNav_grant_record.png)
 
 As well as looking at a single grant record view you can view lists:
 - <a href="https://grantnav.threesixtygiving.org/recipient/GB-CHC-219278" target="_blank">Grants awarded to a particular organisation</a>
@@ -123,7 +123,5 @@ You can access 360Insights <a href="https://insights.threesixtygiving.org" targe
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
-<div class="box">
-    <h3 class="box__heading">Getting further help</h3>
-    <p>This guidance has been developed to support funders through the 360Giving publishing process. If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a></p>
-</div>
+![Screenshot of 360Insights](../../assets/Example_360Insights_view.PNG)
+
