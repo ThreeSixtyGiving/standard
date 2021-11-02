@@ -1,4 +1,4 @@
-# Prepare and format your grant data
+# Prepare and format your data
 <div class="box box--teal">
     <h3 class="box__heading">Key tasks</h3>
     <p><ol>
