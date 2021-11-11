@@ -726,7 +726,7 @@
             "ZM",
             "ZW"
           ],
-          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO_3166-1_alpha-2](https://www.iso.org/iso-3166-country-codes.html)",
+          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://www.iso.org/iso-3166-country-codes.html)",
           "weight": 2,
           "title": "Country Code"
         },
@@ -762,7 +762,7 @@
             "string",
             "null"
           ],
-          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the ONS Register of Geographic Codes in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
+          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://data.gov.uk/dataset/389511fa-eb72-4657-a2ef-b3c982ec4c0e/register-of-geographic-codes-april-2020-for-the-united-kingdom) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
           "weight": 5,
           "title": "Geographic Code"
         },
@@ -926,31 +926,31 @@
         },
         "streetAddress": {
           "type": "string",
-          "description": "Recipient organisation address Building number and street name.",
+          "description": "Recipient organisation address building number and street name.",
           "weight": 3.1,
           "title": "Street Address"
         },
         "addressLocality": {
           "type": "string",
-          "description": "Recipient organisation address City or town.",
+          "description": "Recipient organisation address city or town.",
           "weight": 3.2,
           "title": "City"
         },
         "addressRegion": {
           "type": "string",
-          "description": "Recipient organisation address County",
+          "description": "Recipient organisation address county",
           "weight": 3.3,
           "title": "County"
         },
         "addressCountry": {
           "type": "string",
-          "description": "Recipient organisation address Country",
+          "description": "Recipient organisation address country",
           "weight": 3.5,
           "title": "Country"
         },
         "postalCode": {
           "type": "string",
-          "description": "Recipient organisation address Postal code.",
+          "description": "Recipient organisation address postal code.",
           "weight": 3.4,
           "title": "Postal Code"
         },
