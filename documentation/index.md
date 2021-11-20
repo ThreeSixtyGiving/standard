@@ -28,7 +28,7 @@ This features information about governance and change management of the 360Givin
 Read our introduction to this guidance and what to expect when publishing 360Giving data for the first time.
 
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/welcome/" class="button button--teal">Read more</a>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/before-starting" class="button button--teal">Read more</a>
 </p>
 
 ### Contents
