@@ -68,7 +68,3 @@ Preparing 360Giving data does require a commitment of resources from the publish
 There can however be costs related to consultancy or support fees to get a grants management system set up to export 360Giving data. 
 
 
-<div class="box">
-    <h3 class="box__heading">Getting further help</h3>
-    <p>This guidance has been developed to support funders through the 360Giving publishing process. If you can't find the information you need or you have further questions please email <a href="mailto:support@threesixtygiving.org">360Giving Helpdesk</a> or fill out our <a href="https://docs.google.com/document/d/1LitLsFnMRXRZKXeEZqw8Dw1tbR9AMDpHj0446y8l6WY/edit?usp=sharing" target="_blank">feedback form</a></p>
-</div>
