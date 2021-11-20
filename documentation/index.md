@@ -36,7 +36,6 @@ Read our introduction to this guidance and what to expect when publishing 360Giv
 .. toctree::
    :maxdepth: 2
    
-   welcome
    guidance/index
    technical/index
    about/index
