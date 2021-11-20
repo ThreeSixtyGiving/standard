@@ -1,5 +1,4 @@
-# Terms of Reference
-Stewardship Committee of the 360Giving Data Standard.
+# Terms of Reference of the Stewardship Committee
 
 ***1\. Role of the Committee***
   
