@@ -10,4 +10,6 @@ This section provides further information about how proposed updates to the 360G
    :maxdepth: 2
 
    governance
+   sc-tor
+   
 ```
