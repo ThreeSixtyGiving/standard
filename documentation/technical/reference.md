@@ -71,7 +71,7 @@ The main 'grants' sheet includes sections for:
 ```
 
 ```eval_rst
-../.. _additional-fields:
+.. _additional-fields:
 ```
 
 ### Additional fields
@@ -190,7 +190,7 @@ These do not currently have nice human readable titles, but can still be added a
 To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
 ```eval_rst
-../.. _one-to-many-relationships:
+.. _one-to-many-relationships:
 ```
 
 ### One to many relationships
@@ -297,7 +297,7 @@ The 360Giving standard is defined by a [JSON Schema](https://json-schema.org/), 
 At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
 
 ```eval_rst
-../.. _360giving-json-schemas:
+.. _360giving-json-schemas:
 ```
 
 ### 360Giving JSON Schemas
