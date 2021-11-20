@@ -17,6 +17,7 @@ This isn’t a reporting process, it’s an opportunity to let people know about
 .. toctree::
    :maxdepth: 2
    
+   before-starting
    plan-the-process
    data-protection
    prepare-data
