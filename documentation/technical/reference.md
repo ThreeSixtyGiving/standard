@@ -27,7 +27,7 @@ To produce 360Giving data in a spreadsheet, it is possible to start with an empt
 
 ### Spreadsheet template
 
-For convenience we provide a <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred.
+For convenience we provide a <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred.
 
 The template is a multi-sheet spreadsheet, and each sheet is described below.
 
@@ -41,7 +41,7 @@ The 360Giving Spreadsheet template consists of a 'grants' sheet which contains t
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schema](360giving-json-schemas) ).
 
 ### Meta Sheet
-We also provide a version of the 360Giving <a href="../_static/360-giving-schema-titles-with-meta-tab.xlsx">Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the 360Giving <a href="../../_static/360-giving-schema-titles-with-meta-tab.xlsx">Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
@@ -51,7 +51,7 @@ We also provide a version of the 360Giving <a href="../_static/360-giving-schema
 * A link for the open license that applies to the file
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-package-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-package-schema.json
 ```
 
 ### Grants Sheet
@@ -71,7 +71,7 @@ The main 'grants' sheet includes sections for:
 ```
 
 ```eval_rst
-.. _additional-fields:
+../.. _additional-fields:
 ```
 
 ### Additional fields
@@ -117,63 +117,63 @@ If you have additional data to report that does not fit any of the columns provi
 #### Funding Org
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingOrganization
 ```
 
 #### Recipient Org
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: recipientOrganization
 ```
 
 #### Beneficiary Location
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: beneficiaryLocation
 ```
 
 #### Funding Org:Location
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingOrganization/0/location
 ```
 
 #### Recipient Org:Location
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: recipientOrganization/0/location
 ```
 
 #### Related Document
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: relatedDocument
 ```
 
 #### Classifications
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: classifications
 ```
 
 #### Funding Type
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingType
 ```
 
 #### Grant Programme
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: grantProgramme
 ```
 
@@ -190,7 +190,7 @@ These do not currently have nice human readable titles, but can still be added a
 To create the column titles, refer to the 360Giving JSON Schema and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
 ```eval_rst
-.. _one-to-many-relationships:
+../.. _one-to-many-relationships:
 ```
 
 ### One to many relationships
@@ -199,7 +199,7 @@ Each of the sections of additional fields above can have multiple occurrences fo
 
 ##### Additional sheets
 
-Use the other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a>. These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
+Use the other sheets in the <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a>. These have the columns described above, plus an extra column at the start for the Identifier of the relevant grant.
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding/Recipient Org.
 
@@ -297,27 +297,27 @@ The 360Giving standard is defined by a [JSON Schema](https://json-schema.org/), 
 At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
 
 ```eval_rst
-.. _360giving-json-schemas:
+../.. _360giving-json-schemas:
 ```
 
 ### 360Giving JSON Schemas
 The 360Giving JSON Schemas are the authoritative source of information about the standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schema.
 
-The <a href="../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
+The <a href="../../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
 
-When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The <a href="../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not a grant). Metdata is declared using the fields in the package schema (except for grants which is a list of grant data)
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. The <a href="../../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not a grant). Metdata is declared using the fields in the package schema (except for grants which is a list of grant data)
 
 In general, most publishers will initially only use a subset of the possible features of the standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="../_static/docson/widget.js"
-data-schema="../360-giving-package-schema.json">
+<script src="../../_static/docson/widget.js"
+data-schema="../../360-giving-package-schema.json">
 </script>
 </div>
 
 <div id="custom-docson-container">
-  <script src="../_static/docson/widget.js"
-        data-schema="../360-giving-schema.json">
+  <script src="../../_static/docson/widget.js"
+        data-schema="../../360-giving-schema.json">
   </script>
 </div>
 
@@ -334,12 +334,12 @@ A mapping between column titles and field names for each schema is given below:
 
 #### 360Giving Package Schema (incorporating Metadata)
 ```eval_rst
-.. jsonschema-title-fieldname-map:: ../schema/360-giving-package-schema.json
+.. jsonschema-title-fieldname-map:: ../../schema/360-giving-package-schema.json
 ```
 
 #### 360Giving Data Standard Schema
 ```eval_rst
-.. jsonschema-title-fieldname-map:: ../schema/360-giving-schema.json
+.. jsonschema-title-fieldname-map:: ../../schema/360-giving-schema.json
 ```
 
 ### JSON
