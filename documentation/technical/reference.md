@@ -67,7 +67,7 @@ The main 'grants' sheet includes sections for:
 * Details of the grant programme funding is from;
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
 ```
 
 ```eval_rst
@@ -78,7 +78,7 @@ The main 'grants' sheet includes sections for:
 
 The main 'grants' sheet only includes the most common information used by most data publishers. For many people this is enough.
 
-The other sheets in the <a href="../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
+The other sheets in the <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> provide the details of all the possible fields that can be reported. These sheets serve a dual purpose:
 
 1. As a way to add more information to our 'grants' sheet
 
@@ -103,14 +103,14 @@ If you have additional data to report that does not fit any of the columns provi
 #### Actual Dates
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: actualDates
 ```
 
 #### Planned Dates
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: plannedDates
 ```
 
