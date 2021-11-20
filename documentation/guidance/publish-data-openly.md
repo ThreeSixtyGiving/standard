@@ -54,6 +54,9 @@ You can host the data file anywhere on your site and place a link to it where it
 - You could link to your data file from an existing page which shares information about your grants awarded, or alongside your annual report.
 - Or you can choose another place which makes sense for your website’s structure.
 
+#### Using the 360Giving logo
+If you would like to use the 360Giving logo on your website, there is a <a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank">special design that publishers can use.</a>
+
 #### Example hosting pages
 Here are some examples of what other 360Giving publishers have done.
 
