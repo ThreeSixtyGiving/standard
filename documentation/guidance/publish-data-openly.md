@@ -57,7 +57,7 @@ You can host the data file anywhere on your site and place a link to it where it
 #### Using the 360Giving logo
 If you would like to use the 360Giving logo on your website, there is a <a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank">special design that publishers can use.</a>
 
-<a href="https://www.threesixtygiving.org/" target="_blank" rel="noopener noreferrer"><img
+<a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank" rel="noopener noreferrer"><img
 src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green.png"
 alt="360Giving publisher badge" style="max-width: 200px" /></a>
 
