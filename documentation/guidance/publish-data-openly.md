@@ -59,7 +59,7 @@ If you would like to use the 360Giving logo on your website, there is a <a href=
 
 <a href="https://www.threesixtygiving.org/" target="_blank" rel="noopener noreferrer"><img
 src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green.png"
-alt="360Giving publisher badge" style="max-width: 50px" /></a>
+alt="360Giving publisher badge" style="max-width: 200px" /></a>
 
 #### Example hosting pages
 Here are some examples of what other 360Giving publishers have done.
