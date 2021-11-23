@@ -762,7 +762,7 @@
             "string",
             "null"
           ],
-          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://data.gov.uk/dataset/389511fa-eb72-4657-a2ef-b3c982ec4c0e/register-of-geographic-codes-april-2020-for-the-united-kingdom) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
+          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://en.wikipedia.org/wiki/ONS_coding_system) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
           "weight": 5,
           "title": "Geographic Code"
         },
