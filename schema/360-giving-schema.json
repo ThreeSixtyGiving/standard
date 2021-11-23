@@ -1171,7 +1171,7 @@
         "$ref": "#/definitions/Event"
       },
       "type": "array",
-      "description": "When did this grant activity actually take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.",
+      "description": "When did this grant activity actually take place. Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.",
       "weight": 5.041,
       "title": "Actual Dates"
     },
@@ -1235,7 +1235,7 @@
         "$ref": "#/definitions/GrantProgramme"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about the grant programme under which the grant was awarded",
       "weight": 5,
       "title": "Grant Programme",
       "rollUp": [
@@ -1259,7 +1259,7 @@
         "$ref": "#/definitions/Classification"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about the type of funding provided by the grant",
       "weight": 5,
       "title": "Funding Type"
     },
@@ -1268,7 +1268,7 @@
         "$ref": "#/definitions/Classification"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about a classification associated with the grant",
       "weight": 5,
       "title": "Classifications"
     },
@@ -1277,7 +1277,7 @@
         "$ref": "#/definitions/Documents"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about a document related to the grant",
       "weight": 5,
       "title": "Related Document"
     },
