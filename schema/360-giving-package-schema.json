@@ -29,7 +29,7 @@
         },
         "issued": {
           "title": "Issued",
-          "description": "The date that this data package was issued. The date must be written as YYYY-MM-DD, or in [full date-time format](https://json-schema.org/understanding-json-schema/reference/string.html#dates-and-times)",
+          "description": "The date that this data package was issued. The date must be written as YYYY-MM-DD, or in full date-time format",
           "type": "string",
           "oneOf": [
             {"format": "date-time"},
