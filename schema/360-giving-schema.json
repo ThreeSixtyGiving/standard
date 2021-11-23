@@ -999,7 +999,7 @@
             "$ref": "#/definitions/Location"
           },
           "type": "array",
-          "description": "-",
+          "description": "Information about the location of the organisation.",
           "weight": 5,
           "title": "Location"
         },
