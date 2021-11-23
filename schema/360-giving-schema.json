@@ -926,31 +926,31 @@
         },
         "streetAddress": {
           "type": "string",
-          "description": "Recipient organisation address building number and street name.",
+          "description": "Organisation address building number and street name.",
           "weight": 3.1,
           "title": "Street Address"
         },
         "addressLocality": {
           "type": "string",
-          "description": "Recipient organisation address city or town.",
+          "description": "Organisation address city or town.",
           "weight": 3.2,
           "title": "City"
         },
         "addressRegion": {
           "type": "string",
-          "description": "Recipient organisation address county",
+          "description": "Organisation address county",
           "weight": 3.3,
           "title": "County"
         },
         "addressCountry": {
           "type": "string",
-          "description": "Recipient organisation address country",
+          "description": "Organisation address country",
           "weight": 3.5,
           "title": "Country"
         },
         "postalCode": {
           "type": "string",
-          "description": "Recipient organisation address postal code.",
+          "description": "Organisation address postal code.",
           "weight": 3.4,
           "title": "Postal Code"
         },
