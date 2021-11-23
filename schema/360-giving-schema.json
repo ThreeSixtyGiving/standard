@@ -726,7 +726,7 @@
             "ZM",
             "ZW"
           ],
-          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://www.iso.org/iso-3166-country-codes.html)",
+          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)",
           "weight": 2,
           "title": "Country Code"
         },
