@@ -96,7 +96,7 @@ If you have additional data to report that does not fit any of the columns provi
 
   If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
 
-  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations. `Contact 360Giving support <mailto:support@threesixtygiving.org`_ with further queries about naming your own columns.
+  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations. `Contact 360Giving support <mailto:support@threesixtygiving.org>`_ with further queries about naming your own columns.
 ```
 
 #### Actual Dates
