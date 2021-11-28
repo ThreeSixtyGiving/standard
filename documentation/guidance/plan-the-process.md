@@ -95,14 +95,14 @@ You may find it helpful to look at the data published by other funders to unders
 #### Data Registry
 <a href="https://data.threesixtygiving.org/" target="_blank">The Data Registry</a> is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
 
-![Data Registry logo](../../assets/Who-publishes-360Giving-data.PNG)
+![Data Registry logo](../../assets/360registry-color.png)
 
 #### GrantNav
 <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is our search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
 
 Each GrantNav grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
 
-![GrantNav screenshot showing example grant record](../../assets/360registry-color.png)
+![GrantNav screenshot showing example grant record](../../assets/Example_GrantNav_grant_record.PNG)
 
 As well as looking at a single grant record view you can view lists:
 - <a href="https://grantnav.threesixtygiving.org/recipient/GB-CHC-219278" target="_blank">Grants awarded to a particular organisation</a>
