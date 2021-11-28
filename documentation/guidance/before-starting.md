@@ -11,17 +11,21 @@ These stages apply to all types of funder. However, the approach you take, the s
 
 ### The three stages of the publishing process
 
-***1. Plan***
-
-You will identify the scope of the grant information you want to share by looking at the data in your systems, and comparing it with the available 360Giving Data Standard fields. You can also take inspiration from what other funders have included in their 360Giving data. Once you have identified the grant information you intend to publish, you can consider the data protection implications of sharing this data, and develop appropriate policies so you can do so responsibly.
+#### 1. Plan
+You will identify the scope of the grant information you want to share by looking at the data in your systems, and comparing it with the available 360Giving Data Standard fields. You can also take inspiration from what other funders have included in their 360Giving data. 
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/plan-the-process/" class="button button--teal">Read more</a>
 </p>
 
-***2. Prepare***
+Once you have identified the grant information you intend to publish, you should consider the data protection implications of sharing this data, and develop appropriate policies so you can do so responsibly.
 
-Your grant information needs to be transformed into 360Giving data, using the correct formatting and headings. You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
+<p>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" class="button button--teal">Read more</a>
+</p>
+
+#### 2. Prepare
+Your grant information needs to be transformed into 360Giving data, using the correct formatting and headings.
 
 For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it in a spreadsheet. However, some grants management systems make it possible to build-in some or all of the steps needed to convert the information, so it can be exported directly in 360Giving data format.
 
@@ -29,8 +33,13 @@ For many publishers, preparing their data is a manual process that involves expo
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Read more</a>
 </p>
 
-***3. Publish***
+You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
 
+<p>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Read more</a>
+</p>
+
+#### 3. Publish
 Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. The final step is to let 360Giving know that your data has been published.
 
 Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
@@ -91,3 +100,5 @@ Organisations that share 360Giving data are the owners of the information and wh
 The 360Giving Data Standard is defined by a JSON Schema, which describes the structure and attributes of the information can be shared. JSON, which stands for **JavaScript Object Notation**, is a data interchange format commonly used for transmitting data in web applications. 
 
 For further information visit the <a href="https://json-schema.org/" target="_blank">JSON schema website.</a>
+
+
