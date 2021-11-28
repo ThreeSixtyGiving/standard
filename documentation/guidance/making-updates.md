@@ -58,3 +58,6 @@ A fundamental aspect of publishing using the 360Giving Data Standard, and publis
 An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
 360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
+
+### What's next?
+Read our introduction to using your 360Giving data.
