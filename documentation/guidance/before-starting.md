@@ -111,4 +111,7 @@ The 360Giving Data Standard is defined by a JSON Schema, which describes the str
 
 For further information visit the <a href="https://json-schema.org/" target="_blank">JSON schema website.</a>
 
+### What's next?
+Read our guidance about the first stage - planning your process and deciding what data to share.
+
 
