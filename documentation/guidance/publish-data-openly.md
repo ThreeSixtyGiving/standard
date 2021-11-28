@@ -32,7 +32,7 @@ Without a license, data is not open data and potential users would not know what
 Providing your 360Giving data under an open license is a straightforward way to let users know that they have permission to use the data, as well as any conditions of use.
 
 - The licenses are free to use so there is no charge associated with openly licensing your 360Giving data.
-- To use an open license you simply include the details of the license you are using alongside the link to your 360Giving data file.
+- To use an open license you include the details of the license you are using alongside the link to your 360Giving data file, as shown in the example open license statement.
 
 #### Example open license statement
 Here’s an example of a license statement based on our recommended CC BY 4.0 license. Simply replace the words in square brackets with information about your organisation and grants.
@@ -57,9 +57,7 @@ You can host the data file anywhere on your site and place a link to it where it
 #### Using the 360Giving logo
 If you would like to use the 360Giving logo on your website, there is a <a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank">special design that publishers can use.</a>
 
-<a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank" rel="noopener noreferrer"><img
-src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green.png"
-alt="360Giving publisher badge" style="max-width: 200px" /></a>
+<img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-white-150x150.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-teal-150x150.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green-150x150.png" alt="360Giving publisher badge - green" width="150" height="150" />
 
 #### Example hosting pages
 Here are some examples of what other 360Giving publishers have done.
@@ -101,14 +99,14 @@ If you can upload the 360Giving file into the backend of your website but cannot
 
 Please see our [guidance about metadata](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#including-metadata-in-your-360giving-file) for further information.
 
-### Register your file with 360Giving
+## Register your file with 360Giving
 Once your 360Giving data file is published, the final step is to let us know so we can add a link to the file from the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
 
 The 360Giving Data Registry is a list of all the organisations that currently publish their grant data in the 360Giving Data Standard, with direct links to their data sources. Anyone can access the Registry to view, download and use the data.
 
 The files listed on the 360Giving Data Registry are the source for the data in GrantNav, 360Insights and other tools and platforms using the data.
 
-#### When your grants will appear in GrantNav and 360Insights
+### When your grants will appear in GrantNav and 360Insights
 In order for data to be included in 360Giving tools, the data needs to meet these three criteria:
 - Listed on the 360Giving Data Registry;
 - Openly licensed;
@@ -117,10 +115,10 @@ In order for data to be included in 360Giving tools, the data needs to meet thes
 **GrantNav** is updated on a daily basis. This means your data will appear there the day after a file is added to the Data Registry.
 **360Insights** takes up to 48 hours to update. This means your data will appear there two days after a file is added to the Data Registry.
 
-### Good practice in file management
+## Good practice in file management
 360Giving publishing is all about files - it’s how data is shared and gets updated. This means it is important to consider your approach to file management.
 
-#### Publishing in single or multiple files
+### Publishing in single or multiple files
 Some organisations publish all their data in a single file while others split their grants data into separate files by year or grant programme.
 Your choice might be influenced by a range of factors:
 - If you will be making regular updates it might be easier to add data into a single file with all your grants.
@@ -130,7 +128,7 @@ Your choice might be influenced by a range of factors:
 
 If you split your grant data into multiple files, you will need to contact 360Giving to register each file as it is published. See the guidance on registering your file with 360Giving for more details.
 
-#### Tips for naming your 360Giving data file
+### Tips for naming your 360Giving data file
 As well as deciding where to host your file, you should also give some thought to the file name. 
 Examples of good practice:
 - Include your organisation name in your file names to make it easier for users who download the file to know who published the data.
@@ -138,7 +136,7 @@ Examples of good practice:
 - If you intend to publish all your grants data in a single file, adding more data over time, you should choose a generic title.
 - Avoid including file version numbers, grant date ranges or file save dates which will need to be changed as the contents of the file change.
 
-#### Maintaining a consistent link for your 360Giving data file
+### Maintaining a consistent link for your 360Giving data file
 To maintain a consistent link for your 360Giving data you need to upload your file into the same folder within your website content management systems and use a generic name for your file. The name of the file should not change, even as the contents change.
  
 For example, your  file link may look like this: 
@@ -154,4 +152,8 @@ By default, Wordpress websites organise uploads by year and month but it is poss
 Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](https://standard.threesixtygiving.org/en/new-docs-style/publish-data-openly/#alternative-options-for-360giving-data-hosting) for more details.
  
 Maintaining a consistent link can be a convenient approach to file 360Giving file management however you can always contact 360Giving Helpdesk via <support@threesixtygiving.org> about data updates, and we can check the file and update the Data Registry as needed.
+
+### What's next?
+Read our guidance about making updates to your 360Giving data.
+
 
