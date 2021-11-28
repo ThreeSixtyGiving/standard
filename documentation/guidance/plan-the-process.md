@@ -54,23 +54,23 @@ If you don’t collect certain data or the information is not relevant to your g
 It is possible to start by publishing simpler information and over time, extend the range of fields you include.
 
 #### Further information about core and recommended fields
-You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard.</a> (link opens in Google Sheets)
+You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
 
-For further information about all the possible fields in the 360Giving Data Standard visit the [Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/) 
+For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/) 
 
 #### Additional fields
 If you have information that doesn’t fit any of the 360Giving Data Standard fields provided, you can include these in additional fields. 
 
 A file of 360Giving data can include any number of **non-Standard** fields, however you will need to take care with the titles and make sure the data formatting is consistent.
 
-For guidance on naming your own fields visit the [Additional fields section.](https://standard.threesixtygiving.org/en/new-docs-style/reference/#additional-fields)
+For guidance on naming your own fields visit the [Additional fields section.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/#additional-fields)
 
 ### Decide what kind of grants to include
 360Giving is a voluntary initiative and you can decide what information to share in your open grants data, based on what is appropriate to your circumstances. 
 
-While the majority of 360Giving publishers include data about all their grants, there are examples of those who share data about certain programmes, or only grants over a certain value. Funders that give grants to individuals and to organisations often decide to only publish data about their grants to organisations.
+The majority of 360Giving publishers data about all their grants, but there are examples of those who share data about certain programmes, or only grants over a certain value.
 
-If your goal is to publish data about all your grants but you find there are practical or policy issues to address first, work out which grant programmes or records are unaffected by these barriers, and move forward with publishing these. The learning from this process can then be applied to other areas of your grantmaking once the issues are resolved.
+If your goal is to publish data about all your grants but you find there are practical or policy issues to address first, work out which grant programmes or grants that are unaffected by these barriers, and move forward with publishing these. The learning from this process can then be applied to other areas of your grantmaking once the issues are resolved.
 
 #### Decide whether to share historical grant data
 You can publish data going as far back as you want (and have data for) or focus on sharing information about recent grants.
@@ -87,22 +87,18 @@ The more grant data you can share, the greater the benefit to users of 360Giving
 
 <div class="box box--teal">
     <h3 class="box__heading">Data protection</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. To find out more go <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" target="_blank">here</a></p></div>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. Find out more from our <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" target="_blank">Data Protection guidance.</a></p></div>
 
 ## Taking inspiration from others
 You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
 
 #### Data Registry
-360Giving Data Registry is a list of all the organisations that publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
-
-You can access and download files on the Data Registry <a href="https://data.threesixtygiving.org/" target="_blank">here.</a>
+<a href="https://data.threesixtygiving.org/" target="_blank">The Data Registry</a> is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
 
 #### GrantNav
-GrantNav is a search-engine for grants data. You can explore and download data about where funding goes and how much is given across billions of pounds of grants.
+<a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is our search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
 
-You can access GrantNav <a href="https://grantnav.threesixtygiving.org" target="_blank">here.</a>
-
-Each grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
+Each GrantNav grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
 
 ![GrantNav screenshot showing example grant record](../../assets/Example_GrantNav_grant_record.PNG)
 
@@ -117,9 +113,7 @@ You can filter your results by grant size, date, location, grant programme, fund
 For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">Help section.</a>
 
 #### 360Insights
-360Insights is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funding across different areas – from grant dates to types of recipients.
-
-You can access 360Insights <a href="https://insights.threesixtygiving.org" target="_blank">here.</a>
+<a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a> 360Insights is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funders across different areas – from their grant dates to types of recipients.
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
