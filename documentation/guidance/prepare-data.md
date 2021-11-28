@@ -60,9 +60,9 @@ If you use Salesforce as a grants management system, it is possible to build-in 
 It can also be possible to build-in 360Giving publishing into other types of configurable CRM systems - such as Microsoft Dynamics. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> with questions about how your grants management system will impact your 360Giving publishing process.
 
 ## Options for publishing using a spreadsheet
-- You can start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/) 
-- You can also use the ‘360Giving Spreadsheet Template’ and adapt this to your needs.
-- Another method that is used by many publishers is to configure and use a 360Giving Data Conversion Tool Template.
+- Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/) 
+- Use the ‘360Giving Spreadsheet Template’ and adapt this to your needs.
+- Configure and use a 360Giving Data Conversion Tool Template, a method used by a wide range of funders.
 
 ### Using the 360Giving Spreadsheet Template
 This multi-sheet spreadsheet template consists of all the fields in the 360Giving Data Standard. 
@@ -110,13 +110,6 @@ From the second row down, there are a range of formulas which combine the source
 Any changes in content of the data in the **source_data** or **fixed_data** sheets will automatically be picked up in the 360_data sheet.
 
 The tool is colour coded so the **10 core fields** in the 360Giving Data Standard are highlighted green, and the **recommended** fields are highlighted yellow.
-
-#### How the formulas work
-The formulas in the 360_data sheet perform one or more of these actions to convert the data.
-
-- Map the source data to the appropriate 360Giving header leaving the content unchanged.
-- Change the format of the data. For example changing the date from 27/08/2021 to 2021-08-27 which is the date format required by the 360Giving Data Standard.
-- Combine data. For example to create an **Identifier** which is a unique grant ID from your system with your publisher prefix.
 
 For further guidance about setting up and using a conversion tool, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
@@ -189,7 +182,7 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
 8. Re-save as Excel file (xlsx file format).
 
 ### What's next?
-Read our guidance about checking your prepared grants data using the 360Giving Data Quality Tool.
+Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
 
 
 
