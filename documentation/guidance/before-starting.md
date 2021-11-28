@@ -73,6 +73,7 @@ The majority of funders sharing 360Giving data make grants to recipients based i
 
 ![Funders who publish 360Giving grants data](../../assets/Who-publishes-360Giving-data.PNG)
 
+
 Read <a href="https://www.threesixtygiving.org/2021/07/01/how-has-grants-data-grown/" target="_blank">our blog</a> to find out more about the different types of funders publishing 360Giving data.
 
 ### Why publish 360Giving data?
