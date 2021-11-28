@@ -23,4 +23,4 @@ This means they are sharing information about their funding in a way that others
 ## Do you have more complex data needs?
 <a href="https://www.threesixtygiving.org/data/using-360giving-data/" target="_blank">Our page</a> on using 360Giving data outlines the different ways that developers, researchers and others can access grants data in the 360Giving Data Standard.
 
-<a href="https://www.threesixtygiving.org/data/360giving-datastore/" target="_blank">The Datastore</a> The Datastore offers a convenient way for developers, researchers and other users with more complex needs to access grants data published in the 360Giving Data Standard directly and run queries on it.
+<a href="https://www.threesixtygiving.org/data/360giving-datastore/" target="_blank">The Datastore</a> offers a convenient way for developers, researchers and other users with more complex needs to access grants data published in the 360Giving Data Standard directly and run queries on it.
