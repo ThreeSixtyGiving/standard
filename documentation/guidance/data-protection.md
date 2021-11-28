@@ -5,7 +5,7 @@
     <p><ol>
       <li>Check your privacy policies and grant agreements.</li>
       <li>Check whether your 360Giving data could include personal data.</li>
-      <li>Consider Responsible data implications of sharing data.</li>
+      <li>Consider the responsible data implications of sharing data.</li>
       <li>Remove or anonymise personal data or get informed consent to share it.</li>
       <li>Decide whether to notify your grantees about your 360Giving data.</li>
       </ol></p></div>
@@ -36,7 +36,7 @@ Include:
 Avoid:
 - Statements that imply published information will only be used by specific partner organisations (as this restriction cannot be placed on openly licensed data).
 
-## Public vs personal information
+### Public vs personal information
 Attention should be paid to any data you intend to publish which may be personally identifying under the Data Protection Act 2018, including:
 - Grants to named individuals.
 - The contact person, and their contact details, at an organisation you have funded.
