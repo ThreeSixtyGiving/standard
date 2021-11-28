@@ -53,6 +53,14 @@ Once your file of 360Giving data has been published openly, a link to it will be
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/" class="button button--teal">Read more</a>
 </p>
 
+#### Updating 360Giving data
+Once you have published 360Giving data for the first time, you will decide whether to make updates to add more grants on an annual basis or more frequently. Documenting your publishing process will make it easier to make updates.
+
+<p>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/making-updates/" class="button button--teal">Read more</a>
+</p>
+
+
 ### 360Giving support is free
 There are no registration fees or costs associated with publishing your grants data in the 360Giving Data Standard. 360Giving support for publishers is provided free of charge. 
 
