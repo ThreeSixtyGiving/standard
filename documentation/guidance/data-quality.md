@@ -66,3 +66,8 @@ The Data Quality Tool has been designed to support people preparing their 360Giv
 The feedback report you receive has a private URL which means only those with the link can access the page and the data. If your data is not suitable for sharing publicly then you should treat this URL with care and only share it with people who are allowed access to the data. As long as you do not put the URL on a public page, then it will not be possible for people to come across it by accident.
 
 The files are deleted automatically from the Data Quality Tool after seven days. For further details about how the files are stored and deleted read the <a href="https://dataquality.threesixtygiving.org/" target="_blank">‘More Information’</a> section on the homepage of the tool and the <a href="https://dataquality.threesixtygiving.org/terms/" target="_blank">Terms and Conditions.</a> 
+
+### What's next?
+Read our guidance about how to published your grant data openly making it available for anyone to download and use.
+
+
