@@ -10,7 +10,7 @@
       <li>Decide whether to notify your grantees about your 360Giving data.</li>
       </ol></p></div>
 
-## Introduction
+## Overview
 The data collected by funders about the awards made to grantees belongs to the funder, and information about organisations and the grants they receive is not personal data. However, grants to individuals, grants to smaller organisations, or named contact details for organisations, may contain or constitute personal data.
 
 In general, **open data should not contain personal or sensitive personal data that could allow a living person to be identified**. Data to be published using the 360Giving Data Standard which does relate to identified individuals should be removed or anonymised to protect their privacy. 
@@ -19,7 +19,7 @@ Although there are circumstances where publishing personal data is in the public
 
 The guidance below sets out what to consider when publishing your grant data openly for the first time, and notifying your grantees about your 360Giving data.
 
-### Check your privacy policies and grant agreements
+## Checking privacy policies and grant agreements
 If your organisation already announces details of grants through annual reports, web pages or press releases, you should already have processes in place that establish your rights to share this information publicly. 
 
 - Check the terms of your grant agreements for any existing clauses relating to publicity and disclosure of information about grants. 
@@ -148,6 +148,6 @@ An example of <a href="https://github.com/opendataservices/opendatapolicy" targe
 
 Adopting an open data policy for your organisation will help to guide the checks you make before publishing data, and record the range and type of changes that may need to be made to your grant information before sharing it openly.
 
-## Further information about data protection
+### Further information about data protection
 If you want to discuss this data protection guidance and how it relates to your specific circumstances, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
