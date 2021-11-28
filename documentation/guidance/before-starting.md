@@ -17,44 +17,37 @@ These stages apply to all types of funder. However, the approach you take, the s
 ### The three stages of the publishing process
 
 #### 1. Plan
-You will identify the scope of the grant information you want to share by looking at the data in your systems, and comparing it with the available 360Giving Data Standard fields. You can also take inspiration from what other funders have included in their 360Giving data. 
+- You will identify the scope of the grant information you want to share by looking at the data in your systems, and comparing it with the available 360Giving Data Standard fields.
+- You can also take inspiration from what other funders have included in their 360Giving data.
+- Once you have identified the grant information you intend to publish, you should consider the data protection implications of sharing this data, and develop appropriate policies so you can do so responsibly.
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/plan-the-process/" class="button button--teal">Read more</a>
 </p>
 
-Once you have identified the grant information you intend to publish, you should consider the data protection implications of sharing this data, and develop appropriate policies so you can do so responsibly.
-
-<p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" class="button button--teal">Read more</a>
-</p>
-
 #### 2. Prepare
-Your grant information needs to be transformed into 360Giving data, using the correct formatting and headings.
+- You will transform your grant information into 360Giving data, using the correct formatting and headings.
 
 For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it in a spreadsheet. However, some grants management systems make it possible to build-in some or all of the steps needed to convert the information, so it can be exported directly in 360Giving data format.
+
+- You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Read more</a>
 </p>
 
-You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
-
-<p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Read more</a>
-</p>
-
 #### 3. Publish
-Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. The final step is to let 360Giving know that your data has been published.
-
-Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
+- Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. 
+- The final step is to let 360Giving know that your data has been published.
+- Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/" class="button button--teal">Read more</a>
 </p>
 
 #### Updating 360Giving data
-Once you have published 360Giving data for the first time, you will decide whether to make updates to add more grants on an annual basis or more frequently. Documenting your publishing process will make it easier to make updates.
+- Once you have published 360Giving data for the first time, you will decide whether to make updates to add more grants on an annual basis or more frequently.
+- Documenting your publishing process will make it easier to make updates.
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/making-updates/" class="button button--teal">Read more</a>
