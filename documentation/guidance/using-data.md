@@ -8,11 +8,17 @@ This means they are sharing information about their funding in a way that others
 ### Want to see funding trends across the UK?
 <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
 
+![GrantNav logo](../../assets/360grantnav-color.png)
+
 ### Want to understand a particular funder better?
 <a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a> is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funders across different areas – from their grant dates to types of recipients.
 
+![360Insights logo](../../assets/360insights-color.png)
+
 ### Want a list of all the funders who make their grants data open?
 <a href="https://data.threesixtygiving.org/" target="_blank">The Data Registry</a> is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
+
+![Data Registry logo](../../assets/360registry-color.png)
 
 ## Do you have more complex data needs?
 <a href="https://www.threesixtygiving.org/data/using-360giving-data/" target="_blank">Our page</a> on using 360Giving data outlines the different ways that developers, researchers and others can access grants data in the 360Giving Data Standard.
