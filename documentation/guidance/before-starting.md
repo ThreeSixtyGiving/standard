@@ -70,7 +70,7 @@ Any type of funder can publish their grants data to the 360Giving Data Standard.
 
 The majority of funders sharing 360Giving data make grants to recipients based in the UK, however it is also possible to use the 360Giving Data Standard to share data about international grants.
 
-Find out more about <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/decide-to-publish/" target="_blank">the benefits of publishing 360Giving data.</a> 
+Find out more about <a href="https://www.threesixtygiving.org/support/why-publish-grants-data/" target="_blank">the benefits of publishing 360Giving data.</a> 
 
 Read <a href="https://www.threesixtygiving.org/2021/07/01/how-has-grants-data-grown/" target="_blank">our blog</a> to find out more about the different types of funders publishing 360Giving data.
 
