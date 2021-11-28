@@ -1,5 +1,5 @@
 # About this site
-This documentation site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
+This site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
 
 The guidance is divided into three parts.
 
@@ -25,7 +25,7 @@ This features information about governance and change management of the 360Givin
 </p>
 
 ### Not sure where to start?
-Read our introduction to this guidance and what to expect when publishing 360Giving data for the first time.
+Read our overview and find out what to expect when publishing 360Giving data for the first time.
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/before-starting" class="button button--teal">Read more</a>
