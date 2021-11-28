@@ -1,4 +1,4 @@
-# Use 360Giving data
+# Using 360Giving data
 The 360Giving Data Standard enables funders to share information about their grants in a way that anyone can access and use, for free. Because the data is standardised, it can be looked at and analysed all together, helping us all to understand grantmaking across the UK.
 
 360Giving has developed tools to make the data easier for people to explore.
