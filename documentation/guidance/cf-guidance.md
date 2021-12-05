@@ -39,11 +39,13 @@ We will also check whether access to the Digits2 tool should be restricted to ce
 
 ### Walk-through video
 <a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the Hyphen8 video walk-through<a/> to get an overview of the process and follow the instructions below to export 360Giving data from your D2 system.
-
+ 
 ## The source report
 A dedicated report folder is created for each community foundation containing the template report that is used as the source for the data extract.  This report can be used to check data quality and to apply the correct filter criteria to limit the grant applications that are included.
+ 
+![Where to find the 360Giving source report in the D2 system](../../assets/D2_Reports_tab_screenshot.png)
 
-Navigate to the Reports tab:
+Navigate to the **Reports** tab:
 - Locate the folder that is prefixed with your Community Foundation name and followed by ‘360Giving Reports’ (enter 360 in the folder search box to find this folder)
 - Click on the folder to display the template report 
 - Click on the report name to open the report
@@ -51,10 +53,13 @@ Navigate to the Reports tab:
 The report template contains all the fields that are sourced directly from the grant application and the associated applicant account records that are included in the agreed 360Giving field specification.
  
 The default filter shown below is set to include all grant applications that have a Record Type of ‘General Approved’ and an amount greater than zero.
-You can change the DATE filter to control the grant applications that you would like to include in the extract. Use this report to check the information that will be published and edit it in the source fields if required – particularly text fields such as Project description – summary and Purpose of Organisation and Project name.
+ 
+You can change the DATE filter to control the grant applications that you would like to include in the extract. Use this report to check the information that will be published and edit it in the source fields if required – particularly text fields such as **Project description – summary** and **Purpose of Organisation** and **Project name**.
+ 
+![Grant Application ID should not be removed from the report](../../assets/D2_GrantID_screenshot.png) 
 
 #### Note: 
-- DO NOT remove the Grant Application ID (circled above) from the report OR move it from the first column – this must remain where it is for the extract process to work
+- **DO NOT remove** the Grant Application ID (circled above) from the report OR move it from the first column – this must remain where it is for the extract process to work
 - If you drag additional fields in to the report, they will NOT be included in the grant extract file but can be included for checking purposes
 - Individual grant recipient names will appear in the report, but these will default to ‘Individual recipient’ in the extract file if they are a Person Account instead of an organization.
 - If project name is blank, then the output will default to ‘Grant to org name’ – if it is person account this will output ‘Individual recipient’
@@ -75,19 +80,37 @@ The following system-generated fixed or calculated values will not appear in the
  
 ### Undisclosed programme
 If you do not want to publish the name of specific Programmes, there are 2 new fields in the 360 Giving section on a programme record.  Tick the 360Giving – Display as undisclosed checkbox and the 360Giving – Programme Title will default to Undisclosed.  This is the value that will show in the programme name on the data extract.
+ 
+![Grant programmes can be set as undisclosed](../../assets/D2_Programme_detail_screenshot.png)  
 
 ### Generating the file
-To generate the formatted extract file in .xls format, go to the new tab called Export Grants Data to 360 Giving.
-This can be added to the tabs across the top menu bar (by accessing customise my tabs via + symbol) or just by locating it in the list of All tabs displayed when you click on the + symbol on the right of the menu bar.
+To generate the formatted extract file in .xls format, go to the new tab called **Export Grants Data to 360 Giving**.
+
+This can be added to the tabs across the top menu bar (by accessing customise my tabs via + symbol) or just by locating it in the list of **All tabs** displayed when you click on the + symbol on the right of the menu bar.
+ 
+![Export Grants Data to 360Giving tab](../../assets/D2_Export_Grants_Data_to_360Giving_screenshot.png)   
+ 
 You will see your Community Foundation’s summary identifier information displayed at the top.
  
-- Click on the Import grants from a report dropdown and the report template that is stored in the dedicated folder will be displayed.
-- Click on the report and the following message will appear: 
+Click on the **Import grants from a report** dropdown and the report template that is stored in the dedicated folder will be displayed.
+
+![Select the source report](../../assets/D2_Select_source_report_screenshot.png)    
+ 
+Click on the report and the following message will appear:
+ 
+![Getting data screenshot](../../assets/D2_Getting_data_screenshot.png)    
 
 The total number of rows in the report will display.
-Click on the Export Excel button to generate the extract file.
-Open the excel file to review data.  Note: the file may take longer to open if there are a large number of records in the file so be patient!
-Save the file to your local drive in .xlsx format. To do this click on ‘Save file as’ and choose Excel Workbook with the .xlsx file extension.
+
+![Report data summary screenshot](../../assets/D2_CF_detail_summary_report_screenshot.png)   
+ 
+Click on the **Export Excel** button to generate the extract file.
+ 
+**Note:** the file may take longer to open if there are a large number of records in the file so you may need to be patient.
+ 
+Open the excel file to review data.
+
+Save the file to your local drive as an .xlsx file. To do this click on ‘Save file as’ and **choose Excel Workbook with the .xlsx file extension**.
  
 ## Check data quality and receive feedback
 Once you have exported a file of your data using the 360Giving extract, the next step is to check that the data is valid. Valid data means the file includes all the required fields and the information has the correct formatting.
@@ -96,7 +119,7 @@ Each Community Foundation is responsible for the data it publishes.  You can che
 
 See our guidance on [checking data quality](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/) before publishing the data.
 
-## Publish: Making your data available for use
+## Publishing your 360Giving data
 Once you are happy with your data file and the Data Quality tool shows that the data is valid, the next step is to find a place on your website for hosting the file and outlining the open license you are releasing it under.
 
 All organisations publishing data to the 360Giving Standard host their files on their own website, which means they have control over and are responsible for their data. 
