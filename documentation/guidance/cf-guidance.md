@@ -7,6 +7,11 @@ This tool means that the technical aspects of preparing your data will be automa
 
 There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
 
@@ -28,7 +33,7 @@ If you take further steps to anonymise or remove potentially identifying data ma
 If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about how to set programme names as ‘undisclosed’.
 
 ## Contact 360Giving to get access to D2 extract 
-Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving data. If you cannot find the 360Giving report folder in your D2 system, please contact <support@threesixtygiving.org> to request this to be set up.
+Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving data. If you cannot find the 360Giving report folder in your D2 system, please contact 360Giving Helpdesk via <support@threesixtygiving.org> to request this to be set up.
 
 The following information about your organisation will be added into the system to populate key 360Giving fields. When you request access to the D2 extract for the first time these details will be confirmed with you.
 
@@ -70,7 +75,7 @@ You can change the DATE filter to control the grant applications that you would 
 The following system-generated fixed or calculated values will not appear in the report but will be included in the extract file:
 
 
-| **360Giving field**      | **Salesforce source** | **Notes** |
+| 360Giving field      | Salesforce source | Notes |
 | -----------          | -----------       |--------|
 | Identifier           | Grant Application Reference Number             |    The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX    |
 | FundingOrg:Identifier| Static value for each CF held on CF Profile record | This is a unique identifier for each Community Foundation made up of a prefix and their charity number. Eg GB-CHC-1151621  |
