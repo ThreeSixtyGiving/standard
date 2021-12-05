@@ -1,10 +1,11 @@
 # Publishing guide for community foundations
-In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Standard.
-Community foundations participating in a pilot were consulted to agree a field specification for the 360Giving data extract file. Hyphen8 has completed development of the D2 data extract tool, and following tests by the pilot group this is now available for any community foundations that wish to become a 360Giving data publisher.
-This tool means that the technical aspect of preparing your data has been automated, making the process much easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
-We have developed this guidance to support you through the whole publishing process, with answers to frequently asked questions and links to sources of further advice. 
+In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
-This guidance is accessible as a PDF document and below.
+Community foundations participating in a pilot were consulted to agree a field specification for the 360Giving data extract file. Hyphen8 has completed development of the D2 data extract tool, and following tests by the pilot group this is now available for any community foundation that wishes to share open grants data.
+
+This tool means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
+
+There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
@@ -29,17 +30,15 @@ Watch the Hyphen8 video walk-through and follow the instructions below to export
 Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving formatted data. If you cannot find the 360Giving report folder in your D2 system, please contact support@threesixtygiving.org to request this to be set up.
 
 The information about your organiation will be
+|360Giving information   | Notes|
+|------------------------|-------|
+|Funding Org:Name        |This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.|
+|Funding Org:Identifier  |This is created based on your registered charity number|
+|Publisher prefix        |This is used to register your organisation with 360Giving and provides a prefix for grant identifiers.|
 
-#### Funding Org:Name
-This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.
+When you request access to the D2 extract these details will be confirmed with you before they are added to the system.
 
-#### Funding Org:Identifier
-This is created based on your registered charity number
-
-#### Publisher prefix
-This is used to register your organisation with 360Giving and provides a prefix for grant identifiers.
-
-When you request access to the D2 extract 360Giving Helpdesk will confirm these details with you. We will also check whether access to the extract tool in your D2 system should be restricted to certain people in your organisation or not. If access needs to be restricted the name and email of each individual who should have access needs to be provided to 360Giving so they can be added to the system.
+We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
 ## Source report 
 A dedicated report folder is created for each community foundation containing the template report that is used as the source for the data extract.  This report can be used to check data quality and to apply the correct filter criteria to limit the grant applications that are included.
@@ -61,17 +60,17 @@ You can change the DATE filter to control the grant applications that you would 
 
 The following system-generated fixed or calculated values will not appear in the report but will be included in the extract file:
 
-### 360Giving field	Salesforce source	Notes
-Identifier 	Grant Application Reference Number 	The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier 
-e.g. 360G-CF-XXXXXXX
-FundingOrg:Identifier	Static value for each CF held on CF Profile record	This is a unique identifier for each Community Foundation made up of a prefix and their charity number. Eg GB-CHC-1151621
-FundingOrg:Name (Required)	Static value for each CF held on CF Profile record	Name of Community Foundation 
-Planned Dates: Duration (months)	Default Value	To be calculated based on start and end dates
-Beneficiary Location: Country Code	Default Value	Default to GB
-Beneficiary Location:Geographic Code Type	Default Value	The data extract supports all geography levels 
-Super output area, Ward, Local authority, Westminster Parliamentary or Constituency.
-Currency (required)	n/a Default Value	Default to GBP
-Last modified	n/a Default Value	This is the date on which the data was last updated and will be populated automatically
+
+| **360Giving field**      | **Salesforce source** | **Notes** |
+| -----------          | -----------       |--------|
+| Identifier           | Grant Application Reference Number             |    The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX    |
+| FundingOrg:Identifier| Static value for each CF held on CF Profile record | This is a unique identifier for each Community Foundation made up of a prefix and their charity number. Eg GB-CHC-1151621  |
+|FundingOrg:Name|Static value for each CF held on CF Profile record |Name of Community Foundation|
+|Planned Dates: Duration (months)	|Default Value	|To be calculated based on start and end dates|
+|Beneficiary Location:Country Code|	Default Value	|Default to GB|
+|Beneficiary Location:Geographic Code Type|	Default Value|	The data extract supports all geography levels, super output area, Ward, Local authority, Westminster Parliamentary or Constituency.|
+|Currency|Default Value|	Default to GBP|
+|Last modified|Default Value|	This is the date on which the data was last updated and will be populated automatically|
  
 ### Undisclosed programme
 If you do not want to publish the name of specific Programmes, there are 2 new fields in the 360 Giving section on a programme record.  Tick the 360Giving – Display as undisclosed checkbox and the 360Giving – Programme Title will default to Undisclosed.  This is the value that will show in the programme name on the data extract.
@@ -90,13 +89,16 @@ Open the excel file to review data.  Note: the file may take longer to open if t
 Save the file to your local drive in .xlsx format. To do this click on ‘Save file as’ and choose Excel Workbook with the .xlsx file extension.
  
 ## Check data quality and receive feedback
-Once you have exported a file of your data using the 360Giving extract, the next step is to check that the data is valid. Valid data means the file includes all the required fields and the information has the correct formatting. 
+Once you have exported a file of your data using the 360Giving extract, the next step is to check that the data is valid. Valid data means the file includes all the required fields and the information has the correct formatting.
+
 Each Community Foundation is responsible for the data it publishes.  You can check that your data is valid using this Data Quality Tool developed, which will tell you if there are any issues with your dataset.
-See our guidance on checking data quality before publishing the data
-https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/
+
+See our guidance on [checking data quality](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/) before publishing the data.
 
 ## Publish: Making your data available for use
-Once you are happy with your data file and the Data Quality tool shows that the data is valid, the next step is to find a place on your website for hosting the file and outlining the open license you are releasing it under. All organisations publishing data to the 360Giving Standard host their files on their own website, which means they have control over and are responsible for their data. 
+Once you are happy with your data file and the Data Quality tool shows that the data is valid, the next step is to find a place on your website for hosting the file and outlining the open license you are releasing it under.
 
-See our guidance on [publishing your data openly.]( 
-https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/)
+All organisations publishing data to the 360Giving Standard host their files on their own website, which means they have control over and are responsible for their data. 
+
+See our guidance on [publishing your data openly]( 
+https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) for further details.
