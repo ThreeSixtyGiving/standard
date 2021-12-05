@@ -12,10 +12,10 @@ The D2 360Giving data extract tool allows you to publish useful information abou
 
 The range of information fields included in the extract file is fixed, however you can control the content of your data by using report filters, for example to decide what time period or grant programmes will be included. 
 
-See the Prepare section for further guidance about [deciding the scope of your data.](
+See the **Prepare section** for further guidance about [deciding the scope of your data.](
 https://standard.threesixtygiving.org/en/new-docs-style/guidance/plan-the-process/#decide-what-kind-of-grants-to-include)
 
-See the guidance on data protection to consider the implications for your organisation of [sharing open grants data.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/)
+See the guidance on **data protection** to consider the implications for your organisation of [sharing open grants data.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/)
 
 ### What to consider if you make grants to individuals
 The D2 360Giving extract tool automatically anonymises the names of individuals who have received grant awards. The beneficiary location for individual grant awards is shared at local District or Ward level. 
@@ -24,23 +24,23 @@ The D2 extract anonymises the names of individuals, however extra care should be
 ### Anonymising donor names in programme titles.
 If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about how to set programme names as ‘undisclosed’.
 
-## Preparing your 360Giving data using the D2 extract
-Watch the Hyphen8 video walk-through and follow the instructions below to export 360Giving formatted data from your D2 system: https://vimeo.com/239307295/d94dd749c1
+## Contact 360Giving to get access to D2 extract 
+Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving data. If you cannot find the 360Giving report folder in your D2 system, please contact <support@threesixtygiving.org> to request this to be set up.
 
-Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving formatted data. If you cannot find the 360Giving report folder in your D2 system, please contact support@threesixtygiving.org to request this to be set up.
+The following information about your organisation will be added into the system to populate key 360Giving fields. When you request access to the D2 extract for the first time these details will be confirmed with you.
 
-The information about your organiation will be
 |360Giving information   | Notes|
 |------------------------|-------|
 |Funding Org:Name        |This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.|
 |Funding Org:Identifier  |This is created based on your registered charity number|
 |Publisher prefix        |This is used to register your organisation with 360Giving and provides a prefix for grant identifiers.|
 
-When you request access to the D2 extract these details will be confirmed with you before they are added to the system.
-
 We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
-## Source report 
+### Walk-through video
+<a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the Hyphen8 video walk-through<a/> to get an overview of the process and follow the instructions below to export 360Giving data from your D2 system.
+
+## The source report
 A dedicated report folder is created for each community foundation containing the template report that is used as the source for the data extract.  This report can be used to check data quality and to apply the correct filter criteria to limit the grant applications that are included.
 
 Navigate to the Reports tab:
@@ -49,6 +49,7 @@ Navigate to the Reports tab:
 - Click on the report name to open the report
 
 The report template contains all the fields that are sourced directly from the grant application and the associated applicant account records that are included in the agreed 360Giving field specification.
+ 
 The default filter shown below is set to include all grant applications that have a Record Type of ‘General Approved’ and an amount greater than zero.
 You can change the DATE filter to control the grant applications that you would like to include in the extract. Use this report to check the information that will be published and edit it in the source fields if required – particularly text fields such as Project description – summary and Purpose of Organisation and Project name.
 
