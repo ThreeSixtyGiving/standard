@@ -15,11 +15,14 @@ The range of information fields included in the extract file is fixed, however y
 See the **Prepare section** for further guidance about [deciding the scope of your data.](
 https://standard.threesixtygiving.org/en/new-docs-style/guidance/plan-the-process/#decide-what-kind-of-grants-to-include)
 
-See the guidance on **data protection** to consider the implications for your organisation of [sharing open grants data.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/)
+See the guidance on [data protection](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/) to consider the implications for your organisation of sharing open grants data.
 
 ### What to consider if you make grants to individuals
-The D2 360Giving extract tool automatically anonymises the names of individuals who have received grant awards. The beneficiary location for individual grant awards is shared at local District or Ward level. 
-The D2 extract anonymises the names of individuals, however extra care should be taken to check other fields in the grant data, such as Title, Description and Recipient Org:Description, as well as Beneficiary fields, to ensure that this information, on its own or when combined, cannot be used to identify the individual concerned. If you take further steps to anonymise or remove potentially identifying data make a note of the changes you make, and ensure these checks and steps are taken each time you publish new data. 
+The D2 360Giving extract tool automatically anonymises the names of individuals who have received grant awards. The beneficiary location for individual grant awards is shared at local District or Ward level.
+
+The D2 extract anonymises the names of individuals, however extra care should be taken to check other fields in the grant data, such as **Title**, **Description** and **Recipient Org:Description**, as well as Beneficiary fields, to ensure that this information, on its own or when combined, cannot be used to identify the individual concerned.
+
+If you take further steps to anonymise or remove potentially identifying data make a note of the changes you make, and ensure these checks and steps are taken each time you publish new data. 
 
 ### Anonymising donor names in programme titles.
 If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about how to set programme names as ‘undisclosed’.
