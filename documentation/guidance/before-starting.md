@@ -88,7 +88,9 @@ One of the first questions we’ll ask when you contact 360Giving Helpdesk is wh
 Go to the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/) for further details about the likely impact your grants management system on your publishing process.
 
 ### Publishing resources for community foundations
-For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data. Access the <a href="https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/" target="_blank">Community Foundations Guide to 360Giving data.</a>
+For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
+
+Access the guide for <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/cf-guidance/" target="_blank">community foundations using D2 system.</a>
 
 ## Key concepts
 
