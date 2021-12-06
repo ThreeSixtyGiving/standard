@@ -102,17 +102,16 @@ Although each tool is tailored to each funders’ data and needs, they are all s
 This sheet is for the grant information that needs to be formatted as 360Giving data. The source data is copied and pasted from a file exported from your grants management system or an existing file that holds your data.
 
 - **fixed_data**
-This sheet is for the ‘fixed’ information that is needed to create your 360Giving data. These are unlikely to be in your source data, such as the currency, your own organisation name, organisation identifier and Publisher prefix – eg 360G-ExampleFunder.
+This sheet is for the ‘fixed’ information that is needed to create your 360Giving data. These are unlikely to be in your source data, such as the currency, your own organisation name, organisation identifier and Publisher prefix.
 
 - **360_data**
-In the top row of this sheet are the 360Giving headers that align with the data you intend to publish.
-From the second row down, there are a range of formulas which combine the source data and fixed data from the first two sheets to create 360Giving formatted data. 
+In the top row of this sheet are the 360Giving headers that align with the data you intend to publish. From the second row, there are a range of formulas which combine the source data and fixed data from the first two sheets to create 360Giving formatted data. 
 
-Any changes in content of the data in the **source_data** or **fixed_data** sheets will automatically be picked up in the 360_data sheet.
+By using formulas to convert the data, it means any changes in content of the data in the **source_data** or **fixed_data** sheets will automatically be picked up in the 360_data sheet.
 
-The tool is colour coded so the **10 core fields** in the 360Giving Data Standard are highlighted green, and the **recommended** fields are highlighted yellow.
+Conversion tools have been set up to work with data exported from a range of grants management systems, including all the systems listed [above.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/#funders-with-a-grants-management-system)
 
-For further guidance about setting up and using a conversion tool, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
+To find out about whether using a conversion tool would be appropriate for your organisation, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ## Setting up Salesforce for 360Giving data publishing
 Some Salesforce grantmaking systems that are managed by consultants and have basic 360Giving data exporting functions built-in, so check with your Salesforce administrator or technical support provider to find out if this is the case for your organisation. Even with this built-in functionality there will be extra steps to customise your system to allow you to export the full range of fields you have decided to publish.
