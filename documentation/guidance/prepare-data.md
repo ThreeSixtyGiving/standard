@@ -9,16 +9,17 @@
       <li>Check that your prepared data passes the 360Giving Data Quality Tool checks.</li>
       </ol></p></div>
 
-By the end of this stage you will have prepared your grant data ready for publishing, and have tested that the file is formatted correctly in the 360Giving Data Quality tool. How you prepare your data will be influenced by how you collect and store information about your grants.
+### Overview
+By the end of this stage you will have prepared your grant data ready for publishing, and have tested that the file is formatted correctly in the 360Giving Data Quality tool. 
+
+How you prepare your data will be influenced by how you collect and store information about your grants.
 
 For many publishers preparing data is a manual process which involves exporting data from a grants management system and converting it into a spreadsheet. However, some grants management systems have some or all of the steps needed to convert the information into 360Giving data built-in to the system. 
 
 ## Register with 360Giving Helpdesk
-Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk: <support@threesixtygiving.org>. 
+Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
-You will be provided with a 360Giving Publisher prefix, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](https://standard.threesixtygiving.org/en/new-docs-style/identifiers/#identifiers)
-
-360Giving Helpdesk can also answer your questions and provide guidance on your next steps.
+You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](https://standard.threesixtygiving.org/en/new-docs-style/identifiers/#identifiers)
 
 ## Choosing your file format
 There are two file formats available for publishing 360Giving data, spreadsheets and JSON.
@@ -36,7 +37,7 @@ Check the [technical reference](https://standard.threesixtygiving.org/en/new-doc
 If you decide to use the JSON file format to publish your data you will likely need support from a developer to set this up. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss your next steps for using JSON as your publishing format. 
 
 ## Publishing using spreadsheets
-For most publishers, whether you are using grants management software or you hold your grants data in spreadsheets, the practical steps to get your data ready will be similar and involve making changes to the data in the file. For funders using configurable CRM systems, such as Salesforce, as their grants management system to can be possible to build in 360Giving publishing processes.
+For most publishers, whether you are using grants management software or you hold your grants data in spreadsheets, the practical steps to get your data ready will be similar and involve making changes to the data in the file. For funders using configurable CRM systems, such as Salesforce, as a grants management system to can be possible to build in 360Giving publishing processes.
 
 ### Funders without a grants management system
 There are 360Giving publishers without a database or grants management system who collect their grants information in simple spreadsheets. The steps to prepare your data will be similar to most other publishers.
@@ -137,10 +138,6 @@ It is also possible to publish data about the data itself. This is called **meta
 ### About metadata
 Metadata is data about the data, such as the size of a file, how many grants it contains and when it was published. Metadata is important to help understand more about the data and how it might be useful in a particular case.
 
-There are two main types of metadata:
-- **Authoritative metadata**: This is what the file declares about itself, such as who the publisher is, or where the file can be found.
-- **Derived metadata**: This is what can be found out from a file, such as the total value of the grants, or which fields from the 360Giving Data Standard are used. This type of data is not included in the information you publish but instead it will be calculated by tools that use your file, such as the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a> 
-
 ### Including metadata in your 360Giving file
 The metadata fields in the 360Giving Data Standard allow for the publication of authoritative metadata. This is information you provide to help users understand your data better.
 
@@ -152,7 +149,7 @@ Including metadata allows you as the publisher to ensure key information is prov
 
 As with the main 360Giving Data Standard, alongside the official fields is it possible to include additional information.
 
-See our full [guidance on metadata](https://standard.threesixtygiving.org/en/new-docs-style/metadata/) for further details.
+See our [guidance on metadata](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/#meta-sheet) for further details.
 
 ## Converting Postcodes into Geocodes to anonymise address information
 Converting postcode data into geocodes protects the privacy of recipients while allowing you to include useful data that will allow your grants to be geolocated. The practical process may vary depending on the process you use for preparing your 360Giving data and the volume of data.
