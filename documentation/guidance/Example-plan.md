@@ -1,11 +1,11 @@
 # Example page from David: Plan
 
 <html>
-<table>
+<style> th, td {padding: 15px;}</style>
 <table style="width:100%">
   <tr>
-    <th>First name</th>
-    <th>Last name</th> 
+    <th>Firstname</th>
+    <th>Lastname</th> 
     <th>Age</th>
   </tr>
   <tr>
@@ -25,6 +25,7 @@
   </tr>
 </table>
 </html>
+
 
 
 ### Table
