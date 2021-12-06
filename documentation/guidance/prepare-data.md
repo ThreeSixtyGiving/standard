@@ -182,19 +182,19 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
 ![select geocodes to add into the file screenshot](../../assets/FindThatPostcode_Select-geodata-to-add-screenshot.PNG)
 
 
-5\. Click the 'Add data to CSV' button at the bottom of the page. The tool will automatically download an updated version of your file with geocodes included.
+6\. Click the 'Add data to CSV' button at the bottom of the page. The tool will automatically download an updated version of your file with geocodes included.
 
 ![Click 'Add data to CSV' button screenshot](../../assets/FindThatPostcode-Click-button-to-add-data-to-CSV-screenshot.PNG)
 
-6\. Delete the column of postcode data from this version of the file.
+7\. Delete the column of postcode data from this version of the file.
 
-7\. Rename the new columns to match the 360Giving Data Standard. For example if using Ward codes the headings should be renamed as follows:
+8\. Rename the new columns to match the 360Giving Data Standard. For example if using Ward codes the headings should be renamed as follows:
 
 Ward Code = Recipient Org:Location:Geographic Code
 
 Ward Name = Recipient Org:Location:Name
   
-8\. Re-save as Excel file (xlsx file format).
+9\. Re-save as Excel file (xlsx file format).
 
 ### What's next?
 Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
