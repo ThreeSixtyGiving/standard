@@ -46,15 +46,15 @@ These **Additional checks** do not relate to the validity of the data. This mean
 
 - **Additional Fields** show the details of data not covered by 360Giving Data Standard headings. If these additional fields are unexpected the results could be caused by misnaming or spelling mistakes in the headings.
 
-![Valid data passing Data Quality Tool checks](../../assets/DQT_screenshot_summary_results_valid.PNG)
-
 ### Getting more help
 Please contact the 360Giving Helpdesk via <support@threesixtygiving.org> if you have questions about using the Data Quality tool or the feedback you receive. The 360Giving Helpdesk can also look at the data you are preparing to check and provide further feedback prior to publishing your data for the first time.
 
 ## Once your data passes the Data Quality Tool checks
-Passing the Data Quality Tool checks means the file is ready for use, including in platforms such as GrantNav. However the tool cannot check the content of the data. 
+Once your file has all green ticks it means the information is valid 360Giving data.
 
-This means there may be further checks needed to make sure the information is accurate, and that the data does not include information that is unsuitable for publishing as open data.
+![Valid data passing Data Quality Tool checks](../../assets/DQT_screenshot_summary_results_valid.PNG)
+
+Passing the Data Quality Tool checks means the file is ready for use, including in platforms such as GrantNav. However the tool cannot check the content of the data. This means there may be further checks needed to make sure the information is accurate, and that the data does not include information that is unsuitable for publishing as open data.
 
 <div class="box box--teal">
     <h3 class="box__heading">Data protection</h3>
