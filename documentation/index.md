@@ -32,12 +32,23 @@ Read our overview and find out what to expect when publishing 360Giving data for
 </p>
 
 ### Contents
+
 ```eval_rst
 .. toctree::
    :maxdepth: 2
    
-   guidance/index
-   technical/index
-   about/index
-
+   guidance/before-starting
+   guidance/plan-the-process
+   guidance/data-protection
+   guidance/prepare-data
+   guidance/data-quality
+   guidance/publish-data-openly
+   guidance/making-updates
+   guidance/using-data
+   technical/reference
+   technical/identifiers
+   about/governance
+   about/sc-tor
+   
 ```
+
