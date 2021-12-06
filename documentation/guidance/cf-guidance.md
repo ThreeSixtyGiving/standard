@@ -16,6 +16,7 @@ Item1         Description1
 Item2         Description2
 Item3         Description3
 ============= ============
+
 ```
 
 
@@ -51,15 +52,26 @@ The following information about your organisation will be added into the system 
 |Publisher prefix        |This is created based on your registered charity or company number|
 
 ```eval_rst
-============= ============
+=======================   ===========================================================================================================================================
 360Giving information     Notes
-============= ============
-Funding Org:Name         This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.
-Funding Org:Identifier        This is created based on your registered charity or company number
-Publisher prefix         This is created based on your registered charity or company number
-============= ============
+=======================   ===========================================================================================================================================
+Funding Org:Name          This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.
+Funding Org:Identifier    This is created based on your registered charity or company number
+Publisher prefix          This is created based on your registered charity or company number
+=======================   ============================================================================================================================================
+
 ```
 
+```eval_rst
+============= ============
+Property      Description
+============= ============
+Item1         Description1
+Item2         Description2
+Item3         Description3
+============= ============
+
+```
 
 We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
