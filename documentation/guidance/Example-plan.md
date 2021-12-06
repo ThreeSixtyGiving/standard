@@ -1,13 +1,8 @@
 # Example page from David: Plan
 
-<!DOCTYPE html>
 <html>
 <head>
 <style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
 th, td {
   padding: 15px;
 }
