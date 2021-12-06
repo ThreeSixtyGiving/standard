@@ -297,7 +297,7 @@ If you are a community foundation using the Digits2 grants management system ple
     </div>
 
     <div class="media-card__image-wrapper">
-        <div class="media-card__image" style="background-image: url(https://www.threesixtygiving.org/wp-content/uploads/47319360032_51d21156a2_c.jpg)"></div>
+        <div class="media-card__image" style="background-image: url(https://github.com/ThreeSixtyGiving/standard/blob/49dd8ea09e0a4d60e6d0f39e947bc1ebeacd3c9d/assets/FindThatPostcode_postcode-to-geocode-results-screenshot.PNG)"></div>
     </div>
 </article>
 
