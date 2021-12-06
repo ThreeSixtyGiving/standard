@@ -135,21 +135,14 @@ The 360Giving Data Standard allows funders to describe information about their g
 
 It is also possible to publish data about the data itself. This is called **metadata**.
 
-### About metadata
 Metadata is data about the data, such as the size of a file, how many grants it contains and when it was published. Metadata is important to help understand more about the data and how it might be useful in a particular case.
 
 ### Including metadata in your 360Giving file
-The metadata fields in the 360Giving Data Standard allow for the publication of authoritative metadata. This is information you provide to help users understand your data better.
-
-For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](https://standard.threesixtygiving.org/en/new-docs-style/reference/#giving-json-schemas) for further details.
-
-For publishers sharing their data in spreadsheet file format, the metadata fields are included in a special Metadata sheet. This means your file would have one sheet for the grant data and one for the metadata.
-
-Including metadata allows you as the publisher to ensure key information is provided to the users of your data. It is especially useful if you need to provide additional context or add disclaimers about your organisation or the grant data in the file. 
-
-As with the main 360Giving Data Standard, alongside the official fields is it possible to include additional information.
+The metadata fields in the 360Giving Data Standard allow for the publication of authoritative metadata. Including metadata allows you as the publisher to ensure key information is provided to the users of your data. It is especially useful if you need to provide additional context or add disclaimers about your organisation or the grant data in the file. 
 
 See our [guidance on metadata](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/#meta-sheet) for further details.
+
+For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](https://standard.threesixtygiving.org/en/new-docs-style/reference/#giving-json-schemas) for further details.
 
 ## Converting Postcodes into Geocodes to anonymise address information
 Converting postcode data into geocodes protects the privacy of recipients while allowing you to include useful data that will allow your grants to be geolocated. The practical process may vary depending on the process you use for preparing your 360Giving data and the volume of data.
