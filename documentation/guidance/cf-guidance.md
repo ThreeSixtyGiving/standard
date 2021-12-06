@@ -9,32 +9,6 @@ There is specific step-by-step guidance for community foundations using the D2 t
 
 
 ```eval_rst
-+-----------------+----------------------+-----------------+----------------+
-|Syntax     |Description                 |… (other columns)|Amount Disbursed|
-+-----------------+----------------------+-----------------+----------------+
-|Header|Title|…                |                |
-+-----------------+----------------------+-----------------+----------------+
-|Paragraph|Text|…                |                |
-+-----------------+----------------------+-----------------+----------------+
-
-```
-
-```eval_rst
-
-  .. list-table::
-     :widths: 5 25 70
-     :header-rows: 1
-
-     * - :`Step`
-       - Instruction
-       - More information
-     * - :`1`
-       - ``make vp_plugins``
-       - If not previously done build and install GenerateCD VP plug-in, requires access to Java compilier compatible with Java version in use by Visual Paradigm.
-       
-```
-
-```eval_rst
 ============= ============
 Property      Description
 ============= ============
@@ -73,8 +47,19 @@ The following information about your organisation will be added into the system 
 |360Giving information   | Notes|
 |------------------------|-------|
 |Funding Org:Name        |This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.|
-|Funding Org:Identifier  |This is created based on your registered charity number|
-|Publisher prefix        |This is used to register your organisation with 360Giving and provides a prefix for grant identifiers.|
+|Funding Org:Identifier  |This is created based on your registered charity or company number|
+|Publisher prefix        |This is created based on your registered charity or company number|
+
+```eval_rst
+============= ============
+360Giving information     Notes
+============= ============
+Funding Org:Name         This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.
+Funding Org:Identifier        This is created based on your registered charity or company number
+Publisher prefix         This is created based on your registered charity or company number
+============= ============
+```
+
 
 We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
