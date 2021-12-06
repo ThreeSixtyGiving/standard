@@ -37,6 +37,7 @@ Read our overview and find out what to expect when publishing 360Giving data for
 .. toctree::
    :maxdepth: 2
    
+   guidance/index
    guidance/before-starting
    guidance/plan-the-process
    guidance/data-protection
@@ -45,8 +46,10 @@ Read our overview and find out what to expect when publishing 360Giving data for
    guidance/publish-data-openly
    guidance/making-updates
    guidance/using-data
+   technical/index
    technical/reference
    technical/identifiers
+   about/index
    about/governance
    about/sc-tor
    
