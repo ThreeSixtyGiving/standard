@@ -7,19 +7,6 @@ This tool means that the technical aspects of preparing your data will be automa
 
 There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
 
-
-```eval_rst
-============= ============
-Property      Description
-============= ============
-Item1         Description1
-Item2         Description2
-Item3         Description3
-============= ============
-
-```
-
-
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
 
@@ -45,12 +32,6 @@ Each community foundation must be set up with access to the 360Giving reports fo
 
 The following information about your organisation will be added into the system to populate key 360Giving fields. When you request access to the D2 extract for the first time these details will be confirmed with you.
 
-|360Giving information   | Notes|
-|------------------------|-------|
-|Funding Org:Name        |This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.|
-|Funding Org:Identifier  |This is created based on your registered charity or company number|
-|Publisher prefix        |This is created based on your registered charity or company number|
-
 ```eval_rst
 =======================   ===========================================================================================================================================
 360Giving information     Notes
@@ -59,17 +40,6 @@ Funding Org:Name          This is your organisation name as you want it to appea
 Funding Org:Identifier    This is created based on your registered charity or company number
 Publisher prefix          This is created based on your registered charity or company number
 =======================   ============================================================================================================================================
-
-```
-
-```eval_rst
-============= ============
-Property      Description
-============= ============
-Item1         Description1
-Item2         Description2
-Item3         Description3
-============= ============
 
 ```
 
