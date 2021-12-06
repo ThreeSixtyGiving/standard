@@ -150,13 +150,14 @@ Geocodes can be found using the <a href="https://findthatpostcode.uk/" target="_
 
 Firstly, use the search on the homepage. You can enter a postcode and get details of the full range of geocodes associated with that location, for example these are the results for the <a href="https://findthatpostcode.uk/postcodes/N1%209AG.html" target="_blank">London postcode N1 9AG</a>. 
 
-![Find that Postcode lookup result example](../../assets/FindThatPostcode_postcode-to-geocode-results-screenshot.PNG)
-
-You should then decide which type of geocode to include in your data. 
+You can then decide which type of geocode to include in your data. 
 - Some publishers use either **Local Authority** or **Ward** areas for recipient location, as these types of geocodes work with <a href="https://help.grantnav.threesixtygiving.org/en/latest/#location_data" target="_blank">GrantNav’s location filtering functions.</a> 
 - Place-based funders, such as community foundations, often use smaller areas such as the **Lower Super Output Area**, to provide information about the grant location.
 
 If you’re preparing a small number of grants at a time then manually searching to get the relevant codes and adding these into your data at the data preparation stage could be a straightforward approach.
+
+![Find that Postcode lookup result example](../../assets/FindThatPostcode_postcode-to-geocode-results-screenshot.PNG)
+
 
 ### Using Postcode to Geocode lookup tool
 Find that Postcode has a <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">'Add fields to CSV'</a> service which means you can upload a list of postcodes into the tool and then download a file with all the geodata you’ve chosen to use.
@@ -169,21 +170,29 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
 
 3\. Upload this file into the 'Add fields to CSV' service at <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">https://findthatpostcode.uk/addtocsv/</a>
 
+4\. Select the field that includes your postcode data.
+
+
 ![Select file and postcode field screenshot](../../assets/FindThatPostcode_Select-file-and-postcode-field-screenshot.PNG)
 
-4\. Select your preferred geocode types.
+
+5\. Select the geocode types you want added to your file. Latitude/Longitude, Region and Local Authority are selected by default so should be untick if not required.
+
 
 ![select geocodes to add into the file screenshot](../../assets/FindThatPostcode_Select-geodata-to-add-screenshot.PNG)
 
-5\. Click 'Add data to CSV'. The tool will automatically download an updated version of your file with geocodes included.
+
+5\. Click the 'Add data to CSV' button at the bottom of the page. The tool will automatically download an updated version of your file with geocodes included.
 
 ![Click 'Add data to CSV' button screenshot](../../assets/FindThatPostcode-Click-button-to-add-data-to-CSV-screenshot.PNG)
 
 6\. Delete the column of postcode data from this version of the file.
 
 7\. Rename the new columns to match the 360Giving Data Standard. For example if using Ward codes the headings should be renamed as follows:
-  - Ward Code = Recipient Org:Location:Geographic Code
-  - Ward Name = Recipient Org:Location:Name
+
+Ward Code = Recipient Org:Location:Geographic Code
+
+Ward Name = Recipient Org:Location:Name
   
 8\. Re-save as Excel file (xlsx file format).
 
