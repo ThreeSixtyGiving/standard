@@ -127,7 +127,7 @@ Once you have exported a file of your data using the 360Giving extract, the next
 
 Each Community Foundation is responsible for the data it publishes.  You can check that your data is valid using this Data Quality Tool developed, which will tell you if there are any issues with your dataset.
 
-See our guidance on [checking data quality](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/) before publishing the data.
+Click **Next** below to read our guidance on checking data quality before publishing your data.
 
 ## Publishing your 360Giving data
 Once you are happy with your data file and the Data Quality tool shows that the data is valid, the next step is to find a place on your website for hosting the file and outlining the open license you are releasing it under.
