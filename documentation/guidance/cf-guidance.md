@@ -51,7 +51,7 @@ We will also check whether access to the Digits2 tool should be restricted to ce
 ## The source report
 A dedicated report folder is created for each community foundation containing the template report that is used as the source for the data extract.  This report can be used to check data quality and to apply the correct filter criteria to limit the grant applications that are included.
  
-<img src="../../assets/D2_Reports_tab_screenshot.png" style="width: 750px" alt="Where to find the 360Giving source report in the D2 system" /> 
+ <img src="../../assets/D2_Reports_tab_screenshot.png" style="width: 750px" alt="Where to find the 360Giving source report in the D2 system" /> 
  
 ![Where to find the 360Giving source report in the D2 system](../../assets/D2_Reports_tab_screenshot.png)
 
@@ -141,20 +141,6 @@ https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-op
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
 </p>
  
- 
- 
-<div class="table table--zebra">
-    <table>
-
-        <thead>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Type</th>
-            <th>Required</th>
-        </thead>
-
-        <tbody>
-
             <tr>
                 <td class="table__lead-cell" data-header="Title">Identifier</td>
                 <td data-header="Description">The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the 360Giving Grant identifier guidance for details.</td>
@@ -242,9 +228,3 @@ https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-op
 
                 </td>
             </tr>
-
-        </tbody>
-    </table>
-</div>
- 
-
