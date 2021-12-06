@@ -9,7 +9,7 @@ This isn’t a reporting process, it’s an opportunity to let people know about
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    
    before-starting
    plan-the-process
