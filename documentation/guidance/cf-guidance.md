@@ -35,13 +35,13 @@ There is specific step-by-step guidance for community foundations using the D2 t
 ```
 
 ```eval_rst
-  ============= ============
-  Property      Description
-  ============= ============
-  Item1         Description1
-  Item2         Description2
-  Item3         Description3
-  ============= ============
+============= ============
+Property      Description
+============= ============
+Item1         Description1
+Item2         Description2
+Item3         Description3
+============= ============
 ```
 
 
