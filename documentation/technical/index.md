@@ -27,5 +27,5 @@ If you are just getting started with sharing 360Giving data, start by reading th
 
    reference
    identifiers
-   metadata
+
 ```
