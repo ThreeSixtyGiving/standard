@@ -172,16 +172,23 @@ Find that Postcode has a <a href="https://findthatpostcode.uk/addtocsv/" target=
 
 If you have a batch of postcodes to convert to geocodes, the practical steps might involve: 
 
-1. Prepare your 360Giving data including a column with the relevant postcode data.
-2. If using Excel, convert this file into CSV format. See this guidance for further details of <a href="https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba" target="_blank">how to convert a file between Excel Workbook and CSV.</a>
-3. Upload this file into the 'Add fields to CSV' service at <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">https://findthatpostcode.uk/addtocsv/</a>
-4. Select your preferred geocode types.
-5. Click 'Add data to CSV'. The tool will automatically download an updated version of your file with geocodes included.
-6. Delete the column of postcode data from this version of the file.
-7. Rename the new columns to match the 360Giving Data Standard. For example if using Ward codes the headings should be renamed as follows:
+1\. Prepare your 360Giving data including a column with the relevant postcode data.
+
+2\. If using Excel, convert this file into CSV format. See this guidance for further details of <a href="https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba" target="_blank">how to convert a file between Excel Workbook and CSV.</a>
+
+3\. Upload this file into the 'Add fields to CSV' service at <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">https://findthatpostcode.uk/addtocsv/</a>
+
+4\. Select your preferred geocode types.
+
+5\. Click 'Add data to CSV'. The tool will automatically download an updated version of your file with geocodes included.
+
+6\. Delete the column of postcode data from this version of the file.
+
+7\. Rename the new columns to match the 360Giving Data Standard. For example if using Ward codes the headings should be renamed as follows:
   - Ward Code = Recipient Org:Location:Geographic Code
   - Ward Name = Recipient Org:Location:Name
-8. Re-save as Excel file (xlsx file format).
+  
+8\. Re-save as Excel file (xlsx file format).
 
 ### What's next?
 Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
