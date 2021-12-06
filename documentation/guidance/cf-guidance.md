@@ -7,10 +7,17 @@ This tool means that the technical aspects of preparing your data will be automa
 
 There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+
+```eval_rst
++-----------------+----------------------+-----------------+----------------+
+|Syntax     |Description                 |… (other columns)|Amount Disbursed|
++-----------------+----------------------+-----------------+----------------+
+|Header|Title|…                |                |
++-----------------+----------------------+-----------------+----------------+
+|Paragraph|Text|…                |                |
++-----------------+----------------------+-----------------+----------------+
+
+```
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
