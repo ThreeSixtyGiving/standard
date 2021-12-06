@@ -20,20 +20,30 @@ There is specific step-by-step guidance for community foundations using the D2 t
 ```
 
 ```eval_rst
-  .. role:: blue
 
   .. list-table::
      :widths: 5 25 70
      :header-rows: 1
 
-     * - :blue:`Step`
+     * - :`Step`
        - Instruction
        - More information
-     * - :blue:`1`
+     * - :`1`
        - ``make vp_plugins``
        - If not previously done build and install GenerateCD VP plug-in, requires access to Java compilier compatible with Java version in use by Visual Paradigm.
        
 ```
+
+```eval_rst
+  ============= ============
+  Property      Description
+  ============= ============
+  Item1         Description1
+  Item2         Description2
+  Item3         Description3
+  ============= ============
+```
+
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
