@@ -74,12 +74,12 @@ Linking 360Giving data from a dedicated open data page:
 - <a href="https://www.citybridgetrust.org.uk/360-giving/" target="_blank">City Bridge Trust</a> 
 - <a href="https://tudortrust.org.uk/who-we-are/open-data" target="_blank">Tudor Trust</a> 
 
-### Alternative options for 360Giving data hosting
+## Alternative hosting options
 It is best practice for organisations to host their own data, so the ownership of the information is clear. This gives you full control over the file so you can make changes and updates whenever you need to. 
 
 However, for organisations without a website or without capacity to create a place to include the data, it is possible to use alternative hosting and open licensing arrangements. These are described below. 
 
-#### Data hosting for public sector organisations
+### Data hosting for public sector organisations
 Some local authorities can have dedicated open data portals for hosting information published by the council or about the local area, which are ideal places to host 360Giving data.
 
 Alternatively, public sector organisations may be able to use the central <a href="https://data.gov.uk/" target="_blank">data.gov.uk</a> website to host their 360Giving data.
@@ -89,12 +89,12 @@ Examples of public sector data hosting pages:
 - <a href="https://data.hounslow.gov.uk/dataset/grants-to-the-vcse-sector" target="_blank">London Borough of Hounslow</a> 
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
-#### Alternative file hosting methods
+### Hosting data using cloud store
 For organisations without a website (or web hosting), an alternative solution is to share the data through accessible and popular file sharing services ie. cloud storage.
 
 Please see our <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/cloud-hosting/" target="_blank">step by step guide</a> on how to use Google Drive and Dropbox sharing services to host 360Giving data.
 
-#### Include open licensing information into your 360Giving data file
+### Include open licensing information into your 360Giving data file
 If you can upload the 360Giving file into the backend of your website but cannot add the license text to a public page – in the short or longer term – you can include the open license information within the file itself using the Metadata sheet (or Package Schema if you are using JSON file format to publish). 
 
 Please see our [guidance about metadata](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#including-metadata-in-your-360giving-file) for further information.
