@@ -89,7 +89,7 @@ Examples of public sector data hosting pages:
 - <a href="https://data.hounslow.gov.uk/dataset/grants-to-the-vcse-sector" target="_blank">London Borough of Hounslow</a> 
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
-### Hosting data using cloud store
+### Hosting your data using cloud storage
 For organisations without a website (or web hosting), an alternative solution is to share the data through accessible and popular file sharing services ie. cloud storage.
 
 Please see our <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/cloud-hosting/" target="_blank">step by step guide</a> on how to use Google Drive and Dropbox sharing services to host 360Giving data.
