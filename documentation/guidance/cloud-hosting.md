@@ -1,4 +1,4 @@
-# Alternative file hosting methods
+# Hosting your data using cloud storage
 Typically, publishers of 360Giving grant data share their dataset files (Excel, CSV or JSON formats) by publishing them on their websites and providing a URL for the 360Giving Data Registry. 
 
 For some publishers without a website (or web hosting) an alternative means of sharing their data is required. Sharing data through accessible and popular file sharing (cloud storage) services provides a workable alternative. 
