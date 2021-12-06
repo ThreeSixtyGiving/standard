@@ -176,7 +176,7 @@ If you have a batch of postcodes to convert to geocodes, the practical steps mig
 ![Select file and postcode field screenshot](../../assets/FindThatPostcode_Select-file-and-postcode-field-screenshot.PNG)
 
 
-5\. Select the geocode types you want added to your file. Latitude/Longitude, Region and Local Authority are selected by default so should be untick if not required.
+5\. Select the geocode types you want added to your file. Latitude/Longitude, Region and Local Authority are selected by default so can be unticked if not required.
 
 
 ![select geocodes to add into the file screenshot](../../assets/FindThatPostcode_Select-geodata-to-add-screenshot.PNG)
