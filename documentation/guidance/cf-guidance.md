@@ -51,6 +51,8 @@ We will also check whether access to the Digits2 tool should be restricted to ce
 ## The source report
 A dedicated report folder is created for each community foundation containing the template report that is used as the source for the data extract.  This report can be used to check data quality and to apply the correct filter criteria to limit the grant applications that are included.
  
+<img src="../../assets/D2_Reports_tab_screenshot.png" style="width: 750px" alt="Where to find the 360Giving source report in the D2 system" /> 
+ 
 ![Where to find the 360Giving source report in the D2 system](../../assets/D2_Reports_tab_screenshot.png)
 
 Navigate to the **Reports** tab:
