@@ -1,7 +1,7 @@
 # Publishing guide for community foundations
 <div class="box box--teal">
     <h3 class="box__heading">Who is this guidance for?</h3>
-    <p>This guide is relevant to any community foundation using the Digits2 grants management system on Salesforce. If your organisations doesn't use this system return to the main guidance to find out how to <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" target="_blank">prepare your data.</a></p></div>
+    <p>This guide is relevant to any community foundation using the Digits2 grants management system on Salesforce. If your organisations doesn't use this system return to the main guidance to find out how to <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" target="_blank">prepare your data or click <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" target="_blank>Next</a> button to reading about checking your data quality.</a></p></div>
 
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
@@ -141,5 +141,5 @@ See our guidance on [publishing your data openly](
 https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) for further details.
  
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> 
 </p>
