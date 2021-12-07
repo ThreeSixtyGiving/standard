@@ -15,6 +15,7 @@ This isn’t a reporting process, it’s an opportunity to let people know about
    plan-the-process
    data-protection
    prepare-data
+   cf-guidance
    data-quality
    publish-data-openly
    making-updates
