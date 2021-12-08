@@ -146,7 +146,3 @@ All organisations publishing data to the 360Giving Standard host their files on 
 
 See our guidance on [publishing your data openly]( 
 https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) for further details.
- 
-<p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> 
-</p>
