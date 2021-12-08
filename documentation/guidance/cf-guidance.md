@@ -1,8 +1,8 @@
 # Data preparation guide for community foundations
 
 <div class="box box--teal">
-    <h3 class="box__heading">Guidance for community foundations</h3>
-    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce. If you do not use the Digits2 system return to the main guidance on preparing your data using the Previous button or continue on to our guidance about testing data quality using the Next button.</p></div>
+    <h3 class="box__heading">Do you use the Digits2 grants management system?</h3>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce. If you do not use this system return to the main guidance on preparing your data or continue on to our guidance about testing data quality using the buttons below.</p></div>
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
