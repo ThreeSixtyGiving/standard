@@ -23,7 +23,6 @@ The new row:
 
 
 
-<html>
 <style> th, td {padding: 15px;}</style>
 <table style="width:100%">
   <tr>
@@ -47,7 +46,6 @@ The new row:
     <td>80</td>
   </tr>
 </table>
-</html>
 
 
 
