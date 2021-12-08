@@ -1,4 +1,15 @@
-# Publishing guide for community foundations
+# Data preparation guide for community foundations
+
+<div class="box box--teal">
+    <h3 class="box__heading">Guidance for community foundations</h3>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce. If you do not use the Digits2 system return to the main guidance on preparing your data using the Previous button or continue on to our guidance about testing data quality using the Next button.</p></div>
+
+<p>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
+</p>
+
+
+## Overview
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
 Community foundations participating in a pilot were consulted to agree a field specification for the 360Giving data extract file. Hyphen8 has completed development of the D2 data extract tool, and following tests by the pilot group this is now available for any community foundation that wishes to share open grants data.
