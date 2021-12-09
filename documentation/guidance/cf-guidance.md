@@ -43,36 +43,12 @@ Each community foundation must be set up with access to the 360Giving reports fo
 
 The following information about your organisation will be added into the system to populate key 360Giving fields. When you request access to the D2 extract for the first time these details will be confirmed with you.
 
-
-
 ```eval_rst
 +----------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |360Giving information |Notes                                                                                                                                        |
 +----------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |Funding Org:Name      | This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.|
 +----------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-
-```
-
-The new row:
-
-```eval_rst
-+-----------------+----------------------+-----------------+----------------+
-|Identifier       |Title                 |… (other columns)|Amount Disbursed|
-+-----------------+----------------------+-----------------+----------------+
-|360G-xyztrust-123|                      |…                |2500            |
-+-----------------+----------------------+-----------------+----------------+
-```
-
-```eval_rst
-
-=======================   ===========================================================================================================================================
-360Giving information     Notes
-=======================   ===========================================================================================================================================
-Funding Org:Name          This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.
-Funding Org:Identifier    This is created based on your registered charity or company number
-Publisher prefix          This is created based on your registered charity or company number
-=======================   ============================================================================================================================================
 
 ```
 
