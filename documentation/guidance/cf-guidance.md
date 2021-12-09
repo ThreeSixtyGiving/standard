@@ -102,17 +102,67 @@ You can change the DATE filter to control the grant applications that you would 
 
 The following system-generated fixed or calculated values will not appear in the report but will be included in the extract file:
 
+    
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>360Giving field</th>
+            <th>Salesforce source</th>
+            <th>Notes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">Identifier</td>
+                <td data-header="Salesforce source">Grant Application Reference Number</td>
+                <td data-header="Notes">The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">FundingOrg:Identifier</td>
+                <td data-header="Salesforce source">Static value for each CF held on CF Profile record</td>
+                <td data-header="Notes">This is a unique identifier for each Community Foundation made up of a prefix and their charity number. Eg GB-CHC-1151621</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">FundingOrg:Name</td>
+                <td data-header="Salesforce source">Static value for each CF held on CF Profile record</td>
+                <td data-header="Notes">Name of Community Foundation</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">Planned Dates: Duration (months)</td>
+                <td data-header="Salesforce source">Default Value</td>
+                <td data-header="Notes">To be calculated based on start and end dates</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">Beneficiary Location: Country Code</td>
+                <td data-header="Salesforce source">Default Value</td>
+                <td data-header="Notes">Default to GB</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">Beneficiary Location:Geographic Code Type</td>
+                <td data-header="Salesforce source">Default Value</td>
+                <td data-header="Notes">The data extract supports all geography levels Super output area, Ward, Local authority, Westminster Parliamentary or Constituency.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">Currency</td>
+                <td data-header="Salesforce source">Default Value</td>
+                <td data-header="Notes">The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving field">Last modified</td>
+                <td data-header="Salesforce source">Default Value</td>
+                <td data-header="Notes">This is the date on which the data was last updated and will be populated automatically </td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-| 360Giving field      | Salesforce source | Notes |
-| -----------          | -----------       |--------|
-| Identifier           | Grant Application Reference Number             |    The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX    |
-| FundingOrg:Identifier| Static value for each CF held on CF Profile record | This is a unique identifier for each Community Foundation made up of a prefix and their charity number. Eg GB-CHC-1151621  |
-|FundingOrg:Name|Static value for each CF held on CF Profile record |Name of Community Foundation|
-|Planned Dates: Duration (months)	|Default Value	|To be calculated based on start and end dates|
-|Beneficiary Location:Country Code|	Default Value	|Default to GB|
-|Beneficiary Location:Geographic Code Type|	Default Value|	The data extract supports all geography levels, super output area, Ward, Local authority, Westminster Parliamentary or Constituency.|
-|Currency|Default Value|	Default to GBP|
-|Last modified|Default Value|	This is the date on which the data was last updated and will be populated automatically|
  
 ### Undisclosed programme
 If you do not want to publish the name of specific Programmes, there are 2 new fields in the 360 Giving section on a programme record.  Tick the 360Giving – Display as undisclosed checkbox and the 360Giving – Programme Title will default to Undisclosed.  This is the value that will show in the programme name on the data extract.
