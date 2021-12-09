@@ -46,74 +46,23 @@ The following information about your organisation will be added into the system 
 <div class="table table--zebra">
     <table>
         <thead>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Type</th>
-            <th>Required</th>
+            <th>360Giving field</th>
+            <th>Notes</th>
         </thead>
         <tbody>
             <tr>
-                <td class="table__lead-cell" data-header="Title">Identifier</td>
-                <td data-header="Description">The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the 360Giving Grant identifier guidance for details.</td>
-                <td data-header="Type"><code>string</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--true">check</i>
+                <td class="table__lead-cell" data-header="360Giving field">Funding Org:Name </td>
+                <td data-header="Notes">This is your organisation name as you want it to appear in your data. This could be your brand name rather than your full registered name. </td>
                 </td>
             </tr>
             <tr>
-                <td class="table__lead-cell" data-header="Title">Title</td>
-                <td data-header="Description">A title for this grant activity. This should be under 140 characters long.</td>
-                <td data-header="Type"><code>string</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--true">check</i>
+                <td class="table__lead-cell" data-header="360Giving field ">Funding Org:Identifier</td>
+                <td data-header="Description">This is created based on your registered charity or company number.</td>
                 </td>
             </tr>
             <tr>
-                <td class="table__lead-cell" data-header="Title">Description</td>
-                <td data-header="Description">A short description of this grant activity.</td>
-                <td data-header="Type"><code>string</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--true">check</i>
-                </td>
-            </tr>
-            <tr>
-                <td class="table__lead-cell" data-header="Title">Currency</td>
-                <td data-header="Description">The currency used in amounts. Use the three-letter <a href='#'>currency code from ISO 4217</a> eg: Use GBP for Pounds Sterling.</td>
-                <td data-header="Type"><code>string</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--true">check</i>
-                </td>
-            </tr>
-            <tr>
-                <td class="table__lead-cell" data-header="Title">Amount Applied For</td>
-                <td data-header="Description">Total amount applied for in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.</td>
-                <td data-header="Type"><code>number</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--false">close</i>
-                </td>
-            </tr>
-            <tr>
-                <td class="table__lead-cell" data-header="Title">Amount Awarded</td>
-                <td data-header="Description">Total amount awarded in numbers (do not include commas or currency symbols such as £). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.</td>
-                <td data-header="Type"><code>number</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--true">check</i>
-                </td>
-            </tr>
-            <tr>
-                <td class="table__lead-cell" data-header="Title">Amount Disbursed</td>
-                <td data-header="Description">Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as £)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.</td>
-                <td data-header="Type"><code>number</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--false">close</i>
-                </td>
-            </tr>
-            <tr>
-                <td class="table__lead-cell" data-header="Title">Award Date</td>
-                <td data-header="Description">When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.</td>
-                <td data-header="Type"><code>string</code></td>
-                <td data-header="Required" class="table__checks">
-                    <i class="material-icons table--true">check</i>
+                <td class="table__lead-cell" data-header="360Giving field">Publisher prefix</td>
+                <td data-header="Notes">This is used to register your organisation with 360Giving and provides a prefix for grant identifiers.</td>
                 </td>
             </tr>
         </tbody>
