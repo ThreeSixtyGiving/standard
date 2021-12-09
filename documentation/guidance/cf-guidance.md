@@ -43,6 +43,7 @@ Each community foundation must be set up with access to the 360Giving reports fo
 
 The following information about your organisation will be added into the system to populate key 360Giving fields. When you request access to the D2 extract for the first time these details will be confirmed with you.
 
+
 <div class="table table--zebra">
     <table>
         <thead>
@@ -68,6 +69,7 @@ The following information about your organisation will be added into the system 
         </tbody>
     </table>
 </div>
+
 
 We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
