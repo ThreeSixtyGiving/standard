@@ -39,7 +39,7 @@ Read our overview and find out what to expect when publishing 360Giving data for
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    
    guidance/index
    technical/index
