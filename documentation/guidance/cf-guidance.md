@@ -120,17 +120,6 @@ The following information about your organisation will be added into the system 
     </table>
 </div>
 
-
-
-```eval_rst
-+----------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-|360Giving information |Notes                                                                                                                                        |
-+----------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-|Funding Org:Name      | This is your organisation name as you want it to appear in your data. This could be your ‘brand name’ rather than your full registered name.|
-+----------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-
-```
-
 We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
 ### Walk-through video
