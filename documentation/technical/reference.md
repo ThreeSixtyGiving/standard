@@ -51,7 +51,7 @@ We also provide a version of the <a href="../_static/360-giving-schema-titles-wi
 * A link for the open license that applies to the file
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-package-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-package-schema.json
 ```
 
 ### Grants Sheet
@@ -66,7 +66,7 @@ The main 'grants' sheet includes sections for:
 * Details of the grant programme funding is from;
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
 ```
 
 ```eval_rst
@@ -102,77 +102,77 @@ If you have additional data to report that does not fit any of the columns provi
 #### Actual Dates
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: actualDates
 ```
 
 #### Planned Dates
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: plannedDates
 ```
 
 #### Funding Org
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingOrganization
 ```
 
 #### Recipient Org
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: recipientOrganization
 ```
 
 #### Beneficiary Location
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: beneficiaryLocation
 ```
 
 #### Funding Org:Location
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingOrganization/0/location
 ```
 
 #### Recipient Org:Location
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: recipientOrganization/0/location
 ```
 
 #### Related Document
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: relatedDocument
 ```
 
 #### Classifications
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: classifications
 ```
 
 #### Funding Type
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingType
 ```
 
 #### Grant Programme
 
 ```eval_rst
-.. jsonschema-titles:: ../schema/360-giving-schema.json
+.. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: grantProgramme
 ```
 
@@ -361,12 +361,12 @@ A mapping between column titles and field names for each schema is given below:
 
 #### 360Giving Package Schema (incorporating Metadata)
 ```eval_rst
-.. jsonschema-title-fieldname-map:: ../schema/360-giving-package-schema.json
+.. jsonschema-title-fieldname-map:: ../../schema/360-giving-package-schema.json
 ```
 
 #### 360Giving Data Standard Schema
 ```eval_rst
-.. jsonschema-title-fieldname-map:: ../schema/360-giving-schema.json
+.. jsonschema-title-fieldname-map:: ../../schema/360-giving-schema.json
 ```
 
 ### JSON
