@@ -1,60 +1,25 @@
-The 360Giving open data Standard
+The 360Giving Data Standard
 ================================
 
 **For open data to be really useful it has to follow an agreed format – *a standard* – so it can be easily compared with data from other organisations.**
 
-For UK grantmakers, we have developed the 360Giving Standard for this purpose. We use this Standard to make sure that when all your data is linked to the 360Giving Registry, it can be easily “read” by different applications. This is how we make sure that when you use the data, the results that come up can be compared.
+For UK grantmakers, we have developed the 360Giving Data Standard for this purpose. We use this standard to make sure that when all your data is linked to the [360Giving Data Registry](https://data.threesixtygiving.org/), it can be easily “read” by different applications. This is how we make sure that when you use the data, the information can be collated and compared.
 
 The 360Giving data standard is:
-* **Open data driven:** providing a common way to share transparent and interoperable information on grant-making.
+
+* **Open data driven:** providing a common way to share transparent and interoperable information on grantmaking.
 * **Easy to use:** offering a simple spreadsheet format for publishing and consuming data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
-* **Comprehensive:** providing a 360 degree view of grantmaking. Describing the whole grantmaking process and supporting in-depth analysis of grants, grantees and beneficiaries.
+* **Comprehensive:** supporting in-depth analysis of grants, grantees, and beneficiaries to provide a 360 degree view of grantmaking.
 
+Free support is <a href="https://www.threesixtygiving.org/contact/" target="_blank"> available from our support team</a> to help you to publish and use 360Giving data.
 
-## Templates
-
-Two standard templates are available.
-
-<div class="prose__section">
-    <section class="grid grid--two-columns">
-        <div class="grid__1">
-            <div class="prose-card prose-card--orange">
-                <div class="prose-card__content">
-                <img class="prose-card__image" src="_static/images/icon-spreadsheet.svg" alt="">
-                <div class="align-left">
-                    <h3 class="prose-card__title"><a href="_static/summary-table/360-giving-schema-titles.xlsx">Spreadsheet Template (Excel)</a></h3>
-                    <p class="prose-card__text">With user-friendly column headings, summary sheet and tabs for additional information. <br>
-                    <strong><a href="templates-csv">(CSV versions also available.)</a></strong></p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid__1">
-            <div class="prose-card prose-card--orange">
-                <div class="prose-card__content">
-                <img class="prose-card__image" src="_static/images/icon-json.svg" alt="">
-                <div class="align-left">
-                    <h3 class="prose-card__title">
-                        <a href="reference/#json-format">360Giving JSON Schemas</a>
-                    </h3>
-                    <p class="prose-card__text">Provide the canonical definition of fields, as well as developer-friendly structure for working with 360Giving data.</p>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-
-Free support, helping you to publish and use 360Giving data is [available from our data support team](https://www.threesixtygiving.org/contact/).
-
-Full schema documentation is [available on the reference page](reference).
+Full schema documentation is [available in the Reference section](reference).
 
 ## An open standard
-
-The 360Giving data standard is an open standard. You can get involved in shaping the development of the standard through:
-* [The 360 Discourse forum](https://forum.threesixtygiving.org): open for general discussions of the standard and proposed updates to the standard..
-* [The issue tracker for the standard](https://github.com/ThreeSixtyGiving/standard/issues): for bug reports.
-You can also contact the 360Giving data support team with your questions and suggestions.
+The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
+- <a href="https://forum.threesixtygiving.org/" target="_blank">The 360Giving forum</a>: open for general discussions about the standard and proposed updates.
+- <a href="https://github.com/ThreeSixtyGiving/standard/issues" target="_blank">The issue tracker for the standard</a>: for bug reports.You can also contact the 360Giving support team with your questions and suggestions via <support@threesixtygiving.org>
+- The [Governance and Revision Control](governance) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
 
 ## Contents
 
@@ -67,6 +32,7 @@ You can also contact the 360Giving data support team with your questions and sug
    data-protection
    licensing
    governance
-   getdata
    sc-tor
+   using-data
+   
 ```
