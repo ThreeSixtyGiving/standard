@@ -4,7 +4,7 @@
 
 ### About this Guide
 
-This guide is for organisations publishing grantmaking information to the 360Giving format. We assume that you have permission to publish the information if you are not the primary owner. For example, if the information was collected or published by donors, subsidiaries or other third parties.
+This guide is for organisations publishing grantmaking information to the 360Giving Data Standard. We assume that you have permission to publish the information if you are not the primary owner. For example, if the information was collected or published by donors, subsidiaries or other third parties.
 
 ### What is open data?
 
@@ -40,14 +40,7 @@ Here's an example of a license statement based on our recommended CC BY 4.0 lice
 >
 > We believe that with better information, grantmakers can be more effective and strategic decision makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant making more effective. For more information, visit https://www.threesixtygiving.org/
 
-### Where can I find more information?
-
-There are several guides available on licensing open data. A good place to start is [Publisher's Guide to Open Data Licensing](https://theodi.org/guides/publishers-guide-open-data-licensing "Publisher's Guide to Open Data Licensing") by the Open Data Institute.
-
-If you need more in-depth guides that cover a wide variety of legal and technical considerations, we recommend:
-* [Licensing Open Data: A Practical Guide](http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf "Licensing Open Data: A Practical Guide") from Higher Education Funding Council for England (HEFCE) on behalf of JISC
-* [Guide to Open Data Licensing](https://opendefinition.org/guide/data/ "Guide to Open Data Licensing") from Open Knowledge
 
 ### What if I need more help?
 
-Please contact the support team: support [at] threesixtygiving.org
+Please contact the support team: [support@threesixtygiving.org](mailto:support@threesixtygiving.org)
