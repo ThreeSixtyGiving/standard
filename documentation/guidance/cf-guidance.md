@@ -1,14 +1,5 @@
 # Data preparation guide for community foundations
 
-<div class="box box--teal">
-    <h3 class="box__heading">Not using the Digits2 grants management system?</h3>
-    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the main guidance on preparing your data or continue on to our guidance about testing your data quality.</p></div>
-
-<p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
-</p>
-
-
 ## Introduction
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
@@ -17,6 +8,14 @@ Community foundations participating in a pilot were consulted to agree a field s
 This tool means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
 
 There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
+
+<div class="box box--teal">
+    <h3 class="box__heading">Not using the Digits2 grants management system?</h3>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the main guidance on preparing your data or continue on to our guidance about testing your data quality.</p></div>
+
+<p>
+    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
+</p>
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
