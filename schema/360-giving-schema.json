@@ -726,7 +726,7 @@
             "ZM",
             "ZW"
           ],
-          "description": "The ISO Country Code of the location of this activity.",
+          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://www.iso.org/iso-3166-country-codes.html)",
           "weight": 2,
           "title": "Country Code"
         },
@@ -735,7 +735,7 @@
             "number",
             "null"
           ],
-          "description": "The latitude of a point location",
+          "description": "The latitude of a point location. Using [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System) standard, for example 51.501502",
           "weight": 4.001,
           "title": "Latitude"
         },
@@ -744,7 +744,7 @@
             "number",
             "null"
           ],
-          "description": "The longitude of a point location",
+          "description": "The longitude of a point location. Using [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System) standard, for example -0.175269",
           "weight": 4.002,
           "title": "Longitude"
         },
@@ -762,7 +762,7 @@
             "string",
             "null"
           ],
-          "description": "A code referring to a geographical area, drawn from an established gazetteer. For example, the code for a local authority ward, or parliamentary constituency.",
+          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://data.gov.uk/dataset/389511fa-eb72-4657-a2ef-b3c982ec4c0e/register-of-geographic-codes-april-2020-for-the-united-kingdom) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
           "weight": 5,
           "title": "Geographic Code"
         },
@@ -891,7 +891,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](http://www.threesixtygiving.org/standard/identifiers/#toc-organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grant-maker's internal systems.",
+          "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grantmaker's internal systems.",
           "weight": 0.001,
           "title": "Identifier"
         },
@@ -926,31 +926,31 @@
         },
         "streetAddress": {
           "type": "string",
-          "description": "Building number and street name.",
+          "description": "Recipient organisation address building number and street name.",
           "weight": 3.1,
           "title": "Street Address"
         },
         "addressLocality": {
           "type": "string",
-          "description": "City or town.",
+          "description": "Recipient organisation address city or town.",
           "weight": 3.2,
           "title": "City"
         },
         "addressRegion": {
           "type": "string",
-          "description": "County",
+          "description": "Recipient organisation address county",
           "weight": 3.3,
           "title": "County"
         },
         "addressCountry": {
           "type": "string",
-          "description": "Country",
+          "description": "Recipient organisation address country",
           "weight": 3.5,
           "title": "Country"
         },
         "postalCode": {
           "type": "string",
-          "description": "Postal code (please try and provide a post code whenever possible)",
+          "description": "Recipient organisation address postal code.",
           "weight": 3.4,
           "title": "Postal Code"
         },
@@ -1037,7 +1037,7 @@
             }
           ],
           "type": "string",
-          "description": "All events should have a start date. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
+          "description": "All events should have a start date. Dates must be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
           "weight": 4.1,
           "title": "Start Date"
         },
@@ -1054,7 +1054,7 @@
             }
           ],
           "type": "string",
-          "description": "An end date for the grant. Dates should be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
+          "description": "An end date for the grant. Dates must be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
           "weight": 4.3,
           "title": "End Date"
         },
@@ -1094,7 +1094,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](http://www.threesixtygiving.org/standard/identifiers/#toc-grant-identifier) for details.",
+      "description": "The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](https://standard.threesixtygiving.org/en/latest/identifiers/#grant-identifier) for details.",
       "weight": 0.001,
       "title": "Identifier"
     },
@@ -1141,7 +1141,7 @@
         }
       ],
       "type": "string",
-      "description": "When was the decision to award this grant made. The date should be written as YYYY-MM-DD, or in full date-time format.",
+      "description": "When the decision to award this grant was made. The date must be written as YYYY-MM-DD, or in full date-time format.",
       "weight": 4.3,
       "title": "Award Date"
     },
@@ -1250,7 +1250,7 @@
         "Yes",
         "No"
       ],
-      "description": "Was this grant made as the result of an open call for applications? Values should be 'Yes' or 'No'",
+      "description": "Was this grant made as the result of an open call for applications? Values must be 'Yes' or 'No'",
       "weight": 12,
       "title": "From An Open Call?"
     },
@@ -1317,7 +1317,7 @@
     "dateModified": {
       "format": "date-time",
       "type": "string",
-      "description": "When was information on this grant last updated? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
+      "description": "When was information on this grant last updated? A full date-time format must be given. Usually this can be generated automatically by the software managing or exporting this data.",
       "weight": 25,
       "title": "Last Modified"
     },

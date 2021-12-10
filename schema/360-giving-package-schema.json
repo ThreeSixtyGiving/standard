@@ -29,7 +29,7 @@
         },
         "issued": {
           "title": "Issued",
-          "description": "The date that this data package was issued.",
+          "description": "The date that this data package was issued. The date must be written as YYYY-MM-DD, or in [full date-time format](https://json-schema.org/understanding-json-schema/reference/string.html#dates-and-times)",
           "type": "string",
           "oneOf": [
             {"format": "date-time"},
@@ -38,7 +38,7 @@
         },
         "modified": {
           "title": "Modified",
-          "description": "The date that this data package was last modified.",
+          "description": "The date that this data package was last modified. A full date-time format must be used.",
           "type": "string",
           "oneOf": [
             {"format": "date-time"},
@@ -60,7 +60,7 @@
           "properties": {
             "identifier": {
               "title": "Identifier",
-              "description": "The organisation identifier as described by [Organisation Identifer Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier)",
+              "description": "The organisation identifier as described by [Organisation Identifier Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier)",
               "type": "string"
             },
             "name": {
