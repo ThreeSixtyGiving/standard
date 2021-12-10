@@ -1,7 +1,7 @@
 # Check data quality
 
 <div class="box box--teal">
-    <h3 class="box__heading">Key tasks</h3>
+    <h2 class="box__heading">Key tasks</h2>
     <p><ol>
       <li>Upload your prepared 360Giving data into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool.</a></li>
       <li>Review feedback and make updates if the data is invalid.</li>
