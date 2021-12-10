@@ -1,6 +1,6 @@
 # Prepare and format your data
 <div class="box box--teal">
-    <h3 class="box__heading">Key tasks</h3>
+    <h2 class="box__heading">Key tasks</h2>
     <p><ol>
       <li>Register with 360Giving Helpdesk.</li>
       <li>Decide whether to publish using spreadsheet or JSON file format.</li>
