@@ -726,7 +726,7 @@
             "ZM",
             "ZW"
           ],
-          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://www.iso.org/iso-3166-country-codes.html)",
+          "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)",
           "weight": 2,
           "title": "Country Code"
         },
@@ -762,7 +762,7 @@
             "string",
             "null"
           ],
-          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://data.gov.uk/dataset/389511fa-eb72-4657-a2ef-b3c982ec4c0e/register-of-geographic-codes-april-2020-for-the-united-kingdom) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
+          "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://en.wikipedia.org/wiki/ONS_coding_system) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
           "weight": 5,
           "title": "Geographic Code"
         },
@@ -926,31 +926,31 @@
         },
         "streetAddress": {
           "type": "string",
-          "description": "Recipient organisation address building number and street name.",
+          "description": "Organisation address building number and street name.",
           "weight": 3.1,
           "title": "Street Address"
         },
         "addressLocality": {
           "type": "string",
-          "description": "Recipient organisation address city or town.",
+          "description": "Organisation address city or town.",
           "weight": 3.2,
           "title": "City"
         },
         "addressRegion": {
           "type": "string",
-          "description": "Recipient organisation address county",
+          "description": "Organisation address county",
           "weight": 3.3,
           "title": "County"
         },
         "addressCountry": {
           "type": "string",
-          "description": "Recipient organisation address country",
+          "description": "Organisation address country",
           "weight": 3.5,
           "title": "Country"
         },
         "postalCode": {
           "type": "string",
-          "description": "Recipient organisation address postal code.",
+          "description": "Organisation address postal code.",
           "weight": 3.4,
           "title": "Postal Code"
         },
@@ -999,7 +999,7 @@
             "$ref": "#/definitions/Location"
           },
           "type": "array",
-          "description": "-",
+          "description": "Information about the location of the organisation.",
           "weight": 5,
           "title": "Location"
         },
@@ -1171,7 +1171,7 @@
         "$ref": "#/definitions/Event"
       },
       "type": "array",
-      "description": "When did this grant activity actually take place. Dates should be in YYYY-MM-DD format. A date range can include a start date and duration in months, or a start and end date.",
+      "description": "When did this grant activity actually take place. Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.",
       "weight": 5.041,
       "title": "Actual Dates"
     },
@@ -1235,7 +1235,7 @@
         "$ref": "#/definitions/GrantProgramme"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about the grant programme under which the grant was awarded",
       "weight": 5,
       "title": "Grant Programme",
       "rollUp": [
@@ -1259,7 +1259,7 @@
         "$ref": "#/definitions/Classification"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about the type of funding provided by the grant",
       "weight": 5,
       "title": "Funding Type"
     },
@@ -1268,7 +1268,7 @@
         "$ref": "#/definitions/Classification"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about a classification associated with the grant",
       "weight": 5,
       "title": "Classifications"
     },
@@ -1277,7 +1277,7 @@
         "$ref": "#/definitions/Documents"
       },
       "type": "array",
-      "description": "-",
+      "description": "Information about a document related to the grant",
       "weight": 5,
       "title": "Related Document"
     },
