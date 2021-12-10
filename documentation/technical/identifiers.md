@@ -1,4 +1,4 @@
-# Guide to identifiers
+# Identifiers
 
 ```eval_rst
 
@@ -177,15 +177,15 @@ If no account record reference is available, or there are security or privacy re
 .. admonition:: Hint:
 
   Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
-  
+
   360Giving publisher prefix: 360G-XYZFunder
-  
+
   Recipient Org:Name: ABC Recipient
-  
+
   Account ID: 123456
 
   If using the account ID: 360G-XYZFunder-123456
-  
+
   If using the recipient name: 360G-XYZFunder-ABC-Recipient
 
 ```
