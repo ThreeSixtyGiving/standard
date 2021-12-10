@@ -1,7 +1,7 @@
 # Data protection
 
 <div class="box box--teal">
-    <h3 class="box__heading">Key tasks</h3>
+    <h2 class="box__heading">Key tasks</h2>
     <p><ol>
       <li>Check your privacy policies and grant agreements.</li>
       <li>Check whether your 360Giving data could include personal data.</li>
