@@ -1,7 +1,7 @@
 # Publish your data openly
 
 <div class="box box--teal">
-    <h3 class="box__heading">Key tasks</h3>
+    <h2 class="box__heading">Key tasks</h2>
     <p><ol>
     <li>Decide what open license to use.</li>
       <li>Select a location online to host your data.</li>
