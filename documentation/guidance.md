@@ -11,14 +11,14 @@ This isn’t a reporting process, it’s an opportunity to let people know about
 .. toctree::
    :maxdepth: 3
    
-   guidance\before-starting
-   guidance\plan-the-process
-   guidance\data-protection
-   guidance\prepare-data
-   guidance\cf-guidance
-   guidance\data-quality
-   guidance\publish-data-openly
-   guidance\making-updates
-   guidance\using-data
+   guidance/before-starting
+   guidance/plan-the-process
+   guidance/data-protection
+   guidance/prepare-data
+   guidance/cf-guidance
+   guidance/data-quality
+   guidance/publish-data-openly
+   guidance/making-updates
+   guidance/using-data
 
 ```
