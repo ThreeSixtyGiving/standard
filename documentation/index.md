@@ -41,7 +41,7 @@ Read our overview and find out what to expect when publishing 360Giving data for
 .. toctree::
    :maxdepth: 4
 
-   guidance/index
+   guidance
    technical/index
    about/index
 
