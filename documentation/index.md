@@ -43,8 +43,6 @@ Read our overview and find out what to expect when publishing 360Giving data for
 
    guidance
    technical
-   reference
-   identifiers
    about
 
 ```
