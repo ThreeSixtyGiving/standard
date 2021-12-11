@@ -23,7 +23,7 @@ If you are just getting started with sharing 360Giving data, start by reading th
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    reference
    identifiers
