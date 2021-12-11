@@ -25,7 +25,7 @@ If you are just getting started with sharing 360Giving data, start by reading th
 .. toctree::
    :maxdepth: 3
 
-  reference
-  identifiers
+  technical/reference
+  technical/identifiers
 
 ```
