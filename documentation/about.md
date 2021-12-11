@@ -9,7 +9,7 @@ This section provides further information about how proposed updates to the 360G
 .. toctree::
    :maxdepth: 3
 
-   about\governance
-   about\sc-tor
+   about/governance
+   about/sc-tor
    
 ```
