@@ -8,7 +8,9 @@ The 360Giving Data Standard is:
 - Easy to use: offering a simple spreadsheet format for publishing and using data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
 - Comprehensive:  Supporting in-depth analysis of grants, grantees, and beneficiaries to provide a 360 degree view of grantmaking.
 
-This part of this guide provides the technical reference information on publishing using the 360Giving Data Standard. The content assumes some technical knowledge.
+This section of this site provides the technical reference information on publishing using the 360Giving Data Standard.
+
+The content assumes some technical knowledge.
 
 In this guidance you will find:
 - Full schema documentation
