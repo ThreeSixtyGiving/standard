@@ -61,7 +61,9 @@ Once your file has all green ticks it means the information is valid 360Giving d
 
 ![Valid data passing Data Quality Tool checks](../../assets/DQT_screenshot_summary_results_valid.PNG)
 
-Passing the Data Quality Tool checks means the file is ready for use, including in platforms such as GrantNav. However the tool cannot check the content of the data. This means there may be further checks needed to make sure the information is accurate, and that the data does not include information that is unsuitable for publishing as open data.
+Passing the Data Quality Tool checks means the file is ready for use, including in platforms such as GrantNav.
+
+However the tool cannot check the content of the data. This means there may be further checks needed to make sure the information is accurate, and that the data does not include information that is unsuitable for publishing as open data.
 
 <div class="box box--teal">
     <h2 class="box__heading">Data protection</h2>
