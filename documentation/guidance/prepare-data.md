@@ -19,7 +19,7 @@ For many publishers preparing data is a manual process which involves exporting 
 ## Register with 360Giving Helpdesk
 Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
-You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](grant-identifiers)
+You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](grant-identifier)
 
 ## Choosing your file format
 There are two file formats available for publishing 360Giving data, spreadsheets and JSON.
@@ -46,6 +46,10 @@ However if you don’t currently collect information about your grants, you will
 
 Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a 360Giving Conversion Tool template. For further details see the options for publishing using a spreadsheet section [below.](options-for-publishing-using-a-spreadsheet)
 
+```eval_rst
+.. _funders-with-a-grants-management-system:
+```
+
 ### Funders with a grants management system
 If you use a grants management system provided by a software company it is unlikely that you will be able to build in 360Giving publishing into the system itself. However you should be able to set up and save a report to export the source information for your 360Giving data and convert it into the right formats in a spreadsheet.
 
@@ -59,6 +63,10 @@ Funders using a range of proprietary grants management systems have shared 360Gi
 If you use Salesforce as a grants management system, it is possible to build-in 360Giving publishing. Many funding organisations who use Salesforce have set up their system to make sharing 360Giving data more straightforward. Read our further guidance about setting up Salesforce to publish 360Giving [below.](setting-up-salesforce-for-360giving-data-publishing)
 
 It can also be possible to build-in 360Giving publishing into other types of configurable CRM systems - such as Microsoft Dynamics. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> with questions about how your grants management system will impact your 360Giving publishing process.
+
+```eval_rst
+.. _options-for-publishing-using-a-spreadsheet:
+```
 
 ## Options for publishing using a spreadsheet
 - Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](../../technical/reference) 
@@ -112,6 +120,10 @@ By using formulas to convert the data, it means any changes in content of the da
 Conversion tools have been set up to work with data exported from a range of grants management systems, including all the systems listed [above.](funders-with-a-grants-management-system)
 
 To find out about whether using a conversion tool would be appropriate for your organisation, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
+
+```eval_rst
+.. _setting-up-salesforce-for-360giving-data-publishing:
+```
 
 ## Setting up Salesforce for 360Giving data publishing
 Some Salesforce grantmaking systems that are managed by consultants and have basic 360Giving data exporting functions built-in, so check with your Salesforce administrator or technical support provider to find out if this is the case for your organisation. Even with this built-in functionality there will be extra steps to customise your system to allow you to export the full range of fields you have decided to publish.
