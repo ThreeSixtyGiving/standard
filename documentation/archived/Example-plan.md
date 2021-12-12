@@ -32,7 +32,7 @@ using markdown
 
 Working examples with single publisher badge
 
-<img src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" />
+<img src="https://cdn.threesixtygiving.org/components/preview/assets/images/360-logos/registry/360registry-color.svg" alt="360Giving publisher badge - yellow" width="500" />
 
 publisher badges
 
