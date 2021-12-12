@@ -56,7 +56,7 @@ It is possible to start by publishing simpler information and over time, extend 
 #### Further information about core and recommended fields
 You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
 
-For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](../..technical/reference) 
+For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](../technical/reference) 
 
 #### Additional fields
 If you have information that doesn’t fit any of the 360Giving Data Standard fields provided, you can include these in additional fields. 
