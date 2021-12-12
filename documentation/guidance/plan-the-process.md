@@ -56,7 +56,7 @@ It is possible to start by publishing simpler information and over time, extend 
 #### Further information about core and recommended fields
 You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
 
-For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/) 
+For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](../..technical/reference) 
 
 #### Additional fields
 If you have information that doesn’t fit any of the 360Giving Data Standard fields provided, you can include these in additional fields. 
@@ -91,7 +91,7 @@ The more grant data you can share, the greater the benefit to users of 360Giving
 
 <div class="box box--teal">
     <h3 class="box__heading">Data protection</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. Find out more from our <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" target="_blank">Data Protection guidance.</a></p></div>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. Find out more from our <a href="../../guidance/data-protection" target="_blank">Data Protection guidance.</a></p></div>
 
 ## Taking inspiration from others
 You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
