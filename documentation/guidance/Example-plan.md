@@ -24,6 +24,22 @@ This is how to link to a page in a different folder but within the docs site. He
 ```eval_rst
 .. _organisation-identifier:
 ```
+## Organisation identifier
+
+```eval_rst
+.. _additional-fields:
+```
+
+### Additional fields
+
+
+To create the column titles, refer to the [360Giving JSON Schema](#giving-json-schemas) and use the JSON pointer paths as column titles
+
+```eval_rst
+.. _360giving-json-schemas:
+```
+
+### 360Giving JSON Schemas
 
 
 Original row:
