@@ -5,6 +5,10 @@ It will also be useful to:
 - People taking over responsibility for preparing and sharing 360Giving data for their organisation from a colleague.
 - Anyone who wants to know more about what sharing 360Giving data involves.
 
+```eval_rst
+.. _what-to-expect:
+```
+
 ## What to expect
 Guidance for publishers sets out the three key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
 
