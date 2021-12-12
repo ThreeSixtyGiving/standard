@@ -137,13 +137,9 @@ If you manage your own Salesforce system, you can either get support from a Sale
 Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss your options for setting up your Salesforce grants management system for 360Giving publishing.
 
 ### Guidance for community foundations
-If you are a community foundation using the Digits2 grants management system in Salesforce, please refer to our special guidance about the built-in 360Giving data extract tool.
+If you are a community foundation using the Digits2 grants management system in Salesforce, there is a 360Giving data extract tool built into this system.
 
-The guide includes a video walk-through and step-by-step instructions on how to export 360Giving data from your Digits2 system.
-
-<p>
-    <a href="../cf-guidance" class="button button--teal">Read more</a>
-</p>
+Access special guidance which includes a video walk-through and step-by-step instructions on [how to export 360Giving data from your Digits2 system.](../../guidance/cf-guidance)
 
 ## Metadata: making your data more usable
 The 360Giving Data Standard allows funders to describe information about their grants, and provide information about the organisations and programmes related to these awards.
