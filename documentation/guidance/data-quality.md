@@ -20,7 +20,7 @@ Only valid 360Giving data can be combined with other published data and be inclu
 
 ![Screen shot of the 360Giving Data Quality Tool](../../assets/DQT_screenshot_homepage.PNG)
 
-You can upload, paste or provide a link to a data file. 
+You can upload or provide a link to a spreadsheet or JSON file or paste in JSON formatted data.
 
 Once you have submitted your file the screen will display feedback on key information points about the data. Use the small arrow icon on the far right to display or hide the details.
 
