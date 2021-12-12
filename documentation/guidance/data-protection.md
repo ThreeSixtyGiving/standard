@@ -64,7 +64,7 @@ Some publishers avoid the possibility of publishing home address data by sharing
 
 This option has been used by funders who frequently fund smaller or informal groups where there is a high likelihood of home addresses appearing in their data. This approach also suits funders who award large volumes of grants where distinguishing which recipients use home addresses would be challenging or time-consuming.
 
-For further information see our [guidance about how to convert postcodes into geocodes.](../../prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information)
+For further information see our [guidance about how to convert postcodes into geocodes.](converting-postcodes-into-geocodes-to-anonymise-address-information)
 
 ## Responsible data
 There can be cases where grant data is sensitive for reasons other than privacy. For example, the address of a women’s refuge might be inappropriate to include in data about a grant to that organisation.
@@ -138,7 +138,7 @@ Consider including additional fields in your internal data systems to log:
 
 Be aware that consent can be withdrawn at any time so you will also need to put in place processes to trigger a change to your open grants data if that happens.
 
-360Giving has a Take Down policy which sets out how we respond to requests to remove any published data linked from our Data Registry and loaded into our tools. You can read the 360Giving Take Down policy <a href="https://threesixtygiving.org/take-down-policy" target="_blank">here.</a>
+360Giving has a Take Down policy which sets out how we respond to requests to remove any published data linked from our Data Registry and loaded into our tools. Read the <a href="https://threesixtygiving.org/take-down-policy" target="_blank">360Giving Take Down policy.</a>
 
 ### Start by publishing what you can
 You can still take steps toward publishing your data, even if you find that there are some data protection policy issues to address. Consider which fields and grant records are not affected by any barriers, and move forward with publishing these. The learning from this process can then be applied back to other grants once the policy issues are resolved.
