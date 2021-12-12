@@ -1,10 +1,20 @@
 # Updating your 360Giving data
-Many organisations choose to update their data annually, some publish every six months or quarterly, with others doing an update following each grant award round. 
+<div class="box box--teal">
+    <h2 class="box__heading">Key tasks</h2>
+    <p><ol>
+    <li>Make a note of your publishing processes as a reminder for next time you need to share your grants data.</li>
+      <li>Decide how frequently to make updates to your 360Giving data to add more grants.</li>
+      <li>Let 360Giving Helpdesk know if you publish new files of 360Giving data.</li>
+      <li>Read the 360Giving Take Down Policy.</a></li>
+       </ol></p></div>
 
-The aim is to have timely information available - but what ‘timely’ means will be different for different organisations, depending on circumstances and how often grants are awarded.
+## Overview
+Many organisations choose to update their data annually, some publish every six months or quarterly, with others doing an update following each grant award round. The aim is to have timely information available - but what 'timely' means will be different for different organisations, depending on circumstances and how often grants are awarded.
+
+Making an update to your 360Giving data will normally follow the same process as publishing data for the first time, but it should be quicker the second time around. 
 
 ## Document your publishing process
-We recommend documenting your internal process for publishing your grants data in the 360Giving Data Standard. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process when done infrequently.  
+It is a good idea to write down your internal process for publishing your grants data in the 360Giving Data Standard. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process when done infrequently.  
 
 These notes will also be valuable if someone new takes responsibility for publishing your 360Giving data. 
 
@@ -13,7 +23,7 @@ You may want to make a note of:
 - The practical steps you take to transform the data into 360Giving format - are you exporting data directly from your system, using a conversion tool or another method.
 - Any data protection or responsible data checks and changes that need to be made before the data is ready for publishing.
 - Who is involved in checking or signing off the data.
-- Where your 360Giving files are hosted, and who is able to make file updates to your website or hosting platform.
+- Where your 360Giving files are hosted, and who is responsible for adding files to your website or hosting platform.
 
 ## How often should you update your data?
 Minimum good practice is to update data on an annual basis.
@@ -60,4 +70,4 @@ An organisation is free to decide to stop publishing data and/or can remove the 
 360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
 ### What's next?
-Read our introduction to using your 360Giving data.
+Read our introduction the tools that use 360Giving data.
