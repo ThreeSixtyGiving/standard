@@ -27,6 +27,9 @@ Once you have submitted your file the screen will display feedback on key inform
 ### Understanding the results
 At the top, the summary provides basic details about the content of the file – how many grants, funders and the date range and total value of the grants broken down by currency.
 
+![Summary results from 360Giving Data Quality Tool](../../assets/DQT_summary_results_page_example_screenshot.PNG)
+
+
 ✔️ **a green tick** means that the data has passed all of the validity tests.
 
 ❌ **a red cross** means there are issues with the data that must be resolved to make the data valid (conform to the 360Giving Data Standard).
