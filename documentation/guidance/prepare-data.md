@@ -156,7 +156,7 @@ See our [guidance on metadata](meta-sheet) for further details.
 For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](giving-json-schemas) for further details.
 
 ```eval_rst
-.. _postcodes-to-geocodes:
+.. _converting-postcodes-into-geocodes-to-anonymise-address-information:
 ```
 
 ## Converting Postcodes into Geocodes to anonymise address information
