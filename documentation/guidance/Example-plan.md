@@ -20,6 +20,8 @@ This is how to link to a page in a different folder but within the docs site. He
 
 * [Grants](grant-identifier)
 * [Organisations](organisation-identifier);
+* [Additional fields](additional-fields)
+* [What to expect](what-to-expect)
 
 ```eval_rst
 .. _organisation-identifier:
@@ -31,7 +33,7 @@ This is how to link to a page in a different folder but within the docs site. He
 ```
 
 ### Additional fields
-
+Here?
 
 2. **JSON**
 
