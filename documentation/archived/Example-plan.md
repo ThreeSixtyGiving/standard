@@ -4,9 +4,7 @@
 
 Using hmtl
 
-<img src="</assets/360registry-color.png>" style="width: 200px" alt="360Giving Data Registry logo" />
-
-<img src="/assets/360registry-color.png" alt="360Giving Data Registry logo" width="300"  />
+<img src="../assets/360registry-color.png" alt="360Giving Data Registry logo" width="300"  />
 
 using markdown
 
