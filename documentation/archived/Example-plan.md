@@ -6,6 +6,27 @@ Using hmtl
 
 <img src="../assets/360registry-color.png" alt="360Giving Data Registry logo" width="300"  />
 
+
+Relative File Paths
+A relative file path points to a file relative to the current page.
+
+In the following example, the file path points to a file in the images folder located at the root of the current web:
+
+Example
+<img src="/assets/360registry-color.png" alt="360Giving Data Registry logo">
+
+In the following example, the file path points to a file in the images folder located in the current folder:
+
+Example
+<img src="assets/360registry-color.png" alt="360Giving Data Registry logo">
+
+In the following example, the file path points to a file in the images folder located in the folder one level up from the current folder:
+
+Example
+<img src="../assets/360registry-color.png" alt="360Giving Data Registry logo">
+
+
+
 using markdown
 
 ![Data Registry logo](../../assets/360registry-color.png)
