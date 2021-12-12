@@ -162,7 +162,7 @@ The following identifier lists are often used in 360Giving publication.
 * Mutual societies - <a href="https://org-id.guide/list/GB-MPR" target="_blank">GB-MPR</a>
 * HMRC-recognised charities - <a href="https://org-id.guide/list/GB-REV" target="_blank">GB-REV</a>
 
-If you have a registered number from some other scheme, including overseas registrars, check the <a href="https://org-id.guide/" target="_blank"> org-id List Locator</a> for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](https://www.threesixtygiving.org/contact/).
+If you have a registered number from some other scheme, including overseas registrars, check the <a href="https://org-id.guide/" target="_blank"> org-id List Locator</a> for a list code prefix to use. If the list code prefix you need is not listed, contact 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ### Organisations without official registration numbers
 
