@@ -37,7 +37,9 @@ See the guidance on [data protection](../../guidance/data-protection/) to consid
 If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about how to set programme names as ‘undisclosed’.
 
 ## Contact 360Giving to get access to D2 extract 
-Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving data. If you cannot find the 360Giving report folder in your D2 system, please contact 360Giving Helpdesk via <support@threesixtygiving.org> to request this to be set up.
+Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving data.
+
+If you cannot find the 360Giving report folder in your D2 system, please contact 360Giving Helpdesk via <support@threesixtygiving.org> to request this to be set up.
 
 The following information about your organisation will be added into the system to populate key 360Giving fields. When you request access to the D2 extract for the first time these details will be confirmed with you.
 
@@ -69,7 +71,7 @@ The following information about your organisation will be added into the system 
 </div>
 
 
-We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
+It is possible to restrict access to the D2 tool to certain individuals in your organisation, or it can be made accessible to all users with a login. If you want to restrict access you will be asked for the names and emails of the people who are allowed to use the tool, so these permissions can be added to the system.
 
 ### Walk-through video
 <a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the video walk-through<a/> to get an overview of the process and follow the instructions below to export 360Giving data from your D2 system.
