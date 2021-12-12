@@ -8,8 +8,6 @@ The 360Giving Data Standard is:
 - Easy to use: offering a simple spreadsheet format for publishing and using data, backed up by a structured data model, developer-friendly JSON serialisation, and conversion tools.
 - Comprehensive:  Supporting in-depth analysis of grants, grantees, and beneficiaries to provide a 360 degree view of grantmaking.
 
-Free support is available from our support team to help you to publish and use 360Giving data.
-
 This part of this guide provides the technical reference information on publishing using the 360Giving Data Standard. The content assumes some technical knowledge.
 
 In this guidance you will find:
@@ -17,9 +15,8 @@ In this guidance you will find:
 - Spreadsheet templates
 - Field guidance
 - Guidance about grant and organisation identifiers
-- Guide to publishing metadata alongside your 360Giving data 
 
-If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/)
+If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../../guidance)
 
 ```eval_rst
 .. toctree::
