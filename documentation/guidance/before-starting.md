@@ -5,9 +5,6 @@ It will also be useful to:
 - People taking over responsibility for preparing and sharing 360Giving data for their organisation from a colleague.
 - Anyone who wants to know more about what sharing 360Giving data involves.
 
-```eval_rst
-.. _what-to-expect:
-```
 ## What to expect
 Guidance for publishers sets out the three key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
 
@@ -25,7 +22,7 @@ These stages apply to all types of funder. However, the approach you take, the s
 - Once you have identified the grant information you intend to publish, you should consider the data protection implications of sharing this data, and develop appropriate policies so you can do so responsibly.
 
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/plan-the-process/" class="button button--teal">Read more</a>
+    <a href="../../guidance/plan-the-process" class="button button--teal">Read more</a>
 </p>
 
 ### Prepare
@@ -66,7 +63,7 @@ There can however be costs related to consultancy or support fees to get a grant
 #### 360Giving Helpdesk
 Our Helpdesk provides pro-bono support to help funders navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
 
-At any point in this process we invite you to contact our free Helpdesk via <support@threesixtygiving.org> with queries, large or small.
+At any point in this process we invite you to contact 360Giving Helpdesk via <support@threesixtygiving.org> with queries, large or small.
 
 ## Who publishes 360Giving data
 Any type of funder can publish their grants data to the 360Giving Data Standard. Over 200 funders share 360Giving data. They range in size from large organisations with many staff to small trustee-run trusts and include family, corporate and community foundations, central, devolved and local governments, lottery distributors and livery companies.
