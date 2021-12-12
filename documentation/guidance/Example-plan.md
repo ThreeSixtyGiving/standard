@@ -1,5 +1,24 @@
 # Example page from David: Plan
 
+## Experimenting with links
+This is a link between H2 headings
+
+## First heading
+Here is some text. This links to the H3 heading.
+
+### Second heading
+This is where the link above goes to.
+
+
+### Linking to pages in same folder
+This is a link to another page in the same folder. Here you go.
+
+
+### Linking to pages elsewhere in the docs site
+This is how to link to a page in a different folder but within the docs site. Here you go.
+
+
+
 Original row:
 
 ```eval_rst
