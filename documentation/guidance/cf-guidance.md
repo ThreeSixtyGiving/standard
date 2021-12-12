@@ -34,7 +34,7 @@ If you take further steps to anonymise or remove potentially identifying data ma
 See the guidance on [data protection](../../guidance/data-protection/) to consider the implications for your organisation of sharing open grants data.
 
 ### Anonymising donor names in programme titles.
-If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about how to set programme names as ‘undisclosed’.
+If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about [how to set programme names as ‘undisclosed’.](undisclosed-programme)
 
 ## Contact 360Giving to get access to D2 extract 
 Each community foundation must be set up with access to the 360Giving reports folder in order to generate the source report and extract 360Giving data.
@@ -163,6 +163,9 @@ The following system-generated fixed or calculated values will not appear in the
     </table>
 </div>
 
+```eval_rst
+.. _undisclosed-programme:
+```
  
 ### Undisclosed programme
 If you do not want to publish the name of specific Programmes, there are 2 new fields in the 360 Giving section on a programme record.  Tick the 360Giving – Display as undisclosed checkbox and the 360Giving – Programme Title will default to Undisclosed.  This is the value that will show in the programme name on the data extract.
