@@ -3,7 +3,7 @@ This site provides information to support anyone who wants to publish open grant
 
 The guidance is divided into three main parts.
 
-**Guidance for publishers**
+### Guidance for publishers
 
 This features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
 
@@ -11,7 +11,7 @@ This features guidance about preparing and sharing 360Giving data. Here you will
     <a href="../../guidance" class="button button--teal">Read more</a>
 </p>
 
-**Technical information**
+### Technical information
 
 This features the full technical reference for the 360Giving Data Standard, including templates and detailed field guidance. Here you will find the rules of the Standard, which all 360Giving data must follow in order to be compliant.
 
@@ -19,7 +19,7 @@ This features the full technical reference for the 360Giving Data Standard, incl
     <a href="../../technical" class="button button--teal">Read more</a>
 </p>
 
-**About the Standard**
+### About the Standard
 
 This features information about governance and change management of the 360Giving Data Standard itself. Here you will also find out how you can contribute to the maintenance and development of the Standard.
 
@@ -27,7 +27,7 @@ This features information about governance and change management of the 360Givin
     <a href="../../about" class="button button--teal">Read more</a>
 </p>
 
-**Not sure where to start?**
+### Not sure where to start?
 
 Read our overview and find out what to expect when publishing 360Giving data for the first time.
 
@@ -35,7 +35,7 @@ Read our overview and find out what to expect when publishing 360Giving data for
     <a href="../../guidance/before-starting" class="button button--teal">Read more</a>
 </p>
 
-**Contents**
+### Contents
 
 ```eval_rst
 .. toctree::
