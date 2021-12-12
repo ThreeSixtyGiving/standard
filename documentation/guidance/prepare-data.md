@@ -32,7 +32,9 @@ You do not need specialist technical knowledge or specialist software to use spr
 ### JSON format
 JSON format is used for exporting the data directly from a grants management system or database, using the 360Giving JSON schemas. Some specialist technical knowledge is needed to use JSON to publish 360Giving data.
 
-Check the [technical reference](360giving-json-schemas) for further details and look at examples of JSON files available via the 360Giving Data Registry. Please note that using JSON format involves publishing the data in a JSON file; there is no API. 
+Check the [technical refence on JSON schema](360giving-json-schemas) for further details and look at examples of JSON files available via the 360Giving Data Registry. 
+
+**Please note:** using JSON format involves publishing the data in a JSON file; it is not an API. 
 
 If you decide to use the JSON file format to publish your data you will likely need support from a developer to set this up. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss your next steps for using JSON as your publishing format. 
 
@@ -44,7 +46,7 @@ There are 360Giving publishers without a database or grants management system wh
 
 However if you don’t currently collect information about your grants, you will need to start gathering that data in order to publish it using the 360Giving Data Standard. 
 
-Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a 360Giving Conversion Tool template. For further details see the options for publishing using a spreadsheet section [below.](options-for-publishing-using-a-spreadsheet)
+Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a Conversion Tool Template. For further details see the options for publishing using a spreadsheet section [below.](options-for-publishing-using-a-spreadsheet)
 
 ```eval_rst
 .. _funders-with-a-grants-management-system:
@@ -121,7 +123,7 @@ In the top row of this sheet are the 360Giving headers that align with the data 
 
 By using formulas to convert the data, it means any changes in content of the data in the **source_data** or **fixed_data** sheets will automatically be picked up in the 360_data sheet.
 
-Conversion tools have been set up to work with data exported from a range of grants management systems, including all the systems listed [above.](funders-with-a-grants-management-system)
+Conversion Tool Templates have been set up to work with data exported from a range of grants management systems, including all the systems listed [above.](funders-with-a-grants-management-system)
 
 To find out about whether using a conversion tool would be appropriate for your organisation, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
