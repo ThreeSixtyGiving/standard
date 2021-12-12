@@ -185,11 +185,11 @@ The process of sharing 360Giving data files through Dropbox is straightforward.
   
 3\. Copy this link. It will resemble the following example: 
     
-https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?dl=0 
+https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?**dl=0** 
   
-4\. Change the ending of this from ‘dl=0’ to ‘dl=1’, eg:
+4\. Change the ending of this from **'dl=0'** to **'dl=1'**, eg:
     
-https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?dl=1 
+https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?**dl=1** 
   
 5\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
   
@@ -224,9 +224,11 @@ Examples of good practice:
 To maintain a consistent link for your 360Giving data you need to upload your file into the same folder within your website content management systems and use a generic name for your file. The name of the file should not change, even as the contents change.
  
 For example, your file link may look like this: 
+    
 https://www.examplefoundation.org.uk/uploads/2020/11/Example_Foundation_360Giving_data_final_2021-01-01.xlsx 
  
-However, it is better to aim to have your file in a specific folder with a generic name, for example: 
+However, it is better to aim to have your file in a specific folder with a generic name: 
+    
 https://www.examplefoundation.org.uk/uploads/Example_Foundation_360Giving_data.xlsx
  
 Some websites automatically assign a new folder position to files each time they are uploaded which makes it difficult to maintain a fixed position for the file.
