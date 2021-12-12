@@ -4,7 +4,6 @@
 
 Using hmtl
 
-<img src="../assets/360registry-color.png" alt="360Giving Data Registry logo" width="300"  />
 
 
 Relative File Paths
@@ -13,7 +12,7 @@ A relative file path points to a file relative to the current page.
 In the following example, the file path points to a file in the images folder located at the root of the current web:
 
 Example
-<img src="/assets/360registry-color.png" alt="360Giving Data Registry logo">
+<img src="../../assets/360registry-color.png" alt="360Giving Data Registry logo">
 
 In the following example, the file path points to a file in the images folder located in the current folder:
 
