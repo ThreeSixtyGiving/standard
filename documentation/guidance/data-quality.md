@@ -15,7 +15,7 @@ The term 'valid' means the file includes the 10 core fields and the information 
 
 Only valid 360Giving data can be combined with other published data and be included in 360Giving tools, such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a>.
 
-## Using the 360Giving Data Quality Tool
+## Using the Data Quality Tool
 <a href="https://dataquality.threesixtygiving.org/" target="_blank">The Data Quality Tool</a> has been specially designed to support the preparation and publication of 360Giving data.
 
 ![Screen shot of the 360Giving Data Quality Tool](../../assets/DQT_screenshot_homepage.PNG)
@@ -48,7 +48,9 @@ These **Additional checks** do not relate to the validity of the data. This mean
 - **Additional Fields** show the details of data not covered by 360Giving Data Standard headings. If these additional fields are unexpected the results could be caused by misnaming or spelling mistakes in the headings.
 
 ### Getting more help
-Please contact the 360Giving Helpdesk via <support@threesixtygiving.org> if you have questions about using the Data Quality tool or the feedback you receive. The 360Giving Helpdesk can also look at the data you are preparing to check and provide further feedback prior to publishing your data for the first time.
+Please contact the 360Giving Helpdesk via <support@threesixtygiving.org> if you have questions about using the Data Quality tool or the feedback you receive.
+
+The 360Giving Helpdesk can also look at the data you are preparing to check and provide further feedback prior to publishing your data for the first time.
 
 ## Once your data passes the Data Quality Tool checks
 Once your file has all green ticks it means the information is valid 360Giving data.
@@ -59,7 +61,7 @@ Passing the Data Quality Tool checks means the file is ready for use, including 
 
 <div class="box box--teal">
     <h3 class="box__heading">Data protection</h3>
-    <p>Find out more about what to check before publishing your data openly in our <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/" target="_blank">Data Protection guidance.</a></p></div>
+    <p>Find out more about what to check before publishing your data openly in our <a href="../../guidance/data-protection" target="_blank">data protection guidance.</a></p></div>
 
 ### About Data Quality Tool security
 The Data Quality Tool has been designed to support people preparing their 360Giving data, meaning the data inputted into it is in varying stages of readiness. 
