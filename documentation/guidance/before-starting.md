@@ -26,9 +26,9 @@ These stages apply to all types of funder. However, the approach you take, the s
 </p>
 
 ### Prepare
-- You will transform your grant information into 360Giving data, using the correct formatting and headings.
+- You will decided what file format to publish your grant information and transform it into 360Giving data, using the correct formatting and headings.
 
-For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it in a spreadsheet. However, some grants management systems make it possible to build-in some or all of the steps needed to convert the information, so it can be exported directly in 360Giving data format.
+For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it in a spreadsheet file. However, some grants management systems make it possible to build-in some or all of the steps needed to convert the information, so it can be exported directly into the correct 360Giving data format.
 
 - You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
 
@@ -85,12 +85,12 @@ Where and how you collect and store information about your grants has a fundamen
 
 One of the first questions we’ll ask when you contact 360Giving Helpdesk is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
 
-Go to the [Prepare section](../../guidance/prepare-data) for further details about the likely impact your grants management system on your publishing process.
+Go to the [prepare page](../../guidance/prepare-data) for further details about the likely impact your grants management system on your publishing process.
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-Access the guide for <a href="../../guidance/cf-guidance" target="_blank">community foundations using D2 system.</a>
+Access the guide for [community foundations using D2 system](../../guidance/cf-guidance)
 
 ## Key concepts
 
