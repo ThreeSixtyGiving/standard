@@ -138,7 +138,7 @@ If you are a community foundation using the Digits2 grants management system in 
 The guide includes a video walk-through and step-by-step instructions on how to export 360Giving data from your Digits2 system.
 
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/cf-guidance/" class="button button--teal">Read more</a>
+    <a href="introduction" class="button button--teal">Read more</a>
 </p>
 
 ## Metadata: making your data more usable
