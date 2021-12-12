@@ -4,7 +4,7 @@ This page provides reference information on publishing to the 360Giving Data Sta
 
 It assumes some technical knowledge.
 
-If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../../guidance)
+If you are just getting started with sharing 360Giving data, start by reading the [guidance for publishers section.](../../guidance)
 
 
 ## Data formats
