@@ -6,6 +6,8 @@ Using hmtl
 
 <img src="<../../assets/360registry-color.png>" style="width: 200px" alt="360Giving Data Registry logo" />
 
+<img src="../../assets/360registry-color.png" alt="360Giving Data Registry logo" width="150" height="150" />
+
 using markdown
 
 ![Data Registry logo](../../assets/360registry-color.png)
