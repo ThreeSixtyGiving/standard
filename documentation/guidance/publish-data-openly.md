@@ -235,7 +235,7 @@ Some websites automatically assign a new folder position to files each time they
  
 By default, Wordpress websites organise uploads by year and month but it is possible to turn off this feature if preferred. See this guidance about <a href="https://answeryourtech.com/how-to-stop-putting-uploads-into-month-and-date-folders-in-wordpress/" target="_blank">updating the folder settings in Wordpress</a> for further details.
  
-Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](https://standard.threesixtygiving.org/en/new-docs-style/publish-data-openly/#alternative-options-for-360giving-data-hosting) for more details.
+Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](alternative-hosting-options) for more details.
  
 Maintaining a consistent link can be a convenient approach to file 360Giving file management however you can always contact 360Giving Helpdesk via <support@threesixtygiving.org> about data updates, and we can check the file and update the Data Registry as needed.
 
