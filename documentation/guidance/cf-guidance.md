@@ -15,11 +15,11 @@
 ## Introduction
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
-Community foundations participating in a pilot were consulted to agree a field specification for the 360Giving data extract file. Hyphen8 has completed development of the D2 data extract tool, and following tests by the pilot group this is now available for any community foundation that wishes to share open grants data.
+Community foundations participating in a pilot were consulted to agree a field specification for the 360Giving data file and a data extract tool was developed for use by any community foundation that wishes to share open grants data.
 
-This tool means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
+This tool built into the D2 system means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
 
-There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
+Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site.
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
@@ -76,7 +76,7 @@ The following information about your organisation will be added into the system 
 We will also check whether access to the Digits2 tool should be restricted to certain individuals in your organisation, or if it can be set up as accessible to all users. If you need to restrict access we will ask for the names and emails of the people who will have permission to access the tool, so they can be added to the system.
 
 ### Walk-through video
-<a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the Hyphen8 video walk-through<a/> to get an overview of the process and follow the instructions below to export 360Giving data from your D2 system.
+<a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the video walk-through<a/> to get an overview of the process and follow the instructions below to export 360Giving data from your D2 system.
  
 ## The source report
 A dedicated report folder is created for each community foundation containing the template report that is used as the source for the data extract.  This report can be used to check data quality and to apply the correct filter criteria to limit the grant applications that are included.
