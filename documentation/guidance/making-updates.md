@@ -55,7 +55,9 @@ Making amendments to your 360Giving data can be done manually, by taking a copy 
  
 The process to make an update of your data might involve running the same report from the earlier grant data but increasing the latest grant date to cover the period you want to update to. This report will include information about grants you've already published and newer grants, reflecting any changes that have been made in your system since you last published your data. 
  
-However this process is only possible if you do not make significant changes to your data to get it ready for publication, so that the information in your system matches what is in your 360Giving data file.  If you have edited the information in the file – for example to amend description text to make it suitable for publishing openly – then you will need to manually amend or remove grants in your existing published grants data.
+However this process is only possible if you do not make significant changes to your data to get it ready for publication, so that the information in your system matches what is in your 360Giving data file.
+
+If you have edited the information in the file – for example to amend description text to make it suitable for publishing openly – then you will need to manually amend or remove grants in your existing published grants data.
 
 ### Changing how your name appears in 360Giving tools
 
