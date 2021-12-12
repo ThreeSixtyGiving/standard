@@ -33,7 +33,13 @@ The decision about how frequently to make updates is for each publishing organis
 Once you have completed the 360Giving publication process for the first time, you will have a better understanding of the amount of time and resources needed. This will help you work out how to fit updating your 360Giving data alongside your other grantmaking and publicity cycles.
 
 ## How to make updates to your data
-When you have more grant data to publish you will follow the same steps you used to prepare your data. 
+When you have more grant data to publish you will follow the same steps you used to prepare your data.
+
+The process to make an update of your data might involve running the same report from the earlier grant data but increasing the latest grant date to cover the current period. This report would include information about grants you've already published and newer grants and will reflect any changes that have been made since you last published your data. 
+ 
+This process is only possible if you do not make changes to your data to get it ready for publication, so that the information in your system matches what is in your 360Giving data file.
+
+If you make changes to your data after exporting it from your system - for example changing description text to make it suitable for publishing openly – then you will need to produce a report to cover only the recently awarded grants and then incorporate the data into the existing file.
  
 Once the data is ready and it has passed the [Data Quality Tool](../../guidance/data-quality) checks you can either: 
 - Add the new grant data into the existing file of published data and re-upload the file to your website. If you can keep the file name and the position of the file the same following an update it will mean the link from the Data Registry to your data will stay the same – so your updates will automatically get picked up in our system.
@@ -52,15 +58,8 @@ You can make changes to your data at any time. This may be to add new grants dat
 For further guidance about making changes to your data to note variations to your grants, <a href="https://www.threesixtygiving.org/2020/04/20/covid19-guidance-on-tagging-and-tracking-changes-to-existing-grants/" target="_blank">see our blog post.</a>
  
 Making amendments to your 360Giving data can be done manually, by taking a copy of your published data file and making the necessary changes. You then save the file and re-upload it to your website, replacing the current file.
- 
-The process to make an update of your data might involve running the same report from the earlier grant data but increasing the latest grant date to cover the period you want to update to. This report will include information about grants you've already published and newer grants, reflecting any changes that have been made in your system since you last published your data. 
- 
-However this process is only possible if you do not make significant changes to your data to get it ready for publication, so that the information in your system matches what is in your 360Giving data file.
-
-If you have edited the information in the file – for example to amend description text to make it suitable for publishing openly – then you will need to manually amend or remove grants in your existing published grants data.
 
 ### Changing how your name appears in 360Giving tools
-
 The name of the funding organisation that appears on GrantNav and 360Insights is derived from the 360Giving data that is published. This means that to update how your name appears you need to update the text in the Funding Org:Name column in your data, and then re-publish the file(s).
 
 The name that appears on the 360Giving Data Registry is controlled by 360Giving. For any queries about the process to change the name in your data, and to request an amendment to the 360Giving Data Registry please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
