@@ -19,7 +19,7 @@ For many publishers preparing data is a manual process which involves exporting 
 ## Register with 360Giving Helpdesk
 Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
-You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](https://standard.threesixtygiving.org/en/new-docs-style/identifiers/#identifiers)
+You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](grant-identifiers)
 
 ## Choosing your file format
 There are two file formats available for publishing 360Giving data, spreadsheets and JSON.
@@ -32,7 +32,7 @@ You do not need specialist technical knowledge or specialist software to use spr
 ### JSON format
 JSON format is used for exporting the data directly from a grants management system or database, using the 360Giving JSON schemas. Some specialist technical knowledge is needed to use JSON to publish 360Giving data.
 
-Check the [technical reference](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/) for further details and look at examples of JSON files available via the 360Giving Data Registry. Please note that using JSON format involves publishing the data in a JSON file; there is no API. 
+Check the [technical reference](../../technical/reference) for further details and look at examples of JSON files available via the 360Giving Data Registry. Please note that using JSON format involves publishing the data in a JSON file; there is no API. 
 
 If you decide to use the JSON file format to publish your data you will likely need support from a developer to set this up. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss your next steps for using JSON as your publishing format. 
 
@@ -44,7 +44,7 @@ There are 360Giving publishers without a database or grants management system wh
 
 However if you don’t currently collect information about your grants, you will need to start gathering that data in order to publish it using the 360Giving Data Standard. 
 
-Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a 360Giving Conversion Tool template. For further details see the options for publishing using a spreadsheet section [below.](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#options-for-publishing-using-a-spreadsheet)
+Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a 360Giving Conversion Tool template. For further details see the options for publishing using a spreadsheet section [below.](options-for-publishing-using-a-spreadsheet)
 
 ### Funders with a grants management system
 If you use a grants management system provided by a software company it is unlikely that you will be able to build in 360Giving publishing into the system itself. However you should be able to set up and save a report to export the source information for your 360Giving data and convert it into the right formats in a spreadsheet.
@@ -56,12 +56,12 @@ Funders using a range of proprietary grants management systems have shared 360Gi
 - CC Grant Tracker
 - SmartSimple
 
-If you use Salesforce as a grants management system, it is possible to build-in 360Giving publishing. Many funding organisations who use Salesforce have set up their system to make sharing 360Giving data more straightforward. Read our further guidance about setting up Salesforce to publish 360Giving [below.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/#setting-up-salesforce-for-360giving-data-publishing)
+If you use Salesforce as a grants management system, it is possible to build-in 360Giving publishing. Many funding organisations who use Salesforce have set up their system to make sharing 360Giving data more straightforward. Read our further guidance about setting up Salesforce to publish 360Giving [below.](setting-up-salesforce-for-360giving-data-publishing)
 
 It can also be possible to build-in 360Giving publishing into other types of configurable CRM systems - such as Microsoft Dynamics. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> with questions about how your grants management system will impact your 360Giving publishing process.
 
 ## Options for publishing using a spreadsheet
-- Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/) 
+- Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](../../technical/reference) 
 - Use the ‘360Giving Spreadsheet Template’ and adapt this to your needs.
 - Configure and use a 360Giving Data Conversion Tool Template, a method used by a wide range of funders.
 
@@ -70,7 +70,7 @@ This multi-sheet spreadsheet template consists of all the fields in the 360Givin
 
 There is a main ‘grants’ sheet which includes the 10 core fields and other common data fields. Additional sheets allow for the sharing of further information. 
 
-You can download the 360Giving Spreadsheet Template [here.](https://standard.threesixtygiving.org/en/latest/reference/#spreadsheet-format)
+You can download the 360Giving Spreadsheet Template [here.](spreadsheet-format)
 
 #### Making changes to the 360Giving Spreadsheet Template
 You can adapt the template to suit your needs and make changes to:
@@ -91,7 +91,7 @@ The majority of publishers using spreadsheets will detail all the information ab
 
 However it is possible to include more complexly structured data if needed. For example if a single grant has multiple beneficiary locations, it is possible to represent this by creating ‘One to many relationships’.
 
-See our guidance for further information about [One to many relationships.](https://standard.threesixtygiving.org/en/new-docs-style/reference/#one-to-many-relationships)
+See our guidance for further information about [One to many relationships.](one-to-many-relationships)
 
 ### 360Giving Conversion Tool Template
 A 360Giving Conversion Tool is an Excel file designed to make the technical steps of formatting grant information into 360Giving data more straightforward. The tool can be set up to work with the range of data you choose to share with support from the 360Giving Helpdesk. 
@@ -109,7 +109,7 @@ In the top row of this sheet are the 360Giving headers that align with the data 
 
 By using formulas to convert the data, it means any changes in content of the data in the **source_data** or **fixed_data** sheets will automatically be picked up in the 360_data sheet.
 
-Conversion tools have been set up to work with data exported from a range of grants management systems, including all the systems listed [above.](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/#funders-with-a-grants-management-system)
+Conversion tools have been set up to work with data exported from a range of grants management systems, including all the systems listed [above.](funders-with-a-grants-management-system)
 
 To find out about whether using a conversion tool would be appropriate for your organisation, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
@@ -139,9 +139,9 @@ Metadata is data about the data, such as the size of a file, how many grants it 
 ### Including metadata in your 360Giving file
 The metadata fields in the 360Giving Data Standard allow for the publication of authoritative metadata. Including metadata allows you as the publisher to ensure key information is provided to the users of your data. It is especially useful if you need to provide additional context or add disclaimers about your organisation or the grant data in the file. 
 
-See our [guidance on metadata](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/#meta-sheet) for further details.
+See our [guidance on metadata](meta-sheet) for further details.
 
-For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](https://standard.threesixtygiving.org/en/new-docs-style/reference/#giving-json-schemas) for further details.
+For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](giving-json-schemas) for further details.
 
 ## Converting Postcodes into Geocodes to anonymise address information
 Converting postcode data into geocodes protects the privacy of recipients while allowing you to include useful data that will allow your grants to be geolocated. The practical process may vary depending on the process you use for preparing your 360Giving data and the volume of data.
