@@ -12,7 +12,7 @@ using markdown
 
 Working examples with single publisher badge
 
-<img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" />
+<img src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" />
 
 publisher badges
 
