@@ -25,10 +25,9 @@ You can upload or provide a link to a spreadsheet or JSON file or paste in JSON 
 Once you have submitted your file the screen will display feedback on key information points about the data. Use the small arrow icon on the far right to display or hide the details.
 
 ### Understanding the results
-At the top, the summary provides basic details about the content of the file – how many grants, funders and the date range and total value of the grants broken down by currency.
-
 ![Summary results from 360Giving Data Quality Tool](../../assets/DQT_summary_results_page_example_screenshot.PNG)
 
+At the top, the summary provides basic details about the content of the file – how many grants, funders and the date range and total value of the grants broken down by currency.
 
 ✔️ **a green tick** means that the data has passed all of the validity tests.
 
