@@ -139,7 +139,7 @@ Anyone who is a current or potential publisher or user of the 360Giving Standard
 ```eval_rst
 **Footnotes**
 
-.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: https://www.threesixtygiving.org/governance-of-the-360giving-standard/.
+.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: https://www.threesixtygiving.org/support/standard/.
 .. [2] See https://open-stand.org/about-us/principles/.
 .. [3] See https://en.wikipedia.org/wiki/Deprecation
 .. [4] See https://dataquality.threesixtygiving.org/.
