@@ -2,7 +2,7 @@
 
 <div class="box box--teal">
     <h2 class="box__heading">Not using the Digits2 grants management system?</h2>
-    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the main guidance on preparing your data or continue on to our guidance about testing your data quality.</p></div>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the guidance on preparing your data or continue to guidance about testing your data quality.</p></div>
 
 <p>
     <a href="../../guidance/prepare-data" class="button button--teal">Previous</a> <a href="../../guidance/data-quality/" class="button button--teal">Next</a>
