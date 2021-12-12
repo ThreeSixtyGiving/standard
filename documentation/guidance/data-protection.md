@@ -64,7 +64,7 @@ Some publishers avoid the possibility of publishing home address data by sharing
 
 This option has been used by funders who frequently fund smaller or informal groups where there is a high likelihood of home addresses appearing in their data. This approach also suits funders who award large volumes of grants where distinguishing which recipients use home addresses would be challenging or time-consuming.
 
-For further information see our [guidance about how to convert postcodes into geocodes.](converting-postcodes-into-geocodes-to-anonymise-address-information)
+For further information see our [guidance about how to convert postcodes into geocodes.](postcodes-to-geocodes)
 
 ## Responsible data
 There can be cases where grant data is sensitive for reasons other than privacy. For example, the address of a women’s refuge might be inappropriate to include in data about a grant to that organisation.
@@ -73,7 +73,7 @@ Consider whether any of your grant data might contain other sensitive informatio
 
 **Sharing Data Responsibly – A Conversation Guide for Funders** is designed for funders and grantmakers who want practical advice on how to treat their grantees’ data responsibly. Published by the Ariadne Network and Engine Room, this report is aimed at Human Rights funders working internationally, but has relevant information for all other types of funders.
 
-You can access the Responsible Data guide <a href="http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/" target="_blank">here.</a>
+Access the <a href="http://www.ariadne-network.eu/sharing-data-responsibly-conversation-guide-funders/" target="_blank">Responsible Data guide.</a>
 
 The guide follows the grant management cycle, providing information to guide decisions at each stage:
 - **Data collecting**: managing data in the application, monitoring and reporting phases.
