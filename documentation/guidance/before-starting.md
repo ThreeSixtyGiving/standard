@@ -26,7 +26,8 @@ These stages apply to all types of funder. However, the approach you take, the s
 </p>
 
 ### Prepare
-- You will decided what file format to publish your grant information and transform it into 360Giving data, using the correct formatting and headings.
+- You will decided what file format to use for publishing your grant information.
+- Using the correct data formatting and headings you will transform your grants data into 360Giving data.
 
 For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it in a spreadsheet file. However, some grants management systems make it possible to build-in some or all of the steps needed to convert the information, so it can be exported directly into the correct 360Giving data format.
 
@@ -90,7 +91,7 @@ Go to the [prepare page](../../guidance/prepare-data) for further details about 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-Access the guide for [community foundations using D2 system](../../guidance/cf-guidance)
+Access the guide for [community foundations using D2 system.](../../guidance/cf-guidance)
 
 ## Key concepts
 
