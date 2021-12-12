@@ -101,7 +101,11 @@ However it is possible to include more complexly structured data if needed. For 
 
 See our guidance for further information about [One to many relationships.](one-to-many-relationships)
 
-### 360Giving Conversion Tool Template
+```eval_rst
+.. _conversion-tool-template:
+```
+
+### Conversion Tool Template
 A 360Giving Conversion Tool is an Excel file designed to make the technical steps of formatting grant information into 360Giving data more straightforward. The tool can be set up to work with the range of data you choose to share with support from the 360Giving Helpdesk. 
 
 Although each tool is tailored to each funders’ data and needs, they are all set up in the same way, with at least three sheets:
