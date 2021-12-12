@@ -58,6 +58,8 @@ You can host the data file anywhere on your site and place a link to it where it
 #### Using the 360Giving logo
 If you would like to use the 360Giving logo on your website, there is a <a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank">special design that publishers can use.</a>
 
+Please do not use the main 360Giving logo without permission.
+
 <img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-white-150x150.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-teal-150x150.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green-150x150.png" alt="360Giving publisher badge - green" width="150" height="150" />
 
 #### Example hosting pages
@@ -99,7 +101,12 @@ In order for data to be included in 360Giving tools, the data needs to meet thes
 - Valid according to the schema used for the 360Giving Data Standard.
 
 **GrantNav** is updated on a daily basis. This means your data will appear there the day after a file is added to the Data Registry.
+
 **360Insights** takes up to 48 hours to update. This means your data will appear there two days after a file is added to the Data Registry.
+
+```eval_rst
+.. _alternative-hosting-options:
+```
 
 ## Alternative hosting options
 It is best practice for organisations to host their own data, so the ownership of the information is clear. This gives you full control over the file so you can make changes and updates whenever you need to. 
@@ -109,7 +116,7 @@ However, for organisations without a website or without capacity to create a pla
 ### Include open licensing information into your 360Giving data file
 If you can upload the 360Giving file into the backend of your website but cannot add the license text to a public page – in the short or longer term – you can include the open license information within the file itself using the Metadata sheet (or Package Schema if you are using JSON file format to publish). 
 
-Please see our [guidance about metadata](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#including-metadata-in-your-360giving-file) for further information.
+Please see our [guidance about metadata](meta-sheet) for further information.
 
 ### Hosting your data using cloud storage
 Below is a step by step guide to using two file sharing services to host 360Giving data; Google Drive and Dropbox. 
@@ -123,37 +130,47 @@ To share a 360Giving data file using Google Drive, it must first be converted to
 
 2\. Import your 360Giving Excel or CSV file to the Google Sheets (select File > Import > Upload, and select the file from your computer or drag-and-drop). 
 
+
 ![Select import into Google sheets screenshot](../../assets/Google_sheets_Select_import_screenshot.png)
+
 
 3\. If you are using an **Excel file** choose ‘Replace Spreadsheet’ and click Import data. 
 
+
 ![Importing Excel file into Google sheets screenshot](../../assets/Google_sheets_Importing_XLSX_file_screenshot.PNG)
+
 
 4\. If you are using a **CSV file** choose ‘Replace Spreadsheet’ as your import option. Choose Separator type as ‘Detect automatically’ and answer ‘Yes’ to Convert text to numbers and dates and click Import data. 
 
+
 ![Importing CSV file into Google sheets screenshot](../../assets/Google_sheets_Importing_CSV_file_screenshot.PNG)
+
 
 5\. If included in your data check the **Recipient Org:Charity Number** and **Recipient Org:Company Number** columns. Google Sheets will sometimes interpret these columns incorrectly and place decimal points into them. There is a simple fix by selecting the whole column (click the column letter) and then using the menu to select Format > Number > Plaintext. 
 
+
 ![Updating number formatting screenshot](../../assets/Google_sheets_Updating_number_format_to_text.png)
+
 
 6\. You can rename the file with your prefered title with File > Rename. 
 
 7\. Share your file so that it is publically accessible to anyone with the link (select Share and select Get Shareable Link). Select the Link Sharing option ‘On - anyone with the link can view’. 
 
+
 ![Sharing settings for Google sheets screenshot](../../assets/Google_sheets_sharing_file_screenshot.PNG)
+
 
 8\. Copy this link, which will resemble the following example: 
 
-https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5dLA/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5dLA/**edit?usp=sharing**
 
 9\. Change the end of the link to **export?format=xlsx** so that it resembles the following: 
 
-https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5dLA/export?format=xlsx
+https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5dLA/**export?format=xlsx**
 
-10\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool<a/>
+10\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
   
-11\. Submit the link to 360Giving Helpdesk via <support@threesixtygiving.org> to be added to the Data Registry. 
+11\. Contact 360Giving Helpdesk via <support@threesixtygiving.org> to get the link added to the Data Registry. 
 
 It is best practice to keep your published data in this single Google Sheets document. If another Google Sheets document is created, the link will be different and therefore need to be changed in the 360Giving Data Registry. To replace a current Google Sheets document with an updated Excel or CSV file of 360Giving formatted grants data follow Steps 2 and 3 or 4, above. This imports a new Excel or CSV file and replaces the data currently there. 
 
@@ -167,12 +184,14 @@ The process of sharing 360Giving data files through Dropbox is straightforward.
 2\. Share the file by creating a shared link for view-only access (anyone with the link can view the file, but can’t alter it).
   
 3\. Copy this link. It will resemble the following example: 
+    
 https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?dl=0 
   
-4\. Change the ending of this from ‘dl=0’ to ‘dl=1’, eg: 
+4\. Change the ending of this from ‘dl=0’ to ‘dl=1’, eg:
+    
 https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?dl=1 
   
-5\. Copy this newly-formatted link and test that your data is still valid using the 360Giving Data Quality Tool: https://dataquality.threesixtygiving.org/
+5\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
   
 6\. Submit the link to 360Giving Helpdesk via <support@threesixtygiving.org> to be added to the Data Registry. 
 
@@ -183,6 +202,7 @@ Be aware that this link can easily be changed (by being deleted and re-created) 
 
 ### Publishing in single or multiple files
 Some organisations publish all their data in a single file while others split their grants data into separate files by year or grant programme.
+    
 Your choice might be influenced by a range of factors:
 - If you will be making regular updates it might be easier to add data into a single file with all your grants.
 - If you make updates on an annual basis you might prefer to create a new file for each year. However, be aware of the possibility of the same grant appearing in two different files.
@@ -192,7 +212,8 @@ Your choice might be influenced by a range of factors:
 If you split your grant data into multiple files, you will need to contact 360Giving to register each file as it is published. See the guidance on registering your file with 360Giving for more details.
 
 ### Tips for naming your 360Giving data file
-As well as deciding where to host your file, you should also give some thought to the file name. 
+As well as deciding where to host your file, you should also give some thought to the file name.
+    
 Examples of good practice:
 - Include your organisation name in your file names to make it easier for users who download the file to know who published the data.
 - If you split your grant files by programme or year you can include this in the file name, however make sure this doesn’t make the title too long.
@@ -202,10 +223,10 @@ Examples of good practice:
 ### Maintaining a consistent link for your 360Giving data file
 To maintain a consistent link for your 360Giving data you need to upload your file into the same folder within your website content management systems and use a generic name for your file. The name of the file should not change, even as the contents change.
  
-For example, your  file link may look like this: 
+For example, your file link may look like this: 
 https://www.examplefoundation.org.uk/uploads/2020/11/Example_Foundation_360Giving_data_final_2021-01-01.xlsx 
  
-However, aim to have your file in a specific folder with a generic name like this: 
+However, it is better to aim to have your file in a specific folder with a generic name, for example: 
 https://www.examplefoundation.org.uk/uploads/Example_Foundation_360Giving_data.xlsx
  
 Some websites automatically assign a new folder position to files each time they are uploaded which makes it difficult to maintain a fixed position for the file.
