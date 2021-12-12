@@ -8,7 +8,7 @@
     <a href="../../guidance/prepare-data" class="button button--teal">Previous</a> <a href="../../guidance/data-quality/" class="button button--teal">Next</a>
 </p>
 
-## Introduction
+## Overview
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
 Community foundations participating in a pilot were consulted to agree a field specification for the 360Giving data file and a data extract tool was developed for use by any community foundation that wishes to share open grants data.
