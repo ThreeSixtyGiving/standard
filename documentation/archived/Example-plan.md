@@ -4,11 +4,20 @@
 
 Using hmtl
 
-<img src="<../../assets/360registry-color.png>" style="width: 200px" alt="360Giving Data Registry logo"/>
+<img src="<../../assets/360registry-color.png>" style="width: 200px" alt="360Giving Data Registry logo" />
 
 using markdown
 
 ![Data Registry logo](../../assets/360registry-color.png)
+
+Working examples with single publisher badge
+
+<img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" />
+
+publisher badges
+
+<img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-white-150x150.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-teal-150x150.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green-150x150.png" alt="360Giving publisher badge - green" width="150" height="150" />
+
 
 ## Experimenting with links
 This is a link between H2 headings
