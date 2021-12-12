@@ -157,7 +157,7 @@ The metadata fields in the 360Giving Data Standard allow for the publication of 
 
 See our [guidance on metadata](meta-sheet) for further details.
 
-For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](giving-json-schemas) for further details.
+For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](360giving-json-schemas) for further details.
 
 ```eval_rst
 .. _converting-postcodes-into-geocodes-to-anonymise-address-information:
