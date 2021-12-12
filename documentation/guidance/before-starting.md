@@ -91,7 +91,7 @@ Go to the [prepare page](../../guidance/prepare-data) for further details about 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-Access the guide for [community foundations using D2 system.](../../guidance/cf-guidance)
+Read the guide for [community foundations using D2 system.](../../guidance/cf-guidance)
 
 ## Key concepts
 
