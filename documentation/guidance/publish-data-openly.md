@@ -23,7 +23,7 @@ To this end, our default recommendation is the Creative Commons Attribution 4.0 
 Find out more about the <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 license.</a> 
 
 #### Open license for the public sector
-If you are a UK public sector organisation, you should use the Open Government License. This is the UK government’s open data license which public sector bodies are encouraged to use by the (<a href="https://ico.org.uk/for-organisations/guide-to-rpsi/" target="_blank">Re-use of Public Sector Information Regulations 2015 (RPSI.)</a>
+If you are a UK public sector organisation, you should use the Open Government License. This is the UK government’s open data license which public sector bodies are encouraged to use by the <a href="https://ico.org.uk/for-organisations/guide-to-rpsi/" target="_blank">Re-use of Public Sector Information Regulations 2015 (RPSI).</a>
 
 Find out more about the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">Open Government License 3.0.</a>
 
