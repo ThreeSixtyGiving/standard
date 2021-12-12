@@ -64,7 +64,7 @@ Some publishers avoid the possibility of publishing home address data by sharing
 
 This option has been used by funders who frequently fund smaller or informal groups where there is a high likelihood of home addresses appearing in their data. This approach also suits funders who award large volumes of grants where distinguishing which recipients use home addresses would be challenging or time-consuming.
 
-For further information see our [guidance about how to convert postcodes into geocodes.](postcodes-to-geocodes)
+For further information see our [guidance about how to convert postcodes into geocodes.](converting-postcodes-into-geocodes-to-anonymise-address-information)
 
 ## Responsible data
 There can be cases where grant data is sensitive for reasons other than privacy. For example, the address of a women’s refuge might be inappropriate to include in data about a grant to that organisation.
