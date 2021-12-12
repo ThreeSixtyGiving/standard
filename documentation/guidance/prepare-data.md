@@ -71,7 +71,7 @@ It can also be possible to build-in 360Giving publishing into other types of con
 ## Options for publishing using a spreadsheet
 - Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](grants-sheet) 
 - Use the [‘360Giving Spreadsheet Template’](spreadsheet-template) and adapt this to your needs.
-- Configure and use a 360Giving Data Conversion Tool Template, a method used by a wide range of funders.
+- Configure and use a [Conversion Tool Template](conversion-tool-template), a method used by many funders using a wide range of systems.
 
 ### Using the 360Giving Spreadsheet Template
 This multi-sheet spreadsheet template consists of all the fields in the 360Giving Data Standard. 
