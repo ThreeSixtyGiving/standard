@@ -19,7 +19,7 @@ For many publishers preparing data is a manual process which involves exporting 
 ## Register with 360Giving Helpdesk
 Once you have decided to publish your grants data, please let us know by emailing the 360Giving Helpdesk via <support@threesixtygiving.org>. 
 
-You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant Identifiers.](grant-identifier)
+You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant identifiers.](grant-identifier)
 
 ## Choosing your file format
 There are two file formats available for publishing 360Giving data, spreadsheets and JSON.
@@ -32,7 +32,7 @@ You do not need specialist technical knowledge or specialist software to use spr
 ### JSON format
 JSON format is used for exporting the data directly from a grants management system or database, using the 360Giving JSON schemas. Some specialist technical knowledge is needed to use JSON to publish 360Giving data.
 
-Check the [technical reference](../../technical/reference) for further details and look at examples of JSON files available via the 360Giving Data Registry. Please note that using JSON format involves publishing the data in a JSON file; there is no API. 
+Check the [technical reference](360giving-json-schemas) for further details and look at examples of JSON files available via the 360Giving Data Registry. Please note that using JSON format involves publishing the data in a JSON file; there is no API. 
 
 If you decide to use the JSON file format to publish your data you will likely need support from a developer to set this up. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss your next steps for using JSON as your publishing format. 
 
@@ -69,8 +69,8 @@ It can also be possible to build-in 360Giving publishing into other types of con
 ```
 
 ## Options for publishing using a spreadsheet
-- Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](../../technical/reference) 
-- Use the ‘360Giving Spreadsheet Template’ and adapt this to your needs.
+- Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](grants-sheet) 
+- Use the [‘360Giving Spreadsheet Template’](spreadsheet-template) and adapt this to your needs.
 - Configure and use a 360Giving Data Conversion Tool Template, a method used by a wide range of funders.
 
 ### Using the 360Giving Spreadsheet Template
@@ -78,7 +78,7 @@ This multi-sheet spreadsheet template consists of all the fields in the 360Givin
 
 There is a main ‘grants’ sheet which includes the 10 core fields and other common data fields. Additional sheets allow for the sharing of further information. 
 
-You can download the 360Giving Spreadsheet Template [here.](spreadsheet-format)
+Download the [360Giving Spreadsheet Template.](spreadsheet-template)
 
 #### Making changes to the 360Giving Spreadsheet Template
 You can adapt the template to suit your needs and make changes to:
@@ -135,7 +135,7 @@ Contact the 360Giving Helpdesk via <support@threesixtygiving.org> to discuss you
 ### Guidance for community foundations
 If you are a community foundation using the Digits2 grants management system in Salesforce, please refer to our special guidance about the built-in 360Giving data extract tool.
 
-The guide includes a video walk-through and step-by-step instructions on how to export 360Giving-formatted data from your Digits2 system.
+The guide includes a video walk-through and step-by-step instructions on how to export 360Giving data from your Digits2 system.
 
 <p>
     <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/cf-guidance/" class="button button--teal">Read more</a>
