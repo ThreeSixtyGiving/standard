@@ -1,5 +1,15 @@
 # Example page from David: Plan
 
+## Images
+
+Using hmtl
+
+<img src="<../../assets/360registry-color.png>" style="width: 200px" alt="360Giving Data Registry logo"/>
+
+using markdown
+
+![Data Registry logo](../../assets/360registry-color.png)
+
 ## Experimenting with links
 This is a link between H2 headings
 
