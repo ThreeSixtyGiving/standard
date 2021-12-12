@@ -155,6 +155,10 @@ See our [guidance on metadata](meta-sheet) for further details.
 
 For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](giving-json-schemas) for further details.
 
+```eval_rst
+.. _postcodes-to-geocodes:
+```
+
 ## Converting Postcodes into Geocodes to anonymise address information
 Converting postcode data into geocodes protects the privacy of recipients while allowing you to include useful data that will allow your grants to be geolocated. The practical process may vary depending on the process you use for preparing your 360Giving data and the volume of data.
 
