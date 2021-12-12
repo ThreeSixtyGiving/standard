@@ -33,6 +33,11 @@ This is how to link to a page in a different folder but within the docs site. He
 ### Additional fields
 
 
+2. **JSON**
+
+   Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schemas](360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schemas](360giving-json-schemas).
+
+
 To create the column titles, refer to the [360Giving JSON Schema](#giving-json-schemas) and use the JSON pointer paths as column titles
 
 ```eval_rst
@@ -40,6 +45,13 @@ To create the column titles, refer to the [360Giving JSON Schema](#giving-json-s
 ```
 
 ### 360Giving JSON Schemas
+The 360Giving JSON Schemas are the authoritative source of information about the 360Giving Data Standard, and it should always be possible to transform 360Giving data into structured JSON data according to these schemas.
+
+The <a href="../../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
+
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. This is to ensure that the way the grant data may be consumed remains consistent regardless of whether there are 10 grants or 10,000 grants. The <a href="../../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not a grant). Metadata is declared using the fields in the package schema (except for grants which is a list of grant data).
+
+In general, most publishers will use a subset of the possible features of the 360Giving Data Standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 
 Original row:
