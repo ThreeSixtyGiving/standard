@@ -63,9 +63,13 @@ If you have information that doesn’t fit any of the 360Giving Data Standard fi
 
 A file of 360Giving data can include any number of **non-Standard** fields, however you will need to take care with the titles and make sure the data formatting is consistent.
 
-For guidance on naming your own fields visit the [Additional fields section.](https://standard.threesixtygiving.org/en/new-docs-style/technical/reference/#additional-fields)
+For guidance on naming your own fields visit the [Additional fields section.](additional-fields)
 
-### Decide what kind of grants to include
+```eval_rst
+.. _decide-what-grants-to-include:
+```
+
+### Decide what grants to include
 360Giving is a voluntary initiative and you can decide what information to share in your open grants data, based on what is appropriate to your circumstances. 
 
 The majority of 360Giving publishers data about all their grants, but there are examples of those who share data about certain programmes, or only grants over a certain value.
