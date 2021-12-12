@@ -18,6 +18,13 @@ This is a link to another page in the same folder. Here you go.
 This is how to link to a page in a different folder but within the docs site. Here you go.
 
 
+* [Grants](grant-identifier)
+* [Organisations](organisation-identifier);
+
+```eval_rst
+.. _organisation-identifier:
+```
+
 
 Original row:
 
