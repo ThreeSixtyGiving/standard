@@ -8,7 +8,7 @@ The guidance is divided into three main parts.
 This features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
 
 <p>
-    <a href="../guidance" class="button button--teal">Read more</a>
+    <a href="guidance" class="button button--teal">Read more</a>
 </p>
 
 **Technical information**
