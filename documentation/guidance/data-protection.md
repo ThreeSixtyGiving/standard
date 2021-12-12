@@ -64,7 +64,7 @@ Some publishers avoid the possibility of publishing home address data by sharing
 
 This option has been used by funders who frequently fund smaller or informal groups where there is a high likelihood of home addresses appearing in their data. This approach also suits funders who award large volumes of grants where distinguishing which recipients use home addresses would be challenging or time-consuming.
 
-For further information see our [guidance about how to convert postcodes into geocodes.](https://standard.threesixtygiving.org/en/new-docs-style/prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information)
+For further information see our [guidance about how to convert postcodes into geocodes.](../../prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information)
 
 ## Responsible data
 There can be cases where grant data is sensitive for reasons other than privacy. For example, the address of a women’s refuge might be inappropriate to include in data about a grant to that organisation.
@@ -149,7 +149,7 @@ An example of <a href="https://github.com/opendataservices/opendatapolicy" targe
 Adopting an open data policy for your organisation will help to guide the checks you make before publishing data, and record the range and type of changes that may need to be made to your grant information before sharing it openly.
 
 ### Further information about data protection
-If you want to discuss this data protection guidance and how it relates to your specific circumstances, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
+If you want to discuss this data protection guidance and how it relates to your specific circumstances, please contact 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ### What's next?
 Read our guidance about how to prepare your grants data ready for publishing as 360Giving data.
