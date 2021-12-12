@@ -60,7 +60,7 @@ In general, most publishers will use a subset of the possible features of the 36
 
 Free support is <a href="https://www.threesixtygiving.org/contact/" target="_blank"> available from our support team</a> to help you to publish and use 360Giving data.
 
-Full schema documentation is [available in the Reference section](../../reference).
+Full schema documentation is [available in the Reference section](../technical/reference).
 
 ## An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
