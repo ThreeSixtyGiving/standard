@@ -39,7 +39,7 @@ The Tool makes **Additional checks** which suggest ways to improve the quality o
 #### If your data has red crosses
 When a file has one or more red cross it means there is an issue with the data formatting or scope of information included which must be fixed to make the data ready for publishing.
 
-![Invalid data with error messages from the Data Quality Tool](../../assets/DDT_screenshot_summary_results_broken.PNG)
+![Invalid data with error messages from the Data Quality Tool](../../assets/DQT_screenshot_summary_results_broken.png)
 
 ### About the Additional checks
 These **Additional checks** do not relate to the validity of the data. This means you can move forward with publishing data without addressing all (or any of) the feedback in this section. Some feedback may not be relevant to your particular circumstances and the information you have decided to include in your 360Giving data. 
