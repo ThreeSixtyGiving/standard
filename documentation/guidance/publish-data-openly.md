@@ -9,7 +9,8 @@
       <li>Let 360Giving know about your file so it can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a></li>
        </ol></p></div>
 
-At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is ready to be published. By the end of this stage you will have published your grant data as open data in the 360Giving Data Standard, making it available for anyone to download and use.
+## Overview
+At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
 
 ## How to make your 360Giving data open
 Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit the <a href="https://opendefinition.org" target="_blank">Open Definition website.</a>
