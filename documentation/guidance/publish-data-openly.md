@@ -239,7 +239,7 @@ By default, Wordpress websites organise uploads by year and month but it is poss
  
 Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](alternative-hosting-options) for more details.
  
-Maintaining a consistent link can be a convenient approach to file 360Giving file management however you can always contact 360Giving Helpdesk via <support@threesixtygiving.org> about data updates, and we can check the file and update the Data Registry as needed.
+Maintaining a consistent link can be a convenient way to maintain 360Giving data files which avoids having to contact 360Giving Helpdesk each time you make an update.
 
 ### What's next?
 Read our guidance about making updates to your 360Giving data.
