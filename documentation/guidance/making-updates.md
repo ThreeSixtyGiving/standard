@@ -2,10 +2,10 @@
 <div class="box box--teal">
     <h2 class="box__heading">Key tasks</h2>
     <p><ol>
-    <li>Make a note of your publishing processes as a reminder for next time you need to share your grants data.</li>
-      <li>Decide how frequently to make updates to your 360Giving data to add more grants.</li>
+    <li>Make a note of your publishing processes as a reminder for next time.</li>
+      <li>Decide how frequently to make updates to your 360Giving data.</li>
       <li>Let 360Giving Helpdesk know if you publish new files of 360Giving data.</li>
-      <li>Read the 360Giving Take Down Policy.</a></li>
+      <li>Read the <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy.</a></li>
        </ol></p></div>
 
 ## Overview
@@ -14,7 +14,7 @@ Many organisations choose to update their data annually, some publish every six 
 Making an update to your 360Giving data will normally follow the same process as publishing data for the first time, but it should be quicker the second time around. 
 
 ## Document your publishing process
-It is a good idea to write down your internal process for publishing your grants data in the 360Giving Data Standard. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process when done infrequently.  
+It is a good idea to write down your internal process for publishing your 360Giving grants data. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process when done infrequently.  
 
 These notes will also be valuable if someone new takes responsibility for publishing your 360Giving data. 
 
@@ -35,7 +35,7 @@ Once you have completed the 360Giving publication process for the first time, yo
 ## How to make updates to your data
 When you have more grant data to publish you will follow the same steps you used to prepare your data. 
  
-Once the data is ready and it has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> tests you can either: 
+Once the data is ready and it has passed the [Data Quality Tool](../../guidance/data-quality) checks you can either: 
 - Add the new grant data into the existing file of published data and re-upload the file to your website. If you can keep the file name and the position of the file the same following an update it will mean the link from the Data Registry to your data will stay the same – so your updates will automatically get picked up in our system.
 - Upload a new file alongside your existing file, add a link to the file from your hosting page and let the 360Giving Helpdesk know about the new file.
 
@@ -65,6 +65,7 @@ The name that appears on the 360Giving Data Registry is controlled by 360Giving.
 
 ## Taking down published data
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
+
 An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
 360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
