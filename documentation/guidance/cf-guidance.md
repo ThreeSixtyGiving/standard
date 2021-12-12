@@ -1,5 +1,13 @@
 # Data preparation guide for community foundations
 
+<div class="box box--teal">
+    <h2 class="box__heading">Not using the Digits2 grants management system?</h2>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the main guidance on preparing your data or continue on to our guidance about testing your data quality.</p></div>
+
+<p>
+    <a href="../../guidance/prepare-data" class="button button--teal">Previous</a> <a href="../../guidance/data-quality/" class="button button--teal">Next</a>
+</p>
+
 ## Introduction
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
@@ -9,23 +17,12 @@ This tool means that the technical aspects of preparing your data will be automa
 
 There is specific step-by-step guidance for community foundations using the D2 tool, in addition to the other general guidance for publishers found on this site. The guidance for community foundations can be found below and downloaded in a PDF document.
 
-<div class="box box--teal">
-    <h3 class="box__heading">Not using the Digits2 grants management system?</h3>
-    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the main guidance on preparing your data or continue on to our guidance about testing your data quality.</p></div>
-
-<p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Previous</a> <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-quality/" class="button button--teal">Next</a>
-</p>
-
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
 
 The range of information fields included in the extract file is fixed, however you can control the content of your data by using report filters, for example to decide what time period or grant programmes will be included. 
 
-See the **Prepare section** for further guidance about [deciding the scope of your data.](
-https://standard.threesixtygiving.org/en/new-docs-style/guidance/plan-the-process/#decide-what-kind-of-grants-to-include)
-
-See the guidance on [data protection](https://standard.threesixtygiving.org/en/new-docs-style/guidance/data-protection/) to consider the implications for your organisation of sharing open grants data.
+See the guidance on [deciding the scope of your data](../../plan-the-process/#decide-what-kind-of-grants-to-include) for further details.
 
 ### What to consider if you make grants to individuals
 The D2 360Giving extract tool automatically anonymises the names of individuals who have received grant awards. The beneficiary location for individual grant awards is shared at local District or Ward level.
@@ -33,6 +30,8 @@ The D2 360Giving extract tool automatically anonymises the names of individuals 
 The D2 extract anonymises the names of individuals, however extra care should be taken to check other fields in the grant data, such as **Title**, **Description** and **Recipient Org:Description**, as well as Beneficiary fields, to ensure that this information, on its own or when combined, cannot be used to identify the individual concerned.
 
 If you take further steps to anonymise or remove potentially identifying data make a note of the changes you make, and ensure these checks and steps are taken each time you publish new data. 
+
+See the guidance on [data protection](../../guidance/data-protection/) to consider the implications for your organisation of sharing open grants data.
 
 ### Anonymising donor names in programme titles.
 If programme titles include the names of donors the D2 360Giving extract has been developed to allow the names to be redacted. There is further guidance below about how to set programme names as ‘undisclosed’.
@@ -209,5 +208,4 @@ Once you are happy with your data file and the Data Quality tool shows that the 
 
 All organisations publishing data to the 360Giving Standard host their files on their own website, which means they have control over and are responsible for their data. 
 
-See our guidance on [publishing your data openly]( 
-https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/) for further details.
+See the guidance on [publishing your data openly](../../guidance/publish-data-openly/) for further details.
