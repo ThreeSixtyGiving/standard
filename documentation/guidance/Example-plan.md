@@ -20,7 +20,7 @@ This is how to link to a page in a different folder but within the docs site. He
 
 * [Grants](grant-identifier)
 * [Organisations](organisation-identifier);
-* [Additional fields](additional-fields)
+* [Additional fields](../technical/reference/additional-fields)
 * [What to expect](what-to-expect)
 
 ```eval_rst
@@ -60,13 +60,13 @@ In general, most publishers will use a subset of the possible features of the 36
 
 Free support is <a href="https://www.threesixtygiving.org/contact/" target="_blank"> available from our support team</a> to help you to publish and use 360Giving data.
 
-Full schema documentation is [available in the Reference section](../technical/reference).
+**This is correct** Full schema documentation is [available in the Reference section](../technical/reference).
 
 ## An open standard
 The 360Giving Data Standard is an open standard. You can get involved in shaping the development of the standard through:
 - <a href="https://forum.threesixtygiving.org/" target="_blank">The 360Giving forum</a>: open for general discussions about the standard and proposed updates.
 - <a href="https://github.com/ThreeSixtyGiving/standard/issues" target="_blank">The issue tracker for the standard</a>: for bug reports.You can also contact the 360Giving support team with your questions and suggestions via <support@threesixtygiving.org>
-- The [Governance and Revision Control](../governance) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. 
+- The [Governance and Revision Control](../about/governance) section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation. **this is also correct**
 
 
 Original row:
