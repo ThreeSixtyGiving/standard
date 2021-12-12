@@ -116,6 +116,8 @@ You can also search the data by keyword. For example, this search shows grants a
 
 You can filter your results by grant size, date, location, grant programme, funder and recipient. You can also download the results of any searches or open the results for searches with under 10,000 grants in <a href="https://insights.threesixtygiving.org" target="_blank">360Insights.</a>
 
+![Screenshot showing where to open GrantNav search in 360Insights](../../assets/GrantNav_search_open_in_Insights_screenshot.PNG)
+
 For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">Help section.</a>
 
 #### 360Insights
