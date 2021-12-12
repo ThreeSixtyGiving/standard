@@ -22,7 +22,7 @@ The D2 360Giving data extract tool allows you to publish useful information abou
 
 The range of information fields included in the extract file is fixed, however you can control the content of your data by using report filters, for example to decide what time period or grant programmes will be included. 
 
-See the guidance on [deciding the scope of your data](../../plan-the-process/#decide-what-kind-of-grants-to-include) for further details.
+See the guidance on [deciding the scope of your data](decide-what-grants-to-include) for further details.
 
 ### What to consider if you make grants to individuals
 The D2 360Giving extract tool automatically anonymises the names of individuals who have received grant awards. The beneficiary location for individual grant awards is shared at local District or Ward level.
