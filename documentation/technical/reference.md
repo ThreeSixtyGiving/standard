@@ -25,6 +25,10 @@ You can use the <a href="https://dataquality.threesixtygiving.org/" target="_bla
 
 To produce 360Giving data in a spreadsheet, it is possible to start with an empty spreadsheet and construct the column titles (and any additional sheets), using the information given below. However, for many people, the starting point is the spreadsheet template described below.
 
+```eval_rst
+.. _spreadsheet-template:
+```
+
 ### Spreadsheet template
 
 For convenience we provide a <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred. [Comma-separated value file](/templates-csv) (.csv) versions are also available.
@@ -40,6 +44,10 @@ The 360Giving Spreadsheet template consists of a 'grants' sheet which contains t
 
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schemas](360giving-json-schemas)).
 
+```eval_rst
+.. _meta-sheet:
+```
+
 ### Meta Sheet
 We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
@@ -52,6 +60,10 @@ We also provide a version of the <a href="../../_static/360-giving-schema-titles
 
 ```eval_rst
 .. jsonschema-titles:: ../../schema/360-giving-package-schema.json
+```
+
+```eval_rst
+.. _grants-sheet:
 ```
 
 ### Grants Sheet
