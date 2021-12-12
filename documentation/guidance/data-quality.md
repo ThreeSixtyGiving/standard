@@ -40,6 +40,8 @@ When a file has one or more red cross it means there is an issue with the data f
 
 ![Invalid data with error messages from the Data Quality Tool](../../assets/DQT_screenshot_summary_results_broken.png)
 
+The tool includes explanations of the <a href="https://dataquality.threesixtygiving.org/common_errors" target="_blank">common errors </a> that can cause the data to be invalid.
+
 ### About the Additional checks
 These **Additional checks** do not relate to the validity of the data. This means you can move forward with publishing data without addressing all (or any of) the feedback in this section. Some feedback may not be relevant to your particular circumstances and the information you have decided to include in your 360Giving data. 
 
@@ -54,7 +56,7 @@ Please contact the 360Giving Helpdesk via <support@threesixtygiving.org> if you 
 
 The 360Giving Helpdesk can also look at the data you are preparing to check and provide further feedback prior to publishing your data for the first time.
 
-## Once your data passes the Data Quality Tool checks
+## Once the data passes the checks
 Once your file has all green ticks it means the information is valid 360Giving data.
 
 ![Valid data passing Data Quality Tool checks](../../assets/DQT_screenshot_summary_results_valid.PNG)
