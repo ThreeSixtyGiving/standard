@@ -8,7 +8,6 @@ It will also be useful to:
 ```eval_rst
 .. _what-to-expect:
 ```
-
 ## What to expect
 Guidance for publishers sets out the three key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
 
