@@ -8,10 +8,6 @@
     <a href="../../guidance/prepare-data" class="button button--teal">Previous</a> <a href="../../guidance/data-quality/" class="button button--teal">Next</a>
 </p>
 
-```eval_rst
-.. _introduction:
-```
-
 ## Introduction
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
 
