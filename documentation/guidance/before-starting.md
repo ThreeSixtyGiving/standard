@@ -33,7 +33,7 @@ For many publishers, preparing their data is a manual process that involves expo
 - You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
 
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/" class="button button--teal">Read more</a>
+    <a href="../../guidance/prepare-data" class="button button--teal">Read more</a>
 </p>
 
 ### Publish
@@ -42,7 +42,7 @@ For many publishers, preparing their data is a manual process that involves expo
 - Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
 
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/publish-data-openly/" class="button button--teal">Read more</a>
+    <a href="../../guidance/publish-data-openly" class="button button--teal">Read more</a>
 </p>
 
 ### Updating 360Giving data
@@ -50,7 +50,7 @@ For many publishers, preparing their data is a manual process that involves expo
 - Documenting your publishing process will make it easier to make updates.
 
 <p>
-    <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/making-updates/" class="button button--teal">Read more</a>
+    <a href="../../guidance/making-updates" class="button button--teal">Read more</a>
 </p>
 
 ### 360Giving support is free
@@ -85,12 +85,12 @@ Where and how you collect and store information about your grants has a fundamen
 
 One of the first questions we’ll ask when you contact 360Giving Helpdesk is what grants management systems you use. Whatever the answer, there will be useful learning we can share from our work supporting over 200 other funders to share their grants data.
 
-Go to the [Prepare section](https://standard.threesixtygiving.org/en/new-docs-style/guidance/prepare-data/) for further details about the likely impact your grants management system on your publishing process.
+Go to the [Prepare section](../../guidance/prepare-data) for further details about the likely impact your grants management system on your publishing process.
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-Access the guide for <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/cf-guidance/" target="_blank">community foundations using D2 system.</a>
+Access the guide for <a href="../../guidance/cf-guidance" target="_blank">community foundations using D2 system.</a>
 
 ## Key concepts
 
