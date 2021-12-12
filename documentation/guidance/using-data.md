@@ -25,7 +25,7 @@ We have developed tools to make the data easier for people to explore.
 
 <a href="https://data.threesixtygiving.org/" target="_blank">The Data Registry</a> is the list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
 
-![Data Registry logo](../../assets/360registry-color.png)
+<img src="https://cdn.threesixtygiving.org/components/preview/assets/images/360-logos/registry/360registry-color.svg" alt="360Giving Data Registry logo" width="500" />
 
 ## Support for complex data needs
 <a href="https://www.threesixtygiving.org/data/using-360giving-data/" target="_blank">Our page</a> on using 360Giving data outlines the different ways that developers, researchers and others can access grants data in the 360Giving Data Standard.
