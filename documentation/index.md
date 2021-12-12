@@ -1,11 +1,11 @@
 # About this site
 This site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
 
-The guidance is divided into three main parts.
+The guidance is divided into three main sections.
 
 ### Guidance for publishers
 
-This features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
+This section features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
 
 <p>
     <a href="../../guidance" class="button button--teal">Read more</a>
@@ -13,7 +13,7 @@ This features guidance about preparing and sharing 360Giving data. Here you will
 
 ### Technical information
 
-This features the full technical reference for the 360Giving Data Standard, including templates and detailed field guidance. Here you will find the rules of the Standard, which all 360Giving data must follow in order to be compliant.
+This section features the full technical reference for the 360Giving Data Standard, including templates and detailed field guidance. Here you will find the rules of the Standard, which all 360Giving data must follow in order to be compliant.
 
 <p>
     <a href="../../technical" class="button button--teal">Read more</a>
@@ -21,7 +21,7 @@ This features the full technical reference for the 360Giving Data Standard, incl
 
 ### About the Standard
 
-This features information about governance and change management of the 360Giving Data Standard itself. Here you will also find out how you can contribute to the maintenance and development of the Standard.
+This section features information about governance and change management of the 360Giving Data Standard itself. Here you will also find out how you can contribute to the maintenance and development of the Standard.
 
 <p>
     <a href="../../about" class="button button--teal">Read more</a>
