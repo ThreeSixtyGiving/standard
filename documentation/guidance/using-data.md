@@ -11,14 +11,14 @@ We have developed tools to make the data easier for people to explore.
 
 <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
 
-![GrantNav logo](../../assets/360grantnav-color.png)
+<img src="https://cdn.threesixtygiving.org/components/preview/assets/images/360-logos/grantnav/360grantnav-color.svg" alt="GrantNav logo" width="500" /> 
 
 ### 360Insights
 **Understand funders better**
 
 <a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a> is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funders across different areas – from their grant dates to types of recipients.
 
-![360Insights logo](../../assets/360insights-color.png)
+<img src="https://cdn.threesixtygiving.org/components/preview/assets/images/360-logos/insights/360insights-color.svg" alt="360Insights logo" width="500" /> 
 
 ### 360Giving Data Registry
 **See the list of all 360Giving publishers**
