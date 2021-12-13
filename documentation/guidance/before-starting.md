@@ -3,7 +3,7 @@
     <h2 class="box__heading">Who is this guidance for?</h2>
     <p><ol>
       <li>Funders that want to publish 360Giving data for the first time.</li>
-      <li>Existing 360Giving data publishers who need a reminder of the process.</li>
+      <li>Existing 360Giving data publishers who want a reminder of the process.</li>
       <li>People taking over responsibility for preparing 360Giving data in their organisation.</li>
       <li>Anyone who wants to know more about the 360Giving publishing process.</li>
        </ol></p></div>
