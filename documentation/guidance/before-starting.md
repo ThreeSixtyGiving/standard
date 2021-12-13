@@ -4,8 +4,8 @@
     <p><ol>
       <li>Funders that want to publish 360Giving data for the first time.</li>
       <li>Existing 360Giving data publishers who need a reminder of the process.</li>
-      <li>People taking over responsibility for preparing and sharing 360Giving data for their organisation from a colleague.</li>
-      <li>Anyone else who wants to know more about what sharing 360Giving data involves.</li>
+      <li>People taking over responsibility for preparing 360Giving data for their organisation.</li>
+      <li>Anyone who wants to know more about the 360Giving publishing process.</li>
        </ol></p></div>
 
 ## What to expect
