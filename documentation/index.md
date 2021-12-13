@@ -7,33 +7,27 @@ The guidance is divided into three main sections.
 
 This section features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
 
-<p>
-    <a href="../../../guidance" class="button button--teal">Read more</a>
-</p>
+[Read more](../../guidance)
+
 
 ### Technical information
 
 This section features the full technical reference for the 360Giving Data Standard, including templates and detailed field guidance. Here you will find the rules of the Standard, which all 360Giving data must follow in order to be compliant.
 
-<p>
-    <a href="../../../technical" class="button button--teal">Read more</a>
-</p>
+[Read more](../../technical)
+
 
 ### About the Standard
 
 This section features information about governance and change management of the 360Giving Data Standard itself. Here you will also find out how you can contribute to the maintenance and development of the Standard.
 
-<p>
-    <a href="../../../about" class="button button--teal">Read more</a>
-</p>
+[Read more](../../about)
 
 ### Not sure where to start?
 
 Read our overview and find out what to expect when publishing 360Giving data for the first time.
 
-<p>
-    <a href="../../../guidance/before-starting" class="button button--teal">Read more</a>
-</p>
+[Read more](../../guidance/before-starting)
 
 ### Contents
 
