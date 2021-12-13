@@ -31,7 +31,7 @@ To produce 360Giving data in a spreadsheet, it is possible to start with an empt
 
 ### Spreadsheet template
 
-For convenience we provide a <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred. [Comma-separated value file](/templates-csv) (.csv) versions are also available.
+For convenience we provide a <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> that can be used directly, or adapted to your needs. The spreadsheet template provided is Excel Workbook file type (.xlsx) but may be converted into OpenDocument Spreadsheet file type (.ods) for publication and use if preferred. [Comma-separated value file](../../templates-csv) (.csv) versions are also available.
 
 The Excel template is a multi-sheet spreadsheet, and each sheet is described below. The Comma-separated value (CSV) templates correspond to each sheet of the Excel template.
 
