@@ -45,7 +45,7 @@ Here’s an example of a license statement based on our recommended CC BY 4.0 li
 > We believe that with better information, funders can be more effective and strategic decision makers. 360Giving supports funders to publish open data about their grants, and empowers people to use this data to improve charitable giving through a range of free online tools. For more information, visit https://www.threesixtygiving.org
 
 ## How to host your 360Giving data
-The final step is to prepare a place online where your 360Giving data file will be available for download. For most 360Giving publishers this means hosting the data on their website but there are also some alternative hosting methods that can be used.
+The final step is to prepare a place online where your 360Giving data file will be available for download. For most 360Giving publishers this means hosting the data on their website but there are also some [alternative hosting methods](alternative-hosting-options) that can be used.
 
 ### Hosting your 360Giving data on your website
 It is best practise for organisations publishing data to the 360Giving Data Standard to host their files on their own website. This means they have control over, and are responsible for, their own data.
@@ -92,7 +92,7 @@ Once your 360Giving data file is published, the final step is to let us know so 
 
 The 360Giving Data Registry is a list of all the organisations that currently publish their grant data in the 360Giving Data Standard, with direct links to their data sources. Anyone can access the Registry to view, download and use the data.
 
-The files listed on the 360Giving Data Registry are the source for the data in GrantNav, 360Insights and other tools and platforms using the data.
+The files listed on the 360Giving Data Registry are the source for the grant information in GrantNav, 360Insights and other tools and platforms using the data.
 
 ### When your grants will appear in GrantNav and 360Insights
 In order for data to be included in 360Giving tools, the data needs to meet these three criteria:
