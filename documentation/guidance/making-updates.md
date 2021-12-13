@@ -33,7 +33,7 @@ The decision about how frequently to make updates is for each publishing organis
 Once you have completed the 360Giving publication process for the first time, you will have a better understanding of the amount of time and resources needed. This will help you work out how to fit updating your 360Giving data alongside your other grantmaking and publicity cycles.
 
 ## How to make updates to your data
-When you have more grant data to publish you will follow the same steps you used to prepare your data.
+When you have more grant data to publish you will follow the same steps you used to prepare your first batch of data.
 
 The process to make an update of your data might involve running the same report from the earlier grant data but increasing the latest grant date to cover the current period. This report would include information about grants you've already published and newer grants and will reflect any changes that have been made since you last published your data. 
  
