@@ -23,12 +23,6 @@ This section features information about governance and change management of the 
 
 [Read more](about)
 
-### Not sure where to start?
-
-Read our overview and find out what to expect when publishing 360Giving data for the first time.
-
-[Read more](../../guidance/before-starting)
-
 ### Contents
 
 ```eval_rst
