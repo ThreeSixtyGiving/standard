@@ -349,13 +349,13 @@ When exchanging data about a single grant or any number of grants, those grants 
 In general, most publishers will use a subset of the possible features of the 360Giving Data Standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
-<script src="../_static/docson/widget.js"
+<script src="../../_static/docson/widget.js"
 data-schema="../../schema/360-giving-package-schema.json">
 </script>
 </div>
 
 <div id="custom-docson-container">
-  <script src="../_static/docson/widget.js"
+  <script src="../../_static/docson/widget.js"
         data-schema="../../schema/360-giving-schema.json">
   </script>
 </div>
