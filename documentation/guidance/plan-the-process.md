@@ -6,8 +6,6 @@
       <li>Check if there are any Data Protection and Privacy considerations, and review your policies to ensure you can share your data responsibly</li>
        </ol></p></div>
 
-By the end of this stage you will have a plan for the scope of the data you want to publish, taking data protection into consideration.
-
 ## How long the process takes
 The amount of time it takes to prepare and share 360Giving data can vary depending on your circumstances. The key factors that can determine how long the process will take are:
 - The type of grants management system used
@@ -51,7 +49,7 @@ You can be pragmatic when making these choices. If you have this recommended inf
 
 If you don’t collect certain data or the information is not relevant to your grantmaking, these fields can be left out of your 360Giving data. For example not all funders have programmes, and location information may not be relevant to grants awarded for policy or research.
 
-It is possible to start by publishing simpler information and over time, extend the range of fields you include.
+It is possible to start by publishing simpler information and then extend the range of fields you include over time.
 
 #### Further information about core and recommended fields
 You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
@@ -61,7 +59,7 @@ For further information about all the possible fields in the 360Giving Data Stan
 #### Additional fields
 If you have information that doesn’t fit any of the 360Giving Data Standard fields provided, you can include these in additional fields. 
 
-A file of 360Giving data can include any number of **non-Standard** fields, however you will need to take care with the titles and make sure the data formatting is consistent.
+A file of 360Giving data can include any number of these **non-Standard** fields, however you will need to take care with the titles and make sure the data formatting is consistent.
 
 For guidance on naming your own fields visit the [Additional fields section.](additional-fields)
 
@@ -74,7 +72,7 @@ For guidance on naming your own fields visit the [Additional fields section.](ad
 
 The majority of 360Giving publishers data about all their grants, but there are examples of those who share data about certain programmes, or only grants over a certain value.
 
-If your goal is to publish data about all your grants but you find there are practical or policy issues to address first, work out which grant programmes or grants that are unaffected by these barriers, and move forward with publishing these. The learning from this process can then be applied to other areas of your grantmaking once the issues are resolved.
+If your goal is to publish data about all your grants but you find there are practical or policy issues to address first, work out which grant programmes or grants are unaffected by these barriers, and move forward with publishing these. The learning from this process can then be applied to other areas of your grantmaking once the issues are resolved.
 
 #### Decide whether to share historical grant data
 You can publish data going as far back as you want (and have data for) or focus on sharing information about recent grants.
@@ -104,7 +102,7 @@ You may find it helpful to look at the data published by other funders to unders
 #### GrantNav
 <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is our search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
 
-Each GrantNav grant record has its own page with the 10 core fields showing at the top with the other fields that have been shared are displayed in a table below.
+Each GrantNav grant record has its own page with the 10 core fields showing at the top with other fields that have been shared displayed in a table below.
 
 ![GrantNav screenshot showing example grant record](../../assets/Example_GrantNav_grant_record.PNG)
 
@@ -114,7 +112,7 @@ As well as looking at a single grant record view you can view lists:
 
 You can also search the data by keyword. For example, this search shows grants awarded with the <a href="https://grantnav.threesixtygiving.org/search?query=%22village+hall%22&default_field=title_and_description" target="_blank">term ‘village hall’ in the grant title or description.</a>
 
-You can filter your results by grant size, date, location, grant programme, funder and recipient. You can also download the results of any searches or open the results for searches with under 10,000 grants in <a href="https://insights.threesixtygiving.org" target="_blank">360Insights.</a>
+You can filter your results by grant size, date, location, grant programme, funder, funder type and recipient. You can also download the results of any searches or open the results for searches with under 10,000 grants in <a href="https://insights.threesixtygiving.org" target="_blank">360Insights.</a>
 
 ![Screenshot showing where to open GrantNav search in 360Insights](../../assets/GrantNav_search_open_in_Insights_screenshot.PNG)
 
