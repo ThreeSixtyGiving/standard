@@ -350,13 +350,13 @@ In general, most publishers will use a subset of the possible features of the 36
 
 <div style="height:400px; overflow:auto; border:1px solid grey;">
 <script src="../_static/docson/widget.js"
-data-schema="../360-giving-package-schema.json">
+data-schema="../../schema/360-giving-package-schema.json">
 </script>
 </div>
 
 <div id="custom-docson-container">
   <script src="../_static/docson/widget.js"
-        data-schema="../360-giving-schema.json">
+        data-schema="../../schema/360-giving-schema.json">
   </script>
 </div>
 
