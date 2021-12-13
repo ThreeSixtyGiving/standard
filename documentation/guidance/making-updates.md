@@ -16,7 +16,7 @@ Making an update to your 360Giving data will normally follow the same process as
 ## Document your publishing process
 It is a good idea to write down your internal process for publishing your 360Giving grants data. This will make it easier when you need to make updates to your data, particularly if you intend to update on an annual basis as it can be easy to forget the process when done infrequently.  
 
-These notes will also be valuable if someone new takes responsibility for publishing your 360Giving data. 
+These notes will also be valuable if someone takes over responsibility for preparing and publishing your 360Giving data. 
 
 You may want to make a note of:
 - The range of data you are publishing, and where it can be found in your systems or files.
