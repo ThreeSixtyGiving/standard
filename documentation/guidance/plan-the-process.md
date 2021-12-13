@@ -81,8 +81,11 @@ Some funders have published many years of historical data, while others have sta
 
 These questions will help you to decide.
 - How accurate and complete is the data in your systems?
+
 If there are gaps or inaccuracies in your older data, then start from a point where you are confident in the quality of the information.
+
 - Is your past grantmaking similar to your current funding priorities?
+
 If your historical grant awards are not representative of what you fund now, you may prefer to start from the beginning of your most recent grantmaking strategy.
 
 The more grant data you can share, the greater the benefit to users of 360Giving data. However, if you start by publishing recent grants, you can decide to include more historical data at a future point.
