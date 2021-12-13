@@ -18,7 +18,7 @@ In this guidance you will find:
 - Field guidance
 - Guidance about grant and organisation identifiers
 
-If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../../guidance)
+If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../guidance)
 
 ```eval_rst
 .. toctree::
