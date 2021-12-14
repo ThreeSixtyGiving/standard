@@ -7,7 +7,7 @@ sphinxcontrib-opendataservices-jsonschema==0.1.0
 -e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices.git@e1f14278807341baadf213566220f77ab27ef5e0#egg=sphinxcontrib_opendataservices
 alabaster==0.7.10
 appdirs==1.4.3
-Babel==2.3.4
+Babel==2.9.1
 click==6.7
 commonmark==0.9.1
 docutils==0.13.1
