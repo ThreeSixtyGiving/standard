@@ -67,7 +67,7 @@ These are captured by a version number in the format MAJOR.MINOR.PATCH.
 ### Revision process
 To release a new MINOR or MAJOR version upgrade will involve a number of stages outlined in the flowchart below, and described in more depth in the following sections.
 
-![Revision process](../assets/upgrade_process_feb_2016.png)
+![Flow chart showing the revision process](../../assets/upgrade_process_feb_2016.png)
 
 PATCH version upgrades are a smaller process, in recognition of the low impact that PATCH changes can have on the whole standard. A proposal for a PATCH version upgrade is made via the forum, with the Stewardship Comittee and technical team notified via email. If no objections are received within one week, the PATCH change will be considered approved.
 
@@ -134,13 +134,12 @@ Anyone who is a current or potential publisher or user of the 360Giving Standard
 **Consensus**
 “The principle of consensus has its origins in the desire to achieve the general acceptance and application of a Standard within its intended sphere of influence. This entails trying to ensure that the interests of all those likely to be affected by it are taken into account, and that individual concerns are carefully and fairly balanced against the wider public interest.” [5]_
 ```
-
 ----------
 
 ```eval_rst
 **Footnotes**
 
-.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: https://www.threesixtygiving.org/governance-of-the-360giving-standard/.
+.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: https://www.threesixtygiving.org/support/standard/.
 .. [2] See https://open-stand.org/about-us/principles/.
 .. [3] See https://en.wikipedia.org/wiki/Deprecation
 .. [4] See https://dataquality.threesixtygiving.org/.

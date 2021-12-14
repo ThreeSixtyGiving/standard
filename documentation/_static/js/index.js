@@ -16,7 +16,6 @@ document.querySelectorAll('.sidebar-list__trigger').forEach(function (el) {
     el.onclick = function () {
         
         var target = this.parentNode;
-        console.log(target);
         target.classList.toggle('sidebar-list--expanded');
         if (target.hasAttribute('aria-hidden')) {
             target.removeAttribute('aria-hidden')

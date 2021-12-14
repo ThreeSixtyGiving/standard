@@ -48,7 +48,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 
 ## Get your prefix
 
-To register a prefix for your organisation see the <a href="https://www.threesixtygiving.org/support/publish-data" target="_blank"> publisher guidance</a>.
+To register a prefix for your organisation see the [publisher guidance.](../../guidance/prepare-data)
 
 All registered prefixes should start with 360G.
 ```eval_rst
@@ -162,7 +162,7 @@ The following identifier lists are often used in 360Giving publication.
 * Mutual societies - <a href="https://org-id.guide/list/GB-MPR" target="_blank">GB-MPR</a>
 * HMRC-recognised charities - <a href="https://org-id.guide/list/GB-REV" target="_blank">GB-REV</a>
 
-If you have a registered number from some other scheme, including overseas registrars, check the <a href="https://org-id.guide/" target="_blank"> org-id List Locator</a> for a list code prefix to use. If the list code prefix you need is not listed, [contact the support team](https://www.threesixtygiving.org/contact/).
+If you have a registered number from some other scheme, including overseas registrars, check the <a href="https://org-id.guide/" target="_blank"> org-id List Locator</a> for a list code prefix to use. If the list code prefix you need is not listed, contact 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ### Organisations without official registration numbers
 
@@ -177,15 +177,15 @@ If no account record reference is available, or there are security or privacy re
 .. admonition:: Hint:
 
   Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
-  
+
   360Giving publisher prefix: 360G-XYZFunder
-  
+
   Recipient Org:Name: ABC Recipient
-  
+
   Account ID: 123456
 
   If using the account ID: 360G-XYZFunder-123456
-  
+
   If using the recipient name: 360G-XYZFunder-ABC-Recipient
 
 ```

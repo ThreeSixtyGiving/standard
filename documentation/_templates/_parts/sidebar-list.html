@@ -1,20 +1,30 @@
 {% macro tocentry(el, level=0) %}
 
-  {% set nextlevel = level + 1 %}
-  
+  {% set nextlevel = level %}
+
   {% if el.tagname == 'bullet_list' %}
-  <ul class="sidebar-list">
+  {% set nextlevel = level + 1 %}
+  {% if level == 0 %}
+  <ul class="sidebar-blog__content categories-list level-{{ nextlevel }}">
     {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
   </ul>
+  {% else %}
+  <ul class="level-{{ nextlevel }}">
+    {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
+  </ul>
+  {% endif %}
 
   {% elif el.tagname == 'list_item' %}
-  <li class="sidebar-list__item level-{{ level }} {% if el.get('iscurrent') and level == 1 %}sidebar-list--expanded{% endif %}">
-    {% if el|length > 1 %}
-    <span class="sidebar-list__trigger">
-      <i class="material-icons">add</i>
-    </span>
+  <li class="categories-list__item {% if level == 1 %}category{% endif %} level-{{ level }} {% if el.get('iscurrent') %}category--active sidebar-list--expanded{% endif %}">
+    {% if el.children|length > 1 %}
+    <a href="#" class="sidebar-list__trigger" aria-haspopup="true">
+      <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Expand menu">
+      <path d="M13.5715 2L7.73867 7.66956L2 2.0128" stroke="#153634" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+      </svg>
+    </a>
     {% endif %}
-    {% for i in el %}{{ tocentry(i, level) }}{% endfor %}
+    {# {{ el }} #}
+    {% for i in el %}{{ tocentry(i, nextlevel) }}{% endfor %}
   </li>
 
   {% elif el.tagname == 'compact_paragraph' %}
@@ -28,8 +38,9 @@
   {% endif %}
 {% endmacro %}
 
-{% set global_toc = get_toctree(maxdepth=theme_navigation_depth|int,
-                            collapse=theme_collapse_navigation|tobool,
-                            includehidden=theme_includehidden|tobool,
-                            titles_only=theme_titles_only|tobool) %}
+{% set global_toc = get_toctree(maxdepth=3,
+                            collapse=false,
+                            includehidden=false,
+                            titles_only=false) %}
+
 {{ tocentry(global_toc) }}
