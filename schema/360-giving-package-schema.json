@@ -60,7 +60,7 @@
           "properties": {
             "identifier": {
               "title": "Identifier",
-              "description": "The organisation identifier as described by [Organisation Identifier Standard](https://standard.threesixtygiving.org/en/latest/identifiers/#organisation-identifier)",
+              "description": "The organisation identifier as described by [Organisation Identifier Standard](https://standard.threesixtygiving.org/en/latest/technical/identifiers/#organisation-identifier)",
               "type": "string"
             },
             "name": {
