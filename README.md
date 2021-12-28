@@ -1,11 +1,11 @@
-![360Giving Logo](http://openphilanthropy.files.wordpress.com/2014/02/cropped-360givinglogo-2010-size.jpg)
+![360Giving Logo](./360standard-color.png)
 
 360Giving Standard
 ========
 
 360Giving aims to help UK grant makers and philanthropists to publish their grant information online in an easy to use way.  We are motivated by a commitment to the value of open data and strategic funding.
 
-The **360Giving Data Standard** provides a common approach for publishing grant data. 
+The **360Giving Data Standard** provides a common approach for publishing grant data.
 
 For more about the overall project, visit the main [360Giving website](http://threesixtygiving.com/about/).
 
@@ -27,7 +27,7 @@ Documentation can now be edited directly in the [documentation](documentation) d
 
 ### Installation
 
-To build the documentation you will need a virtual environment set up. 
+To build the documentation you will need a virtual environment set up.
 
 ```
 git clone https://github.com/ThreeSixtyGiving/standard.git
