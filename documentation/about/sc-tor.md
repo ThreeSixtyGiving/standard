@@ -1,5 +1,7 @@
 # Terms of Reference of the 360Giving Data Standard Stewardship Committee
 
+Approved by the 360Giving Board of Trustees on 15th July 2021.
+
 ***1\. Role of the Committee***
   
    1.1 The Stewardship Committee of the 360Giving Open Data Standard (the “Standard”) oversees and accounts for the appropriate and timely maintenance of the Standard, including what upgrades are required and the process for making them.
