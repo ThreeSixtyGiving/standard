@@ -57,6 +57,7 @@
 
 - Remain appropriately informed on 360Giving’s open data Standard and operating environment.
 - Endeavour to attend all Committee meetings, ensuring that they are adequately prepared to contribute to the discussion.
+- Exercise independence of judgment, acting legally and in good faith to promote and protect 360Giving’s interests.
 - Contribute to the broader promotion of 360Giving’s objects, aims and reputation through the application of their skills, expertise, knowledge and contacts.
 - Act in line with the role description for a Committee Member and the 360Giving Code of Conduct, policies, and values.
 
