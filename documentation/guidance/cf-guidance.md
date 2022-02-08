@@ -15,7 +15,7 @@ Community foundations participating in a pilot were consulted to agree a field s
 
 This tool built into the D2 system means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
 
-Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site.
+Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site. You can also [download this guidance](../../assets/Data%20preparation%20guide%20for%20community%20foundations%20-%20PDF%20version.pdf) [PDF 384kb].
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
