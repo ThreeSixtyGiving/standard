@@ -54,6 +54,8 @@ It is possible to start by publishing simpler information and then extend the ra
 #### Further information about core and recommended fields
 You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
 
+For further information about Recipient and Beneficiary location fields visit the [360Giving guide to location data.](../../location-guide)
+
 For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](../technical/reference) 
 
 #### Additional fields
@@ -96,6 +98,11 @@ The more grant data you can share, the greater the benefit to users of 360Giving
 
 ## Taking inspiration from others
 You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
+
+#### Data Quality Dashboard
+<a href="https://qualitydashboard.threesixtygiving.org/" target="_blank">The Data Quality Dashboard</a> shows the data quality of 360Giving data as a whole and for each individual publisher. It provides insights into the key features that make the data useful for analysis to help publishers to identify opportunities for their data to be improved.
+
+<img src="https://qualitydashboard.threesixtygiving.org/static/vue-build/img/360dataqualitydashboard-color.5d5dbb39.svg" alt="360Giving Data Quality Dashboard logo" width="500" />
 
 #### Data Registry
 <a href="https://data.threesixtygiving.org/" target="_blank">The Data Registry</a> is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources.
