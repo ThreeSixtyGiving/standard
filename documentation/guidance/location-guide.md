@@ -5,7 +5,7 @@ Location data helps users to understand where organisations are based or activit
 
 Finding out where in the UK grants go is a key question that 360Giving data can be used to answer, but this is only possible when good quality and consistent location data - also known as geodata - is shared. 
 
-Location is not one of the [ten core fields](../../plan-the-process/#decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets.
+Location is not one of the [ten core fields](decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets.
 
 ## The basics
 The 360Giving Data Standard includes a range of ways to describe locations which are split into three types of fields: recipient, funder and beneficiary location. 
@@ -45,7 +45,7 @@ There are fields which allow for the full postal address of an organisation to b
 
 Publishing street addresses is not recommended because it does not add to the usefulness of the data and omitting these details helps to avoid privacy issues if a recipient organisation is registered at a home address or if an organisation is supporting vulnerable people (for example, a refuge).
 
-View the full range of available [recipient address fields](../technical/reference/#recipient-org) here.
+View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org" target="_blank">recipient organiation address fields.</a> 
 
 **Considering privacy**
 In populated areas a postcode is unlikely to identify a specific building, but in rural or less built-up areas, a postcode could be linked to a small number of addresses.
@@ -54,7 +54,7 @@ When sharing data about grants awarded to individuals - or small and informal ch
 
 In these cases, the location information should be converted from postcodes into geocodes prior to publishing the data.
 
-See our guidance on [converting postcodes into geocodes](../guidance/prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information) for further information, and here is our [guidance on data protection](../guidance/data-protection/) for further considerations about privacy and location data.
+See our guidance on [converting postcodes into geocodes](converting-postcodes-into-geocodes-to-anonymise-address-information) for further information, and here is our [guidance on data protection](../guidance/data-protection/) for further considerations about privacy and location data.
 
 ### Recipient location codes
 In cases when it isn’t possible or appropriate to publish postal codes, it is possible to publish recipient location in the form of Office for National Statistics (ONS) geocodes.
@@ -93,7 +93,7 @@ The fields used to share recipient location geocodes should be accompanied by fi
     </table>
 </div>
 
-View the full range of available [recipient location fields](../technical/reference/#recipient-org-location) here.
+View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org-location" target="_blank">recipient location fields.</a> 
 
 ## Beneficiary location
 **Beneficiary location** fields are used to describe where the funded work is being delivered or where the people who will access the service or activity are based. 
@@ -157,7 +157,7 @@ The fields used to share beneficiary location geocodes should be accompanied by 
     </table>
 </div>
                   
-View the full range of available [beneficiary location fields](../technical/reference/#beneficiary-location) here.
+View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#beneficiary-location" target="_blank">beneficiary location fields.</a> 
 
 ### Challenges with beneficiary location data
 Beneficiary location data can provide a more accurate location for the intended impact of a grant, and is therefore more useful when carrying out analysis on where grants go. However it is also a more challenging type of data to collect and publish.
@@ -204,7 +204,7 @@ The advantage of working with picklist values is the data is consistent and it c
 
 When location is collected at a regional or country level, the data is less usable for mapping but will still provide useful information for analysing broad trends and showing when the funded activity is in a different place from the recipient location.
 
-When multiple locations are provided for each grant it is possible to publish these in 360Giving data. See the guidance below [add link] for further information.
+When multiple locations are provided for each grant it is possible to publish these in 360Giving data. See the [guidance below](multiple-locations) for further information.
 
 **Funder or programme area of operation**
                   
@@ -214,15 +214,19 @@ This type of scope data can be applied to all grants that meet the criteria, pro
 
 However the potential for variation within council areas means data provided at this level or higher cannot be meaningfully compared with statistical data such as Indices of Multiple deprivation, which are linked to small area geographies.
 
+```eval_rst
+.. _multiple-locations:
+```
+                    
 ### Sharing data with multiple beneficiary locations
-It is possible to include multiple beneficiary locations for each grant, because the 360Giving Data Standard allows for the creation of [one to many relationships.](../technical/reference/#one-to-many-relationships)
+It is possible to include multiple beneficiary locations for each grant, because the 360Giving Data Standard allows for the creation of [one to many relationships.](one-to-many-relationships)
                   
 Multiple beneficiary location fields could be used to:
 - Provide alternative types of geodata for the same location - for example including the local authority ward and parliamentary constituency area codes, and latitude and longitude coordinates which are all based on the same project postcode area.
 - Describe two or more different locations that are impacted by the funding.
 - Represent a bespoke area that does not correspond to any official ONS geocode by using a group of smaller area geocodes.
 
-For publishers using [JSON format](../technical/reference/#json-format), sharing data with multiple locations for each grant is straightforward as the schema is designed to work in this way.
+For publishers using [JSON format](360giving-json-schemas), sharing data with multiple locations for each grant is straightforward as the schema is designed to work in this way.
 
 For publishers using spreadsheets, there are a couple of ways to structure one-to-many relationships for sharing multiple locations, which we have detailed below.
 
@@ -305,7 +309,7 @@ Using this method, there should be a row for each location, repeating the grant 
 ## Funding organisation location
 In addition to providing location information for recipients and beneficiaries, the location of the funding organisation itself can be included, either using the address or location fields.
 
-View the full range of available [funder address fields](..technical/reference/#funding-org) here or [funding organisation location](../technical/reference/#funding-org-location) fields here.
+View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org" target="_blank">funding organisation address fields</a> or <https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org-location" target="_blank">funding organisation location fields.</a>
 
 ### What's next?
 Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
