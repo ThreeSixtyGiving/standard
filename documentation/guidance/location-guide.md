@@ -45,7 +45,7 @@ There are fields which allow for the full postal address of an organisation to b
 
 Publishing street addresses is not recommended because it does not add to the usefulness of the data and omitting these details helps to avoid privacy issues if a recipient organisation is registered at a home address or if an organisation is supporting vulnerable people (for example, a refuge).
 
-View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org" target="_blank">recipient organiation address fields.</a> 
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org" target="_blank">recipient organiation address fields.</a> 
 
 **Considering privacy**
 
@@ -86,7 +86,7 @@ The fields used to share recipient location geocodes should be accompanied by fi
             </tr>
             <tr>
                 <td class="table__lead-cell" data-header="Field name">Recipient Org:Location:Geographic Code Type</td>
-                <td data-header="Description">The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of <https://github.com/ThreeSixtyGiving/standard/blob/master/codelists/geoCodeType.csv" target="_blank">geographic code types.</a></td>
+                <td data-header="Description">The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of <a href="https://github.com/ThreeSixtyGiving/standard/blob/master/codelists/geoCodeType.csv" target="_blank">geographic code types.</a></td>
                 <td data-header="Example value">NMD</td>
                 </td>
             </tr>
@@ -94,7 +94,7 @@ The fields used to share recipient location geocodes should be accompanied by fi
     </table>
 </div>
 
-View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org-location" target="_blank">recipient location fields.</a> 
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org-location" target="_blank">recipient location fields.</a> 
 
 ## Beneficiary location
 **Beneficiary location** fields are used to describe where the funded work is being delivered or where the people who will access the service or activity are based. 
@@ -150,7 +150,7 @@ The fields used to share beneficiary location geocodes should be accompanied by 
             </tr>
             <tr>
                 <td class="table__lead-cell" data-header="Field name">Beneficiary Location:Geographic Code Type</td>
-                <td data-header="Description">The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of <https://github.com/ThreeSixtyGiving/standard/blob/master/codelists/geoCodeType.csv" target="_blank">geographic code types.</a></td>
+                <td data-header="Description">The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of <a href="https://github.com/ThreeSixtyGiving/standard/blob/master/codelists/geoCodeType.csv" target="_blank">geographic code types.</a></td>
                 <td data-header="Example value">NMD</td>
                 </td>
             </tr>
@@ -158,7 +158,7 @@ The fields used to share beneficiary location geocodes should be accompanied by 
     </table>
 </div>
                   
-View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#beneficiary-location" target="_blank">beneficiary location fields.</a> 
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#beneficiary-location" target="_blank">beneficiary location fields.</a> 
 
 ### Challenges with beneficiary location data
 Beneficiary location data can provide a more accurate location for the intended impact of a grant, and is therefore more useful when carrying out analysis on where grants go. However it is also a more challenging type of data to collect and publish.
@@ -310,7 +310,7 @@ Using this method, there should be a row for each location, repeating the grant 
 ## Funding organisation location
 In addition to providing location information for recipients and beneficiaries, the location of the funding organisation itself can be included, either using the address or location fields.
 
-View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org" target="_blank">funding organisation address fields</a> or <https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org-location" target="_blank">funding organisation location fields.</a>
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org" target="_blank">funding organisation address fields</a> or <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org-location" target="_blank">funding organisation location fields.</a>
 
 ### What's next?
 Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
