@@ -48,6 +48,7 @@ Publishing street addresses is not recommended because it does not add to the us
 View the full range of available <https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org" target="_blank">recipient organiation address fields.</a> 
 
 **Considering privacy**
+
 In populated areas a postcode is unlikely to identify a specific building, but in rural or less built-up areas, a postcode could be linked to a small number of addresses.
 
 When sharing data about grants awarded to individuals - or small and informal charities or groups whose address may be a home address - it is not appropriate to share any address or postcode data directly.
