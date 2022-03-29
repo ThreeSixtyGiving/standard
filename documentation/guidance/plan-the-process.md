@@ -54,7 +54,7 @@ It is possible to start by publishing simpler information and then extend the ra
 #### Further information about core and recommended fields
 You can view and download further details about the core, recommended and optional fields in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
 
-For further information about Recipient and Beneficiary location fields visit the [360Giving guide to location data.](../../location-guide)
+For further information about Recipient and Beneficiary location fields visit the [360Giving guide to location data.](../guidance/location-guide)
 
 For further information about all the possible fields in the 360Giving Data Standard visit the [Technical Reference section.](../technical/reference) 
 
