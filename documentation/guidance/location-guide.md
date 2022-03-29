@@ -5,7 +5,7 @@ Location data helps users to understand where organisations are based or activit
 
 Finding out where in the UK grants go is a key question that 360Giving data can be used to answer, but this is only possible when good quality and consistent location data - also known as geodata - is shared. 
 
-Location is not one of the [ten core fields](decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets.
+Location is not one of the [ten core fields](../guidance/plan-the-process/#decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets.
 
 ## The basics
 The 360Giving Data Standard includes a range of ways to describe locations which are split into three types of fields: recipient, funder and beneficiary location. 
