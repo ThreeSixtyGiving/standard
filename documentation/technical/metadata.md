@@ -38,21 +38,21 @@ Currently it is not possible to include a Meta sheet in CSV files. This is becau
 For publishers sharing data in spreadsheets, the metadata fields are included in a Meta sheet. This means your file would have a sheet for the grant data and one for the metadata.
 
 If you are publishing using Excel or OpenDocument formatted spreadsheet you can add the Meta sheet to your data by following these steps:
-1. Add a new sheet to the spreadsheet and rename it 'Meta'.
+1\. Add a new sheet to the spreadsheet and rename it 'Meta'.
 
 Note that it is important to name the sheet accurately to ensure that the data is recognised by 360Giving tools as metadata.
 
-2. In the first column (usually ‘A’) put the names of the metadata fields you wish to include.
+2\. In the first column (usually ‘A’) put the names of the metadata fields you wish to include.
 
 You can find the names by looking at the [Meta sheet Table.](meta-sheet)
 
-3. In the second column (usually ‘B’) you should fill out the fields with the appropriate values.
+3\. In the second column (usually ‘B’) you should fill out the fields with the appropriate values.
 
 Some fields require different types of values such as URLs or dates. The information about data format is also provided in the [Meta sheet Table.](meta-sheet)
 
-4. Once you have filled out the details, you can check whether the formatting is correct by uploading the file into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a>. Follow the feedback to make any changes needed to the metadata before publishing the file. If the Meta sheet is not named correctly the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> will not recognise the metadata and give error messages.
+4\. Once you have filled out the details, you can check whether the formatting is correct by uploading the file into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a>. Follow the feedback to make any changes needed to the metadata before publishing the file. If the Meta sheet is not named correctly the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> will not recognise the metadata and give error messages.
 
-5. Publish the file how you normally do.
+5\. Publish the file how you normally do.
  
 ### Metadata Templates
 There is a version of the 360Giving Spreadsheet Template which includes the Meta sheet which can be downloaded [here.](meta-sheet)
@@ -125,15 +125,13 @@ This could be contact information, disclaimer text or anything else you want use
 Also be aware to avoid special characters in the field names. See guidance on adding [Additional fields](additional-fields) for further details of what to consider when adding your own fields.
 
 ### Making updates to metadata
-Some 360Giving data files are published and remain unchanged from that date. However many publishers share files that are updated to add new grant data on a regular basis and, in some cases, to make amendments to information that has already been published.
+Some 360Giving data files are published and remain unchanged from that date. However many publishers share files that are updated to add new grant data on a regular basis and, in some cases, to make amendments to information that has already been published. Similarly the metadata originally published in a file may need to be updated if and when the contents of the data changes.
 
-Similarly the metadata originally published in a file may need to be updated if and when the contents of the data changes.
+- The contents of some fields are expected to remain unchanged even when the grant data is updated or changed. These are the publisher details, issue date, file identifier and license.
 
-The contents of some fields are expected to remain unchanged even when the grant data is updated or changed. These are the publisher details, issue date, file identifier and license.
+- The contents of other fields are expected to be more dynamic. The Modified date should be updated each time the file contents are changed, to provide users with an accurate understanding of when changes have happened.
 
-The contents of other fields are expected to be more dynamic. The Modified date should be updated each time the file contents are changed, to provide users with an accurate understanding of when changes have happened.
-
-The title and description of files may change as the contents are updated. If the urls to the file and access page change over time, these fields should also be updated to point to the right locations.
+- The title and description of files may change as the contents are updated. If the urls to the file and access page change over time, these fields should also be updated to point to the right locations.
 
 Maintaining accurate and up-to-date metadata is as important as the accuracy of the 360Giving data itself.
 
