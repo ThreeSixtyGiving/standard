@@ -58,6 +58,8 @@ We also provide a version of the <a href="../../_static/360-giving-schema-titles
 * Links to access and download the file
 * A link for the open license that applies to the file
 
+You can read further guidance about how to include metadata in your data files in the [Metadata guidance](../../technical/metadata).
+
 ```eval_rst
 .. jsonschema-titles:: ../../schema/360-giving-package-schema.json
 ```
@@ -257,10 +259,13 @@ The new row:
 
 In the second row, the fields which were originally populated with information are left blank so as to avoid conflicts, and the additional information is added to the "Amount Disbursed" column. This means the multiple rows method can only be used to add new data, and it is not suitable for amending data that has already been published.
 
-
 ### Field guidance
 
 Field guidance provides further useful information about fields in the 360Giving Data Standard. It provides guidance about the correct data formatting to use and some examples of how to apply the formatting when using spreadsheets.
+
+```eval_rst
+.. _dates-and-times:
+```
 
 #### Dates and times
 
@@ -344,7 +349,7 @@ The 360Giving JSON Schemas are the authoritative source of information about the
 
 The <a href="../../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
 
-When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. This is to ensure that the way the grant data may be consumed remains consistent regardless of whether there are 10 grants or 10,000 grants. The <a href="../../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not a grant). Metadata is declared using the fields in the package schema (except for grants which is a list of grant data).
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. This is to ensure that the way the grant data may be consumed remains consistent regardless of whether there are 10 grants or 10,000 grants. The <a href="../../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not the grants). Metadata is declared using the fields in the package schema (except for "grants" field, which contains a list of grant data).
 
 In general, most publishers will use a subset of the possible features of the 360Giving Data Standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 
