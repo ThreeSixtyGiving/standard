@@ -1,4 +1,4 @@
-# 360Giving guide to metadata
+# Metadata
 The 360Giving Data Standard allows funders to describe information about their grants, and provide information about the related organisations, programmes and activities.
 
 It is also possible to publish 'metadata': which is data about the data itself.
@@ -29,7 +29,7 @@ As the metadata is included in the file itself, it means relevant information is
 Including metadata in the 360Giving Data Standard means we are better able to serve the needs of publishers and data users.
 
 ### Including metadata in JSON files
-For publishers sharing their data in JSON file format, the metadata is declared using the fields of the Package Schema (except for 'grants' field, which contains the list of grant data). See our guidance on the [Package schema](https://standard.threesixtygiving.org/en/reference/#json-format) for further details.
+For publishers sharing their data in JSON file format, the metadata is declared using the fields of the Package Schema (except for 'grants' field, which contains the list of grant data). See our guidance on the [Package schema](360giving-json-schemas) for further details.
 
 ### Publishers using CSV (.csv) files
 Currently it is not possible to include a Meta sheet in CSV files. This is because the file format does not allow for separate sheets within the same file. Please contact 360Giving Helpdesk if you use CSV file format to publish 360Giving data and want to include metadata.
@@ -44,18 +44,18 @@ Note that it is important to name the sheet accurately to ensure that the data i
 
 2. In the first column (usually ‘A’) put the names of the metadata fields you wish to include.
 
-You can find the names by looking at the [Meta sheet Table.](https://standard.threesixtygiving.org/en/reference/#meta-sheet)
+You can find the names by looking at the [Meta sheet Table.](meta-sheet)
 
 3. In the second column (usually ‘B’) you should fill out the fields with the appropriate values.
 
-Some fields require different types of values such as URLs or dates. The information about data format is also provided in the [Meta sheet Table.](https://standard.threesixtygiving.org/en/reference/#meta-sheet)
+Some fields require different types of values such as URLs or dates. The information about data format is also provided in the [Meta sheet Table.](meta-sheet)
 
 4. Once you have filled out the details, you can check whether the formatting is correct by uploading the file into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a>. Follow the feedback to make any changes needed to the metadata before publishing the file. If the Meta sheet is not named correctly the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> will not recognise the metadata and give error messages.
 
 5. Publish the file how you normally do.
  
 ### Metadata Templates
-There is a version of the 360Giving Spreadsheet Template which includes the Meta sheet which can be downloaded [here.](https://standard.threesixtygiving.org/en/reference/#meta-sheet)
+There is a version of the 360Giving Spreadsheet Template which includes the Meta sheet which can be downloaded [here.](meta-sheet)
 
 ## Field guidance
 This guidance provides further information about the fields in Meta sheet and the kind of data that is expected or appropriate for each.
@@ -78,7 +78,7 @@ This is the date the file was first published. This means the date should remain
 
 This is the date when the file was last modified. This means the date should be updated each time the contents of the file are changed. This is important because if a user has several copies of the file, an accurate Modified date will quickly tell them which is the most recent one.
 
-This must be a full date in date-time format. See the [Dates and Times section](https://standard.threesixtygiving.org/en/reference/#dates-and-times) for further guidance on date and date-time formats.
+This must be a full date in date-time format. See the [Dates and Times section](dates-and-times) for further guidance on date and date-time formats.
 
 **Identifier**
 
@@ -86,7 +86,7 @@ This is a unique identifier for the file. This can be a combination of your 360G
 
 **Publisher:Identifier and Publisher:Name**
 
-The Publisher identifier is a globally unique identifier for this organisation. The [Organisation Identifier Standard guidance](https://standard.threesixtygiving.org/en/identifiers/#organisation-identifier) explains how to create this Org ID. 
+The Publisher identifier is a globally unique identifier for this organisation. The [Organisation Identifier Standard guidance](organisation-identifier) explains how to create this Org ID. 
 
 If the publisher is also the funding organisation described in the 360Giving grant data, the Org ID used will be the same.
 
@@ -110,7 +110,7 @@ If it is not possible to know this information before the data is published - or
 
 This is the canonical URI of the license that applies to the data in the file or package. This should be a Public Domain Dedication or <a href="https://opendefinition.org/licenses/" target="_blank">Open Definition Conformant license.</a>
 
-For further details see our guidance about [open licensing.](https://standard.threesixtygiving.org/en/latest/guidance/publish-data-openly)
+For further details see our guidance about [open licensing.](../../guidance/publish-data-openly)
 
 ### How to handle blank fields
 
@@ -122,7 +122,7 @@ In both the 360Giving Data Standard and Meta sheet, it is possible to include ad
 
 This could be contact information, disclaimer text or anything else you want users to know about your data. However these fields will not be recognised by the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> so you will need to ensure that the information provided is formatted correctly.
 
-Also be aware to avoid special characters in the field names. See guidance on adding [Additional fields](https://standard.threesixtygiving.org/en/latest/technical/reference/#additional-fields) for further details of what to consider when adding your own fields.
+Also be aware to avoid special characters in the field names. See guidance on adding [Additional fields](additional-fields) for further details of what to consider when adding your own fields.
 
 ### Making updates to metadata
 Some 360Giving data files are published and remain unchanged from that date. However many publishers share files that are updated to add new grant data on a regular basis and, in some cases, to make amendments to information that has already been published.
@@ -150,4 +150,4 @@ This is a web link pointing to the source of this data, which can be the 360Givi
 
 ### Get more help with Metadata
 
-Please contact 360Giving Helpdesk via <support@threesixtygiving.org> for further guidance on including Metadata in your 360Giving data.
+Please contact 360Giving Helpdesk via <support@threesixtygiving.org> for further guidance about including Metadata in your 360Giving data.
