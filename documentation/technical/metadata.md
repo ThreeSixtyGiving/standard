@@ -117,7 +117,7 @@ For further details see our guidance about [open licensing.](../../guidance/publ
 ```
 
 ### Example Meta sheet
-This table provides example values for each field in the Meta sheet to demonistrate how these can be used.
+This table provides example values for each field in the Meta sheet to demonstrate how these can be used.
 
 <div class="table table--zebra">
     <table>
