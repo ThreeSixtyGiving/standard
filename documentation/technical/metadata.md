@@ -44,7 +44,7 @@ Note that it is important to name the sheet accurately to ensure that the data i
 
 2\. In the first column (usually ‘A’) put the names of the metadata fields you wish to include.
 
-You can find the names by looking at the [Meta sheet Table.](meta-sheet)
+You can find the names by looking at the [Meta sheet Table](meta-sheet) or [Example Meta Sheet below.](example-meta-sheet)
 
 3\. In the second column (usually ‘B’) you should fill out the fields with the appropriate values.
 
@@ -111,6 +111,89 @@ If it is not possible to know this information before the data is published - or
 This is the canonical URI of the license that applies to the data in the file or package. This should be a Public Domain Dedication or <a href="https://opendefinition.org/licenses/" target="_blank">Open Definition Conformant license.</a>
 
 For further details see our guidance about [open licensing.](../../guidance/publish-data-openly)
+
+```eval_rst
+.. _example-meta-sheet:
+```
+
+### Example Meta sheet
+This table provides example values for each field in the Meta sheet to demonistrate how these can be used.
+
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>Field name</th>
+            <th>Example value</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Version</td>
+                <td data-header="Example value">1.1</td>
+                </td>
+            </tr>
+            <tr>
+             <td class="table__lead-cell" data-header="Field name">Title</td>
+                <td data-header="Example value">Example Funder grants awarded 2021-22</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Description</td>
+                <td data-header="Example value">Spreadsheet of all grants awarded from April 2020 to March 2021</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Issued</td>
+                <td data-header="Example value">2021-04-30</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Modifield</td>
+                <td data-header="Example value">2021-04-30T00:00:00Z</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Identifier</td>
+                <td data-header="Example value">360G-ExampleFunder-grants-2021-22</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Publisher:Identifier</td>
+                <td data-header="Example value">GB-CHC-1234567</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Publisher:Name</td>
+                <td data-header="Example value">Example Funder</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Publisher:Website</td>
+                <td data-header="Example value">http://www.example.org</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Publisher:Logo</td>
+                <td data-header="Example value">http://www.example.org/uploads/example-logo.png</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Download URL</td>
+                <td data-header="Example value">http://www.example.org/uploads/grants.xlsx</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">Access URL</td>
+                <td data-header="Example value">http://www.example.org/opendata/</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Field name">License</td>
+                <td data-header="Example value">https://creativecommons.org/licenses/by/4.0/</td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ### How to handle blank fields
 
