@@ -38,6 +38,7 @@ Currently it is not possible to include a Meta sheet in CSV files. This is becau
 For publishers sharing data in spreadsheets, the metadata fields are included in a Meta sheet. This means your file would have a sheet for the grant data and one for the metadata.
 
 If you are publishing using Excel or OpenDocument formatted spreadsheet you can add the Meta sheet to your data by following these steps:
+
 1\. Add a new sheet to the spreadsheet and rename it 'Meta'.
 
 Note that it is important to name the sheet accurately to ensure that the data is recognised by 360Giving tools as metadata.
@@ -197,7 +198,8 @@ This table provides example values for each field in the Meta sheet to demonstra
 
 ### How to handle blank fields
 
-The inclusion of metadata in 360Giving data is recommended but optional, and all of the fields in the Meta sheet themselves are optional. This means if they are not being used they should be either left blank or removed from the Meta sheet. 
+The inclusion of metadata in 360Giving data is recommended but optional, and all of the fields in the Meta sheet themselves are optional. This means if they are not being used they should be either left blank or removed from the Meta sheet.
+
 Only the relevant information using the correct data formatting should be included in Metadata fields. Do not fill blank fields with dashes, N/A or other content as it will cause errors. 
 
 ### How to include additional information in Meta sheet
