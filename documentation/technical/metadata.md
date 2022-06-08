@@ -148,7 +148,7 @@ This table provides example values for each field in the Meta sheet to demonstra
                 </td>
             </tr>
             <tr>
-                <td class="table__lead-cell" data-header="Field name">Modifield</td>
+                <td class="table__lead-cell" data-header="Field name">Modified</td>
                 <td data-header="Example value">2021-04-30T00:00:00Z</td>
                 </td>
             </tr>
