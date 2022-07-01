@@ -66,8 +66,8 @@ Please do not use the main 360Giving logo without permission.
 Here are some examples of what other 360Giving publishers have done.
 
 Linking 360Giving from an existing webpage:
-- <a href="https://abcharitabletrust.org.uk/grantees/grants-awarded" target="_blank">A B Charitable Trust</a> 
-- <a href="https://www.friendsprovidentfoundation.org/grants/our-approach-to-funding/" target="_blank">Friends Provident Foundation</a>
+- <a href="https://www.cfsurrey.org.uk/who-we-support-2/" target="_blank">Community Foundation for Surrey</a> 
+- <a href="https://www.somersetcf.org.uk/open" target="_blank">Somerset Community Foundation</a>
 - <a href="https://www.jlc.london/grants/recent-grants/" target="_blank">John Lyon’s Charity</a>
 - <a href="https://virginmoneyfoundation.org.uk/grants-awarded/" target="_blank">Virgin Money Foundation</a> 
 
@@ -75,7 +75,7 @@ Linking 360Giving data from a dedicated open data page:
 - <a href="http://andrewlloydwebberfoundation.com/360-giving" target="_blank">Andrew Lloyd Webber Foundation</a>
 - <a href="https://www.bbcchildreninneed.co.uk/grants/bbc-children-in-need-360-giving/" target="_blank">BBC Children in Need</a> 
 - <a href="https://www.citybridgetrust.org.uk/360-giving/" target="_blank">City Bridge Trust</a> 
-- <a href="https://tudortrust.org.uk/who-we-are/open-data" target="_blank">Tudor Trust</a> 
+- <a href="https://www.corra.scot/about/open-data" target="_blank">Corra Foundation</a> 
 
 ### Data hosting for public sector organisations
 Some local authorities can have dedicated open data portals for hosting information published by the council or about the local area, which are ideal places to host 360Giving data.
@@ -100,9 +100,7 @@ In order for data to be included in 360Giving tools, the data needs to meet thes
 - Openly licensed;
 - Valid according to the schema used for the 360Giving Data Standard.
 
-**GrantNav** is updated on a daily basis. This means your data will appear there the day after a file is added to the Data Registry.
-
-**360Insights** takes up to 48 hours to update. This means your data will appear there two days after a file is added to the Data Registry.
+**GrantNav** and **360Insights** are updated on a daily basis. This means your data will appear there the day after a file is added to the Data Registry.
 
 ```eval_rst
 .. _alternative-hosting-options:
@@ -116,7 +114,7 @@ However, for organisations without a website or without capacity to create a pla
 ### Include open licensing information into your 360Giving data file
 If you can upload the 360Giving file into the backend of your website but cannot add the license text to a public page – in the short or longer term – you can include the open license information within the file itself using the Metadata sheet (or Package Schema if you are using JSON file format to publish). 
 
-Please see our [guidance about metadata](meta-sheet) for further information.
+Please see our [guidance about metadata](../technical/metadata) for further information.
 
 ### Hosting your data using cloud storage
 Below is a step by step guide to using two file sharing services to host 360Giving data; Google Drive and Dropbox. 
