@@ -1,147 +1,193 @@
 # Governance and Revision Control
 
 ## Introduction
-The 360Giving Standard has many stakeholders: grantmakers (including charitable trusts and foundations, government, non-departmental public bodies, lottery funders); fundraisers; policy makers and researchers; civil society organisations; and oversight authorities (such as the Charity Commission and HMRC). These stakeholders are primarily in the UK, where 360Giving is based and where it has focused its efforts to date. The needs and interests of these stakeholders are varied. As the 360Giving Standard develops over time, with updated versions and new publishers, it is important that a diverse group of stakeholders are engaged in the process.
 
-This document outlines the governance and revision processes for the 360Giving Standard. It was agreed at a Standard Stewardship Committee meeting on Friday 5th April 2019. The Stewardship Committee must be consulted before any changes are made either to this document or to the governance and revision processes for the 360Giving Standard.
+The 360Giving Data Standard was initially developed through an iterative process in 2014, resulting in an initial draft version in February 2015. Over the next three years as organisations started to use the standard, we worked towards a first version of the Standard, addressing some issues identified through its wider adoption. Version 1.0 was released on 1st June 2018.
 
-## Version 1.0 and Beyond
-The 360Giving Standard was initially developed through an iterative process in 2014, resulting in an initial draft version in February 2015. During 2015, several organisations piloted use of the Standard. During 2017, we worked towards a first version of the Standard, version 1.0, focussing on addressing some issues identified through wider adoption of the Standard during 2015 and 2016. Version 1.0 was released on June 1st, 2018.
+The 360Giving Data Standard has many stakeholders: grantmakers (including charitable trusts and foundations, local and central government, non-departmental public bodies, lottery funders); fundraisers; policy makers and researchers; civil society organisations; and oversight authorities (such as the UK charity regulators).
 
-This document outlines the process for managing changes to the 360Giving Standard.
+Our vision for the Standard is that it helps UK funders to share consistent, high-quality data about grants so the sector is able to use this information to support effective decision making. In order to achieve this the Standard needs to be maintained and upgraded to meet the needs of users, and the community will be actively engaged in informing and shaping it.
 
-## Stewardship and Governance
-360Giving was established as an independent non-profit in July 2015, and acts as the lead steward of the 360Giving Standard.
+This document outlines the governance and process for managing changes to the 360Giving Data Standard.
 
-The organisation is led by a Chief Executive Officer (CEO) who is supported by a staff team of two as well as a technical team. The organisation’s activities and governance is overseen by a Board of Directors that includes representatives from across the charitable giving sector.
+## Governance of the Standard
 
-```eval_rst
-The technical team work under contract to 360Giving, providing a help desk service and being responsible for the day-to-day management of the Standard documentation and validation tools. The technical team can be contacted via `support@threesixtygiving.org <mailto:support@threesixtygiving.org>`_.
-```
+### About 360Giving
 
-In the pursuit of openness and community-driven process, subscribers to the [360Giving online discussion forum](https://forum.threesixtygiving.org/c/standard) and those engaging with the [Standard GitHub repository](https://github.com/ThreeSixtyGiving/standard) will be kept informed at all stages about planned revisions to the 360 Standard, and will be offered clear and timely opportunities to input and comment.
+The 360Giving Data Standard is managed and maintained by 360 Giving (Trading as 360Giving), a registered charity (number 1164883) and a registered company (number 09668396).
 
-To ensure the relevance, quality and effective implementation of proposed updates to the Standard, new version releases will be subjected to a process of peer review with invited reviewers from publisher and user communities, and an open review process.
+Our vision is for grantmaking in the UK to become more informed, effective and strategic.
 
-```eval_rst
-A Standard Stewardship Committee, made up of representatives from 360Giving staff and Board members, current and potential publishers, end users of 360 data and the technical team, is responsible for giving final approval to formal upgrades of the Standard and ensuring the processes in this document have been properly carried out. [1]_
-```
+Our aim is for more money to go to where it is needed most to support communities and good causes through a more informed understanding of the grantmaking picture.
 
-### Intellectual property
-The 360Giving Standard is the intellectual property of 360Giving. The schema is provided under a [Creative Commons Attribution 4.0 International License]( https://creativecommons.org/licenses/by/4.0/).
+Our mission is to help UK funders publish their grants data in an open, standardised way, and support people to understand and use this data to improve charitable giving.
+
+The strategy for the Standard is a core part of the 360Giving strategy. The 2022-25 strategy – [Unleashing the Impact of Grants Data](https://www.threesixtygiving.org/about/unleashing/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
+
+During this strategy period, the Standard will remain focused on the needs of UK grantmakers. While international grants can and are published using the Standard, the data and needs of international funders can be better met through [IATI](https://iatistandard.org/en/) and other standards and products.
+
+For further information about 360Giving visit: https://www.threesixtygiving.org/about/
+
+### Governance
+
+360Giving is the steward of the 360Giving Data Standard. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
+
+The 360Giving Board of Trustees are responsible for setting the strategy of the charity and Standard, and both the Board and CEO are supported in the maintenance and development of the Standard by the 360Giving Data Standard Stewardship Committee.
+
+#### The Stewardship Committee
+
+It is the Stewardship Committee’s role to oversee and account for the appropriate and timely maintenance of the Standard, including what upgrades are required and the process for making them.
+
+The Committee meets two to four times a year to discuss the Standard schema, look at how it is being used and consider any proposed changes or upgrades. This is a voluntary committee with representatives from 360Giving staff and Board, grantmakers, users of 360Giving data and open data and standards experts, with an independent Chair.
+
+Secretarial support is provided to the Committee by 360Giving. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of 360Giving and ensuring the governance and revision process has been properly carried out.
+
+For further details see the [current membership of the Stewardship Committee](https://www.threesixtygiving.org/support/standard/) and the [Terms of Reference](https://standard.threesixtygiving.org/en/latest/about/sc-tor/). To contact the Stewardship Committee please email standard@threesixtygiving.org.
+
+#### Guiding principles
+
+Our principles for the 360Giving Data Standard are:
+
+##### 1. Accessible
+It has a low barrier of entry for publishers with a minimum number of required fields to be effective and inclusive to a range of funders. The Standard is described by a [JSON schema](https://json-schema.org/); however, we allow users to share data in spreadsheets and provide tools to convert data between formats to increase adoption and support organisations with a wide range of data maturity.
+
+##### 2. Flexible
+It allows for the publication of non-Standard fields alongside the official fields, so individual funders, or groups of funders, can tailor their data for their specific needs.
+
+##### 3. Extendable
+It can be extended to allow expansion of the information being shared in a consistent way and provide support for collaborations and collective activities.
+
+##### 4. Interoperable
+It uses internationally recognised standards in its data formatting and codelists. As far as is possible it aims to enable links to other standards and registers.
+
+##### 5. Responsive
+It is adaptable, allowing an element of continuous improvement to meet emerging needs.
+
+##### 6. Usable
+The data published using the Standard should be relevant, understandable by others and usable. 
+
+#### Intellectual property
+
+The 360Giving Data Standard is the intellectual property of 360Giving. The schema is provided under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 Contributors to the Standard agree to transfer any copyright in their contributions to 360Giving, in order that it is held in trust as part of the Standard. No content infringing upon third-party Intellectual Property Rights will be included in the Standard.
 
-### Governance principles
-```eval_rst
-We are committed to the `Open Stand principles <https://open-stand.org/about-us/principles/>`_ for standards development. [2]_  The 360Giving Standard has been developed with:
-```
-* **Due process**: Decisions will be made with equity and fairness among participants. Through an open process for submitting issues, extensions and requests for updates, no one party will dominate or guide standard development. All processes will be transparent and opportunities will exist to appeal decisions. Processes for periodic standards review and updating are well defined in this document.
-* **Broad consensus**: The process will allow for all views to be considered and addressed, such that agreement can be found across a range of interests.
-* **Transparency**: We will provide advance public notice of proposed standards development activities, the scope of work to be undertaken and conditions for participation. Easily accessible records of decisions and the materials used in reaching those decisions will be provided. Public comment periods will be provided before final standards approval and adoption.
-* **Balance**: Standard activities will not be exclusively dominated by any particular person, company or interest group.
-* **Openness**: The 360Giving Standard processes are open to all interested and informed parties.
+### Versioning and Upgrade Process
 
-## Versioning and Upgrade Process
-Over time, changes will be needed to the Standard, including addition of new codes and fields, and occasionally involving changes to existing fields and structures.
+To maintain the usefulness of the Standard, upgrades can be made to add new codes and fields, or occasionally make changes to existing fields and structures.
 
-The revision process will ensure:
-* The consequences of any change for different stakeholders are identified and considered;
-It is clear why changes are needed, and that there is broad support for any proposed changes;
-* Changes are easy to identify and are transparent, and publishers, users and intermediaries have clear documentation to allow them to update their data and tools;
-* Changes to the 360Giving schema should be made periodically, with the version number of the standard incremented to indicate that changes have been made, and a change-log maintained.
-* That backwards compatibility will be maintained wherever possible.
+We take proactive approaches to identify opportunities to develop the Standard, as well as providing ways for stakeholders to provide feedback.
 
-### Versions
-Distinct branches of the Standard will be maintained within Github for each version. Branches can be in one of two states:
-* Development – indicated by a -dev suffix (e.g. 1.0-dev). Both schema and documentation on a development branch can be updated and should only be implemented on an experimental basis.
-* Live – with no suffix (e.g. 1.0). Only documentation updates are permitted on a live branch. All documentation changes must be reviewed to ensure they do not make any changes to the meaning of the Standard.
+#### The revision process
 
-[Semantic Versioning](https://semver.org/) practices will be used to distinguish between:
-* MAJOR versions which make backwards-incompatible API changes; and
-* MINOR versions which add functionality in a backwards-compatible manner.
-* PATCH version which make backwards-compatible bug fixes.
+We are committed to the [Open Stand principles](https://open-stand.org/about-us/principles/) of standards development; due process, broad consensus, transparency, balance and openness.
+
+The 360Giving Data Standard revision process will ensure that:
+* The consequences of any change for different stakeholders are identified and considered; it is clear why changes are needed, and that there is broad support from the impacted stakeholders for any proposed changes;
+* Proposed changes are publicised, explained in non-technical terms and made using a transparent process, and all decisions and changes are made available for future reference.
+* Publishers, users and intermediaries are provided with clear documentation about changes to allow them to update their data and tools;
+* Changes to the 360Giving schema are made periodically, with the version number of the standard incremented to indicate that changes have been made;
+* All notable changes are documented by Release via the [Changelog](https://github.com/ThreeSixtyGiving/standard/releases);
+* Backwards compatibility is maintained wherever possible.
+
+#### Identifying issues and proposals for upgrades
+
+Issues and bugs, ideas for new features, and proposals for upgrades to the Standard can be identified in a range of ways.
+
+This includes feedback generated by use of the Standard by publishing organisations and data users, user research and feedback from surveys, through engagement with sector bodies and networks and learning from other open data standards.
+
+Ideas and upgrades can also be proposed by anyone at any point via the [360Giving discussion forum](https://forum.threesixtygiving.org/c/standard/5) as an issue for discussion, or by raising an issue or [pull request](https://help.github.com/articles/about-pull-requests/) on the [Standard GitHub repository](https://github.com/ThreeSixtyGiving/standard) with a clear description of the proposed change.
+
+Issues can also be raised by contacting 360Giving directly at standard@threesixtygiving.org.
+
+#### Involving stakeholders in Standard development
+
+Our stakeholders include the funders who publish using the 360Giving Data Standard, the recipients of grants described by 360Giving data and data users, such as data analysts and developers.
+
+Proposals to upgrade to the Standard can be explored through a variety of methods depending on the impact and nature of the proposed changes.
+
+User engagement in the development of, and consultation on proposals, may involve:
+* Working groups of stakeholders;
+* Surveys, focus groups and individual interviews;
+* Commissioned or in-house research.
+
+Substantial developments, such as adding an Extension focused on specialist areas of funding practice, are likely to be developed in collaboration with networks or groups involving a range of stakeholders, to ensure the right level of engagement, consultation and subject expertise.
+
+#### Prioritisation
+
+The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by [360Giving strategy](https://www.threesixtygiving.org/about/unleashing/) and [values](https://www.threesixtygiving.org/about/our-values/).
+
+#### Versions
+
+The Standard uses Semantic Versioning [^1] to distinguish between:
+
+* MAJOR versions which make backwards-incompatible changes,
+* MINOR versions which add functionality in a backwards-compatible manner, and
+* PATCH versions which make backwards-compatible bug fixes.
 
 These are captured by a version number in the format MAJOR.MINOR.PATCH.
 
-### Revision process
-To release a new MINOR or MAJOR version upgrade will involve a number of stages outlined in the flowchart below, and described in more depth in the following sections.
+If a change is backwards-compatible, this means that any data shared using an earlier version of the Standard will still meet the requirements of the Standard. Tools developed to use an earlier version should also still function as expected.
 
-![Flow chart showing the revision process](../../assets/upgrade_process_feb_2016.png)
+If a change is backwards-incompatible – also known as a ‘breaking change’ – data shared using earlier versions will no longer meet the requirements of the Standard, and tools may stop working as expected.
 
-PATCH version upgrades are a smaller process, in recognition of the low impact that PATCH changes can have on the whole standard. A proposal for a PATCH version upgrade is made via the forum, with the Stewardship Comittee and technical team notified via email. If no objections are received within one week, the PATCH change will be considered approved.
+Not all parts of the Standard are used by all publishers and users of the data, so the impact of a backwards-incompatible change could be focused on a subset of publishers and users who are using those specific parts, but leave others unaffected.
 
-The revision process will follow these general principles:
-* **Publicity**: All stages of the revision process will be announced via the 360Giving online forum. This is the formal channel for notification during the process.
-* **Consensus**: The process should act in the interest of the data standard, with particular consideration given to what the changes will mean for current publishers. All processes should aim towards gaining community consensus for changes. In cases where consensus cannot be reached, the process will be escalated to the CEO of 360Giving and put to a final majority vote by the Stewardship Committee. The 360Giving technical team are responsible for generating key documentation during the process, but should always be guided by community consensus, submitting all decisions for public discussion.
-* **Appeal**: Any party may appeal against decisions made during the process by writing to the Standard Stewardship Committee via the 360Giving discussion forum. The Stewardship Committee has the authority to reject proposed revisions on the Standard in response to appeals.
+##### Examples of version upgrades
 
+###### MAJOR
+In [October 2017, a proposal](https://forum.threesixtygiving.org/t/proposals-for-change-date-formats/46) was made to upgrade the schema, documentation and guidance to ensure Last Modified fields use [date-time formatting](https://standard.threesixtygiving.org/en/latest/technical/reference/#dates-and-times), which includes both a date and time component – YYYY-MM-DDThh:mm:ss. The impact of this change was that Last Modified dates using the date format – YYYY-MM-DD – would no longer meet the requirements of the Standard, making this a backwards-incompatible change. The upgrade was recommended for approval by the Stewardship Committee in March 2018, and the data publishers impacted by the changes were supported to update their data prior to the change being made live, as part of the release of [Version 1.0.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.0.0) in June 2018.
 
-### Proposals
-Changes to the Standard can be proposed by anyone at any point via the 360Giving discussion forum either as issues for discussion, or [pull requests]( https://help.github.com/articles/about-pull-requests/) with a clear description of the proposed change. Contributors are encouraged to raise discussions in order to seek consensus on proposed changes. Changes may be proposed as updated field definitions or codelist entries, or as new features to the Standard.
+###### MINOR
+In [November 2020, a proposal](https://forum.threesixtygiving.org/t/minor-peer-review-of-metadata-update-available-for-comment/375) was made to upgrade the schema and documentation to add fields for publishing [Metadata](https://standard.threesixtygiving.org/en/latest/technical/metadata/) into the 360Giving Package schema. Metadata is data about the data - for example when it was last updated, when it was released for publication, which organisation published it and which version of the 360Giving Data Standard was used, etc.  The impact of this change was that data publishers could start to include authoritative Metadata about their data and organisation in their 360Giving data files. The proposal added new fields but did not change any existing fields or formats, making this a backwards-compatible change which did not affect existing data or publishers. The upgrade was recommended for approval by the Stewardship Committee in January 2021 and the MINOR upgrade was made live and released as [Version 1.1.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.1.0) in April 2021.
 
-## Prioritisation
-The technical team, with reference to community views, identify change proposals and extensions which should be considered for adoption in the next version of the Standard, assigning these to milestones in the issue tracker on GitHub where they are open for discussion.
+###### PATCH
+In [November 2021, a proposal](https://forum.threesixtygiving.org/t/patch-updates-to-360giving-schema-and-package-schema/393) was made to amend the description text in the 360Giving Grants Schema to make it clear that the country code field uses the 2 character ISO-3166-1-alpha-2 codelist. The impact of this change is that data publishers and users were provided with clearer guidance about the requirements of this field. The proposal resolved an issue with the description being ambiguous but it did not add new fields or change any existing fields or data formats, making this a backwards-compatible bug fix. This change, along with a package of other PATCH changes were recommended for approval by the Stewardship Committee in December 2021, and the change was made live and released as [Version 1.1.1](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.1.1) in December 2021.
 
-Periodically, at the start of a revision process a cut-off date for proposals will be announced with at least two weeks’ notice. After that date, a prioritised list of updates is produced. Any new proposed changes received after this period may not be considered until the next prioritisation phase.
+#### Approval of upgrades
 
-### Prioritisation review
-The list is shared on the 360Giving online forum, with at least a two-week window for discussion.
+The Stewardship Committee has oversight of consultation processes to ensure that the needs of a range of stakeholders have been considered and are responsible for recommending upgrades to 360Giving’s CEO and Board for approval.
 
-Based on discussions, a final list is then proposed by the technical team with all the issues that will be taken forward into the rest of the process. A proposal that has made it this far may or may not make it into the final upgrade. As the proposal is worked into final concrete examples and schema changes, further issues may arise that mean the original proposal cannot be implemented.
+Once a change has been identified and developed through user engagement and consultation, a new proposal for a MINOR or MAJOR upgrade will be presented to the Stewardship Committee, at the next available meeting.
 
-## Development and Documents
-The technical team, working with community members, will work on a development branch to prepare updates to the schema, documentation and codelists, according to the prioritised list.
+The committee will be asked to complete a review of the changes, and make a recommendation that a proposal should be accepted; accepted with minor changes; substantially revised or rejected.
 
-This stage is likely to involve broad community engagement and discussion of specific decisions through GitHub issues.
+The proposals, committee recommendations and comments or requests for revisions will be published alongside minutes of Stewardship Committee meetings on the [360Giving forum](https://forum.threesixtygiving.org/c/standard/5).
 
-At the point where all open issues are suitably addressed, the development branch can be submitted for review by the Standard Stewardship Committee.
+#### MAJOR versions and Extensions
 
-## Review by the Stewardship Committee
-The updated schema, documentation along with a change log and narrative description of the changes will be released for review by the Stewardship Committee. The Committee will be asked to complete a full review of the changes, and to submit to 360Giving’s CEO:
-* A judgement on whether the overall upgrade, and/or specific changes should be **accepted, accepted with minor changes, substantially revised** or **rejected**.
-* Comments on each request for revisions or rejection.
+To release a new MAJOR version upgrade or adding an Extension to the Standard, which are developments which can have a significant impact on users of the Standard, in addition to carrying out a process which considers the impact on users and consults with stakeholders as outlined above, the proposals will also be reviewed and approved by the 360Giving Board.
 
-All reviews and the judgement made will be published. Community members may also submit their own reviews of the whole revision, or specific elements. The minimum period for Committee review is one month.
+#### Final review and release
 
-### Revisions
-The 360Giving technical team, with reference to the Standard Stewardship Committee as appropriate, should evaluate reviews and decide whether the whole upgrade, or specific features of it, need to be revised, rejected or postponed to future processes.
+Once a proposal has been recommended by the Stewardship Committee and approval confirmed by 360Giving’s CEO or Board, the changes will be made to a development branch of the Standard and documentation. A development branch represents a package of changes being implemented at the same time and may include changes to the Standard, templates and guidance. This allows for a full review of the changes before final approval is given to make the upgrade to the Standard.
 
-If only minor changes are suggested, then the revised Standard can be submitted back to reviewers for a brief review period of at least two weeks. If major changes are required, then a longer follow up review process of at least one month should be allowed for.
+For MINOR upgrades, the development branch will then be made available for review for a period of at least two weeks. For MAJOR upgrades the review period will be at least one month. 
 
-### Release
-Once all reviewer comments have been addressed to the satisfaction of the reviewer in question, then the updated version of the Standard should be submitted to the Standard Stewardship Committee for final approval, along with a short report of the process.
+Following final approval, the development branch can be set to live.
 
-Following Stewardship Committee approval, the revision branch can be set to live.
+#### PATCH versions
 
-## Deprecation Policy
-```eval_rst
-If a term (a class or property) is scheduled to be renamed or removed from the specification as a result of the revision process, the next release of the specification must deprecate [3]_ the term within the schema, and the following major release must rename or remove the term from the schema, making the term obsolete. Implementations may use deprecated terms, but will receive warnings from the 360Giving Data Quality tool described below. [4]_  Implementations may not use obsolete terms, and will receive errors from the Data Quality tool.
-```
+In recognition of the low impact that PATCH changes can have on the whole Standard, a proposal for a PATCH version upgrade is made via the 360Giving forum, with the Stewardship Committee and technical team notified via email. If no objections are received within one week, the PATCH change will be considered approved.
 
-## Support Policy
-Support will be offered for one prior version of the Standard. Support for any earlier versions than this will be ended when a new version is released. For example, when 1.1 is the latest release, 1.0 will be supported in the Data Quality tool and other relevant tools and platforms managed by 360Giving. When 1.2 is released, support for 1.0 will no longer be guaranteed.
+#### Changelog
 
-Only the most recent PATCH version for a given MAJOR.MINOR version will be supported. For example, once 1.1.4 is released, 1.1.3 will no longer be supported.
+All notable changes are documented by Release via the [Changelog](https://github.com/ThreeSixtyGiving/standard/releases).
 
-Publishers are encouraged to review each new version when released, and to consider how they might adopt new features. Publishers should aim to move to a new major version within 18 months of its release.
+### Deprecation Policy
 
-## Definitions
-**Stakeholder**
-Anyone who is a current or potential publisher or user of the 360Giving Standard can be considered a stakeholder. When engaging with stakeholders, attention will be paid to representation of both publishers and users; representation of public and private sectors and civil society; and broad geographical representation.
+If a term, such as a field title (known as a class or property in JSON schema) is scheduled to be renamed or removed as a result of the revision process, the next release must [deprecate](https://en.wikipedia.org/wiki/Deprecation) the term within the schema. The following MAJOR release must rename or remove the term from the schema, making it  obsolete. Data that is published  may use deprecated terms, but will receive warnings from the [360Giving Data Quality tool](https://dataquality.threesixtygiving.org/). Data that is published may not use obsolete terms, and will receive errors from the Data Quality Tool.
 
-```eval_rst
-**Consensus**
-“The principle of consensus has its origins in the desire to achieve the general acceptance and application of a Standard within its intended sphere of influence. This entails trying to ensure that the interests of all those likely to be affected by it are taken into account, and that individual concerns are carefully and fairly balanced against the wider public interest.” [5]_
-```
-----------
+### Support Policy
 
-```eval_rst
-**Footnotes**
+When a new version upgrade is made to the Standard, support will be offered for one prior version. Support in this context means that data published using this version is recognised as meeting the requirements of the Standard and will be accepted by the 360Giving Data Registry, Data Quality Tool and other tools managed by 360Giving that use 360Giving data. This means that deprecated terms are supported but obsolete terms are not.
 
-.. [1]  For a list of current Stewardship Committee members and their Terms of Reference, visit: https://www.threesixtygiving.org/support/standard/.
-.. [2] See https://open-stand.org/about-us/principles/.
-.. [3] See https://en.wikipedia.org/wiki/Deprecation
-.. [4] See https://dataquality.threesixtygiving.org/.
-.. [5] See Pocket Guide to Standards Development, the British Standards Institution, 2012, p.9: https://www.bsigroup.com/Documents/about-bsi/NSB/BSI-pocket-guide-to-standards-development-UK-EN.pdf.
-```
+Support for any earlier version than this will not be guaranteed when a new version is released.
+
+MAJOR version upgrades are backwards-incompatible and will therefore cause disruption for some publishers and users. MAJOR changes will have a proposed implementation timescale to allow users of the Standard or data to make amendments to systems and data, and will set a deadline for the retirement of the older versions.
+
+As both PATCH and MINOR version upgrades are backwards-compatible, publishers and users will not experience disruption in their use of the Standard, even if they have not started using the features introduced through these types of upgrades. However publishers are encouraged to consider how they might adopt new features as they are introduced.
+
+Publishers and users will be provided with notice of MAJOR upgrades and provided with guidance and support where appropriate to make a transition to using the new version, which they should aim to do within 18 months.
+
+[^1]: Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the [Semantic Versioning](https://semver.org/) website.
