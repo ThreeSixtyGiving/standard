@@ -176,7 +176,7 @@ In recognition of the low impact that PATCH changes can have on the whole Standa
 
 All notable changes are documented by Release via the [Changelog](https://github.com/ThreeSixtyGiving/standard/releases).
 
-## Deprecation and support policies
+## Deprecation and Support policies
 
 ### Deprecation Policy
 
@@ -199,4 +199,4 @@ Publishers and users will be provided with notice of MAJOR upgrades and provided
 ```eval_rst
 **Footnotes**
 
-.. [1] Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the [Semantic Versioning](https://semver.org/) website.
+.. [1] Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the Semantic Versioning website: https://semver.org/
