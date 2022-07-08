@@ -26,7 +26,7 @@ The strategy for the Standard is a core part of the 360Giving strategy. The 2022
 
 During this strategy period, the Standard will remain focused on the needs of UK grantmakers. While international grants can and are published using the Standard, the data and needs of international funders can be better met through [IATI](https://iatistandard.org/en/) and other standards and products.
 
-For further information about 360Giving visit: https://www.threesixtygiving.org/about/
+For further information about 360Giving visit: [https://www.threesixtygiving.org/about/](https://www.threesixtygiving.org/about/)
 
 ### Governance
 
@@ -42,7 +42,7 @@ The Committee meets two to four times a year to discuss the Standard schema, loo
 
 Secretarial support is provided to the Committee by 360Giving. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of 360Giving and ensuring the governance and revision process has been properly carried out.
 
-For further details see the [current membership of the Stewardship Committee](https://www.threesixtygiving.org/support/standard/) and the [Terms of Reference](https://standard.threesixtygiving.org/en/latest/about/sc-tor/). To contact the Stewardship Committee please email standard@threesixtygiving.org.
+For further details see the [current membership of the Stewardship Committee](https://www.threesixtygiving.org/support/standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email standard@threesixtygiving.org.
 
 #### Guiding principles
 
@@ -119,7 +119,7 @@ The issues and proposals raised through all channels will be prioritised by cons
 
 #### Versions
 
-The Standard uses Semantic Versioning [^1] to distinguish between:
+The Standard uses Semantic Versioning [1]_ to distinguish between:
 
 * MAJOR versions which make backwards-incompatible changes,
 * MINOR versions which add functionality in a backwards-compatible manner, and
@@ -136,10 +136,10 @@ Not all parts of the Standard are used by all publishers and users of the data, 
 ##### Examples of version upgrades
 
 ###### MAJOR
-In [October 2017, a proposal](https://forum.threesixtygiving.org/t/proposals-for-change-date-formats/46) was made to upgrade the schema, documentation and guidance to ensure Last Modified fields use [date-time formatting](https://standard.threesixtygiving.org/en/latest/technical/reference/#dates-and-times), which includes both a date and time component – YYYY-MM-DDThh:mm:ss. The impact of this change was that Last Modified dates using the date format – YYYY-MM-DD – would no longer meet the requirements of the Standard, making this a backwards-incompatible change. The upgrade was recommended for approval by the Stewardship Committee in March 2018, and the data publishers impacted by the changes were supported to update their data prior to the change being made live, as part of the release of [Version 1.0.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.0.0) in June 2018.
+In [October 2017, a proposal](https://forum.threesixtygiving.org/t/proposals-for-change-date-formats/46) was made to upgrade the schema, documentation and guidance to ensure Last Modified fields use [date-time formatting](../../technical/reference/#dates-and-times), which includes both a date and time component – YYYY-MM-DDThh:mm:ss. The impact of this change was that Last Modified dates using the date format – YYYY-MM-DD – would no longer meet the requirements of the Standard, making this a backwards-incompatible change. The upgrade was recommended for approval by the Stewardship Committee in March 2018, and the data publishers impacted by the changes were supported to update their data prior to the change being made live, as part of the release of [Version 1.0.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.0.0) in June 2018.
 
 ###### MINOR
-In [November 2020, a proposal](https://forum.threesixtygiving.org/t/minor-peer-review-of-metadata-update-available-for-comment/375) was made to upgrade the schema and documentation to add fields for publishing [Metadata](https://standard.threesixtygiving.org/en/latest/technical/metadata/) into the 360Giving Package schema. Metadata is data about the data - for example when it was last updated, when it was released for publication, which organisation published it and which version of the 360Giving Data Standard was used, etc.  The impact of this change was that data publishers could start to include authoritative Metadata about their data and organisation in their 360Giving data files. The proposal added new fields but did not change any existing fields or formats, making this a backwards-compatible change which did not affect existing data or publishers. The upgrade was recommended for approval by the Stewardship Committee in January 2021 and the MINOR upgrade was made live and released as [Version 1.1.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.1.0) in April 2021.
+In [November 2020, a proposal](https://forum.threesixtygiving.org/t/minor-peer-review-of-metadata-update-available-for-comment/375) was made to upgrade the schema and documentation to add fields for publishing [Metadata](../../technical/metadata) into the 360Giving Package schema. Metadata is data about the data - for example when it was last updated, when it was released for publication, which organisation published it and which version of the 360Giving Data Standard was used, etc.  The impact of this change was that data publishers could start to include authoritative Metadata about their data and organisation in their 360Giving data files. The proposal added new fields but did not change any existing fields or formats, making this a backwards-compatible change which did not affect existing data or publishers. The upgrade was recommended for approval by the Stewardship Committee in January 2021 and the MINOR upgrade was made live and released as [Version 1.1.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.1.0) in April 2021.
 
 ###### PATCH
 In [November 2021, a proposal](https://forum.threesixtygiving.org/t/patch-updates-to-360giving-schema-and-package-schema/393) was made to amend the description text in the 360Giving Grants Schema to make it clear that the country code field uses the 2 character ISO-3166-1-alpha-2 codelist. The impact of this change is that data publishers and users were provided with clearer guidance about the requirements of this field. The proposal resolved an issue with the description being ambiguous but it did not add new fields or change any existing fields or data formats, making this a backwards-compatible bug fix. This change, along with a package of other PATCH changes were recommended for approval by the Stewardship Committee in December 2021, and the change was made live and released as [Version 1.1.1](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.1.1) in December 2021.
@@ -190,4 +190,4 @@ As both PATCH and MINOR version upgrades are backwards-compatible, publishers an
 
 Publishers and users will be provided with notice of MAJOR upgrades and provided with guidance and support where appropriate to make a transition to using the new version, which they should aim to do within 18 months.
 
-[^1]: Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the [Semantic Versioning](https://semver.org/) website.
+.. [1] Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the [Semantic Versioning](https://semver.org/) website.
