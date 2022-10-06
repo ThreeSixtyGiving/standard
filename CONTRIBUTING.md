@@ -49,7 +49,7 @@ If this is amenable to you, feel free to complete it. We will be automatically n
 
 However, we're more than happy to talk, so if you want to get in touch before you sign anything, then please do. 
 
-You can contact us at support@threesixtygiving.org
+You can contact us at labs@threesixtygiving.org
 
 Once we have reviewed and signed a copy of the agreement we will be able accept your contributions.
 
