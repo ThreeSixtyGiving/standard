@@ -29,7 +29,7 @@ These stages apply to all types of funder. However, the approach you take, the s
 </p>
 
 ### Prepare
-- Fill out the Publisher Registration Form to receive your 360Giving Publisher prefix
+- Fill out the Publisher Registration Form to receive your 360Giving Publisher prefix.
 - You will decided what file format to use for publishing your grant information.
 - Using the correct data formatting and headings you will transform your grants data into 360Giving data.
 - You will use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> to check if your data is ready to be published.
