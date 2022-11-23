@@ -1335,15 +1335,8 @@
       "title": "For Regrant Type",
       "description": "A code referring to the type of regranting process that this grant represents. The value for this field should be drawn from the For Regrant Type codelist",
       "type": "string",
-      "enum": [
-        "FRG010",
-	"FRG020",
-	"FRG030",
-	"FRG040",
-	"FRG050",
-	"FRG060",
-	"FRG070"
-      ]
+      "codelist": "regrantType.csv",
+      "openCodelist": false
     }
   }
 }
