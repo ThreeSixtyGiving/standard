@@ -1100,15 +1100,31 @@
       }
     }
   },
-  "required": [
-    "id",
-    "title",
-    "description",
-    "currency",
-    "amountAwarded",
-    "awardDate",
-    "recipientOrganization",
-    "fundingOrganization"
+  "oneOf": [
+    {
+      "required": [
+        "id",
+        "title",
+        "description",
+    	"currency",
+        "amountAwarded",
+        "awardDate",
+        "recipientOrganization",
+        "fundingOrganization"
+      ]
+    },
+    {
+      "required": [
+        "id",
+        "title",
+        "description",
+        "currency",
+        "amountAwarded",
+        "awardDate",
+        "recipientIndividual",
+        "fundingOrganization"
+      ]
+    }
   ],
   "properties": {
     "id": {
@@ -1193,6 +1209,14 @@
       "description": "When did this grant activity actually take place. Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.",
       "weight": 5.041,
       "title": "Actual Dates"
+    },
+    "recipientIndividual": {
+      "items": {
+        "$ref": "#/definitions/Person"
+      },
+      "type": "object",
+      "title": "Recipient Individual",
+      "description": "Details of the recipient of this grant to an individual."
     },
     "recipientOrganization": {
       "items": {
