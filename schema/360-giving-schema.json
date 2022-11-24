@@ -882,6 +882,25 @@
         }
       }
     },
+    "Person": {
+      "type": "object",
+      "required": [
+        "id",
+	"name"
+      ],
+      "properties": {
+        "id": {
+	  "type": "string",
+	  "description": "An identifier which identifies the person in the dataset",
+	  "title": "Identifier"
+	},
+	"name": {
+	  "type": "string",
+	  "description": "The Person's full name or anonymous codename",
+	  "title": "Name"
+	}
+      }
+    },
     "Organization": {
       "type": "object",
       "required": [
