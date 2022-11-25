@@ -1218,6 +1218,35 @@
       "title": "Recipient Individual",
       "description": "Details of the recipient of this grant to an individual."
     },
+    "toIndividualsDetails": {
+      "type": "object",
+      "properties": {
+        "primaryGrantReason": {
+	  "type": "string",
+	  "title": "Individual Grant Primary Reason",
+	  "description": "A code referring to the reason(s) for a grant to an individual. The value for this field should be drawn from the Grant to Individuals Reason codelist",
+	  "codelist": "grantToIndividualsReason.csv",
+	  "openCodelist": false
+	},
+	"secondaryGrantReason": {
+	  "type": "string",
+	  "title": "Individual Grant Secondary Reason",
+	  "description": "A code referring to the reason(s) for a grant to an individual. The value for this field should be drawn from the Grant to Individuals Reason codelist",
+	  "codelist": "grantToIndividualsReason.csv",
+	  "openCodelist": false
+	},
+	"grantPurpose": {
+	  "type": "array",
+	  "title": "Individual Grant Purposes",
+	  "description": "A code referring to the purpose(s) for a grant to an individual. The value(s) for this field should be drawn from the Grant to Individuals Purpose codelist",
+	  "items": {
+	    "type": "string",
+	    "codelist": "grantToIndividualsPurpose.csv",
+	    "openCodelist": false
+	  }
+	}
+      }
+    },
     "recipientOrganization": {
       "items": {
         "$ref": "#/definitions/Organization"
