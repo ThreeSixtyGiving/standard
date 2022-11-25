@@ -1,7 +1,7 @@
 Code,Title,Description,Deprecated
-GTIR010,Financial Hardship,"Low income, debt, poverty"
-GTIR020,Disability,"Physical, mental or learning disability, difficulty or difference"
-GTIR030,Health/Condition,"Limiting health condition(s) or illness(es), substance misuse, of individual or family members"
+GTIR010,Financial Hardship,"Low income, debt, poverty",
+GTIR020,Disability,"Physical, mental or learning disability, difficulty or difference",
+GTIR030,Health/Condition,"Limiting health condition(s) or illness(es), substance misuse, of individual or family members",
 GTIR040,Mental Health,"Mental health condition(s) or illness(es), wellbeing, of individual or family members",
 GTIR050,Family breakup,"Breakdown of family cohesion/stability, estrangement, single parent",
 GTIR060,Violence or abuse,"Domestic violence or abuse, fleeing other violence, neglect",
