@@ -71,6 +71,7 @@ The codes from this codelist can be published in the Currency field, and also ap
 
 To view the full list of codes visit <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.
 
+
 ### Country code
 
 A codelist with values to specify the 2-character ISO Country Code of a location. For example GB is the code for the United Kingdom of Great Britain and Northern Ireland.
@@ -97,21 +98,24 @@ The codes from this codelist can be published in three fields:
 
 The Geocode Type fields are part of objects which are an array. This means that multiple iterations of the field can be included when a publisher has more than one location to share per grant.
 
-```{csv-table}
-:header-rows: 1
-:widths: auto
-:file: ../../codelists/geoCodeType.csv
+```eval_rst
+.. csv-table:: 
+   :file: ../../codelists/geoCodeType.csv
+   :header-rows: 1
+   :widths: auto
 ```
+
 ### For Regrant Type
 
 A codelist with values to specify that a grant is intended for redistribution, broken down into seven types of regrant.
 
 The codes from this codelist can be published in the field **Regrant Type**. The Regrant Type field can only be included once with a single code per grant.
 
-```{csv-table}
-:header-rows: 1
-:widths: auto
-:file: ../../codelists/regrantType.csv
+```eval_rst
+.. csv-table::
+   :file: ../../codelists/regrantType.csv
+   :header-rows: 1
+   :widths: auto
 ```
 ### Individual Grant Purpose
 
@@ -121,10 +125,11 @@ The codes from this codelist can be published in the field **Grant Purpose**.
 
 As the **Grant Purpose** field is an array. This means that multiple iterations of the field can be included when a publisher has more than one code to share per grant.
 
-```{csv-table}
-:header-rows: 1
-:widths: auto
-:file: ../../codelists/grantToIndividualsPurpose.csv
+```eval_rst
+.. csv-table:: 
+   :file: ../../codelists/grantToIndividualsPurpose.csv
+   :header-rows: 1
+   :widths: auto
 ```
 
 ### Individual Grant Reason
@@ -133,10 +138,11 @@ A codelist with values to specify the reason that the grant was awarded to the r
 
 The codes from this codelist can be published in either of two fields, **Primary Grant Reason** and **Secondary Grant Reason**. Each field can only be included once with a single code per grant.
 
-```{csv-table}
-:header-rows: 1
-:widths: auto
-:file: ../../codelists/grantToIndividualsReason.csv
+```eval_rst
+.. csv-table::
+   :file: ../../codelists/grantToIndividualsReason.csv
+   :header-rows: 1
+   :widths: auto
 ```
 
 ## How to use codelists in 360Giving data
