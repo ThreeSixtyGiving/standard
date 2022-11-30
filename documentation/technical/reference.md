@@ -114,7 +114,7 @@ If the recipient is an individual:
 * Recipient Ind:Name
 
 ``` eval_rst
-.. hint::  **Note**
+.. hint::  
   
   The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
 ```
@@ -386,7 +386,7 @@ You must not:
 
 The 360Giving Data Standard is defined by a <a href="https://json-schema.org/" target="_blank"> JSON Schema</a>, which details the entities that can be described using the standard, and the properties it recognises.
 
-At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient) or Individuals (Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
+At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient) or Individuals (Recipient), Locations (Recipient, Beneficiary, Funder), Classifications, Grant Programmes, and Transactions.
 
 
 ```eval_rst

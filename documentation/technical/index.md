@@ -16,7 +16,7 @@ In this guidance you will find:
 - Full schema documentation
 - Spreadsheet templates
 - Field guidance
-- Guidance about grant, organisation and identifiers
+- Guidance about grant, organisation and individual identifiers
 - Guidance about metadata
 - Guidance about codelists
 

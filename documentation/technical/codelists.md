@@ -151,11 +151,11 @@ Only codes from the codelists may be used. Any other code included in the data w
 
 Only one code is allowed per field, and it is not possible to include comma separated lists of codes in a single field. If the field is an array (see [Reference](reference)) then you may use more than one code from the codelist in a spreadsheet by adding columns utilising the [Numbering](reference#numbering) technique, which is used elsewhere for describing multiple occurrences of e.g. Locations.
 
-Codes may not be applicable to all grants. When a grant has no relevant code, the field must be left blank. Do not use filler values such as N/A &emdash; a codelist field must only be populated with valid codes or left blank.
+Codes may not be applicable to all grants. When a grant has no relevant code, the field must be left blank. Do not use filler values such as N/A — a codelist field must only be populated with valid codes or left blank.
 
 ### Adding extra information
 
-The code names can be included in Title or Description text fields to help users of the data.
+The code names can be included in **Title** or **Description** text fields to help users of the data.
 
 Including the code names and descriptions in additional non-Standard fields may also be helpful when preparing the data, and for data users.
 
