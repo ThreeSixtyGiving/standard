@@ -4,7 +4,7 @@
 
 .. admonition:: Why identifiers matter
 
-  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, transactions and so-on.
+  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, individuals, transactions and so-on.
 
   Whilst a human being may be good at recognising that “R S P B”, “Royal Society for the Protection of Birds” and “The RSPB” all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
 
@@ -14,6 +14,7 @@ The 360Giving Data Standard asks you to give identifiers to any of the following
 
 * [Grants](grant-identifier)
 * [Organisations](organisation-identifier);
+* [Individuals](#individual-identifier)
 * Transactions;
 * Classifications;
 * and other unique elements in your data.
@@ -78,15 +79,15 @@ To create your grant identifiers:
   ```eval_rst
   .. admonition:: Hint
 
-  If you do not have a unique grant reference to use, or the ones you have should not be shared in open data due to privacy or security issues, then you will need to create an identifier for each grant.
-
-  If you need to create identifiers you can use sequential numbers. Also including the year in which the grant was awarded helps to group the grants and makes it possible to restart the sequential numbers at the beginning of each year.
+  If you do not have a unique grant reference to use you will need to create identifiers. You can use sequential numbers. Also including the year in which the grant was awarded helps to group the grants and makes it possible to restart the sequential numbers at the beginning of each year.
 
   You can use any reference you choose as long as it is unique within your organisation. The 360Giving prefix will then be added to make the identifier globally unique.
 
 ```
 
+### Considering privacy and security
 
+Grant identifiers taken from internal systems are specific to each grant and can be linked to each recipient. If grant identifiers are used as credentials to give access to grant assessment or reporting systems, or the grant recipient is an individual, it may not be appropriate to include these in open data. If there are privacy or security concerns associated with your existing grant identifiers, you will need to create these instead.
 
 ```eval_rst
 .. _organisation-identifier:
@@ -166,7 +167,7 @@ If you have a registered number from some other scheme, including overseas regis
 
 ### Organisations without official registration numbers
 
-Not all organisations have an official registration number to use, including small unregistered groups and individuals.
+Not all organisations have an official registration number to use, including small unregistered groups and excepted charities.
 
 When there isn’t an official registration number for a recipient then you must provide an internal identifier instead, combining your 360Giving publisher prefix with any internal identifier you have for this organisation. This could be the organisation’s account record reference from your database.
 
@@ -198,3 +199,31 @@ Because 'Company Number' and 'Charity Number' are so important for analysing gra
 
 
 If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above.
+
+## Individual Identifier
+
+In the 360Giving Data Standard, each individual recipient must have a unique identifier. However, unlike Organisation Identifiers, the reference used to identify the individual must not refer to official sources of data about the person for privacy and security reasons.
+
+For example if the National Insurance number of a recipient is known to the funder, this information **MUST never** be published in 360Giving data.
+
+The Recipient Ind:Identifier should be constructed using the 360Giving Publisher prefix starting 360G, followed by a unique reference.
+
+```eval_rst
+.. hint::
+   360Giving publisher prefix: 360G-XYZFunder
+
+   Individual Identifier: 123456
+   
+   Recipient Ind:Identifier = 360G-XYZFunder-123456
+```
+
+### Considering privacy and security
+
+Individual identifiers taken from internal systems are specific to each recipient and could be used to identify that person. When these identifiers are securely held and are only accessible to people who are authorised to access the grant recipient’s personal data, then it can be appropriate to publish these in 360Giving data.
+
+However, if the system identifiers are shared with third parties alongside recipient names or other personal details as part of the grantmaking process - for example with referral agencies, or as part of monitoring and reporting - then these could be used to identify people in your 360Giving data.
+
+If there are any privacy or security concerns associated with your system identifiers, you should create these instead using random or sequential numbers.
+
+For further information about data protection and privacy considerations read our Publishing guide for grants to individuals.
+

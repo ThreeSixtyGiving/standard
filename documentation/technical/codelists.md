@@ -165,18 +165,66 @@ However, be aware that only the codes themselves are validated by 360Giving tool
 
 For Regrant Type
 
-| Identifier          | Description                                                          | Amount Awarded | For Regrant Type |
-|---------------------|----------------------------------------------------------------------|----------------|------------------|
-| 360G-ExampleFdn-001 | Contribution to pooled fund for charities supporting local residents | 50000          | FRG030           |
-| 360G-ExampleFdn-002 | Contribution to salary of benefits adviser                           | 10000          |                  |
-| 360G-ExampleFdn-003 | To be awarded as grants to small arts organisations                  | 25000          | FRG010           |
-| 360G-ExampleFdn-004 | To fund outdoor play equipment for nursery                           | 5000           |                  |
+<div class="table table--zebra">
+  <table>
+    <thead>
+      <th>Identifier</th>
+      <th>Description</th>
+      <th>Amount Awarded</th>
+      <th>For Regrant Type</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>360G-ExampleFdn-001</td>
+	<td>Contribution to pooled fund for charities supporting local residents</td>
+	<td>50000</td>
+	<td>FRG030</td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-002</td>
+	<td>Contribution to salary of benefits adviser</td>
+	<td>10000</td>
+	<td></td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-003</td>
+	<td>To be awarded as grants to small arts organisations</td>
+	<td>25000</td>
+	<td>FRG010</td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-004</td>
+	<td>To fund outdoor play equipment for nursery</td>
+	<td>5000</td>
+	<td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 To Individuals Codelist
 
-| Identifier          | Primary Grant Reason | Secondary Grant Reason | Grant Purpose |
-|---------------------|----------------------|------------------------|---------------|
-| 360G-ExampleFdn-001 | GTIR010              | GTIR030                | GTIP070       |
-| 360G-ExampleFdn-002 | GTIR010              | GTIR100                | GTIP020       |
-
-
+<div class="table table--zebra">
+  <table>
+    <thead>
+      <th>Identifier</th>
+      <th>Primary Grant Reason</th>
+      <th>Secondary Grant Reason</th>
+      <th>Grant Purpose</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>360G-ExampleFdn-001</td>
+	<td>GTIR010</td>
+	<td>GTIR030</td>
+	<td>GTIP070</td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-002</td>
+	<td>GTIR010</td>
+	<td>GTIR100</td>
+	<td>GTIP020</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
