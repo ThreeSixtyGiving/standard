@@ -113,7 +113,11 @@ If the recipient is an individual:
 * Recipient Ind:Identifier
 * Recipient Ind:Name
 
-TODO insert hintbox here
+``` eval_rst
+.. hint::  **Note**
+  
+  The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
+```
 
 Each grant record can have EITHER an organisation OR an individual recipient, not both.
 
