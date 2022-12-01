@@ -78,9 +78,9 @@ A codelist with values to specify the 2-character ISO Country Code of a location
 
 The codes from this codelist can be published in three fields:
 
-* Recipient Org:Location:Geographic Code Type
-* Funding Org:Location:Geographic Code Type 
-* Beneficiary Location:Geographic Code Type
+* Recipient Org:Location:Country Code 
+* Funding Org:Location:Country Code
+* Beneficiary Location:Country Code
 
 The Geocode fields are part of objects which are an array. This means that multiple iterations of the field can be included when a publisher has more than one location to share per grant.
 
