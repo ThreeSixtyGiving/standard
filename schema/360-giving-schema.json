@@ -1212,7 +1212,6 @@
     },
     "recipientIndividual": {
       "$ref": "#/definitions/Person",
-      "type": "object",
       "title": "Recipient Individual",
       "description": "Details of the recipient of this grant to an individual."
     },
