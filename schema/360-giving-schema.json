@@ -1211,15 +1211,14 @@
       "title": "Actual Dates"
     },
     "recipientIndividual": {
-      "items": {
-        "$ref": "#/definitions/Person"
-      },
+      "$ref": "#/definitions/Person",
       "type": "object",
       "title": "Recipient Individual",
       "description": "Details of the recipient of this grant to an individual."
     },
     "toIndividualsDetails": {
       "type": "object",
+      "title": "To Individuals Details",
       "properties": {
         "primaryGrantReason": {
 	  "type": "string",
