@@ -53,9 +53,9 @@ Managed externally
 Managed by 360Giving
 
 * [GeoCode Type](#geocode-type)
-* [For Regrant Type](#for-regrant-type)
-* [Individual Grant Purpose](#individual-grant-purpose)
-* [Individual Grant Reason](#individual-grant-reason)
+* [Regrant Type](#regrant-type)
+* [Grant to Individuals Purpose](#grant-to-individuals-purpose)
+* [Grant to Individuals Reason](#grant-to-individuals-reason)
 
 All the codes used in the Standard are alphanumeric and case sensitive.
 
@@ -105,11 +105,11 @@ The Geocode Type fields are part of objects which are an array. This means that 
    :widths: auto
 ```
 
-### For Regrant Type
+### Regrant Type
 
 A codelist with values to specify that a grant is intended for redistribution, broken down into seven types of regrant.
 
-The codes from this codelist can be published in the field **Regrant Type**. The Regrant Type field can only be included once with a single code per grant.
+The codes from this codelist can be published in the field **For Regrant Type**. The **For Regrant Type field** can only be included once with a single code per grant.
 
 ```eval_rst
 .. csv-table::
@@ -117,13 +117,13 @@ The codes from this codelist can be published in the field **Regrant Type**. The
    :header-rows: 1
    :widths: auto
 ```
-### Individual Grant Purpose
+### Grant to Individuals Purpose
 
 A codelist with values to specify the purpose of the grant, in terms of what the funding will be used for. This codelist is intended for use in grants to individual recipients only.
 
-The codes from this codelist can be published in the field **Grant Purpose**.
+The codes from this codelist can be published in the field **To Individuals Details:Grant Purpose**.
 
-As the **Grant Purpose** field is an array. This means that multiple iterations of the field can be included when a publisher has more than one code to share per grant.
+As the **To Individuals Details:Grant Purpose** field is an array. This means that multiple iterations of the field can be included when a publisher has more than one code to share per grant.
 
 ```eval_rst
 .. csv-table:: 
@@ -132,11 +132,11 @@ As the **Grant Purpose** field is an array. This means that multiple iterations 
    :widths: auto
 ```
 
-### Individual Grant Reason
+### Grant to Individuals Reason
 
 A codelist with values to specify the reason that the grant was awarded to the recipient. This codelist is intended for use in grants to individual recipients only.
 
-The codes from this codelist can be published in either of two fields, **Primary Grant Reason** and **Secondary Grant Reason**. Each field can only be included once with a single code per grant.
+The codes from this codelist can be published in either of two fields, **To Individuals Details:Primary Grant Reason** and **To Individuals Details:Secondary Grant Reason**. Each field can only be included once with a single code per grant.
 
 ```eval_rst
 .. csv-table::
@@ -163,7 +163,7 @@ However, be aware that only the codes themselves are validated by 360Giving tool
 
 #### Examples
 
-For Regrant Type
+Regrant Type
 
 <div class="table table--zebra">
   <table>
@@ -202,15 +202,15 @@ For Regrant Type
   </table>
 </div>
 
-To Individuals Codelist
+Grant To Individuals Codelists
 
 <div class="table table--zebra">
   <table>
     <thead>
       <th>Identifier</th>
-      <th>Primary Grant Reason</th>
-      <th>Secondary Grant Reason</th>
-      <th>Grant Purpose</th>
+      <th>To Individuals Details:Primary Grant Reason</th>
+      <th>To Individuals Details:Secondary Grant Reason</th>
+      <th>To Individuals Details:Grant Purpose</th>
     </thead>
     <tbody>
       <tr>
