@@ -123,9 +123,11 @@ Each grant record can have EITHER an organisation OR an individual recipient, no
 
 If the recipient is an organisation, in addition to the two required fields there is other useful information that can be shared about the organisation, such as charity and company numbers, website address, postcode, description. 
 
-If the recipient is an individual there are no additional fields of information about the individual. However further detail about the grant can be provided using specific codelists for the Grant Purpose and Grant Reason. 
+If the recipient is an individual there are no additional fields of information about the individual. However further detail about the grant can be provided using specific codelists: **Grant to Individuals Purpose** and **Grant to Individuals Reason**. 
 
 For further information read our [Guide to codelists](codelists).
+
+#### Grants Sheet Table
 
 ```eval_rst
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
