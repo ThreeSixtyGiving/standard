@@ -225,5 +225,5 @@ However, if the system identifiers are shared with third parties alongside recip
 
 If there are any privacy or security concerns associated with your system identifiers, you should create these instead using random or sequential numbers.
 
-For further information about data protection and privacy considerations read our Publishing guide for grants to individuals.
+
 

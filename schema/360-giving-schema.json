@@ -1403,7 +1403,7 @@
     },
     "regrantType": {
       "title": "For Regrant Type",
-      "description": "A code referring to the type of regranting process that this grant represents. The value for this field should be drawn from the For Regrant Type codelist",
+      "description": "A code referring to the type of regranting process that this grant represents. The value for this field should be drawn from the Regrant Type codelist",
       "type": "string",
       "codelist": "regrantType.csv",
       "openCodelist": false
