@@ -1226,14 +1226,42 @@
           "title": "Primary Grant Reason",
           "description": "A code referring to the reason(s) for a grant to an individual. The value for this field should be drawn from the Grant to Individuals Reason codelist",
           "codelist": "grantToIndividualsReason.csv",
-          "openCodelist": false
+          "openCodelist": false,
+          "enum": [
+            "GTIR010",
+            "GTIR020",
+            "GTIR030",
+            "GTIR040",
+            "GTIR050",
+            "GTIR060",
+            "GTIR070",
+            "GTIR080",
+            "GTIR090",
+            "GTIR100",
+            "GTIR110",
+            "GTIR120"
+          ]
         },
         "secondaryGrantReason": {
           "type": "string",
           "title": "Secondary Grant Reason",
           "description": "A code referring to the reason(s) for a grant to an individual. The value for this field should be drawn from the Grant to Individuals Reason codelist",
           "codelist": "grantToIndividualsReason.csv",
-          "openCodelist": false
+          "openCodelist": false,
+          "enum": [
+            "GTIR010",
+            "GTIR020",
+            "GTIR030",
+            "GTIR040",
+            "GTIR050",
+            "GTIR060",
+            "GTIR070",
+            "GTIR080",
+            "GTIR090",
+            "GTIR100",
+            "GTIR110",
+            "GTIR120"
+          ]
         },
         "grantPurpose": {
           "type": "array",
@@ -1242,7 +1270,26 @@
           "items": {
             "type": "string",
             "codelist": "grantToIndividualsPurpose.csv",
-            "openCodelist": false
+            "openCodelist": false,
+            "enum": [
+              "GTIP010",
+              "GTIP020",
+              "GTIP030",
+              "GTIP040",
+              "GTIP050",
+              "GTIP060",
+              "GTIP070",
+              "GTIP080",
+              "GTIP090",
+              "GTIP100",
+              "GTIP110",
+              "GTIP120",
+              "GTIP130",
+              "GTIP140",
+              "GTIP150",
+              "GTIP160",
+              "GTIP170"
+            ]
           }
         }
       }
@@ -1408,7 +1455,16 @@
       "description": "A code referring to the type of regranting process that this grant represents. The value for this field should be drawn from the Regrant Type codelist",
       "type": "string",
       "codelist": "regrantType.csv",
-      "openCodelist": false
+      "openCodelist": false,
+      "enum": [
+        "FRG010",
+        "FRG020",
+        "FRG030",
+        "FRG040",
+        "FRG050",
+        "FRG060",
+        "FRG070"
+      ]
     }
   }
 }
