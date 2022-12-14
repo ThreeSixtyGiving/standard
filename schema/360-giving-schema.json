@@ -7,6 +7,7 @@
       "type": "string",
       "description": "The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.",
       "weight": 5.02,
+      "codelist": "currency.csv",
       "enum": [
         "ADP",
         "AED",
@@ -475,6 +476,7 @@
             "string",
             "null"
           ],
+          "codelist": "countryCode.csv",
           "enum": [
             "AF",
             "AX",
