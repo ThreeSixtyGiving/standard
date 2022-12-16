@@ -7,6 +7,7 @@
       "type": "string",
       "description": "The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.",
       "weight": 5.02,
+      "codelist": "currency.csv",
       "enum": [
         "ADP",
         "AED",
@@ -475,6 +476,7 @@
             "string",
             "null"
           ],
+          "codelist": "countryCode.csv",
           "enum": [
             "AF",
             "AX",
@@ -882,6 +884,25 @@
         }
       }
     },
+    "Person": {
+      "type": "object",
+      "required": [
+        "id",
+	"name"
+      ],
+      "properties": {
+        "id": {
+	  "type": "string",
+	  "description": "A unique identifier which identifies the person in the dataset",
+	  "title": "Identifier"
+	},
+	"name": {
+	  "type": "string",
+	  "description": "The Person's full name or a generic name such as \"Individual Recipient\" ",
+	  "title": "Name"
+	}
+      }
+    },
     "Organization": {
       "type": "object",
       "required": [
@@ -1081,15 +1102,31 @@
       }
     }
   },
-  "required": [
-    "id",
-    "title",
-    "description",
-    "currency",
-    "amountAwarded",
-    "awardDate",
-    "recipientOrganization",
-    "fundingOrganization"
+  "oneOf": [
+    {
+      "required": [
+        "id",
+        "title",
+        "description",
+    	"currency",
+        "amountAwarded",
+        "awardDate",
+        "recipientOrganization",
+        "fundingOrganization"
+      ]
+    },
+    {
+      "required": [
+        "id",
+        "title",
+        "description",
+        "currency",
+        "amountAwarded",
+        "awardDate",
+        "recipientIndividual",
+        "fundingOrganization"
+      ]
+    }
   ],
   "properties": {
     "id": {
@@ -1174,6 +1211,41 @@
       "description": "When did this grant activity actually take place. Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.",
       "weight": 5.041,
       "title": "Actual Dates"
+    },
+    "recipientIndividual": {
+      "$ref": "#/definitions/Person",
+      "title": "Recipient Ind",
+      "description": "Details of the recipient of this grant to an individual."
+    },
+    "toIndividualsDetails": {
+      "type": "object",
+      "title": "To Individuals Details",
+      "properties": {
+        "primaryGrantReason": {
+	  "type": "string",
+	  "title": "Primary Grant Reason",
+	  "description": "A code referring to the reason(s) for a grant to an individual. The value for this field should be drawn from the Grant to Individuals Reason codelist",
+	  "codelist": "grantToIndividualsReason.csv",
+	  "openCodelist": false
+	},
+	"secondaryGrantReason": {
+	  "type": "string",
+	  "title": "Secondary Grant Reason",
+	  "description": "A code referring to the reason(s) for a grant to an individual. The value for this field should be drawn from the Grant to Individuals Reason codelist",
+	  "codelist": "grantToIndividualsReason.csv",
+	  "openCodelist": false
+	},
+	"grantPurpose": {
+	  "type": "array",
+	  "title": "Grant Purpose",
+	  "description": "A code referring to the purpose(s) for a grant to an individual. The value(s) for this field should be drawn from the Grant to Individuals Purpose codelist",
+	  "items": {
+	    "type": "string",
+	    "codelist": "grantToIndividualsPurpose.csv",
+	    "openCodelist": false
+	  }
+	}
+      }
     },
     "recipientOrganization": {
       "items": {
@@ -1330,6 +1402,13 @@
       "description": "A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.",
       "weight": 25,
       "title": "Data Source"
+    },
+    "regrantType": {
+      "title": "For Regrant Type",
+      "description": "A code referring to the type of regranting process that this grant represents. The value for this field should be drawn from the Regrant Type codelist",
+      "type": "string",
+      "codelist": "regrantType.csv",
+      "openCodelist": false
     }
   }
 }
