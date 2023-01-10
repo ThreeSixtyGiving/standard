@@ -1,12 +1,8 @@
-# Data preparation guide for community foundations
+# Guide for Community Foundations
 
 <div class="box box--teal">
     <h2 class="box__heading">Not using the Digits2 grants management system?</h2>
     <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the guidance on preparing your data or continue to guidance about testing your data quality.</p></div>
-
-<p>
-    <a href="../../guidance/prepare-data" class="button button--teal">Previous</a> <a href="../../guidance/data-quality/" class="button button--teal">Next</a>
-</p>
 
 ## Overview
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
@@ -208,7 +204,7 @@ Once you have exported a file of your data using the 360Giving extract, the next
 
 Each Community Foundation is responsible for the data it publishes.  You can check that your data is valid using this Data Quality Tool developed, which will tell you if there are any issues with your dataset.
 
-Click **Next** below to read our guidance on checking data quality before publishing your data.
+See the guidance on [checking data quality](../../guidance/data-quality/) before publishing your data.
 
 ## Publishing your 360Giving data
 Once you are happy with your data file and the Data Quality tool shows that the data is valid, the next step is to find a place on your website for hosting the file and outlining the open license you are releasing it under.
