@@ -15,11 +15,12 @@ This isn’t a reporting process, it’s an opportunity to let people know about
    plan-the-process
    data-protection
    prepare-data
-   location-guide
-   cf-guidance
    data-quality
    publish-data-openly
    making-updates
    using-data
+   cf-guidance
+   location-guide
+   regranting
 
 ```
