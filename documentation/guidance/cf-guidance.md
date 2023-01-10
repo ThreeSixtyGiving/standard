@@ -2,7 +2,7 @@
 
 <div class="box box--teal">
     <h2 class="box__heading">Not using the Digits2 grants management system?</h2>
-    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the guidance on preparing your data or continue to guidance about testing your data quality.</p></div>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the side menu to go to guidance on preparing your data.</p></div>
 
 ## Overview
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
