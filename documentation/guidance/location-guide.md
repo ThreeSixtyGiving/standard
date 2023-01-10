@@ -1,4 +1,4 @@
-# 360Giving guide to location data
+# Guide to location data
 
 ## Why is location data important?
 Location data helps users to understand where organisations are based or activities are happening, which helps to build a more complete picture of where funding is going geographically.
@@ -60,7 +60,7 @@ See our guidance on [converting postcodes into geocodes](converting-postcodes-in
 ### Recipient location codes
 In cases when it isn’t possible or appropriate to publish postal codes, it is possible to publish recipient location in the form of Office for National Statistics (ONS) geocodes.
 
-When 360Giving data includes recipient location codes at **Local Authority** or **Ward** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations.html" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
+When 360Giving data includes recipient location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations.html" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
 
 The fields used to share recipient location geocodes should be accompanied by fields for the location name and geocode type whenever possible.
 
@@ -124,7 +124,7 @@ Also avoid using ambiguous terms such as ‘National’ which in a UK context co
 
 Including geocodes that correspond with the beneficiary location names increases the usability of the data by providing a consistent way to identify these places, which make the data comparable across different funders. 
 
-Data with geocodes can be used to produce maps showing the geographic distribution of funding and allow grants data to be linked with other data sources, such as official statistics.
+Data with geocodes can be used to produce maps showing the geographic distribution of funding and allow grants data to be linked with other data sources, such as official statistics. When 360Giving data includes beneficiary location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations.html" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
 
 The fields used to share beneficiary location geocodes should be accompanied by fields for the location name and geocode type whenever possible.
 
@@ -312,5 +312,3 @@ In addition to providing location information for recipients and beneficiaries, 
 
 View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org" target="_blank">funding organisation address fields</a> or <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org-location" target="_blank">funding organisation location fields.</a>
 
-### What's next?
-Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
