@@ -94,4 +94,4 @@ The responsibility for using the codelist sits with the “donor funder” givin
 Funders that receive grants for onward distribution as grants are not expected to use this codelist, except in cases where they are also awarding grants that are intended for redistribution. 
 Grants awarded to recipients to fund projects and activities **must not** be categorised using this codelist: the field should be left blank or not supplied.
 ## Guidance on using the codelist
-Read our guidance about [how to use the codelists](../technical/codelists) for further information about how to add the For Regrant Type field and Regrant Type codes to 360Giving data.
+Read our guidance about [how to use the codelists](../technical/codelists) for further information about how to add the **For Regrant Type** field and **Regrant Type** codes to 360Giving data.
