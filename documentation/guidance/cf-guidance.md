@@ -148,7 +148,7 @@ The following system-generated fixed or calculated values will not appear in the
             <tr>
                 <td class="table__lead-cell" data-header="360Giving field">Currency</td>
                 <td data-header="Salesforce source">Default Value</td>
-                <td data-header="Notes">The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX</td>
+                <td data-header="Notes">Default to GBP</td>
                 </td>
             </tr>
             <tr>
