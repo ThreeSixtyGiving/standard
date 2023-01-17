@@ -63,7 +63,7 @@ Grants awarded for regranting that include the administration costs of the recip
 
 ### Still not sure which code to use?
 The code descriptions and guidance provide examples of which codes to use to categorise types of grants for regranting. If the grant you want to categorise could fit into more than one category, please label using the primary type.
-If you are still not sure which category is appropriate for your grant contact support@threesixtygiving.org for further guidance.
+If you are still not sure which category is appropriate for your grant contact <support@threesixtygiving.org> for further guidance.
 
 ## Sharing further information about your grants for redistribution
 The **Regrant Type** code list provides a consistent and comparable way to identify your grants as being intended for redistribution. 
@@ -90,8 +90,8 @@ Alongside the codes, it is recommended that you use other 360Giving Data Standar
     - **Description:** Capital funding for the installation of accessible toilets in village halls and community centres in Cambridgeshire; to be awarded by Partner Funder under the 2023 grant programme.
 
 ## Who should use the Regrant Type codelist?
-The responsibility for using the codelist sits with the “donor funder” giving the grant intended for redistribution. This means the funder that is named and identified by the 360Giving data fields Funding Org:Name and Funding Org:Identifier.
+The responsibility for using the codelist sits with the “donor funder” giving the grant intended for redistribution. This means the funder that is named and identified by the 360Giving data fields **Funding Org:Name** and **Funding Org:Identifier**.
 Funders that receive grants for onward distribution as grants are not expected to use this codelist, except in cases where they are also awarding grants that are intended for redistribution. 
-Grants awarded to recipients to fund projects and activities must not be categorised using this codelist: the field should be left blank or not supplied.
+Grants awarded to recipients to fund projects and activities **must not** be categorised using this codelist: the field should be left blank or not supplied.
 ## Guidance on using the codelist
 Read our guidance about [how to use the codelists](../technical/codelists) for further information about how to add the For Regrant Type field and Regrant Type codes to 360Giving data.
