@@ -217,7 +217,7 @@ Ward Name = Recipient Org:Location:Name
 9\. Re-save as Excel file (xlsx file format).
 
 ### What's next?
-Read our guide to preparing and publishing location data.
+Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
 
 
 
