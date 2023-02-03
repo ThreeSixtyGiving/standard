@@ -23,41 +23,58 @@ In this guidance, the term ‘donor funder’ is used to describe the funder giv
 
 In this guidance, the term ‘recipient’ is used to describe the organisation in direct receipt of the grant intended for redistribution. This means the recipient that is named and identified by the 360Giving data fields **Recipient Org:Name** and **Recipient Org:Identifier**. The guidance also uses the term ‘end recipient’, which means the organisations or individuals that are expected to receive the redistributed funding. The end recipients will not appear in the structured data of the grant record, but they may be described in general or specifically in the title or description fields. The end recipients may also appear elsewhere in 360Giving data if the recipient of the grant intended for redistribution has published the onward grants.
 
-#### FRG010 (Common regrant)
-When to use this code:
+#### Common regrant
+**Code to use:** FRG010
+
+**When to use this code:**
 Grants given by a single funder to a single organisation, for the purpose of distribution as grants.
 This is the most common form of grant for regranting. Examples might involve a grant given to a specific programme in which the “donor funder” is involved in the decision-making process for awarding the grants. The grant could also be a contribution to a fund, where the “donor funder” has no involvement in the decisions about how the funds are distributed.
 
-#### FRG020 (Transfer to intermediary)
-When to use this code:
+#### Transfer to intermediary
+**Code to use:** FRG020
+
+**When to use this code:**
 Grants awarded to a membership network or federated charity, for the purpose of being distributed to connected organisations.
 The recipient might distribute the funds in the form of grants, or direct payments. The funding received by the connected organisation is intended for redistribution as grants, and may include grantmaking administration and costs: it isn’t necessary to separate these out into a separate grant.
 
-#### FRG030 (Match funding)
-When to use this code:
+#### Match funding
+**Code to use:** FRG030
+
+**When to use this code:**
 Grants awarded to one other funder, which are matched by that other funder and then distributed as grants to end recipients. The match could be any ratio (it does not have to be 50/50).
-This code should be used when there is coordination between the two or more funders involved in the match, with one responsible for onward distribution of the grants.
+This code should be used when there is coordination between the two or more funders involved in the match, with one responsible for onward distribution of the grants. The match funding could be awarded to recipients through an application process, or be intended for matching and onward distribution to specific named recipients.
+
 This code ***should not be used*** for a grant awarded to a recipient on the condition that match funding is raised from other sources.
 
-#### FRG040 (Funder collaboration)
-When to use this code:
+#### Funder collaboration
+**Code to use:** FRG040
+
+**When to use this code:**
 Grants awarded to a pooled fund or funder collaboration.
 The grants may be awarded to one of the participating funders, or to a third party organisation that is responsible for making the grants from the pool of funding. The donor funders are likely to be involved in decision-making about the grants awarded.
+
 Grants awarded to a general appeal fund – which may have multiple funders contributing to the same fund – should be coded as **FRG010 (Common regrant)** if the donor funder does not have any decision-making role in the onward distribution of the funds.
 
-#### FRG050 (Fiscal sponsor)
-When to use this code:
+#### Fiscal sponsor
+**Code to use:** FRG050
+
+**When to use this code:**
 Grants awarded to an organisation, which acts as fiscal sponsor or hosting organisation on behalf of the intended end recipient of the donor funder.
-This code could be used when a transaction is made to an organisation to distribute payments, but the donor funder has specified the recipients. This is sometimes used to fund campaigns or grassroots initiatives or to fund overseas organisations.
+This code could be used when a transaction is made to an organisation to distribute payments, but the donor funder has specified the recipients. This is sometimes used to fund campaigns or grassroots initiatives or to fund overseas organisations. In cases where the Fiscal Sponsor is a funder and contributes funding to the specified recipient(s), code as FRG030 (Match funding) instead.
+
 This code should only be used when the recipient named and identified in the **Recipient Org:Name** and **Recipient Org:Identifier** fields is the fiscal sponsor/agent organisation. If the publisher names the ultimate end recipient in the Recipient Org fields, the grant should not be coded using any **Regrant Type** code, unless it is given with the intention of redistribution by the end recipient.
 
-#### FRG060 (Endowment)
-When to use this code:
+#### Endowment
+**Code to use:** FRG060
+
+**When to use this code:**
 Grants which are given in order to set up a new grantmaking organisation or fund, or make a substantial transfer of funds to an existing organisation for grantmaking. These grants may represent a capital investment (the investment the organisation uses to generate income) or spend (the running costs of the organisation), as well as grant-distribution over a significantly longer period of time. 
 This type of grant intended for redistribution is different from **FRG010 (Common regrant)** because of the size of the award and the time scales intended for the funds to be distributed as grants.
 
-#### FRG070 (Multipurpose)
-When to use this code:
+#### Multipurpose
+**Code to use:** FRG070
+
+**When to use this code:**
 Grants where a proportion of the amount is intended for onward distribution as grants, but a proportion is also to fund other activities carried out by the recipient that don’t relate to grantmaking.
 Grants awarded for regranting that include the administration costs of the recipient managing the distribution should not be classed as multi-purpose, unless the funding is also contributing towards activities that aren’t related to regranting. Grants for regranting which also include administration costs for the recipient to manage the grants should be coded with any other appropriate code in this list.
 
@@ -93,5 +110,51 @@ Alongside the codes, it is recommended that you use other 360Giving Data Standar
 The responsibility for using the codelist sits with the “donor funder” giving the grant intended for redistribution. This means the funder that is named and identified by the 360Giving data fields **Funding Org:Name** and **Funding Org:Identifier**.
 Funders that receive grants for onward distribution as grants are not expected to use this codelist, except in cases where they are also awarding grants that are intended for redistribution. 
 Grants awarded to recipients to fund projects and activities **must not** be categorised using this codelist: the field should be left blank or not supplied.
+
 ## Guidance on using the codelist
-Read our guidance about [how to use the codelists](../technical/codelists) for further information about how to add the **For Regrant Type** field and **Regrant Type** codes to 360Giving data.
+To start including **For Regrant** codes in 360Giving data, add the **For Regrant Type** field to the file, and then add the relevant code to any grant that should be flagged as being for regranting.
+
+**Please note:** Only codes from the **For Regrant** codelist should be included in the **For Regrant Type** field. Do not add any other codes or text into this field.  Be aware that these codes are case sensitive and should be reproduced exactly as they appear in the codelist.
+
+When a grant is not for regranting, the field must be left blank.
+
+**For example**
+
+<div class="table table--zebra">
+  <table>
+    <thead>
+      <th>Identifier</th>
+      <th>Description</th>
+      <th>Amount Awarded</th>
+      <th>For Regrant Type</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>360G-ExampleFdn-001</td>
+	<td>Contribution to pooled fund for charities supporting local residents</td>
+	<td>50000</td>
+	<td>FRG040</td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-002</td>
+	<td>Contribution to salary of benefits adviser</td>
+	<td>10000</td>
+	<td></td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-003</td>
+	<td>To be awarded as grants to small arts organisations</td>
+	<td>25000</td>
+	<td>FRG010</td>
+      </tr>
+      <tr>
+        <td>360G-ExampleFdn-004</td>
+	<td>To fund outdoor play equipment for nursery</td>
+	<td>5000</td>
+	<td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Read our guidance about [how to use the codelists](../technical/codelists) for further information about what to consider when adding the **For Regrant Type** field and **Regrant Type** codes to 360Giving data.
