@@ -60,7 +60,7 @@ Grants awarded to a general appeal fund – which may have multiple funders cont
 
 **When to use this code:**
 Grants awarded to an organisation, which acts as fiscal sponsor or hosting organisation on behalf of the intended end recipient of the donor funder.
-This code could be used when a transaction is made to an organisation to distribute payments, but the donor funder has specified the recipients. This is sometimes used to fund campaigns or grassroots initiatives or to fund overseas organisations. In cases where the Fiscal Sponsor is a funder and contributes funding to the specified recipient(s), code as FRG030 (Match funding) instead.
+This code could be used when a transaction is made to an organisation to distribute payments, but the donor funder has specified the recipients. This is sometimes used to fund campaigns or grassroots initiatives or to fund overseas organisations. In cases where the Fiscal Sponsor is a funder and contributes funding to the specified recipient(s), code as **FRG030 (Match funding)** instead.
 
 This code should only be used when the recipient named and identified in the **Recipient Org:Name** and **Recipient Org:Identifier** fields is the fiscal sponsor/agent organisation. If the publisher names the ultimate end recipient in the Recipient Org fields, the grant should not be coded using any **Regrant Type** code, unless it is given with the intention of redistribution by the end recipient.
 
@@ -157,4 +157,7 @@ When a grant is not for regranting, the field must be left blank.
   </table>
 </div>
 
+
 Read our guidance about [how to use the codelists](../technical/codelists) for further information about what to consider when adding the **For Regrant Type** field and **Regrant Type** codes to 360Giving data.
+
+
