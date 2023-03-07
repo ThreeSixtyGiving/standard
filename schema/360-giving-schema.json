@@ -471,6 +471,13 @@
           "weight": 1.1,
           "title": "Name"
         },
+	"locationScope": {
+	  "type": "string",
+	  "title": "Location Scope",
+	  "description": "A code referring to the scope of location applicable to this grant represents. The value for this field should be drawn from the Location Scope codelist",
+	  "codelist": "locationScope.csv",
+	  "openCodelist": false
+	},
         "countryCode": {
           "type": [
             "string",
