@@ -1,0 +1,13 @@
+Code,Title,Description
+LS0,Global,"The location scope is global."
+LS1,Global region,"The location scope is a supranational region or continent. Eg European Union or Africa"
+LS2,Multi-country,"The location scope covers multiple countries that don't constitute a global region. Eg France, Portugal and Spain"
+LS3,Country,"The location scope covers one country or UK Nation. Eg United Kingdom, Scotland or France"
+LS4,Multi-region,"The location scope covers more than subnational administrative region. Eg North of England (North West, North East, Yorkshire & Humber)"
+LS5,Region,"The location scope covers one subnational administrative region. Eg North West England"
+LS6,County,"The location scope covers one county, province or state. Eg Merseyside"
+LS7,Multi-district,"The location scope covers multiple administrative district areas that don't constitute a county, province or state. Eg Liverpool and the Wirral"
+LS8,District,"The location scope covers one administrative district area (eg local authority district, unitary authority, metropolitan district, borough, council or district council area). Eg Liverpool"
+LS9,Multi-local area,"The location scope covers multiple small areas (eg towns, wards, villages, estates, parks, buildings). Eg"
+LS10,Local area,"Location scope covers a single small area (eg town, ward, village, estate, park, building). Eg Kirkdale"
+LS11,Location undefined,"The location scope is undefined (eg the funding has no location, such as for online activities with no geographical focus)"
