@@ -267,6 +267,10 @@ Use the other sheets in the <a href="../../_static/summary-table/360-giving-sche
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding or Recipient Org.
 
+```eval_rst
+.. _numbering:
+```
+
 ##### Numbering
 
 You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This imitates JSON Pointer's approach.
