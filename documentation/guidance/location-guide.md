@@ -3,18 +3,21 @@
 ## Why is location data important?
 Location data helps users to understand where organisations are based or activities are happening, which helps to build a more complete picture of where funding is going geographically.
 
-Finding out where in the UK grants go is a key question that 360Giving data can be used to answer, but this is only possible when good quality and consistent location data - also known as geodata - is shared. 
+Finding out where in the UK grants go is a key question that 360Giving data can be used to answer, but this is only possible when good quality and consistent location data – also known as geodata – is shared. 
 
-Location is not one of the [ten core fields](https://standard.threesixtygiving.org/en/latest/guidance/plan-the-process/#decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets.
+Location is not one of the [ten core fields](https://standard.threesixtygiving.org/en/latest/guidance/plan-the-process/#decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets such as Indices of Multiple Deprivation.
 
 ## The basics
-The 360Giving Data Standard includes a range of ways to describe locations which are split into three types of fields: recipient, funder and beneficiary location. 
+The 360Giving Data Standard includes a range of ways to describe locations which are split into four types of fields: recipient, funder and beneficiary location, and location scope. 
 
 - **Recipient location** is where the recipient of a grant is based.
 - **Funder location** is where the funder of a grant is based.
-- **Beneficiary location** is where the funded work is being delivered or the people who access the funded work are based. 
+- **Beneficiary location** is where the funded work is being delivered or the people who access the funded work are based.
+- **Location scope** is the geographical scope of the funded work.
 
 Recipient, funder and beneficiary locations can be shared in the form of place names and geographic codes. Recipient and funder locations can also be shared in the form of an address.
+
+Location scope is shared in the form of codes from a codelist.
 
 ### About geographic codes
 A geographic code, or geocode, is a unique identifier that represents a location or geographic object. These geocodes allow geographic entities to be distinguished from each other and provide a more consistent way to identify a place than using the location name.
@@ -27,13 +30,18 @@ Whenever possible, geocodes should be shared by funders publishing on 360Giving 
 
 **Types of geographic codes**
 
-**Country codes** - two-letter country codes taken from <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO_3166-1_alpha-2.</a> For example the code for the United Kingdom is **GB**, the code for Spain is **ES**.
+**Country codes** - two-letter country codes taken from <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO_3166-1_alpha-2</a> codelist. For example the code for the United Kingdom is **GB**, the code for Spain is **ES**.
 
 **ONS codes** - nine character codes managed by the <a href="https://en.wikipedia.org/wiki/ONS_coding_system" target="_blank">Office for National Statistics</a> which describe a wide range of geographical areas in the UK - including the four nations of the UK, regions in England, local authority areas, electoral wards and <a href="https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeography#output-area-oa" target="_blank">Census output areas.</a> 
 
 **Postal Codes** - full or partial postal codes associated with a UK postal address, or the equivalent codes used in other countries.
 
 **Latitude and Longitude** - coordinates that indicate a point on the globe, using the <a href="https://en.wikipedia.org/wiki/World_Geodetic_System" target="_blank">World Geodetic System.</a>
+
+### About Location scope codes
+Location scope codes are drawn from a codelist developed and managed by 360Giving which provides a short name, description and code for each Location scope value. These codes allow funders to share consistent information about the geographical scope relevant to each grant. For example the code GLS030 can be used to indicate that a grant is intended to have a national impact.
+
+See our [Codelist guide](.../technical/codelists) for more detailed guidance on what codelists are and how they are used in the 360Giving Data Standard.
 
 ## Recipient organisation location
 **Recipient location** fields indicate where the grant recipient is based. It could be the location of a main office or branch, whatever is most appropriate for the grant. 
@@ -306,6 +314,86 @@ Using this method, there should be a row for each location, repeating the grant 
         </tbody>
     </table>
 </div> 
+
+
+```eval_rst
+.. _location-scope-guide:
+```
+
+## Location scope
+The 360Giving Data Standard allows funders to share a **Location scope** for each grant, which describes the geographical scope of the funded work.
+
+### About the codelist
+The codelist includes seven codes that should be used to describe the geographical scope of the funded work. The codes represent the different scopes a grant can have, from global to local areas. There is also a code to indicate when a grant has an undefined location, for example because the funded activity is online with no restrictions to who can access it.
+
+The location scopes were designed to align with international geographical divisions so the codelist can be applied consistently in all contexts. This means that there are areas grouped into a single scope in the codelist that have more sub-divisions in the UK.
+
+### Location scope codelist
+
+```eval_rst
+.. csv-table::
+   :file: ../../codelists/locationScope.csv
+   :header-rows: 1
+   :widths: auto
+```
+
+### Explanation of terms
+
+#### Global
+**Code to use:** GLS010
+
+**When to use this code:**
+Grants which have a global scope, meaning the area where the funded work is being delivered or the people who access the funded work are based all around the world.
+
+#### Supranational
+**Code to use:** GLS020
+
+**When to use this code:**
+Grants which have a scope which is a supranational region or continent, for example the European Union, North America or Africa.
+
+#### National
+**Code to use:** GLS030
+
+**When to use this code:**
+Grants which have a scope which covers a country, as defined by ISO 3166, for example the United Kingdom, France or Sierra Leone.
+
+#### Subnational region
+**Code to use:** GLS040
+
+**When to use this code:**
+Grants which have a scope which covers a first-level subnational administrative area, for example English Regions, Scotland, Wales or Northern Ireland.
+
+#### Local authority
+**Code to use:** GLS050
+
+**When to use this code:**
+Grants which have a scope which covers a second-level subnational administrative area, for example Districts (England), Principal Areas (Wales), Council Areas (Scotland), Local Government Districts (Northern Ireland), Metropolitan Counties, Non-Metropolitan Counties and Unitary Authorities (England).
+
+#### Local area
+**Code to use:** GLS060
+
+**When to use this code:**
+Grants which have a scope which covers a small area below local authority level, for example a Ward, MSOA, LSOA, parish, town, village, estate or park.
+
+#### Undefined
+**Code to use:** GLS099
+
+**When to use this code:**
+Grants which have a scope which is undefined, where location is not relevant, for example for online activities with no geographical focus.
+
+### Deciding which code to use
+The code descriptions and guidance provide examples of which codes to use to categorise grants’ location scope, focused on the UK context. If the grant you want to categorise could fit into more than one scope - for example the grant is funding a local pilot and UK-wide awareness raising campaign, label use the broadest applicable scope GLS030 (National).
+
+If the grant is funding activity in multiple different areas which are within a single scope – for example funding a project operating in two or more English Regions or activities which are England-wide – the location scope would be GLS040 (Subnational region).
+
+If you are not sure which category is appropriate for your grant, contact <support@threesixtygiving.org> for further guidance.
+
+### Guidance on using the codelist
+To start including **Location scope** codes in 360Giving data, add the Location scope field to the file, and then add the relevant code to your grants wherever possible.
+
+**Please note:** Only codes from the **Location scope** codelist should be included in the **Location scope** field. Do not add any other codes or text into this field. Be aware that these codes are case sensitive and should be reproduced exactly as they appear in the codelist.
+
+When it is not possible to provide a Location scope value for a grant, the field must be left blank.
 
 ## Funding organisation location
 In addition to providing location information for recipients and beneficiaries, the location of the funding organisation itself can be included, either using the address or location fields.
