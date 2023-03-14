@@ -1305,7 +1305,7 @@
     "locationScope": {
 	  "type": "string",
 	  "title": "Location Scope",
-	  "description": "A code referring to the scope of location applicable to this grant represents. The value for this field should be drawn from the Location Scope codelist",
+	  "description": "A code referring to the location scope applicable to this grant. The value for this field should be drawn from the Location Scope codelist.",
 	  "codelist": "locationScope.csv",
 	  "openCodelist": false
     },
