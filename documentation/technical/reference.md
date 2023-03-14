@@ -49,7 +49,7 @@ The [Additional fields](additional-fields) section provides details of all other
 ```
 
 ### Meta Sheet
-We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab-2023.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
@@ -83,6 +83,7 @@ The main grants sheet also includes fields for including codes to indicate:
 
 * Grants intended for redistribution
 * The grant purpose and grant reason for grants to individuals
+* The location scope of the grant
 
 For further information read our [Guide to codelists](codelists).
 
