@@ -382,7 +382,7 @@ Grants which have a scope which covers a small area below local authority level,
 Grants which have a scope which is undefined, where location is not relevant, for example for online activities with no geographical focus.
 
 ### Deciding which code to use
-The code descriptions and guidance provide examples of which codes to use to categorise grants’ location scope, focused on the UK context. If the grant you want to categorise could fit into more than one scope - for example the grant is funding a local pilot and UK-wide awareness raising campaign, label use the broadest applicable scope GLS030 (National).
+The code descriptions and guidance provide examples of which codes to use to categorise grants’ location scope, focused on the UK context. If the grant you want to categorise could fit into more than one scope - for example the grant is funding a local pilot and UK-wide awareness raising campaign - label using the broadest applicable scope GLS030 (National).
 
 If the grant is funding activity in multiple different areas which are within a single scope – for example funding a project operating in two or more English Regions or activities which are England-wide – the location scope would be GLS040 (Subnational region).
 
