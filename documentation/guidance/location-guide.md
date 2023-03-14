@@ -41,7 +41,7 @@ Whenever possible, geocodes should be shared by funders publishing on 360Giving 
 ### About Location scope codes
 Location scope codes are drawn from a codelist developed and managed by 360Giving which provides a short name, description and code for each Location scope value. These codes allow funders to share consistent information about the geographical scope relevant to each grant. For example the code GLS030 can be used to indicate that a grant is intended to have a national impact.
 
-See our [Codelist guide](.../technical/codelists) for more detailed guidance on what codelists are and how they are used in the 360Giving Data Standard.
+See our [Codelist guide](../technical/codelists) for more detailed guidance on what codelists are and how they are used in the 360Giving Data Standard.
 
 ## Recipient organisation location
 **Recipient location** fields indicate where the grant recipient is based. It could be the location of a main office or branch, whatever is most appropriate for the grant. 
