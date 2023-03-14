@@ -39,11 +39,15 @@ These are intended to be representative, but not comprehensive.
 
 When a codelist is open it means that publishers may use a new code outside those in the codelist, if there is no appropriate code for them to use.
 
+```eval_rst
+.. _codelists-used:
+```
+
 ## The codelists used in the Standard
 
-There are six codelists used in 360Giving Data Standard.
+There are seven codelists used in 360Giving Data Standard.
 
-Two codelists, Currency and Country code are managed by ISO and the four remaining codelists are managed directly by 360Giving.
+Two codelists, Currency and Country code are managed by ISO and the five remaining codelists are managed directly by 360Giving.
 
 Managed externally
 
@@ -54,6 +58,7 @@ Managed by 360Giving
 
 * [GeoCode Type](#geocode-type)
 * [Regrant Type](#regrant-type)
+* [Location Scope](#location-scope)
 * [Grant to Individuals Purpose](#grant-to-individuals-purpose)
 * [Grant to Individuals Reason](#grant-to-individuals-reason)
 
@@ -105,11 +110,17 @@ The Geocode Type fields are part of objects which are an array. This means that 
    :widths: auto
 ```
 
+```eval_rst
+.. _regrant-type:
+```
+
 ### Regrant Type
 
 A codelist with values to specify that a grant is intended for redistribution, broken down into seven types of regrant.
 
 The codes from this codelist can be published in the field **For Regrant Type**. The **For Regrant Type field** can only be included once with a single code per grant.
+
+For further explanation of how to use the Regrant Type codelist, including examples, read the [360Giving guide to regranting](../guidance/regranting).
 
 ```eval_rst
 .. csv-table::
@@ -117,19 +128,49 @@ The codes from this codelist can be published in the field **For Regrant Type**.
    :header-rows: 1
    :widths: auto
 ```
+
+```eval_rst
+.. _location-scope:
+```
+
+### Location Scope
+
+A codelist with values to specify the grants geographical scope, broken down into seven levels.
+
+The codes from this codelist can be published in the field **Location Scope**. The **Location Scope field** can only be included once with a single code per grant.
+
+For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide).
+
+```eval_rst
+.. csv-table::
+   :file: ../../codelists/locationScope.csv
+   :header-rows: 1
+   :widths: auto
+```
+
+```eval_rst
+.. _grant-purpose:
+```
+
 ### Grant to Individuals Purpose
 
 A codelist with values to specify the purpose of the grant, in terms of what the funding will be used for. This codelist is intended for use in grants to individual recipients only.
 
 The codes from this codelist can be published in the field **To Individuals Details:Grant Purpose**.
 
-As the **To Individuals Details:Grant Purpose** field is an array. This means that multiple iterations of the field can be included when a publisher has more than one code to share per grant.
+The **To Individuals Details:Grant Purpose** field is an array. This means that when a grant has more than one purpose it is possible to include multiple codes in this field, separated by a semi-colon.
+
+**Please note:** This is the only codelist field that is an array. All other fields in the 360Giving Data Standard which use codelists only allow a single code per field.
 
 ```eval_rst
 .. csv-table:: 
    :file: ../../codelists/grantToIndividualsPurpose.csv
    :header-rows: 1
    :widths: auto
+```
+
+```eval_rst
+.. _grant-reason:
 ```
 
 ### Grant to Individuals Reason
@@ -143,6 +184,10 @@ The codes from this codelist can be published in either of two fields, **To Indi
    :file: ../../codelists/grantToIndividualsReason.csv
    :header-rows: 1
    :widths: auto
+```
+
+```eval_rst
+.. _codes-how-to:
 ```
 
 ## How to use codelists in 360Giving data
@@ -178,7 +223,7 @@ Regrant Type
         <td>360G-ExampleFdn-001</td>
 	<td>Contribution to pooled fund for charities supporting local residents</td>
 	<td>50000</td>
-	<td>FRG030</td>
+	<td>FRG040</td>
       </tr>
       <tr>
         <td>360G-ExampleFdn-002</td>
@@ -217,13 +262,13 @@ Grant To Individuals Codelists
         <td>360G-ExampleFdn-001</td>
 	<td>GTIR010</td>
 	<td>GTIR030</td>
-	<td>GTIP070</td>
+	<td>GTIP070;GTIP080</td>
       </tr>
       <tr>
         <td>360G-ExampleFdn-002</td>
 	<td>GTIR010</td>
 	<td>GTIR100</td>
-	<td>GTIP020</td>
+	<td>GTIP020;GTIP030;GTIP040</td>
       </tr>
     </tbody>
   </table>
