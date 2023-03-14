@@ -139,7 +139,7 @@ A codelist with values to specify a grant's geographical scope, broken down into
 
 The codes from this codelist can be published in the field **Location Scope**. The **Location Scope field** can only be included once with a single code per grant.
 
-For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide#location-scope-guide).
+For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide).
 
 ```eval_rst
 .. csv-table::
