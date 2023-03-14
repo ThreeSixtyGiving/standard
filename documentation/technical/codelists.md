@@ -135,11 +135,11 @@ For further explanation of how to use the Regrant Type codelist, including examp
 
 ### Location Scope
 
-A codelist with values to specify the grants geographical scope, broken down into seven levels.
+A codelist with values to specify a grant's geographical scope, broken down into seven levels.
 
 The codes from this codelist can be published in the field **Location Scope**. The **Location Scope field** can only be included once with a single code per grant.
 
-For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide).
+For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide#location-scope-guide).
 
 ```eval_rst
 .. csv-table::
@@ -194,7 +194,7 @@ The codes from this codelist can be published in either of two fields, **To Indi
 
 Only codes from the codelists may be used. Any other code included in the data will result in invalid data. Please be aware that the codes are also case sensitive. Reproduce uppercase and lowercase letters in the codes correctly or the code will not be recognised and your data will be invalid.
 
-Only one code is allowed per field, and it is not possible to include comma separated lists of codes in a single field. If the field is an array (see [Reference](reference)) then you may use more than one code from the codelist in a spreadsheet by adding columns utilising the [Numbering](reference#numbering) technique, which is used elsewhere for describing multiple occurrences of e.g. Locations.
+Only one code is allowed per field, and it is not possible to include comma separated lists of codes in a single field. If the field is an array (see [Reference](reference)) then you may use more than one code from the codelist in a spreadsheet by adding columns utilising the [Numbering](numbering) technique, which is used elsewhere for describing multiple occurrences of e.g. Locations.
 
 Codes may not be applicable to all grants. When a grant has no relevant code, the field must be left blank. Do not use filler values such as N/A — a codelist field must only be populated with valid codes or left blank.
 
