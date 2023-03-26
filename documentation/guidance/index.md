@@ -17,6 +17,7 @@ This isn’t a reporting process, it’s an opportunity to let people know about
    prepare-data
    data-quality
    publish-data-openly
+   submit-data
    making-updates
    using-data
    cf-guidance
