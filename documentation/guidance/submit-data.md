@@ -60,17 +60,24 @@ If you are not sure if any of the grants in your file already appear in 360Givin
 #### Submit a new Data Registry entry
 If you select **Submit a new Data Registry entry** the form asks you to provide the following basic information about your 360Giving data file.
 
-- **Title and Description:** These are text fields that can be used to provide information about the name of the file and its contents, and provide further contextual information if appropriate. Title is required and has a character limit of 80 characters and will be displayed on the Data Registry. 
+- Title and Description
+
+These are text fields that can be used to provide information about the name of the file and its contents, and provide further contextual information if appropriate. Title is required and has a character limit of 80 characters and will be displayed on the Data Registry. 
 Description is optional and is not publicly displayed on the Data Registry website.
 
-- **Access URL Domain:** The domain is displayed but is not editable, to ensure that the Access URL link is from the authorised domain.
+- Access URL Domain
 
-- **Access URL Page Path:** This makes up the remainder link to a webpage where your data can be found, when combined with the Access URL Domain. This can be left blank if your file is hosted at your main website address, or should be the link to the page which hosts your file.
+The domain is displayed but is not editable, to ensure that the Access URL link is from the authorised domain.
 
-- **License:** This is the open license that applies to the data. The details of the license should normally be found alongside the link to your file on your website. 
-The overwhelming majority of publishers use Creative Commons Attribution License 4.0, unless they are a public sector organisation, who should use Open Government License 3.0 instead.
+- Access URL Page Path
 
-For further information see our [guidance on open licences](../../guidance/publish-data-openly/).
+This makes up the remainder link to a webpage where your data can be found, when combined with the Access URL Domain. This can be left blank if your file is hosted at your main website address, or should be the link to the page which hosts your file.
+
+- License
+
+This is the open license that applies to the data. The details of the license should normally be found alongside the link to your file on your website.
+
+The overwhelming majority of publishers use Creative Commons Attribution License 4.0, unless they are a public sector organisation, who should use Open Government License 3.0 instead. For further information see our [guidance on open licences](../../guidance/publish-data-openly/).
 
 #### Update an existing Data Registry entry
 If you select **Update an existing Data Registry entry** you will be presented with a table with the five most recent Data Registry entries for the files published by your organisation. You may need to adjust the column width to view the full file titles.
@@ -79,7 +86,7 @@ Select the file entry you want to amend, and you will be taken to a form, where 
 
 If you have **more than five** Data Registry file entries and the file you want to update is not shown, contact 360Giving Helpdesk via <support@threesixtygiving.org> to update the file entry on your behalf.
 
-### Agree to Terms and Conditions
+### 4. Agree to Terms and Conditions
 Whether submitting a new entry or updating an existing one, once you have filled out the required information about your file, you will be presented with a preview of the information you have entered.
 
 You will be asked to agree to the following on behalf of your organisation:
@@ -92,8 +99,8 @@ Click **Agree** to go to the final page, which will confirm that the update to t
 
 An acknowledgement email will be sent to the contact email address provided, and the email of the person marked as the primary publisher contact for your organisation in 360Giving’s systems. If this is the same email contact the acknowledgment email will only be sent once. 
 
-### Getting further help
-If you need further guidance on using the 360Giving data file submission process, please contact 360Giving Helpdesk via support@threesixtygiving.org
+## Getting further help
+If you experience issues or need further guidance on using the 360Giving data file submission process, please contact 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ### What's next?
 Read our guidance about making updates to your 360Giving data.
