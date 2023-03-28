@@ -65,23 +65,15 @@ If you are not sure if any of the grants in your file already appear in 360Givin
 #### Submit a new Data Registry entry
 If you select **Submit a new Data Registry entry**, the form asks you to provide the following basic information about your 360Giving data file.
 
-- Title and Description
-
-These are text fields that can be used to provide information about the name of the file and its contents, and provide further contextual information if appropriate. Title is required and has a character limit of 80 characters and will be displayed on the Data Registry.
+**Title and Description:** These are text fields that can be used to provide information about the name of the file and its contents, and provide further contextual information if appropriate. Title is required and has a character limit of 80 characters and will be displayed on the Data Registry.
 
 Description is optional and is not publicly displayed on the Data Registry website.
 
-- Access URL Domain
+**Access URL Domain:** The domain is displayed but is not editable, to ensure that the Access URL link is from the authorised domain.
 
-The domain is displayed but is not editable, to ensure that the Access URL link is from the authorised domain.
+**Access URL Page Path:** This makes up the remainder link to a webpage where your data can be found, when combined with the Access URL Domain. This can be left blank if your file is hosted at your main website address, or should be the link to the page which hosts your file.
 
-- Access URL Page Path
-
-This makes up the remainder link to a webpage where your data can be found, when combined with the Access URL Domain. This can be left blank if your file is hosted at your main website address, or should be the link to the page which hosts your file.
-
-- License
-
-This is the open license that applies to the data. The details of the license should normally be found alongside the link to your file on your website.
+**License:** This is the open license that applies to the data. The details of the license should normally be found alongside the link to your file on your website.
 
 The overwhelming majority of publishers use Creative Commons Attribution License 4.0, unless they are a public sector organisation, who should use Open Government License 3.0 instead. For further information see our [guidance on open licences](../../guidance/publish-data-openly/).
 
