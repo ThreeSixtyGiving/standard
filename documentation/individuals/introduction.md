@@ -1,7 +1,11 @@
 # Introduction
 This guidance aims to provide funders of grants to individuals with what they need to know in order to publish data about their grantmaking using the 360Giving Data Standard.
 
-This guidance is divided into two parts:
+This guide fits alongside the general [Guidance for Publishers](../guidance/index/), and links to other pages when that information is relevant to funders of grants to individuals. 
+
+Not sure where to start? Read [Useful information before you start](../guidance/before-starting/) to find out what to expect when publishing 360Giving data.
+
+The guidance is divided into two parts:
 
 **Publisher Guidance**
 
@@ -18,10 +22,6 @@ This provides detailed guidance about the setup and use of templates that have b
 - Setting up your template
 - How to use the template
 - Next steps
-
-This guide fits alongside the general [Guidance for Publishers](../guidance/index/), and links to other pages when that information is relevant to funders of grants to individuals.
-
-Not sure where to start? Read [Useful information before you start](../guidance/before-starting/) to find out what to expect when publishing 360Giving data.
 
 ### Getting further help
 360Giving provides free support for funders to publish their grants.
