@@ -14,6 +14,10 @@ This provides an overview of the steps and decisions that need to be taken to pu
 - Data protection
 - Prepare and format your data
 
+<p>
+    <a href="../../individuals/publisher-guidance" class="button button--teal">Read more</a>
+</p>
+
 **Data Preparation templates**
 
 This provides detailed guidance about the setup and use of templates that have been developed specifically to support funders of grants to individuals to format their grant data as 360Giving data. This guidance is intended to be used when you are ready to take the practical steps to prepare your data. Many of the recommendations and steps needed to ensure data protection outlined in the Publisher Guidance section are put into action in the Data Preparation templates.
@@ -22,6 +26,10 @@ This provides detailed guidance about the setup and use of templates that have b
 - Setting up your template
 - How to use the template
 - Next steps
+
+<p>
+    <a href="../../individuals/data-preparation-templates" class="button button--teal">Read more</a>
+</p>
 
 ### Getting further help
 360Giving provides free support for funders to publish their grants.
