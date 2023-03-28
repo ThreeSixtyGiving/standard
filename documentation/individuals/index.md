@@ -7,8 +7,11 @@ Read our blog for further <a href="https://www.threesixtygiving.org/2022/08/15/g
 
 ```eval_rst
 .. toctree::
+
    :maxdepth: 3
+   
    introduction
    publisher-guidance
    data-preparation-templates
+   
 ```
