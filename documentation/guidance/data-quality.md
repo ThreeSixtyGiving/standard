@@ -228,9 +228,10 @@ Once your file has three green ticks, it means the information is valid 360Givin
 Passing the Data Quality Tool checks means the file is ready for use, including in platforms such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>.
     
 **Please note:** The tool cannot check the content of the data. Further checks may be needed to ensure the information is accurate and that the data does not include information unsuitable for publishing as open data.
-    
-## Data protection
-Find out more about what to check before publishing your data openly in our [data protection guidance](../../guidance/data-protection)
+
+<div class="box box--teal">
+    <h2 class="box__heading">Data protection</h2>
+    <p>Find out more about what to check before publishing your data openly in our <a href="../../guidance/data-protection" target="_blank">data protection guidance.</a></p></div>
     
 ### About Data Quality Tool security
 The Data Quality Tool has been designed to support people preparing their 360Giving data, meaning the data inputted into it is in varying stages of readiness.
