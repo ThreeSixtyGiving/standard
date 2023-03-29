@@ -5,7 +5,7 @@
     <p><ol>
       <li>Upload your prepared 360Giving data into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool.</a></li>
       <li>Review feedback and make updates if the data is invalid.</li>
-      <li>Check Incorrect values and Usefulness feedback, making updates if required.</li>
+      <li>Check 'Incorrect values' and 'Usefulness' feedback, making updates if required.</li>
       </ol></p></div>
 
 ## Overview
@@ -16,7 +16,7 @@ The term ‘valid‘ means the file includes the 10 core fields, and the informa
 Only valid 360Giving data can be combined with other published data and be included in 360Giving tools, such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a>.
 
 ## How to use the 360Giving Data Quality Tool
-<a href="https://dataquality.threesixtygiving.org/" target="_blank">The Data Quality Tool</a> has been specially designed to support the preparation and publication of 360Giving data.
+<a href="https://dataquality.threesixtygiving.org/" target="_blank">The Data Quality Tool</a> (DQT) has been specially designed to support the preparation and publication of 360Giving data.
 
 You can use it by uploading a file or providing a link to a file that is hosted online. 
 
@@ -38,9 +38,9 @@ Use the **Expand all/Collapse all** toggle at the top right of the tool or indiv
 
 The icons for each section provide an initial guide to the quality of your data.
 
-- ❌ **a red cross** indicates warnings or errors. You must resolve these issues before the data can be published and used alongside other valid 360Giving data.
-- ✔️ **a green tick** indicates that the file is valid 360Giving data.
-- ❔ **an orange question** mark indicates additional checks which suggest ways to improve the quality or usefulness of the data.
+- **a red cross** indicates warnings or errors. You must resolve these issues before the data can be published and used alongside other valid 360Giving data.
+- **a green tick** indicates that the file is valid 360Giving data.
+- **an orange question** mark indicates additional checks which suggest ways to improve the quality or usefulness of the data.
 
 ### Section 1 - Summary: Your data at a glance
 At the top, the summary provides basic details about the file's content – how many grants, recipients, funders and the date range and total value of the grants broken down by currency.
@@ -58,8 +58,8 @@ To test data in a spreadsheet file, the DQT must first convert the data into JSO
 
 **Please note:** This section will not show if your file of 360Giving data is already in JSON format.
 
-- ✔️ **Data conversion successful** means the DQT could convert the spreadsheet into JSON.
-- ❌ **Data conversion unsuccessful** means issues with the data prevented the data from being converted into JSON.
+- **Data conversion successful** means the DQT could convert the spreadsheet into JSON.
+- **Data conversion unsuccessful** means issues with the data prevented the data from being converted into JSON.
 
 #### Conversion errors
 A range of issues can prevent your data from converting successfully.
@@ -75,14 +75,15 @@ To resolve this error:
 - If you have related but different grants that share an identifier in your source information, you need to make these unique in your 360Giving data or merge the information into a single grant record. Add a suffix such as an extra letter or number suffix or the award date to make your grant identifiers unique. For example 360G-ExampleFnd-001A and 360G-ExampleFnd-001B
 
 **Other conversion errors**
+
 Other conversion errors are usually caused by the data not being formatted correctly. These issues are highlighted in the next section, meaning that the conversion errors should disappear when you have resolved all the problems making the data invalid.
 
 ### Section 3 - Using the 360Giving Data Standard correctly
 
 For data to be used in 360Giving tools and combined with other 360Giving data, it must meet the requirements of the 360Giving Data Standard. 
 
-- ✔️ **This data uses the 360Giving Data Standard correctly**, which means the data is valid 360Giving data.
-- ❌ **This data does not use the 360Giving Data Standard correctly**, which means issues prevented the data from being valid 360Giving data.
+- **This data uses the 360Giving Data Standard correctly**, which means the data is valid 360Giving data.
+- **This data does not use the 360Giving Data Standard correctly**, which means issues prevented the data from being valid 360Giving data.
 
 The error messages are subdivided into types of issues, with an Error Count to show how many grant records are affected by the problem.
 If there are **three or fewer grant records** with the same error, the location of the issue will appear in a preview, with the sheet name and row number for the grant.
@@ -120,6 +121,7 @@ Read further information about <a href="https://dataquality.threesixtygiving.org
 
 #### Other
 These error messages are triggered by text data in a field that is <a href="https://dataquality.threesixtygiving.org/common_errors#number" target="_blank">expected to be a number</a> or number data in a field that is <a href="https://dataquality.threesixtygiving.org/common_errors#string" target="_blank">expected to be text.</a>
+
 An error message is also triggered by a minus <a href="https://dataquality.threesixtygiving.org/common_errors#minimum" target="_blank">duration</a> in the **Planned Dates:Duration (months)** field. 
     
 The duration of the grant must be in whole months, so it cannot be a minus number. A grant duration can be 0 if the period between the start and end date is less than one month.
@@ -150,17 +152,17 @@ If you have a minus duration error, you will probably also get feedback that the
 Resolve the validity issues by correcting the dates.
     
 #### Zero value grants
-If any grants have a zero Award Amount, the feedback will highlight these. Check if these are the result of grants being included that are not yet fully committed and remove if this is the case.
+If any grants have a zero **Award Amount**, the feedback will highlight these. Check if these are the result of grants being included that are not yet fully committed and remove if this is the case.
     
 #### More than one funding organisation
-This feedback will be triggered when the file has more than one unique Funding Org:Identifier.
+This feedback will be triggered when the file has more than one unique **Funding Org:Identifier**.
   
-While it is possible for a file to include grants awarded by more than one funder, multiple funding organisation identifiers can sometimes appear in 360Giving data by accident when the org ID is copied in Excel by dragging down the column, which often sequentially adds to the numbers rather than copying the same value.
+While it is possible for a file to include grants awarded by more than one funder, multiple funding organisation identifiers can sometimes appear in 360Giving data by accident when the org ID is copied in Excel by dragging down the column, sequentially adding to the numbers rather than copying the same value.
     
-If you get this feedback but you are only preparing data about one funder, update the Funding Org:Identifier so it is consistent.
+If you get this feedback but you are only preparing data about one funder, update the **Funding Org:Identifier** so it is consistent.
     
 #### Issues with dates
-If the data has an Award Date in the future, or planned start or end dates in the far past or far future, the feedback will highlight the affected grants.
+If the data has an **Award Date** in the future, or planned start or end dates in the far past or far future, the feedback will highlight the affected grants.
     
 The grants published should be awarded in the past so post-dated award dates could mean the data is not suitable for publishing yet, or could be the result of errors with the dates.
     
@@ -199,7 +201,7 @@ This section provides a basic preview of your data in a table to allow you to re
 
 There is also a count of the grant, funding organisation and recipient identifiers which hyperlink to a list view.
     
-**Top Tip:** If you are testing grant data for a single funder, but the summary says there is more than one unique funding organisation identifier, you can check these values in the list view.
+**Top Tip:** If you are testing grant data for a single funder, but the summary says there is more than one unique **Funding Org:Identifier**, you can check these values in the list view.
     
 ![Funding organisation ID list in Check data section](../../assets/DQT_screenshot_funder_id_list.png)
 
