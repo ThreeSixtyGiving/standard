@@ -13,7 +13,7 @@ There are two types of Data preparation template:
 
 <div class="box box--teal">
     <h3 class="box__heading">Getting further help</h3>
-    <p>The Data Preparation templates have been set up to work a specific way, but there is some flexibility in how they can be used. If significant changes are needed, additional support can be provided by contacting 360Giving Helpdesk via <support@threesixtygiving.org.> </p></div>
+    <p>The Data Preparation templates have been set up to work a specific way, but there is some flexibility in how they can be used. If significant changes are needed, additional support can be provided by contacting 360Giving Helpdesk via <a href="mailto:support@threesixtygiving.org">support@threesixtygiving.org.</a> </p></div>
 
 ## How the template is set up
 By default the **Codelist-Mapping** template has seven sheets, as follows:
