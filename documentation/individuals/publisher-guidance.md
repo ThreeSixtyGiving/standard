@@ -26,6 +26,7 @@ There are **10 core fields** of information which all 360Giving grant data about
 - Recipient Ind:Name
 - Funding Org:Identifier
 - Funding Org:Name
+
 **Recipient Ind:Identifier** and **Recipient Ind:Name**, grant **Identifier** and **Title** and **Description** should be populated in ways that ensure the privacy and confidentiality of recipients is protected.
 #### Identifier
 The unique identifier for this grant. Usually the identifier is constructed using the 360Giving Publisher prefix starting **360G** with the unique application or grant reference taken from a grants management system, separated by dashes, for example: **360G-ExampleFunder-123**
