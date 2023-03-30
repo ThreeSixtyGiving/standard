@@ -284,7 +284,93 @@ This checklist is designed to help audit the data held in internal systems that 
 - Can be published with changes to anonymise the information
 - Can be published without any changes
 
-> table
+#### System identifiers
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>Do you share the following system IDs with third parties*?</th>
+            <th>No</th>
+            <th>Yes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="Do you share the following system IDs with third parties*?">Unique application/grant identifiers from your internal systems.</td>
+                <td data-header="No">You can include these system identifiers in your published 360Giving data.</td>
+                <td data-header="Yes">Create new grant identifiers before publishing this data.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Do you share the following system IDs with third parties*?">Unique recipient identifiers from your internal systems.</td>
+                <td data-header="No">You can include these system identifiers in your published 360Giving data.</td>
+                <td data-header="Yes">Create new recipient identifiers before publishing this data.</td>
+                  </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+#### Descriptive text
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>Do you grant Descriptions or Titles include the following?</th>
+            <th>No</th>
+            <th>Yes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="Do you grant Descriptions or Titles include the following?">The name of the recipient.</td>
+                <td data-header="No">You can include this Title or Description text in your published data.</td>
+                <td data-header="Yes">Amend your Title or Description text to remove identifying data, or use alternative text, such as grant programme description or category data.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Do you grant Descriptions or Titles include the following?">A detailed breakdown of what the funding was for.</td>
+                <td data-header="No">You can include this Title or Description text in your published data.</td>
+                <td data-header="Yes">Amend your Title or Description text to remove identifying data, or use alternative text, such as grant programme description or category data.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Do you grant Descriptions or Titles include the following?">Specific demographic information about the recipient.</td>
+                <td data-header="No">You can include this Title or Description text in your published data.</td>
+                <td data-header="Yes">Amend your Title or Description text to remove identifying data, or use alternative text, such as grant programme description or category data.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Do you grant Descriptions or Titles include the following?">References to a referral agency making the application on the recipients behalf.</td>
+                <td data-header="No">You can include this Title or Description text in your published data.</td>
+                <td data-header="Yes">Amend your Title or Description text to remove identifying data, or use alternative text, such as grant programme description or category data.</td>
+                  </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+#### Geodata
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>Does your grant information include the following geodata?</th>
+            <th>No</th>
+            <th>Yes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="Does your grant information include the following geodata?">Address details for the recipient’s home address.</td>
+                <td data-header="No">No action.</td>
+                <td data-header="Yes">Remove from data before publishing.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="Does your grant information include the following geodata?">Postcodes for the recipients home address.</td>
+                <td data-header="No">No action.</td>
+                <td data-header="Yes">Convert postcode data into Ward or higher level area codes before publishing the data.</td>
+                  </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 
 \* If the third parties with access to the data are covered by data sharing agreements, you can answer No.
 
