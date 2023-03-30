@@ -52,7 +52,7 @@ This means that any changes in the content of the data in the **source_data**, *
 
 Adding data directly into this sheet will break the formulas used to format the data. This will stop the template working correctly and increases the risk of sharing data that does not pass 360Giving’s validity checks, or unintentionally includes personal data.
 ### Default settings
-The formulas in **360_data** sheet extend for the first 100 rows. This means that up to 100 grants can be converted by the template. See the [section on extending the formulas](#adding-more-rows-of-formulas-to-the-360_data-sheet) if you need to convert data for more than 100 grants at a time.
+The formulas in **360_data** sheet extend for the first 100 rows. This means that up to 100 grants can be converted by the template. See the [section on extending the formulas] (../../individuals/data-preparation-templates/#adding-more-rows-of-formulas-to-the-360_data-sheet) if you need to convert data for more than 100 grants at a time.
 
 For ease of use, this template is colour coded so that all the 10 core required items are highlighted green, the codelist fields are blue and the recommended but optional fields are yellow. For more information see our [Field guidance](../../individuals/publisher-guidance/#field-guidance).
 ### How the template works
@@ -254,7 +254,7 @@ Once your grant data is entered into the **source_data** sheet.
 3. Check the **360_data** sheet to see if the information looks correct, making changes to the data in **source_data**, not in **360_data** directly, as required.
 
 For example:
-- Are there as many rows of grants as expected? If there are fewer rows of grants in the **360_data** sheet than in the **source_data** sheet you will need to extend the formulas to cover more rows, see [further guidance above](#adding-more-rows-of-formulas-to-the-360_data-sheet).
+- Are there as many rows of grants as expected? If there are fewer rows of grants in the **360_data** sheet than in the **source_data** sheet you will need to extend the formulas to cover more rows, see [further guidance above](../../individuals/data-preparation-templates/#adding-more-rows-of-formulas-to-the-360_data-sheet).
 - Are any of the cells blank or feature **#N/A** errors? All columns with a green title must include information in each cell because these are required fields which cannot be blank. Other columns without green headers may have blank cells if there is no information available. If any cells include zeros or #N/A errors, check the information in **source_data** sheet to see if there is a problem with the data and correct as needed.
 - Does the content of the data in **360_data** look right? If the values in the columns look wrong, there may be a mismatch between the mapping of the **source_data** fields with the 360Giving headings. Check the **source_data** to see if the order of the columns needs to be changed or if the first column of your source data is not aligned with **column A** in the sheet.
 ### Converting Postcodes into Geocodes
