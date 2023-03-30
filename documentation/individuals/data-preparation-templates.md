@@ -217,6 +217,8 @@ Please do not delete the rows as it will cause errors with the formulas in **360
 By default, the formulas in the **360_data** sheet extend for 100 rows, so they will convert the first 100 rows of grant data entered into the **source_data** sheet.
 If you have more than 100 grants to convert at a time you need to increase the number of rows with formulas in the **360_data** sheet to match the number of rows in the **source_data** sheet.
 
+![Screenshot of how to add more rows of formulas](../../assets/Screenshot-Add-more-rows-of-formulas.png)
+
 To extend the formulas:
 1. Select all the cells in the last row with formulas in the **360_data** sheet (e.g. from **cell A101 to AI101**) and drag the formulas down.
 2. The drag control is the small green square in the bottom right corner of the bottom right-most cell (e.g. AI101).
@@ -224,12 +226,16 @@ To extend the formulas:
 ### 6. Fixing errors that appear in the 360_data sheet formulas
 If you delete a row from the **source_data** sheet to remove a grant record, this will result in a **#REF!** error in the **360_data** sheet. This error will need to be fixed by resetting the formulas.
 
-The formulas can be reset by taking the following steps
+![Screenshot of REF error in template 1](../../assets/Screenshot-Fixing-errors-in-formulas-image1.png)
+
+The formulas can be reset by taking the following steps:
 1. In **360_data** sheet select all the cells in row 2 that have data – from **column A to AI**. This is the row under the colour highlighted titles.
 2. When the entire row of data is selected you will see a small green square at the bottom right corner of the cell **AI2** – see screenshot.
 3. When your cursor is over the green square it will turn into a cross **+**
 4. Double click on the cross **+** with your cursor.
 5. The formulas will update in all the rows below, and remove any **#REF!** errors.
+
+![Screenshot of REF error in template 2](../../assets/Screenshot-Fixing-errors-in-formulas-image2.png)
 ## How to use the template
 The templates can be used either to start collecting grants data in order to publish it or to convert your existing grants data - stored in a grants management system or spreadsheets - into the 360Giving format.
 
@@ -259,12 +265,18 @@ The tool has a free and easy-to-use service called ‘<a href="https://findthatp
 The template has been set up to work with data enriched with <a href="https://en.wikipedia.org/wiki/ONS_coding_system" target="_blank">ONS geocodes</a> using this service. Follow these steps to convert the postcodes in your data into Ward geocodes.
 1. Copy all the postcodes in your source data from **column D** of **source_data** sheet into **column A** of a new file. Do not include the first two rows (highlighted orange in **source_data**) but do include the third row containing the title **Recipient Postal Code**.
 2. Save the file as CSV UTF-8 (Comma delimited) and give it a suitable name – e.g. Postcode_lookup.
+![Screenshot of uploading file to Add fields to CSV tool](../../assets/Screenshot-Upload-file-to-Add-fields-to-csv.png)
 3. Upload this file into the <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">‘Add fields to CSV‘ service</a>.
 4. Select the field that includes your postcode data, named **Recipient Postal Code**.
-5. In the Key areas section also tick both Ward Code and Ward Name. Latitude/Longitude, Region and Local Authority are selected by default and should be included. 
+![Screenshot of selecting postcodes filed in Add fields to CSV tool](../../assets/Screenshot-Select-field-with-postcodes.png)
+5. In the Key areas section also tick both Ward Code and Ward Name. Latitude/Longitude, Region and Local Authority are selected by default and should be included.
+![Screenshot of selecting Ward names and codes in Add fields to CSV tool](../../assets/Screenshot-Select-Ward-Code-and-Ward-Name.png)
 6. Click the yellow ‘Add data to CSV‘ button at the bottom of the page. The tool will automatically download an updated version of your file with the geocodes and place names in eight extra columns.
+![Screenshot of Add data to CSV button](../../assets/Screenshot-Add-data-to-CSV-button.png)
 7. Paste the data from the downloaded CSV file into the **geo_data** sheet in your template, ensuring that **column A** includes your postcodes.
+![Screenshot of geodata pasted into data preparation template](../../assets/Screenshot-Geo_data-pasted-into-template.png)
 8. A lookup formula in the **360_data** sheet will then look up the Ward and Local Authority name and geocodes from the **geo_data** sheet, populating the data in **columns N to S**.
+![Screenshot of geodata in 360_data sheet of template](../../assets/Screenshot-geodata-in-360_data-sheet.png)
 #### Using Find that Postcode and Data protection
 When using the ‘Add fields to CSV’ service, your file of postcode data does not leave your computer. For data protection, a code is created based on each postcode in your file, and it is this code that is sent to Find that Postcode. This provides a level of privacy protection, and because the initial file you provided only includes postcodes and no other identifying information, the risks of using the service with personal address data has been minimised.
 
