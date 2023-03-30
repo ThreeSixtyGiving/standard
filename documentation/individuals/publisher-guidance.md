@@ -4,11 +4,11 @@ The following guidance covers the first two stages of the 360Giving publishing p
 
 The final stages in the 360Giving publishing process involve [checking data quality](../../guidance/data-quality/) and [publishing the data openly](../../guidance/publish-data-openly/). As these steps are applicable to all types of grants and funders further information about these steps can be found in the [complete guide to publishing.](../../guidance/)
 ## Plan your process and data
-All funders need to [decide what fields of information to publish.](../../guidance/plan-the-process/#decide-what-information-to-share/) The full 360Giving Data Standard is comprehensive, with over 100 fields available to describe information about grants, recipients, funding organisations, programmes, locations and more. 
+All funders need to [decide what fields of information to publish.](../../guidance/plan-the-process/#decide-what-information-to-share) The full 360Giving Data Standard is comprehensive, with over 100 fields available to describe information about grants, recipients, funding organisations, programmes, locations and more. 
 
 To ensure that the privacy and confidentiality of recipients is protected, funders of grants to individuals have a smaller range of fields to choose from, as well as restrictions on the types of information that can be shared in certain fields.
 
-Funders also need to [decide what grants to include](../../guidance/plan-the-process/#decide-what-grants-to-include/), in terms of time period and programmes, choices which can be informed by the availability and quality of the data, and the usefulness of sharing information about historical grants.
+Funders also need to [decide what grants to include](../../guidance/plan-the-process/decide-what-information-to-share/#decide-what-grants-to-include), in terms of time period and programmes, choices which can be informed by the availability and quality of the data, and the usefulness of sharing information about historical grants.
 <div class="box box--teal">
     <h3 class="box__heading">What counts as a grant to an individual?</h3>
     <p>The 360Giving Data Standard can be used to share data about grants to individuals and families, paid as money, in the form of cash or vouchers or goods or services that have been purchased for a specific individual or family. Gifts in kind that do not have a monetary value or benefit to a specific individual or family are not normally suitable for sharing as 360Giving data.</p></div>
@@ -31,7 +31,7 @@ There are **10 core fields** of information which all 360Giving grant data about
 #### Identifier
 The unique identifier for this grant. Usually the identifier is constructed using the 360Giving Publisher prefix starting **360G** with the unique application or grant reference taken from a grants management system, separated by dashes, for example: **360G-ExampleFunder-123**
 
-If there are data protection reasons why the unique identifiers cannot be taken from internal systems, they will need to be created instead. Read our [Grant Identifier guidance](../../technical/identifiers/#grant-identifier/) for further information.
+If there are data protection reasons why the unique identifiers cannot be taken from internal systems, they will need to be created instead. Read our [Grant Identifier guidance](../../technical/identifiers/#grant-identifier) for further information.
 #### Title
 A title for this grant activity, which should be generic to avoid the text identifying the recipient. The title should be under 140 characters long.
 #### Description
@@ -58,13 +58,13 @@ This field must not be blank and it is recommended that the generic text ‘**In
 #### Recipient Ind:Identifier
 A globally unique identifier for this grant recipient. **Recipient Ind:Identifier** should be constructed using the 360Giving Publisher prefix starting 360G, an infix ‘IND’ followed by a unique number, separated by dashes, for example: **360G-ExampleFunder-IND-0001**
 
-If there are data protection reasons why the unique identifiers cannot be taken from internal systems, they will need to be created instead. Read our [Individual Identifier guidance](../../technical/identifiers/#individual-identifier/) for further information.
+If there are data protection reasons why the unique identifiers cannot be taken from internal systems, they will need to be created instead. Read our [Individual Identifier guidance](../../technical/identifiers/#individual-identifier) for further information.
 #### Funding Org:Name
 The funding organisation’s name. This does not have to be the registered name, it can be the brand name the organisation prefers to be known by. 
 
 **Please note:** For funders awarding grants on behalf of other funders, this would normally be the name of the funder distributing the grants. However, the organisation named as the funding organisation in 360Giving data could be the original ‘donor’ funder if this is agreed between the funders involved. Contact the 360Giving Helpdesk if you would like to discuss the options further.
 #### Funding Org:Identifier
-A unique identifier for the funding organisation, named in the Funding Org:Name field. The [Organisation Identifier Standard](../../technical/identifiers/#organisation-identifier/) guidance explains how to create this org ID, based on the known company or charity number of the funder. 
+A unique identifier for the funding organisation, named in the Funding Org:Name field. The [Organisation Identifier Standard](../../technical/identifiers/#organisation-identifier) guidance explains how to create this org ID, based on the known company or charity number of the funder. 
 
 The 360Giving Helpdesk can provide guidance on the correct Funding Org:Identifier to use.
 ### To Individuals Details fields
@@ -85,14 +85,14 @@ The codelist **Grant to Individuals Reason** includes categories that specify th
 - The codes from this codelist must be published in either of two fields, **To Individuals Details:Primary Grant Reason** and **To Individuals Details:Secondary Grant Reason**. 
 - Each field can only be included once with a single code per grant. If there is only a primary reason the secondary reason field can be left blank. 
 
-See below for [Grant to Individuals Reason.](../../individuals/publisher-guidance/Grants-To-Individuals-Reason)
+See below for [Grant to Individuals Reason.](../../individuals/publisher-guidance/#Grants-To-Individuals-Reason)
 #### Grant Purpose
 The codelist **Grant to Individuals Purpose** includes categories to specify the purpose of the grant, in terms of what the funding will be used for.
 - The codes from this codelist must be published in the field **To Individuals Details:Grant Purpose**.
 - Funders may choose **one or more** of the categories to describe the purpose of the grant. When multiple codes are included, these must be separated by a **semi-colon**. 
 - It is recommended that **a maximum of three categories** are used. 
 
-See below for [Grant to Individuals Purpose.](../../individuals/publisher-guidance/Grants-To-Individuals-Purpose)
+See below for [Grant to Individuals Purpose.](../../individuals/publisher-guidance/#Grants-To-Individuals-Purpose)
 ### Recommended fields
 Apart from the 10 core fields, all other fields in the 360Giving Data Standard are optional. However the majority of publishers do share a range of further information which make the data more useful and help users to understand their grantmaking better.
 
@@ -102,7 +102,7 @@ The beneficiary location fields can be used to share useful information about th
 
 The location data is shared in the form of place names and geocodes, but address and postcode data is not allowed in these fields. This means the data can be analysed geographically and used in maps, but cannot be used to identify an individual recipient's specific location or home address.
 
-For further guidance, please read our [guide to location in the 360Giving Data Standard.](../../guidance/location-guide/#about-geographic-codes/)
+For further guidance, please read our [guide to location in the 360Giving Data Standard.](../../guidance/location-guide/#about-geographic-codes)
 - **Beneficiary Location:Name**
 The fields used to share beneficiary location geocodes should be accompanied by fields for the location name whenever possible.
 - **Beneficiary Location:Geographic Code**
@@ -115,7 +115,7 @@ The Data Preparation templates have been set up to support the conversion of pos
 Postcodes or ONS geocodes for small areas such as MSOA or LSOA **must not** be used for data protection reasons.
 - **Beneficiary Location:Geographic Code Type**
 
-The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of [geographic code types.](../../technical/codelists/#geocode-type/)
+The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of [geographic code types.](../../technical/codelists/#geocode-type)
 
 The Data Preparation templates have been set up to automatically add the correct geocode type based on the location data provided.
 #### Grant Programme:Title
@@ -127,7 +127,7 @@ This is metadata – data about the data – and shows users when information ab
 #### Data Source
 This is metadata – data about the data – and shows users who published the grants data. This should be a link to the website of the organisation publishing the 360Giving data.
 #### Grant duration fields
-Funders with recurring or longer term grants can show this in their data by providing a start and end date of the grant, or the grant duration. Further information on [grant duration fields.](../../technical/reference/#planned-dates/)
+Funders with recurring or longer term grants can show this in their data by providing a start and end date of the grant, or the grant duration. Further information on [grant duration fields.](../../technical/reference/#planned-dates)
 ## Grants to individuals codelists
 ### What are codelists?
 Codelists are a list of values. Each value has three elements:
@@ -192,7 +192,7 @@ It is ***recommended that a maximum of three categories*** are shared to make it
 #### Including internal categories alongside the shared classifications
 
 For funders with their own categories for classifying their grants, this more granular data can be published in 360Giving data alongside, and in addition to, data from the **Reason** or **Purpose** codelists. Depending on the scope and complexity of the internal categories, these could be included in a range of ways:
-- Using the 360Giving Data Standard [‘Classifications’](../../technical/reference/#classifications/) fields.
+- Using the 360Giving Data Standard [‘Classifications’](../../technical/reference/#classifications) fields.
 - Values from a single value category list could be used to populate the **Title** field
 - For classifications which allow for multiple categories, if they have hierarchies or when there are multiple different classifications, it may be easier to include this data in the form of a comma separated list in the **Description** field.
 
@@ -383,7 +383,7 @@ For many publishers, preparing their data is a manual process that involves expo
 
 For most publishers, whether you are using grants management software or you hold your grants data in spreadsheets, the practical steps to get your data ready will be similar and involve making changes to the data in a file. 
 
-Read the <a href="https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/" target ="_blank">general guidance about preparing 360Giving data</a> for further information about your options.
+Read the [general guidance about preparing 360Giving data](../../guidance/#prepare-and-format-your-data) for further information about your options.
 ### Register with 360Giving Helpdesk
 Once you have decided to publish your grants data, please fill in our <a href="https://www.threesixtygiving.org/publisher-registration-form/" target ="_blank">Publisher Registration Form</a> to let us know more about your organisation, so 360Giving Helpdesk can provide tailored support to suit your needs.
 
@@ -393,9 +393,9 @@ You will be provided with a 360Giving Publisher prefix, which identifies your or
 Two types of template have been provided for funders with the 360Giving Data Standard fields needed to prepare and publish useful information about grants to individuals. The templates include the 10 core fields, some recommended fields and the three new fields that are used with the codelists. 
 
 Use the Field guidance and Data Preparation templates guidance for further information about what types of data are suitable for sharing under each field.
-- [10 core fields](../../individuals/publisher-guidance/10-core-fields)
-- [Recommended fields](../../individuals/publisher-guidance/Recommended-fields)
-- [To Individuals Details fields](../../individuals/publisher-guidance/To-Individuals-Details-fields)
+- [10 core fields](../../individuals/publisher-guidance/#core-fields)
+- [Recommended fields](../../individuals/publisher-guidance/#Recommended-fields)
+- [To Individuals Details fields](../../individuals/publisher-guidance/#To-Individuals-Details-fields)
 
 The Data Preparation templates have been set up with data protection settings, to consistently anonymise recipient names, to create grant and recipients identifiers if internal systems IDs are not suitable for sharing and to support the conversion of postcodes into geocodes. 
 <div class="box box--teal">
