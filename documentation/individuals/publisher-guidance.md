@@ -400,7 +400,7 @@ The Data Preparation templates have been set up with data protection settings, t
 <div class="box box--teal">
     <h3 class="box__heading">Give grants to organisations and individuals?</h3>
     <p>These templates are suitable for sharing data about grants to individuals only. If you give grants to both individuals and organisations you will need to use separate templates in separate files to publish these different types of grant.</p>
-<p>Further information about the options for sharing data about grants to organisations can be found in the <a href="https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/" target="_blank">general guidance on preparing data</a>. Please contact 360Giving Helpdesk for further guidance via <support@threesixtygiving.org></p></div>
+<p>Further information about the options for sharing data about grants to organisations can be found in the <a href="https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/" target="_blank">general guidance on preparing data</a>. Please contact 360Giving Helpdesk for further guidance via <a href="mailto:support@threesixtygiving.org">support@threesixtygiving.org.</a></p></div>
 
 
 #### 360Giving Grants to Inds Data Preparation Templates
