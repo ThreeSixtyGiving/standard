@@ -4,7 +4,7 @@
     <p><ol>
     <li>Make a note of your publishing processes as a reminder for next time.</li>
       <li>Decide how frequently to make updates to your 360Giving data.</li>
-      <li>Let 360Giving Helpdesk know if you publish new files of 360Giving data.</li>
+      <li>Submit any new or updated files of 360Giving data to the Registry.</li>
       <li>Read the <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy.</a></li>
        </ol></p></div>
 
@@ -46,11 +46,13 @@ Once the data is ready and it has passed the [Data Quality Tool](../../guidance/
 - Upload a new file alongside your existing file, add a link to the file from your hosting page and let the 360Giving Helpdesk know about the new file.
 
 ### Letting 360Giving know about updates to your data
-If you publish a new file of data, or if your existing data file has been updated and the location or name of your data file has changed, you need to let 360Giving know so the Data Registry can be updated with the new file links.
+If you publish a new file of data, or if your existing data file has been updated and the location or name of your data file has changed, you need to submit the changes to the Data Registry using the [360Giving data file submission form](../../guidance/submit-data/).
 
 Remember to remove any old files from your website when making updates. 
 
-If your 360Giving data file has a generic name and it is uploaded to a consistent place in your website then any subsequent updates you make to the file will get picked up by the Data Registry automatically because the link to your file will be unchanged.
+If your 360Giving data file has a generic name and it is uploaded to a consistent place in your website then any subsequent updates you make to the file will get picked up by the Data Registry automatically because the link to your file will be unchanged. If your 360Giving data file has a consistent link it will not be necessary for you to fill out the 360Giving data submission form each time you make an update.
+
+Read our guidance on [good practice in file management](../../guidance/publish-data-openly/#good-practice-in-file-management/) for further information about making your file link consistent.
 
 ## Making changes to your published data
 You can make changes to your data at any time. This may be to add new grants data or amend details or to fix typos. It might also be to remove grants that were awarded but didn’t go ahead, or to amend grants that have been varied in some way. 
@@ -60,9 +62,9 @@ For further guidance about making changes to your data to note variations to you
 Making amendments to your 360Giving data can be done manually, by taking a copy of your published data file and making the necessary changes. You then save the file and re-upload it to your website, replacing the current file.
 
 ### Changing how your name appears in 360Giving tools
-The name of the funding organisation that appears on GrantNav and 360Insights is derived from the 360Giving data that is published. This means that to update how your name appears you need to update the text in the Funding Org:Name column in your data, and then re-publish the file(s).
+The name of the funding organisation that appears on GrantNav and 360Insights is mostly derived from the 360Giving data that is published. This means that to update how your name appears you need to update the text in the Funding Org:Name column in your data, and then re-publish the file(s).
 
-The name that appears on the 360Giving Data Registry is controlled by 360Giving. For any queries about the process to change the name in your data, and to request an amendment to the 360Giving Data Registry please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
+The name that appears on the 360Giving Data Registry, and the organisation page for each publisher in GrantNav, is controlled by 360Giving. For any queries about the process to change the name in your data, and to request an amendment to the 360Giving Data Registry please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
 ## Taking down published data
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
