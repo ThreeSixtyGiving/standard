@@ -8,7 +8,7 @@ All funders need to [decide what fields of information to publish.](../../guidan
 
 To ensure that the privacy and confidentiality of recipients is protected, funders of grants to individuals have a smaller range of fields to choose from, as well as restrictions on the types of information that can be shared in certain fields.
 
-Funders also need to [decide what grants to include](../../guidance/plan-the-process/decide-what-information-to-share/#decide-what-grants-to-include), in terms of time period and programmes, choices which can be informed by the availability and quality of the data, and the usefulness of sharing information about historical grants.
+Funders also need to [decide what grants to include](../../guidance/plan-the-process/#decide-what-information-to-share/decide-what-information-to-share/#decide-what-grants-to-include), in terms of time period and programmes, choices which can be informed by the availability and quality of the data, and the usefulness of sharing information about historical grants.
 <div class="box box--teal">
     <h3 class="box__heading">What counts as a grant to an individual?</h3>
     <p>The 360Giving Data Standard can be used to share data about grants to individuals and families, paid as money, in the form of cash or vouchers or goods or services that have been purchased for a specific individual or family. Gifts in kind that do not have a monetary value or benefit to a specific individual or family are not normally suitable for sharing as 360Giving data.</p></div>
@@ -85,14 +85,14 @@ The codelist **Grant to Individuals Reason** includes categories that specify th
 - The codes from this codelist must be published in either of two fields, **To Individuals Details:Primary Grant Reason** and **To Individuals Details:Secondary Grant Reason**. 
 - Each field can only be included once with a single code per grant. If there is only a primary reason the secondary reason field can be left blank. 
 
-See below for [Grant to Individuals Reason.](../../individuals/publisher-guidance/#Grants-To-Individuals-Reason)
+See below for [Grant to Individuals Reason.](#Grants-To-Individuals-Reason)
 #### Grant Purpose
 The codelist **Grant to Individuals Purpose** includes categories to specify the purpose of the grant, in terms of what the funding will be used for.
 - The codes from this codelist must be published in the field **To Individuals Details:Grant Purpose**.
 - Funders may choose **one or more** of the categories to describe the purpose of the grant. When multiple codes are included, these must be separated by a **semi-colon**. 
 - It is recommended that **a maximum of three categories** are used. 
 
-See below for [Grant to Individuals Purpose.](../../individuals/publisher-guidance/#Grants-To-Individuals-Purpose)
+See below for [Grant to Individuals Purpose.](#Grants-To-Individuals-Purpose)
 ### Recommended fields
 Apart from the 10 core fields, all other fields in the 360Giving Data Standard are optional. However the majority of publishers do share a range of further information which make the data more useful and help users to understand their grantmaking better.
 
@@ -121,7 +121,7 @@ The Data Preparation templates have been set up to automatically add the correct
 #### Grant Programme:Title
 Grant programmes information helps users to understand a funder’s different areas of focus and how their grants vary across these. 
 
-There are also [additional grant programme field](../../technical/reference/#grant-programme/) that can be used to share a description of the grant programme and link to further information.
+There are also [additional grant programme field](../../technical/reference/spreadsheet-format/additional-fields/#grant-programme/) that can be used to share a description of the grant programme and link to further information.
 #### Last Modified
 This is metadata – data about the data – and shows users when information about the grant was last updated. **Last Modified** uses date-time format **YYYY-MM-DDThh:mm:ssZ**.
 #### Data Source
@@ -394,8 +394,8 @@ Two types of template have been provided for funders with the 360Giving Data Sta
 
 Use the Field guidance and Data Preparation templates guidance for further information about what types of data are suitable for sharing under each field.
 - [10 core fields](../../individuals/publisher-guidance/#core-fields)
-- [Recommended fields](../../individuals/publisher-guidance/#Recommended-fields)
-- [To Individuals Details fields](../../individuals/publisher-guidance/#To-Individuals-Details-fields)
+- [Recommended fields](../../individuals/publisher-guidance/#recommended-fields)
+- [To Individuals Details fields](../../individuals/publisher-guidance/#to-individuals-details-fields)
 
 The Data Preparation templates have been set up with data protection settings, to consistently anonymise recipient names, to create grant and recipients identifiers if internal systems IDs are not suitable for sharing and to support the conversion of postcodes into geocodes. 
 <div class="box box--teal">
