@@ -12,6 +12,7 @@ Funders also need to [decide what grants to include](../guidance/plan-the-proces
 <div class="box box--teal">
     <h3 class="box__heading">What counts as a grant to an individual?</h3>
     <p>The 360Giving Data Standard can be used to share data about grants to individuals and families, paid as money, in the form of cash or vouchers or goods or services that have been purchased for a specific individual or family. Gifts in kind that do not have a monetary value or benefit to a specific individual or family are not normally suitable for sharing as 360Giving data.</p></div>
+    
 ## Field guidance
 ### 10 core fields
 There are **10 core fields** of information which all 360Giving grant data about individuals must include. These fields ensure that the data will be usable and describe the **who, what, when and how much** of each grant:
@@ -111,7 +112,7 @@ It is recommended that location information is published at Ward area level, as 
 The Data Preparation templates have been set up to support the conversion of postcodes into Ward area level geocode. Further guidance on this step is [provided below.](../../individuals/data-preparation-templates/#converting-postcodes-into-geocodes)
 
 Postcodes or ONS geocodes for small areas such as MSOA or LSOA **must not** be used for data protection reasons.
-**- Beneficiary Location:Geographic Code Type**
+- **Beneficiary Location:Geographic Code Type**
 
 The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the codelist of [geographic code types.](../technical/codelists/#geocode-type/)
 
