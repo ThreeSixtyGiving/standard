@@ -65,7 +65,7 @@ Adding data directly into this sheet will break the formulas used to format the 
 ### Default settings
 The formulas in **360_data** sheet extend for the first 100 rows. This means that up to 100 grants can be converted by the template. See the [section on extending the formulas](#adding-more-rows-of-formulas-to-the-360_data-sheet) if you need to convert data for more than 100 grants at a time.
 
-For ease of use, this template is colour coded so that all the 10 core required items are highlighted green, the codelist fields are blue and the recommended but optional fields are yellow. For more information see our [Field guidance](#field-guidance).
+For ease of use, this template is colour coded so that all the 10 core required items are highlighted green, the codelist fields are blue and the recommended but optional fields are yellow. For more information see our [Field guidance](../../individuals/publisher-guidance/#field-guidance).
 
 ### How the template works
 The formulas and setup of the tool perform three types of actions to transform the data:
@@ -193,7 +193,7 @@ If you do have a grantmaking database or spreadsheet(s) for collecting grants da
 
 Enter the data you want to publish onto the **source_data** sheet under the appropriate headings.
 
-Full descriptions of all of the fields and guidance on how to populate each field is available in the **source_data_mapping** sheet and the [Field guidance](#field-guidance).
+Full descriptions of all of the fields and guidance on how to populate each field is available in the **source_data_mapping** sheet and the [Field guidance](../../individuals/publisher-guidance/#field-guidance).
 
 ### Convert data
 
