@@ -77,32 +77,112 @@ The formulas and setup of the tool perform three types of actions to transform t
 ### 1. Add in your organisation’s details
 Fill in your organisation’s data in the **tailored_settings** sheet. The publisher prefix and guidance on what Funding Org:Identifier to use will be provided by 360Giving Helpdesk when you fill out the [Publisher Registration form](../../individuals/register-with-360Giving-Helpdesk/).
 
-| 360Giving Title          | Example data            | Notes                                                                                                                                                                                                              |
-|--------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Identifier               | 360G-ExampleFunder-     | Fill in your Publisher prefix provided by 360Giving Helpdesk followed by a dash.                                                                                                                                   |
-| Currency                 | GBP                     | This is the currency code for British Pounds. You do not need to change this setting unless you award grants in other currencies. Contact 360Giving Helpdesk to update the template to work with other currencies. |
-| Recipient Ind:Identifier | 360G-ExampleFunder-IND- | Fill in your Publisher prefix provided by 360Giving Helpdesk followed by -IND-                                                                                                                                     |
-| Recipient Ind:Name       | Individual Recipient    | To anonymise the grants, the default name for individuals is ‘Individual Recipient’. You do not need to change this setting.                                                                                       |
-| Funding Org:Identifier   | GB-CHC-123456           | Fill in your Funding organisation identifier provided by 360Giving Helpdesk.                                                                                                                                       |
-| Funding Org:Name         | Example Funder          | Fill in your organisation’s name, as you want it to appear in your data.                                                                                                                                           |
-| Last Modified            | dd/mm/yyyy              | This defaults to today’s date, and captures the last time the data in the file was modified. You do not need to change this setting.                                                                               |
-| Data Source              | https://www.example.com | Fill in the link to your website, fully formatted with http:// or https:// at the start.                                                                                                                           |
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>360Giving Title</th>
+            <th>Example data</th>
+            <th>Notes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Identifier</td>
+                <td data-header="Example data">360G-ExampleFunder-</td>
+                <td data-header="Notes">Fill in your Publisher prefix provided by 360Giving Helpdesk followed by a dash.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Currency</td>
+                <td data-header="Example data">GBP</td>
+                <td data-header="Notes">This is the currency code for British Pounds. You do not need to change this setting unless you award grants in other currencies. Contact 360Giving Helpdesk to update the template to work with other currencies.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Recipient Ind:Identifier</td>
+                <td data-header="Example data">360G-ExampleFunder-IND-</td>
+                <td data-header="Notes">Fill in your Publisher prefix provided by 360Giving Helpdesk followed by -IND-</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Recipient Ind:Name</td>
+                <td data-header="Example data">Individual Recipient</td>
+                <td data-header="Notes">To anonymise the grants, the default name for individuals is ‘Individual Recipient’. You do not need to change this setting.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Funding Org:Identifier</td>
+                <td data-header="Example data">GB-CHC-123456</td>
+                <td data-header="Notes">Fill in your Funding organisation identifier provided by 360Giving Helpdesk.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Funding Org:Name</td>
+                <td data-header="Example data">Example Funder</td>
+                <td data-header="Notes">Fill in your organisation’s name, as you want it to appear in your data.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Last Modified</td>
+                <td data-header="Example data">dd/mm/yyyy</td>
+                <td data-header="Notes">This defaults to today’s date, and captures the last time the data in the file was modified. You do not need to change this setting.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Data Source</td>
+                <td data-header="Example data">https://www.example.com</td>
+                <td data-header="Notes">Fill in the link to your website, fully formatted with http:// or https:// at the start.</td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 #### Codelist_Mapping template only
 The following fields support the inclusion of the internal categories used to map against the 360Giving shared codelists. This allows for more granular categorisation of the grants to be included in 360Giving data.
 
 If all grants will have fewer or more categories than default (two reasons and three purposes) further tailoring of the template can be provided by 360Giving Helpdesk.
 
-|                          | Example data            | Notes                                                                                                                                |
-|--------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Identifier               | 360G-ExampleFunder-     | Fill in your Publisher prefix provided by 360Giving Helpdesk followed by a dash.                                                     |
-| Currency                 | GBP                     |                                                                                                                                      |
-| Recipient Ind:Identifier | 360G-ExampleFunder-IND- | Fill in your Publisher prefix provided by 360Giving Helpdesk followed by -IND-                                                       |
-| Recipient Ind:Name       | Individual Recipient    | To anonymise the grants, the default name for individuals is ‘Individual Recipient’. You do not need to change this setting.         |
-| Funding Org:Identifier   | GB-CHC-123456           | Fill in your Funding organisation identifier provided by 360Giving Helpdesk.                                                         |
-| Funding Org:Name         | Example Funder          | Fill in your organisation’s name, as you want it to appear in your data.                                                             |
-| Last Modified            | dd/mm/yyyy              | This defaults to today’s date, and captures the last time the data in the file was modified. You do not need to change this setting. |
-| Data Source              | https://www.example.com | Fill in the link to your website, fully formatted with http:// or https:// at the start.                                             |
+<div class="table table--zebra">
+    <table>
+        <thead>
+            <th>360Giving Title</th>
+            <th>Example data</th>
+            <th>Notes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Classifications 0</td>
+                <td data-header="Example data">Primary grant reason</td>
+                <td data-header="Notes">Fill in the name for your internal category list which is mapped against Primary Grant Reason. This could be the field name from your system or suitable alternative name.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Classifications 1</td>
+                <td data-header="Example data">Secondary grant reason</td>
+                <td data-header="Notes">Fill in the name for your internal category list which is mapped against Secondary Grant Reason. This could be the field name from your system or suitable alternative name. Leave blank only the primary reason is being shared.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Classifications 2</td>
+                <td data-header="Example data">Grant purpose</td>
+                <td data-header="Notes">Fill in the name for your internal category list which is mapped against Grant Purpose. This could be the field name from your system or suitable alternative name.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Classifications 3</td>
+                <td data-header="Example data">Grant purpose</td>
+                <td data-header="Notes">Fill in the name for your internal category list which is mapped against Grant Purpose. This could be the field name from your system or suitable alternative name. Leave blank if not being used.</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="table__lead-cell" data-header="360Giving Title">Classifications 4</td>
+                <td data-header="Example data">Grant purpose</td>
+                <td data-header="Notes">Fill in the name for your internal category list which is mapped against Grant Purpose. This could be the field name from your system or suitable alternative name. Leave blank if not being used.</td>
+                 </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ### 2. Update your Data Protection settings
 
