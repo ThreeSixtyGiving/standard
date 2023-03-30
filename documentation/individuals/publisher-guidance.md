@@ -2,7 +2,7 @@
 ## Introduction
 The following guidance covers the first two stages of the 360Giving publishing process, **planning** (including **data protection**) and **preparing the data**. The section on preparing the data is supplemented by detailed guidance on using **Data preparation templates** that have been set up to support funders of grants to individuals to format their grant information into 360Giving data.
 
-The final stages in the 360Giving publishing process involve [checking data quality](../guidance/data-quality/) and [publishing the data openly](../guidance/publish-data-openly/). As these steps are applicable to all types of grants and funders further information about these steps can be found in the [complete guide to publishing.](../guidance/)
+The final stages in the 360Giving publishing process involve [checking data quality](../guidance/data-quality/) and [publishing the data openly](../guidance/publish-data-openly/). As these steps are applicable to all types of grants and funders further information about these steps can be found in the [complete guide to publishing.](../../guidance/)
 ## Plan your process and data
 All funders need to [decide what fields of information to publish.](../guidance/plan-the-process/#decide-what-information-to-share/) The full 360Giving Data Standard is comprehensive, with over 100 fields available to describe information about grants, recipients, funding organisations, programmes, locations and more. 
 
