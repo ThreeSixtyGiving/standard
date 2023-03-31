@@ -348,7 +348,7 @@ For further information see our guidance on [publishing data openly](../guidance
 
 Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
 
-For further information see our guidance on [submitting your file to the Registry](../../guidance/publish-data-openly/#submit-your-file-to-the-data-registry).
+For further information see our guidance on [submitting your file to the Registry](../../guidance/publish-data-openly/#register-your-file-with-360giving).
 
 Once you have already published 360Giving for the first time, you can use the template and follow the same steps to format your next batch of grants, but this time opting to either copy the new grants into the existing file with your 360Giving data or setting up a new file.
 
