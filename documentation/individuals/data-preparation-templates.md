@@ -175,8 +175,10 @@ If all grants will have fewer or more categories than default (two reasons and t
 The **tailored_settings** sheet also includes two **Data Protection settings**, which control whether the unique identifiers from your grants management system are shared in 360Giving data.
 - Data Protection settings - Grant Identifier
 - Data Protection settings - Individual Identifier
+
 There is a dropdown with two options:
 - ‘Publish’ OR ‘Do not publish’
+
 Use the Data Protection checklist to help decide whether the grant and recipient identifiers from your internal systems are suitable for publishing in your 360Giving data. By default these are set to ‘Do not publish’.
 
 ### 3. Map your internal categories to the shared 360Giving codelists
@@ -187,7 +189,8 @@ You can map your categories to 360Giving’s Grant Reasons codes from columns A 
 
 By default there is space for 50 internal categories to be mapped. Paste them into:
 - **column A** for categories that are most closely aligned to the Grant Reason definition
-- **column F** for categories that are most closely aligned to the Grant Purpose definition 
+- **column F** for categories that are most closely aligned to the Grant Purpose definition
+ 
 Then, for each of your internal categories, pick the appropriate Reason or Purpose title from the drop-down list in:
 - **column B** for Reason codelist
 - **column G** for Purpose codelist
@@ -199,6 +202,7 @@ As the shared 360Giving codelists categories are broad, you may have multiple in
 Once you have fully mapped your internal categories to the shared 360Giving codelists, the template will be able to automatically convert your internal categories into the correct codes for publishing in your 360Giving data, when the relevant category data is included in your **source_data** in:
 - **columns I and J** for Reason categories
 - **columns K, L and M** for Purpose categories
+
 The original internal categories are also included unchanged in the **source_data** under Classifications fields in **columns Z to AI**.
 
 If you only have one reason category or fewer than three purpose categories, the extra columns can be left blank.
@@ -214,7 +218,8 @@ The template has been set up with five example grants entered in the **source_da
 Once you are ready to start using the template with your own data, please delete the following information by selecting and **clearing** the contents:
 - Five rows of grants information the **source_data** sheet (rows 4 to 8)
 - All the data in the **geo_data** sheet
-- Data in cells A3 to B5 and F3 to G8 in the **codelist_mapping** sheet. 
+- Data in cells A3 to B5 and F3 to G8 in the **codelist_mapping** sheet.
+
 Please do not delete the rows as it will cause errors with the formulas in **360_data** sheet.
 ### 5. Adding more rows of formulas to the 360_data sheet
 By default, the formulas in the **360_data** sheet extend for 100 rows, so they will convert the first 100 rows of grant data entered into the **source_data** sheet.
@@ -223,20 +228,28 @@ If you have more than 100 grants to convert at a time you need to increase the n
 ![Screenshot of how to add more rows of formulas](../../assets/Screenshot-Add-more-rows-of-formulas.png)
 
 To extend the formulas:
-1. Select all the cells in the last row with formulas in the **360_data** sheet (e.g. from **cell A101 to AI101**) and drag the formulas down.
-2. The drag control is the small green square in the bottom right corner of the bottom right-most cell (e.g. AI101).
-3. Hover over the square until it turns into a **black plus-sign +** then select and drag down to add as many rows as you need.
+
+1\. Select all the cells in the last row with formulas in the **360_data** sheet (e.g. from **cell A101 to AI101**) and drag the formulas down.
+
+2\. The drag control is the small green square in the bottom right corner of the bottom right-most cell (e.g. AI101).
+
+3\. Hover over the square until it turns into a **black plus-sign +** then select and drag down to add as many rows as you need.
 ### 6. Fixing errors that appear in the 360_data sheet formulas
 If you delete a row from the **source_data** sheet to remove a grant record, this will result in a **#REF!** error in the **360_data** sheet. This error will need to be fixed by resetting the formulas.
 
 ![Screenshot of REF error in template 1](../../assets/Screenshot-Fixing-errors-in-formulas-image1.png)
 
 The formulas can be reset by taking the following steps:
-1. In **360_data** sheet select all the cells in row 2 that have data – from **column A to AI**. This is the row under the colour highlighted titles.
-2. When the entire row of data is selected you will see a small green square at the bottom right corner of the cell **AI2** – see screenshot.
-3. When your cursor is over the green square it will turn into a cross **+**
-4. Double click on the cross **+** with your cursor.
-5. The formulas will update in all the rows below, and remove any **#REF!** errors.
+
+1\. In **360_data** sheet select all the cells in row 2 that have data – from **column A to AI**. This is the row under the colour highlighted titles.
+
+2\. When the entire row of data is selected you will see a small green square at the bottom right corner of the cell **AI2** – see screenshot.
+
+3\. When your cursor is over the green square it will turn into a cross **+**
+
+4\. Double click on the cross **+** with your cursor.
+
+5\. The formulas will update in all the rows below, and remove any **#REF!** errors.
 
 ![Screenshot of REF error in template 2](../../assets/Screenshot-Fixing-errors-in-formulas-image2.png)
 ## How to use the template
@@ -251,10 +264,14 @@ Enter the data you want to publish onto the **source_data** sheet under the appr
 Full descriptions of all of the fields and guidance on how to populate each field is available in the **source_data_mapping** sheet and the [Field guidance](../../individuals/publisher-guidance/#field-guidance).
 ### Convert data
 This method will work with data that is ready in a spreadsheet – this could be either a spreadsheet you use to manage your information, or a report you have exported from a grants management system.
-1. Copy the data from your spreadsheet of grant data into **source_data** sheet. Make sure the headings in your exported file match the order of columns in the **source_data** sheet and paste the data so it aligns with **column A**.
-2. Full descriptions of all of the fields is available in the **source_data_mapping** sheet, with space to fill in which fields from your internal system map to each **source_data** field.
+
+1\. Copy the data from your spreadsheet of grant data into **source_data** sheet. Make sure the headings in your exported file match the order of columns in the **source_data** sheet and paste the data so it aligns with **column A**.
+
+2\. Full descriptions of all of the fields is available in the **source_data_mapping** sheet, with space to fill in which fields from your internal system map to each **source_data** field.
+
 Once your grant data is entered into the **source_data** sheet.
-3. Check the **360_data** sheet to see if the information looks correct, making changes to the data in **source_data**, not in **360_data** directly, as required.
+
+3\. Check the **360_data** sheet to see if the information looks correct, making changes to the data in **source_data**, not in **360_data** directly, as required.
 
 For example:
 - Are there as many rows of grants as expected? If there are fewer rows of grants in the **360_data** sheet than in the **source_data** sheet you will need to extend the formulas to cover more rows, see [further guidance above](#adding-more-rows-of-formulas-to-the-360-data-sheet).
@@ -266,29 +283,32 @@ For example:
 The tool has a free and easy-to-use service called ‘<a href="https://findthatpostcode.uk/addtocsv/" target="_blank">Add fields to CSV</a>’ which allows you to upload a list of UK postcodes into the tool and then download a file with corresponding ONS and other official area geocodes.
 
 The template has been set up to work with data enriched with <a href="https://en.wikipedia.org/wiki/ONS_coding_system" target="_blank">ONS geocodes</a> using this service. Follow these steps to convert the postcodes in your data into Ward geocodes.
-1. Copy all the postcodes in your source data from **column D** of **source_data** sheet into **column A** of a new file. Do not include the first two rows (highlighted orange in **source_data**) but do include the third row containing the title **Recipient Postal Code**.
-2. Save the file as CSV UTF-8 (Comma delimited) and give it a suitable name – e.g. Postcode_lookup.
+
+1\. Copy all the postcodes in your source data from **column D** of **source_data** sheet into **column A** of a new file. Do not include the first two rows (highlighted orange in **source_data**) but do include the third row containing the title **Recipient Postal Code**.
+
+2\. Save the file as CSV UTF-8 (Comma delimited) and give it a suitable name – e.g. Postcode_lookup.
 
 ![Screenshot of uploading file to Add fields to CSV tool](../../assets/Screenshot-Upload-file-to-Add-fields-to-csv.png)
 
-3. Upload this file into the <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">‘Add fields to CSV‘ service</a>.
-4. Select the field that includes your postcode data, named **Recipient Postal Code**.
+3\. Upload this file into the <a href="https://findthatpostcode.uk/addtocsv/" target="_blank">‘Add fields to CSV‘ service</a>.
+
+4\. Select the field that includes your postcode data, named **Recipient Postal Code**.
 
 ![Screenshot of selecting postcodes filed in Add fields to CSV tool](../../assets/Screenshot-Select-field-with-postcodes.png)
 
-5. In the Key areas section also tick both Ward Code and Ward Name. Latitude/Longitude, Region and Local Authority are selected by default and should be included.
+5\. In the Key areas section also tick both Ward Code and Ward Name. Latitude/Longitude, Region and Local Authority are selected by default and should be included.
 
 ![Screenshot of selecting Ward names and codes in Add fields to CSV tool](../../assets/Screenshot-Select-Ward-Code-and-Ward-Name.png)
 
-6. Click the yellow ‘Add data to CSV‘ button at the bottom of the page. The tool will automatically download an updated version of your file with the geocodes and place names in eight extra columns.
+6\. Click the yellow ‘Add data to CSV‘ button at the bottom of the page. The tool will automatically download an updated version of your file with the geocodes and place names in eight extra columns.
 
 ![Screenshot of Add data to CSV button](../../assets/Screenshot-Add-data-to-CSV-button.png)
 
-7. Paste the data from the downloaded CSV file into the **geo_data** sheet in your template, ensuring that **column A** includes your postcodes.
+7\. Paste the data from the downloaded CSV file into the **geo_data** sheet in your template, ensuring that **column A** includes your postcodes.
 
 ![Screenshot of geodata pasted into data preparation template](../../assets/Screenshot-Geo_data-pasted-into-template.png)
 
-8. A lookup formula in the **360_data** sheet will then look up the Ward and Local Authority name and geocodes from the **geo_data** sheet, populating the data in **columns N to S**.
+8\. A lookup formula in the **360_data** sheet will then look up the Ward and Local Authority name and geocodes from the **geo_data** sheet, populating the data in **columns N to S**.
 
 ![Screenshot of geodata in 360_data sheet of template](../../assets/Screenshot-geodata-in-360_data-sheet.png)
 
@@ -328,7 +348,7 @@ For further information see our guidance on [publishing data openly](../guidance
 
 Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
 
-For further information see our guidance on [submitting your file to the Registry](../guidance/publish-data-openly/#submit-your-file-to-the-data-registry).
+For further information see our guidance on [submitting your file to the Registry](../../guidance/publish-data-openly/#submit-your-file-to-the-data-registry).
 
 Once you have already published 360Giving for the first time, you can use the template and follow the same steps to format your next batch of grants, but this time opting to either copy the new grants into the existing file with your 360Giving data or setting up a new file.
 
