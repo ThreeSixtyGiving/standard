@@ -77,7 +77,7 @@ The fields are for use with **two codelists** that have been developed to suppor
 
 Funders are encouraged to use these codelists, alongside the text included in **Title** and **Description** fields, to provide information that will allow their data to be analysed and compared with other funders of grants to individuals.
 
-The process of adopting the codelists may involve mapping the shared codelists against existing internal categorisations, or could require manual labelling of grants. Guidance on how to do this is provided in the [Data Preparation Templates section] below(../../individuals/data-preparation-templates)
+The process of adopting the codelists may involve mapping the shared codelists against existing internal categorisations, or could require manual labelling of grants. Guidance on how to do this is provided in the [Data Preparation Templates section](../../individuals/data-preparation-templates) below.
 
 360Giving Helpdesk can provide additional guidance on using these codelists in your 360Giving data, and provide tailored support on how to map any internal categories or make decisions about manually labelling your grants.
 #### Primary and Secondary Grant Reason
