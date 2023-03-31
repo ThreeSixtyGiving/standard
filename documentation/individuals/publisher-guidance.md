@@ -77,7 +77,7 @@ The fields are for use with **two codelists** that have been developed to suppor
 
 Funders are encouraged to use these codelists, alongside the text included in **Title** and **Description** fields, to provide information that will allow their data to be analysed and compared with other funders of grants to individuals.
 
-The process of adopting the codelists may involve mapping the shared codelists against existing internal categorisations, or could require manual labelling of grants. Guidance on how to do this is provided in the Data Preparation Templates section below.
+The process of adopting the codelists may involve mapping the shared codelists against existing internal categorisations, or could require manual labelling of grants. Guidance on how to do this is provided in the [Data Preparation Templates section] below(../../individuals/data-preparation-templates)
 
 360Giving Helpdesk can provide additional guidance on using these codelists in your 360Giving data, and provide tailored support on how to map any internal categories or make decisions about manually labelling your grants.
 #### Primary and Secondary Grant Reason
@@ -85,14 +85,14 @@ The codelist **Grant to Individuals Reason** includes categories that specify th
 - The codes from this codelist must be published in either of two fields, **To Individuals Details:Primary Grant Reason** and **To Individuals Details:Secondary Grant Reason**. 
 - Each field can only be included once with a single code per grant. If there is only a primary reason the secondary reason field can be left blank. 
 
-See below for [Grant to Individuals Reason.](#Grants-To-Individuals-Reason)
+See below for [Grant to Individuals Reason.](#grant-to-individuals-reason)
 #### Grant Purpose
 The codelist **Grant to Individuals Purpose** includes categories to specify the purpose of the grant, in terms of what the funding will be used for.
 - The codes from this codelist must be published in the field **To Individuals Details:Grant Purpose**.
 - Funders may choose **one or more** of the categories to describe the purpose of the grant. When multiple codes are included, these must be separated by a **semi-colon**. 
 - It is recommended that **a maximum of three categories** are used. 
 
-See below for [Grant to Individuals Purpose.](#Grants-To-Individuals-Purpose)
+See below for [Grant to Individuals Purpose.](#grant-to-individuals-purpose)
 ### Recommended fields
 Apart from the 10 core fields, all other fields in the 360Giving Data Standard are optional. However the majority of publishers do share a range of further information which make the data more useful and help users to understand their grantmaking better.
 
@@ -121,7 +121,7 @@ The Data Preparation templates have been set up to automatically add the correct
 #### Grant Programme:Title
 Grant programmes information helps users to understand a funder’s different areas of focus and how their grants vary across these. 
 
-There are also [additional grant programme field](../../technical/reference/spreadsheet-format/additional-fields/#grant-programme/) that can be used to share a description of the grant programme and link to further information.
+There are also [additional grant programme fields](../../technical/reference/#grant-programme) that can be used to share a description of the grant programme and link to further information.
 #### Last Modified
 This is metadata – data about the data – and shows users when information about the grant was last updated. **Last Modified** uses date-time format **YYYY-MM-DDThh:mm:ssZ**.
 #### Data Source
@@ -303,6 +303,8 @@ This checklist is designed to help audit the data held in internal systems that 
     </table>
 </div>
 
+\* If the third parties with access to the data are covered by data sharing agreements, you can answer No.
+
 #### Descriptive text
 <div class="table table--zebra">
     <table>
@@ -365,9 +367,6 @@ This checklist is designed to help audit the data held in internal systems that 
     </table>
 </div>
 
-
-\* If the third parties with access to the data are covered by data sharing agreements, you can answer No.
-
 ### 360Giving Take Down Policy
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
 
@@ -383,7 +382,7 @@ For many publishers, preparing their data is a manual process that involves expo
 
 For most publishers, whether you are using grants management software or you hold your grants data in spreadsheets, the practical steps to get your data ready will be similar and involve making changes to the data in a file. 
 
-Read the [general guidance about preparing 360Giving data](../../guidance/#prepare-and-format-your-data) for further information about your options.
+Read the [general guidance about preparing 360Giving data](../../guidance/prepare-data) for further information about your options.
 ### Register with 360Giving Helpdesk
 Once you have decided to publish your grants data, please fill in our <a href="https://www.threesixtygiving.org/publisher-registration-form/" target ="_blank">Publisher Registration Form</a> to let us know more about your organisation, so 360Giving Helpdesk can provide tailored support to suit your needs.
 
@@ -394,8 +393,8 @@ Two types of template have been provided for funders with the 360Giving Data Sta
 
 Use the Field guidance and Data Preparation templates guidance for further information about what types of data are suitable for sharing under each field.
 - [10 core fields](../../individuals/publisher-guidance/#core-fields)
-- [Recommended fields](../../individuals/publisher-guidance/#recommended-fields)
 - [To Individuals Details fields](../../individuals/publisher-guidance/#to-individuals-details-fields)
+- [Recommended fields](../../individuals/publisher-guidance/#recommended-fields)
 
 The Data Preparation templates have been set up with data protection settings, to consistently anonymise recipient names, to create grant and recipients identifiers if internal systems IDs are not suitable for sharing and to support the conversion of postcodes into geocodes. 
 <div class="box box--teal">
@@ -414,11 +413,11 @@ There are two versions of the template.
 
 **360Giving-Grants-to-Inds-Data-Preparation-Template_Codelist-Mapping** is designed for use by funders who have internal categories for their grants which can be mapped against the shared 360Giving codelists.
 
-Download a copy of the **<a href= "https://docs.google.com/spreadsheets/d/1ucTCgxS8V2Eg-fhbeHZBKgr4fg7HKRQs/" target ="_blank">Codelist-Mapping template</a>**
+Download a copy of the **<a href= "https://www.threesixtygiving.org/wp-content/uploads/360Giving-Grants-to-Inds-Data-Preparation-Template_Codelist-Mapping.xlsx" target ="_blank">Codelist-Mapping template</a>**
 
 **360Giving-Grants-to-Inds-Data-Preparation-Template_Manual-Coding** is designed for use by funders who don’t have existing categories for their grants, and so need to manually code their grants using the shared 360Giving codelists.
 
-Download a copy of the **<a href = "https://docs.google.com/spreadsheets/d/1ekc0nvjsgioZ6MvIcaI2Ecv5XBf7APMo/" target = "_blank">Manual-Coding template</a>**
+Download a copy of the **<a href = "https://www.threesixtygiving.org/wp-content/uploads/360Giving-Grants-to-Inds-Data-Preparation-Template_Manual-Coding.xlsx" target = "_blank">Manual-Coding template</a>**
 
 Full guidance about the templates and how they work is provided in the [Data Preparation Templates section.](../../individuals/data-preparation-templates)
 
@@ -426,3 +425,7 @@ Full guidance about the templates and how they work is provided in the [Data Pre
     <h3 class="box__heading">Filling out the templates</h3>
     <p>The 10 core fields must be filled in so that there is no missing information.</p>
   <p>For all other columns, if information is not available the field should be left blank. Do not use dashes (-) zeros (0) or N/A to fill in blank fields as this will make your data harder to use.</p></div>
+
+### What's next?
+Read our detailed guidance about how to use the Data Preparation Template.
+  
