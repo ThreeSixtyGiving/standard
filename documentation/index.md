@@ -30,6 +30,7 @@ This section features information about governance and change management of the 
    :maxdepth: 3
 
    guidance/index
+   individuals/index
    technical/index
    about/index
 
