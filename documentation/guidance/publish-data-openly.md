@@ -87,12 +87,14 @@ Examples of public sector data hosting pages:
 - <a href="https://data.hounslow.gov.uk/dataset/grants-to-the-vcse-sector" target="_blank">London Borough of Hounslow</a> 
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
-## Register your file with 360Giving
-Once your 360Giving data file is published, the final step is to let us know so we can add a link to the file from the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
+## Submit your file to the Data Registry
+Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
 
 The 360Giving Data Registry is a list of all the organisations that currently publish their grant data in the 360Giving Data Standard, with direct links to their data sources. Anyone can access the Registry to view, download and use the data.
 
 The files listed on the 360Giving Data Registry are the source for the grant information in GrantNav, 360Insights and other tools and platforms using the data.
+
+Publishers submit their valid 360Giving data files to the Data Registry using the 360Giving data file submission form. See our guidance on [how to submit your data to the Registry](../../guidance/submit-data/)
 
 ### When your grants will appear in GrantNav and 360Insights
 In order for data to be included in 360Giving tools, the data needs to meet these three criteria:
@@ -100,7 +102,7 @@ In order for data to be included in 360Giving tools, the data needs to meet thes
 - Openly licensed;
 - Valid according to the schema used for the 360Giving Data Standard.
 
-**GrantNav** and **360Insights** are updated on a daily basis. This means your data will appear there the day after a file is added to the Data Registry.
+**GrantNav** and **360Insights** are updated on a daily basis. This means your data will appear there the day after a file is submitted to the Data Registry.
 
 ```eval_rst
 .. _alternative-hosting-options:
@@ -237,9 +239,9 @@ By default, Wordpress websites organise uploads by year and month but it is poss
  
 Publishing your data using cloud-hosting solutions is one way to avoid file locations changing when you make updates. See guidance on [alternative file hosting arrangements](alternative-hosting-options) for more details.
  
-Maintaining a consistent link can be a convenient way to maintain 360Giving data files which avoids having to contact 360Giving Helpdesk each time you make an update.
+Maintaining a consistent link can be a convenient way to maintain 360Giving data files which avoids having to submit the file to the Registry each time you make an update.
 
 ### What's next?
-Read our guidance about making updates to your 360Giving data.
+Read our guidance about how to submit your 360Giving data to the Registry.
 
 
