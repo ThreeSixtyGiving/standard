@@ -48,11 +48,11 @@ This sheet contains the correctly formatted 360Giving data based on the source i
 
 This means that any changes in the content of the data in the **source_data**, **tailored_settings**, **codelist_mapping** or **geo_data** sheet will be picked up automatically in the **360_data** sheet.
 
-**Please note:** Do not add data directly into the **360_data** sheet or make any changes to this sheet, apart from extending the number of rows with formulas or resetting #REF! Errors (see further guidance on [setting up your template](#setting-up-your-template)). 
+**Please note:** Do not add data directly into the **360_data** sheet or make any changes to this sheet, apart from extending the number of rows with formulas or resetting **#REF!** Errors (see further guidance on [setting up your template](#setting-up-your-template)). 
 
 Adding data directly into this sheet will break the formulas used to format the data. This will stop the template working correctly and increases the risk of sharing data that does not pass 360Giving’s validity checks, or unintentionally includes personal data.
 ### Default settings
-The formulas in **360_data** sheet extend for the first 100 rows. This means that up to 100 grants can be converted by the template. See the [section on extending the formulas](#adding-more-rows-of-formulas-to-the-360_data-sheet) if you need to convert data for more than 100 grants at a time.
+The formulas in **360_data** sheet extend for the first 100 rows. This means that up to 100 grants can be converted by the template. See the [section on extending the formulas](#adding-more-rows-of-formulas-to-the-360-data-sheet) if you need to convert data for more than 100 grants at a time.
 
 For ease of use, this template is colour coded so that all the 10 core required items are highlighted green, the codelist fields are blue and the recommended but optional fields are yellow. For more information see our [Field guidance](../../individuals/publisher-guidance/#field-guidance).
 ### How the template works
@@ -62,7 +62,7 @@ The formulas and setup of the tool perform three types of actions to transform t
 3. Some other changes involve combining data from one or more of the sheets e.g. – **Identifier** and **Recipient Ind:Identifier** are often created from a unique grant ID and recipient ID taken from a grants management system, with your publisher prefix which starts **360G-**. For more information see our guidance about [Identifiers](../../technical/identifiers/#grant-identifier) and [Recipient Org:Identifiers](../../technical/identifiers/#organisation-identifier).
 ## Setting up your template
 ### 1. Add in your organisation’s details
-Fill in your organisation’s data in the **tailored_settings** sheet. The publisher prefix and guidance on what Funding Org:Identifier to use will be provided by 360Giving Helpdesk when you fill out the [Publisher Registration form](../../individuals/register-with-360Giving-Helpdesk/).
+Fill in your organisation’s data in the **tailored_settings** sheet. The publisher prefix and guidance on what Funding Org:Identifier to use will be provided by 360Giving Helpdesk when you fill out the [Publisher Registration form](../../individuals/publisher-guidance/#register-with-360giving-helpdesk).
 
 <div class="table table--zebra">
     <table>
@@ -123,6 +123,7 @@ Fill in your organisation’s data in the **tailored_settings** sheet. The publi
         </tbody>
     </table>
 </div>
+
 #### Codelist_Mapping template only
 The following fields support the inclusion of the internal categories used to map against the 360Giving shared codelists. This allows for more granular categorisation of the grants to be included in 360Giving data.
 
@@ -169,6 +170,7 @@ If all grants will have fewer or more categories than default (two reasons and t
         </tbody>
     </table>
 </div>
+
 ### 2. Update your Data Protection settings
 The **tailored_settings** sheet also includes two **Data Protection settings**, which control whether the unique identifiers from your grants management system are shared in 360Giving data.
 - Data Protection settings - Grant Identifier
@@ -176,9 +178,10 @@ The **tailored_settings** sheet also includes two **Data Protection settings**, 
 There is a dropdown with two options:
 - ‘Publish’ OR ‘Do not publish’
 Use the Data Protection checklist to help decide whether the grant and recipient identifiers from your internal systems are suitable for publishing in your 360Giving data. By default these are set to ‘Do not publish’.
+
 ### 3. Map your internal categories to the shared 360Giving codelists
 #### Codelist_Mapping template only
-In the **codelist_mapping** sheet, paste the list of any internal categories you may use to tag your grants into the relevant internal funder category column. If you do not have any relevant internal categories that can be mapped, you should use the **Manual-Coding** template and refer to the [Manual coding template guidance](#manual-coding-template). 
+In the **codelist_mapping** sheet, paste the list of any internal categories you may use to tag your grants into the relevant internal funder category column. If you do not have any relevant internal categories that can be mapped, you should use the **Manual-Coding** template and refer to the [Manual coding template guidance](#manual-coding-template).
 
 You can map your categories to 360Giving’s Grant Reasons codes from columns A to B and to 360Giving’s Grant Purposes codes from columns F to G.
 
@@ -254,7 +257,7 @@ Once your grant data is entered into the **source_data** sheet.
 3. Check the **360_data** sheet to see if the information looks correct, making changes to the data in **source_data**, not in **360_data** directly, as required.
 
 For example:
-- Are there as many rows of grants as expected? If there are fewer rows of grants in the **360_data** sheet than in the **source_data** sheet you will need to extend the formulas to cover more rows, see [further guidance above](#adding-more-rows-of-formulas-to-the-360_data-sheet).
+- Are there as many rows of grants as expected? If there are fewer rows of grants in the **360_data** sheet than in the **source_data** sheet you will need to extend the formulas to cover more rows, see [further guidance above](#adding-more-rows-of-formulas-to-the-360-data-sheet).
 - Are any of the cells blank or feature **#N/A** errors? All columns with a green title must include information in each cell because these are required fields which cannot be blank. Other columns without green headers may have blank cells if there is no information available. If any cells include zeros or #N/A errors, check the information in **source_data** sheet to see if there is a problem with the data and correct as needed.
 - Does the content of the data in **360_data** look right? If the values in the columns look wrong, there may be a mismatch between the mapping of the **source_data** fields with the 360Giving headings. Check the **source_data** to see if the order of the columns needs to be changed or if the first column of your source data is not aligned with **column A** in the sheet.
 ### Converting Postcodes into Geocodes
@@ -308,7 +311,7 @@ If you only have one reason category or fewer than three purpose categories the 
 
     a. To do this, first select and copy all the necessary columns and rows in the **360_data** sheet. E.g. from cell A1 to cell AI101
     
-    b. Then paste the copied data into the file you intend to publish, using the ‘Paste Special’ option ‘Value & Number Formatting’ (accessible via right click **%123** icon, or Home Menu > Clipboard, see screenshots)
+    b. Then paste the copied data into the file you intend to publish, using the ‘Paste Special’ option ‘Value & Number Formatting’ (accessible via right click **%123** icon, or Home Menu > Clipboard, see screenshots below)
 
     c. Save the file. This removes the formulas and leaves just the 360Giving formatted data.
 
@@ -323,8 +326,13 @@ Once your data passes the Data Quality Tool’s checks – and you are happy wit
 
 For further information see our guidance on [publishing data openly](../guidance/publish-data-openly/).
 
+Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
+
+For further information see our guidance on [submitting your file to the Registry](../guidance/publish-data-openly/#submit-your-file-to-the-data-registry).
+
 Once you have already published 360Giving for the first time, you can use the template and follow the same steps to format your next batch of grants, but this time opting to either copy the new grants into the existing file with your 360Giving data or setting up a new file.
 
 For further information see our guidance on [making updates to your 360Giving data](../guidance/making-updates/).
 
-When your data is published contact 360Giving Helpdesk so the file can be linked from the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
+### What's next?
+Click next to view the Technical information about the Standard.
