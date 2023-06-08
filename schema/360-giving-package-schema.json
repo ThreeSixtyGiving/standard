@@ -17,6 +17,15 @@
           "type": "string",
           "pattern": "^(\\d+\\.)(\\d+)$"
         },
+	"extensions": {
+	  "title": "Extensions",
+	  "description": "An array of strings which refer to Extensions in use by this 360Giving data file. Please see the Guidance for details.",
+	  "type": "array",
+	  "items": {
+	    "type": "string"
+	  },
+	  "uniqueItems": true
+	},
         "title": {
           "title": "Title",
           "description": "The title of the 360Giving data package. Should be a human readable version of information contained in the filename of the data and should be unique ",
