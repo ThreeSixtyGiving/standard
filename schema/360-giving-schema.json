@@ -470,7 +470,7 @@
           "description": "A name for this location.",
           "weight": 1.1,
           "title": "Name"
-        },
+        },	
         "countryCode": {
           "type": [
             "string",
@@ -1409,6 +1409,13 @@
       "type": "string",
       "codelist": "regrantType.csv",
       "openCodelist": false
+    },
+    "locationScope": {
+	  "type": "string",
+	  "title": "Location Scope",
+	  "description": "A code referring to the location scope applicable to this grant. The value for this field should be drawn from the Location Scope codelist.",
+	  "codelist": "locationScope.csv",
+	  "openCodelist": false
     }
   }
 }
