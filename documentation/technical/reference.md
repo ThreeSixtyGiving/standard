@@ -49,7 +49,7 @@ The [Additional fields](additional-fields) section provides details of all other
 ```
 
 ### Meta Sheet
-We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab-2023.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
@@ -74,10 +74,61 @@ The main 'grants' sheet includes sections for:
 
 * Basic information about the grant;
 * Planned dates for the grant;
-* Details of the recipient organisation;
+* Details of the recipient organisation or recipient individual;
 * Details of the funding organisation;
 * The location of beneficiaries;
 * Details of the grant programme funding is from;
+
+The main grants sheet also includes fields for including codes to indicate:
+
+* Grants intended for redistribution
+* The grant purpose and grant reason for grants to individuals
+* The location scope of the grant
+
+For further information read our [Guide to codelists](codelists).
+
+#### 10 required fields
+
+360Giving Data Standard can be used to publish data about grants awarded to **organisations** or **individuals**.
+
+All 360Giving data must include 10 required fields of information, and eight of these are consistent to all types of grantmaking:
+
+* Identifier
+* Title
+* Description
+* Currency
+* Amount Awarded
+* Award Date
+* Funding Org:Identifier
+* Funding Org:Name
+
+The remaining two required fields are different depending on whether the recipient of the grant is an **organisation** or an **individual**.
+
+If the recipient is an organisation:
+
+* Recipient Org:Identifier
+* Recipient Org:Name
+
+If the recipient is an individual:
+
+* Recipient Ind:Identifier
+* Recipient Ind:Name
+
+``` eval_rst
+.. hint::  
+  
+  The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
+```
+
+Each grant record can have EITHER an organisation OR an individual recipient, not both.
+
+If the recipient is an organisation, in addition to the two required fields there is other useful information that can be shared about the organisation, such as charity and company numbers, website address, postcode, description. 
+
+If the recipient is an individual there are no additional fields of information about the individual. However further detail about the grant can be provided using specific codelists: **Grant to Individuals Purpose** and **Grant to Individuals Reason**. 
+
+For further information read our [Guide to codelists](codelists).
+
+#### Grants Sheet Table
 
 ```eval_rst
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
@@ -216,6 +267,10 @@ Use the other sheets in the <a href="../../_static/summary-table/360-giving-sche
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding or Recipient Org.
 
+```eval_rst
+.. _numbering:
+```
+
 ##### Numbering
 
 You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This imitates JSON Pointer's approach.
@@ -338,7 +393,8 @@ You must not:
 
 The 360Giving Data Standard is defined by a <a href="https://json-schema.org/" target="_blank"> JSON Schema</a>, which details the entities that can be described using the standard, and the properties it recognises.
 
-At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
+At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient) or Individuals (Recipient), Locations (Recipient, Beneficiary, Funder), Classifications, Grant Programmes, and Transactions.
+
 
 ```eval_rst
 .. _360giving-json-schemas:

@@ -1,12 +1,8 @@
-# Data preparation guide for community foundations
+# Guide for Community Foundations
 
 <div class="box box--teal">
     <h2 class="box__heading">Not using the Digits2 grants management system?</h2>
-    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the buttons below to return to the guidance on preparing your data or continue to guidance about testing your data quality.</p></div>
-
-<p>
-    <a href="../../guidance/prepare-data" class="button button--teal">Previous</a> <a href="../../guidance/data-quality/" class="button button--teal">Next</a>
-</p>
+    <p>This guidance is for community foundations using the Digits2 grants management system on Salesforce only. If you do not use Digits2 use the side menu to go to guidance on preparing your data.</p></div>
 
 ## Overview
 In collaboration with UKCF, 360Giving has supported the development of a tool for the Digits2 (D2) system which means that grant information can be extracted from your system ready-formatted to the 360Giving Data Standard.
@@ -15,7 +11,9 @@ Community foundations participating in a pilot were consulted to agree a field s
 
 This tool built into the D2 system means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
 
-Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site. You can also [download this guidance](../../assets/Data%20preparation%20guide%20for%20community%20foundations%20-%20PDF%20version.pdf) [PDF 384kb].
+Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site. You can also <a href="https://www.threesixtygiving.org/wp-content/uploads/Data_preparation_guide_for_community_foundations-PDF_version.pdf" target="_blank=">download this guidance<a/> [PDF 384kb].
+
+<a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the video walk-through<a/>
 
 ## The information included in the D2 extract 
 The D2 360Giving data extract tool allows you to publish useful information about the grants you have awarded.
@@ -114,7 +112,7 @@ The following system-generated fixed or calculated values will not appear in the
             <tr>
                 <td class="table__lead-cell" data-header="360Giving field">Identifier</td>
                 <td data-header="Salesforce source">Grant Application Reference Number</td>
-                <td data-header="Notes">The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX</td>
+                <td data-header="Notes">The grant identifier will be the unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX</td>
                 </td>
             </tr>
             <tr>
@@ -150,7 +148,7 @@ The following system-generated fixed or calculated values will not appear in the
             <tr>
                 <td class="table__lead-cell" data-header="360Giving field">Currency</td>
                 <td data-header="Salesforce source">Default Value</td>
-                <td data-header="Notes">The grant identifier will be the Grant Application unique Grant Application reference number prefixed with each Community Foundation’s unique organization identifier e.g. 360G-CF-XXXXXXX</td>
+                <td data-header="Notes">Default to GBP</td>
                 </td>
             </tr>
             <tr>
@@ -206,7 +204,7 @@ Once you have exported a file of your data using the 360Giving extract, the next
 
 Each Community Foundation is responsible for the data it publishes.  You can check that your data is valid using this Data Quality Tool developed, which will tell you if there are any issues with your dataset.
 
-Click **Next** below to read our guidance on checking data quality before publishing your data.
+See the guidance on [checking data quality](../../guidance/data-quality/) before publishing your data.
 
 ## Publishing your 360Giving data
 Once you are happy with your data file and the Data Quality tool shows that the data is valid, the next step is to find a place on your website for hosting the file and outlining the open license you are releasing it under.
