@@ -49,7 +49,7 @@ The [Additional fields](additional-fields) section provides details of all other
 ```
 
 ### Meta Sheet
-We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
+We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab-2023.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
 * The title and description of the file
@@ -57,6 +57,8 @@ We also provide a version of the <a href="../../_static/360-giving-schema-titles
 * Information about the publisher such as name, logo, website and identifier
 * Links to access and download the file
 * A link for the open license that applies to the file
+
+You can read further guidance about how to include metadata in your data files in the [Metadata guidance](../../technical/metadata).
 
 ```eval_rst
 .. jsonschema-titles:: ../../schema/360-giving-package-schema.json
@@ -72,10 +74,61 @@ The main 'grants' sheet includes sections for:
 
 * Basic information about the grant;
 * Planned dates for the grant;
-* Details of the recipient organisation;
+* Details of the recipient organisation or recipient individual;
 * Details of the funding organisation;
 * The location of beneficiaries;
 * Details of the grant programme funding is from;
+
+The main grants sheet also includes fields for including codes to indicate:
+
+* Grants intended for redistribution
+* The grant purpose and grant reason for grants to individuals
+* The location scope of the grant
+
+For further information read our [Guide to codelists](codelists).
+
+#### 10 required fields
+
+360Giving Data Standard can be used to publish data about grants awarded to **organisations** or **individuals**.
+
+All 360Giving data must include 10 required fields of information, and eight of these are consistent to all types of grantmaking:
+
+* Identifier
+* Title
+* Description
+* Currency
+* Amount Awarded
+* Award Date
+* Funding Org:Identifier
+* Funding Org:Name
+
+The remaining two required fields are different depending on whether the recipient of the grant is an **organisation** or an **individual**.
+
+If the recipient is an organisation:
+
+* Recipient Org:Identifier
+* Recipient Org:Name
+
+If the recipient is an individual:
+
+* Recipient Ind:Identifier
+* Recipient Ind:Name
+
+``` eval_rst
+.. hint::  
+  
+  The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
+```
+
+Each grant record can have EITHER an organisation OR an individual recipient, not both.
+
+If the recipient is an organisation, in addition to the two required fields there is other useful information that can be shared about the organisation, such as charity and company numbers, website address, postcode, description. 
+
+If the recipient is an individual there are no additional fields of information about the individual. However further detail about the grant can be provided using specific codelists: **Grant to Individuals Purpose** and **Grant to Individuals Reason**. 
+
+For further information read our [Guide to codelists](codelists).
+
+#### Grants Sheet Table
 
 ```eval_rst
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
@@ -214,6 +267,10 @@ Use the other sheets in the <a href="../../_static/summary-table/360-giving-sche
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding or Recipient Org.
 
+```eval_rst
+.. _numbering:
+```
+
 ##### Numbering
 
 You can describe multiple occurrences within the Grants sheet by having multiple columns. Use `:<num>:` instead of a `:`. This imitates JSON Pointer's approach.
@@ -257,10 +314,13 @@ The new row:
 
 In the second row, the fields which were originally populated with information are left blank so as to avoid conflicts, and the additional information is added to the "Amount Disbursed" column. This means the multiple rows method can only be used to add new data, and it is not suitable for amending data that has already been published.
 
-
 ### Field guidance
 
 Field guidance provides further useful information about fields in the 360Giving Data Standard. It provides guidance about the correct data formatting to use and some examples of how to apply the formatting when using spreadsheets.
+
+```eval_rst
+.. _dates-and-times:
+```
 
 #### Dates and times
 
@@ -333,7 +393,8 @@ You must not:
 
 The 360Giving Data Standard is defined by a <a href="https://json-schema.org/" target="_blank"> JSON Schema</a>, which details the entities that can be described using the standard, and the properties it recognises.
 
-At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient), Locations (Recipient, Beneficiary), Classifications, Grant Programmes, and Transactions.
+At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient) or Individuals (Recipient), Locations (Recipient, Beneficiary, Funder), Classifications, Grant Programmes, and Transactions.
+
 
 ```eval_rst
 .. _360giving-json-schemas:
@@ -344,7 +405,7 @@ The 360Giving JSON Schemas are the authoritative source of information about the
 
 The <a href="../../_static/360-giving-schema.json">360Giving Grant Schema</a> defines the structure of an individual 'grant' and the documentation from this is displayed below, or <a href="../../_static/docson/index.html#../360-giving-schema.json">fullscreen here</a>.
 
-When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. This is to ensure that the way the grant data may be consumed remains consistent regardless of whether there are 10 grants or 10,000 grants. The <a href="../../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not a grant). Metadata is declared using the fields in the package schema (except for grants which is a list of grant data).
+When exchanging data about a single grant or any number of grants, those grants need to be packaged into a single JSON file. This is to ensure that the way the grant data may be consumed remains consistent regardless of whether there are 10 grants or 10,000 grants. The <a href="../../_static/360-giving-package-schema.json">360Giving Package  Schema</a> describes how grants are packaged into one file and may be used to publish authoritative metadata about the publisher, the file or dataset (not the grants). Metadata is declared using the fields in the package schema (except for "grants" field, which contains a list of grant data).
 
 In general, most publishers will use a subset of the possible features of the 360Giving Data Standard, but it is designed to accommodate comprehensive data about all stages of a grant process: for a full 360-degree view.
 

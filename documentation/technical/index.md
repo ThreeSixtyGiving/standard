@@ -16,7 +16,9 @@ In this guidance you will find:
 - Full schema documentation
 - Spreadsheet templates
 - Field guidance
-- Guidance about grant and organisation identifiers
+- Guidance about grant, organisation and individual identifiers
+- Guidance about metadata
+- Guidance about codelists
 
 If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../guidance)
 
@@ -26,5 +28,7 @@ If you are just getting started with sharing 360Giving data, start by reading th
 
    reference
    identifiers
+   metadata
+   codelists
 
 ```
