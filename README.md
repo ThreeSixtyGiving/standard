@@ -3,7 +3,7 @@
 360Giving Standard
 ========
 
-360Giving aims to help UK grant makers and philanthropists to publish their grant information online in an easy to use way.  We are motivated by a commitment to the value of open data and strategic funding.
+360Giving's mission is to help UK funders publish open, standardised grants data, and empower people to use it to improve charitable giving.
 
 The **360Giving Data Standard** provides a common approach for publishing grant data.
 
