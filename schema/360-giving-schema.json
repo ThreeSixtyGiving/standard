@@ -6,7 +6,6 @@
     "currency": {
       "type": "string",
       "description": "The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.",
-      "weight": 5.02,
       "codelist": "currency.csv",
       "enum": [
         "ADP",
@@ -319,7 +318,6 @@
         "id": {
           "type": "string",
           "description": "Identifier",
-          "weight": 0.001,
           "title": "Identifier"
         },
         "transactionDate": {
@@ -333,7 +331,6 @@
           ],
           "type": "string",
           "description": "When did this transaction take place? The date should be written as YYYY-MM-DD, or in full date-time format.",
-          "weight": 5,
           "title": "Transaction Date"
         },
         "currency": {
@@ -342,7 +339,6 @@
         "value": {
           "type": "number",
           "description": "The total value of this transaction.",
-          "weight": 6,
           "title": "Value"
         },
         "valueDate": {
@@ -359,7 +355,6 @@
             "null"
           ],
           "description": "The date that this value was set (to allow historical currency conversion). The date should be written as YYYY-MM-DD, or in full date-time format.",
-          "weight": 6.1,
           "title": "Value Date"
         },
         "description": {
@@ -368,7 +363,6 @@
             "null"
           ],
           "description": "A description of this transaction.",
-          "weight": 9,
           "title": "Description"
         },
         "provider": {
@@ -377,7 +371,6 @@
             "null"
           ],
           "description": "The organisation identifier of the provider of transaction funds.",
-          "weight": 0.6,
           "title": "Provider"
         },
         "recipient": {
@@ -386,14 +379,12 @@
             "null"
           ],
           "description": "The organisation identifier of the recipient of transaction funds.",
-          "weight": 0.7,
           "title": "Recipient"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "When was information about this transaction last updated? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -404,7 +395,6 @@
         "id": {
           "type": "string",
           "description": "An identifier for this document.",
-          "weight": 0.001,
           "title": "Identifier"
         },
         "title": {
@@ -413,7 +403,6 @@
             "null"
           ],
           "description": "The document title",
-          "weight": 1.05,
           "title": "Title"
         },
         "url": {
@@ -423,7 +412,6 @@
           ],
           "format": "uri",
           "description": "The URL of the document.",
-          "weight": 11.01,
           "title": "Web Address"
         },
         "description": {
@@ -432,7 +420,6 @@
             "null"
           ],
           "description": "A description of the document",
-          "weight": 9,
           "title": "Description"
         },
         "documentType": {
@@ -441,14 +428,12 @@
             "null"
           ],
           "description": "A document category. For example, 'Application Form', 'Photo' or 'Project Report'. In future, 360Giving will provide a codelist of document types.",
-          "weight": 0.8,
           "title": "Document Type"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "What was this information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -459,7 +444,6 @@
         "id": {
           "type": "string",
           "description": "Location identifier",
-          "weight": 0.001,
           "title": "Identifier"
         },
         "name": {
@@ -468,7 +452,6 @@
             "null"
           ],
           "description": "A name for this location.",
-          "weight": 1.1,
           "title": "Name"
         },	
         "countryCode": {
@@ -729,7 +712,6 @@
             "ZW"
           ],
           "description": "The 2-character ISO Country Code of the location of this activity. Taken from [ISO-3166-1-alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)",
-          "weight": 2,
           "title": "Country Code"
         },
         "latitude": {
@@ -738,7 +720,6 @@
             "null"
           ],
           "description": "The latitude of a point location. Using [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System) standard, for example 51.501502",
-          "weight": 4.001,
           "title": "Latitude"
         },
         "longitude": {
@@ -747,7 +728,6 @@
             "null"
           ],
           "description": "The longitude of a point location. Using [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System) standard, for example -0.175269",
-          "weight": 4.002,
           "title": "Longitude"
         },
         "description": {
@@ -756,7 +736,6 @@
             "null"
           ],
           "description": "A description of this location. This could include details of the element of the activity that takes place here.",
-          "weight": 9,
           "title": "Description"
         },
         "geoCode": {
@@ -765,7 +744,6 @@
             "null"
           ],
           "description": "A code referring to a geographical area, drawn from an established gazetteer such as the [ONS Register of Geographic Codes](https://en.wikipedia.org/wiki/ONS_coding_system) in the UK. For example, the code for a local authority ward, or parliamentary constituency.",
-          "weight": 5,
           "title": "Geographic Code"
         },
         "geoCodeType": {
@@ -774,14 +752,12 @@
             "null"
           ],
           "description": "The type of Geographic Code (geoCode) used (e.g. Ward, Parliamentary Constituency etc.). This value for this field should be drawn from the [codelist of geographic code types](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists/geoCodeType.csv).",
-          "weight": 5.01,
           "title": "Geographic Code Type"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "When was this location information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -792,13 +768,11 @@
         "vocabulary": {
           "type": "string",
           "description": "A vocabulary used for this classification.",
-          "weight": 8,
           "title": "Vocabulary"
         },
         "code": {
           "type": "string",
           "description": "A codelist value in the chosen vocabulary.",
-          "weight": 9,
           "title": "Code"
         },
         "title": {
@@ -807,7 +781,6 @@
             "null"
           ],
           "description": "The title of this classification.",
-          "weight": 1.05,
           "title": "Title"
         },
         "description": {
@@ -816,7 +789,6 @@
             "null"
           ],
           "description": "A description of this classification.",
-          "weight": 9,
           "title": "Description"
         },
         "url": {
@@ -826,14 +798,12 @@
           ],
           "format": "uri",
           "description": "A web link to more details of this classification.",
-          "weight": 9,
           "title": "URL"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "When was this grant classification information last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -844,7 +814,6 @@
         "code": {
           "type": "string",
           "description": "An identifier for this grant programme.",
-          "weight": 9,
           "title": "Code"
         },
         "title": {
@@ -853,7 +822,6 @@
             "null"
           ],
           "description": "The title of this grant programme.",
-          "weight": 1.05,
           "title": "Title"
         },
         "description": {
@@ -862,7 +830,6 @@
             "null"
           ],
           "description": "A description of this grant programme.",
-          "weight": 9,
           "title": "Description"
         },
         "url": {
@@ -872,14 +839,12 @@
           ],
           "format": "uri",
           "description": "A web link to more details of this grant programme.",
-          "weight": 9,
           "title": "URL"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "When was the link between this grant and its grant programme last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -913,13 +878,11 @@
         "id": {
           "type": "string",
           "description": "A globally unique identifier for this organisation. This is important to enable data on funders and recipients to be linked up across different grant-makers. The [Organisation Identifier Standard](https://standard.threesixtygiving.org/en/latest/technical/identifiers/#organisation-identifier) guidance explains how to create this ID, based either on the known company or charity number, or upon identifiers held in the grantmaker's internal systems.",
-          "weight": 0.001,
           "title": "Identifier"
         },
         "name": {
           "type": "string",
           "description": "Organisation name",
-          "weight": 1.1,
           "title": "Name"
         },
         "department": {
@@ -930,73 +893,61 @@
         "contactName": {
           "type": "string",
           "description": "The contact person at this organisation.",
-          "weight": 2,
           "title": "Contact Name"
         },
         "charityNumber": {
           "type": "string",
           "description": "Registered charity number, if applicable.",
-          "weight": 6.01,
           "title": "Charity Number"
         },
         "companyNumber": {
           "type": "string",
           "description": "Registered UK company number, if applicable.",
-          "weight": 6.02,
           "title": "Company Number"
         },
         "streetAddress": {
           "type": "string",
           "description": "Organisation address building number and street name.",
-          "weight": 3.1,
           "title": "Street Address"
         },
         "addressLocality": {
           "type": "string",
           "description": "Organisation address city or town.",
-          "weight": 3.2,
           "title": "City"
         },
         "addressRegion": {
           "type": "string",
           "description": "Organisation address county",
-          "weight": 3.3,
           "title": "County"
         },
         "addressCountry": {
           "type": "string",
           "description": "Organisation address country",
-          "weight": 3.5,
           "title": "Country"
         },
         "postalCode": {
           "type": "string",
           "description": "Organisation address postal code.",
-          "weight": 3.4,
           "title": "Postal Code"
         },
         "telephone": {
           "type": "string",
           "description": "Contact phone number.",
-          "weight": 3.5,
           "title": "Phone Number"
         },
         "alternateName": {
           "type": "string",
           "description": "An alternative name for this organisation (e.g. trading name)",
-          "weight": 6,
           "title": "Alternate Name"
         },
         "email": {
           "type": "string",
           "description": "The email address for this organisation.",
-          "weight": 5,
           "title": "Email"
         },
         "description": {
           "type": "string",
           "description": "A short description of this organisation and its area of work",
-          "weight": 9,
           "title": "Description"
         },
         "organisationType": {
@@ -1005,14 +956,12 @@
             "null"
           ],
           "description": "A description of this organisation",
-          "weight": 5,
           "title": "Organisation Type"
         },
         "url": {
           "type": "string",
           "format": "uri",
           "description": "A web address for the Organisation",
-          "weight": 11.01,
           "title": "Web Address"
         },
         "location": {
@@ -1021,14 +970,12 @@
           },
           "type": "array",
           "description": "Information about the location of the organisation.",
-          "weight": 5,
           "title": "Location"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "When was the organisation information for this grant last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -1043,7 +990,6 @@
           "type": "string",
           "title": "Title",
           "description": "The title of this event",
-          "weight": 1.05
         },
         "startDate": {
           "oneOf": [
@@ -1059,7 +1005,6 @@
           ],
           "type": "string",
           "description": "All events should have a start date. Dates must be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
-          "weight": 4.1,
           "title": "Start Date"
         },
         "endDate": {
@@ -1076,27 +1021,23 @@
           ],
           "type": "string",
           "description": "An end date for the grant. Dates must be in YYYY-MM-DD or date-time format. If the month or day are not available, these may be omitted.",
-          "weight": 4.3,
           "title": "End Date"
         },
         "duration": {
           "type": "number",
           "minimum": 0,
           "description": "The duration of the grant, in months. Must be in number format.",
-          "weight": 4.2,
           "title": "Duration (months)"
         },
         "description": {
           "type": "string",
           "description": "A description of this event",
-          "weight": 9,
           "title": "Description"
         },
         "dateModified": {
           "format": "date-time",
           "type": "string",
           "description": "When was information about this event last modified? A full date-time should be given. Usually this can be generated automatically by the software managing or exporting this data.",
-          "weight": 25,
           "title": "Last Modified"
         }
       }
@@ -1132,19 +1073,16 @@
     "id": {
       "type": "string",
       "description": "The unique identifier for this grant. Made up of your 360Giving prefix, and an identifier from your records. See the [360Giving Grant identifier guidance](https://standard.threesixtygiving.org/en/latest/technical/identifiers/#grant-identifier) for details.",
-      "weight": 0.001,
       "title": "Identifier"
     },
     "title": {
       "type": "string",
       "description": "A title for this grant activity. This should be under 140 characters long.",
-      "weight": 1.05,
       "title": "Title"
     },
     "description": {
       "type": "string",
       "description": "A short description of this grant activity.",
-      "weight": 9,
       "title": "Description"
     },
     "currency": {
@@ -1153,19 +1091,16 @@
     "amountAppliedFor": {
       "type": "number",
       "description": "Total amount applied for in numbers (do not include commas or currency symbols such as \u00a3). If you have provided detailed transaction information on a separate table, this should equal the sum of all the application transactions for this grant.",
-      "weight": 5.03,
       "title": "Amount Applied For"
     },
     "amountAwarded": {
       "type": "number",
       "description": "Total amount awarded in numbers (do not include commas or currency symbols such as \u00a3). If you have provided detailed transaction information on a separate table, this should equal the sum of all the award transactions for this grant.",
-      "weight": 5.04,
       "title": "Amount Awarded"
     },
     "amountDisbursed": {
       "type": "number",
       "description": "Total amount disbursed (paid) to this grantee when this record was last updated (in numbers: do not include commas or currency symbols such as \u00a3)). If you have provided detailed transaction information on a separate table, this should equal the sum of all the disbursement transactions for this grant.",
-      "weight": 5.04,
       "title": "Amount Disbursed"
     },
     "awardDate": {
@@ -1179,14 +1114,12 @@
       ],
       "type": "string",
       "description": "When the decision to award this grant was made. The date must be written as YYYY-MM-DD, or in full date-time format.",
-      "weight": 4.3,
       "title": "Award Date"
     },
     "url": {
       "type": "string",
       "format": "uri",
       "description": "A URL (Web Address) where further information about this grant can be found. This could point to the website of the recipient organisation, or might link to further details on the funders website.",
-      "weight": 11.01,
       "title": "URL"
     },
     "plannedDates": {
@@ -1194,7 +1127,6 @@
         "$ref": "#/definitions/Event"
       },
       "type": "array",
-      "weight": 5.041,
       "title": "Planned Dates",
       "description": "When the recipient organisation intends this activity to take place. A date range can include a start date and duration in months, or a start and end date.",
       "rollUp": [
@@ -1209,7 +1141,6 @@
       },
       "type": "array",
       "description": "When did this grant activity actually take place. Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.",
-      "weight": 5.041,
       "title": "Actual Dates"
     },
     "recipientIndividual": {
@@ -1253,7 +1184,6 @@
       },
       "minItems": 1,
       "type": "array",
-      "weight": 5,
       "title": "Recipient Org",
       "description": "Details of the recipient of this grant.",
       "rollUp": [
@@ -1275,7 +1205,6 @@
         "$ref": "#/definitions/Location"
       },
       "type": "array",
-      "weight": 6.01,
       "title": "Beneficiary Location",
       "description": "Information about the location of beneficiaries. Further information about beneficiaries can be provided through classifications.",
       "rollUp": [
@@ -1294,7 +1223,6 @@
       "minItems": 1,
       "type": "array",
       "description": "Details of the funder",
-      "weight": 4,
       "title": "Funding Org",
       "rollUp": [
         "id",
@@ -1308,7 +1236,6 @@
       },
       "type": "array",
       "description": "Information about the grant programme under which the grant was awarded",
-      "weight": 5,
       "title": "Grant Programme",
       "rollUp": [
         "code",
@@ -1323,7 +1250,6 @@
         "No"
       ],
       "description": "Was this grant made as the result of an open call for applications? Values must be 'Yes' or 'No'",
-      "weight": 12,
       "title": "From An Open Call?"
     },
     "fundingType": {
@@ -1332,7 +1258,6 @@
       },
       "type": "array",
       "description": "Information about the type of funding provided by the grant",
-      "weight": 5,
       "title": "Funding Type"
     },
     "classifications": {
@@ -1341,7 +1266,6 @@
       },
       "type": "array",
       "description": "Information about a classification associated with the grant",
-      "weight": 5,
       "title": "Classifications"
     },
     "relatedDocument": {
@@ -1350,7 +1274,6 @@
       },
       "type": "array",
       "description": "Information about a document related to the grant",
-      "weight": 5,
       "title": "Related Document"
     },
     "applicationTransaction": {
@@ -1359,7 +1282,6 @@
       },
       "type": "array",
       "description": "-",
-      "weight": 5.02
     },
     "commitmentTransaction": {
       "items": {
@@ -1367,7 +1289,6 @@
       },
       "type": "array",
       "description": "-",
-      "weight": 5.02
     },
     "disbursementTransaction": {
       "items": {
@@ -1375,7 +1296,6 @@
       },
       "type": "array",
       "description": "-",
-      "weight": 5
     },
     "relatedActivity": {
       "type": "array",
@@ -1383,14 +1303,12 @@
         "type": "string"
       },
       "description": "The identifiers of any related activities (e.g. other grants given as part of a multi-grant project)",
-      "weight": 15,
       "title": "Related Activity"
     },
     "dateModified": {
       "format": "date-time",
       "type": "string",
       "description": "When was information on this grant last updated? A full date-time format must be given. Usually this can be generated automatically by the software managing or exporting this data.",
-      "weight": 25,
       "title": "Last Modified"
     },
     "dataSource": {
@@ -1400,7 +1318,6 @@
         "null"
       ],
       "description": "A web link pointing to the source of this data. This may be an original 360Giving data file, a file from which the data was converted, or an organisation website.",
-      "weight": 25,
       "title": "Data Source"
     },
     "regrantType": {
