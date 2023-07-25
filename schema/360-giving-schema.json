@@ -989,7 +989,7 @@
         "title": {
           "type": "string",
           "title": "Title",
-          "description": "The title of this event",
+          "description": "The title of this event"
         },
         "startDate": {
           "oneOf": [
@@ -1281,21 +1281,21 @@
         "$ref": "#/definitions/Transaction"
       },
       "type": "array",
-      "description": "-",
+      "description": "-"
     },
     "commitmentTransaction": {
       "items": {
         "$ref": "#/definitions/Transaction"
       },
       "type": "array",
-      "description": "-",
+      "description": "-"
     },
     "disbursementTransaction": {
       "items": {
         "$ref": "#/definitions/Transaction"
       },
       "type": "array",
-      "description": "-",
+      "description": "-"
     },
     "relatedActivity": {
       "type": "array",
