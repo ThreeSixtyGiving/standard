@@ -7,9 +7,9 @@
 
 The **360Giving Data Standard** provides a common approach for publishing grant data.
 
-For more about the overall project, visit the main [360Giving website](http://threesixtygiving.org/).
+For more about the overall project, visit the main [360Giving website](https://threesixtygiving.org/).
 
-Full documentation of the data standard is provided at [http://www.threesixtygiving.org/standard](http://www.threesixtygiving.org/standard/en/latest)
+Full documentation of the data standard is provided at [https://standard.threesixtygiving.org/en/latest/](https://standard.threesixtygiving.org/en/latest/).
 
 ## Schema and tools
 
