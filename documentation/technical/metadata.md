@@ -67,6 +67,10 @@ This is for the version of the 360Giving Data Standard being used, so not the ve
 
 Find the details of the current version in the <a href="https://github.com/ThreeSixtyGiving/standard/releases" target="_blank" >Releases changelog</a>. 
 
+**Extensions**
+
+This is a text field that can be used to declare a list of extensions used in the file. Each extension is represented by a code, and multiple extensions can be declared by separating them with a semicolon `;` character.
+
 **Title and Description**
 
 These are text fields that can be used to provide information about the name of the file and its contents, and provide further contextual information if appropriate.
