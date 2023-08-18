@@ -74,7 +74,7 @@ You can view and download further details about the core, recommended and option
 
 For further information about Recipient and Beneficiary location fields visit the [360Giving guide to location data.](../guidance/location-guide)
 
-You can find further information about the core and recommended fields and codelists for sharing information about grants to individuals in our [Field guidance.](../individuals/publisher-guidance/#field-guidance)
+You can find further information about the core and recommended fields and codelists for sharing information about grants to individuals in our [Field guidance.](../../individuals/publisher-guidance/#field-guidance)
 
 For further information about all the possible fields in the 360Giving Data Standard, visit the [Technical Reference section.](../technical/reference) 
 
@@ -122,7 +122,7 @@ You may find it helpful to look at the data published by other funders to unders
 #### Data Quality Dashboard
 <a href="https://qualitydashboard.threesixtygiving.org/" target="_blank">The Data Quality Dashboard</a> shows the data quality of 360Giving data as a whole and for each individual publisher. It provides insights into the key features that make the data useful for analysis to help publishers to identify opportunities for their data to be improved.
 
-<img src="https://qualitydashboard.threesixtygiving.org/static/vue-build/img/360dataqualitydashboard-color.5d5dbb39.svg" alt="360Giving Data Quality Dashboard logo" width="500" />
+<img src="https://qualitydashboard.threesixtygiving.org/static/vue-build/img/360dataqualitydashboard-color.1a6a42d9.svg" alt="360Giving Data Quality Dashboard logo" width="500" />
 
 #### GrantNav
 <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is our search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
@@ -148,7 +148,7 @@ For more guidance about how to explore 360Giving data in GrantNav visit the <a h
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
-![Screenshot of 360Insights](../../assets/Example_360Insights_view.PNG)
+![Screenshot of 360Insights](../../assets/Example_360Insights_view.png)
 
 ### What's next?
 Read our guidance about data protection aimed at funders of grants to organisations and what to consider when publishing open grants data for the first time.
