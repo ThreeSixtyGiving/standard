@@ -12,6 +12,7 @@
 Guidance for publishers sets out the three key stages in the 360Giving publishing process, and highlights the options available and factors that will inform the choices you make.
 
 These stages apply to all types of funder. However, the approach you take, the support you need, and how long the process will take can all vary, depending on a few factors:
+- Whether you give grants to organisations, individuals or to both organisations and individuals
 - The information you collect about your grantmaking
 - The systems you use to manage the data
 - How much data you want to publish 
@@ -42,8 +43,8 @@ For many publishers, preparing their data is a manual process that involves expo
 
 ### Publish
 - Your prepared file of 360Giving data needs to be made available online accompanied with an open license, which provides clear permissions to allow for its use. This step usually involves uploading the file to your website and linking to the file with text referring to the open license. 
-- The final step is to let 360Giving know that your data has been published.
-- Once your file of 360Giving data has been published openly, a link to it will be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>. Your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
+- The final step is to let 360Giving know that your data has been published by submitting the file to the 360Giving Data Registry.
+- Once your file has been added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a> your grant data will then start to appear in <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>, <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a> and other tools and platforms that use 360Giving data.
 
 <p>
     <a href="../../guidance/publish-data-openly" class="button button--teal">Read more</a>
@@ -51,7 +52,7 @@ For many publishers, preparing their data is a manual process that involves expo
 
 ### Updating 360Giving data
 - Once you have published 360Giving data for the first time, you will decide whether to make updates to add more grants on an annual basis or more frequently.
-- It is a good idea to document your publishing process as a reminder for when you come to make an updates to your data.
+- It is a good idea to document your publishing process as a reminder for when you come to make updates to your data.
 
 <p>
     <a href="../../guidance/making-updates" class="button button--teal">Read more</a>
@@ -67,17 +68,16 @@ There can however be costs related to consultancy or support fees to get a grant
 #### 360Giving Helpdesk
 Our Helpdesk provides pro-bono support to help funders navigate the steps to publish their grant data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
 
-You can contact 360Giving Helpdesk via <support@threesixtygiving.org>.
+You can contact 360Giving Helpdesk via <support@threesixtygiving.org>. Visit our website to find out other ways to get <a href="https://www.threesixtygiving.org/publishing" target="_blank">support with publishing</a>.
 
 ## Who publishes 360Giving data
-Any type of funder can publish their grants data in the 360Giving Data Standard. Over 200 funders share 360Giving data. They range in size from large organisations with many staff to small trustee-run trusts and include family, corporate and community foundations, central, devolved and local governments, lottery distributors and livery companies.
+Any type of funder can publish their grants data in the 360Giving Data Standard. Over 250 funders share 360Giving data. They range in size from large organisations with many staff to small trustee-run trusts and include family, corporate and community foundations, central, devolved and local governments, lottery distributors and livery companies, as well as benevolent charities and grantmakers to individuals.
 
 The majority of funders sharing 360Giving data make grants to recipients based in the UK, however it is also possible to use the 360Giving Data Standard to share data about international grants.
 
-![Funders who publish 360Giving grants data](../../assets/Who-publishes-360Giving-data.PNG)
+Although initially designed for sharing data about grants to organisations, an update to the 360Giving Data Standard in 2022 has enabled the publication of grants to individuals.
 
-
-Read <a href="https://www.threesixtygiving.org/2021/07/01/how-has-grants-data-grown/" target="_blank">our blog</a> to find out more about the different types of funders publishing 360Giving data.
+View our <a href="https://www.threesixtygiving.org/data/explore-the-data" target="_blank">visualisations</a> to find out more about the different types of funders publishing 360Giving data.
 
 ### Why publish 360Giving data?
 Find out more about <a href="https://www.threesixtygiving.org/support/why-publish-grants-data/" target="_blank">the benefits of publishing 360Giving data.</a> 
@@ -87,9 +87,15 @@ Funders of all shapes and sizes have become 360Giving data publishers. Many usin
 
 Where and how you collect and store information about your grants has a fundamental impact on the data you will be able to share. This will also influence the practical process taken to format your data to the 360Giving Data Standard. 
 
-When you contact 360Giving Helpdesk we will ask what grants management systems you use. Whatever the answer, there will be useful learning to share from our work supporting over 200 other funders to share their grants data.
+When you contact 360Giving Helpdesk and fill out our [New Publisher Registration form](../../guidance/prepare-data/#register-with-360giving-helpdesk) we will ask what grants management systems you use. Whatever the answer, there will be useful learning to share from our work supporting over 250 other funders to share their grants data.
 
-Go to the [prepare page](../../guidance/prepare-data) for further details about the likely impact your grants management system on your publishing process.
+Go to the [prepare page](../../guidance/prepare-data) for further details about the likely impact your grants management system has on your publishing process.
+
+### Publishing resources for grants to individuals
+For funders of grants to individuals, there is a special guide on publishing data responsibly so that the privacy and confidentiality of the recipients is protected.
+The guidance provides information about key concepts and descriptions of the fields and codelists available for funders of grants to individuals to use, and provides templates to support the preparation of the data.
+
+Read the guide for [grants to individuals](../../guidance/individuals)
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
