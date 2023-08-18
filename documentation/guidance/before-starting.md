@@ -95,7 +95,7 @@ Go to the [prepare page](../../guidance/prepare-data) for further details about 
 For funders of grants to individuals, there is a special guide on publishing data responsibly so that the privacy and confidentiality of the recipients is protected.
 The guidance provides information about key concepts and descriptions of the fields and codelists available for funders of grants to individuals to use, and provides templates to support the preparation of the data.
 
-Read the guide for [grants to individuals](../../individuals)
+Read the guide for [grants to individuals.](../../individuals)
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
