@@ -89,14 +89,14 @@ For guidance on naming your own fields, visit the [Additional fields section.](a
 .. _decide-what-grants-to-include:
 ```
 
-### Decide what grants to include
+## Decide what grants to include
 360Giving is a voluntary initiative and you can decide what information to share in your open grants data, based on what is appropriate to your circumstances. 
 
 The majority of 360Giving publishers data about all their grants, but there are examples of those who share data about certain programmes, or only grants over a certain value.
 
 If your goal is to publish data about all your grants but you find there are practical or policy issues to address first, work out which grant programmes or grants are unaffected by these barriers, and move forward with publishing these. The learning from this process can then be applied to other areas of your grantmaking once the issues are resolved.
 
-#### Decide whether to share historical grant data
+### Decide whether to share historical grant data
 You can publish data going as far back as you want (and have data for) or focus on sharing information about recent grants.
 
 Some funders have published many years of historical data, while others have started by sharing data about the past year or recent grant award rounds. The decision about how much historical data to share is often informed by practical considerations.
