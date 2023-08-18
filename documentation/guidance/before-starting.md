@@ -87,7 +87,7 @@ Funders of all shapes and sizes have become 360Giving data publishers. Many usin
 
 Where and how you collect and store information about your grants has a fundamental impact on the data you will be able to share. This will also influence the practical process taken to format your data to the 360Giving Data Standard. 
 
-When you contact 360Giving Helpdesk and fill out our [New Publisher Registration form](../../guidance/prepare-data/#register-with-360giving-helpdesk) we will ask what grants management systems you use. Whatever the answer, there will be useful learning to share from our work supporting over 250 other funders to share their grants data.
+When you contact 360Giving Helpdesk and fill out our [Publisher Registration form](../../guidance/prepare-data/#register-with-360giving-helpdesk) we will ask what grants management systems you use. Whatever the answer, there will be useful learning to share from our work supporting over 250 other funders to share their grants data.
 
 Go to the [prepare page](../../guidance/prepare-data) for further details about the likely impact your grants management system has on your publishing process.
 
@@ -95,7 +95,7 @@ Go to the [prepare page](../../guidance/prepare-data) for further details about 
 For funders of grants to individuals, there is a special guide on publishing data responsibly so that the privacy and confidentiality of the recipients is protected.
 The guidance provides information about key concepts and descriptions of the fields and codelists available for funders of grants to individuals to use, and provides templates to support the preparation of the data.
 
-Read the guide for [grants to individuals](../../guidance/individuals)
+Read the guide for [grants to individuals](../../individuals)
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
