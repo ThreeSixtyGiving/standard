@@ -69,7 +69,7 @@ Find the details of the current version in the <a href="https://github.com/Three
 
 **Extensions**
 
-This is a text field that can be used to declare a list of extensions used in the file. Each extension is represented by a code, and multiple extensions can be declared by separating them with a semicolon `;` character.
+This is a text field that can be used to declare a list of extensions used in the file. Each extension is represented by a short string &ndash; which is a piece of text like a code &ndash; and multiple extensions can be declared by separating them with a semicolon `;` character.
 
 **Title and Description**
 
