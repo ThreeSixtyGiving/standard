@@ -71,13 +71,13 @@ Linking 360Giving from an existing webpage:
 - <a href="https://www.cfsurrey.org.uk/who-we-support-2/" target="_blank">Community Foundation for Surrey</a> 
 - <a href="https://www.somersetcf.org.uk/open" target="_blank">Somerset Community Foundation</a>
 - <a href="https://www.jlc.london/grants/recent-grants/" target="_blank">John Lyon’s Charity</a>
-- <a href="https://virginmoneyfoundation.org.uk/grants-awarded/" target="_blank">Virgin Money Foundation</a> 
+- <a href="https://virginmoneyfoundation.org.uk/" target="_blank">Virgin Money Foundation</a> 
 
 Linking 360Giving data from a dedicated open data page:
 - <a href="http://andrewlloydwebberfoundation.com/360-giving" target="_blank">Andrew Lloyd Webber Foundation</a>
 - <a href="https://www.bbcchildreninneed.co.uk/grants/bbc-children-in-need-360-giving/" target="_blank">BBC Children in Need</a> 
-- <a href="https://www.citybridgetrust.org.uk/360-giving/" target="_blank">City Bridge Trust</a> 
-- <a href="https://www.corra.scot/about/open-data" target="_blank">Corra Foundation</a> 
+- <a href="https://www.citybridgetrust.org.uk/what-we-do/360-giving" target="_blank">City Bridge Trust</a> 
+- <a href="https://www.heritagefund.org.uk/about/insight/open-data" target="_blank">The National Lottery Heritage Fund</a> 
 
 ### Data hosting for public sector organisations
 Some local authorities can have dedicated open data portals for hosting information published by the council or about the local area, which are ideal places to host 360Giving data.
@@ -86,7 +86,7 @@ Alternatively, public sector organisations may be able to use the central <a hre
 
 Examples of public sector data hosting pages:
 - <a href="https://data.london.gov.uk/dataset/gla-grants-data" target="_blank">Greater London Authority</a> 
-- <a href="https://data.hounslow.gov.uk/dataset/grants-to-the-vcse-sector" target="_blank">London Borough of Hounslow</a> 
+- <a href="https://data.hounslow.gov.uk/dataset/grants-to-voluntary-and-community-sector-organisation" target="_blank">London Borough of Hounslow</a> 
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
 ## Submit your file to the Data Registry
