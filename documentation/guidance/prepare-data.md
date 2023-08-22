@@ -71,12 +71,12 @@ It can also be possible to build-in 360Giving publishing into other types of con
 ```
 
 ## Options for publishing using a spreadsheet
-For funders of grants to organisations:
+For funders of **grants to organisations**:
 - Start with an empty file and construct the column titles by referring to the 360Giving Data Standard [technical reference.](grants-sheet) 
 - Use the [‘360Giving Spreadsheet Template’](spreadsheet-template) and adapt this to your needs.
 - Configure and use a [Conversion Tool Template](conversion-tool-template), a method used by funders using a wide range of systems.
 
-For funders of grants to individuals, use a [Data Preparation Template.](data-preparation-templates)
+For funders of **grants to individuals**, use a [Data Preparation Template.](data-preparation-templates)
 
 ### Using the 360Giving Spreadsheet Template
 This multi-sheet spreadsheet template consists of all the fields in the 360Giving Data Standard. 
@@ -111,7 +111,9 @@ See our guidance for further information about [One to many relationships.](one-
 ```
 
 ### Conversion Tool Template
-A 360Giving Conversion Tool template is an Excel file designed to make the technical steps of formatting grant information into 360Giving data more straightforward. The tool can be set up to work with the range of data you choose to share with support from the 360Giving Helpdesk. These templates are designed to prepare information about grants to organisations. There is also a special version of a conversion template for funders of grants to individuals called a [Data Preparation Template](data-preparation-templates)
+A 360Giving Conversion Tool template is an Excel file designed to make the technical steps of formatting grant information into 360Giving data more straightforward. The tool can be set up to work with the range of data you choose to share with support from the 360Giving Helpdesk. 
+
+These templates are designed to prepare information about **grants to organisations**. There is also a special version of a conversion template for funders of **grants to individuals** called a [Data Preparation Template](data-preparation-templates)
 
 Although each tool is tailored to each funders’ data and needs, they are all set up in the same way, with at least three sheets:
 
@@ -137,7 +139,7 @@ To find out whether using a conversion tool would be an appropriate way for your
 ### Data Preparation Templates for grants to individuals
 Two types of template have been provided for funders, with the 360Giving Data Standard fields needed to prepare and publish useful information about grants to individuals. These Data Preparation Templates include the 10 core fields and some recommended fields and have been set up with data protection settings to ensure data is shared responsibility.
 
-Read our guide to how to [prepare data about grants to individuals](../../individuals/publisher-guidance/#prepare-and-format-your-data).
+Read our guidance to how to [prepare data about grants to individuals](../../individuals/publisher-guidance/#prepare-and-format-your-data).
 
 ```eval_rst
 .. _setting-up-salesforce-for-360giving-data-publishing:
