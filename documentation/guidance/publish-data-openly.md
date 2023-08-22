@@ -10,7 +10,9 @@
        </ol></p></div>
 
 ## Overview
-At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
+At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is technically ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
+
+Prior to publishing your data, you should also check the contents of your data to ensure it is accurate, and that there is no personal data included that could allow an individual to be identified. For further information, read our guidance on data protection for [funders of grants to individuals](../../individuals/publisher-guidance/#data-protection) and [funders of grants to organisations](../../guidance/data-protection).
 
 ## How to make your 360Giving data open
 Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit the <a href="https://opendefinition.org" target="_blank">Open Definition website.</a>
@@ -103,6 +105,13 @@ In order for data to be included in 360Giving tools, the data needs to meet thes
 - Valid according to the schema used for the 360Giving Data Standard.
 
 **GrantNav** and **360Insights** are updated on a daily basis. This means your data will appear there the day after a file is submitted to the Data Registry.
+
+## Taking down published data
+A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
+
+An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
+
+360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
 ```eval_rst
 .. _alternative-hosting-options:
