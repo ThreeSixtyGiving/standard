@@ -23,9 +23,7 @@ There are **10 core fields** of information which all 360Giving data must includ
 ### 10 core fields
 360Giving Data Standard can be used to publish data about grants awarded to **organisations** or **individuals**.
 
-Eight of the 10 core fields are consistent for all types of grantmaking
-
-Seven of the 10 core fields are commonly collected as part of the grantmaking process, and may be stored in a grants management system: 
+Eight of the 10 core fields are consistent for all types of grantmaking:
 - Identifier
 - Title
 - Description
@@ -47,7 +45,7 @@ If the recipient is an individual:
 
 <div class="box box--teal">
     <h4 class="box__heading">Hint</h4>
-    <p>Three pieces of information are usually added as part of the data preparation process: Funder name; Funder identifier and Currency</a></p></div>
+    <p>Seven of the 10 core fields are commonly collected as part of the grantmaking process, and may be stored in a grants management system. Three pieces of information are usually added as part of the data preparation process: Funder name; Funder identifier and Currency</a></p></div>
 
 #### Grants to individuals and data protection
 The fields are titled **Recipient Ind:Identifier** and **Recipient Ind:Name**, however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
