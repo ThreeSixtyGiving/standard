@@ -70,9 +70,9 @@ It is possible to start by publishing simpler information and then extend the ra
 #### Further information about core and recommended fields
 You can view and download further details about the core, recommended and optional fields for **funders of grants to organisations** in the <a href="https://docs.google.com/spreadsheets/d/1klj0PzxrlnBPhodpEQC7tD6aRNuEjVNeNHVRvIv66b4/edit?usp=sharing" target="_blank">Notes about the 360Giving Data Standard</a> (link opens in Google Sheets).
 
-For further information about Recipient and Beneficiary location fields visit the [360Giving guide to location data.](../guidance/location-guide)
+For further information about **Recipient location**, **Beneficiary location** and **Location scope** fields visit the [360Giving guide to location data.](../guidance/location-guide)
 
-You can find further information about the core and recommended fields and codelists for sharing information about grants to individuals in our [Field guidance.](../../individuals/publisher-guidance/#field-guidance)
+You can find further information about the core and recommended fields and codelists for sharing information about **grants to individuals** in our [Field guidance.](../../individuals/publisher-guidance/#field-guidance)
 
 For further information about all the possible fields in the 360Giving Data Standard, visit the [Technical Reference section.](../technical/reference) 
 
@@ -112,7 +112,7 @@ The more grant data you can share, the greater the benefit to users of 360Giving
 
 <div class="box box--teal">
     <h3 class="box__heading">Data protection</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data. The data protection requirements and steps that need to be taken to ensure grants data can be shared responsibility are different for funders of grants to individuals than they are for funders of grants to organisations. Read our guidance on data protection <a href="../../guidance/data-protection" target="_blank">funders of grants to organisations</a> or <a href="../../individuals/publisher-guidance/#data-protection" target="_blank">funders of grants to individuals</a>.</p></div>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.</p><p>The data protection requirements and steps that need to be taken to ensure grants data can be shared responsibility are different for funders of grants to individuals than they are for funders of grants to organisations.</p><p>Read our guidance on data protection <a href="../../guidance/data-protection" target="_blank">funders of grants to organisations</a> or <a href="../../individuals/publisher-guidance/#data-protection" target="_blank">funders of grants to individuals</a>.</p></div>
 
 ## Taking inspiration from others
 You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
