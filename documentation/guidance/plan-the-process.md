@@ -29,7 +29,7 @@ Eight of the 10 core fields are consistent for all types of grantmaking:
 - Description
 - Currency
 - Amount Awarded
-- Aware Date
+- Award Date
 - Funding Org:Name
 - Funding Org:Identifier
 
@@ -112,7 +112,7 @@ The more grant data you can share, the greater the benefit to users of 360Giving
 
 <div class="box box--teal">
     <h3 class="box__heading">Data protection</h3>
-    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.</p><p>The data protection requirements and steps that need to be taken to ensure grants data can be shared responsibility are different for funders of grants to individuals than they are for funders of grants to organisations.</p><p>Read our guidance on data protection <a href="../../guidance/data-protection" target="_blank">funders of grants to organisations</a> or <a href="../../individuals/publisher-guidance/#data-protection" target="_blank">funders of grants to individuals</a>.</p></div>
+    <p>Once you have decided the scope of the information you want to share, it is important to carefully consider if there are any privacy or data protection implications to publishing your grant data.</p><p>The data protection requirements and steps that need to be taken to ensure grants data can be shared responsibility are different for funders of grants to individuals than they are for funders of grants to organisations.</p><p>Read our guidance on data protection for <a href="../../guidance/data-protection" target="_blank">funders of grants to organisations</a> or <a href="../../individuals/publisher-guidance/#data-protection" target="_blank">funders of grants to individuals</a>.</p></div>
 
 ## Taking inspiration from others
 You may find it helpful to look at the data published by other funders to understand how it works in practice and help you to picture how your own grants would appear.
