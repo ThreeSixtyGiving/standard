@@ -1,14 +1,19 @@
 # About this site
 This site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
 
-The guidance is divided into three main sections.
+The guidance is divided into four main sections.
 
 ### Guidance for publishers
 
+#### Main guide
 This section features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
 
 [Read more](guidance)
 
+#### Grants to individuals
+This section features templates, guidance and codelists designed to support funders of grants to individuals with responsible publishing of data about their grants using the 360Giving Data Standard which protects the privacy of individual recipients.
+
+[Read more](individuals)
 
 ### Technical information
 
