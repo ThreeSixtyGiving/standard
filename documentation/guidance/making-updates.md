@@ -5,6 +5,7 @@
     <li>Make a note of your publishing processes as a reminder for next time.</li>
       <li>Decide how frequently to make updates to your 360Giving data.</li>
       <li>Submit any new or updated files of 360Giving data to the Registry.</li>
+    </ol></p></div>
 
 ## Overview
 Many organisations choose to update their data annually, some publish every six months or quarterly, with others doing an update following each grant award round. The aim is to have timely information available - but what 'timely' means will be different for different organisations, depending on circumstances and how often grants are awarded.
