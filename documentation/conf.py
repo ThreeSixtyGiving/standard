@@ -132,6 +132,7 @@ todo_include_todos = False
 #
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 
+# We don't do a check for RTD environment anymore since https://github.com/ThreeSixtyGiving/standard/pull/371
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
