@@ -23,7 +23,7 @@ requests==2.27.1
 recommonmark==0.7.1
 six==1.10.0
 snowballstemmer==1.2.1
-urllib3==1.26.5
+urllib3==1.26.17
 jdcal==1.2
 jsonref==0.1
 lxml==4.9.1
