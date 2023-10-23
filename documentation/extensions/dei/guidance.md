@@ -1,4 +1,4 @@
-# DEI Guidance
+# Guidance for Publishers
 
 ## Introduction
 
