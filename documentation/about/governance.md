@@ -194,6 +194,116 @@ As both PATCH and MINOR version upgrades are backwards-compatible, publishers an
 
 Publishers and users will be provided with notice of MAJOR upgrades and provided with guidance and support where appropriate to make a transition to using the new version, which they should aim to do within 18 months.
 
+## Normative and Non-normative Content
+
+### Key Concepts
+
+* **Normative**: [Normative content](https://en.wikipedia.org/wiki/Normative#Standards_documents) is the prescriptive part of a standard. It sets the rules to be followed in order to be evaluated as compliant with the standard, and from which no deviation is permitted; contains recommendations that have official standing; and provides options which, if implemented, must be done in a given way in order to remain compliant.
+* **Non-normative**: Non-normative content is the non-prescriptive, or ‘descriptive’, part of a standard. This may include analogies, synonyms, explanations, illustrations, context and examples. Non-normative content must not contradict normative content.
+* **Compliant**: Something that is evaluated as fulfilling the criteria set by the normative content of a standard. It is synonymous with conformant.
+* **360Giving Data Standard**: The 360Giving Data Standard is the normative content at [http://standard.threesixtygiving.org/en/latest/](../index).
+* **360 data**: Data that complies with the 360Giving Data Standard.
+* **Content**: Content is anything meaningful, whether it is text (e.g. a sentence on a web page or in a Markdown file; a JSON fragment; a CSV field), an image or otherwise.
+
+### Background and Motivation
+
+The [360Giving Data Standard documentation website](../index) includes content that is normative and therefore is defined as the 360Giving Data Standard. It also includes non-normative content, which is guidance about related topics. The documents which set out the 360Giving Data Standard [governance and revision control processes](#governance-of-the-standard), and the responsibilities of the Stewardship committee do not include a definition of the scope or location of the content subject to those processes.
+
+This policy aims to provide clear guidance about what content on the 360Giving Data Standard documentation website is normative and non-normative, and the associated change processes for each.
+
+### What is normative content?
+
+The following content is considered normative as at version 1.0.2.
+
+#### 360Giving Data Standard Documentation
+
+The following sections and sub-sections are considered normative. The source of these pages are found in the [documentation directory](https://github.com/ThreeSixtyGiving/standard/tree/master/documentation).
+
+* [Index](../index)
+* [Reference](../technical/reference)
+  * [Data Formats](../technical/reference.md#data-formats)
+  * [Spreadsheet Format](../technical/reference.md#spreadsheet-format)
+  * [JSON Format](../technical/reference.md#json-format)
+* [Identifiers](../technical/identifiers)
+  * [Identifier Basics](../technical/identifiers.md#creating-identifiers)
+  * [Get your prefix](../technical/identifiers.md#get-your-prefix)
+  * [Grant Identifier](../technical/identifiers.md#grant-identifier)
+  * [Organisation Identifier](../technical/identifiers.md#organisation-identifier)
+* [Governance and Revision Control](./governance)
+  * [Introduction](#introduction)
+  * [Governance of the Standard](#governance-of-the-standard)
+  * [Versioning and Upgrade Process](#versioning-and-upgrade-process)
+  * [Deprecation and Support Policies](#deprecation-and-support-policies)
+  * [Normative and Non-normative Content](#normative-and-non-normative-content)
+* [Terms of Reference of the 360Giving Data Standard Stewardship Committee](../sc-tor)
+
+#### JSON Schema Files
+
+The following files are considered normative content. These files are found in the [schema directory](https://github.com/ThreeSixtyGiving/standard/tree/master/schema).
+
+* 360-giving-package-schema.json
+* 360-giving-schema.json
+* 360-summary-table-schema.json
+
+#### Codelist CSV Files
+
+The following files are considered normative content. This file is found in the [codelists directory](https://github.com/ThreeSixtyGiving/standard/tree/master/codelists).
+
+* geoCodeType.csv
+
+### What is Non-normative content?
+
+The following sections and sub-sections are considered non-normative. They describe any concepts not described by the standard, for example: [data licensing](../guidance/publish-data-openly) and [data protection](../guidance/data-protection). The source of these pages are found in the [documentation directory](https://github.com/ThreeSixtyGiving/standard/tree/master/documentation). 
+
+* Guidance for Publishers
+  * [Data Protection](../guidance/data-protection)
+  * [Publish your data openly](../guidance/publish-data-openly)
+
+### Making changes to normative and non-normative content
+
+#### Changes to Normative Content
+
+Normative content is governed by the revision processes, using a MAJOR, MINOR or PATCH process, depending on the extent and effect of the change. This is outlined in the Governance section of the standard documentation, and uses [semantic versioning](https://semver.org/). This provides a clear process and ensures appropriate consultation and sufficient notice is given to stakeholders.
+
+* MAJOR for backwards-incompatible API changes.
+* MINOR to add functionality in a backwards-compatible manner.
+* PATCH to make backwards-compatible bug fixes.
+
+#### Non-normative changes within normative content sections
+There are changes that can be made to normative content that are non-normative in effect, and follow the revision process for non-normative changes outlined below.
+* Changes that produce no visible changes to outputs.
+* Whitespace changes that produce no non-whitespace changes to outputs. Indentation changes in JSON files are allowed.
+* Fixes of typographical and markup errors (formatting of layout and style) that result in no change to meaning or behavior. For example:
+  * Non-normative: fixing typos in description columns or description fields.
+  * Normative: fixing a typo in a code in a codelist CSV file, or in a field name like uniqueItems in a JSON Schema file.
+* Changes to markup that result in no change to meaning or behavior. For example
+  * Non-normative: Using a monospace font for a field’s name.
+  * Normative: Moving a normative statement into a ‘hint’ admonition.
+* Corrections of links broken by changes in the structure of the documentation or of third-party sites, that result in no change to the meaning.
+  * If a broken link is within a normative statement, or if the target of a broken link is normative
+content, either the new target must make no normative changes to the old target, or the new
+target should be an archived copy of the old target, to avoid changing the meaning of the link.
+
+#### Changes to Non-normative content
+
+It is possible to add, improve or remove non-normative content at any time without triggering the governance process. Non-normative changes will be included in releases of the Standard. The most current guidance will always be on the master branch of the standard documentation.
+
+Pull requests MUST be approved by at least one person knowledgeable of the Standard, other than the author to ensure the changes are indeed non-normative (e.g. changes to non-normative section content or non-normative changes in a normative content) and do not conflict with normative content)
+
+#### Summary of normative and non-normative change processes
+
+```eval_rst
+.. csv-table:: 
+   :file: ../figures/governance-summary-of-normative-non-normative-change-processes.csv
+   :header-rows: 1
+   :widths: auto
+```
+
+```eval_rst
+.. _regrant-type:
+```
+
+
 ----------
 
 ```eval_rst
