@@ -37,7 +37,7 @@ This section features information about governance and change management of the 
    guidance/index
    individuals/index
    technical/index
-   extensions/index
+   extensions/dei/index
    about/index
 
 ```
