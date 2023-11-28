@@ -52,6 +52,7 @@ The [Additional fields](additional-fields) section provides details of all other
 We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab-2023.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
+* A list of 360Giving extensions used in the file
 * The title and description of the file
 * The dates when the file was first issued and last modified
 * Information about the publisher such as name, logo, website and identifier
