@@ -10,7 +10,9 @@
        </ol></p></div>
 
 ## Overview
-At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
+At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is technically ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
+
+Prior to publishing your data, you should also check the contents of your data to ensure it is accurate, and that there is no personal data included that could allow an individual to be identified. For further information, read our guidance on data protection for [funders of grants to individuals](../../individuals/publisher-guidance/#data-protection) and [funders of grants to organisations](../../guidance/data-protection).
 
 ## How to make your 360Giving data open
 Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit the <a href="https://opendefinition.org" target="_blank">Open Definition website.</a>
@@ -69,13 +71,13 @@ Linking 360Giving from an existing webpage:
 - <a href="https://www.cfsurrey.org.uk/who-we-support-2/" target="_blank">Community Foundation for Surrey</a> 
 - <a href="https://www.somersetcf.org.uk/open" target="_blank">Somerset Community Foundation</a>
 - <a href="https://www.jlc.london/grants/recent-grants/" target="_blank">John Lyon’s Charity</a>
-- <a href="https://virginmoneyfoundation.org.uk/grants-awarded/" target="_blank">Virgin Money Foundation</a> 
+- <a href="https://virginmoneyfoundation.org.uk/" target="_blank">Virgin Money Foundation</a> 
 
 Linking 360Giving data from a dedicated open data page:
 - <a href="http://andrewlloydwebberfoundation.com/360-giving" target="_blank">Andrew Lloyd Webber Foundation</a>
 - <a href="https://www.bbcchildreninneed.co.uk/grants/bbc-children-in-need-360-giving/" target="_blank">BBC Children in Need</a> 
-- <a href="https://www.citybridgetrust.org.uk/360-giving/" target="_blank">City Bridge Trust</a> 
-- <a href="https://www.corra.scot/about/open-data" target="_blank">Corra Foundation</a> 
+- <a href="https://www.citybridgetrust.org.uk/what-we-do/360-giving" target="_blank">City Bridge Trust</a> 
+- <a href="https://www.heritagefund.org.uk/about/insight/open-data" target="_blank">The National Lottery Heritage Fund</a> 
 
 ### Data hosting for public sector organisations
 Some local authorities can have dedicated open data portals for hosting information published by the council or about the local area, which are ideal places to host 360Giving data.
@@ -84,7 +86,7 @@ Alternatively, public sector organisations may be able to use the central <a hre
 
 Examples of public sector data hosting pages:
 - <a href="https://data.london.gov.uk/dataset/gla-grants-data" target="_blank">Greater London Authority</a> 
-- <a href="https://data.hounslow.gov.uk/dataset/grants-to-the-vcse-sector" target="_blank">London Borough of Hounslow</a> 
+- <a href="https://data.hounslow.gov.uk/dataset/grants-to-voluntary-and-community-sector-organisation" target="_blank">London Borough of Hounslow</a> 
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
 ## Submit your file to the Data Registry
@@ -103,6 +105,13 @@ In order for data to be included in 360Giving tools, the data needs to meet thes
 - Valid according to the schema used for the 360Giving Data Standard.
 
 **GrantNav** and **360Insights** are updated on a daily basis. This means your data will appear there the day after a file is submitted to the Data Registry.
+
+## Taking down published data
+A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
+
+An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
+
+360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
 ```eval_rst
 .. _alternative-hosting-options:
