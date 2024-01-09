@@ -51,8 +51,9 @@ For many publishers, preparing their data is a manual process that involves expo
 </p>
 
 ### Updating 360Giving data
-- Once you have published 360Giving data for the first time, you will decide whether to make updates to add more grants on an annual basis or more frequently.
+- Once you have published 360Giving data for the first time, you will decide the frequency of your updates to add more grants.
 - It is a good idea to document your publishing process as a reminder for when you come to make updates to your data.
+- You can amend data you have published to correct errors or make updates to reflect changes to your grants. You may also receive requests from grantees to make amendments if any inaccurate or misleading information has been published about their organisation.
 
 <p>
     <a href="../../guidance/making-updates" class="button button--teal">Read more</a>
