@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft/2020-12/schema",
   "title": "360Giving Data Standard Schema",
   "type": "object",
-  "definitions": {
+  "$defs": {
     "currency": {
       "type": "string",
       "description": "The currency used in amounts. Use the three-letter currency code from [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) eg: Use GBP for Pounds Sterling.",
@@ -328,7 +328,7 @@
               "format": "date-time"
             },
             {
-              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+		"format": "date"
             }
           ],
           "type": "string",
@@ -337,7 +337,7 @@
           "title": "Transaction Date"
         },
         "currency": {
-          "$ref": "#/definitions/currency"
+          "$ref": "#/$defs/currency"
         },
         "value": {
           "type": "number",
@@ -351,7 +351,7 @@
               "format": "date-time"
             },
             {
-              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+              "format": "date"
             }
           ],
           "type": [
@@ -1017,7 +1017,7 @@
         },
         "location": {
           "items": {
-            "$ref": "#/definitions/Location"
+            "$ref": "#/$defs/Location"
           },
           "type": "array",
           "description": "Information about the location of the organisation.",
@@ -1034,7 +1034,6 @@
       }
     },
     "Event": {
-      "definitions": {},
       "type": "object",
       "title": "Event",
       "description": "An event in the life of the grant activity",
@@ -1051,7 +1050,7 @@
               "format": "date-time"
             },
             {
-              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+		"format": "date"
             },
             {
               "pattern": "^[0-9]{4}(-(0[1-9]|1[012]))?$"
@@ -1068,7 +1067,7 @@
               "format": "date-time"
             },
             {
-              "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+		    "format": "date"
             },
             {
               "pattern": "^[0-9]{4}(-(0[1-9]|1[012]))?$"
@@ -1148,7 +1147,7 @@
       "title": "Description"
     },
     "currency": {
-      "$ref": "#/definitions/currency"
+      "$ref": "#/$defs/currency"
     },
     "amountAppliedFor": {
       "type": "number",
@@ -1174,7 +1173,7 @@
           "format": "date-time"
         },
         {
-          "pattern": "^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$"
+		"format": "date"
         }
       ],
       "type": "string",
@@ -1191,7 +1190,7 @@
     },
     "plannedDates": {
       "items": {
-        "$ref": "#/definitions/Event"
+        "$ref": "#/$defs/Event"
       },
       "type": "array",
       "weight": 5.041,
@@ -1205,7 +1204,7 @@
     },
     "actualDates": {
       "items": {
-        "$ref": "#/definitions/Event"
+        "$ref": "#/$defs/Event"
       },
       "type": "array",
       "description": "When did this grant activity actually take place. Dates must be in YYYY-MM-DD or date-time format. A date range can include a start date and duration in months, or a start and end date.",
@@ -1213,7 +1212,7 @@
       "title": "Actual Dates"
     },
     "recipientIndividual": {
-      "$ref": "#/definitions/Person",
+      "$ref": "#/$defs/Person",
       "title": "Recipient Ind",
       "description": "Details of the recipient of this grant to an individual."
     },
@@ -1249,7 +1248,7 @@
     },
     "recipientOrganization": {
       "items": {
-        "$ref": "#/definitions/Organization"
+        "$ref": "#/$defs/Organization"
       },
       "minItems": 1,
       "type": "array",
@@ -1272,7 +1271,7 @@
     },
     "beneficiaryLocation": {
       "items": {
-        "$ref": "#/definitions/Location"
+        "$ref": "#/$defs/Location"
       },
       "type": "array",
       "weight": 6.01,
@@ -1289,7 +1288,7 @@
     },
     "fundingOrganization": {
       "items": {
-        "$ref": "#/definitions/Organization"
+        "$ref": "#/$defs/Organization"
       },
       "minItems": 1,
       "type": "array",
@@ -1304,7 +1303,7 @@
     },
     "grantProgramme": {
       "items": {
-        "$ref": "#/definitions/GrantProgramme"
+        "$ref": "#/$defs/GrantProgramme"
       },
       "type": "array",
       "description": "Information about the grant programme under which the grant was awarded",
@@ -1328,7 +1327,7 @@
     },
     "fundingType": {
       "items": {
-        "$ref": "#/definitions/Classification"
+        "$ref": "#/$defs/Classification"
       },
       "type": "array",
       "description": "Information about the type of funding provided by the grant",
@@ -1337,7 +1336,7 @@
     },
     "classifications": {
       "items": {
-        "$ref": "#/definitions/Classification"
+        "$ref": "#/$defs/Classification"
       },
       "type": "array",
       "description": "Information about a classification associated with the grant",
@@ -1346,7 +1345,7 @@
     },
     "relatedDocument": {
       "items": {
-        "$ref": "#/definitions/Documents"
+        "$ref": "#/$defs/Documents"
       },
       "type": "array",
       "description": "Information about a document related to the grant",
@@ -1355,7 +1354,7 @@
     },
     "applicationTransaction": {
       "items": {
-        "$ref": "#/definitions/Transaction"
+        "$ref": "#/$defs/Transaction"
       },
       "type": "array",
       "description": "-",
@@ -1363,7 +1362,7 @@
     },
     "commitmentTransaction": {
       "items": {
-        "$ref": "#/definitions/Transaction"
+        "$ref": "#/$defs/Transaction"
       },
       "type": "array",
       "description": "-",
@@ -1371,7 +1370,7 @@
     },
     "disbursementTransaction": {
       "items": {
-        "$ref": "#/definitions/Transaction"
+        "$ref": "#/$defs/Transaction"
       },
       "type": "array",
       "description": "-",
