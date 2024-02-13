@@ -69,14 +69,14 @@ Here are some examples of what other 360Giving publishers have done.
 
 Linking 360Giving from an existing webpage:
 - <a href="https://www.cfsurrey.org.uk/who-we-support-2/" target="_blank">Community Foundation for Surrey</a> 
-- <a href="https://www.somersetcf.org.uk/open" target="_blank">Somerset Community Foundation</a>
+- <a href="https://www.somersetcf.org.uk/grantfunding/open" target="_blank">Somerset Community Foundation</a>
 - <a href="https://www.jlc.london/grants/recent-grants/" target="_blank">John Lyon’s Charity</a>
 - <a href="https://virginmoneyfoundation.org.uk/" target="_blank">Virgin Money Foundation</a> 
 
 Linking 360Giving data from a dedicated open data page:
 - <a href="http://andrewlloydwebberfoundation.com/360-giving" target="_blank">Andrew Lloyd Webber Foundation</a>
 - <a href="https://www.bbcchildreninneed.co.uk/grants/bbc-children-in-need-360-giving/" target="_blank">BBC Children in Need</a> 
-- <a href="https://www.citybridgetrust.org.uk/what-we-do/360-giving" target="_blank">City Bridge Trust</a> 
+- <a href="https://www.citybridgefoundation.org.uk/what-we-do/360-giving" target="_blank">City Bridge Foundation</a> 
 - <a href="https://www.heritagefund.org.uk/about/insight/open-data" target="_blank">The National Lottery Heritage Fund</a> 
 
 ### Data hosting for public sector organisations
@@ -85,7 +85,7 @@ Some local authorities can have dedicated open data portals for hosting informat
 Alternatively, public sector organisations may be able to use the central <a href="https://data.gov.uk/" target="_blank">data.gov.uk</a> website to host their 360Giving data.
 
 Examples of public sector data hosting pages:
-- <a href="https://data.london.gov.uk/dataset/gla-grants-data" target="_blank">Greater London Authority</a> 
+- <a href="https://data.london.gov.uk/gla-group-grant-data/" target="_blank">Greater London Authority</a> 
 - <a href="https://data.hounslow.gov.uk/dataset/grants-to-voluntary-and-community-sector-organisation" target="_blank">London Borough of Hounslow</a> 
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
@@ -112,6 +112,9 @@ A fundamental aspect of publishing using the 360Giving Data Standard, and publis
 An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
 360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
+
+### Making amendments to published data
+Take down requests are rare. It is however common for publishers to make changes to published data to correct errors or make updates when changes are made to a grant. In addition to changes you make to your own data, you may receive requests from grantees to amend information about their organisations that might be incorrect or misleading. See our [guidance on making updates](../../guidance/making-updates/) to your data and the mechanism for grantees to request amendments.
 
 ```eval_rst
 .. _alternative-hosting-options:
