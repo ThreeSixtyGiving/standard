@@ -472,10 +472,7 @@
           "title": "Name"
         },	
         "countryCode": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
           "codelist": "countryCode.csv",
           "enum": [
             "AF",
