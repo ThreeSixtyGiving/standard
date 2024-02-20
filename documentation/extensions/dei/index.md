@@ -10,8 +10,9 @@ The DEI Extension has been developed and is maintained by 360Giving to support n
 .. toctree::
    :maxdepth: 3
 
-   governance
-   reference
    guidance
+   reference
+   governance
+      
 ```
 
