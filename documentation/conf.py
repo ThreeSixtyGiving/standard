@@ -420,6 +420,9 @@ schema_extensions = ['dei'] # ADD NEW EXTENSIONS HERE
 # IMPORTANT: Update this URL when the dei extension is merged in
 base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-registry/add-dei-extension/extensions/"
 
+if not os.path.exists("./extras"):
+    os.mkdir("./extras")
+
 if not os.path.exists("./extras/extensions/"):
     os.mkdir("./extras/extensions/")
 
