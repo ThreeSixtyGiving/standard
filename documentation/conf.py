@@ -415,7 +415,7 @@ for output_format in ['csv', 'xlsx']:
 
 import requests
 
-360_extensions = ['dei'] # ADD NEW EXTENSIONS HERE
+schema_extensions = ['dei'] # ADD NEW EXTENSIONS HERE
 
 # IMPORTANT: Update this URL when the dei extension is merged in
 base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-registry/add-dei-extension/extensions/"
@@ -423,7 +423,7 @@ base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-regist
 if not os.path.exists("./extras/extensions/"):
     os.mkdir("./extras/extensions/")
 
-for extension in 360_extensions:
+for extension in schema_extensions:
     # Make a directory for the extension schemas inside the extras directory
     extension_path = f"./extras/extensions/{extension}"
     if not os.path.exists(extension_path):
