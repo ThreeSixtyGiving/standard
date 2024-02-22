@@ -39,7 +39,7 @@ This section contains a reference for the Extension’s schema
 
 
 ```eval_rst
-.. jsonschema-titles:: ../../extras/dei-extension-schema.json
+.. jsonschema-titles:: ../../extras/extensions/dei/360-giving-schema.json
 ```
 
 ### Codelists
@@ -53,7 +53,7 @@ A codelist to declare whether DEI Data Standard questions were asked for this gr
 
 ```eval_rst
 .. csv-table:: 
-   :url: https://raw.githubusercontent.com/ThreeSixtyGiving/360-dei/refactor-to-minimal/codelists/askedStatus.csv
+   :file: ../../extras/extensions/dei/codelists/askedStatus.csv
    :header-rows: 1
    :widths: auto
 ```
@@ -64,7 +64,7 @@ A codelist to declare which answer options were available to the respondents.
 
 ```eval_rst
 .. csv-table:: 
-   :url: https://raw.githubusercontent.com/ThreeSixtyGiving/360-dei/refactor-to-minimal/codelists/availableOptions.csv
+   :file: ../../extras/extensions/dei/codelists/availableOptions.csv
    :header-rows: 1
    :widths: auto
 ```
@@ -75,7 +75,7 @@ A codelist to declare whether a reply to DEI Data Standard questions was receive
 
 ```eval_rst
 .. csv-table:: 
-   :url: https://raw.githubusercontent.com/ThreeSixtyGiving/360-dei/refactor-to-minimal/codelists/replyStatus.csv
+   :file: ../../extras/extensions/dei/codelists/replyStatus.csv
    :header-rows: 1
    :widths: auto
 ```
@@ -90,7 +90,7 @@ Please see the [Guiding Principles](#guiding-principles) section for more inform
 
 ```eval_rst
 .. csv-table:: 
-   :url: https://raw.githubusercontent.com/ThreeSixtyGiving/360-dei/refactor-to-minimal/codelists/taxonomyCodes.csv
+   :file: ../../extras/extensions/dei/codelists/taxonomyCodes.csv
    :header-rows: 1
    :widths: auto
 ```
