@@ -38,6 +38,8 @@ Read the field guidance for details of the Extensions field.
 
 Find out more about available extensions in the Extensions section of this site.
 
+## Including metadata
+
 ### Including metadata in JSON files
 For publishers sharing their data in JSON file format, the metadata is declared using the fields of the Package Schema (except for 'grants' field, which contains the list of grant data). See our guidance on the [Package schema](360giving-json-schemas) for further details.
 
