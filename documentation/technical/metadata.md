@@ -28,6 +28,16 @@ As the metadata is included in the file itself, it means relevant information is
 
 Including metadata in the 360Giving Data Standard means we are better able to serve the needs of publishers and data users.
 
+## Extensions to 360Giving Data Standard
+
+If you are using an official Extension to the 360Giving Data Standard in your file, such as the DEI Extension, you should declare it in the file’s metadata to let people know which extension(s) you are using. You do this by adding the short code for the relevant extension into the Extensions field.
+
+Once you have declared the extension in the metadata for your file, the Data Quality Tool will be able to detect and validate the data alongside your 360Giving data. It will also allow the data to be used in 360Giving’s tools, GrantNav and 360Insights.
+
+Read the field guidance for details of the Extensions field.
+
+Find out more about available extensions in the Extensions section of this site.
+
 ### Including metadata in JSON files
 For publishers sharing their data in JSON file format, the metadata is declared using the fields of the Package Schema (except for 'grants' field, which contains the list of grant data). See our guidance on the [Package schema](360giving-json-schemas) for further details.
 
