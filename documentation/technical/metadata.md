@@ -34,9 +34,9 @@ If you are using an official Extension to the 360Giving Data Standard in your fi
 
 Once you have declared the extension in the metadata for your file, the Data Quality Tool will be able to detect and validate the data alongside your 360Giving data. It will also allow the data to be used in 360Giving’s tools, GrantNav and 360Insights.
 
-Read the field guidance for details of the Extensions field.
+Read the [field guidance](#field-guidance) for details of the Extensions field.
 
-Find out more about available extensions in the Extensions section of this site.
+Find out more about available extensions in the [Extensions section](../extensions/index.md) of this site.
 
 ## Including metadata
 
