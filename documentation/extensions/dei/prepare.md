@@ -9,12 +9,12 @@ In order to publish DEI Data Standard data using the 360Giving Data Standard DEI
 * Ensure the grant information linked to the DEI data you intend to publish meets the requirements of the 360Giving Data Standard.
 * Add the appropriate fields, rows, and/or sheets required by the DEI Extension to your file
 
-The following sections cover these steps in more detail, providing guidance for publishing data in [spreadsheet]() and [JSON file formats]().
+The following sections cover these steps in more detail, providing guidance for publishing data in <a href="../../../_static/360-giving-schema-titles-with-dei-extension-2024.xlsx">spreadsheet</a> and [JSON file formats](#json-format-guidance-for-developers).
 
 <div class="box box--teal">
     <h2 class="box__heading">Not sure what file format to use?</h2>
     <p>
-      Read our <a href = "../../guidance/prepare-data/#choosing-your-file-format">guidance on choosing a file format</a>
+      Read our <a href = "../../../guidance/prepare-data#choosing-your-file-format">guidance on choosing a file format</a>
        </p></div>
 
 
@@ -243,19 +243,19 @@ Note that the DEI Data Standard criteria for each application area require that 
 
 A key step to using the DEI Extension data is declaring that you are using it in a **Meta sheet** included in your file. 
 
-This Meta sheet is the way 360Giving data publishers include metadata about their grants data in their files. It is separate and different from the metadata fields in the DEI Extension itself which are usually included in the main grants sheet. For further information read our guidance on 360Giving Data Standard [Metadata](../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files).
+This Meta sheet is the way 360Giving data publishers include metadata about their grants data in their files. It is separate and different from the metadata fields in the DEI Extension itself which are usually included in the main grants sheet. For further information read our guidance on 360Giving Data Standard [Metadata](../../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files).
 
-It is only once you have declared that you are using the DEI Extension in the Meta sheet that your data can be checked and validated by the 360Giving [Data Quality Tool](https://dataquality.threesixtygiving.org/) and used by GrantNav and 360Insights. If you miss this crucial step, the Data Quality Tool will not recognise the fields for the DEI Extension and treat them as non-Standard [Additional Fields](../../technical/reference/#additional-fields).
+It is only once you have declared that you are using the DEI Extension in the Meta sheet that your data can be checked and validated by the 360Giving [Data Quality Tool](https://dataquality.threesixtygiving.org/) and used by GrantNav and 360Insights. If you miss this crucial step, the Data Quality Tool will not recognise the fields for the DEI Extension and treat them as non-Standard [Additional Fields](../../../technical/reference/#additional-fields).
 
 Once you have a Meta sheet in your file, you can declare the extension by adding the Metadata field with the title \`Extensions\`. Usually this is in column A. In the next column (usually column B), add the value **dei**
 
 You should also fill in the Version, which should be **1.4** or higher, as extensions were not available before version 1.4 of 360Giving Data Standard.
 
-We recommend adding other useful pieces of metadata to your file, following the [Metadata guidance](../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files) provided.
+We recommend adding other useful pieces of metadata to your file, following the [Metadata guidance](../../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files) provided.
 
 ## Spreadsheet templates
 
-A blank spreadsheet template including all 360Giving Data Standard fields and a sheet including DEI Extension fields is available for [download for reference]().
+A blank spreadsheet template including all 360Giving Data Standard fields and a sheet including DEI Extension fields is available for <a href="../../../_static/360-giving-schema-titles-with-dei-extension-2024.xlsx">download for reference</a>.
 
 360Giving is developing a DEI Extension mapping template to make it easier for publishers to select the correct metadata values appropriate for their implementation of the DEI Data Standard, and support adding the appropriate Taxonomy codes that must be used.
 
@@ -263,7 +263,7 @@ Please contact 360Giving Helpdesk to find out about more tailored templates and 
 
 ## JSON Format Guidance for Developers
 
-The 360Giving Data Standard is defined by a JSON Schema, which details the entities that can be described using the Standard, and the properties it recognises. The DEI Extension, which is also defined by a JSON Schema, is an optional extension designed to be added to the [360Giving JSON Schema](../../technical/reference/#json-format), and makes use of [360Giving’s extension mechanism]() to allow you to validate the fields and codes used in your data.
+The 360Giving Data Standard is defined by a JSON Schema, which details the entities that can be described using the Standard, and the properties it recognises. The DEI Extension, which is also defined by a JSON Schema, is an optional extension designed to be added to the [360Giving JSON Schema](../../../technical/reference/#json-format), and makes use of 360Giving’s extension mechanism to allow you to validate the fields and codes used in your data.
 
 The normative reference for the fields and codes added by the DEI Extension JSON Schema can be found alongside documentation in the [Technical Reference](../reference) section.
 
@@ -271,7 +271,7 @@ It is straightforward to implement the DEI Extension into an existing JSON forma
 
 1. Ensure that the **version** field in your package data has a value greater than **1.4**, since extensions were not available prior to this.
 
-    If you're updating an existing publication and your current version is **1.0** or greater, you can declare **1.4** without any problems related to backwards incompatibility (see also: our [Versioning and Upgrade Process](../../about/governance/#versioning-and-upgrade-process)). 
+    If you're updating an existing publication and your current version is **1.0** or greater, you can declare **1.4** without any problems related to backwards incompatibility (see also: our [Versioning and Upgrade Process](../../../about/governance/#versioning-and-upgrade-process)). 
 
     If you don’t have a **version** field currently, it is safe to add this with the value of **1.4** unless your data isn’t conformant to Version **1.0** or later. You can verify this by checking the 360Giving Data Standard data in your file in the [Data Quality Tool (DQT)](https://dataquality.threesixtygiving.org/), as all data that passes the tool’s validation checks is conformant with Version 1.0 or later.
 

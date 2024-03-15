@@ -87,7 +87,8 @@ The authoritative source for the DEI Taxonomy codes vocabulary is the [DEI Data 
 
 The DEI Extension for 360Giving creates and maintains this codelist by taking the hierarchical codes defined in the DEI Data Standard, encoding them into JSON, and then generating this codelist automatically. This is necessary to provide a machine-readable codelist to support validation.
 
-Please see the [Guiding Principles](#guiding-principles) section for more information on how we respond to updates in the DEI Standard.
+Please see the [Governance and Versioning](governance) section for more information on how we respond to updates in the DEI Standard.
+
 
 ```eval_rst
 .. csv-table::
