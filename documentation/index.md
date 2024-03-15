@@ -28,6 +28,13 @@ This section features information about governance and change management of the 
 
 [Read more](about)
 
+### Extensions
+
+This section features information about approved Extensions to the 360Giving Data Standard. Here you will find publisher guidance as well as detailed field guidance and rules for including optional fields and structures alongside 360Giving data. Currently, there is one approved extension used for the publication of DEI Data Standard data.
+
+[Read more](extensions)
+
+
 ### Contents
 
 ```eval_rst
