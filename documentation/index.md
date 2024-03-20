@@ -1,7 +1,7 @@
 # About this site
 This site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
 
-The guidance is divided into four main sections.
+The guidance is divided into five main sections.
 
 ### Guidance for publishers
 
@@ -44,7 +44,7 @@ This section features information about approved Extensions to the 360Giving Dat
    guidance/index
    individuals/index
    technical/index
-   extensions/index
    about/index
+   extensions/index
 
 ```

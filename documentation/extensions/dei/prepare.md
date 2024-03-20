@@ -9,7 +9,7 @@ In order to publish DEI Data Standard data using the 360Giving Data Standard DEI
 * Ensure the grant information linked to the DEI data you intend to publish meets the requirements of the 360Giving Data Standard.
 * Add the appropriate fields, rows, and/or sheets required by the DEI Extension to your file
 
-The following sections cover these steps in more detail, providing guidance for publishing data in <a href="../../../_static/360-giving-schema-titles-with-dei-extension-2024.xlsx">spreadsheet</a> and [JSON file formats](#json-format-guidance-for-developers).
+The following sections cover these steps in more detail, providing guidance for publishing data in [spreadsheet](#dei-extension-field-guidance) and [JSON file formats](#json-format-guidance-for-developers).
 
 <div class="box box--teal">
     <h2 class="box__heading">Not sure what file format to use?</h2>
@@ -239,9 +239,9 @@ Note that the DEI Data Standard criteria for each application area require that 
    :widths: auto
 ```
 
-## How to include DEI Extension in a 360Giving data file
+## How to include DEI Extension data in a 360Giving data file
 
-A key step to using the DEI Extension data is declaring that you are using it in a **Meta sheet** included in your file. 
+A key step to using the DEI Extension is declaring that you are using it in a **Meta sheet** included in your file. 
 
 This Meta sheet is the way 360Giving data publishers include metadata about their grants data in their files. It is separate and different from the metadata fields in the DEI Extension itself which are usually included in the main grants sheet. For further information read our guidance on 360Giving Data Standard [Metadata](../../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files).
 
@@ -255,7 +255,7 @@ We recommend adding other useful pieces of metadata to your file, following the 
 
 ## Spreadsheet templates
 
-A blank spreadsheet template including all 360Giving Data Standard fields and a sheet including DEI Extension fields is available for <a href="../../../_static/360-giving-schema-titles-with-dei-extension-2024.xlsx">download for reference</a>.
+A <a href="../../../_static/360-giving-schema-titles-with-dei-extension-2024.xlsx">blank spreadsheet template</a> including all 360Giving Data Standard fields and a sheet including DEI Extension fields is available for download for reference.
 
 360Giving is developing a DEI Extension mapping template to make it easier for publishers to select the correct metadata values appropriate for their implementation of the DEI Data Standard, and support adding the appropriate Taxonomy codes that must be used.
 

@@ -8,7 +8,7 @@ This guidance provides further information about the DEI Data Standard and the 3
 
 This isn’t a reporting process, it’s an opportunity to collect and share data that will create a knowledge base to support effective action to identify and target funding to address structural inequity.
 
-### **How does publishing DEI Extension data relate to publishing 360Giving data?**
+### How does publishing DEI Extension data relate to publishing 360Giving data?
 
 This guidance is for those who want to publish information using the DEI Data Standard in the context of their grant information. The guidance in this section focuses on the fields and codes defined in the DEI Extension.
 
@@ -20,7 +20,7 @@ If you publish or plan to publish data about grants made to individuals, it is n
 
 <div class="box box--teal">
     <p>
-      If you are familiar with the DEI Data Standard and have already collected some DEI data, visit the <a href = "#about-the-dei-extension">DEI Extension guidance section</a>
+      If you are familiar with the DEI Data Standard and have already collected some DEI data, skip to the <a href = "#about-the-dei-extension">DEI Extension guidance section</a>
        </p></div>
 
 ## About the DEI Standard
@@ -47,7 +47,7 @@ The guidance provided by the DEI Data Group covers key considerations for implem
 - Is the data suitable for publication? Which statements and opt-outs have been made available to grantees about the DEI data they have provided?
 
 
-### **Why collect and share DEI Data Standard data?**
+### Why collect and share DEI Data Standard data?
 
 Collecting and sharing DEI Data Standard information is intended to enable funders to understand whether the reach of the funding and their funding practices are equitable. Information shared in this way can then be used to inform funding strategies and specific funding programmes or approaches.
 
@@ -55,7 +55,7 @@ It is important to note that the DEI Data Standard is about understanding **equi
 
 The goal of developing the DEI Data Standard and framework for applying it was to increase the equity of grantmaking through having good quality and consistent data to monitor this, and to enable shared reporting, while also reducing the burden on applicants around data collection through grantmakers using a consistent approach.
 
-### **How to collect DEI Data Standard Data**
+### How to collect DEI Data Standard Data
 
 The DEI Data Standard isn’t one size fits all and so it has been designed with options in how the data is collected to suit different funding approaches. For example a funder making a large volume of grants will probably make different choices to a funder who makes fewer grants.
 
@@ -76,7 +76,7 @@ The extension adds new fields to the 360Giving Data Standard which can be used t
 
 Detailed technical information for the DEI Extension is available on the [Technical Reference](reference) page. It contains a reference for the fields and codes added by the DEI Extension.
 
-### **What data can be published using the DEI Extension?**
+### What data can be published using the DEI Extension?
 
 The DEI Extension includes a number of fields which are important to understand the DEI Data Standard information provided. This includes the **answers** provided to DEI Data Standard questions. It also includes important context in which the questions were asked called **metadata**, which means data about the data itself.
 
@@ -102,7 +102,7 @@ In addition to the fields for providing responses, there are also fields to prov
 
 These metadata fields are important to contextualise the data to avoid ambiguity and support data users analysing and understanding the data correctly.
 
-### **Why include metadata?**
+### Why include metadata?
 
 Funders are able to make choices about how they implement the DEI Data Standard based on their specific context. This is an important feature of the DEI Data Standard, but leads to variations in the data collected which must then be contextualised to be understood correctly.
 
@@ -113,10 +113,3 @@ The metadata fields in the DEI Extension address the issues caused by ambiguous 
 This is why it is important to understand the choices your organisation has made when implementing the DEI Data Standard and collecting DEI data, as this will allow you to fill in your DEI metadata appropriately. We recommend that you decide on your approach to collecting data using the DEI Data Standard before starting to prepare your DEI data for publication.
 
 Read our [guidance on the DEI Data Standard](#about-the-dei-standard) for links to further sources of information and support.
-
-
-## Support Available
-
-360Giving Helpdesk provides pro-bono support to help funders navigate the steps to publish DEI Data Standard data alongside their 360Giving grant data.
-
-Visit our website to find out [ways to get support with publishing](https://www.threesixtygiving.org/publishing/).

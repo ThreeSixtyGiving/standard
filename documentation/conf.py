@@ -141,7 +141,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # This started causing errors, so removing it from the conditional statement and replacing it with the above lines
 # import os
 # on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-# 
+#
 # if not on_rtd:  # only import and set the theme if we're building docs locally
 #     import sphinx_rtd_theme
 #     html_theme = 'sphinx_rtd_theme'
@@ -418,7 +418,7 @@ import requests
 schema_extensions = ['dei'] # ADD NEW EXTENSIONS HERE
 
 # IMPORTANT: Update this URL when the dei extension is merged in
-base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-registry/add-dei-extension/extensions/"
+base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-registry/main/extensions/"
 
 if not os.path.exists("./extras"):
     os.mkdir("./extras")
