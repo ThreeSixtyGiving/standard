@@ -1,7 +1,7 @@
 # About this site
 This site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
 
-The guidance is divided into four main sections.
+The guidance is divided into five main sections.
 
 ### Guidance for publishers
 
@@ -28,6 +28,13 @@ This section features information about governance and change management of the 
 
 [Read more](about)
 
+### Extensions
+
+This section features information about approved Extensions to the 360Giving Data Standard. Here you will find publisher guidance as well as detailed field guidance and rules for including optional fields and structures alongside 360Giving data. Currently, there is one approved extension used for the publication of DEI Data Standard data.
+
+[Read more](extensions)
+
+
 ### Contents
 
 ```eval_rst
@@ -38,5 +45,6 @@ This section features information about governance and change management of the 
    individuals/index
    technical/index
    about/index
+   extensions/index
 
 ```
