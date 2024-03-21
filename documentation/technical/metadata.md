@@ -28,6 +28,18 @@ As the metadata is included in the file itself, it means relevant information is
 
 Including metadata in the 360Giving Data Standard means we are better able to serve the needs of publishers and data users.
 
+## Extensions to 360Giving Data Standard
+
+If you are using an official Extension to the 360Giving Data Standard in your file, such as the DEI Extension, you should declare it in the file’s metadata to let people know which extension(s) you are using. You do this by adding the short code for the relevant extension into the Extensions field.
+
+Once you have declared the extension in the metadata for your file, the Data Quality Tool will be able to detect and validate the data alongside your 360Giving data. It will also allow the data to be used in 360Giving’s tools, GrantNav and 360Insights.
+
+Read the [field guidance](#field-guidance) for details of the Extensions field.
+
+Find out more about available extensions in the [Extensions section](../extensions/index.md) of this site.
+
+## Including metadata
+
 ### Including metadata in JSON files
 For publishers sharing their data in JSON file format, the metadata is declared using the fields of the Package Schema (except for 'grants' field, which contains the list of grant data). See our guidance on the [Package schema](360giving-json-schemas) for further details.
 
@@ -66,6 +78,10 @@ This guidance provides further information about the fields in Meta sheet and th
 This is for the version of the 360Giving Data Standard being used, so not the version of the file that is being published. For example the version that introduced metadata into the 360Giving Data Standard is 1.1.
 
 Find the details of the current version in the <a href="https://github.com/ThreeSixtyGiving/standard/releases" target="_blank" >Releases changelog</a>. 
+
+**Extensions**
+
+This is a text field that can be used to declare a list of extensions used in the file. Each extension is represented by a short string &ndash; which is a piece of text like a code &ndash; and multiple extensions can be declared by separating them with a semicolon `;` character.
 
 **Title and Description**
 

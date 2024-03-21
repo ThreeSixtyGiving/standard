@@ -52,6 +52,7 @@ The [Additional fields](additional-fields) section provides details of all other
 We also provide a version of the <a href="../../_static/360-giving-schema-titles-with-meta-tab-2023.xlsx">360Giving Spreadsheet Template with the Metadata template included</a>. The 'Meta' sheet may be used to publish authoritative metadata about the publisher, the file or dataset. The term we use for this is a 'data package'. The 'Meta' sheet includes sections for:
 
 * The version of the 360Giving Schema used for the file
+* A list of 360Giving extensions used in the file
 * The title and description of the file
 * The dates when the file was first issued and last modified
 * Information about the publisher such as name, logo, website and identifier
@@ -329,7 +330,7 @@ The 360Giving Data Standard requires you to provide information on when a grant 
 There are three different rules for validating dates:
 
 ##### Full dates (Award Dates and Transaction Dates)
-The ```Award Date``` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
+The `Award Date` **must** provide a full date, including year, month and day in YYYY-MM-DD format (e.g. 2017-04-02 for the 2nd April 2017).
 
 In some cases, award date data exported from grant systems includes the time of the grant, using a date-time format (e.g. 2017-04-02T16:45:00Z - a grant made at 4.45pm).
 
@@ -350,18 +351,18 @@ In some cases, award date data exported from grant systems includes the time of 
 
 Other events in the lifetime of a grant, such as for when the funded activity will take place, may include less specific date information. Funders should aim to be as specific as they can be, but do not need to guess at the particular day or month when an activity will take place if they are not certain or do not yet know.
 
-Dates in the ```Planned Dates``` and ```Actual Dates``` groups should be provided in YYYY-MM-DD format, but the day or the day can be dropped or on the year provided (e.g. YYYY-MM or YYYY).
+Dates in the `Planned Dates` and `Actual Dates` groups should be provided in YYYY-MM-DD format, but the day or the day can be dropped or on the year provided (e.g. YYYY-MM or YYYY).
 
-For example, if an application only indicates that a project will start in May 2019, then the ```Planned Dates:Start Date``` value may be '2019-05'.
+For example, if an application only indicates that a project will start in May 2019, then the `Planned Dates:Start Date` value may be '2019-05'.
 
 It is up to users of the data to judge how to interpret dates which only include a year, or year and month. Different applications and analysis may require different judgements.
 
 ##### Date-time (Last Modified dates)
-All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can have a ```Last Modified``` date.
+All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can have a `Last Modified` date.
 
 If used, this must always be in full date-time format so that if multiple updates take place on a single day, consuming applications can work out which version to use.
 
-``` eval_rst
+```eval_rst
 
 .. hint::
   You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to ```=Now()``` then this value will be refreshed automatically every time you save the file.

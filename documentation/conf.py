@@ -141,7 +141,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # This started causing errors, so removing it from the conditional statement and replacing it with the above lines
 # import os
 # on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-# 
+#
 # if not on_rtd:  # only import and set the theme if we're building docs locally
 #     import sphinx_rtd_theme
 #     html_theme = 'sphinx_rtd_theme'
@@ -405,6 +405,56 @@ for output_format in ['csv', 'xlsx']:
         rollup=True,
         use_titles=True,
     )
+
+#-------------------------------------------------------------------------------------------
+# Fetch extension schemas at build to allow drawing schema tables in the extensions section
+#
+# Matt added this to deal with the problem where we need to draw schema tables for
+# extensions but the extension schemas are managed externally.
+#-------------------------------------------------------------------------------------------
+
+import requests
+
+schema_extensions = ['dei'] # ADD NEW EXTENSIONS HERE
+
+# IMPORTANT: Update this URL when the dei extension is merged in
+base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-registry/main/extensions/"
+
+if not os.path.exists("./extras"):
+    os.mkdir("./extras")
+
+if not os.path.exists("./extras/extensions/"):
+    os.mkdir("./extras/extensions/")
+
+for extension in schema_extensions:
+    # Make a directory for the extension schemas inside the extras directory
+    extension_path = f"./extras/extensions/{extension}"
+    if not os.path.exists(extension_path):
+        os.mkdir(extension_path)
+        os.mkdir(f"{extension_path}/codelists")
+
+    # Fetch the registry entry and parse the JSON
+    registry_entry = json.loads(requests.get(f"{base_url}/{extension}.json").text)
+
+    # Fetch each of the schemas
+    for schema in registry_entry['schemas']:
+        schema_content = requests.get(schema['uri']).text
+
+        with open(f"{extension_path}/{schema['target']}", 'w') as schema_file:
+            schema_file.write(schema_content)
+
+    # Fetch each of the codelists
+    for codelist in registry_entry['codelists']:
+        codelist_content = requests.get(codelist).text
+        codelist_name = codelist.split('/')[-1]
+
+        with open(f"{extension_path}/codelists/{codelist_name}", 'w') as codelist_file:
+            codelist_file.write(codelist_content)
+
+#-------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
+# End fetch extension schemas at build
+#-------------------------------------------------------------------------------------------
 
 #mv README.md 360-giving-schema-titles.csv/
 
