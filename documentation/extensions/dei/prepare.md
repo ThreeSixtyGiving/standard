@@ -15,7 +15,9 @@ The following sections cover these steps in more detail, providing guidance for 
     <h2 class="box__heading">Not sure what file format to use?</h2>
     <p>
       Read our <a href = "../../../guidance/prepare-data#choosing-your-file-format">guidance on choosing a file format</a>
-       </p></div>
+       </p>
+</div>
+
 
 
 ## DEI Extension field guidance
@@ -24,6 +26,11 @@ The data collected through the application of the DEI Data Standard can be compl
 
 The DEI Extension has been designed to be as straightforward as possible however it is more complicated than the commonly used parts of the 360Giving Data Standard.
 
+```eval_rst
+.. contents::
+   :local:
+   :depth:
+```
 ### **DEI Details**
 
 For publishers sharing data using spreadsheets, the DEI Extension data sits within the main **grants** sheet of the [360Giving Data Standard](../../technical/reference). All DEI Extension fields used in spreadsheets are prefixed with DEI Details, followed by the specific field name.
@@ -118,6 +125,12 @@ The reason for using codes instead of names is because it avoids issues caused b
 ### **Codelists used in the DEI Extension**
 
 There are four codelists available for use in the DEI Extension.
+
+```eval_rst
+.. contents::
+   :local:
+   :depth: 3
+```
 
 #### Asked Status
 
