@@ -29,7 +29,7 @@ The DEI Extension has been designed to be as straightforward as possible however
 ```eval_rst
 .. contents::
    :local:
-   :depth:
+   :depth: 3
 ```
 ### **DEI Details**
 
@@ -244,6 +244,8 @@ Note that the DEI Data Standard criteria for each application area require that 
 
 .. _DEI Data Standard section of the Funders Collaborative Hub: https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard
 ```
+<a id="taxonomy-codes-codelist" ></a>
+[Skip to end of table](#taxonomy-codes-codelist-end)
 
 ```eval_rst
 .. csv-table::
@@ -251,6 +253,8 @@ Note that the DEI Data Standard criteria for each application area require that 
    :header-rows: 1
    :widths: auto
 ```
+<a id="taxonomy-codes-codelist-end" ></a>
+[Go to top of table](#taxonomy-codes-codelist)
 
 ## How to include DEI Extension data in a 360Giving data file
 
