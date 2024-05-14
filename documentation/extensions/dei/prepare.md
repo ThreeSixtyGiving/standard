@@ -26,11 +26,12 @@ The data collected through the application of the DEI Data Standard can be compl
 
 The DEI Extension has been designed to be as straightforward as possible however it is more complicated than the commonly used parts of the 360Giving Data Standard.
 
-<!--```eval_rst
+```eval_rst
 .. contents::
    :local:
    :depth: 3
-```-->
+   :backlinks: none
+```
 ### DEI Details
 
 For publishers sharing data using spreadsheets, the DEI Extension data sits within the main **grants** sheet of the [360Giving Data Standard](../../technical/reference). All DEI Extension fields used in spreadsheets are prefixed with DEI Details, followed by the specific field name.
@@ -244,8 +245,8 @@ Note that the DEI Data Standard criteria for each application area require that 
 
 .. _DEI Data Standard section of the Funders Collaborative Hub: https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard
 ```
-<!--<a id="taxonomy-codes-codelist" ></a>-->
-<!--[Skip to end of table](#taxonomy-codes-codelist-end)-->
+<a id="taxonomy-codes-codelist" href = "#taxonomy-codes-codelist-end" >Skip to end of table</a>
+
 
 ```eval_rst
 .. csv-table::
@@ -253,8 +254,8 @@ Note that the DEI Data Standard criteria for each application area require that 
    :header-rows: 1
    :widths: auto
 ```
-<!--<a id="taxonomy-codes-codelist-end" ></a>-->
-<!--[Go to top of table](#taxonomy-codes-codelist)-->
+<a id="taxonomy-codes-codelist-end" href = "#taxonomy-codes-codelist">Go to top of table</a>
+
 
 ## How to include DEI Extension data in a 360Giving data file
 
