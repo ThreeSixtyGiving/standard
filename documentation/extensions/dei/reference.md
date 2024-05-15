@@ -47,7 +47,7 @@ This section contains a reference for the Extension’s schema
 The extension adds several codelists to promote interoperability between datasets. These are all **closed** codelists, meaning that only values from the codelists may be used.
 
 
-#### **Asked Status**
+#### Asked Status
 
 A codelist to declare whether DEI Data Standard questions were asked for this grant, and how.
 
@@ -59,7 +59,7 @@ A codelist to declare whether DEI Data Standard questions were asked for this gr
    :widths: auto
 ```
 
-#### **Available Options**
+#### Available Options
 
 A codelist to declare which answer options were available to the respondents.
 
@@ -70,7 +70,7 @@ A codelist to declare which answer options were available to the respondents.
    :widths: auto
 ```
 
-#### **Reply Status**
+#### Reply Status
 
 A codelist to declare whether a reply to DEI Data Standard questions was received or not.
 
@@ -81,7 +81,7 @@ A codelist to declare whether a reply to DEI Data Standard questions was receive
    :widths: auto
 ```
 
-#### **Taxonomy Codes**
+#### Taxonomy Codes
 
 The authoritative source for the DEI Taxonomy codes vocabulary is the [DEI Data Standard](https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard) and should take precedence over all other sources of information about the DEI Taxonomy codes, including this codelist.
 

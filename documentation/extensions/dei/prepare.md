@@ -15,7 +15,9 @@ The following sections cover these steps in more detail, providing guidance for 
     <h2 class="box__heading">Not sure what file format to use?</h2>
     <p>
       Read our <a href = "../../../guidance/prepare-data#choosing-your-file-format">guidance on choosing a file format</a>
-       </p></div>
+       </p>
+</div>
+
 
 
 ## DEI Extension field guidance
@@ -24,7 +26,13 @@ The data collected through the application of the DEI Data Standard can be compl
 
 The DEI Extension has been designed to be as straightforward as possible however it is more complicated than the commonly used parts of the 360Giving Data Standard.
 
-### **DEI Details**
+```eval_rst
+.. contents::
+   :local:
+   :depth: 3
+   :backlinks: none
+```
+### DEI Details
 
 For publishers sharing data using spreadsheets, the DEI Extension data sits within the main **grants** sheet of the [360Giving Data Standard](../../technical/reference). All DEI Extension fields used in spreadsheets are prefixed with DEI Details, followed by the specific field name.
 
@@ -73,7 +81,7 @@ Fields which apply to Leadership
 * DEI Details:Leadership:DEI Response:Lived Experience
 * DEI Details:Leadership:DEI Response:Geography
 
-### **Required fields**
+### Required fields
 
 In the extension, including **DEI Details** fields is _optional_ for each grant. However, when any DEI Details field is included, the **Asked Status** field becomes required for each of the three areas: Project, Mission and Leadership.
 
@@ -82,7 +90,7 @@ For a publisher of data using the DEI Extension, this means that:
 * If there is no DEI Data Standard information for the grant, you can omit the entire DEI Details set of fields.
 * If there is DEI Data Standard information for the grant, you must include at least a value in **Asked Status** for each Project, Mission and Leadership. This requirement ensures a minimum level of context required for a user to interpret the data correctly.
 
-### **Additional Details**
+### Additional Details
 
 In addition to contextual information provided using codelist fields in Asked Status, Reply Status and Available Options fields, there is also a free text field for sharing **additional details**. This allows for providing extra context and explanation of the way data was collected not found elsewhere.
 
@@ -90,7 +98,7 @@ These are three free text fields available for the Project, Mission and Leadersh
 
 * DEI Details:Additional Details
 
-### **Lived Experience and Geography fields**
+### Lived Experience and Geography fields
 
 In the DEI Data Standard approach, in addition to collecting responses using the taxonomy which classifies population groups, funders can include open questions for respondents to provide information about **Geographical/residential** context and other relevant **lived experience**. This allows for groups that don’t fall into the DEI Data Standard categories to provide responses where relevant.
 
@@ -103,7 +111,7 @@ These are three free text fields available for the Project, Mission and Leadersh
 
 The extension includes several codelists to promote consistency and interoperability between datasets. These are all closed codelists, meaning only values from the codelists may be used in these fields.
 
-### **What are codelists?**
+### What are codelists?
 
 Codelists are a list of values. Each value has three elements:
 
@@ -115,9 +123,15 @@ If you have ever used a web form and selected a value from a drop-down list, thi
 
 The reason for using codes instead of names is because it avoids issues caused by typos, spaces or different cases. It also means the accompanying name and description can be amended or translated without the codes needing to be changed.
 
-### **Codelists used in the DEI Extension**
+### Codelists used in the DEI Extension
 
 There are four codelists available for use in the DEI Extension.
+
+<!--```eval_rst
+.. contents::
+   :local:
+   :depth: 3
+```-->
 
 #### Asked Status
 
@@ -231,6 +245,8 @@ Note that the DEI Data Standard criteria for each application area require that 
 
 .. _DEI Data Standard section of the Funders Collaborative Hub: https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard
 ```
+<a id="taxonomy-codes-codelist" href = "#taxonomy-codes-codelist-end" >Skip to end of table</a>
+
 
 ```eval_rst
 .. csv-table::
@@ -238,6 +254,8 @@ Note that the DEI Data Standard criteria for each application area require that 
    :header-rows: 1
    :widths: auto
 ```
+<a id="taxonomy-codes-codelist-end" href = "#taxonomy-codes-codelist">Go to top of table</a>
+
 
 ## How to include DEI Extension data in a 360Giving data file
 
