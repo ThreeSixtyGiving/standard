@@ -3,37 +3,37 @@ Once 360Giving data has been published by an organisation, the file must be adde
 
 Publishers of 360Giving data can add their valid 360Giving data files to the Data Registry using the 360Giving data file submission form. 
 
-The submission form allows users to:
+The form allows users to:
 - Update an existing Data Registry entry with an updated version of an existing file
 - Add an entry for a new file to the Data Registry
 
-Only publishers with an authorised website domain can use this submission process.
+Only publishers with an authorised website domain can use the data file submission process.
 
 ## Authorised domains
 By default, the website domain used by existing publishers to host their 360Giving data files will be authorised.
 
-Organisations that publish 360Giving data for the first time can also use the 360Giving data file submission process once they have registered their website domain with 360Giving. To register to your website domain prior to publishing for the first time, please contact 360Giving Helpdesk via <support@threesixtygiving.org>.
+Organisations that publish 360Giving data for the first time can also use the 360Giving data file submission process once they have registered their website domain with 360Giving. To register your website domain prior to publishing for the first time, please contact the 360Giving Helpdesk at <support@threesixtygiving.org>.
 
 Publishers can opt out of authorising their website domain and using the 360Giving data file submission process on request.
 
 ### Which domains are not authorised?
-Data files published on multi-user hosting platforms, like open data repositories or file sharing services Google Sheets or Dropbox, cannot be submitted with the 360Giving data file submission process because the domain cannot be authorised as being unique to a particular organisation. 
+Data files published on multi-user hosting platforms, like open data repositories or file-sharing services such as Google Sheets, SharePoint or Dropbox, cannot be submitted with the 360Giving data file submission process because the domain cannot be authorised as being unique to a particular organisation. 
 
-Files published in this way can only be added to the 360Giving Data Registry by emailing 360Giving Helpdesk via <support@threesixtygiving.org>.
+Files published in this way can only be added to the 360Giving Data Registry by emailing the 360Giving Helpdesk at <support@threesixtygiving.org>.
 
-## How to use the 360Giving data submission process
+## How to use the 360Giving data file submission process
 To add a file to the 360Giving Data Registry, it must:
-- Contain valid 360Giving data, which means it has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> checks.
-- Be published online via a publicly accessible link.
-- And be accompanied by an open license which gives permission for its use.
+- Contain valid 360Giving data, which means it has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> checks
+- Be published online via a publicly accessible link
+- And be accompanied by an open license which gives permission for its use
 
-For further information read our guidance on using the [Data Quality Tool](../../guidance/data-quality/), and [publishing your data openly](../../guidance/publish-data-openly/).
+For further information, read our guidance on using the [Data Quality Tool](../../guidance/data-quality/) to check data quality, and [publishing your data openly](../../guidance/publish-data-openly/).
 
 You should also make sure the data is ready to be published in terms of its contents. 
 
 Please only submit a file to the 360Giving Data Registry if you are sure that it includes the correct information, and there is nothing in the data that is unsuitable for publishing as open data. Find out more about what to check before publishing your data openly in our [data protection guidance](../../guidance/data-protection/).
 
-You are only able to submit one file at a time. To submit multiple files, you will need to go through the 360Giving data file submission process for each file separately.
+You are only able to submit one file at a time. To submit multiple files, you will need to use the 360Giving data file submission process to submit each file separately.
 
 ### Submit the link to your file
 Once your 360Giving data is ready to be added to the 360Giving Data Registry, paste the link into the **Submit your data** section of the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a>. This is below the **Check your data** section which is for testing files prior to publishing and submitting.
