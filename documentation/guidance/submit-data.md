@@ -36,7 +36,9 @@ Please only submit a file to the 360Giving Data Registry if you are sure that it
 You are only able to submit one file at a time. To submit multiple files, you will need to use the 360Giving data file submission process to submit each file separately.
 
 ### Submit the link to your file
-Once your 360Giving data is ready to be added to the 360Giving Data Registry, paste the link into the **Submit your data** section of the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a>. This is below the **Check your data** section which is for testing files prior to publishing and submitting.
+Once your 360Giving data is ready to be added to the 360Giving Data Registry, go to the [Data Quality Tool](../../guidance/data-quality/) and refresh the page. Find the **Submit your data** section, under the **Check your data** section. 
+
+![screenshot of DQT main page](../../assets/DFS Screenshot 2024-06-07 New button names.png)
 
 If the file contains valid 360Giving data and the domain hosting the link to the file is an authorised domain, you will be able to click **Submit your data**, which will open the data file submission form.
 
