@@ -63,7 +63,7 @@ If your organisation has published 360Giving data before, you will be presented 
 
 If none of the grant data in the file has been published before, select the option to **Submit a new Data Registry entry**.
 
-If your file includes grants that have already been published and appear in 360Giving’s tools (such as GrantNav), you need to replace your existing file with an updated version, by selecting the option to **Update an existing Data Registry entry**. The updated version of the file should contain all the grants that have already been published and the new grant data.
+If your file includes grants that have already been published and appear in 360Giving’s tools (such as GrantNav), you need to replace your existing file with an updated version by selecting the option to **Update an existing Data Registry entry**. The updated version of the file should contain all the grants that have already been published and the new grant data.
 
 To find out which file you need to update, check your organisation’s entry on the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
 
