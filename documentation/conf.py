@@ -130,9 +130,6 @@ todo_include_todos = False
 
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
 
-# We also need to tell the Jinja2 templates that the build is running on Read The Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    html_context["READTHEDOCS"] = True
 
 
 
@@ -277,6 +274,11 @@ html_context = {
     'now': datetime.datetime.now(),
     'settings360': settings360,
 }
+
+# See https://about.readthedocs.com/blog/2024/07/addons-by-default/
+# We also need to tell the Jinja2 templates that the build is running on Read The Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    html_context["READTHEDOCS"] = True
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxdoc'
