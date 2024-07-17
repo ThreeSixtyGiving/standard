@@ -124,6 +124,17 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+## -- Read The Docs addons enabled by default
+## -- this block is designed to keep the behaviour of the pre 2024-10 builds by defining html_baseurl inside this file, as read the docs are no longer injecting it.
+## -- See https://about.readthedocs.com/blog/2024/07/addons-by-default/ for more details
+
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+# We also need to tell the Jinja2 templates that the build is running on Read The Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    html_context["READTHEDOCS"] = True
+
+
 
 # -- Options for HTML output ----------------------------------------------
 
