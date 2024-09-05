@@ -68,7 +68,7 @@ See our guidance on [converting postcodes into geocodes](converting-postcodes-in
 ### Recipient location codes
 In cases when it isn’t possible or appropriate to publish postal codes, it is possible to publish recipient location in the form of Office for National Statistics (ONS) geocodes.
 
-When 360Giving data includes recipient location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations.html" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
+When 360Giving data includes recipient location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/#location-pages" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
 
 The fields used to share recipient location geocodes should be accompanied by fields for the location name and geocode type whenever possible.
 
