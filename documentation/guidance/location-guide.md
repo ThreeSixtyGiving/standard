@@ -3,12 +3,12 @@
 ## Why is location data important?
 Location data helps users to understand where organisations are based or activities are happening, which helps to build a more complete picture of where funding is going geographically.
 
-Finding out where in the UK grants go is a key question that 360Giving data can be used to answer, but this is only possible when good quality and consistent location data – also known as geodata – is shared. 
+Finding out where in the UK grants go is a key question that 360Giving data can be used to answer, but this is only possible when good quality and consistent location data – also known as geodata – is shared.
 
 Location is not one of the [ten core fields](https://standard.threesixtygiving.org/en/latest/guidance/plan-the-process/#decide-what-information-to-share), so the 360Giving Data Standard does not require geodata to be included. However, location information is so useful that we do recommend including it whenever possible. When data also includes geographic codes, it makes the data more comparable, and allows the data to be visualised in maps or analysed alongside other datasets such as Indices of Multiple Deprivation.
 
 ## The basics
-The 360Giving Data Standard includes a range of ways to describe locations which are split into four types of fields: recipient, funder and beneficiary location, and location scope. 
+The 360Giving Data Standard includes a range of ways to describe locations which are split into four types of fields: recipient, funder and beneficiary location, and location scope.
 
 - **Recipient location** is where the recipient of a grant is based.
 - **Funder location** is where the funder of a grant is based.
@@ -32,7 +32,7 @@ Whenever possible, geocodes should be shared by funders publishing on 360Giving 
 
 **Country codes** - two-letter country codes taken from <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO_3166-1_alpha-2</a> codelist. For example the code for the United Kingdom is **GB**, the code for Spain is **ES**.
 
-**ONS codes** - nine character codes managed by the <a href="https://en.wikipedia.org/wiki/ONS_coding_system" target="_blank">Office for National Statistics</a> which describe a wide range of geographical areas in the UK - including the four nations of the UK, regions in England, local authority areas, electoral wards and <a href="https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeography#output-area-oa" target="_blank">Census output areas.</a> 
+**ONS codes** - nine character codes managed by the <a href="https://en.wikipedia.org/wiki/ONS_coding_system" target="_blank">Office for National Statistics</a> which describe a wide range of geographical areas in the UK - including the four nations of the UK, regions in England, local authority areas, electoral wards and <a href="https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeography#output-area-oa" target="_blank">Census output areas.</a>
 
 **Postal Codes** - full or partial postal codes associated with a UK postal address, or the equivalent codes used in other countries.
 
@@ -44,7 +44,7 @@ Location scope codes are drawn from a codelist developed and managed by 360Givin
 See our [Codelist guide](../technical/codelists) for more detailed guidance on what codelists are and how they are used in the 360Giving Data Standard.
 
 ## Recipient organisation location
-**Recipient location** fields indicate where the grant recipient is based. It could be the location of a main office or branch, whatever is most appropriate for the grant. 
+**Recipient location** fields indicate where the grant recipient is based. It could be the location of a main office or branch, whatever is most appropriate for the grant.
 
 Many funders collect address information from applicants during the grants management process, which makes including recipient location information straightforward. Over <a href="https://qualitydashboard.threesixtygiving.org/alldata" target="_blank">two-thirds of organisations</a> sharing 360Giving data include this type of information.
 
@@ -53,7 +53,7 @@ There are fields which allow for the full postal address of an organisation to b
 
 Publishing street addresses is not recommended because it does not add to the usefulness of the data and omitting these details helps to avoid privacy issues if a recipient organisation is registered at a home address or if an organisation is supporting vulnerable people (for example, a refuge).
 
-View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org" target="_blank">recipient organiation address fields.</a> 
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org" target="_blank">recipient organiation address fields.</a>
 
 **Considering privacy**
 
@@ -68,7 +68,7 @@ See our guidance on [converting postcodes into geocodes](converting-postcodes-in
 ### Recipient location codes
 In cases when it isn’t possible or appropriate to publish postal codes, it is possible to publish recipient location in the form of Office for National Statistics (ONS) geocodes.
 
-When 360Giving data includes recipient location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations.html" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
+When 360Giving data includes recipient location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations/" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
 
 The fields used to share recipient location geocodes should be accompanied by fields for the location name and geocode type whenever possible.
 
@@ -102,10 +102,10 @@ The fields used to share recipient location geocodes should be accompanied by fi
     </table>
 </div>
 
-View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org-location" target="_blank">recipient location fields.</a> 
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#recipient-org-location" target="_blank">recipient location fields.</a>
 
 ## Beneficiary location
-**Beneficiary location** fields are used to describe where the funded work is being delivered or where the people who will access the service or activity are based. 
+**Beneficiary location** fields are used to describe where the funded work is being delivered or where the people who will access the service or activity are based.
 
 These fields can also be used to describe the geographical scope of a grant programme or funder’s area of operation.
 
@@ -113,24 +113,24 @@ These fields can also be used to describe the geographical scope of a grant prog
 Including beneficiary location can provide a more accurate picture of where grants are going geographically, as these fields focus on where the impact of the funding is being directed.
 
 Beneficiary location is especially important in cases where the recipient location is in a different place from the activity being funded. This is common for grants awarded to larger regional or national organisations with head offices based in major cities that deliver services in different places around the country.
-                  
+
 **Beneficiary location names**
-                  
-The location names could describe any type and size of place; an estate, ward, town or city, local government area, parliamentary constituency, region or country. These values should be relevant to the scope of the grant or funded activity. 
+
+The location names could describe any type and size of place; an estate, ward, town or city, local government area, parliamentary constituency, region or country. These values should be relevant to the scope of the grant or funded activity.
 
 Including the **location name** allows users to understand which places funding is reaching.
 
 **Using location names consistently**
-                  
+
 Ensuring location names are consistent within your own data will make the information clearer and more usable, especially if it is not possible to also publish geocodes alongside the names.
 
-For example, avoid having "Bristol, City of" and "City of Bristol" and “Bristol" or "Tyne & Wear" and "Tyne and Wear" in the same data. 
+For example, avoid having "Bristol, City of" and "City of Bristol" and “Bristol" or "Tyne & Wear" and "Tyne and Wear" in the same data.
 
 Also avoid using ambiguous terms such as ‘National’ which in a UK context could be interpreted as meaning any of the four nations or UK-wide. Use the specific country name - England, Scotland, Northern Ireland or Wales, or the term UK-wide to ensure users can interpret your grant data correctly.
 
 **Beneficiary location geocodes**
 
-Including geocodes that correspond with the beneficiary location names increases the usability of the data by providing a consistent way to identify these places, which make the data comparable across different funders. 
+Including geocodes that correspond with the beneficiary location names increases the usability of the data by providing a consistent way to identify these places, which make the data comparable across different funders.
 
 Data with geocodes can be used to produce maps showing the geographic distribution of funding and allow grants data to be linked with other data sources, such as official statistics. When 360Giving data includes beneficiary location codes at UK **Country**, **English Region**, **Local Authority**, **Ward** or **LSOA** level, these will work with the <a href="https://help.grantnav.threesixtygiving.org/en/latest/locations.html" target="_blank">location filtering functions</a> of GrantNav, 360Giving’s search engine for grants data.
 
@@ -165,8 +165,8 @@ The fields used to share beneficiary location geocodes should be accompanied by 
         </tbody>
     </table>
 </div>
-                  
-View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#beneficiary-location" target="_blank">beneficiary location fields.</a> 
+
+View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#beneficiary-location" target="_blank">beneficiary location fields.</a>
 
 ### Challenges with beneficiary location data
 Beneficiary location data can provide a more accurate location for the intended impact of a grant, and is therefore more useful when carrying out analysis on where grants go. However it is also a more challenging type of data to collect and publish.
@@ -179,7 +179,7 @@ The types of challenges include:
 - The delivery location could be undefined, for example because the grant is unrestricted, is funding policy work or services that are provided online.
 
 **Start by sharing what you can**
-                  
+
 We recommend that funders who collect location data that could be shared as beneficiary location should publish this information whenever possible.
 
 There is no one-size fits all approach to beneficiary location, as funders have a diverse range of geographical scopes and priorities.
@@ -196,7 +196,7 @@ Funders have a wide range of reasons for collecting beneficiary location, and th
 These examples highlight a few of the common approaches, and outline the benefits and limitations these can have. Hopefully they will provide inspiration for funders that don’t currently collect and share beneficiary location information but would like to do so in future.
 
 **Project location postcode**
-                  
+
 Funders can ask applicants to provide a ‘project postcode’ to indicate where the funded work will take place. This postcode might relate to an address or could also be picked from within a wider area.This data can be shared directly as a postal code, or converted into a geocode prior to publication.
 
 The advantage of working with postcodes is that these are the most commonly used and understood type of geodata. A postcode can be matched to ONS geocodes and scaled up to a larger area when appropriate. Postcodes are also easy to convert into latitude and longitude coordinates for use in maps.
@@ -204,32 +204,32 @@ The advantage of working with postcodes is that these are the most commonly used
 This approach can be suitable for collecting data about very localised funding or grants aimed at a specific location, such as a building or park. It is less accurate or useful for capturing the location of grants for any activities carried out over a larger area or multiple locations.
 
 **Location picklist**
-                  
+
 On application forms funders may provide a list of locations - known as a picklist - for applicants to select the place or places where they are delivering their activities.
 
 Grants management systems might have an ‘area of operation’ field with region or country values by default. For funders with a regional or county area of focus, the list of locations might be broken down into the local authority areas or at ward level for funders focused on a single city or council area. These place names can be published in 360Giving data on their own or with their corresponding geocodes.
 
-The advantage of working with picklist values is the data is consistent and it can be straightforward to match these names with geocodes. This approach can be suitable for a wide range of funders and scaled to work for those funding nationally or locally. 
+The advantage of working with picklist values is the data is consistent and it can be straightforward to match these names with geocodes. This approach can be suitable for a wide range of funders and scaled to work for those funding nationally or locally.
 
 When location is collected at a regional or country level, the data is less usable for mapping but will still provide useful information for analysing broad trends and showing when the funded activity is in a different place from the recipient location.
 
 When multiple locations are provided for each grant it is possible to publish these in 360Giving data. See the [guidance below](multiple-locations) for further information.
 
 **Funder or programme area of operation**
-                  
+
 Funders with a defined area of operation or programmes (with place specific eligibility criteria) will know the maximum possible location area of a grant even if specific geodata isn’t being collected.
 
-This type of scope data can be applied to all grants that meet the criteria, providing a useful starting point to publishing location data. When the funder or programme scope is a local authority area, this provides useful data for geographical analysis being carried out at a county, regional or national level. 
+This type of scope data can be applied to all grants that meet the criteria, providing a useful starting point to publishing location data. When the funder or programme scope is a local authority area, this provides useful data for geographical analysis being carried out at a county, regional or national level.
 
 However the potential for variation within council areas means data provided at this level or higher cannot be meaningfully compared with statistical data such as Indices of Multiple deprivation, which are linked to small area geographies.
 
 ```eval_rst
 .. _multiple-locations:
 ```
-                    
+
 ### Sharing data with multiple beneficiary locations
 It is possible to include multiple beneficiary locations for each grant, because the 360Giving Data Standard allows for the creation of [one to many relationships.](one-to-many-relationships)
-                  
+
 Multiple beneficiary location fields could be used to:
 - Provide alternative types of geodata for the same location - for example including the local authority ward and parliamentary constituency area codes, and latitude and longitude coordinates which are all based on the same project postcode area.
 - Describe two or more different locations that are impacted by the funding.
@@ -240,10 +240,10 @@ For publishers using [JSON format](360giving-json-schemas), sharing data with mu
 For publishers using spreadsheets, there are a couple of ways to structure one-to-many relationships for sharing multiple locations, which we have detailed below.
 
 **Including multiple location fields in the main sheet**
-                  
+
 For publishers who have three or fewer fields of beneficiary location per grant, it will be easiest to include all three within the main grants sheet.
 
-In these cases, the fields or sets of fields are numbered, starting with 0 for the first column. 
+In these cases, the fields or sets of fields are numbered, starting with 0 for the first column.
 
 For example:
 
@@ -263,10 +263,10 @@ For example:
             </tr>
         </tbody>
     </table>
-</div> 
+</div>
 
 **Including multiple location fields in an additional sheet**
-                  
+
 With four or more columns of location data, it may become easier to include all the beneficiary location columns in a separate sheet within the file.
 
 The main spreadsheet template includes a sheet for each part of Standard. The beneficiary location sheet includes the fields from this object and the grant Identifier, which is used to associate the data with each grant.
@@ -313,7 +313,7 @@ Using this method, there should be a row for each location, repeating the grant 
               <tr>
         </tbody>
     </table>
-</div> 
+</div>
 
 
 ```eval_rst
@@ -399,4 +399,3 @@ When it is not possible to provide a Location scope value for a grant, the field
 In addition to providing location information for recipients and beneficiaries, the location of the funding organisation itself can be included, either using the address or location fields.
 
 View the full range of available <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org" target="_blank">funding organisation address fields</a> or <a href="https://standard.threesixtygiving.org/en/latest/technical/reference/#funding-org-location" target="_blank">funding organisation location fields.</a>
-
