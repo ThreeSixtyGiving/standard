@@ -141,12 +141,12 @@ You can filter your results by grant size, date, location, grant programme, fund
 
 For more guidance about how to explore 360Giving data in GrantNav visit the <a href="https://help.grantnav.threesixtygiving.org/en/latest" target="_blank">GrantNav Help site.</a>
 
-#### 360Insights
-<a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a> is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funders across different areas – from their grant dates to types of recipients.
+#### GrantVis
+<a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a> is a tool to help you understand funders better. You can combine and visualise 360Giving and charity data, and explore funders across different areas – from their grant dates to types of recipients.
 
 You can filter the 360Insights dashboard to see results for grants based on grant programme, organisation type, size or region.
 
-![Screenshot of 360Insights](../../assets/Example_360Insights_view.png)
+![Screenshot of GrantVis, formerly known as 360Insights](../../assets/Example_360Insights_view.png)
 
 ### What's next?
 Read our guidance about data protection aimed at funders of grants to organisations and what to consider when publishing open grants data for the first time.
