@@ -372,7 +372,7 @@ A fundamental aspect of publishing using the 360Giving Data Standard, and publis
 
 A publishing organisation can decide to stop publishing data and/or can remove the data from their website at any time, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
-For publishers intending to publish grants to individuals the goal is to ensure that no information is shared in 360Giving data that could allow an individual to be identified. However, in the event that data is published that needs to be removed to prevent or limit a breach of privacy, 360Giving will follow our <a href ="https://www.threesixtygiving.org/take-down-policy/" target ="_blank">Take down policy</a> for the data linked from our <a href="https://data.threesixtygiving.org/" target="_blank">Data Registry</a> and loaded into our tools, so we will remove any published data on request.
+For publishers intending to publish grants to individuals the goal is to ensure that no information is shared in 360Giving data that could allow an individual to be identified. However, in the event that data is published that needs to be removed to prevent or limit a breach of privacy, 360Giving will follow our <a href ="https://www.360giving.org/legal-policies/take-down-policy/" target ="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
 ## Prepare and format your data
 ### Introduction
@@ -384,7 +384,7 @@ For most publishers, whether you are using grants management software or you hol
 
 Read the [general guidance about preparing 360Giving data](../../guidance/prepare-data) for further information about your options.
 ### Register with 360Giving Helpdesk
-Once you have decided to publish your grants data, please fill in our <a href="https://www.threesixtygiving.org/publisher-registration-form/" target ="_blank">Publisher Registration Form</a> to let us know more about your organisation, so 360Giving Helpdesk can provide tailored support to suit your needs.
+Once you have decided to publish your grants data, please fill in our <a href="https://www.360giving.org/publish/register/" target ="_blank">Publisher Registration Form</a> to let us know more about your organisation, so 360Giving Helpdesk can provide tailored support to suit your needs.
 
 You will be provided with a 360Giving Publisher prefix, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant identifiers.](../../technical/identifiers/#id2)
 
@@ -413,11 +413,11 @@ There are two versions of the template.
 
 **360Giving-Grants-to-Inds-Data-Preparation-Template_Codelist-Mapping** is designed for use by funders who have internal categories for their grants which can be mapped against the shared 360Giving codelists.
 
-Download a copy of the **<a href= "https://www.threesixtygiving.org/wp-content/uploads/360Giving-Grants-to-Inds-Data-Preparation-Template_Codelist-Mapping.xlsx" target ="_blank">Codelist-Mapping template</a>**
+Download a copy of the **<a href= "https://www.360giving.org/wp-content/uploads/360Giving-Grants-to-Inds-Data-Preparation-Template_Codelist-Mapping.xlsx" target ="_blank">Codelist-Mapping template</a>**
 
 **360Giving-Grants-to-Inds-Data-Preparation-Template_Manual-Coding** is designed for use by funders who don’t have existing categories for their grants, and so need to manually code their grants using the shared 360Giving codelists.
 
-Download a copy of the **<a href = "https://www.threesixtygiving.org/wp-content/uploads/360Giving-Grants-to-Inds-Data-Preparation-Template_Manual-Coding.xlsx" target = "_blank">Manual-Coding template</a>**
+Download a copy of the **<a href = "https://www.360giving.org/wp-content/uploads/360Giving-Grants-to-Inds-Data-Preparation-Template_Manual-Coding.xlsx" target = "_blank">Manual-Coding template</a>**
 
 Full guidance about the templates and how they work is provided in the [Data Preparation Templates section.](../../individuals/data-preparation-templates)
 
