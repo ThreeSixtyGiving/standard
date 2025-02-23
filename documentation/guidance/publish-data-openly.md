@@ -6,7 +6,7 @@
     <li>Decide what open license to use.</li>
       <li>Select a location online to host your data.</li>
       <li>Publish your 360Giving data file alongside the details of the open license.</li>
-      <li>Let 360Giving know about your file so it can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a></li>
+      <li>Let 360Giving know about your file so it can be added to the 360Giving Data Registry.</a></li>
        </ol></p></div>
 
 ## Overview
@@ -44,7 +44,7 @@ Here’s an example of a license statement based on our recommended CC BY 4.0 li
 > Using the 360Giving Data Standard, our awarded grants since **[Year]** are available as **[File Type]** here.
 > This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. This means the data is freely accessible to anyone to be used and shared as they wish. The data must be attributed to **[Organisation]**.
 
-> We believe that with better information, funders can be more effective and strategic decision makers. 360Giving supports funders to publish open data about their grants, and empowers people to use this data to improve charitable giving through a range of free online tools. For more information, visit https://www.threesixtygiving.org
+> We believe that with better information, funders can be more effective and strategic decision makers. 360Giving supports funders to publish open data about their grants, and empowers people to use this data to improve charitable giving through a range of free online tools. For more information, visit https://www.360giving.org
 
 ## How to host your 360Giving data
 The final step is to prepare a place online where your 360Giving data file will be available for download. For most 360Giving publishers this means hosting the data on their website but there are also some [alternative hosting methods](alternative-hosting-options) that can be used.
@@ -58,11 +58,11 @@ You can host the data file anywhere on your site and place a link to it where it
 - Or you can choose another place which makes sense for your website’s structure.
 
 #### Using the 360Giving logo
-If you would like to use the 360Giving logo on your website, there is a <a href="https://www.threesixtygiving.org/360giving-badges/" target="_blank">special design that publishers can use.</a>
+If you would like to use the 360Giving logo on your website, there is a <a href="https://www.360giving.org/publish/share/badges/" target="_blank">special design that publishers can use.</a>
 
 Please do not use the main 360Giving logo without permission.
 
-<img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-white-150x150.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-teal-150x150.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green-150x150.png" alt="360Giving publisher badge - green" width="150" height="150" />
+<img class="wp-image-2575 size-thumbnail alignnone" src="https://www.360giving.org/wp-content/uploads/360giving-publisher-yellow.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="https://www.360giving.org/wp-content/uploads/360giving-publisher-white.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="https://www.360giving.org/wp-content/uploads/360giving-publisher-teal.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="https://www.360giving.org/wp-content/uploads/360giving-publisher-green.png" alt="360Giving publisher badge - green" width="150" height="150" />
 
 #### Example hosting pages
 Here are some examples of what other 360Giving publishers have done.
@@ -90,28 +90,26 @@ Examples of public sector data hosting pages:
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a> 
 
 ## Submit your file to the Data Registry
-Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
+Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the 360Giving Data Registry which is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard.
 
-The 360Giving Data Registry is a list of all the organisations that currently publish their grant data in the 360Giving Data Standard, with direct links to their data sources. Anyone can access the Registry to view, download and use the data.
-
-The files listed on the 360Giving Data Registry are the source for the grant information in GrantNav, 360Insights and other tools and platforms using the data.
+The 360Giving Data Registry is the source for the grant information in GrantNav, GrantVis and other tools and platforms using the data. Anyone can access this information to view, download and use the data via the <a href="https://qualitydashboard.threesixtygiving.org/publishers" target="_blank">360Giving Data Quality Dashboard</a>.
 
 Publishers submit their valid 360Giving data files to the Data Registry using the 360Giving data file submission form. See our guidance on [how to submit your data to the Registry](../../guidance/submit-data/)
 
-### When your grants will appear in GrantNav and 360Insights
+### When your grants will appear in GrantNav and GrantVis
 In order for data to be included in 360Giving tools, the data needs to meet these three criteria:
-- Listed on the 360Giving Data Registry;
+- Included on the 360Giving Data Registry;
 - Openly licensed;
 - Valid according to the schema used for the 360Giving Data Standard.
 
-**GrantNav** and **360Insights** are updated on a daily basis. This means your data will appear there the day after a file is submitted to the Data Registry.
+**GrantNav** and **GrantVis** are updated on a daily basis. This means your data will appear there the day after a file is submitted to the Data Registry.
 
 ## Taking down published data
 A fundamental aspect of publishing using the 360Giving Data Standard, and publishing open data in general, is that once the information is released it may be downloaded and used by anyone.
 
 An organisation is free to decide to stop publishing data and/or can remove the data from their website, however the information that has been published may still be held and used by anyone who has already downloaded it.
 
-360Giving has a <a href="https://www.threesixtygiving.org/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
+360Giving has a <a href="https://www.360giving.org/legal-policies/take-down-policy/" target="_blank">Take down policy</a> for the data linked from our Data Registry and loaded into our tools, so we will remove any published data on request.
 
 ### Making amendments to published data
 Take down requests are rare. It is however common for publishers to make changes to published data to correct errors or make updates when changes are made to a grant. In addition to changes you make to your own data, you may receive requests from grantees to amend information about their organisations that might be incorrect or misleading. See our [guidance on making updates](../../guidance/making-updates/) to your data and the mechanism for grantees to request amendments.
