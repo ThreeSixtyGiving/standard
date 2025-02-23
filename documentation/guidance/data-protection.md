@@ -103,7 +103,7 @@ The data will be available to download from our website (insert link). The data 
 
 We are proud to be associated with our partner organisations and this is a way to share information about our collective work that can support learning and better decision-making in the charitable giving sector. Publishing open data about grants awarded in this way complements the news shared about the partners’ work and achievements.
 
-For more information about the 360Giving initiative visit their website: <a href="https://www.threesixtygiving.org/" target="_blank">https://www.threesixtygiving.org/</a>
+For more information about the 360Giving initiative visit their website: <a href="https://www.360giving.org/" target="_blank">https://www.360giving.org/</a>
 
 ## If you do intend to publish personal data
 We encourage publishers to carefully consider the value of publishing any personal information as part of their 360Giving data and discourage sharing of special category data (including racial or ethnic origin and health information).
