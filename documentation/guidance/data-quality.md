@@ -13,7 +13,7 @@ Once you have prepared your file of grant data, the next step is to check that i
 
 The term ‘valid‘ means the file includes the 10 core fields, and the information has all the correct data formatting.
 
-Only valid 360Giving data can be combined with other published data and be included in 360Giving tools, such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org/" target="_blank">360Insights</a>.
+Only valid 360Giving data can be combined with other published data and be included in 360Giving tools, such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org/" target="_blank">GrantVis</a>.
 
 ## How to use the 360Giving Data Quality Tool
 <a href="https://dataquality.threesixtygiving.org/" target="_blank">The Data Quality Tool</a> (DQT) has been specially designed to support the preparation and publication of 360Giving data.
