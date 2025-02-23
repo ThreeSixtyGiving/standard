@@ -11,7 +11,7 @@ Community foundations participating in a pilot were consulted to agree a field s
 
 This tool built into the D2 system means that the technical aspects of preparing your data will be automated, making the process easier and quicker. There are some additional practical steps you need to follow when sharing your 360Giving data for the first time, for example the hosting and licensing of the data.
 
-Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site. You can also <a href="https://www.threesixtygiving.org/wp-content/uploads/Data_preparation_guide_for_community_foundations-PDF_version.pdf" target="_blank=">download this guidance<a/> [PDF 384kb].
+Below there is specific step-by-step guidance for community foundations using the D2 tool, and links to other relevant guidance found on this site. You can also <a href="https://www.360giving.org/wp-content/uploads/Data_preparation_guide_for_community_foundations-PDF_version.pdf" target="_blank=">download this guidance<a/> [PDF 384kb].
 
 <a href="https://vimeo.com/239307295/d94dd749c1" target="_blank=">Watch the video walk-through<a/>
 
