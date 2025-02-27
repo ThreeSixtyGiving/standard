@@ -95,7 +95,7 @@ You will be asked to agree to the following on behalf of your organisation:
 - You are authorised to submit this file to the 360Giving Data Registry on behalf of your organisation
 - There is no personal data in the file, or consent to share personal data has been obtained, in line with the [Publisher Guidance on Data Protection](../../guidance/data-protection/)
 - The data is openly licensed in line with the [Publisher Guidance on Publishing Data Openly](../../guidance/publish-data-openly/). This means that anyone can download and use the data
-- Your data is ready, and you give permission for the grant data in the file to appear publicly in 360Giving tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a>
+- Your data is ready, and you give permission for the grant data in the file to appear publicly in 360Giving tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a>
 
 Click **Agree** to go to the final page, which will confirm that the update to the Data Registry has been made.
 
