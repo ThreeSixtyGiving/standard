@@ -120,7 +120,7 @@ You may find it helpful to look at the data published by other funders to unders
 #### Data Quality Dashboard
 <a href="https://qualitydashboard.threesixtygiving.org/" target="_blank">The Data Quality Dashboard</a> shows the data quality of 360Giving data as a whole and for each individual publisher. It provides insights into the key features that make the data useful for analysis to help publishers to identify opportunities for their data to be improved.
 
-<img src="https://qualitydashboard.threesixtygiving.org/static/vue-build/img/360dataqualitydashboard-color.1a6a42d9.svg" alt="360Giving Data Quality Dashboard logo" width="500" />
+<img src="https://qualitydashboard.threesixtygiving.org/img/360dataqualitydashboard-color.5d5dbb39.svg" alt="360Giving Data Quality Dashboard logo" width="500" />
 
 #### GrantNav
 <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> is our search engine for grants data. Explore and download data about where funding goes and how much is given across billions of pounds of grants, for causes and locations across the UK.
