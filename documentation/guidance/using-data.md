@@ -28,4 +28,4 @@ We have developed tools to make the data easier for people to explore.
 <img src="https://qualitydashboard.threesixtygiving.org/img/360dataqualitydashboard-color.5d5dbb39.svg" alt="360Giving Data Quality Dashboard logo" width="500" />
 
 ## Support for complex data needs
-Visit <a href="https://www.360giving.org/explore/" target="_blank">our website</a> to find out the different ways that developers, researchers and others can access grants data in the 360Giving Data Standard.
+Visit <a href="https://www.360giving.org/explore/technical/" target="_blank">our website</a> to find out the different ways that developers, researchers and others can access grants data in the 360Giving Data Standard.
