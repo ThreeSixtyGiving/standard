@@ -74,7 +74,7 @@ However, there can be costs related to consultancy or support fees to set up a g
 #### 360Giving Helpdesk
 Our Helpdesk provides pro-bono support to help funders navigate the steps to publish their grants data using the 360Giving Data Standard. We provide guidance and direct support to help streamline the process as far as possible.
 
-You can contact 360Giving Helpdesk via <support@threesixtygiving.org>. Visit our website to find out other ways to <a href="https://www.360giving.org/support/?event_type%5B%5D=publish-grants-data&sort-by=date" target="_blank"> get support with publishing</a>.
+You can contact 360Giving Helpdesk via <support@threesixtygiving.org>. Visit our website to find out other ways to <a href="https://www.360giving.org/support/?event_type%5B%5D=intro-to-publishing&event_type%5B%5D=grants-to-inds&sort-by=date" target="_blank"> get support with publishing</a>.
 
 ## About grants management systems
 Funders of all shapes and sizes have become 360Giving data publishers. Many using a wide range of grants management systems but some collect basic data in spreadsheets.
