@@ -17,7 +17,7 @@ How you prepare your data will be influenced by how you collect and store inform
 For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it in a spreadsheet file. However, some grants management systems make it possible to build in some or all of the steps needed to convert the information, so it can be exported directly from the system in 360Giving data format.
 
 ## Register with 360Giving Helpdesk
-Once you have decided to publish your grants data, please fill in our <a href="https://www.threesixtygiving.org/publisher-registration-form/" target="_blank">Publisher Registration Form</a> to let us know more about your organisation, so 360Giving Helpdesk can provide tailored support to suit your needs.
+If you are publishing your grants data for the first time please fill in our <a href="https://www.360giving.org/publish/register/" target="_blank">Publisher Registration Form</a> to let us know more about your organisation, so 360Giving Helpdesk can provide tailored support to suit your needs.
 
 You will be provided with a **360Giving Publisher prefix**, which identifies your organisation and will be used in your 360Giving data to provide a unique identifier for each grant. For further information see our guidance about [grant identifiers.](grant-identifier)
 

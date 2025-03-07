@@ -278,7 +278,7 @@ For example:
 - Are any of the cells blank or feature **#N/A** errors? All columns with a green title must include information in each cell because these are required fields which cannot be blank. Other columns without green headers may have blank cells if there is no information available. If any cells include zeros or #N/A errors, check the information in **source_data** sheet to see if there is a problem with the data and correct as needed.
 - Does the content of the data in **360_data** look right? If the values in the columns look wrong, there may be a mismatch between the mapping of the **source_data** fields with the 360Giving headings. Check the **source_data** to see if the order of the columns needs to be changed or if the first column of your source data is not aligned with **column A** in the sheet.
 ### Converting Postcodes into Geocodes
-<a href="https://findthatpostcode.uk/" target="_blank">Find that Postcode</a> is a tool supported and used by 360Giving to power the location functions of its tools <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a>.
+<a href="https://findthatpostcode.uk/" target="_blank">Find that Postcode</a> is a tool supported and used by 360Giving to power the location functions of its tools <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a>.
 
 The tool has a free and easy-to-use service called ‘<a href="https://findthatpostcode.uk/addtocsv/" target="_blank">Add fields to CSV</a>’ which allows you to upload a list of UK postcodes into the tool and then download a file with corresponding ONS and other official area geocodes.
 
@@ -346,9 +346,9 @@ Once your data passes the Data Quality Tool’s checks – and you are happy wit
 
 For further information see our guidance on [publishing data openly](../guidance/publish-data-openly/).
 
-Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
+Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the 360Giving Data Registry.
 
-For further information see our guidance on [submitting your file to the Registry](../../guidance/publish-data-openly/#register-your-file-with-360giving).
+For further information see our guidance on [submitting your file to the Registry](../../guidance/submit-data/).
 
 Once you have already published 360Giving for the first time, you can use the template and follow the same steps to format your next batch of grants, but this time opting to either copy the new grants into the existing file with your 360Giving data or setting up a new file.
 

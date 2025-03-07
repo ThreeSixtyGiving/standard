@@ -1,5 +1,5 @@
 # Submit your data to the Registry
-Once 360Giving data has been published by an organisation, the file must be added to the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a> so that the data appears in 360Giving’s tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a>.
+Once 360Giving data has been published by an organisation, the file must be added to the 360Giving Data Registry so that the data appears in 360Giving’s tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a>.
 
 Publishers of 360Giving data can add their valid 360Giving data files to the Data Registry using the 360Giving data file submission form. 
 
@@ -37,7 +37,7 @@ You are only able to submit one file at a time. To submit multiple files, you wi
 
 ### Submit the link to your file
 Once your 360Giving data is ready to be added to the 360Giving Data Registry:
-- Go to the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> and refresh the page.
+- Go to the <a href="https://dataquality.threesixtygiving.org/submit" target="_blank">Data Quality Tool</a> and refresh the page.
 - Find the **Submit your data** section, under the **Check your data** section.
   ![screenshot of DQT main page](../../assets/DFS_Screenshot_2024-06-07_New_button_names.png)
 - Paste the link to your file into the **Provide a link to your file** dialogue box. An example of a link to a file is **https://www.examplefoundation.com/360Givingdata/EXAMPLE_FILE_NAME.xlsx**.
@@ -65,7 +65,7 @@ If none of the grant data in the file has been published before, select the opti
 
 If your file includes grants that have already been published and appear in 360Giving’s tools (such as GrantNav), you need to replace your existing file with an updated version by selecting the option to **Update an existing Data Registry entry**. The updated version of the file should contain all the grants that have already been published and the new grant data.
 
-To find out which file you need to update, check your organisation’s entry on the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry</a>.
+To find out which file you need to update, check your organisation’s entry on the <a href="https://qualitydashboard.threesixtygiving.org/publishers" target="_blank">360Giving Data Quality Dashboard</a>. To do this select your organisation name from the Publishers filter and clicking on ‘More about …’ to view the full list of published files.
 
 If you are not sure if any of the grants in your file already appear in 360Giving tools, check <a href="https://grantnav.threesixtygiving.org/funders" target="_blank">your organisation’s GrantNav page</a>.
 
@@ -95,7 +95,7 @@ You will be asked to agree to the following on behalf of your organisation:
 - You are authorised to submit this file to the 360Giving Data Registry on behalf of your organisation
 - There is no personal data in the file, or consent to share personal data has been obtained, in line with the [Publisher Guidance on Data Protection](../../guidance/data-protection/)
 - The data is openly licensed in line with the [Publisher Guidance on Publishing Data Openly](../../guidance/publish-data-openly/). This means that anyone can download and use the data
-- Your data is ready, and you give permission for the grant data in the file to appear publicly in 360Giving tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://insights.threesixtygiving.org" target="_blank">360Insights</a>
+- Your data is ready, and you give permission for the grant data in the file to appear publicly in 360Giving tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a>
 
 Click **Agree** to go to the final page, which will confirm that the update to the Data Registry has been made.
 
