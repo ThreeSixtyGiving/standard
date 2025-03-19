@@ -170,18 +170,19 @@ The tool flags text resembling email addresses, postcodes, and DEI information a
 ### Usefulness tab
 This tab highlights ways that your data could be made more useful.  For each check, the DQT gives feedback on a key feature that makes the data useful for analysis, which we recommend including in 360Giving data whenever possible.
 
-Feedback is triggered when the following information is missing from the data:
-Organisations
-- Official organisation references, such as charity or company numbers
-Location
-- Recipient location
-- Beneficiary location
-Grants
-- Grant programme fields
-- Grant duration
-Metadata
-- Last Modified information
-- Data Source
+Feedback is triggered when the following information is missing from the data.
+
+* Organisations
+    * Official organisation references, such as charity or company numbers
+* Location
+    * Recipient location
+    * Beneficiary location
+* Grants
+    * Grant programme fields
+    * Grant duration
+* Metadata
+    * Last Modified information
+    * Data Source
 
 Unlike the error messages in the **Summary**, **Validity** and **Conversion Errors** tabs, this feedback does not mean your data is invalid. It can be ignored when not relevant or until you are in a position to update your data quality.
 
