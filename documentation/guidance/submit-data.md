@@ -1,7 +1,7 @@
 # Submit your data to the Registry
 Once 360Giving data has been published by an organisation, the file must be added to the 360Giving Data Registry so that the data appears in 360Giving’s tools, including <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a>.
 
-Publishers of 360Giving data can add their valid 360Giving data files to the Data Registry using the 360Giving data file submission form. 
+Publishers of 360Giving data can add their valid 360Giving data files to the Data Registry using the 360Giving data file submission form.
 
 The form allows users to:
 - Update an existing Data Registry entry with an updated version of an existing file
@@ -17,7 +17,7 @@ Organisations that publish 360Giving data for the first time can also use the 36
 Publishers can opt out of authorising their website domain and using the 360Giving data file submission process on request.
 
 ### Which domains are not authorised?
-Data files published on multi-user hosting platforms, like open data repositories or file-sharing services such as Google Sheets, SharePoint or Dropbox, cannot be submitted with the 360Giving data file submission process because the domain cannot be authorised as being unique to a particular organisation. 
+Data files published on multi-user hosting platforms, like open data repositories or file-sharing services such as Google Sheets, SharePoint or Dropbox, cannot be submitted with the 360Giving data file submission process because the domain cannot be authorised as being unique to a particular organisation.
 
 Files published in this way can only be added to the 360Giving Data Registry by emailing the 360Giving Helpdesk at <support@threesixtygiving.org>.
 
@@ -29,7 +29,7 @@ To add a file to the 360Giving Data Registry, it must:
 
 For further information, read our guidance on using the [Data Quality Tool](../../guidance/data-quality/) to check data quality, and [publishing your data openly](../../guidance/publish-data-openly/).
 
-You should also make sure the data is ready to be published in terms of its contents. 
+You should also make sure the data is ready to be published in terms of its contents.
 
 Please only submit a file to the 360Giving Data Registry if you are sure that it includes the correct information, and there is nothing in the data that is unsuitable for publishing as open data. Find out more about what to check before publishing your data openly in our [data protection guidance](../../guidance/data-protection/).
 
@@ -37,20 +37,18 @@ You are only able to submit one file at a time. To submit multiple files, you wi
 
 ### Submit the link to your file
 Once your 360Giving data is ready to be added to the 360Giving Data Registry:
-- Go to the <a href="https://dataquality.threesixtygiving.org/submit" target="_blank">Data Quality Tool</a> and refresh the page.
-- Find the **Submit your data** section, under the **Check your data** section.
-  ![screenshot of DQT main page](../../assets/DFS_Screenshot_2024-06-07_New_button_names.png)
+- Go to the <a href="https://dataquality.threesixtygiving.org/submit" target="_blank">Data Submission Tool</a>.
 - Paste the link to your file into the **Provide a link to your file** dialogue box. An example of a link to a file is **https://www.examplefoundation.com/360Givingdata/EXAMPLE_FILE_NAME.xlsx**.
 - Click **Submit**.
 
-If the file at that link contains valid 360Giving data and is hosted on an authorised domain, you will see a green tick on the **Submit your data** section, and be able to click on the **Submit your file** button. This will open the data file submission form.
+If the file at that link contains valid 360Giving data and is hosted on an authorised domain, you will see a green tick, and be able to click on the **Submit your file** button. This will open the data file submission form.
 
-If the data is not valid, the Data Quality Tool will provide feedback about the issues that need to be resolved before proceeding. 
+If the data is not valid, the total number of validity errors is shown, and you can open the detailed results in the DQT.
 
 **Tip:** If your file is linked from a webpage, you can find the file link by right-clicking on the link and selecting **Copy link address** from the menu that appears. If your file is saved in your website content management system, you can find the file URL in the details or properties of the file. Please contact the 360Giving Helpdesk at <support@threesixtygiving.org> if you need any help finding the link to your file.
 
 ### Provide contact details
-Provide your **name** and **email address**. 
+Provide your **name** and **email address**.
 
 You and the primary publisher contact for the organisation (if these are different) will receive an email acknowledgement to confirm the update to the 360Giving Data Registry.
 
@@ -71,7 +69,7 @@ If you are not sure if any of the grants in your file already appear in 360Givin
 
 #### Submit a new Data Registry entry
 If you select **Submit a new Data Registry**, the form asks you to provide the following basic information about your 360Giving data file:
-- **Title and Description**. These are text fields that can be used to provide information about the name of the file and its contents and provide further contextual information if appropriate 
+- **Title and Description**. These are text fields that can be used to provide information about the name of the file and its contents and provide further contextual information if appropriate
 - The **Title** is required, has a character limit of 80 characters and will be displayed on the Data Registry.
 - The **Description** is optional, has a character limit of 255 characters and is not publicly displayed on the Data Registry.
 - **Access URL**. This is the URL of the webpage where the link to your data file can be found or your main website address.
@@ -83,11 +81,11 @@ If you select **Update an existing Data Registry entry**, you will be presented 
 If you have **more than five** Data Registry file entries and the file you want to update is not shown, contact the 360Giving Helpdesk at <support@threesixtygiving.org> to update the file entry on your behalf.
 
 Select the file entry you want to amend and edit the following fields if needed:
-- **Title and Description**. These are text fields that can be used to provide information about the name of the file and its contents and provide further contextual information if appropriate. 
+- **Title and Description**. These are text fields that can be used to provide information about the name of the file and its contents and provide further contextual information if appropriate.
 - The **Title** is required, has a character limit of 80 characters and will be displayed on the Data Registry.
 - The **Description** is optional, has a character limit of 255 characters and is not publicly displayed on the Data Registry.
 - **Access URL**. This is the URL of the webpage where the link to your data file can be found or your main website address.
-  
+
 ### Agree to Terms and Conditions
 Once you have filled out the required information about your file, you will be presented with a preview of the information you have entered.
 
@@ -99,7 +97,7 @@ You will be asked to agree to the following on behalf of your organisation:
 
 Click **Agree** to go to the final page, which will confirm that the update to the Data Registry has been made.
 
-An acknowledgement email will be sent to the contact email address provided, and the email of the person marked as the primary publisher contact for your organisation in 360Giving’s systems. If this is the same contact, the acknowledgement email will only be sent once. 
+An acknowledgement email will be sent to the contact email address provided, and the email of the person marked as the primary publisher contact for your organisation in 360Giving’s systems. If this is the same contact, the acknowledgement email will only be sent once.
 
 ## Getting further help
 If you experience issues or need further guidance on using the 360Giving data file submission process, please contact the 360Giving Helpdesk at <support@threesixtygiving.org> or call 020 8145 8043, and press 1 for publisher support.
