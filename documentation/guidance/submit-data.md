@@ -41,7 +41,7 @@ Once your 360Giving data is ready to be added to the 360Giving Data Registry:
 - Paste the link to your file into the **Provide a link to your file** dialogue box. An example of a link to a file is **https://www.examplefoundation.com/360Givingdata/EXAMPLE_FILE_NAME.xlsx**.
 - Click **Submit**.
 
-If the file at that link contains valid 360Giving data and is hosted on an authorised domain, you will see a green tick, and be able to click on the **Submit your file** button. This will open the data file submission form.
+If the file at that link contains valid 360Giving data and is hosted on an authorised domain, you will see a  tick, and be able to click on the **Submit your file** button. This will open the data file submission form.
 
 If the data is not valid, the total number of validity errors is shown, and you can open the detailed results in the DQT.
 
