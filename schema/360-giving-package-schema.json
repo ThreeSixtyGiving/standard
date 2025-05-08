@@ -19,7 +19,7 @@
         },
 	"extensions": {
 	  "title": "Extensions",
-	  "description": "An array of strings which refer to 360Giving Extensions in use by this data file. See the [360Giving Extensions guidance](https://standard.threesixtygiving.org/en/latest/metadata/#extensions-to-360Giving-data-standard) for details.",
+	  "description": "An array of strings which refer to 360Giving Extensions in use by this data file. See the [360Giving Extensions guidance](https://standard.threesixtygiving.org/en/latest/technical/metadata/#extensions-to-360Giving-data-standard) for details.",
 	  "type": "array",
 	  "items": {
 	    "type": "string"
