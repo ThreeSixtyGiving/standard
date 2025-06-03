@@ -6,7 +6,7 @@ The [Data Protection Act](https://www.gov.uk/data-protection/the-data-protection
 
 ## What does data protection have to do with open data?
 
-In general, [open data](https://theodi.org/what-is-open-data) should not contain personal or sensitive personal data that could allow a living person to be identified. Data published to the [360Giving standard](https://www.threesixtygiving.org/standard/) should be anonymised to protect privacy as outlined in the ICO's [anonymisation code of practice](https://ico.org.uk/for-organisations/guide-to-data-protection/anonymisation/). There are cases where publishing personal data is in the public interest or where data can be published with the consent of the individual. We explore those cases below.
+In general, [open data](https://theodi.org/what-is-open-data) should not contain personal or sensitive personal data that could allow a living person to be identified. Data published to the [360Giving standard](https://360giving.org/standard/) should be anonymised to protect privacy as outlined in the ICO's [anonymisation code of practice](https://ico.org.uk/for-organisations/guide-to-data-protection/anonymisation/). There are cases where publishing personal data is in the public interest or where data can be published with the consent of the individual. We explore those cases below.
 
 ## Publishing personal data with 360Giving
 We encourage publishers to carefully consider the value of sharing any personal data as part of their 360Giving publication and discourage sharing of [sensitive personal data](https://www.legislation.gov.uk/ukpga/1998/29/section/2) (including racial or ethnic origin, medical information).

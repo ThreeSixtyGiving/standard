@@ -58,7 +58,7 @@ The majority of funders sharing 360Giving data make grants to recipients based i
 
 Find out more about <a href="https://standard.threesixtygiving.org/en/new-docs-style/guidance/decide-to-publish/" target="_blank">the benefits of publishing 360Giving data.</a> 
 
-Read <a href="https://www.threesixtygiving.org/2021/07/01/how-has-grants-data-grown/" target="_blank">our blog</a> to find out more about the different types of funders publishing 360Giving data. 
+Read <a href="https://360giving.org/2021/07/01/how-has-grants-data-grown/" target="_blank">our blog</a> to find out more about the different types of funders publishing 360Giving data. 
 
 #### 360Giving support is free
 There are no registration fees or costs associated with publishing your grants data in the 360Giving Data Standard. 360Giving support for publishers is provided free of charge. 

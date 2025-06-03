@@ -305,4 +305,4 @@ It is straightforward to implement the DEI Extension into an existing JSON forma
 
 360Giving Helpdesk provides pro-bono support to help funders navigate the steps to publish DEI Data Standard data alongside their 360Giving grant data.
 
-Visit our website to find out [ways to get support with publishing](https://www.threesixtygiving.org/publishing/). It is recommended to book a [publisher 1-1 support call](https://www.threesixtygiving.org/support/1-1-publisher-support/) to discuss your plans to prepare and publish DEI data alongside 360Giving data, making sure to mention that you would like to discuss DEI data preparation in the booking form.
+Visit our website to find out [ways to get support with publishing](https://360giving.org/publishing/). It is recommended to book a [publisher 1-1 support call](https://360giving.org/support/1-1-publisher-support/) to discuss your plans to prepare and publish DEI data alongside 360Giving data, making sure to mention that you would like to discuss DEI data preparation in the booking form.
