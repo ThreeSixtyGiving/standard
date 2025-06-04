@@ -263,7 +263,7 @@ Your prepared file of 360Giving data needs to be made available online with clea
 
 ### What are the benefits of publishing 360Giving grants data?
 
-Publishing grants data using the 360Giving Data Standard [brings lots of benefits](https://360giving.org/support/why-publish-grants-data/ ), both for the funders who publish their grants data and for society.
+Publishing grants data using the 360Giving Data Standard [brings lots of benefits](https://www.360giving.org/publish/why/), both for the funders who publish their grants data and for society.
 
 ### How do we register to become a 360Giving data publisher?
 
