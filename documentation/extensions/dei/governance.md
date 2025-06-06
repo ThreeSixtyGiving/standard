@@ -2,7 +2,7 @@
 
 As an extension to the 360Giving Data Standard, the DEI Extension is managed outside of the [governance process](https://standard.threesixtygiving.org/en/latest/about/governance/) of the 360Giving Data Standard itself.
 
-[360Giving](https://threesixtygiving.org/) is the steward of the DEI Extension. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
+[360Giving](https://360giving.org/) is the steward of the DEI Extension. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
 
 ## Aims and Approach
 

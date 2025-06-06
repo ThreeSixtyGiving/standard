@@ -22,11 +22,11 @@ Our aim is for more money to go to where it is needed most to support communitie
 
 Our mission is to help UK funders publish their grants data in an open, standardised way, and support people to understand and use this data to improve charitable giving.
 
-The strategy for the Standard is a core part of the 360Giving strategy. The 2022-25 strategy – [Unleashing the Impact of Grants Data](https://www.threesixtygiving.org/about/unleashing/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
+The strategy for the Standard is a core part of the 360Giving strategy. The 2022-25 strategy – [Unleashing the Impact of Grants Data](https://www.360giving.org/about/what-and-why/strategy/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
 
 During this strategy period, the Standard will remain focused on the needs of UK grantmakers. While international grants can and are published using the Standard, the data and needs of international funders can be better met through [IATI](https://iatistandard.org/en/) and other standards and products.
 
-For further information about 360Giving visit: [https://www.threesixtygiving.org/about/](https://www.threesixtygiving.org/about/)
+For further information about 360Giving visit: [https://360giving.org/about/](https://360giving.org/about/)
 
 ### Governance
 
@@ -42,7 +42,7 @@ The Committee meets two to four times a year to discuss the Standard schema, loo
 
 Secretarial support is provided to the Committee by 360Giving. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of 360Giving and ensuring the governance and revision process has been properly carried out.
 
-For further details see the [current membership of the Stewardship Committee](https://www.threesixtygiving.org/support/standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email <standard@threesixtygiving.org>.
+For further details see the [current membership of the Stewardship Committee](https://www.360giving.org/about/data-standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email <standard@threesixtygiving.org>.
 
 #### Guiding principles
 
@@ -115,7 +115,7 @@ Substantial developments, such as adding an Extension focused on specialist area
 
 ### Prioritisation
 
-The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by [360Giving strategy](https://www.threesixtygiving.org/about/unleashing/) and [values](https://www.threesixtygiving.org/about/our-values/).
+The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by [360Giving strategy](https://www.360giving.org/about/what-and-why/strategy/) and [values](https://www.360giving.org/about/values/).
 
 ### Versions
 

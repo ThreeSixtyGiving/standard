@@ -63,7 +63,7 @@ Full information about the DEI Data Standard, including details of the taxonomy 
 
 It is recommended that you work through the DEI Data Standard Guidance and are clear on your aims, use, and approach **before** starting to plan your implementation of the DEI Extension. If you need support with deciding your organisation’s approach to using the DEI Data Standard then you can [get in touch with the DEI Data Group](https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard) via the contact details on their web page.
 
-As part of 360Giving’s support for the DEI Data Standard, we hold a regular free workshop, [**Introduction to the DEI Data Standard**](https://www.threesixtygiving.org/support/training-and-workshops/workshops/#free-publishing-workshops), which explains the key concepts and decisions for funders who want to start collecting DEI data.
+As part of 360Giving’s support for the DEI Data Standard, we hold a regular free workshop, [**Introduction to the DEI Data Standard**](https://www.360giving.org/support/#free-publishing-workshops), which explains the key concepts and decisions for funders who want to start collecting DEI data.
 
 
 ## About the DEI Extension

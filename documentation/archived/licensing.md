@@ -38,7 +38,7 @@ Here's an example of a license statement based on our recommended CC BY 4.0 lice
 >
 > This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/. This means the data is freely accessible to anyone to be used and shared as they wish. The data must be attributed to [Organisation].
 >
-> We believe that with better information, grantmakers can be more effective and strategic decision makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant making more effective. For more information, visit https://www.threesixtygiving.org/
+> We believe that with better information, grantmakers can be more effective and strategic decision makers. 360Giving provides support for grantmakers to publish their grants data openly, to understand their data, and to use the data to create online tools that make grant making more effective. For more information, visit https://360giving.org/
 
 
 ### What if I need more help?
