@@ -13,5 +13,5 @@ jobs:
         architecture: x64
         cache: 'pip'
     - run: pip install check-jsonschema
-    - run: python -m check-jsonschema --check-metaschema schema/360-giving-schema.json schema/360-giving-package-schema.json
+    - run: check-jsonschema --check-metaschema schema/360-giving-schema.json schema/360-giving-package-schema.json
 
