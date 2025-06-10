@@ -12,7 +12,6 @@ jobs:
         python-version: 3.7
         architecture: x64
         cache: 'pip'
-    - run: pip install jsonschema
-    - run: wget "http://json-schema.org/draft-04/schema" -O schemaschema
-    - run: python -m jsonschema -V Draft4Validator -i schema/360-giving-schema.json -i schema/360-giving-package-schema.json schemaschema
+    - run: pip install check-jsonschema
+    - run: python -m check-jsonschema --check-metaschema schema/360-giving-schema.json schema/360-giving-package-schema.json
 
