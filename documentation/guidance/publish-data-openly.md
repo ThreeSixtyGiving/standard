@@ -89,7 +89,7 @@ Alternatively, public sector organisations may be able to use the central <a hre
 Examples of public sector data hosting pages:
 - <a href="https://data.london.gov.uk/gla-group-grant-data/" target="_blank">Greater London Authority</a>
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a>
-- <a href="https://sheffield-city-council-open-data-sheffieldcc.hub.arcgis.com/documents/b1e302c43ee5431c9a7e5c648ffbb66a/about" target="_blank">Sheffield City Council</a>
+- <a href="https://www.arcgis.com/sharing/rest/content/items/e0f0b3c246464be0997cb0dbf5896b5e/data" target="_blank">Sheffield City Council</a>
 
 ## Submit your file to the Data Registry
 Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the 360Giving Data Registry which is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard.
