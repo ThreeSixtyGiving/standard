@@ -4,22 +4,22 @@
             "title": "For grantmakers",
             "items": [
                 {
-                    "url": "https://www.threesixtygiving.org/support/why-publish-grants-data/",
+                    "url": "https://www.360giving.org/publish/why/",
                     "title": "Why publish?",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/support/standard/",
+                    "url": "https://www.360giving.org/about/data-standard/",
                     "title": "The Data Standard",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/about/datachampions/",
+                    "url": "https://www.360giving.org/2019/11/01/datachampionsunite/",
                     "title": "Data Champions",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/support/",
+                    "url": "https://www.360giving.org/support/",
                     "title": "Support",
                     "description": ""
                 }
@@ -44,7 +44,7 @@
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/contact/",
+                    "url": "https://360giving.org/contact/",
                     "title": "Contact",
                     "description": ""
                 }
@@ -54,27 +54,27 @@
             "title": "Footer Ts &amp; Cs",
             "items": [
                 {
-                    "url": "https://www.threesixtygiving.org/privacy/",
+                    "url": "https://www.360giving.org/legal-policies/privacy/",
                     "title": "Privacy Notice",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/terms-conditions/",
+                    "url": "https://www.360giving.org/legal-policies/terms-conditions/",
                     "title": "Terms &#038; Conditions",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/cookie-policy/",
+                    "url": "https://www.360giving.org/legal-policies/cookie-policy/",
                     "title": "Cookie Policy",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/take-down-policy/",
+                    "url": "https://www.360giving.org/legal-policies/take-down-policy/",
                     "title": "Take Down Policy",
                     "description": ""
                 },
                 {
-                    "url": "https://www.threesixtygiving.org/about/360giving-code-conduct/",
+                    "url": "https://www.360giving.org/legal-policies/code-of-conduct/",
                     "title": "Code of Conduct",
                     "description": ""
                 }
@@ -84,7 +84,7 @@
             "title": "Off canvas menu",
             "items": [
                 {
-                    "url": "https://www.threesixtygiving.org/",
+                    "url": "https://360giving.org/",
                     "title": "360Giving",
                     "description": "We help organisations publish open, standardised grants data, and empower people to use it to improve charitable giving."
                 },

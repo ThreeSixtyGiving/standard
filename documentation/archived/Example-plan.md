@@ -36,7 +36,7 @@ Working examples with single publisher badge
 
 publisher badges
 
-<img class="wp-image-2575 size-thumbnail alignnone" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-white-150x150.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-teal-150x150.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="http://www.threesixtygiving.org/wp-content/uploads/360giving-publisher-green-150x150.png" alt="360Giving publisher badge - green" width="150" height="150" />
+<img class="wp-image-2575 size-thumbnail alignnone" src="http://360giving.org/wp-content/uploads/360giving-publisher-yellow-150x150.png" alt="360Giving publisher badge - yellow" width="150" height="150" /><img class="size-thumbnail wp-image-2574 alignnone" style="font-size: 16px;" src="http://360giving.org/wp-content/uploads/360giving-publisher-white-150x150.png" alt="360Giving publisher badge - white" width="150" height="150" /><img class="size-thumbnail wp-image-2573 alignnone" style="font-size: 16px;" src="http://360giving.org/wp-content/uploads/360giving-publisher-teal-150x150.png" alt="360Giving publisher badge - teal" width="150" height="150" /><img class="size-thumbnail wp-image-2572 alignnone" style="font-size: 16px;" src="http://360giving.org/wp-content/uploads/360giving-publisher-green-150x150.png" alt="360Giving publisher badge - green" width="150" height="150" />
 
 
 ## Experimenting with links
@@ -90,7 +90,7 @@ In general, most publishers will use a subset of the possible features of the 36
 
 ## Linking to other pages
 
-Free support is <a href="https://www.threesixtygiving.org/contact/" target="_blank"> available from our support team</a> to help you to publish and use 360Giving data.
+Free support is <a href="https://360giving.org/contact/" target="_blank"> available from our support team</a> to help you to publish and use 360Giving data.
 
 **This is correct** Full schema documentation is [available in the Reference section](../technical/reference).
 
@@ -202,7 +202,7 @@ Content in the first column | Content in the second column | more data
   UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
 
   Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. `Learn more`__ about how to avoid this pitfall.
-.. __: https://www.threesixtygiving.org/support/company-numbers/
+.. __: https://360giving.org/support/company-numbers/
 
 ````
 
@@ -263,7 +263,7 @@ Your prepared file of 360Giving data needs to be made available online with clea
 
 ### What are the benefits of publishing 360Giving grants data?
 
-Publishing grants data using the 360Giving Data Standard [brings lots of benefits](https://www.threesixtygiving.org/support/why-publish-grants-data/ ), both for the funders who publish their grants data and for society.
+Publishing grants data using the 360Giving Data Standard [brings lots of benefits](https://www.360giving.org/publish/why/), both for the funders who publish their grants data and for society.
 
 ### How do we register to become a 360Giving data publisher?
 
@@ -295,7 +295,7 @@ See Section 2 on preparing your data for further details about the likely impact
 
 ## Publishing resources for community foundations
 
-If you are a community foundation using the Digits2 grants management system please refer to [our special guidance](https://www.threesixtygiving.org/communityfoundations/cf-publishing-guide/) about the built-in 360Giving data extract to publishing 360Giving data.
+If you are a community foundation using the Digits2 grants management system please refer to [our special guidance](https://360giving.org/communityfoundations/cf-publishing-guide/) about the built-in 360Giving data extract to publishing 360Giving data.
 
 # Examples
 
@@ -375,7 +375,7 @@ If you are a community foundation using the Digits2 grants management system ple
 ### Prose image box
 
     <figure>
-        <img src="https://www.threesixtygiving.org/wp-content/uploads/47319360032_51d21156a2_c.jpg" alt="">
+        <img src="https://360giving.org/wp-content/uploads/47319360032_51d21156a2_c.jpg" alt="">
         <figcaption>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. <em>Fuga deleniti architecto nisi</em>, rerum aliquid aperiam minima <strong>saepe magnam eum. Odit aliquid similique magnam minima</strong>, corrupti, aliquam laudantium eos asperiores possimus?</figcaption>
     </figure>
     

@@ -23,4 +23,4 @@ Information is an asset. It is also knowledge and power. With 360Giving data, we
 
 - **It helps bring better outcomes for recipients**. By saving resources and enabling better, more targeted funding decisions, 360Giving data helps funders focus on what’s most important: meeting the needs of their beneficiaries – the people, organisations and causes that they want to support.
 
-Read <a href="https://www.threesixtygiving.org/ideas-updates/" target="_blank"> our blog</a> to find out more about how 360Giving data is being used.
+Read <a href="https://www.360giving.org/news/" target="_blank"> our blog</a> to find out more about how 360Giving data is being used.
