@@ -47,7 +47,11 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.opendataservices', 'toctemplate', 'recommonmark']
+extensions = ['sphinxcontrib.opendataservices', 'toctemplate', 'myst_parser']
+
+
+# Autogenerate anchors for Markdown headings (h1…h6)
+myst_heading_anchors = 6
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

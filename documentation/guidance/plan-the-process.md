@@ -48,6 +48,7 @@ If the recipient is an individual:
     <p>Seven of the 10 core fields are commonly collected as part of the grantmaking process, and may be stored in a grants management system. Three pieces of information are usually added as part of the data preparation process: Funder name; Funder identifier and Currency</a></p></div>
 
 #### Grants to individuals and data protection
+
 The fields are titled **Recipient Ind:Identifier** and **Recipient Ind:Name**, however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
 
 #### Recommended fields
@@ -72,7 +73,7 @@ You can view and download further details about the core, recommended and option
 
 For further information about **Recipient location**, **Beneficiary location** and **Location scope** fields visit the [360Giving guide to location data.](../guidance/location-guide)
 
-You can find further information about the core and recommended fields and codelists for sharing information about **grants to individuals** in our [Field guidance.](../../individuals/publisher-guidance/#field-guidance)
+You can find further information about the core and recommended fields and codelists for sharing information about **grants to individuals** in our [Field guidance.](../individuals/publisher-guidance.md#field-guidance)
 
 For further information about all the possible fields in the 360Giving Data Standard, visit the [Technical Reference section.](../technical/reference) 
 

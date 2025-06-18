@@ -4,7 +4,7 @@ This page provides reference information on publishing to the 360Giving Data Sta
 
 It assumes some technical knowledge.
 
-If you are just getting started with the 360Giving Data Standard, visit the [guidance for publishers section.](../../guidance)
+If you are just getting started with the 360Giving Data Standard, visit the [guidance for publishers section.](../guidance/index.md)
 
 
 ## Data formats
@@ -172,6 +172,7 @@ If you have additional data to report that does not fit any of the columns provi
     :child: actualDates
 ```
 
+(planneddates)=
 #### Planned Dates
 
 ```eval_rst
@@ -252,7 +253,7 @@ The 360Giving Data Standard also allows for the reporting of three types of tran
 
 These do not currently have the more user friendly human readable titles, but can still be added as spreadsheet columns if needed.
 
-To create the column titles, refer to the [360Giving JSON Schema](#giving-json-schemas) and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
+To create the column titles, refer to the [360Giving JSON Schema](#360giving-json-schemas) and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
 ```eval_rst
 .. _one-to-many-relationships:
@@ -380,7 +381,7 @@ You must:
 
 You can:
 
-* **Remove or hide non-required columns that you are not using** - although make sure you check for any [hidden columns](#hidden-columns) before publishing your data, and always remove rather than hide sensitive information.
+* **Remove or hide non-required columns that you are not using** - although make sure you check for any hidden columns before publishing your data, and always remove rather than hide sensitive information.
 * **Re-order the columns** so that information is arranged in the way you want
 * **Add extra columns** to include information you want to share, but that is not covered by the standard. (See [additional fields](additional-fields)).
 * **Move columns** in the <a href="../../_static/summary-table/360-giving-schema-titles.xlsx">360Giving Spreadsheet Template</a> between sheets.
