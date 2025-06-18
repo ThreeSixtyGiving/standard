@@ -45,13 +45,13 @@ Once the data is ready and it has passed the [Data Quality Tool](../../guidance/
 - Upload a new file alongside your existing file, add a link to the file from your hosting page and let the 360Giving Helpdesk know about the new file.
 
 ### Letting 360Giving know about updates to your data
-If you publish a new file of data, or if your existing data file has been updated and the location or name of your data file has changed, you need to submit the changes to the Data Registry using the [360Giving data file submission form](../../guidance/submit-data/).
+If you publish a new file of data, or if your existing data file has been updated and the location or name of your data file has changed, you need to submit the changes to the Data Registry using the [360Giving data file submission form](../guidance/submit-data.md).
 
 Remember to remove any old files from your website when making updates. 
 
 If your 360Giving data file has a generic name and it is uploaded to a consistent place in your website then any subsequent updates you make to the file will get picked up by the Data Registry automatically because the link to your file will be unchanged. If your 360Giving data file has a consistent link it will not be necessary for you to fill out the 360Giving data submission form each time you make an update.
 
-Read our guidance on [good practice in file management](../../guidance/publish-data-openly/#good-practice-in-file-management/) for further information about making your file link consistent.
+Read our guidance on [good practice in file management](../guidance/publish-data-openly.md#good-practice-in-file-management) for further information about making your file link consistent.
 
 ## Making changes to your published data
 You can make changes to your data at any time. This may be to add new grants data or amend details or to fix typos. It might also be to remove grants that were awarded but didn’t go ahead, or to amend grants that have been varied in some way. 

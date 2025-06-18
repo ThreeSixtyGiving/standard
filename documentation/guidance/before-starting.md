@@ -83,18 +83,18 @@ Where and how you collect and store information about your grants has a fundamen
 
 When you contact 360Giving Helpdesk and fill out our <a href="https://www.360giving.org/publish/register/" target="_blank">Publisher Registration form</a> we will ask what grants management systems you use. Whatever the answer, we can share useful learning from our work supporting over 300 other funders to share their grants data.
 
-Go to the [Prepare your data page](../../guidance/prepare-data) for further details about the likely impact your grants management system has on your publishing process.
+Go to the [Prepare your data page](../guidance/prepare-data.md) for further details about the likely impact your grants management system has on your publishing process.
 
 ### Publishing resources for grants to individuals
 For funders of grants to individuals, there is a special guide on publishing data responsibly so that the privacy and confidentiality of the recipients is protected.
 The guidance provides information about key concepts and descriptions of the fields and codelists available for funders of grants to individuals to use, and provides templates to support the preparation of the data.
 
-Read the guide for [grants to individuals.](../../individuals)
+Read the guide for [grants to individuals.](../individuals/index.md)
 
 ### Publishing resources for community foundations
 For community foundations using the Digits2 grants management system there is special guidance about how to use a built-in 360Giving data extract for publishing 360Giving data.
 
-Read the guide for [community foundations using the D2 system.](../../guidance/cf-guidance)
+Read the guide for [community foundations using the D2 system.](../guidance/cf-guidance.md)
 
 <div class="box box--teal">
     <h4 class="box__heading">Want to know who publishes, and why?</h4>

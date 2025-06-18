@@ -153,7 +153,7 @@ To fix these issues, focus on cleaning the data in your system's charity or comp
 
 Organisation identifiers in 360Giving data follow a specific format, and should either use a prefix taken from the org-id list locator or your publisher prefix which starts **360G-**
 
-This feedback highlights any organisation identifiers using unrecognised prefixes, which should be checked and updated as appropriate. See our [guidance on organisation identifiers](../../technical/identifiers/#organisation-identifier) for further help.
+This feedback highlights any organisation identifiers using unrecognised prefixes, which should be checked and updated as appropriate. See our [guidance on organisation identifiers](../technical/identifiers.md#organisation-identifier) for further help.
 
 
 #### Grants
