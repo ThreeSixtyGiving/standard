@@ -7,11 +7,10 @@ Read our blog for further <a href="https://www.360giving.org/2022/08/15/grants-t
 
 ```eval_rst
 .. toctree::
-
    :maxdepth: 3
    
-   introduction
-   publisher-guidance
-   data-preparation-templates
+   introduction.md
+   publisher-guidance.md
+   data-preparation-templates.md
    
 ```
