@@ -1,0 +1,17 @@
+name: Build docs
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
+        architecture: x64
+        cache: 'pip'
+    - run: pip install -r requirements.txt
+    - run: cd documentation; make html
+
