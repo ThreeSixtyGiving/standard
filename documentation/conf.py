@@ -150,7 +150,6 @@ todo_include_todos = False
 # We don't do a check for RTD environment anymore since https://github.com/ThreeSixtyGiving/standard/pull/371
 
 html_theme = 'sphinx_rtd_theme'
-#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
 # This started causing errors, so removing it from the conditional statement and replacing it with the above lines
