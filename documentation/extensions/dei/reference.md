@@ -1,6 +1,6 @@
 # Technical Reference
 
-### Extension Structure Overview
+## Extension Structure Overview
 
 The DEI Extension defines new fields and structures for use within 360Giving data, for the purpose of publishing data using the [DEI Data Standard](https://www.funderscollaborativehub.org.uk/dei-data-standard) within a file of 360Giving grant data. It also adds a number of new codelists to validate the contents of various fields.
 
@@ -33,7 +33,7 @@ For a publisher of data using this extension this means that:
   * If there is DEI information for the grant, then you must include the **deiDetails** field and provide at least a value in **askedStatus** for each of the **leadership**, **mission** and **project** application areas. This is to ensure a minimum level of context required for a user to interpret the data correctly.
 
 
-### Schema
+## Schema
 
 This section contains a reference for the Extension’s schema
 
@@ -42,12 +42,12 @@ This section contains a reference for the Extension’s schema
 .. jsonschema-titles:: ../../extras/extensions/dei/360-giving-schema.json
 ```
 
-### Codelists
+## Codelists
 
 The extension adds several codelists to promote interoperability between datasets. These are all **closed** codelists, meaning that only values from the codelists may be used.
 
 
-#### Asked Status
+### Asked Status
 
 A codelist to declare whether DEI Data Standard questions were asked for this grant, and how.
 
@@ -59,7 +59,7 @@ A codelist to declare whether DEI Data Standard questions were asked for this gr
    :widths: auto
 ```
 
-#### Available Options
+### Available Options
 
 A codelist to declare which answer options were available to the respondents.
 
@@ -70,7 +70,7 @@ A codelist to declare which answer options were available to the respondents.
    :widths: auto
 ```
 
-#### Reply Status
+### Reply Status
 
 A codelist to declare whether a reply to DEI Data Standard questions was received or not.
 
@@ -81,7 +81,7 @@ A codelist to declare whether a reply to DEI Data Standard questions was receive
    :widths: auto
 ```
 
-#### Taxonomy Codes
+### Taxonomy Codes
 
 The authoritative source for the DEI Taxonomy codes vocabulary is the [DEI Data Standard](https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard) and should take precedence over all other sources of information about the DEI Taxonomy codes, including this codelist.
 
