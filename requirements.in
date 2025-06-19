@@ -1,0 +1,9 @@
+flattentool
+sphinx
+sphinx-togglebutton
+recommonmark
+sphinxcontrib-opendataservices
+sphinxcontrib-opendataservices-jsonschema
+sphinx-intl
+sphinx_rtd_theme
+myst-parser

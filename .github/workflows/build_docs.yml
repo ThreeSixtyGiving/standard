@@ -1,4 +1,4 @@
-name: Test
+name: Build docs
 on: [push, pull_request]
 
 jobs:
@@ -12,7 +12,6 @@ jobs:
         python-version: 3.12
         architecture: x64
         cache: 'pip'
-    - run: pip install jsonschema
-    - run: wget "http://json-schema.org/draft-04/schema" -O schemaschema
-    - run: python -m jsonschema -V Draft4Validator -i schema/360-giving-schema.json -i schema/360-giving-package-schema.json schemaschema
+    - run: pip install -r requirements.txt
+    - run: cd documentation; make html
 
