@@ -47,7 +47,11 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.opendataservices', 'toctemplate']
+extensions = ['sphinxcontrib.opendataservices', 'toctemplate', 'myst_parser']
+
+
+# Autogenerate anchors for Markdown headings (h1…h6)
+myst_heading_anchors = 6
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -88,7 +92,7 @@ release = '0.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -146,7 +150,6 @@ todo_include_todos = False
 # We don't do a check for RTD environment anymore since https://github.com/ThreeSixtyGiving/standard/pull/371
 
 html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
 # This started causing errors, so removing it from the conditional statement and replacing it with the above lines

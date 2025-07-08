@@ -22,11 +22,11 @@ Our aim is for more money to go to where it is needed most to support communitie
 
 Our mission is to help UK funders publish their grants data in an open, standardised way, and support people to understand and use this data to improve charitable giving.
 
-The strategy for the Standard is a core part of the 360Giving strategy. The 2022-25 strategy – [Unleashing the Impact of Grants Data](https://www.threesixtygiving.org/about/unleashing/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
+The strategy for the Standard is a core part of the 360Giving strategy. The 2022-25 strategy – [Unleashing the Impact of Grants Data](https://www.360giving.org/about/what-and-why/strategy/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
 
 During this strategy period, the Standard will remain focused on the needs of UK grantmakers. While international grants can and are published using the Standard, the data and needs of international funders can be better met through [IATI](https://iatistandard.org/en/) and other standards and products.
 
-For further information about 360Giving visit: [https://www.threesixtygiving.org/about/](https://www.threesixtygiving.org/about/)
+For further information about 360Giving visit: [https://360giving.org/about/](https://360giving.org/about/)
 
 ### Governance
 
@@ -42,7 +42,7 @@ The Committee meets two to four times a year to discuss the Standard schema, loo
 
 Secretarial support is provided to the Committee by 360Giving. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of 360Giving and ensuring the governance and revision process has been properly carried out.
 
-For further details see the [current membership of the Stewardship Committee](https://www.threesixtygiving.org/support/standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email <standard@threesixtygiving.org>.
+For further details see the [current membership of the Stewardship Committee](https://www.360giving.org/about/data-standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email <standard@threesixtygiving.org>.
 
 #### Guiding principles
 
@@ -115,7 +115,7 @@ Substantial developments, such as adding an Extension focused on specialist area
 
 ### Prioritisation
 
-The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by [360Giving strategy](https://www.threesixtygiving.org/about/unleashing/) and [values](https://www.threesixtygiving.org/about/our-values/).
+The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by [360Giving strategy](https://www.360giving.org/about/what-and-why/strategy/) and [values](https://www.360giving.org/about/values/).
 
 ### Versions
 
@@ -138,7 +138,7 @@ Not all parts of the Standard are used by all publishers and users of the data, 
 #### Examples of version upgrades
 
 ##### MAJOR
-In [October 2017, a proposal](https://forum.threesixtygiving.org/t/proposals-for-change-date-formats/46) was made to upgrade the schema, documentation and guidance to ensure Last Modified fields use [date-time formatting](../../technical/reference/#dates-and-times), which includes both a date and time component – YYYY-MM-DDThh:mm:ss. The impact of this change was that Last Modified dates using the date format – YYYY-MM-DD – would no longer meet the requirements of the Standard, making this a backwards-incompatible change. The upgrade was recommended for approval by the Stewardship Committee in March 2018, and the data publishers impacted by the changes were supported to update their data prior to the change being made live, as part of the release of [Version 1.0.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.0.0) in June 2018.
+In [October 2017, a proposal](https://forum.threesixtygiving.org/t/proposals-for-change-date-formats/46) was made to upgrade the schema, documentation and guidance to ensure Last Modified fields use [date-time formatting](../technical/reference.md#dates-and-times), which includes both a date and time component – YYYY-MM-DDThh:mm:ss. The impact of this change was that Last Modified dates using the date format – YYYY-MM-DD – would no longer meet the requirements of the Standard, making this a backwards-incompatible change. The upgrade was recommended for approval by the Stewardship Committee in March 2018, and the data publishers impacted by the changes were supported to update their data prior to the change being made live, as part of the release of [Version 1.0.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.0.0) in June 2018.
 
 ##### MINOR
 In [November 2020, a proposal](https://forum.threesixtygiving.org/t/minor-peer-review-of-metadata-update-available-for-comment/375) was made to upgrade the schema and documentation to add fields for publishing [Metadata](../../technical/metadata) into the 360Giving Package schema. Metadata is data about the data - for example when it was last updated, when it was released for publication, which organisation published it and which version of the 360Giving Data Standard was used, etc.  The impact of this change was that data publishers could start to include authoritative Metadata about their data and organisation in their 360Giving data files. The proposal added new fields but did not change any existing fields or formats, making this a backwards-compatible change which did not affect existing data or publishers. The upgrade was recommended for approval by the Stewardship Committee in January 2021 and the MINOR upgrade was made live and released as [Version 1.1.0](https://github.com/ThreeSixtyGiving/standard/releases/tag/1.1.0) in April 2021.

@@ -12,14 +12,14 @@
 
 The 360Giving Data Standard asks you to give identifiers to any of the following elements that you include in your data:
 
-* [Grants](grant-identifier)
-* [Organisations](organisation-identifier);
+* [Grants](#grant-identifier)
+* [Organisations](#organisation-identifier);
 * [Individuals](#individual-identifier)
 * Transactions;
 * Classifications;
 * and other unique elements in your data.
 
-These go in an ```Identifier``` column alongside accessible text descriptions of the grant, the name of an organisation, or the title of a classification.
+These go in an `Identifier` column alongside accessible text descriptions of the grant, the name of an organisation, or the title of a classification.
 
 
 ```eval_rst
@@ -130,7 +130,7 @@ In 360Giving data we ask publishers to use a list code prefix taken from the <a 
   UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
 
   Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. `Learn more`__ about how to avoid this pitfall.
-.. __: https://www.threesixtygiving.org/support/company-numbers/
+.. __: https://www.360giving.org/company-numbers/
 
 ````
 
@@ -200,6 +200,7 @@ Because 'Company Number' and 'Charity Number' are so important for analysing gra
 
 If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above.
 
+(individual-identifier)=
 ## Individual Identifier
 
 In the 360Giving Data Standard, each individual recipient must have a unique identifier. However, unlike Organisation Identifiers, the reference used to identify the individual must not refer to official sources of data about the person for privacy and security reasons.

@@ -14,7 +14,7 @@ The following sections cover these steps in more detail, providing guidance for 
 <div class="box box--teal">
     <h2 class="box__heading">Not sure what file format to use?</h2>
     <p>
-      Read our <a href = "../../../guidance/prepare-data#choosing-your-file-format">guidance on choosing a file format</a>
+      Read our <a href = "../../guidance/prepare-data.md#choosing-your-file-format">guidance on choosing a file format</a>
        </p>
 </div>
 
@@ -34,7 +34,7 @@ The DEI Extension has been designed to be as straightforward as possible however
 ```
 ### DEI Details
 
-For publishers sharing data using spreadsheets, the DEI Extension data sits within the main **grants** sheet of the [360Giving Data Standard](../../technical/reference). All DEI Extension fields used in spreadsheets are prefixed with DEI Details, followed by the specific field name.
+For publishers sharing data using spreadsheets, the DEI Extension data sits within the main **grants** sheet of the [360Giving Data Standard](../../technical/reference.md). All DEI Extension fields used in spreadsheets are prefixed with DEI Details, followed by the specific field name.
 
 There are two fields which appear once for each grant record.
 
@@ -261,15 +261,15 @@ Note that the DEI Data Standard criteria for each application area require that 
 
 A key step to using the DEI Extension is declaring that you are using it in a **Meta sheet** included in your file. 
 
-This Meta sheet is the way 360Giving data publishers include metadata about their grants data in their files. It is separate and different from the metadata fields in the DEI Extension itself which are usually included in the main grants sheet. For further information read our guidance on 360Giving Data Standard [Metadata](../../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files).
+This Meta sheet is the way 360Giving data publishers include metadata about their grants data in their files. It is separate and different from the metadata fields in the DEI Extension itself which are usually included in the main grants sheet. For further information read our guidance on 360Giving Data Standard [Metadata](../../technical/metadata.md#guide-to-including-metadata-in-spreadsheet-files).
 
-It is only once you have declared that you are using the DEI Extension in the Meta sheet that your data can be checked and validated by the 360Giving [Data Quality Tool](https://dataquality.threesixtygiving.org/) and used by GrantNav and 360Insights. If you miss this crucial step, the Data Quality Tool will not recognise the fields for the DEI Extension and treat them as non-Standard [Additional Fields](../../../technical/reference/#additional-fields).
+It is only once you have declared that you are using the DEI Extension in the Meta sheet that your data can be checked and validated by the 360Giving [Data Quality Tool](https://dataquality.threesixtygiving.org/) and used by GrantNav and 360Insights. If you miss this crucial step, the Data Quality Tool will not recognise the fields for the DEI Extension and treat them as non-Standard [Additional Fields](../../technical/reference.md#additional-fields).
 
 Once you have a Meta sheet in your file, you can declare the extension by adding the Metadata field with the title \`Extensions\`. Usually this is in column A. In the next column (usually column B), add the value **dei**
 
 You should also fill in the Version, which should be **1.4** or higher, as extensions were not available before version 1.4 of 360Giving Data Standard.
 
-We recommend adding other useful pieces of metadata to your file, following the [Metadata guidance](../../../technical/metadata/#guide-to-including-metadata-in-spreadsheet-files) provided.
+We recommend adding other useful pieces of metadata to your file, following the [Metadata guidance](../../technical/metadata.md#guide-to-including-metadata-in-spreadsheet-files) provided.
 
 ## Spreadsheet templates
 
@@ -281,15 +281,15 @@ Please contact 360Giving Helpdesk to find out about more tailored templates and 
 
 ## JSON Format Guidance for Developers
 
-The 360Giving Data Standard is defined by a JSON Schema, which details the entities that can be described using the Standard, and the properties it recognises. The DEI Extension, which is also defined by a JSON Schema, is an optional extension designed to be added to the [360Giving JSON Schema](../../../technical/reference/#json-format), and makes use of 360Giving’s extension mechanism to allow you to validate the fields and codes used in your data.
+The 360Giving Data Standard is defined by a JSON Schema, which details the entities that can be described using the Standard, and the properties it recognises. The DEI Extension, which is also defined by a JSON Schema, is an optional extension designed to be added to the [360Giving JSON Schema](../../technical/reference.md#json-format), and makes use of 360Giving’s extension mechanism to allow you to validate the fields and codes used in your data.
 
-The normative reference for the fields and codes added by the DEI Extension JSON Schema can be found alongside documentation in the [Technical Reference](../reference) section.
+The normative reference for the fields and codes added by the DEI Extension JSON Schema can be found alongside documentation in the [Technical Reference](./reference.md) section.
 
 It is straightforward to implement the DEI Extension into an existing JSON format file of 360Giving data:
 
 1. Ensure that the **version** field in your package data has a value greater than **1.4**, since extensions were not available prior to this.
 
-    If you're updating an existing publication and your current version is **1.0** or greater, you can declare **1.4** without any problems related to backwards incompatibility (see also: our [Versioning and Upgrade Process](../../../about/governance/#versioning-and-upgrade-process)). 
+    If you're updating an existing publication and your current version is **1.0** or greater, you can declare **1.4** without any problems related to backwards incompatibility (see also: our [Versioning and Upgrade Process](../../about/governance.md#versioning-and-upgrade-process)). 
 
     If you don’t have a **version** field currently, it is safe to add this with the value of **1.4** unless your data isn’t conformant to Version **1.0** or later. You can verify this by checking the 360Giving Data Standard data in your file in the [Data Quality Tool (DQT)](https://dataquality.threesixtygiving.org/), as all data that passes the tool’s validation checks is conformant with Version 1.0 or later.
 
@@ -305,4 +305,4 @@ It is straightforward to implement the DEI Extension into an existing JSON forma
 
 360Giving Helpdesk provides pro-bono support to help funders navigate the steps to publish DEI Data Standard data alongside their 360Giving grant data.
 
-Visit our website to find out [ways to get support with publishing](https://www.threesixtygiving.org/publishing/). It is recommended to book a [publisher 1-1 support call](https://www.threesixtygiving.org/support/1-1-publisher-support/) to discuss your plans to prepare and publish DEI data alongside 360Giving data, making sure to mention that you would like to discuss DEI data preparation in the booking form.
+Visit our website to find out [ways to get support with publishing](https://www.360giving.org/publish/). It is recommended to book a [publisher 1-1 support call](https://www.360giving.org/service/1-1-publish-support/) to discuss your plans to prepare and publish DEI data alongside 360Giving data, making sure to mention that you would like to discuss DEI data preparation in the booking form.

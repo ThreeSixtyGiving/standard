@@ -70,6 +70,7 @@ Some fields require different types of values such as URLs or dates. The informa
 ### Metadata Templates
 There is a version of the 360Giving Spreadsheet Template which includes the Meta sheet which can be downloaded [here.](meta-sheet)
 
+(field-guidance)=
 ## Field guidance
 This guidance provides further information about the fields in Meta sheet and the kind of data that is expected or appropriate for each.
 

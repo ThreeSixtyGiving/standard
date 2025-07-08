@@ -12,7 +12,7 @@
 ## Overview
 At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is technically ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
 
-Prior to publishing your data, you should also check the contents of your data to ensure it is accurate, and that there is no personal data included that could allow an individual to be identified. For further information, read our guidance on data protection for [funders of grants to individuals](../../individuals/publisher-guidance/#data-protection) and [funders of grants to organisations](../../guidance/data-protection).
+Prior to publishing your data, you should also check the contents of your data to ensure it is accurate, and that there is no personal data included that could allow an individual to be identified. For further information, read our guidance on data protection for [funders of grants to individuals](../individuals/publisher-guidance.md#data-protection) and [funders of grants to organisations](../guidance/data-protection.md).
 
 ## How to make your 360Giving data open
 Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit the <a href="https://opendefinition.org" target="_blank">Open Definition website.</a>
@@ -68,16 +68,18 @@ Please do not use the main 360Giving logo without permission.
 Here are some examples of what other 360Giving publishers have done.
 
 Linking 360Giving from an existing webpage:
-- <a href="https://www.cfsurrey.org.uk/who-we-support-2/" target="_blank">Community Foundation for Surrey</a>
-- <a href="https://www.somersetcf.org.uk/grantfunding/open" target="_blank">Somerset Community Foundation</a>
+- <a href="https://www.cfsurrey.org.uk/data-impact?rq=Data" target="_blank">Community Foundation for Surrey</a>
+- <a href="https://www.somersetcf.org.uk/open/" target="_blank">Somerset Community Foundation</a>
 - <a href="https://www.jlc.london/grants/recent-grants/" target="_blank">John Lyon’s Charity</a>
-- <a href="https://virginmoneyfoundation.org.uk/" target="_blank">Virgin Money Foundation</a>
+- <a href="https://virginmoneyfoundation.org.uk" target="_blank">Virgin Money Foundation</a>
 
 Linking 360Giving data from a dedicated open data page:
-- <a href="http://andrewlloydwebberfoundation.com/360-giving" target="_blank">Andrew Lloyd Webber Foundation</a>
+- <a href="https://andrewlloydwebberfoundation.com/360-giving" target="_blank">Andrew Lloyd Webber Foundation</a>
 - <a href="https://www.bbcchildreninneed.co.uk/grants/bbc-children-in-need-360-giving/" target="_blank">BBC Children in Need</a>
 - <a href="https://www.citybridgefoundation.org.uk/what-we-do/360-giving" target="_blank">City Bridge Foundation</a>
 - <a href="https://www.heritagefund.org.uk/about/insight/open-data" target="_blank">The National Lottery Heritage Fund</a>
+- <a href="https://www.juliarausingtrust.org/grants/open_data/" target="_blank">Julia Rausing Trust</a>
+- <a href="https://www.paul-mellon-centre.ac.uk/grants-and-fellowships/360giving-grant-data" target="_blank">The Paul Mellon Centre for Studies in British Art</a>
 
 ### Data hosting for public sector organisations
 Some local authorities can have dedicated open data portals for hosting information published by the council or about the local area, which are ideal places to host 360Giving data.
@@ -86,8 +88,8 @@ Alternatively, public sector organisations may be able to use the central <a hre
 
 Examples of public sector data hosting pages:
 - <a href="https://data.london.gov.uk/gla-group-grant-data/" target="_blank">Greater London Authority</a>
-- <a href="https://data.hounslow.gov.uk/dataset/grants-to-voluntary-and-community-sector-organisation" target="_blank">London Borough of Hounslow</a>
 - <a href="https://data.gov.uk/dataset/0a88d123-6f82-45f3-a89a-6a44e6e8bf89/stockport-local-fund" target="_blank">Stockport Metropolitan Borough Council</a>
+- <a href="https://www.arcgis.com/sharing/rest/content/items/e0f0b3c246464be0997cb0dbf5896b5e/data" target="_blank">Sheffield City Council</a>
 
 ## Submit your file to the Data Registry
 Once your 360Giving data file is published, the final step is to let us know so the link to the file can be added to the 360Giving Data Registry which is a list of all the organisations that currently publish their grants data in the 360Giving Data Standard.
@@ -178,7 +180,7 @@ https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5
 
 https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5dLA/**export?format=xlsx**
 
-10\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
+10\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.</a>
 
 11\. Contact 360Giving Helpdesk via <support@threesixtygiving.org> to get the link added to the Data Registry.
 
@@ -203,7 +205,7 @@ https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?**dl=0**
 
 https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?**dl=1**
 
-5\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
+5\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.</a>
 
 6\. Submit the link to 360Giving Helpdesk via <support@threesixtygiving.org> to be added to the Data Registry.
 

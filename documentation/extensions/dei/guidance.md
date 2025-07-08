@@ -12,10 +12,10 @@ This isn’t a reporting process, it’s an opportunity to collect and share dat
 
 This guidance is for those who want to publish information using the DEI Data Standard in the context of their grant information. The guidance in this section focuses on the fields and codes defined in the DEI Extension.
 
-If you are new to publishing 360Giving data but are doing so with a view to also including DEI Data Standard data, we suggest you begin at the [Guidance for Publishers](../../../guidance). This will help you understand the key principles involved in publishing 360Giving data. Once you are familiar with the steps and process, you will be able use this guidance to understand how to integrate the DEI Data Standard data into your 360Giving data publication.
+If you are new to publishing 360Giving data but are doing so with a view to also including DEI Data Standard data, we suggest you begin at the [Guidance for Publishers](../../guidance/index.md). This will help you understand the key principles involved in publishing 360Giving data. Once you are familiar with the steps and process, you will be able use this guidance to understand how to integrate the DEI Data Standard data into your 360Giving data publication.
 
 If you are already a 360Giving publisher, or are otherwise already familiar with how to publish 360Giving data, this guidance will help you integrate the DEI Data Standard data alongside your existing 360Giving grants data.
-If you publish or plan to publish data about grants made to individuals, it is not possible to publish DEI data alongside your 360Giving grants data as, combined with other data published, this risks making grant recipients personally identifiable. However, it is possible to collect this data and share it in aggregate, for example on your own website. For more on this, see the [data protection section](../../../individuals/publisher-guidance/#demographic-data) of our grants to individuals guide.
+If you publish or plan to publish data about grants made to individuals, it is not possible to publish DEI data alongside your 360Giving grants data as, combined with other data published, this risks making grant recipients personally identifiable. However, it is possible to collect this data and share it in aggregate, for example on your own website. For more on this, see the [data protection section](../../individuals/publisher-guidance.md#demographic-data) of our grants to individuals guide.
 
 
 <div class="box box--teal">
@@ -63,7 +63,7 @@ Full information about the DEI Data Standard, including details of the taxonomy 
 
 It is recommended that you work through the DEI Data Standard Guidance and are clear on your aims, use, and approach **before** starting to plan your implementation of the DEI Extension. If you need support with deciding your organisation’s approach to using the DEI Data Standard then you can [get in touch with the DEI Data Group](https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard) via the contact details on their web page.
 
-As part of 360Giving’s support for the DEI Data Standard, we hold a regular free workshop, [**Introduction to the DEI Data Standard**](https://www.threesixtygiving.org/support/training-and-workshops/workshops/#free-publishing-workshops), which explains the key concepts and decisions for funders who want to start collecting DEI data.
+As part of 360Giving’s support for the DEI Data Standard, we hold a regular free workshop, [**Introduction to the DEI Data Standard**](https://www.360giving.org/support/#free-publishing-workshops), which explains the key concepts and decisions for funders who want to start collecting DEI data.
 
 
 ## About the DEI Extension
