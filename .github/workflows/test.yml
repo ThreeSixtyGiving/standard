@@ -12,6 +12,6 @@ jobs:
         python-version: 3.12
         architecture: x64
         cache: 'pip'
-    - run: pip install check-jsonschema
+    - run: pip install check-jsonschema==0.33.2
     - run: check-jsonschema --check-metaschema schema/360-giving-schema.json schema/360-giving-package-schema.json
 
