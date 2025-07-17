@@ -64,7 +64,7 @@ jsonref==1.1.0
     #   flattentool
     #   jscc
     #   sphinxcontrib-opendataservices-jsonschema
-lxml==5.4.0
+lxml==6.0.0
     # via flattentool
 markdown-it-py==3.0.0
     # via
@@ -93,7 +93,7 @@ persistent==6.1.1
     #   zodb
 pycparser==2.22
     # via cffi
-pygments==2.19.1
+pygments==2.19.2
     # via sphinx
 pytz==2025.2
     # via flattentool
@@ -109,7 +109,7 @@ requests==2.32.4
     #   sphinx
 roman-numerals-py==3.1.0
     # via sphinx
-rpds-py==0.25.1
+rpds-py==0.26.0
     # via referencing
 schema==0.7.7
     # via flattentool
@@ -153,9 +153,9 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 transaction==5.0
     # via zodb
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via referencing
-urllib3==2.4.0
+urllib3==2.5.0
     # via requests
 wheel==0.45.1
     # via sphinx-togglebutton
