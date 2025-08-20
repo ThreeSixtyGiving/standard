@@ -180,7 +180,7 @@ All notable changes are documented by Release via the [Changelog](https://github
 
 ### Deprecation Policy
 
-If a term, such as a field title (known as a class or property in JSON schema) is scheduled to be renamed or removed as a result of the revision process, the next release must [deprecate](https://en.wikipedia.org/wiki/Deprecation) the term within the schema. The following MAJOR release must rename or remove the term from the schema, making it  obsolete. Data that is published  may use deprecated terms, but will receive warnings from the [360Giving Data Quality tool](https://dataquality.threesixtygiving.org/). Once obsolete, terms in published data will be treated like any other non-Standard fields.
+If a term, such as a field title (known as a class or property in JSON schema) is scheduled to be renamed or removed as a result of the revision process, the next release must [deprecate](https://en.wikipedia.org/wiki/Deprecation) the term within the schema. The following MAJOR release must rename or remove the term from the schema, making it  obsolete. Data that is published  may use deprecated terms, but will receive warnings from the [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/). Once obsolete, terms in published data will be treated like any other non-Standard fields.
 
 ### Support Policy
 
