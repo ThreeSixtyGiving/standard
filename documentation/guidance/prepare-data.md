@@ -139,7 +139,7 @@ To find out whether using a conversion tool would be an appropriate way for your
 ### Data Preparation Templates for grants to individuals
 Two types of template have been provided for funders, with the 360Giving Data Standard fields needed to prepare and publish useful information about grants to individuals. These Data Preparation Templates include the 10 core fields and some recommended fields and have been set up with data protection settings to ensure data is shared responsibility.
 
-Read our guidance to how to [prepare data about grants to individuals](../../individuals/publisher-guidance/#prepare-and-format-your-data).
+Read our guidance to how to [prepare data about grants to individuals](../individuals/publisher-guidance.md#prepare-and-format-your-data).
 
 ```eval_rst
 .. _setting-up-salesforce-for-360giving-data-publishing:

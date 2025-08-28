@@ -35,6 +35,7 @@ This sheet is set up to allow for any funder-specific categories for the reason 
 The **Manual-Coding** version of the template does not include this sheet because it is for use when the coding of the grant data has to be done manually.
 ### geo_data
 This sheet is used to support converting postcode data into Ward area or higher geocodes, for data protection purposes. Instructions for how to convert postcode data into geocodes and use this sheet is included in the [How to use the template](#how-to-use-the-template) section.
+
 ### source_data
 This sheet is for the grants information collated from your files or data exported from a grants management system.
 
@@ -43,6 +44,7 @@ By default this includes all the fields of data needed to populate all the 10 co
 The first four columns in the **source_data** sheet are for identifying information about grant recipients. These fields are included to make it easier to prepare and check the data. 
 - The recipient names and postcodes are not linked to the **360_data** sheet which includes the information to be published, and _**will not be shared outside of your organisation**_. 
 - The grant and recipient identifiers will only be included in the **360_data** sheet if the **tailored_settings** data protection settings are set to ‘Publish’.
+
 ### 360_data sheet
 This sheet contains the correctly formatted 360Giving data based on the source information provided. The top row in the sheet has the 360Giving Data Standard titles, and in following rows there are a range of formulas set up to combine data from the other sheets, to create the 360Giving formatted data. 
 
@@ -51,18 +53,22 @@ This means that any changes in the content of the data in the **source_data**, *
 **Please note:** Do not add data directly into the **360_data** sheet or make any changes to this sheet, apart from extending the number of rows with formulas or resetting **#REF!** Errors (see further guidance on [setting up your template](#setting-up-your-template)). 
 
 Adding data directly into this sheet will break the formulas used to format the data. This will stop the template working correctly and increases the risk of sharing data that does not pass 360Giving’s validity checks, or unintentionally includes personal data.
+
 ### Default settings
 The formulas in **360_data** sheet extend for the first 100 rows. This means that up to 100 grants can be converted by the template. See the [section on extending the formulas](#adding-more-rows-of-formulas-to-the-360-data-sheet) if you need to convert data for more than 100 grants at a time.
 
-For ease of use, this template is colour coded so that all the 10 core required items are highlighted green, the codelist fields are blue and the recommended but optional fields are yellow. For more information see our [Field guidance](../../individuals/publisher-guidance/#field-guidance).
+For ease of use, this template is colour coded so that all the 10 core required items are highlighted green, the codelist fields are blue and the recommended but optional fields are yellow. For more information see our [Field guidance](../individuals/publisher-guidance.md#field-guidance).
+
 ### How the template works
 The formulas and setup of the tool perform three types of actions to transform the data:
 1. Some of the changes simply match the source data provided to the appropriate 360Giving Data Standard titles, but leave the content unchanged.
 2. Some fields also change the format of the data – e.g. changing dates from 27/11/2022 to 2022-11-27 – which is the date format required by 360Giving Data Standard.
-3. Some other changes involve combining data from one or more of the sheets e.g. – **Identifier** and **Recipient Ind:Identifier** are often created from a unique grant ID and recipient ID taken from a grants management system, with your publisher prefix which starts **360G-**. For more information see our guidance about [Identifiers](../../technical/identifiers/#grant-identifier) and [Recipient Org:Identifiers](../../technical/identifiers/#organisation-identifier).
+3. Some other changes involve combining data from one or more of the sheets e.g. – **Identifier** and **Recipient Ind:Identifier** are often created from a unique grant ID and recipient ID taken from a grants management system, with your publisher prefix which starts **360G-**. For more information see our guidance about [Identifiers](../technical/identifiers.md#grant-identifier) and [Recipient Org:Identifiers](../technical/identifiers.md#organisation-identifier).
+
 ## Setting up your template
+
 ### 1. Add in your organisation’s details
-Fill in your organisation’s data in the **tailored_settings** sheet. The publisher prefix and guidance on what Funding Org:Identifier to use will be provided by 360Giving Helpdesk when you fill out the [Publisher Registration form](../../individuals/publisher-guidance/#register-with-360giving-helpdesk).
+Fill in your organisation’s data in the **tailored_settings** sheet. The publisher prefix and guidance on what Funding Org:Identifier to use will be provided by 360Giving Helpdesk when you fill out the [Publisher Registration form](./publisher-guidance.md#register-with-360giving-helpdesk).
 
 <div class="table table--zebra">
     <table>
@@ -221,6 +227,8 @@ Once you are ready to start using the template with your own data, please delete
 - Data in cells A3 to B5 and F3 to G8 in the **codelist_mapping** sheet.
 
 Please do not delete the rows as it will cause errors with the formulas in **360_data** sheet.
+
+(adding-more-rows-of-formulas-to-the-360-data-sheet)=
 ### 5. Adding more rows of formulas to the 360_data sheet
 By default, the formulas in the **360_data** sheet extend for 100 rows, so they will convert the first 100 rows of grant data entered into the **source_data** sheet.
 If you have more than 100 grants to convert at a time you need to increase the number of rows with formulas in the **360_data** sheet to match the number of rows in the **source_data** sheet.
@@ -261,7 +269,8 @@ If you do have a grantmaking database or spreadsheet(s) for collecting grants da
 ### Collect data
 Enter the data you want to publish onto the **source_data** sheet under the appropriate headings.
 
-Full descriptions of all of the fields and guidance on how to populate each field is available in the **source_data_mapping** sheet and the [Field guidance](../../individuals/publisher-guidance/#field-guidance).
+Full descriptions of all of the fields and guidance on how to populate each field is available in the **source_data_mapping** sheet and the [Field guidance](../individuals/publisher-guidance.md#field-guidance).
+
 ### Convert data
 This method will work with data that is ready in a spreadsheet – this could be either a spreadsheet you use to manage your information, or a report you have exported from a grants management system.
 
@@ -277,6 +286,7 @@ For example:
 - Are there as many rows of grants as expected? If there are fewer rows of grants in the **360_data** sheet than in the **source_data** sheet you will need to extend the formulas to cover more rows, see [further guidance above](#adding-more-rows-of-formulas-to-the-360-data-sheet).
 - Are any of the cells blank or feature **#N/A** errors? All columns with a green title must include information in each cell because these are required fields which cannot be blank. Other columns without green headers may have blank cells if there is no information available. If any cells include zeros or #N/A errors, check the information in **source_data** sheet to see if there is a problem with the data and correct as needed.
 - Does the content of the data in **360_data** look right? If the values in the columns look wrong, there may be a mismatch between the mapping of the **source_data** fields with the 360Giving headings. Check the **source_data** to see if the order of the columns needs to be changed or if the first column of your source data is not aligned with **column A** in the sheet.
+
 ### Converting Postcodes into Geocodes
 <a href="https://findthatpostcode.uk/" target="_blank">Find that Postcode</a> is a tool supported and used by 360Giving to power the location functions of its tools <a href="https://grantnav.threesixtygiving.org" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org" target="_blank">GrantVis</a>.
 

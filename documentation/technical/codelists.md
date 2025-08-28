@@ -68,6 +68,7 @@ The codelists in the 360Giving Data Standard are **closed in type**. This means 
 
 For the codelists managed directly by 360Giving, if there is no appropriate code to use, it is possible to propose new codes be added to the list. Further information about how to propose new codes is set out in [Versioning and Upgrade Process](../about/governance).
 
+(currency)=
 ### Currency
 
 A codelist with values to specify the currency used in amounts.  For example GBP is the code for Pounds Sterling.
@@ -76,7 +77,7 @@ The codes from this codelist can be published in the Currency field, and also ap
 
 To view the full list of codes visit <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.
 
-
+(country-code)=
 ### Country code
 
 A codelist with values to specify the 2-character ISO Country Code of a location. For example GB is the code for the United Kingdom of Great Britain and Northern Ireland.
@@ -91,6 +92,7 @@ The Geocode fields are part of objects which are an array. This means that multi
 
 To view the full list of codes visit <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1-alpha-2</a>.
 
+(geocode-type)=
 ### GeoCode Type
 
 A codelist with values to specify which type of UK geographical code has been provided in the associated Geocode field.
@@ -139,7 +141,7 @@ A codelist with values to specify a grant's geographical scope, broken down into
 
 The codes from this codelist can be published in the field **Location Scope**. The **Location Scope field** can only be included once with a single code per grant.
 
-For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../../guidance/location-guide/#location-scope).
+For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide.md).
 
 ```eval_rst
 .. csv-table::
@@ -152,6 +154,7 @@ For further explanation of the location scope codelist, including examples, read
 .. _grant-purpose:
 ```
 
+(grant-to-individuals-purpose)=
 ### Grant to Individuals Purpose
 
 A codelist with values to specify the purpose of the grant, in terms of what the funding will be used for. This codelist is intended for use in grants to individual recipients only.
@@ -173,6 +176,7 @@ The **To Individuals Details:Grant Purpose** field is an array. This means that 
 .. _grant-reason:
 ```
 
+(grant-to-individuals-reason)=
 ### Grant to Individuals Reason
 
 A codelist with values to specify the reason that the grant was awarded to the recipient. This codelist is intended for use in grants to individual recipients only.

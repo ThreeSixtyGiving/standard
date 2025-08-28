@@ -12,7 +12,7 @@
 ## Overview
 At the beginning of this stage you should have a file of 'valid' 360Giving data that has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality tool</a> checks and is technically ready to be published. By the end of this stage you will have published your grant data as open data, making it available for anyone to download and use.
 
-Prior to publishing your data, you should also check the contents of your data to ensure it is accurate, and that there is no personal data included that could allow an individual to be identified. For further information, read our guidance on data protection for [funders of grants to individuals](../../individuals/publisher-guidance/#data-protection) and [funders of grants to organisations](../../guidance/data-protection).
+Prior to publishing your data, you should also check the contents of your data to ensure it is accurate, and that there is no personal data included that could allow an individual to be identified. For further information, read our guidance on data protection for [funders of grants to individuals](../individuals/publisher-guidance.md#data-protection) and [funders of grants to organisations](../guidance/data-protection.md).
 
 ## How to make your 360Giving data open
 Data published to the 360Giving Data Standard is open data, which means the information is available to everyone to use and share for any purpose. For further information visit the <a href="https://opendefinition.org" target="_blank">Open Definition website.</a>
@@ -180,7 +180,7 @@ https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5
 
 https://docs.google.com/spreadsheets/d/1gyyHFzS60yrMqindaaTNW8kSFa0sOIZAjDIR8sZ5dLA/**export?format=xlsx**
 
-10\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
+10\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.</a>
 
 11\. Contact 360Giving Helpdesk via <support@threesixtygiving.org> to get the link added to the Data Registry.
 
@@ -205,7 +205,7 @@ https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?**dl=0**
 
 https://www.dropbox.com/s/ju3b1wne41xbowy/360Giving-dataset.xlsx?**dl=1**
 
-5\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.<a/>
+5\. Copy this newly-formatted link and test that your data is still valid using the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool.</a>
 
 6\. Submit the link to 360Giving Helpdesk via <support@threesixtygiving.org> to be added to the Data Registry.
 
