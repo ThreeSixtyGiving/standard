@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/ThreeSixtyGiving/standard/1.4/schema/360-giving-schema.json",
+  "$id": "https://raw.githubusercontent.com/ThreeSixtyGiving/standard/1.4.2/schema/360-giving-schema.json",
   "$schema": "http://json-schema.org/draft/2020-12/schema",
   "title": "360Giving Data Standard Schema",
   "type": "object",
