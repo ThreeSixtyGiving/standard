@@ -24,8 +24,8 @@ import sys
 import datetime
 import sphinx_rtd_theme
 sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.transform import AutoStructify
-from recommonmark.parser import CommonMarkParser
+#from recommonmark.transform import AutoStructify
+#from recommonmark.parser import CommonMarkParser
 
 # -- Read the Docs --------------------------------------------------------
 
@@ -47,6 +47,8 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+
+# TODO: re-add if necessary
 extensions = ['sphinxcontrib.opendataservices', 'toctemplate', 'myst_parser']
 
 
@@ -60,11 +62,11 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_parsers = {
-    '.md': CommonMarkParser,
-    }
-
-source_suffix = ['.rst', '.md']
+#source_parsers = {
+#    '.md': CommonMarkParser,
+#    }
+#
+#source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
 #
@@ -473,10 +475,10 @@ for extension in schema_extensions:
 #mv README.md 360-giving-schema-titles.csv/
 
 
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_eval_rst': True
-        }, True)
-    app.add_transform(AutoStructify)
+#def setup(app):
+    #    app.add_config_value('recommonmark_config', {
+    #        #'url_resolver': lambda url: github_doc_root + url,
+    #        'auto_toc_tree_section': 'Contents',
+    #        'enable_eval_rst': True
+    #        }, True)
+    #app.add_transform(AutoStructify)
