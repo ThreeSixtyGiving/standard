@@ -21,7 +21,7 @@ pyparsing==2.2.0
 pytz==2016.10
 requests==2.27.1
 recommonmark==0.7.1
-six==1.10.0
+six==1.16.0
 snowballstemmer==1.2.1
 urllib3==1.26.5
 jdcal==1.2
@@ -30,4 +30,3 @@ lxml==4.9.3
 openpyxl==3.0.10
 schema==0.4.0
 setuptools==68.0.0
-
