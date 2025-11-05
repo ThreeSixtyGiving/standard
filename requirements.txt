@@ -70,11 +70,11 @@ jsonref==0.1
     #   -r requirements.in
     #   flattentool
     #   sphinxcontrib-opendataservices-jsonschema
-lxml==4.9.1
+lxml==4.9.3
     # via
     #   -r requirements.in
     #   flattentool
-markupsafe==1.1.1
+markupsafe==2.0.1
     # via
     #   -r requirements.in
     #   jinja2

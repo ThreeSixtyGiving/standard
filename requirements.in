@@ -14,7 +14,7 @@ docutils==0.13.1
 imagesize==0.7.1
 Jinja2==2.11.3
 jsonpointer==2.0
-MarkupSafe==1.1.1
+MarkupSafe==2.0.1
 packaging==16.8
 Pygments==2.7.4
 pyparsing==2.2.0
@@ -26,8 +26,8 @@ snowballstemmer==1.2.1
 urllib3==1.26.5
 jdcal==1.2
 jsonref==0.1
-lxml==4.9.1
+lxml==4.9.3
 openpyxl==3.0.10
 schema==0.4.0
-setuptools==65.5.0
+setuptools==68.0.0
 
