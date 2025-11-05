@@ -100,7 +100,7 @@ pyparsing==2.2.0
     # via
     #   -r requirements.in
     #   packaging
-pytz==2016.10
+pytz==2021.1
     # via
     #   -r requirements.in
     #   babel
