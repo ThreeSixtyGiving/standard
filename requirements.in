@@ -1,9 +1,9 @@
 flattentool
-sphinx
+sphinx=1.5.3
 sphinx-togglebutton
 recommonmark
 sphinxcontrib-opendataservices
-sphinxcontrib-opendataservices-jsonschema
+sphinxcontrib-opendataservices-jsonschema==0.1.0
 sphinx-intl
 sphinx_rtd_theme
 myst-parser
