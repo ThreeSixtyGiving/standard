@@ -12,7 +12,7 @@ In 360Giving, metadata is information about the 360Giving data in the file; such
 
 There are two main types of metadata:
 - **Authoritative metadata**: This is what the file declares about itself, such as who the publisher is, or where the file can be found.
-- **Derived metadata**: This is what can be found out from a file, such as the total value of the grants, or which fields from the 360Giving Data Standard are used. This type of data is not included in the information that is published, instead it can be calculated by tools that use a file, such as the <a href="https://data.threesixtygiving.org/" target="_blank">360Giving Data Registry.</a>
+- **Derived metadata**: This is what can be found out from a file, such as the total value of the grants, or which fields from the 360Giving Data Standard are used. This type of data is not included in the information that is published, instead it can be calculated by tools that use a file, such as the <a href="https://qualitydashboard.threesixtygiving.org/alldata" target="_blank">360Giving Quality Dashboard.</a>
 
 ## Why include metadata in 360Giving files?
 Including metadata is one of the features of good quality open data. It helps people to find data that best suits their needs by supporting them to understand what the contents are and if they match what they’re looking for. It also provides publishers the ability to provide valuable context for the data that a user should bear in mind when analysing or using the data.  
