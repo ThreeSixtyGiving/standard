@@ -1,3 +1,6 @@
+/* Hide RTD Search Form: https://opendataservices.plan.io/issues/58218 */
+#rtd-search-form { display: none }
+
 /* boxes */
 
 .prose .admonition, .admonition, .prose details {
