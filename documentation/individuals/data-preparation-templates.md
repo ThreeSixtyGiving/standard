@@ -345,14 +345,14 @@ If you only have one reason category or fewer than three purpose categories the 
 
     c. Save the file. This removes the formulas and leaves just the 360Giving formatted data.
 
-2. Your saved file can now be uploaded into the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Tool</a> for checking.
-See our guidance on how to use the <a href="https://standard.threesixtygiving.org/en/latest/guidance/data-quality/" target="_blank">Data Quality Tool</a> for further information.
+2. Your saved file can now be uploaded into the <a href="https://dataquality.threesixtygiving.org" target="_blank">360Giving Data Quality Checker</a> for checking.
+See our guidance on how to use the <a href="https://standard.threesixtygiving.org/en/latest/guidance/data-quality/" target="_blank">Data Quality Checker</a> for further information.
 
 ![Screenshot of Paste Special dialogue box in Excel](../../assets/Screenshot-Paste-special-dialogue-box.png)
 
 ![Screenshot of Paste special right click options](../../assets/Screenshot-Paste-special-right-click-options.png)
 ### Publishing your 360Giving data
-Once your data passes the Data Quality Tool’s checks – and you are happy with the content of the data and you have ensured there is no personal data appearing in the 360Giving formatted data – the file is ready to be published online.
+Once your data passes the Data Quality Checker’s checks – and you are happy with the content of the data and you have ensured there is no personal data appearing in the 360Giving formatted data – the file is ready to be published online.
 
 For further information see our guidance on [publishing data openly](../guidance/publish-data-openly/).
 

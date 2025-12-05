@@ -19,7 +19,7 @@ There are two main formats available for representing 360Giving data.
 
    Data in JSON format is ideal for direct use by developers building visualisations and web apps. The JSON should conform to the [360Giving JSON Schemas](360giving-json-schemas). Anyone automating the publication of their data from their internal databases or via an API may favour this format. The column titles used in spreadsheet representations of data are derived directly from the [360Giving JSON Schemas](360giving-json-schemas).
 
-You can use the <a href="https://dataquality.threesixtygiving.org/" target="_blank"> 360Giving Data Quality Tool</a> to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop.
+You can use the <a href="https://dataquality.threesixtygiving.org/" target="_blank"> 360Giving Data Quality Checker</a> to convert data between these formats, providing structured data for developers, and spreadsheet simplicity if you want to browse, sort and filter data on your desktop.
 
 ## Spreadsheet format
 
@@ -450,4 +450,4 @@ When data is being generated directly out of a database system, publishers shoul
 
 Developers may also wish to build their applications of JSON versions of the data.
 
-The <a href="https://dataquality.threesixtygiving.org/" target="_blank"> 360Giving Data Quality Tool</a> supports conversion of data between the Spreadsheet Template and JSON representations.
+The <a href="https://dataquality.threesixtygiving.org/" target="_blank"> 360Giving Data Quality Checker</a> supports conversion of data between the Spreadsheet Template and JSON representations.
