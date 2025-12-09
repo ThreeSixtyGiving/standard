@@ -6,11 +6,11 @@ Our step-by-step guidance and resources for publishers can now be accessed on 36
 
 Or, jump straight into the stage you're at:
 
-1. Plan &ndash; see what's involved, make a plan and register
-2. Prepare &ndash; decide what to publish, then extract and check your data
-3. Publish &ndash; host your data file and publish it openly
-4. Post-Publishing &ndash; showcase your data and start using it
-5. Re-publish &ndash; go through the process again and improve your data quality
+1. [Plan &ndash; see what's involved, make a plan and register](https://www.360giving.org/publish/guidance/plan/)
+2. [Prepare &ndash; decide what to publish, then extract and check your data](https://www.360giving.org/publish/guidance/prepare/)
+3. [Publish &ndash; host your data file and publish it openly](https://www.360giving.org/publish/guidance/publish/)
+4. [Post-Publishing &ndash; showcase your data and start using it](https://www.360giving.org/publish/guidance/post-publishing/)
+5. [Re-publish &ndash; go through the process again and improve your data quality](https://www.360giving.org/publish/guidance/re-publishing/)
 
 But if you're looking for technical documentation, you've come to the right place
 
@@ -32,7 +32,7 @@ This section features information about governance and change management of the 
 
 ### Extensions
 
-This section features information about approved Extensions to the 360Giving Data Standard. Here you will find publisher guidance as well as detailed field guidance and rules for including optional fields and structures alongside 360Giving data. Currently, there is one approved extension used for the publication of DEI Data Standard data
+This section features information about approved Extensions to the 360Giving Data Standard. Here you will find publisher guidance as well as detailed field guidance and rules for including optional fields and structures alongside 360Giving data. Currently, there is one approved extension used for the publication of DEI Data Standard data.
 
 [Understand extensions in 360Giving](./extensions/index.md)
 
