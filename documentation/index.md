@@ -1,38 +1,40 @@
-# About this site
-This site provides information to support anyone who wants to publish open grants data using the 360Giving Data Standard.
+# Our guidance for publishers has moved
 
-The guidance is divided into five main sections.
+Our step-by-step guidance and resources for publishers can now be accessed on 360Giving's main website.
 
-### Guidance for publishers
+<a class="button" href="https://www.360giving.org/explore/before-you-start/">Get started here</a>
 
-#### Main guide
-This section features guidance about preparing and sharing 360Giving data. Here you will find examples and practical support to help you navigate the whole publishing process.
+Or, jump straight into the stage you're at:
 
-[Read more](./guidance/index.md)
+1. Plan &ndash; see what's involved, make a plan and register
+2. Prepare &ndash; decide what to publish, then extract and check your data
+3. Publish &ndash; host your data file and publish it openly
+4. Post-Publishing &ndash; showcase your data and start using it
+5. Re-publish &ndash; go through the process again and improve your data quality
 
-#### Grants to individuals
-This section features templates, guidance and codelists designed to support funders of grants to individuals with responsible publishing of data about their grants using the 360Giving Data Standard which protects the privacy of individual recipients.
+But if you're looking for technical documentation, you've come to the right place
 
-[Read more](./individuals/index.md)
+# 360Giving Data Standard documentation
 
-### Technical information
+This site provides documentation for the 360Giving Data Standard. It includes technical reference information, governance rules and details of extensions to the Standard.
+
+## Technical information
 
 This section features the full technical reference for the 360Giving Data Standard, including templates and detailed field guidance. Here you will find the rules of the Standard, which all 360Giving data must follow in order to be compliant.
 
-[Read more](./technical/index.md)
+[Review the technical information](./technical/index.md)
 
-
-### About the Standard
+## About the Standard
 
 This section features information about governance and change management of the 360Giving Data Standard itself. Here you will also find out how you can contribute to the maintenance and development of the Standard.
 
-[Read more](./about/index.md)
+[Learn about the Standard's governance](./about/index.md)
 
 ### Extensions
 
-This section features information about approved Extensions to the 360Giving Data Standard. Here you will find publisher guidance as well as detailed field guidance and rules for including optional fields and structures alongside 360Giving data. Currently, there is one approved extension used for the publication of DEI Data Standard data.
+This section features information about approved Extensions to the 360Giving Data Standard. Here you will find publisher guidance as well as detailed field guidance and rules for including optional fields and structures alongside 360Giving data. Currently, there is one approved extension used for the publication of DEI Data Standard data
 
-[Read more](./extensions/index.md)
+[Understand extensions in 360Giving](./extensions/index.md)
 
 
 ### Contents
@@ -41,8 +43,6 @@ This section features information about approved Extensions to the 360Giving Dat
 .. toctree::
    :maxdepth: 3
 
-   guidance/index
-   individuals/index
    technical/index
    about/index
    extensions/index
