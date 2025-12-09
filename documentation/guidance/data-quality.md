@@ -15,12 +15,12 @@ The term ‘valid‘ means the file includes the 10 core fields, and the informa
 
 Only valid 360Giving data can be combined with other published data and be included in 360Giving tools, such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a> and <a href="https://grantvis.threesixtygiving.org/" target="_blank">GrantVis</a>.
 
-## How to use the 360Giving Data Quality Tool
-<a href="https://dataquality.threesixtygiving.org/" target="_blank">The Data Quality Tool</a> (DQT) has been specially designed to support the preparation and publication of 360Giving data.
+## How to use the 360Giving Data Quality Checker
+<a href="https://dataquality.threesixtygiving.org/" target="_blank">The Data Quality Checker</a> (DQT) has been specially designed to support the preparation and publication of 360Giving data.
 
 You can use it by uploading a file or providing a link to a file that is hosted online.
 
-![Screen shot of the 360Giving Data Quality Tool homepage](../../assets/DQT_screenshot_homepage_2025.png)
+![Screen shot of the 360Giving Data Quality Checker homepage](../../assets/DQT_screenshot_homepage_2025.png)
 
 ### Error message
 If you get an error message that the DQT can’t process your data, try again using a different file format.
@@ -31,7 +31,7 @@ The acceptable files are spreadsheets in OpenDocument Spreadsheet (.ods), Excel 
 
 ![Screen shot of unrecognised file type error message](../../assets/DQT_screenshot_cant_process_data_2025.png)
 
-## Understanding the Data Quality Tool feedback
+## Understanding the Data Quality Checker feedback
 
 Once you have submitted your file, the screen will display feedback on key information points about the data, divided into up  six tabs depending on the results: Summary, Additional Fields, Conversion errors, Validity, Accuracy and Usefulness. Explore the individual tabs view the feedback in detail.
 
@@ -231,14 +231,14 @@ Other conversion errors are usually caused by the data not being formatted corre
 
 
 ### Getting more help
-Please contact the 360Giving Helpdesk via <support@threesixtygiving.org> if you have questions about using the Data Quality Tool or the feedback you receive.
+Please contact the 360Giving Helpdesk via <support@threesixtygiving.org> if you have questions about using the Data Quality Checker or the feedback you receive.
 
 The 360Giving Helpdesk can also look at the data you are preparing to check and provide further feedback prior to publishing your data for the first time.
 
 ## Once the data passes the checks
 When your file has no Validity issues it means the information is valid 360Giving data.
 
-Passing the Data Quality Tool checks means the file is ready for use, including in platforms such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>.
+Passing the Data Quality Checker checks means the file is ready for use, including in platforms such as <a href="https://grantnav.threesixtygiving.org/" target="_blank">GrantNav</a>.
 
 **Please note:** The tool cannot check the content of the data. Further checks may be needed to ensure the information is accurate and that the data does not include information unsuitable for publishing as open data.
 
@@ -246,12 +246,12 @@ Passing the Data Quality Tool checks means the file is ready for use, including 
     <h2 class="box__heading">Data protection</h2>
     <p>Find out more about what to check before publishing your data openly in our <a href="../../guidance/data-protection" target="_blank">data protection guidance.</a></p></div>
 
-### About Data Quality Tool security
-The Data Quality Tool has been designed to support people preparing their 360Giving data, meaning the data inputted into it is in varying stages of readiness.
+### About Data Quality Checker security
+The Data Quality Checker has been designed to support people preparing their 360Giving data, meaning the data inputted into it is in varying stages of readiness.
 
 The feedback report you receive has a private URL, which means only those with the link can access the page and the data. If your data is not suitable for sharing publicly, then you should treat this URL with care and only share it with people who are allowed access to the data. As long as you do not put the URL on a public page, then it will not be possible for people to come across it by accident.
 
-The files are deleted automatically from the Data Quality Tool after seven days. Read the <a href="https://dataquality.threesixtygiving.org/terms/" target="_blank">Terms and Conditions</a> for further details about how the files are stored and deleted.
+The files are deleted automatically from the Data Quality Checker after seven days. Read the <a href="https://dataquality.threesixtygiving.org/terms/" target="_blank">Terms and Conditions</a> for further details about how the files are stored and deleted.
 
 ### What‘s next?
 Read our guidance about publishing your grant data openly to make it available for anyone to download and use.

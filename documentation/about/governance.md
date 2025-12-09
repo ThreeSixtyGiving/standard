@@ -180,11 +180,11 @@ All notable changes are documented by Release via the [Changelog](https://github
 
 ### Deprecation Policy
 
-If a term, such as a field title (known as a class or property in JSON schema) is scheduled to be renamed or removed as a result of the revision process, the next release must [deprecate](https://en.wikipedia.org/wiki/Deprecation) the term within the schema. The following MAJOR release must rename or remove the term from the schema, making it  obsolete. Data that is published  may use deprecated terms, but will receive warnings from the [360Giving Data Quality Tool](https://dataquality.threesixtygiving.org/). Once obsolete, terms in published data will be treated like any other non-Standard fields.
+If a term, such as a field title (known as a class or property in JSON schema) is scheduled to be renamed or removed as a result of the revision process, the next release must [deprecate](https://en.wikipedia.org/wiki/Deprecation) the term within the schema. The following MAJOR release must rename or remove the term from the schema, making it  obsolete. Data that is published  may use deprecated terms, but will receive warnings from the [360Giving Data Quality Checker](https://dataquality.threesixtygiving.org/). Once obsolete, terms in published data will be treated like any other non-Standard fields.
 
 ### Support Policy
 
-When a new version upgrade is made to the Standard, support will be offered for one prior version. Support in this context means that data published using this version is recognised as meeting the requirements of the Standard and will be accepted by the 360Giving Data Registry, Data Quality Tool and other tools managed by 360Giving that use 360Giving data. This means that deprecated terms are supported but obsolete terms are not.
+When a new version upgrade is made to the Standard, support will be offered for one prior version. Support in this context means that data published using this version is recognised as meeting the requirements of the Standard and will be accepted by the 360Giving Data Registry, Data Quality Checker and other tools managed by 360Giving that use 360Giving data. This means that deprecated terms are supported but obsolete terms are not.
 
 Support for any earlier version than this will not be guaranteed when a new version is released.
 

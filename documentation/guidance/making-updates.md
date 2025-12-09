@@ -40,7 +40,7 @@ This process is only possible if you do not make changes to your data to get it 
 
 If you make changes to your data after exporting it from your system - for example changing description text to make it suitable for publishing openly – then you will need to produce a report to cover only the recently awarded grants and then incorporate the data into the existing file.
  
-Once the data is ready and it has passed the [Data Quality Tool](../../guidance/data-quality) checks you can either: 
+Once the data is ready and it has passed the [Data Quality Checker](../../guidance/data-quality) checks you can either: 
 - Add the new grant data into the existing file of published data and re-upload the file to your website. If you can keep the file name and the position of the file the same following an update it will mean the link from the Data Registry to your data will stay the same – so your updates will automatically get picked up in our system.
 - Upload a new file alongside your existing file, add a link to the file from your hosting page and let the 360Giving Helpdesk know about the new file.
 

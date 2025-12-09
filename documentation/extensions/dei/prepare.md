@@ -263,7 +263,7 @@ A key step to using the DEI Extension is declaring that you are using it in a **
 
 This Meta sheet is the way 360Giving data publishers include metadata about their grants data in their files. It is separate and different from the metadata fields in the DEI Extension itself which are usually included in the main grants sheet. For further information read our guidance on 360Giving Data Standard [Metadata](../../technical/metadata.md#guide-to-including-metadata-in-spreadsheet-files).
 
-It is only once you have declared that you are using the DEI Extension in the Meta sheet that your data can be checked and validated by the 360Giving [Data Quality Tool](https://dataquality.threesixtygiving.org/) and used by GrantNav and 360Insights. If you miss this crucial step, the Data Quality Tool will not recognise the fields for the DEI Extension and treat them as non-Standard [Additional Fields](../../technical/reference.md#additional-fields).
+It is only once you have declared that you are using the DEI Extension in the Meta sheet that your data can be checked and validated by the 360Giving [Data Quality Checker](https://dataquality.threesixtygiving.org/) and used by GrantNav and 360Insights. If you miss this crucial step, the Data Quality Checker will not recognise the fields for the DEI Extension and treat them as non-Standard [Additional Fields](../../technical/reference.md#additional-fields).
 
 Once you have a Meta sheet in your file, you can declare the extension by adding the Metadata field with the title \`Extensions\`. Usually this is in column A. In the next column (usually column B), add the value **dei**
 
@@ -291,9 +291,9 @@ It is straightforward to implement the DEI Extension into an existing JSON forma
 
     If you're updating an existing publication and your current version is **1.0** or greater, you can declare **1.4** without any problems related to backwards incompatibility (see also: our [Versioning and Upgrade Process](../../about/governance.md#versioning-and-upgrade-process)). 
 
-    If you don’t have a **version** field currently, it is safe to add this with the value of **1.4** unless your data isn’t conformant to Version **1.0** or later. You can verify this by checking the 360Giving Data Standard data in your file in the [Data Quality Tool (DQT)](https://dataquality.threesixtygiving.org/), as all data that passes the tool’s validation checks is conformant with Version 1.0 or later.
+    If you don’t have a **version** field currently, it is safe to add this with the value of **1.4** unless your data isn’t conformant to Version **1.0** or later. You can verify this by checking the 360Giving Data Standard data in your file in the [Data Quality Checker](https://dataquality.threesixtygiving.org/), as all data that passes the tool’s validation checks is conformant with Version 1.0 or later.
 
-2. Create the **extensions** field in your package data if you have not already done so, and add the string **dei**. This declares the extension to tooling such as the Data Quality Tool so you can validate the contents of the extension fields.
+2. Create the **extensions** field in your package data if you have not already done so, and add the string **dei**. This declares the extension to tooling such as the Data Quality Checker so you can validate the contents of the extension fields.
 3. For each grant that will contain DEI information, add a **grants.deiDetails** property.
 
     1. When a grant has a **deiDetails** property, **deiDetails.leadership**, **deiDetails.mission**, and **deiDetails.project** become required for that grant.

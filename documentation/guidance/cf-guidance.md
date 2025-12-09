@@ -202,7 +202,7 @@ Save the file to your local drive as an .xlsx file. To do this click on ‘Save 
 ## Check data quality and receive feedback
 Once you have exported a file of your data using the 360Giving extract, the next step is to check that the data is valid. Valid data means the file includes all the required fields and the information has the correct formatting.
 
-Each Community Foundation is responsible for the data it publishes.  You can check that your data is valid using this Data Quality Tool developed, which will tell you if there are any issues with your dataset.
+Each Community Foundation is responsible for the data it publishes.  You can check that your data is valid using this Data Quality Checker developed, which will tell you if there are any issues with your dataset.
 
 See the guidance on [checking data quality](../../guidance/data-quality/) before publishing your data.
 

@@ -37,7 +37,7 @@ Normally these planning steps only need to happen once, when publishing data for
 ### Prepare
 - If you haven’t published 360Giving data before, fill out the Publisher Registration Form to receive your 360Giving Publisher prefix and decide what file format to use for publishing your grant information.
 - Transform your grants data into 360Giving data using the correct data formatting and headings.
-- Use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Tool</a> along with this guidance to check if your data is ready to be published.
+- Use the <a href="https://dataquality.threesixtygiving.org/" target="_blank">360Giving Data Quality Checker</a> along with this guidance to check if your data is ready to be published.
 
 For many publishers, preparing their data is a manual process that involves exporting information from a grants management system and converting it into 360Giving data in a spreadsheet file. You can use specially developed templates that take care of the technical aspects of transforming your grants data into the right format. Depending on the grants management system you use it might be possible to build in some or all of the steps needed to convert the information, so it can be exported directly from the system in 360Giving data format.
 
