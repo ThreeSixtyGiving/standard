@@ -1,3 +1,7 @@
+---
+orphan: true # This suppresses warnings that this file is not included in any toc tree
+---
+
 # Privacy Notice
 
 ReadTheDocs provide the platform these docs are hosted on, for information about how they collect and process personal data, [see their Privacy Policy](https://docs.readthedocs.io/en/latest/privacy-policy.html).
