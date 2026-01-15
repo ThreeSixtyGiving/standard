@@ -1,6 +1,6 @@
 # Identifiers
 
-```eval_rst
+```{eval-rst}
 
 .. admonition:: Why identifiers matter
 
@@ -22,7 +22,7 @@ The 360Giving Data Standard asks you to give identifiers to any of the following
 These go in an `Identifier` column alongside accessible text descriptions of the grant, the name of an organisation, or the title of a classification.
 
 
-```eval_rst
+```{eval-rst}
 .. _creating-identifiers:
 ```
 
@@ -32,7 +32,7 @@ You may already have identifiers in your own data. For example, a number for eac
 
 However, to avoid overlap between the internal identifiers you use and the internal identifiers another funder uses, you need to add a **prefix**.
 
-```eval_rst
+```{eval-rst}
 .. admonition:: For example
 
   If Indigo Trust have a grant called 'Grant27', and the Dulverton Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-dulverton-Grant27'
@@ -43,7 +43,7 @@ For grants, and other identifiers particular to your organisation, you use can u
 For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below.
 
 
-```eval_rst
+```{eval-rst}
 .. _register-prefix:
 ```
 
@@ -52,7 +52,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 To register a prefix for your organisation see the [publisher guidance.](../../guidance/prepare-data)
 
 All registered prefixes should start with 360G.
-```eval_rst
+```{eval-rst}
 .. _grant-identifier:
 ```
 
@@ -64,7 +64,7 @@ To create your grant identifiers:
 2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique **inside your organisation**, so adding the prefix will make it unique across the whole world.
 3. Add your 360Giving prefix in front of your identifier.
 
-```eval_rst
+```{eval-rst}
 .. admonition:: For example
 
   If your prefix is ``360G-xyztrust`` and you have a grant identified internally as ``123``, you would combine these to give ``360G-xyztrust-123``
@@ -76,7 +76,7 @@ To create your grant identifiers:
 
   ``360G-xyztrust-123_ABC``
 
-  ```eval_rst
+  ```{eval-rst}
   .. admonition:: Hint
 
   If you do not have a unique grant reference to use you will need to create identifiers. You can use sequential numbers. Also including the year in which the grant was awarded helps to group the grants and makes it possible to restart the sequential numbers at the beginning of each year.
@@ -89,7 +89,7 @@ To create your grant identifiers:
 
 Grant identifiers taken from internal systems are specific to each grant and can be linked to each recipient. If grant identifiers are used as credentials to give access to grant assessment or reporting systems, or the grant recipient is an individual, it may not be appropriate to include these in open data. If there are privacy or security concerns associated with your existing grant identifiers, you will need to create these instead.
 
-```eval_rst
+```{eval-rst}
 .. _organisation-identifier:
 ```
 
@@ -114,7 +114,7 @@ There are two parts to an organisation identifier:
 
 In 360Giving data we ask publishers to use a list code prefix taken from the <a href="https://org-id.guide/" target="_blank"> org-id list locator</a>. This provides an open, maintained list of codes for many different lists around with world, giving a way to identify almost any organisation.
 
-```eval_rst
+```{eval-rst}
 
 .. admonition:: For example
 
@@ -124,7 +124,7 @@ In 360Giving data we ask publishers to use a list code prefix taken from the <a 
 
 ```
 
-````eval_rst
+````{eval-rst}
 .. hint::
 
   UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
@@ -142,7 +142,7 @@ If you have more than one type of identifier for an organisation recorded in you
 
 <a href="https://org-id.guide/" target="_blank"> org-id.guide</a> ranks identifier lists by relevance and quality to help you pick the best identifier, based on what information you hold.
 
-```eval_rst
+```{eval-rst}
 
 .. hint:: Relevance and quality defined:
 
@@ -173,7 +173,7 @@ When there isn’t an official registration number for a recipient then you must
 
 If no account record reference is available, or there are security or privacy reasons that mean this information should not be published, the internal identifier can be created using the recipient name. The name can be turned into an identifier by removing the spaces between words or replacing spaces with dash or underscore.
 
-```eval_rst
+```{eval-rst}
 
 .. admonition:: Hint:
 
@@ -209,7 +209,7 @@ For example if the National Insurance number of a recipient is known to the fund
 
 The Recipient Ind:Identifier should be constructed using the 360Giving Publisher prefix starting 360G, followed by a unique reference.
 
-```eval_rst
+```{eval-rst}
 .. hint::
    360Giving publisher prefix: 360G-XYZFunder
 

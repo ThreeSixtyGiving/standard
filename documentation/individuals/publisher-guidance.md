@@ -192,7 +192,7 @@ The codes from this codelist can be published in two fields, **To Individuals De
 If there is only one reason, it should be included in the primary reason field, and the secondary reason field and code can be left blank.
 
 The codes, alongside their name and description, are as follows:
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../codelists/grantToIndividualsReason.csv
    :header-rows: 1
@@ -207,7 +207,7 @@ The codes from this codelist can be published in the field **To Individuals Deta
 The **To Individuals Details:Grant Purpose** field is an array. This means that when a publisher has more than one code to share per grant, these can be included in the same field, separated by a **semi-colon**. 
 
 It is ***recommended that a maximum of three categories*** are shared to make it easier for the data to be analysed. The codes, alongside their name and description, are as follows:
-```eval_rst
+```{eval-rst}
 .. csv-table:: 
    :file: ../../codelists/grantToIndividualsPurpose.csv
    :header-rows: 1

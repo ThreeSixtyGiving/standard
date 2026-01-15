@@ -5,7 +5,7 @@ This guide provides templates, guidance and codelists designed to support funder
 
 Read our blog for further <a href="https://www.360giving.org/2022/08/15/grants-to-individuals-project/" target="_blank">background about the project</a>.
 
-```eval_rst
+```{eval-rst}
 .. toctree::
    :maxdepth: 3
    

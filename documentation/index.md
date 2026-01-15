@@ -39,7 +39,7 @@ This section features information about approved Extensions to the 360Giving Dat
 
 ### Contents
 
-```eval_rst
+```{eval-rst}
 .. toctree::
    :maxdepth: 3
 

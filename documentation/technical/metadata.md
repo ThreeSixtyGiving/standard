@@ -130,7 +130,7 @@ This is the canonical URI of the license that applies to the data in the file or
 
 For further details see our guidance about [open licensing.](../../guidance/publish-data-openly)
 
-```eval_rst
+```{eval-rst}
 .. _example-meta-sheet:
 ```
 
