@@ -43,6 +43,9 @@ extensions = ['myst_parser',
               'sphinx.ext.autodoc',
               'sphinx_togglebutton',]
 
+# Autogenerate anchors for Markdown headings (h1…h6)
+myst_heading_anchors = 6
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
