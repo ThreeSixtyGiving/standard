@@ -3,3 +3,4 @@ _site
 *.swp
 schema/multi-table
 schema/summary-table
+documentation/extras/extensions/*
