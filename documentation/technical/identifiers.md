@@ -64,24 +64,20 @@ To create your grant identifiers:
 2. Look for an existing internal identifier given to your grants (for example, a sequential number assigned to each grant at the point of application). The important thing is that the identifier should be unique **inside your organisation**, so adding the prefix will make it unique across the whole world.
 3. Add your 360Giving prefix in front of your identifier.
 
-```{eval-rst}
-.. admonition:: For example
-
-  If your prefix is ``360G-xyztrust`` and you have a grant identified internally as ``123``, you would combine these to give ``360G-xyztrust-123``
+```{admonition} For example
+If your prefix is `360G-xyztrust` and you have a grant identified internally as `123`, you would combine these to give `360G-xyztrust-123`
 ```
 
-  We recommend using a hyphen (-) for the separator to use between your prefix and the internal identifier. Avoid using slashes (\ and /) as these can cause problems with some applications.
+We recommend using a hyphen (-) for the separator to use between your prefix and the internal identifier. Avoid using slashes (\ and /) as these can cause problems with some applications.
 
-  If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_):
+If your internal identifiers include spaces or special characters, we recommend replacing these with underscore (_):
 
-  ``360G-xyztrust-123_ABC``
+`360G-xyztrust-123_ABC`
 
-  ```{eval-rst}
-  .. admonition:: Hint
+```{hint}
+If you do not have a unique grant reference to use you will need to create identifiers. You can use sequential numbers. Also including the year in which the grant was awarded helps to group the grants and makes it possible to restart the sequential numbers at the beginning of each year.
 
-  If you do not have a unique grant reference to use you will need to create identifiers. You can use sequential numbers. Also including the year in which the grant was awarded helps to group the grants and makes it possible to restart the sequential numbers at the beginning of each year.
-
-  You can use any reference you choose as long as it is unique within your organisation. The 360Giving prefix will then be added to make the identifier globally unique.
+You can use any reference you choose as long as it is unique within your organisation. The 360Giving prefix will then be added to make the identifier globally unique.
 
 ```
 
@@ -114,25 +110,15 @@ There are two parts to an organisation identifier:
 
 In 360Giving data we ask publishers to use a list code prefix taken from the <a href="https://org-id.guide/" target="_blank"> org-id list locator</a>. This provides an open, maintained list of codes for many different lists around with world, giving a way to identify almost any organisation.
 
-```{eval-rst}
-
-.. admonition:: For example
-
-  A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1164883' will use a list code prefix of ``GB-CHC``.
-
-  This gives an unique organisation identifier of ``GB-CHC-1164883``
-
+```{admonition} For example
+A charity registered in England and Wales with the Charity Commission of England and Wales, with the charity number '1164883' will use a list code prefix of `GB-CHC`.
 ```
 
-````{eval-rst}
-.. hint::
+```{hint}
+UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
 
-  UK company numbers are a unique combination of eight digits, which in some cases include letters as well as numbers. The majority of company numbers for companies registered in England and Wales start with a **leading zero**.
-
-  Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. `Learn more`__ about how to avoid this pitfall.
-.. __: https://www.360giving.org/company-numbers/
-
-````
+Publishers should be aware of the problems that missing leading zeros in UK company numbers present when creating identifiers. [Learn more](https://www.360giving.org/company-numbers/) about how to avoid this pitfall.
+```
 
 ### Choose the best identifier
 
@@ -142,12 +128,11 @@ If you have more than one type of identifier for an organisation recorded in you
 
 <a href="https://org-id.guide/" target="_blank"> org-id.guide</a> ranks identifier lists by relevance and quality to help you pick the best identifier, based on what information you hold.
 
-```{eval-rst}
+```{admonition} Relevance and quality defined
+:class: hint
 
-.. hint:: Relevance and quality defined:
-
-  * Relevance: are you likely to find the organisation you are looking for in this list?
-  * Quality: are the identifiers in this list stable and linked to open, accessible contextual data, and can they be easily mapped to other identifiers.
+* Relevance: are you likely to find the organisation you are looking for in this list?
+* Quality: are the identifiers in this list stable and linked to open, accessible contextual data, and can they be easily mapped to other identifiers.
 ```
 
 Search on <a href="https://org-id.guide/" target="_blank"> org-id.guide</a> for identifier sources for <a href="https://org-id.guide/?structure=&coverage=GB&subnational=&sector=" target="_blank"> UK organisations</a>, <a href="https://org-id.guide/?structure=charity&coverage=GB&sector=" target="_blank"> UK charities</a>, or <a href="https://org-id.guide/" target="_blank"> any other organisation type</a>.
@@ -173,30 +158,23 @@ When there isn’t an official registration number for a recipient then you must
 
 If no account record reference is available, or there are security or privacy reasons that mean this information should not be published, the internal identifier can be created using the recipient name. The name can be turned into an identifier by removing the spaces between words or replacing spaces with dash or underscore.
 
-```{eval-rst}
+```{hint}
+Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
 
-.. admonition:: Hint:
+360Giving publisher prefix: 360G-XYZFunder
 
-  Example internal organisation identifiers using the publisher prefix and either an account reference from the organisation record or recipient name.
+Recipient Org:Name: ABC Recipient
 
-  360Giving publisher prefix: 360G-XYZFunder
+Account ID: 123456
 
-  Recipient Org:Name: ABC Recipient
+If using the account ID: 360G-XYZFunder-123456
 
-  Account ID: 123456
-
-  If using the account ID: 360G-XYZFunder-123456
-
-  If using the recipient name: 360G-XYZFunder-ABC-Recipient
-
+If using the recipient name: 360G-XYZFunder-ABC-Recipient
 ```
 
 ### Additional 360Giving fields for charity and company number
 
 Because 'Company Number' and 'Charity Number' are so important for analysing grantmaking in the UK, the 360Giving Data Standard includes additional fields these on their own (without the prefixes), to help users of the data.
-
-
-
 
 If you have these details, you should fill them in, **in addition to** providing the unique organisation identifier using the method above.
 
@@ -209,13 +187,12 @@ For example if the National Insurance number of a recipient is known to the fund
 
 The Recipient Ind:Identifier should be constructed using the 360Giving Publisher prefix starting 360G, followed by a unique reference.
 
-```{eval-rst}
-.. hint::
-   360Giving publisher prefix: 360G-XYZFunder
+```{hint}
+360Giving publisher prefix: 360G-XYZFunder
 
-   Individual Identifier: 123456
+Individual Identifier: 123456
    
-   Recipient Ind:Identifier = 360G-XYZFunder-123456
+Recipient Ind:Identifier = 360G-XYZFunder-123456
 ```
 
 ### Considering privacy and security
@@ -225,6 +202,3 @@ Individual identifiers taken from internal systems are specific to each recipien
 However, if the system identifiers are shared with third parties alongside recipient names or other personal details as part of the grantmaking process - for example with referral agencies, or as part of monitoring and reporting - then these could be used to identify people in your 360Giving data.
 
 If there are any privacy or security concerns associated with your system identifiers, you should create these instead using random or sequential numbers.
-
-
-
