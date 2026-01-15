@@ -6,7 +6,6 @@ It assumes some technical knowledge.
 
 If you are just getting started with the 360Giving Data Standard, visit the [guidance for publishers section.](../guidance/index.md)
 
-
 ## Data formats
 
 There are two main formats available for representing 360Giving data.
