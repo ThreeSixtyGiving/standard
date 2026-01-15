@@ -1,3 +1,6 @@
+---
+orphan: true # This suppresses warnings that this file is not included in any toc tree
+---
 # 360Giving CSV Templates
 
 The CSV files listed below can be used as templates to create data to fit the 360Giving Data Standard:
