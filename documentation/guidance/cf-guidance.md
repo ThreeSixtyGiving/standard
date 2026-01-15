@@ -161,7 +161,7 @@ The following system-generated fixed or calculated values will not appear in the
     </table>
 </div>
 
-```eval_rst
+```{eval-rst}
 .. _undisclosed-programme:
 ```
  

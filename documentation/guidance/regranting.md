@@ -7,7 +7,7 @@ The codelist includes seven codes that should be used to identify that a grant i
 
 ### Regrant Type codelist
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../codelists/regrantType.csv
    :header-rows: 1

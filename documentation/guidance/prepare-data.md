@@ -48,7 +48,7 @@ However if you don’t currently collect information about your grants, you will
 
 Depending on what range of information you want to start collecting, you can set up your own spreadsheet, fill out an adapted version of the 360Giving Spreadsheet Template or collect your data in a Conversion Tool Template. For further details see the options for publishing using a spreadsheet section [below.](options-for-publishing-using-a-spreadsheet)
 
-```eval_rst
+```{eval-rst}
 .. _funders-with-a-grants-management-system:
 ```
 
@@ -66,7 +66,7 @@ If you use Salesforce as a grants management system, it is possible to build-in 
 
 It can also be possible to build-in 360Giving publishing into other types of configurable CRM systems — such as Microsoft Dynamics. Contact the 360Giving Helpdesk via <support@threesixtygiving.org> with questions about how your grants management system will impact your 360Giving publishing process.
 
-```eval_rst
+```{eval-rst}
 .. _options-for-publishing-using-a-spreadsheet:
 ```
 
@@ -106,7 +106,7 @@ However it is possible to include more complexly structured data if needed. For 
 
 See our guidance for further information about [One to many relationships.](one-to-many-relationships)
 
-```eval_rst
+```{eval-rst}
 .. _conversion-tool-template:
 ```
 
@@ -132,7 +132,7 @@ Conversion Tool Templates have been set up to work with data exported from a ran
 
 To find out whether using a conversion tool would be an appropriate way for your organisation to prepare your data, please contact the 360Giving Helpdesk via <support@threesixtygiving.org>.
 
-```eval_rst
+```{eval-rst}
 .. _data-preparation-templates:
 ```
 
@@ -141,7 +141,7 @@ Two types of template have been provided for funders, with the 360Giving Data St
 
 Read our guidance to how to [prepare data about grants to individuals](../individuals/publisher-guidance.md#prepare-and-format-your-data).
 
-```eval_rst
+```{eval-rst}
 .. _setting-up-salesforce-for-360giving-data-publishing:
 ```
 
@@ -173,7 +173,7 @@ See our [guidance on metadata](meta-sheet) for further details.
 
 For publishers sharing their data in JSON file format, the metadata is included in the Package Schema. See our guidance on [the Package schema](360giving-json-schemas) for further details.
 
-```eval_rst
+```{eval-rst}
 .. _converting-postcodes-into-geocodes-to-anonymise-address-information:
 ```
 

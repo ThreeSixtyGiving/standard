@@ -116,7 +116,7 @@ An organisation is free to decide to stop publishing data and/or can remove the 
 ### Making amendments to published data
 Take down requests are rare. It is however common for publishers to make changes to published data to correct errors or make updates when changes are made to a grant. In addition to changes you make to your own data, you may receive requests from grantees to amend information about their organisations that might be incorrect or misleading. See our [guidance on making updates](../../guidance/making-updates/) to your data and the mechanism for grantees to request amendments.
 
-```eval_rst
+```{eval-rst}
 .. _alternative-hosting-options:
 ```
 

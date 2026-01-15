@@ -7,7 +7,7 @@ We want to help you achieve your goal of publishing open and comparable grants d
 
 This isn’t a reporting process, it’s an opportunity to let people know about your grantmaking using data.
 
-```eval_rst
+```{eval-rst}
 .. toctree::
    :maxdepth: 3
    

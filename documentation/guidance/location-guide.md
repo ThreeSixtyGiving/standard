@@ -223,7 +223,7 @@ This type of scope data can be applied to all grants that meet the criteria, pro
 
 However the potential for variation within council areas means data provided at this level or higher cannot be meaningfully compared with statistical data such as Indices of Multiple deprivation, which are linked to small area geographies.
 
-```eval_rst
+```{eval-rst}
 .. _multiple-locations:
 ```
 
@@ -316,7 +316,7 @@ Using this method, there should be a row for each location, repeating the grant 
 </div>
 
 
-```eval_rst
+```{eval-rst}
 .. _location-scope-guide:
 ```
 
@@ -330,7 +330,7 @@ The location scopes were designed to align with international geographical divis
 
 ### Location scope codelist
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../codelists/locationScope.csv
    :header-rows: 1
