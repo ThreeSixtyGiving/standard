@@ -24,14 +24,11 @@ charset-normalizer==3.4.2
     # via requests
 click==8.2.1
     # via sphinx-intl
-commonmark==0.9.1
-    # via recommonmark
 defusedxml==0.7.1
     # via odfpy
 docutils==0.21.2
     # via
     #   myst-parser
-    #   recommonmark
     #   sphinx
     #   sphinx-rtd-theme
     #   sphinx-togglebutton
@@ -99,8 +96,6 @@ pytz==2025.2
     # via flattentool
 pyyaml==6.0.2
     # via myst-parser
-recommonmark==0.7.1
-    # via -r requirements.in
 referencing==0.36.2
     # via sphinxcontrib-opendataservices-jsonschema
 requests==2.32.4
@@ -119,7 +114,6 @@ sphinx==8.2.3
     # via
     #   -r requirements.in
     #   myst-parser
-    #   recommonmark
     #   sphinx-intl
     #   sphinx-rtd-theme
     #   sphinx-togglebutton
