@@ -135,13 +135,7 @@
               {% block sidebar %}
               <nav class="sidebar-blog">
                 {% block menu %}
-                {% if 'singlehtml' not in builder %}
-                  {% set global_toc = get_toctree(maxdepth=theme_navigation_depth|int,
-                                              collapse=theme_collapse_navigation|tobool,
-                                              includehidden=theme_includehidden|tobool,
-                                              titles_only=theme_titles_only|tobool) %}
-                {% endif %}
-                {% include '_parts/sidebar-list.html' %}
+               {% include '_parts/sidebar-list.html' %}
                 {% endblock %}
                 {% include "searchbox.html" %}
                 

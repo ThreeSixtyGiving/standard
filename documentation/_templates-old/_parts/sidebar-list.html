@@ -37,10 +37,3 @@
     {{ el.tagname }}
   {% endif %}
 {% endmacro %}
-
-{% set global_toc = get_toctree(maxdepth=3,
-                            collapse=false,
-                            includehidden=false,
-                            titles_only=false) %}
-
-{{ tocentry(global_toc) }}
