@@ -27,7 +27,6 @@ The data collected through the application of the DEI Data Standard can be compl
 The DEI Extension has been designed to be as straightforward as possible however it is more complicated than the commonly used parts of the 360Giving Data Standard.
 
 ```{contents}
-.. contents::
    :local:
    :depth: 3
    :backlinks: none
