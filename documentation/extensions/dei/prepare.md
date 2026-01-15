@@ -12,9 +12,9 @@ In order to publish DEI Data Standard data using the 360Giving Data Standard DEI
 The following sections cover these steps in more detail, providing guidance for publishing data in [spreadsheet](#dei-extension-field-guidance) and [JSON file formats](#json-format-guidance-for-developers).
 
 <div class="box box--teal">
-    <h2 class="box__heading">Not sure what file format to use?</h2>
+    <h2 class="box__heading">Not sure which file format to use?</h2>
     <p>
-      Read our <a href = "../../guidance/prepare-data.md#choosing-your-file-format">guidance on choosing a file format</a>
+      Read our <a href = "https://www.360giving.org/publish/guidance/prepare/prepare-your-data/#-choose-your-file-format">guidance on choosing a file format</a>
        </p>
 </div>
 
@@ -26,7 +26,7 @@ The data collected through the application of the DEI Data Standard can be compl
 
 The DEI Extension has been designed to be as straightforward as possible however it is more complicated than the commonly used parts of the 360Giving Data Standard.
 
-```{eval-rst}
+```{contents}
 .. contents::
    :local:
    :depth: 3
@@ -126,12 +126,6 @@ The reason for using codes instead of names is because it avoids issues caused b
 ### Codelists used in the DEI Extension
 
 There are four codelists available for use in the DEI Extension.
-
-<!--```{eval-rst}
-.. contents::
-   :local:
-   :depth: 3
-```-->
 
 #### Asked Status
 
