@@ -39,12 +39,10 @@ This section features information about approved Extensions to the 360Giving Dat
 
 ### Contents
 
-```{eval-rst}
-.. toctree::
-   :maxdepth: 3
+```{toctree}
+:maxdepth: 3
 
-   technical/index
-   about/index
-   extensions/index
-
+technical/index
+about/index
+extensions/index
 ```

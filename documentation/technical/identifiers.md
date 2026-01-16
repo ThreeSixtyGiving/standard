@@ -1,13 +1,9 @@
 # Identifiers
 
-```{eval-rst}
+```{admonition} Why identifiers matter
+Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, individuals, transactions and so-on.
 
-.. admonition:: Why identifiers matter
-
-  Identifiers are an important part of any dataset. They let a computer uniquely identify and refer to specific grants, organisations, individuals, transactions and so-on.
-
-  Whilst a human being may be good at recognising that “R S P B”, “Royal Society for the Protection of Birds” and “The RSPB” all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
-
+Whilst a human being may be good at recognising that "R S P B", "Royal Society for the Protection of Birds" and "The RSPB" all refer to the same organisation, computers cannot make this connection unless a unique identifier is provided.
 ```
 
 The 360Giving Data Standard asks you to give identifiers to any of the following elements that you include in your data:
@@ -22,39 +18,26 @@ The 360Giving Data Standard asks you to give identifiers to any of the following
 These go in an `Identifier` column alongside accessible text descriptions of the grant, the name of an organisation, or the title of a classification.
 
 
-```{eval-rst}
-.. _creating-identifiers:
-```
-
 ## Identifier basics
 
 You may already have identifiers in your own data. For example, a number for each application or grant. You can use these existing **internal identifiers** as part of your published data.
 
 However, to avoid overlap between the internal identifiers you use and the internal identifiers another funder uses, you need to add a **prefix**.
 
-```{eval-rst}
-.. admonition:: For example
-
-  If Indigo Trust have a grant called 'Grant27', and the Dulverton Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-dulverton-Grant27'
+```{admonition} For example
+If Indigo Trust have a grant called 'Grant27', and the Dulverton Trust also have a grant called 'Grant27' the two will get confused when combining the two datasets. But if, when publishing, each one adds a prefix, then we end up with two unique identifiers: '360G-indigotrust-Grant27' and '360G-dulverton-Grant27'
 ```
 
 For grants, and other identifiers particular to your organisation, you use can use a **360Giving prefix**.
 
-For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](organisation-identifier) guidance below.
+For organisation identifiers, we strongly encourage you to use an officially recognised identifier for the organisation, following the [organisation identifier](#organisation-identifier) guidance below.
 
-
-```{eval-rst}
-.. _register-prefix:
-```
 
 ## Get your prefix
 
 To register a prefix for your organisation see the [publisher guidance.](../../guidance/prepare-data)
 
 All registered prefixes should start with 360G.
-```{eval-rst}
-.. _grant-identifier:
-```
 
 ## Grant Identifier
 
@@ -84,10 +67,6 @@ You can use any reference you choose as long as it is unique within your organis
 ### Considering privacy and security
 
 Grant identifiers taken from internal systems are specific to each grant and can be linked to each recipient. If grant identifiers are used as credentials to give access to grant assessment or reporting systems, or the grant recipient is an individual, it may not be appropriate to include these in open data. If there are privacy or security concerns associated with your existing grant identifiers, you will need to create these instead.
-
-```{eval-rst}
-.. _organisation-identifier:
-```
 
 ## Organisation Identifier
 

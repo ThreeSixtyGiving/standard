@@ -104,7 +104,7 @@ This is a unique identifier for the file. This can be a combination of your 360G
 
 **Publisher:Identifier and Publisher:Name**
 
-The Publisher identifier is a globally unique identifier for this organisation. The [Organisation Identifier Standard guidance](organisation-identifier) explains how to create this Org ID. 
+The Publisher identifier is a globally unique identifier for this organisation. The [Organisation Identifier Standard guidance](./identifiers.md#organisation-identifier) explains how to create this Org ID. 
 
 If the publisher is also the funding organisation described in the 360Giving grant data, the Org ID used will be the same.
 

@@ -11,11 +11,8 @@ Extensions also address the issue of trying to support different use cases of 36
 This section is the home for documentation about approved extensions to the 360Giving Data Standard.
 To date there is only one approved extension which is used for the publication of [DEI Data Standard](https://www.funderscollaborativehub.org.uk/dei-data-standard) data alongside 360Giving data.
 
-```{eval-rst}
+```{toctree}
+:maxdepth: 3
 
-.. toctree::
-   :maxdepth: 3
-
-   dei/index
-
+dei/index
 ```
