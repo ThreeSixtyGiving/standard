@@ -8,13 +8,11 @@ The DEI Extension has been developed and is maintained by [360Giving](https://36
 
 The following guidance provides further information about the DEI Extension, DEI Data Standard and how to prepare and publish DEI data alongside 360Giving data.
 
-```{eval-rst}
-.. toctree::
-   :maxdepth: 3
+```{toctree}
+:maxdepth: 3
 
-   guidance
-   prepare
-   reference
-   governance
-
+guidance
+prepare
+reference
+governance
 ```

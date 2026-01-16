@@ -52,8 +52,7 @@ We also provide a version of the <a href="../../_static/360-giving-schema-titles
 
 You can read further guidance about how to include metadata in your data files in the [Metadata guidance](../../technical/metadata).
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-package-schema.json
+```{jsonschema-titles} ../../schema/360-giving-package-schema.json
 ```
 ### Grants Sheet
 
@@ -115,8 +114,7 @@ For further information read our [Guide to codelists](codelists).
 
 #### Grants Sheet Table
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
+```{jsonschema-titles} ../../schema/360-giving-schema.json
 ```
 
 ### Additional fields
@@ -145,79 +143,68 @@ Using only lowercase and uppercase alphabetical characters (`a-z` and `A-Z`), nu
 
 #### Actual Dates
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: actualDates
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: actualDates
 ```
 
 #### Planned Dates
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: plannedDates
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: plannedDates
 ```
 
 #### Funding Org
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: fundingOrganization
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: fundingOrganization
 ```
 
 #### Recipient Org
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: recipientOrganization
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: recipientOrganization
 ```
 
 #### Beneficiary Location
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: beneficiaryLocation
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: beneficiaryLocation
 ```
 
 #### Funding Org:Location
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: fundingOrganization/0/location
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: fundingOrganization/0/location
 ```
 
 #### Recipient Org:Location
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: recipientOrganization/0/location
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: recipientOrganization/0/location
 ```
 
 #### Related Document
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: relatedDocument
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: relatedDocument
 ```
 
 #### Classifications
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: classifications
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: classifications
 ```
 
 #### Funding Type
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: fundingType
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: fundingType
 ```
 
 #### Grant Programme
 
-```{eval-rst}
-.. jsonschema-titles:: ../../schema/360-giving-schema.json
-    :child: grantProgramme
+```{jsonschema-titles} ../../schema/360-giving-schema.json
+:child: grantProgramme
 ```
 
 #### Transactions
@@ -373,14 +360,12 @@ A mapping between column titles and field names for each schema is given below:
 
 #### 360Giving Package Schema (incorporating Metadata)
 
-```{eval-rst}
-.. jsonschema-title-fieldname-map:: ../../schema/360-giving-package-schema.json
+```{jsonschema-title-fieldname-map} ../../schema/360-giving-package-schema.json
 ```
 
 #### 360Giving Data Standard Schema
 
-```{eval-rst}
-.. jsonschema-title-fieldname-map:: ../../schema/360-giving-schema.json
+```{jsonschema-title-fieldname-map} ../../schema/360-giving-schema.json
 ```
 ### JSON
 

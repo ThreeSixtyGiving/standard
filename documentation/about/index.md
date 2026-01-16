@@ -5,11 +5,9 @@ The 360Giving Data Standard is an open standard. You can get involved in shaping
 
 This section provides further information about how proposed updates to the 360Giving Data Standard are assessed and prioritised for implementation.
 
-```{eval-rst}
-.. toctree::
-   :maxdepth: 2
+```{toctree}
+:maxdepth: 2
 
-   governance
-   sc-tor
-   
+governance
+sc-tor
 ```
