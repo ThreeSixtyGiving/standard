@@ -114,10 +114,8 @@ If the recipient is an individual:
 * Recipient Ind:Identifier
 * Recipient Ind:Name
 
-``` {eval-rst}
-.. hint::  
-  
-  The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
+```{hint}
+The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
 ```
 
 Each grant record can have EITHER an organisation OR an individual recipient, not both.
@@ -156,12 +154,10 @@ If, when creating your data, you only need a few additional fields from the addi
 
 If you have additional data to report that does not fit any of the columns provided in the spreadsheet, it is okay to create your own column titles in order to report it.
 
-```{eval-rst}
-.. hint:: **Naming your own columns.**
+```{hint}
+If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
 
-  If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
-
-  Using only lowercase and uppercase alphabetical characters (``a-z`` and ``A-Z``), numerical digits (``0-9``), colons (``:``), parentheses (``(`` and ``)``) and single spaces will help to avoid problems. Full-stops (``.``) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations. `Contact 360Giving support <mailto:support@threesixtygiving.org>`_ with further queries about naming your own columns.
+Using only lowercase and uppercase alphabetical characters (`a-z` and `A-Z`), numerical digits (`0-9`), colons (`:`), parentheses (`(` and `)`) and single spaces will help to avoid problems. Full-stops (`.`) are known to cause issues and should be avoided. Other characters could be used, but haven't been fully tested in all possible situations. [Contact 360Giving support](mailto:support@threesixtygiving.org) with further queries about naming your own columns.
 ```
 
 #### Actual Dates
@@ -279,7 +275,6 @@ You can describe multiple occurrences within the Grants sheet by having multiple
 e.g. to have two related documents with their own title and web address:
 
 ```{eval-rst}
-
 +------------------------+------------------------------+------------------------+----------------------------------+
 |Related Document:0:Title|Related Document:0:Web Address|Related Document:1:Title|Related:Document:1:Web Address    |
 +------------------------+------------------------------+------------------------+----------------------------------+
@@ -338,13 +333,8 @@ In some cases, award date data exported from grant systems includes the time of 
 **Note** - The time component is never significant in Award Dates or Transaction Dates. Applications should ignore the time component when processing grants data.
 
 
-```{eval-rst}
-
-.. hint::
-  You can set Excel to present a date column in YYYY-MM-DD format using a custom format `as described here`_.
-
-.. _as described here: https://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899
-
+```{hint}
+You can set Excel to present a date column in YYYY-MM-DD format using a custom format [as described here](https://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899)
 ```
 
 ##### Uncertain dates (Planned Dates and Actual Dates)
@@ -362,10 +352,8 @@ All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can 
 
 If used, this must always be in full date-time format so that if multiple updates take place on a single day, consuming applications can work out which version to use.
 
-```{eval-rst}
-
-.. hint::
-  You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to ```=Now()``` then this value will be refreshed automatically every time you save the file.
+```{hint}
+You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to `=Now()` then this value will be refreshed automatically every time you save the file.
 ```
 
 ### Conformance
