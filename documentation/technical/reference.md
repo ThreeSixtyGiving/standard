@@ -250,6 +250,7 @@ e.g. to have two related documents with their own title and web address:
 
 ```{csv-table}
 :file: ../examples/technical/reference/numbering.csv
+:widths: auto
 ```
 
 #### Multiple Rows
@@ -258,10 +259,12 @@ There may be cases where you need to release additional information about a gran
 
 ```{csv-table} Original Row
 :file: ../examples/technical/reference/multiple-rows-original-row.csv
+:widths: auto
 ```
 
 ```{csv-table} The New Row
 :file: ../examples/technical/reference/multiple-rows-new-row.csv
+:widths: auto
 ```
 
 In the second row, the fields which were originally populated with information are left blank so as to avoid conflicts, and the additional information is added to the "Amount Disbursed" column. This means the multiple rows method can only be used to add new data, and it is not suitable for amending data that has already been published.
