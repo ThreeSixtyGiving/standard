@@ -119,9 +119,7 @@ The issues and proposals raised through all channels will be prioritised by cons
 
 ### Versions
 
-```{eval-rst}
-The Standard uses Semantic Versioning [1]_ to distinguish between:
-```
+The Standard uses Semantic Versioning [^semantic-versioning] to distinguish between:
 
 * MAJOR versions which make backwards-incompatible changes,
 * MINOR versions which add functionality in a backwards-compatible manner, and
@@ -196,7 +194,6 @@ Publishers and users will be provided with notice of MAJOR upgrades and provided
 
 ----------
 
-```{eval-rst}
 **Footnotes**
 
-.. [1] Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the Semantic Versioning website: https://semver.org/
+[^semantic-versioning]: Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the Semantic Versioning website: https://semver.org/
