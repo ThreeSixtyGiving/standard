@@ -39,10 +39,6 @@ These are intended to be representative, but not comprehensive.
 
 When a codelist is open it means that publishers may use a new code outside those in the codelist, if there is no appropriate code for them to use.
 
-```{eval-rst}
-.. _codelists-used:
-```
-
 ## The codelists used in the Standard
 
 There are seven codelists used in 360Giving Data Standard.
@@ -105,15 +101,10 @@ The codes from this codelist can be published in three fields:
 
 The Geocode Type fields are part of objects which are an array. This means that multiple iterations of the field can be included when a publisher has more than one location to share per grant.
 
-```{eval-rst}
-.. csv-table:: 
-   :file: ../../codelists/geoCodeType.csv
-   :header-rows: 1
-   :widths: auto
-```
-
-```{eval-rst}
-.. _regrant-type:
+```{csv-table}
+:file: ../../codelists/geoCodeType.csv
+:header-rows: 1
+:widths: auto
 ```
 
 ### Regrant Type
@@ -124,15 +115,10 @@ The codes from this codelist can be published in the field **For Regrant Type**.
 
 For further explanation of how to use the Regrant Type codelist, including examples, read the [360Giving guide to regranting](../guidance/regranting).
 
-```{eval-rst}
-.. csv-table::
-   :file: ../../codelists/regrantType.csv
-   :header-rows: 1
-   :widths: auto
-```
-
-```{eval-rst}
-.. _location-scope:
+```{csv-table}
+:file: ../../codelists/regrantType.csv
+:header-rows: 1
+:widths: auto
 ```
 
 ### Location Scope
@@ -143,18 +129,11 @@ The codes from this codelist can be published in the field **Location Scope**. T
 
 For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide.md).
 
-```{eval-rst}
-.. csv-table::
-   :file: ../../codelists/locationScope.csv
-   :header-rows: 1
-   :widths: auto
+```{csv-table}
+:file: ../../codelists/locationScope.csv
+:header-rows: 1
+:widths: auto
 ```
-
-```{eval-rst}
-.. _grant-purpose:
-```
-
-(grant-to-individuals-purpose)=
 ### Grant to Individuals Purpose
 
 A codelist with values to specify the purpose of the grant, in terms of what the funding will be used for. This codelist is intended for use in grants to individual recipients only.
@@ -165,35 +144,23 @@ The **To Individuals Details:Grant Purpose** field is an array. This means that 
 
 **Please note:** This is the only codelist field that is an array. All other fields in the 360Giving Data Standard which use codelists only allow a single code per field.
 
-```{eval-rst}
-.. csv-table:: 
-   :file: ../../codelists/grantToIndividualsPurpose.csv
-   :header-rows: 1
-   :widths: auto
+```{csv-table}
+:file: ../../codelists/grantToIndividualsPurpose.csv
+:header-rows: 1
+:widths: auto
 ```
 
-```{eval-rst}
-.. _grant-reason:
-```
-
-(grant-to-individuals-reason)=
 ### Grant to Individuals Reason
 
 A codelist with values to specify the reason that the grant was awarded to the recipient. This codelist is intended for use in grants to individual recipients only.
 
 The codes from this codelist can be published in either of two fields, **To Individuals Details:Primary Grant Reason** and **To Individuals Details:Secondary Grant Reason**. Each field can only be included once with a single code per grant.
 
-```{eval-rst}
-.. csv-table::
-   :file: ../../codelists/grantToIndividualsReason.csv
-   :header-rows: 1
-   :widths: auto
+```{csv-table}
+:file: ../../codelists/grantToIndividualsReason.csv
+:header-rows: 1
+:widths: auto
 ```
-
-```{eval-rst}
-.. _codes-how-to:
-```
-
 ## How to use codelists in 360Giving data
 
 Only codes from the codelists may be used. Any other code included in the data will result in invalid data. Please be aware that the codes are also case sensitive. Reproduce uppercase and lowercase letters in the codes correctly or the code will not be recognised and your data will be invalid.
@@ -212,68 +179,18 @@ However, be aware that only the codes themselves are validated by 360Giving tool
 
 #### Examples
 
-Regrant Type
+Here's an example of how the Regrant Type codelist might be used in a spreadsheet.
 
-<div class="table table--zebra">
-  <table>
-    <thead>
-      <th>Identifier</th>
-      <th>Description</th>
-      <th>Amount Awarded</th>
-      <th>For Regrant Type</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>360G-ExampleFdn-001</td>
-	<td>Contribution to pooled fund for charities supporting local residents</td>
-	<td>50000</td>
-	<td>FRG040</td>
-      </tr>
-      <tr>
-        <td>360G-ExampleFdn-002</td>
-	<td>Contribution to salary of benefits adviser</td>
-	<td>10000</td>
-	<td></td>
-      </tr>
-      <tr>
-        <td>360G-ExampleFdn-003</td>
-	<td>To be awarded as grants to small arts organisations</td>
-	<td>25000</td>
-	<td>FRG010</td>
-      </tr>
-      <tr>
-        <td>360G-ExampleFdn-004</td>
-	<td>To fund outdoor play equipment for nursery</td>
-	<td>5000</td>
-	<td></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+```{csv-table} Regrant Type Codelists Example
+:file: ../examples/codelists/regrant-type.csv
+:header-rows: 1
+:widths: auto
+```
 
-Grant To Individuals Codelists
+Here's an example of how the Grants to Individuals codelist might be used in a spreadsheet.
 
-<div class="table table--zebra">
-  <table>
-    <thead>
-      <th>Identifier</th>
-      <th>To Individuals Details:Primary Grant Reason</th>
-      <th>To Individuals Details:Secondary Grant Reason</th>
-      <th>To Individuals Details:Grant Purpose</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>360G-ExampleFdn-001</td>
-	<td>GTIR010</td>
-	<td>GTIR030</td>
-	<td>GTIP070;GTIP080</td>
-      </tr>
-      <tr>
-        <td>360G-ExampleFdn-002</td>
-	<td>GTIR010</td>
-	<td>GTIR100</td>
-	<td>GTIP020;GTIP030;GTIP040</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+```{csv-table} Grant To Individuals Codelists Example
+:file: ../examples/codelists/grant-to-individuals.csv
+:header-rows: 1
+:widths: auto
+```
