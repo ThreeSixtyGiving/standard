@@ -1,0 +1,247 @@
+# This is a canonical list of RTD redirects for the 360Giving Data Standard ReadTheDocs site hosted at standard.threesixtygiving.org
+# It is designed to be used with this tool: https://pypi.org/project/readthedocs-cli/
+# 
+# You'll need a ReadTheDocs API token. You can get one for your account here: https://app.readthedocs.org/accounts/tokens/
+# 
+# The API tokens are for **your user** not the project; keep it secret e.g. in a secrets manager or a password manager.
+#
+# There are a few nuances to using this file and the tool. 
+#
+# 1. 360Giving uses a RTD community plan which limits the project to a total of 100 redirects.
+#
+# Where possible, try redirecting entire pages rather than specific headings to keep us under this limit (although it's not always possible).
+#
+# 2. You should read the RTD docs on redirects to understand the difference between "page" and "exact": https://docs.readthedocs.com/platform/stable/user-defined-redirects.html
+#
+# We mostly use "exact" redirects just as a precaution, because we have a few headers which we want redirected to different locations
+#
+# 3. The `readthedocs-cli` tool "syncs" the redirects by creating and deleting redirects on RTD
+#
+# This means that any redirects not defined in this file **will be deleted**
+#
+# Also, it tries to create new ones **before** deleting old ones. This means if you're approaching the limit, you might want to remove a few redirects before you add new ones into this file.
+#
+# 4. You might get some scary looking errors from RTD which result in a crash. Don't panic.
+#
+# HTTP 401 error -- you're not authorised. You've probably forgotten to export the RTD_TOKEN environment variable, which needs to contain your API token
+#
+# HTTP 400 error -- this means "bad request" and in this context it means that you've hit the redirect limit and RTD is blocking you from creating any more. It should be a 403 rather than a 400 error but RTD have misconfigured their API :-(
+#
+# HTTP 429 error -- this is common and you just need to re-run the tool. This means "too many requests" and you're getting it because you're trying to create a large number of redirects, which the CLI tool has to do one-by-one. RTD are simply rate-limiting you. Wait 30s, then run it again. This works because the redirects you've already created will not need to be created again, so the CLI tool will pick up from where it left off.
+#
+# 5. You'll need to set the HTTP redirect type or force-redirect variables manually: https://app.readthedocs.org/dashboard/threesixtygiving-standard/redirects/
+#
+# This sucks, and it's either a limitation of the RTD API or the readthedocs-cli tool. Either way, you'll need to open up the web interface to wrangle changing these things.
+#
+# There are two options for the HTTP redirect type: 301 (moved permanently) and 302 (moved temporarily). **By default, RTD creates redirects which will use the HTTP 302 response code**. The difference between the two is that HTTP 301 tells clients that they should not expect the content to come back to this URL anymore. 302 implies that you're going to bring the old URL (from_url) back online at some point.
+#
+# Unless you're deleting the pages from the docs, you'll also want to manually set "Force redirect" to true by checking the box in the interface. By default, RTD only issues the redirect command when it determines a page isn't there; as an alternative to showing the 404 page. If you set "force redirect" to true, then RTD will issue the command regardless of whether the page still exists or not.
+#
+---
+
+# These redirects were already in place before the 2025-12 guidance migration. They can likely be removed at a later date.
+
+- type: exact
+  from_url: "/en/latest/reference"
+  to_url: "/en/latest/technical/reference/"
+
+- type: exact
+  from_url: "/en/latest/identifiers"
+  to_url: "/en/latest/technical/identifiers/"
+
+- type: exact
+  from_url: "/en/latest/governance"
+  to_url: "/en/latest/about/governance/"
+
+- type: exact
+  from_url: "/en/latest/sc-tor"
+  to_url: "/en/latest/about/sc-tor/"
+
+- type: exact
+  from_url: "/en/latest/data-protection"
+  to_url: "/en/latest/guidance/data-protection/"
+
+- type: exact
+  from_url: "/en/latest/licensing"
+  to_url: "/en/latest/guidance/publish-data-openly/"
+
+- type: exact
+  from_url: "/en/latest/getdata"
+  to_url: "/en/latest/guidance/using-data/"
+
+# The following redirects were put in place in 2025-12 as part of migrating the non-normative guidance off of the docs site.
+# They're generated from the following sheet: https://docs.google.com/spreadsheets/d/1GRd1iqpPEenIxjww66dXhz8DglukwIx0ZJOH7fpFN8g/edit?gid=0#gid=0
+#
+# Some notes:
+# - the value for the redirect was taken from the F column
+# - due to the 100 redirect limit, a number of redirects were "collapsed" into the page-level redirect. For example ID018--ID024 were not implemented, instead just ID017 was.
+# - the formatting looks a little different here than above, simply because @mrshll1001 used some UNIX tooling to transform the mapping sheet into the YAML entries for this file, and didn't feel the need to tidy it up by wrapping strings and adding extra spaces between them. They're still perfectly valid YAML.
+
+- type: exact
+  from_url: /en/latest/guidance/
+  to_url: https://www.360giving.org/publish/guidance/
+- type: exact
+  from_url: /en/latest/guidance/before-starting/
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/
+- type: exact
+  from_url: /en/latest/guidance/before-starting/#what-to-expect
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/
+- type: exact
+  from_url: /en/latest/guidance/before-starting/#the-three-stages-of-the-publishing-process
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/#How-do-we-publish-our-360Giving-data?
+- type: exact
+  from_url: /en/latest/guidance/before-starting/#giving-support-is-free
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/#-what-does-it-cost
+- type: exact
+  from_url: /en/latest/guidance/before-starting/#giving-helpdesk
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/#-can-i-get-help-if-i-need-it
+- type: exact
+  from_url: /en/latest/guidance/before-starting/#about-grants-management-systems
+  to_url: https://www.360giving.org/publish/guidance/plan/see-whats-involved/#Find-out-where-your-grants-data-is-stored
+- type: exact
+  from_url: /en/latest/guidance/before-starting/#key-concepts
+  to_url: https://www.360giving.org/publish/guidance/plan/key-concepts/
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/
+  to_url: https://www.360giving.org/publish/guidance/plan/
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#how-long-the-process-takes
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/#-how-long-will-it-take
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#decide-what-information-to-share
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#core-fields
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/#Essential-information-to-include
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#recommended-fields
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/#Recommended-information-to-include
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#decide-what-grants-to-include
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#decide-whether-to-share-historical-grant-data
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/#Decide-how-far-back-your-data-will-go
+- type: exact
+  from_url: /en/latest/guidance/plan-the-process/#taking-inspiration-from-others
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/
+- type: exact
+  from_url: /en/latest/guidance/data-protection/
+  to_url: https://www.360giving.org/publish/guidance/prepare/remove-sensitive-info/
+- type: exact
+  from_url: /en/latest/guidance/prepare-data/
+  to_url: https://www.360giving.org/publish/guidance/prepare/prepare-your-data/
+- type: exact
+  from_url: /en/latest/guidance/prepare-data/#register-with-360giving-helpdesk
+  to_url: https://www.360giving.org/publish/guidance/plan/register/
+- type: exact
+  from_url: /en/latest/guidance/prepare-data/#choosing-your-file-format
+  to_url: https://www.360giving.org/publish/guidance/prepare/prepare-your-data/#-choose-your-file-format
+- type: exact
+  from_url: /en/latest/guidance/prepare-data/#metadata-making-your-data-more-usable
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/#Including-metadata
+- type: exact
+  from_url: /en/latest/guidance/prepare-data/#converting-postcodes-into-geocodes-to-anonymise-address-information
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/converting-postcodes/
+- type: exact
+  from_url: /en/latest/guidance/data-quality/
+  to_url: https://www.360giving.org/publish/guidance/prepare/check-data-quality/
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/
+  to_url: https://www.360giving.org/publish/guidance/publish/
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#how-to-make-your-360giving-data-open
+  to_url: https://www.360giving.org/publish/guidance/publish/open-license/
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#how-to-host-your-360giving-data
+  to_url: https://www.360giving.org/publish/guidance/publish/host-your-data/
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#submit-your-file-to-the-data-registry
+  to_url: https://www.360giving.org/publish/guidance/publish/publish-your-data/
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#taking-down-published-data
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/how-to-correct/#Taking-down-published-data
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#alternative-hosting-options
+  to_url: https://www.360giving.org/publish/guidance/publish/host-your-data/#Host-your-360Giving-data-in-cloud-storage
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#good-practice-in-file-management
+  to_url: https://www.360giving.org/publish/guidance/publish/host-your-data/#Adding-links-to-multiple-files
+- type: exact
+  from_url: /en/latest/guidance/publish-data-openly/#maintaining-a-consistent-link-for-your-360giving-data-file
+  to_url: https://www.360giving.org/publish/guidance/publish/host-your-data/#Maintain-a-live-link-to-your-data-file
+- type: exact
+  from_url: /en/latest/guidance/submit-data/
+  to_url: https://www.360giving.org/publish/guidance/publish/publish-your-data/
+- type: exact
+  from_url: /en/latest/guidance/submit-data/#authorised-domains
+  to_url: https://www.360giving.org/publish/guidance/publish/host-your-data/#-registering-your-website-as-an-authorised-domain
+- type: exact
+  from_url: /en/latest/guidance/making-updates/
+  to_url: https://www.360giving.org/publish/guidance/re-publishing/
+- type: exact
+  from_url: /en/latest/guidance/making-updates/#document-your-publishing-process
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/make-a-note/
+- type: exact
+  from_url: /en/latest/guidance/making-updates/#how-often-should-you-update-your-data
+  to_url: https://www.360giving.org/publish/guidance/publish/plan-to-update/
+- type: exact
+  from_url: /en/latest/guidance/making-updates/#how-to-make-updates-to-your-data
+  to_url: https://www.360giving.org/publish/guidance/re-publishing/how-to-re-publish/
+- type: exact
+  from_url: /en/latest/guidance/making-updates/#making-changes-to-your-published-data
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/how-to-correct/
+- type: exact
+  from_url: /en/latest/guidance/making-updates/#taking-down-published-data
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/how-to-correct/
+- type: exact
+  from_url: /en/latest/guidance/using-data/
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/use-your-data/
+- type: exact
+  from_url: /en/latest/guidance/using-data/#giving-online-tools
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/celebrate-your-data/
+- type: exact
+  from_url: /en/latest/guidance/using-data/#support-for-complex-data-needs
+  to_url: https://www.360giving.org/publish/guidance/post-publishing/celebrate-your-data/#Other-ways-to-explore-your-data
+- type: exact
+  from_url: /en/latest/guidance/cf-guidance/
+  to_url: https://www.360giving.org/publish/guidance/prepare/prepare-your-data/salesforce-setup/#Community-foundations-using-the-Digits2-system
+- type: exact
+  from_url: /en/latest/guidance/location-guide/
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/location-data-guide/
+- type: exact
+  from_url: /en/latest/guidance/location-guide/#recipient-organisation-location
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/location-data-guide/#Recipient-organisation-location
+- type: exact
+  from_url: /en/latest/guidance/location-guide/#beneficiary-location
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/location-data-guide/#Beneficiary-location
+- type: exact
+  from_url: /en/latest/guidance/location-guide/#location-scope
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/location-data-guide/#Location-scope
+- type: exact
+  from_url: /en/latest/guidance/location-guide/#funding-organisation-location
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/location-data-guide/#Funding-organisation-location
+- type: exact
+  from_url: /en/latest/guidance/regranting/
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/regranting-data/
+- type: exact
+  from_url: /en/latest/individuals/
+  to_url: https://www.360giving.org/publish/guidance/before-you-start/
+- type: exact
+  from_url: /en/latest/individuals/publisher-guidance/
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/
+- type: exact
+  from_url: /en/latest/individuals/publisher-guidance/#field-guidance
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/individuals-fields/
+- type: exact
+  from_url: /en/latest/individuals/publisher-guidance/#grants-to-individuals-codelists
+  to_url: https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/individuals-fields/#grants-to-individuals-codelists
+- type: exact
+  from_url: /en/latest/individuals/publisher-guidance/#data-protection
+  to_url: https://www.360giving.org/publish/guidance/prepare/remove-sensitive-info/
+- type: exact
+  from_url: /en/latest/individuals/publisher-guidance/#prepare-and-format-your-data
+  to_url: https://www.360giving.org/publish/guidance/prepare/prepare-your-data/#-grants-to-individuals-prepare-your-data
+- type: exact
+  from_url: /en/latest/individuals/data-preparation-templates/
+  to_url: https://www.360giving.org/publish/guidance/prepare/prepare-your-data/individuals-templates/
