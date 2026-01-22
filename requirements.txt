@@ -86,7 +86,9 @@ odfpy==1.4.1
 openpyxl==3.1.5
     # via flattentool
 packaging==25.0
-    # via sphinx
+    # via
+    #   sphinx
+    #   wheel
 persistent==6.1.1
     # via
     #   btrees
@@ -157,7 +159,7 @@ typing-extensions==4.14.1
     # via referencing
 urllib3==2.6.3
     # via requests
-wheel==0.45.1
+wheel==0.46.2
     # via sphinx-togglebutton
 xmltodict==0.14.2
     # via flattentool
