@@ -23,11 +23,11 @@ Files published in this way can only be added to the 360Giving Data Registry by 
 
 ## How to use the 360Giving data file submission process
 To add a file to the 360Giving Data Registry, it must:
-- Contain valid 360Giving data, which means it has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> checks
+- Contain valid 360Giving data, which means it has passed the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Checker</a> checks
 - Be published online via a publicly accessible link
 - Be accompanied by an open license which gives permission for its use
 
-For further information, read our guidance on using the [Data Quality Tool](../../guidance/data-quality/) to check data quality, and [publishing your data openly](../../guidance/publish-data-openly/).
+For further information, read our guidance on using the [Data Quality Checker](../../guidance/data-quality/) to check data quality, and [publishing your data openly](../../guidance/publish-data-openly/).
 
 You should also make sure the data is ready to be published in terms of its contents.
 

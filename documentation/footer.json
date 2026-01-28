@@ -34,8 +34,8 @@
                     "description": ""
                 },
                 {
-                    "url": "https://data.threesixtygiving.org/",
-                    "title": "Data Registry",
+                    "url": "https://qualitydashboard.threesixtygiving.org",
+                    "title": "360Giving Data Quality Dashboard",
                     "description": ""
                 },
                 {
@@ -104,9 +104,9 @@
                     "description": "A uniform and consistent way to describe grants data. Publishing data in this standard format means it\u2019s easier to find, understand and compare funding across the UK."
                 },
                 {
-                    "url": "https://data.threesixtygiving.org/",
-                    "title": "Registry",
-                    "description": "A list of all the organisations that currently publish their grants data in the 360Giving Data Standard, with direct links to their data sources."
+                    "url": "https://qualitydashboard.threesixtygiving.org",
+                    "title": "360Giving Quality Dashboard",
+                    "description": "A dashboard showing the data quality of 360Giving data as a whole and for each individual publisher. It provides insights into the key features that make the data useful for analysis to help publishers to identify opportunities for their data to be improved."
                 }
             ]
         }

@@ -6,7 +6,7 @@
       <li>Decide whether to publish using spreadsheet or JSON file format.</li>
       <li>Choose a data preparation method, informed by your grants data management systems.</li>
       <li>Decide whether to publish Metadata about your 360Giving data.</li>
-      <li>Check that your prepared data passes the 360Giving Data Quality Tool checks.</li>
+      <li>Check that your prepared data passes the 360Giving Data Quality Checker checks.</li>
       </ol></p></div>
 
 ### Overview
@@ -231,7 +231,7 @@ Ward Name = Recipient Org:Location:Name
 9\. Re-save as Excel file (xlsx file format).
 
 ### What's next?
-Read our guidance to find out how to check your data using the 360Giving Data Quality Tool.
+Read our guidance to find out how to check your data using the 360Giving Data Quality Checker.
 
 
 
