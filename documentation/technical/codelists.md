@@ -39,7 +39,7 @@ These are intended to be representative, but not comprehensive.
 
 When a codelist is open it means that publishers may use a new code outside those in the codelist, if there is no appropriate code for them to use.
 
-```eval_rst
+```{eval-rst}
 .. _codelists-used:
 ```
 
@@ -105,14 +105,14 @@ The codes from this codelist can be published in three fields:
 
 The Geocode Type fields are part of objects which are an array. This means that multiple iterations of the field can be included when a publisher has more than one location to share per grant.
 
-```eval_rst
+```{eval-rst}
 .. csv-table:: 
    :file: ../../codelists/geoCodeType.csv
    :header-rows: 1
    :widths: auto
 ```
 
-```eval_rst
+```{eval-rst}
 .. _regrant-type:
 ```
 
@@ -124,14 +124,14 @@ The codes from this codelist can be published in the field **For Regrant Type**.
 
 For further explanation of how to use the Regrant Type codelist, including examples, read the [360Giving guide to regranting](../guidance/regranting).
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../codelists/regrantType.csv
    :header-rows: 1
    :widths: auto
 ```
 
-```eval_rst
+```{eval-rst}
 .. _location-scope:
 ```
 
@@ -143,14 +143,14 @@ The codes from this codelist can be published in the field **Location Scope**. T
 
 For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide.md).
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../codelists/locationScope.csv
    :header-rows: 1
    :widths: auto
 ```
 
-```eval_rst
+```{eval-rst}
 .. _grant-purpose:
 ```
 
@@ -165,14 +165,14 @@ The **To Individuals Details:Grant Purpose** field is an array. This means that 
 
 **Please note:** This is the only codelist field that is an array. All other fields in the 360Giving Data Standard which use codelists only allow a single code per field.
 
-```eval_rst
+```{eval-rst}
 .. csv-table:: 
    :file: ../../codelists/grantToIndividualsPurpose.csv
    :header-rows: 1
    :widths: auto
 ```
 
-```eval_rst
+```{eval-rst}
 .. _grant-reason:
 ```
 
@@ -183,14 +183,14 @@ A codelist with values to specify the reason that the grant was awarded to the r
 
 The codes from this codelist can be published in either of two fields, **To Individuals Details:Primary Grant Reason** and **To Individuals Details:Secondary Grant Reason**. Each field can only be included once with a single code per grant.
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../codelists/grantToIndividualsReason.csv
    :header-rows: 1
    :widths: auto
 ```
 
-```eval_rst
+```{eval-rst}
 .. _codes-how-to:
 ```
 

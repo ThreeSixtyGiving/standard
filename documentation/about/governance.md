@@ -119,7 +119,7 @@ The issues and proposals raised through all channels will be prioritised by cons
 
 ### Versions
 
-```eval_rst
+```{eval-rst}
 The Standard uses Semantic Versioning [1]_ to distinguish between:
 ```
 
@@ -196,7 +196,7 @@ Publishers and users will be provided with notice of MAJOR upgrades and provided
 
 ----------
 
-```eval_rst
+```{eval-rst}
 **Footnotes**
 
 .. [1] Semantic Versioning is used in software management to keep track of developments by applying a version numbering system. Further information can be found at the Semantic Versioning website: https://semver.org/

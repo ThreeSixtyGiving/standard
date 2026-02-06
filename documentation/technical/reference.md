@@ -25,7 +25,7 @@ You can use the <a href="https://dataquality.threesixtygiving.org/" target="_bla
 
 To produce 360Giving data in a spreadsheet, it is possible to start with an empty spreadsheet and construct the column titles (and any additional sheets), using the information given below. However, for many people, the starting point is the spreadsheet template described below.
 
-```eval_rst
+```{eval-rst}
 .. _spreadsheet-template:
 ```
 
@@ -44,7 +44,7 @@ The 360Giving Spreadsheet template consists of a 'grants' sheet which contains t
 
 The [Additional fields](additional-fields) section provides details of all other possible fields that can be reported. (These are derived from the [360Giving JSON Schemas](360giving-json-schemas)).
 
-```eval_rst
+```{eval-rst}
 .. _meta-sheet:
 ```
 
@@ -61,11 +61,11 @@ We also provide a version of the <a href="../../_static/360-giving-schema-titles
 
 You can read further guidance about how to include metadata in your data files in the [Metadata guidance](../../technical/metadata).
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-package-schema.json
 ```
 
-```eval_rst
+```{eval-rst}
 .. _grants-sheet:
 ```
 
@@ -115,7 +115,7 @@ If the recipient is an individual:
 * Recipient Ind:Identifier
 * Recipient Ind:Name
 
-``` eval_rst
+``` {eval-rst}
 .. hint::  
   
   The fields are titled Recipient Ind:Identifier and Recipient Ind:Name however the data shared about individual recipients is expected to be anonymous, with no personal data included that could allow the recipient to be identified.
@@ -131,11 +131,11 @@ For further information read our [Guide to codelists](codelists).
 
 #### Grants Sheet Table
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
 ```
 
-```eval_rst
+```{eval-rst}
 .. _additional-fields:
 ```
 
@@ -157,7 +157,7 @@ If, when creating your data, you only need a few additional fields from the addi
 
 If you have additional data to report that does not fit any of the columns provided in the spreadsheet, it is okay to create your own column titles in order to report it.
 
-```eval_rst
+```{eval-rst}
 .. hint:: **Naming your own columns.**
 
   If you are adding your own column titles it is best to use simple titles and to avoid special characters which could cause problems in data reuse.
@@ -167,7 +167,7 @@ If you have additional data to report that does not fit any of the columns provi
 
 #### Actual Dates
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: actualDates
 ```
@@ -175,70 +175,70 @@ If you have additional data to report that does not fit any of the columns provi
 (planneddates)=
 #### Planned Dates
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: plannedDates
 ```
 
 #### Funding Org
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingOrganization
 ```
 
 #### Recipient Org
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: recipientOrganization
 ```
 
 #### Beneficiary Location
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: beneficiaryLocation
 ```
 
 #### Funding Org:Location
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingOrganization/0/location
 ```
 
 #### Recipient Org:Location
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: recipientOrganization/0/location
 ```
 
 #### Related Document
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: relatedDocument
 ```
 
 #### Classifications
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: classifications
 ```
 
 #### Funding Type
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: fundingType
 ```
 
 #### Grant Programme
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../schema/360-giving-schema.json
     :child: grantProgramme
 ```
@@ -255,7 +255,7 @@ These do not currently have the more user friendly human readable titles, but ca
 
 To create the column titles, refer to the [360Giving JSON Schema](#360giving-json-schemas) and use the JSON pointer paths as column titles. e.g. commitmentTransaction/0/id
 
-```eval_rst
+```{eval-rst}
 .. _one-to-many-relationships:
 ```
 
@@ -269,7 +269,7 @@ Use the other sheets in the <a href="../../_static/summary-table/360-giving-sche
 
 For the Funding Org: Location and Recipient Org: Location there is also an extra column for the Identifier of the relevant Funding or Recipient Org.
 
-```eval_rst
+```{eval-rst}
 .. _numbering:
 ```
 
@@ -279,7 +279,7 @@ You can describe multiple occurrences within the Grants sheet by having multiple
 
 e.g. to have two related documents with their own title and web address:
 
-```eval_rst
+```{eval-rst}
 
 +------------------------+------------------------------+------------------------+----------------------------------+
 |Related Document:0:Title|Related Document:0:Web Address|Related Document:1:Title|Related:Document:1:Web Address    |
@@ -295,7 +295,7 @@ There may be cases where you need to release additional information about a gran
 
 Original row:
 
-```eval_rst
+```{eval-rst}
 +-----------------+----------------------+-----------------+----------------+
 |Identifier       |Title                 |… (other columns)|Amount Disbursed|
 +-----------------+----------------------+-----------------+----------------+
@@ -306,7 +306,7 @@ Original row:
 
 The new row:
 
-```eval_rst
+```{eval-rst}
 +-----------------+----------------------+-----------------+----------------+
 |Identifier       |Title                 |… (other columns)|Amount Disbursed|
 +-----------------+----------------------+-----------------+----------------+
@@ -320,7 +320,7 @@ In the second row, the fields which were originally populated with information a
 
 Field guidance provides further useful information about fields in the 360Giving Data Standard. It provides guidance about the correct data formatting to use and some examples of how to apply the formatting when using spreadsheets.
 
-```eval_rst
+```{eval-rst}
 .. _dates-and-times:
 ```
 
@@ -339,7 +339,7 @@ In some cases, award date data exported from grant systems includes the time of 
 **Note** - The time component is never significant in Award Dates or Transaction Dates. Applications should ignore the time component when processing grants data.
 
 
-```eval_rst
+```{eval-rst}
 
 .. hint::
   You can set Excel to present a date column in YYYY-MM-DD format using a custom format `as described here`_.
@@ -363,7 +363,7 @@ All rows in a 360Giving spreadsheet, and all objects in the JSON structure, can 
 
 If used, this must always be in full date-time format so that if multiple updates take place on a single day, consuming applications can work out which version to use.
 
-```eval_rst
+```{eval-rst}
 
 .. hint::
   You can set Excel to present a date column as a full date-time using the custom format of "yyyy-mm-ddThh:mm:ssZ". If you also set the formula for the entire column to ```=Now()``` then this value will be refreshed automatically every time you save the file.
@@ -398,7 +398,7 @@ The 360Giving Data Standard is defined by a <a href="https://json-schema.org/" t
 At the root of the data model is a 'grant'. Grants have a number of direct properties (e.g. Title, Description, Currency, Amount Awarded etc.) and then a number of related entities, including Organisations (Funder and Recipient) or Individuals (Recipient), Locations (Recipient, Beneficiary, Funder), Classifications, Grant Programmes, and Transactions.
 
 
-```eval_rst
+```{eval-rst}
 .. _360giving-json-schemas:
 ```
 
@@ -435,12 +435,12 @@ The field names are important for computers reading the data, and if other langu
 A mapping between column titles and field names for each schema is given below:
 
 #### 360Giving Package Schema (incorporating Metadata)
-```eval_rst
+```{eval-rst}
 .. jsonschema-title-fieldname-map:: ../../schema/360-giving-package-schema.json
 ```
 
 #### 360Giving Data Standard Schema
-```eval_rst
+```{eval-rst}
 .. jsonschema-title-fieldname-map:: ../../schema/360-giving-schema.json
 ```
 

@@ -22,7 +22,7 @@ In this guidance you will find:
 
 If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../guidance/index.md)
 
-```eval_rst
+```{eval-rst}
 .. toctree::
    :maxdepth: 3
 
