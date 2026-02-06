@@ -105,7 +105,7 @@
                 },
                 {
                     "url": "https://qualitydashboard.threesixtygiving.org",
-                    "title": "360Giving Quality Dashboard",
+                    "title": "360Giving Data Quality Dashboard",
                     "description": "A dashboard showing the data quality of 360Giving data as a whole and for each individual publisher. It provides insights into the key features that make the data useful for analysis to help publishers to identify opportunities for their data to be improved."
                 }
             ]
