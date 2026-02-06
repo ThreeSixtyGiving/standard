@@ -32,7 +32,7 @@ Including metadata in the 360Giving Data Standard means we are better able to se
 
 If you are using an official Extension to the 360Giving Data Standard in your file, such as the DEI Extension, you should declare it in the file’s metadata to let people know which extension(s) you are using. You do this by adding the short code for the relevant extension into the Extensions field.
 
-Once you have declared the extension in the metadata for your file, the Data Quality Tool will be able to detect and validate the data alongside your 360Giving data. It will also allow the data to be used in 360Giving’s tools, GrantNav and 360Insights.
+Once you have declared the extension in the metadata for your file, the Data Quality Checker will be able to detect and validate the data alongside your 360Giving data. It will also allow the data to be used in 360Giving’s tools, GrantNav and 360Insights.
 
 Read the [field guidance](#field-guidance) for details of the Extensions field.
 
@@ -63,7 +63,7 @@ You can find the names by looking at the [Meta sheet Table](meta-sheet) or [Exam
 
 Some fields require different types of values such as URLs or dates. The information about data format is also provided in the [Meta sheet Table.](meta-sheet)
 
-4\. Once you have filled out the details, you can check whether the formatting is correct by uploading the file into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a>. Follow the feedback to make any changes needed to the metadata before publishing the file. If the Meta sheet is not named correctly the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> will not recognise the metadata and give error messages.
+4\. Once you have filled out the details, you can check whether the formatting is correct by uploading the file into the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Checker</a>. Follow the feedback to make any changes needed to the metadata before publishing the file. If the Meta sheet is not named correctly the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Checker</a> will not recognise the metadata and give error messages.
 
 5\. Publish the file how you normally do.
  
@@ -222,7 +222,7 @@ Only the relevant information using the correct data formatting should be includ
 ### How to include additional information in Meta sheet
 In both the 360Giving Data Standard and Meta sheet, it is possible to include additional information alongside the official fields in the schema.
 
-This could be contact information, disclaimer text or anything else you want users to know about your data. However these fields will not be recognised by the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Tool</a> so you will need to ensure that the information provided is formatted correctly.
+This could be contact information, disclaimer text or anything else you want users to know about your data. However these fields will not be recognised by the <a href="https://dataquality.threesixtygiving.org/" target="_blank">Data Quality Checker</a> so you will need to ensure that the information provided is formatted correctly.
 
 Also be aware to avoid special characters in the field names. See guidance on adding [Additional fields](additional-fields) for further details of what to consider when adding your own fields.
 
