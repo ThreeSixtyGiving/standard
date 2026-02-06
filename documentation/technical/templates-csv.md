@@ -2,7 +2,7 @@
 
 The CSV files listed below can be used as templates to create data to fit the 360Giving Data Standard:
 
-```eval_rst
+```{eval-rst}
 .. directory_list::
     :path: ../schema/summary-table/360-giving-schema-titles.csv/
     :url: ../../_static/summary-table/360-giving-schema-titles.csv/

@@ -38,7 +38,7 @@ For a publisher of data using this extension this means that:
 This section contains a reference for the Extension’s schema
 
 
-```eval_rst
+```{eval-rst}
 .. jsonschema-titles:: ../../extras/extensions/dei/360-giving-schema.json
 ```
 
@@ -52,7 +52,7 @@ The extension adds several codelists to promote interoperability between dataset
 A codelist to declare whether DEI Data Standard questions were asked for this grant, and how.
 
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../extras/extensions/dei/codelists/askedStatus.csv
    :header-rows: 1
@@ -63,7 +63,7 @@ A codelist to declare whether DEI Data Standard questions were asked for this gr
 
 A codelist to declare which answer options were available to the respondents.
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../extras/extensions/dei/codelists/availableOptions.csv
    :header-rows: 1
@@ -74,7 +74,7 @@ A codelist to declare which answer options were available to the respondents.
 
 A codelist to declare whether a reply to DEI Data Standard questions was received or not.
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../extras/extensions/dei/codelists/replyStatus.csv
    :header-rows: 1
@@ -90,7 +90,7 @@ The DEI Extension for 360Giving creates and maintains this codelist by taking th
 Please see the [Governance and Versioning](governance) section for more information on how we respond to updates in the DEI Standard.
 
 
-```eval_rst
+```{eval-rst}
 .. csv-table::
    :file: ../../extras/extensions/dei/codelists/taxonomyCodes.csv
    :header-rows: 1
