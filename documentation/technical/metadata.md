@@ -128,7 +128,7 @@ If it is not possible to know this information before the data is published - or
 
 This is the canonical URI of the license that applies to the data in the file or package. This should be a Public Domain Dedication or <a href="https://opendefinition.org/licenses/" target="_blank">Open Definition Conformant license.</a>
 
-For further details see our guidance about [open licensing.](../../guidance/publish-data-openly)
+For further details see our guidance about [open licensing.](https://www.360giving.org/publish/guidance/publish/)
 
 ```eval_rst
 .. _example-meta-sheet:
