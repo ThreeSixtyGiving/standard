@@ -122,7 +122,7 @@ A codelist with values to specify that a grant is intended for redistribution, b
 
 The codes from this codelist can be published in the field **For Regrant Type**. The **For Regrant Type field** can only be included once with a single code per grant.
 
-For further explanation of how to use the Regrant Type codelist, including examples, read the [360Giving guide to regranting](../guidance/regranting).
+For further explanation of how to use the Regrant Type codelist, including examples, read the [360Giving guide to regranting](https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/regranting-data/).
 
 ```eval_rst
 .. csv-table::
@@ -141,7 +141,7 @@ A codelist with values to specify a grant's geographical scope, broken down into
 
 The codes from this codelist can be published in the field **Location Scope**. The **Location Scope field** can only be included once with a single code per grant.
 
-For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](../guidance/location-guide.md).
+For further explanation of the location scope codelist, including examples, read the [360Giving guide to location data](https://www.360giving.org/publish/guidance/prepare/decide-what-to-publish/location-data-guide/).
 
 ```eval_rst
 .. csv-table::

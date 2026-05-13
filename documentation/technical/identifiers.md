@@ -49,7 +49,7 @@ For organisation identifiers, we strongly encourage you to use an officially rec
 
 ## Get your prefix
 
-To register a prefix for your organisation see the [publisher guidance.](../../guidance/prepare-data)
+To register a prefix for your organisation see the [publisher guidance.](https://www.360giving.org/publish/guidance/plan/register/)
 
 All registered prefixes should start with 360G.
 ```eval_rst
