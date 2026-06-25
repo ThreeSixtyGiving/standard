@@ -14,7 +14,7 @@ This document outlines the governance and process for managing changes to the 36
 
 ### About 360Giving
 
-The 360Giving Data Standard is managed and maintained by 360 Giving (Trading as 360Giving), a registered charity (number 1164883) and a registered company (number 09668396).
+The 360Giving Data Standard is managed and maintained by Funders Together (trading as 360Giving), a registered charity (number 1116201) and a registered company (number 5596299 ).
 
 Our vision is for grantmaking in the UK to become more informed, effective and strategic.
 
@@ -22,7 +22,7 @@ Our aim is for more money to go to where it is needed most to support communitie
 
 Our mission is to help UK funders publish their grants data in an open, standardised way, and support people to understand and use this data to improve charitable giving.
 
-The strategy for the Standard is a core part of the 360Giving strategy. The 2022-25 strategy – [Unleashing the Impact of Grants Data](https://www.360giving.org/about/what-and-why/strategy/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
+The strategy for the Standard is a core part of the 360Giving strategy. The 2022-27 strategy – [Unleashing the Impact of Grants Data](https://www.360giving.org/about/what-and-why/strategy/) – aims to shift the norm from funders sharing data to using it, and create a permanent transformation in data culture and practice.
 
 During this strategy period, the Standard will remain focused on the needs of UK grantmakers. While international grants can and are published using the Standard, the data and needs of international funders can be better met through [IATI](https://iatistandard.org/en/) and other standards and products.
 
@@ -30,17 +30,17 @@ For further information about 360Giving visit: [https://360giving.org/about/](ht
 
 ### Governance
 
-360Giving is the steward of the 360Giving Data Standard. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
+Funders Together is the steward of the 360Giving Data Standard. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
 
-The 360Giving Board of Trustees are responsible for setting the strategy of the charity and Standard, and both the Board and CEO are supported in the maintenance and development of the Standard by the 360Giving Data Standard Stewardship Committee.
+The Funders Together Board of Trustees are responsible for setting the strategy of the charity and Standard, and both the Board and CEO are supported in the maintenance and development of the Standard by the 360Giving Data Standard Stewardship Committee.
 
 #### The Stewardship Committee
 
 It is the Stewardship Committee’s role to oversee and account for the appropriate and timely maintenance of the Standard, including what upgrades are required and the process for making them.
 
-The Committee meets two to four times a year to discuss the Standard schema, look at how it is being used and consider any proposed changes or upgrades. This is a voluntary committee with representatives from 360Giving staff and Board, grantmakers, users of 360Giving data and open data and standards experts, with an independent Chair.
+The Committee meets two to four times a year to discuss the Standard schema, look at how it is being used and consider any proposed changes or upgrades. This is a voluntary committee with representatives from Funders Together staff and Board, grantmakers, users of 360Giving data and open data and standards experts, with an independent Chair.
 
-Secretarial support is provided to the Committee by 360Giving. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of 360Giving and ensuring the governance and revision process has been properly carried out.
+Secretarial support is provided to the Committee by Funders Together. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of Funders Together and ensuring the governance and revision process has been properly carried out.
 
 For further details see the [current membership of the Stewardship Committee](https://www.360giving.org/about/data-standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email <standard@threesixtygiving.org>.
 
@@ -115,7 +115,7 @@ Substantial developments, such as adding an Extension focused on specialist area
 
 ### Prioritisation
 
-The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by [360Giving strategy](https://www.360giving.org/about/what-and-why/strategy/) and [values](https://www.360giving.org/about/values/).
+The issues and proposals raised through all channels will be prioritised by considering user needs and demand, and will be guided by the [360Giving strategy](https://www.360giving.org/about/what-and-why/strategy/) and [values](https://www.360giving.org/about/values/).
 
 ### Versions
 
@@ -148,9 +148,9 @@ In [November 2021, a proposal](https://forum.threesixtygiving.org/t/patch-update
 
 ### Approval of upgrades
 
-The Stewardship Committee has oversight of consultation processes to ensure that the needs of a range of stakeholders have been considered and are responsible for recommending upgrades to 360Giving’s CEO and Board for approval.
+The Stewardship Committee has oversight of consultation processes to ensure that the needs of a range of stakeholders have been considered and are responsible for recommending upgrades to Funders Together’s CEO and Board for approval.
 
-Once a change has been identified and developed through user engagement and consultation, a new proposal for a MINOR or MAJOR upgrade will be presented to the Stewardship Committee, at the next available meeting.
+Once a change has been identified and developed through user engagement and consultation, a new proposal for a MINOR or MAJOR upgrade will be presented to the Stewardship Committee at the next available meeting.
 
 The committee will be asked to complete a review of the changes, and make a recommendation that a proposal should be accepted; accepted with minor changes; substantially revised or rejected.
 
@@ -162,7 +162,7 @@ To release a new MAJOR version upgrade or adding an Extension to the Standard, w
 
 ### Final review and release
 
-Once a proposal has been recommended by the Stewardship Committee and approval confirmed by 360Giving’s CEO or Board, the changes will be made to a development branch of the Standard and documentation. A development branch represents a package of changes being implemented at the same time and may include changes to the Standard, templates and guidance. This allows for a full review of the changes before final approval is given to make the upgrade to the Standard.
+Once a proposal has been recommended by the Stewardship Committee and approval confirmed by Funders Together’s CEO or Board, the changes will be made to a development branch of the Standard and documentation. A development branch represents a package of changes being implemented at the same time and may include changes to the Standard, templates and guidance. This allows for a full review of the changes before final approval is given to make the upgrade to the Standard.
 
 For MINOR upgrades, the development branch will then be made available for review for a period of at least two weeks. For MAJOR upgrades the review period will be at least one month. 
 
