@@ -157,7 +157,7 @@ transaction==5.0
     # via zodb
 typing-extensions==4.14.1
     # via referencing
-urllib3==2.6.3
+urllib3==2.7.0
     # via requests
 wheel==0.46.2
     # via sphinx-togglebutton
