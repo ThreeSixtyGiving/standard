@@ -64,7 +64,7 @@ jsonref==1.1.0
     #   flattentool
     #   jscc
     #   sphinxcontrib-opendataservices-jsonschema
-lxml==6.0.0
+lxml==6.1.0
     # via flattentool
 markdown-it-py==3.0.0
     # via
