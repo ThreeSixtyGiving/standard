@@ -30,9 +30,9 @@ For further information about 360Giving visit: [https://360giving.org/about/](ht
 
 ### Governance
 
-Funders Together is the steward of the 360Giving Data Standard. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
+Funders Together is the steward of the 360Giving Data Standard. Our Chief Executive is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
 
-The Funders Together Board of Trustees are responsible for setting the strategy of the charity and Standard, and both the Board and CEO are supported in the maintenance and development of the Standard by the 360Giving Data Standard Stewardship Committee.
+The Funders Together Board of Trustees are responsible for setting the strategy of the charity and Standard, and both the Board and Chief Executive are supported in the maintenance and development of the Standard by the 360Giving Data Standard Stewardship Committee.
 
 #### The Stewardship Committee
 
@@ -40,7 +40,7 @@ It is the Stewardship Committee’s role to oversee and account for the appropri
 
 The Committee meets two to four times a year to discuss the Standard schema, look at how it is being used and consider any proposed changes or upgrades. This is a voluntary committee with representatives from Funders Together staff and Board, grantmakers, users of 360Giving data and open data and standards experts, with an independent Chair.
 
-Secretarial support is provided to the Committee by Funders Together. The Committee is responsible for recommending formal upgrades of the Standard to the CEO and Board of Funders Together and ensuring the governance and revision process has been properly carried out.
+Secretarial support is provided to the Committee by Funders Together. The Committee is responsible for recommending formal upgrades of the Standard to the Chief Executive and Board of Funders Together and ensuring the governance and revision process has been properly carried out.
 
 For further details see the [current membership of the Stewardship Committee](https://www.360giving.org/about/data-standard/) and the [Terms of Reference](../../about/sc-tor). To contact the Stewardship Committee please email <standard@threesixtygiving.org>.
 
@@ -148,7 +148,7 @@ In [November 2021, a proposal](https://forum.threesixtygiving.org/t/patch-update
 
 ### Approval of upgrades
 
-The Stewardship Committee has oversight of consultation processes to ensure that the needs of a range of stakeholders have been considered and are responsible for recommending upgrades to Funders Together’s CEO and Board for approval.
+The Stewardship Committee has oversight of consultation processes to ensure that the needs of a range of stakeholders have been considered and are responsible for recommending upgrades to Funders Together’s Chief Executive and Board for approval.
 
 Once a change has been identified and developed through user engagement and consultation, a new proposal for a MINOR or MAJOR upgrade will be presented to the Stewardship Committee at the next available meeting.
 
@@ -162,7 +162,7 @@ To release a new MAJOR version upgrade or adding an Extension to the Standard, w
 
 ### Final review and release
 
-Once a proposal has been recommended by the Stewardship Committee and approval confirmed by Funders Together’s CEO or Board, the changes will be made to a development branch of the Standard and documentation. A development branch represents a package of changes being implemented at the same time and may include changes to the Standard, templates and guidance. This allows for a full review of the changes before final approval is given to make the upgrade to the Standard.
+Once a proposal has been recommended by the Stewardship Committee and approval confirmed by Funders Together’s Chief Executive or Board, the changes will be made to a development branch of the Standard and documentation. A development branch represents a package of changes being implemented at the same time and may include changes to the Standard, templates and guidance. This allows for a full review of the changes before final approval is given to make the upgrade to the Standard.
 
 For MINOR upgrades, the development branch will then be made available for review for a period of at least two weeks. For MAJOR upgrades the review period will be at least one month. 
 
