@@ -256,6 +256,20 @@ html_static_path = ['_static', '../schema']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxdoc'
 
+
+# -- Custom HTML theme options -------------------------------------------
+
+# Here we set some variables which are used in specific templates
+
+html_context = {
+    'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
+        }
+
+html_css_files = [
+        "https://cdn.threesixtygiving.org/css/main.css", # Main 360 CSS theme
+        "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
+        ]
+
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
