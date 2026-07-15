@@ -45,7 +45,7 @@ Approved by the 360Giving Board of Trustees on 15th July 2021.
 
    5.3 At all times the Committee will work to promote, support and uphold the principles of transparency in its activities by making full and accurate information about its activities and proposals publicly available so that anyone can review them.
 
-   5.4 360Giving and the Committee share a commitment to valuing diversity, equity and inclusion. At all times the Committee will operate in line with the 360Giving Diversity, Equity and Inclusion Policy and action plan, and the 360Giving core values.
+   5.4 Funders Together and the Committee share a commitment to valuing diversity, equity and inclusion. At all times the Committee will operate in line with the 360Giving Diversity, Equity and Inclusion Policy and action plan, and the 360Giving core values.
 
 ***6\. Conflicts of interest***
 
