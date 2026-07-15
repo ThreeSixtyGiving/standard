@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+<title>360Giving Data Standard documentation</title>
+{% endblock %}
+
+{% block body %}
+<p>Test</p>
+{% endblock %}
+
+{% block footer %}
+<div class="footer footer--compact">
+
+  <div class="footer__row wrapper__left footer__small-print">
+    <div class="footer__column-1">
+      <div class="footer__logo">
+        <a href="https://360giving.org/"><img
+          src="https://cdn.threesixtygiving.org/components/preview/assets/images/360-giving-logo-white.svg"
+          alt="360Giving">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__column-2 footer__policy-links">
+      <p>
+        <strong>360 Giving</strong> is a trading name of Funders Together.
+        <br><strong>Funders Together</strong> is a charitable company registered in England and Wales, Company number: 5596299 and Charity number: 1116201.
+        Registered address: 4 Chiswell Street, London EC1Y 4UP.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer__row wrapper__left footer__small-print">
+
+    <div class="footer__column-2">
+      <p>© Copyright {{ now.strftime("%Y") }} 360Giving.<br>Licensed under a <a href="#" target="_blank">Creative Commons Attribution 4.0
+          International License</a>.</p>
+    </div>
+    <div class="footer__column-2 footer__policy-links hide-print">
+      <p>
+        <a href="https://www.360giving.org/legal-policies/privacy/">Privacy Notice</a>
+        <a href="https://www.360giving.org/legal-policies/terms-conditions/">Terms &#038; Conditions</a>
+        <a href="https://www.360giving.org/legal-policies/cookie-policy/">Cookie Policy</a>
+        <a href="https://www.360giving.org/legal-policies/take-down-policy/">Take Down Policy</a>
+        <a href="https://www.360giving.org/legal-policies/code-of-conduct/">Code of Conduct</a>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
