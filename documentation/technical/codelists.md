@@ -194,6 +194,18 @@ The codes from this codelist can be published in either of two fields, **To Indi
 .. _codes-how-to:
 ```
 
+### Funding Type
+A codelist with values to specify the type of funding in the grant in terms of what the funding will be used for. This codelist is intended for use with grants to organisations. For grants to individual recipients, you should use the [Grant to Individuals Purpose](#grant-to-individuals-purpose) and [Grant to Individuals Reason](#grant-to-individual-reason) codelists.
+
+The codes from this codelist can be published in the field **Funding Type:Code.**
+
+```eval_rst
+.. csv-table::
+   :file: ../../codelists/fundingType.csv
+   :header-rows: 1
+   :widths: auto
+```
+
 ## How to use codelists in 360Giving data
 
 Only codes from the codelists may be used. Any other code included in the data will result in invalid data. Please be aware that the codes are also case sensitive. Reproduce uppercase and lowercase letters in the codes correctly or the code will not be recognised and your data will be invalid.
@@ -201,6 +213,7 @@ Only codes from the codelists may be used. Any other code included in the data w
 Only one code is allowed per field, and it is not possible to include comma separated lists of codes in a single field. If the field is an array (see [Reference](reference)) then you may use more than one code from the codelist in a spreadsheet by adding columns utilising the [Numbering](numbering) technique, which is used elsewhere for describing multiple occurrences of e.g. Locations.
 
 Codes may not be applicable to all grants. When a grant has no relevant code, the field must be left blank. Do not use filler values such as N/A — a codelist field must only be populated with valid codes or left blank.
+
 
 ### Adding extra information
 
@@ -277,3 +290,11 @@ Grant To Individuals Codelists
     </tbody>
   </table>
 </div>
+
+## Shared Classifications
+
+Most codelists in the 360Giving Data Standard are tightly linked to one specific field
+
+In other cases, codelists are used inside of Classifications. These work similarly to [Organisation Identifiers](./identifiers.md#organisation-identifier), where it is important to declare the vocabulary that the code is drawn from. This allows for more flexibility in developing and using shared vocabularies, even from external sources.
+
+In the 360Giving Data Standard, the `Funding Type` field must contain Classifications (see [Funding Type](./reference.md#funding-type) on the Reference page). The Funding Type Codelist is designed to be used in Classification objects on the `Funding Type` field. The codelist values go into the `Funding Type:Code` field.
