@@ -1,0 +1,11 @@
+Code,Title,Description
+FT01,"Unrestricted","No restrictions to funding at all"
+FT02,"Running costs","Restricted to 'Core', revenue, overheads, and other operational costs"
+FT03,"Project costs","Restricted to a particular programme, project or specific items or activities. Includes contribution to related running costs"
+FT04,"Salary costs","Restricted to a salary only with no other running costs"
+FT10,"Capital","Purchase, develop or upgrade assets with a longer lifespan such as equipment, buildings, land, technology platforms"
+FT11,"Capital and running costs","A mixture of assets and running costs"
+FT12,"Capital and project costs","A mixture of assets and project costs"
+FT13,"Endowment ","A financial asset intended to create a long-term source of income or for permanent use for activities and operations"
+FT20,"Regranting","Regranting and delegated funds to be distributed to other organisations or individuals in a mixture of funding types"
+
