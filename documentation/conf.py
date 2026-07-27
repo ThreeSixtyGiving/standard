@@ -140,6 +140,8 @@ html_theme = 'sphinx_rtd_theme'
 
 html_css_files = [
     'custom.css',
+    'https://cdn.threesixtygiving.org/css/main.css',
+    'https://fonts.googleapis.com/icon?family=Material+Icons'
 ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -195,7 +197,14 @@ html_static_path = ['_static', '../schema']
 
 # Custom sidebar templates, maps document names to template names.
 #
-# html_sidebars = {}
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        'relations.html',
+        'sourcelink.html',
+        'searchbox.html'
+        ]
+        }
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
