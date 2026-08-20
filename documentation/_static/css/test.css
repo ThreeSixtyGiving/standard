@@ -1,0 +1,38 @@
+@import 'theme.css';
+
+.document, .wy-nav-content, .wy-menu, .wy-nav-side, .wy-side-nav-search, .wy-menu-vertical
+{
+	background-color: #FFFFFF;
+}
+
+.toctree-l1 a {
+	color: hsl(var(--teal-dark-hsl), 1);
+	line-height: 1.25em;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.wy-menu-vertical a:hover {
+	background-color: #e7ebea;
+}
+
+.wy-menu-vertical li.current a, .wy-menu-vertical li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l3.current>a, .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a, .wy-menu-vertical li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a { 
+	background-color: #D3EAED;
+	color: hsl(var(--teal-dark-hsl), 1);
+	border-right: 0px;
+}
+
+.wy-menu-vertical li.toctree-l1.current>a {
+	border: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+	color: #215553;
+	font-weight: 300;
+}
+
+p { 
+	font-size: 1.2rem;
+	font-weight: 400;
+ }
