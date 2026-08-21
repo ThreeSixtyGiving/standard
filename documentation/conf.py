@@ -136,17 +136,27 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
+# The 360Giving docs has a strange mix of CSS applied at different levels in the project in order to get the 360Giving branding atop of the sphinx_rtd_theme
+
+# html_theme is set to "sphinx_rtd_theme" to set the base template. This gets us lots of nice features and layout from the sphinx_rtd_theme
+
+# html_style is set to a custom css template, which sphinx looks for in the _static/css directory
+# The reason for this is to override parts of the parent theme in order to apply the 360Giving styling
+# The alternative is either developing a theme from scratch or overriding parts of the sphinx_rtd_theme, which causes its own problems
+
+# The custom.css file then *imports* the sphinx_rtd_theme's main css file. If we don't do this, then we lose all the nice layout things that the theme does. This follows guidance from RTD themselves.
+# See: https://docs.readthedocs.com/platform/stable/guides/adding-custom-css.html#overriding-or-replacing-a-theme-s-stylesheet
+
+# Finally, we import the bulk of the 360Giving branding styles from their CDN, via sphinx's built-in html_css_files variable. 
+
 html_theme = 'sphinx_rtd_theme'
 
-html_style = 'css/test.css'
+html_style = 'css/custom.css'
 
-#html_css_files = [
-#    'css/custom.css',
-#    'css/style.css',
-#    'css/sanitize.css'
-#    'https://cdn.threesixtygiving.org/css/main.css',
-#    'https://fonts.googleapis.com/icon?family=Material+Icons'
-#]
+html_css_files = [
+        "https://cdn.threesixtygiving.org/css/main.css", # Main 360 CSS theme
+        "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
+        ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -280,10 +290,6 @@ html_context = {
     'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
         }
 
-html_css_files = [
-        "https://cdn.threesixtygiving.org/css/main.css", # Main 360 CSS theme
-        "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
-        ]
 
 # -- Options for LaTeX output ---------------------------------------------
 
