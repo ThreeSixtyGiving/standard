@@ -64,8 +64,11 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
+
+copyright_year = datetime.datetime.now().strftime("%Y") # Used in footer to keep the copyright year up to date
+
 project = '360Giving Data Standard'
-copyright = '2016-2017, 360Giving'
+copyright = "2016-{}, 360Giving. 360Giving is a trading name of Funders Together. Funders Together is a charitable company registered in England and Wales, Company Number: 5596299 and Charity Number: 1116201".format(copyright_year)
 author = '360Giving'
 
 
@@ -286,10 +289,12 @@ htmlhelp_basename = 'sphinxdoc'
 
 # Here we set some variables which are used in specific templates
 
-html_context = {
-    'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
-        }
-
+# THis is used by the old 360Giving footer, with the complex branding. It was commented out as part of the MVP for the new docs infrastructure
+# See https://github.com/ThreeSixtyGiving/standard/pull/450
+#html_context = {
+#    'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
+#        }
+#
 
 # -- Options for LaTeX output ---------------------------------------------
 
