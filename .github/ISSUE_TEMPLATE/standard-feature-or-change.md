@@ -11,7 +11,7 @@ type: Feature
 **What problem does this solve? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Who will use this feature? Please describe.**
+**Who will use this feature and how much uptake we think there will be? Please describe.**
 A clear and concise description of who will be the most likely to use this feature, and how often. Ex. Funders will use this field when […]
 
 **Do you have a proposed solution?**
