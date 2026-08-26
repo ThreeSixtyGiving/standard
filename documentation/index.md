@@ -1,5 +1,4 @@
-# Our guidance for publishers has moved
-
+```{admonition} Our guidance for publishers has moved
 Our step-by-step guidance and resources for publishers can now be accessed on 360Giving's main website.
 
 <a class="button" href="https://www.360giving.org/publish/guidance/before-you-start/">Get started here</a>
@@ -13,6 +12,7 @@ Or, jump straight into the stage you're at:
 5. [Re-publish &ndash; go through the process again and improve your data quality](https://www.360giving.org/publish/guidance/re-publishing/)
 
 But if you're looking for technical documentation, you've come to the right place.
+```
 
 # 360Giving Data Standard documentation
 
