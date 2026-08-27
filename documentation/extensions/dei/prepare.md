@@ -12,9 +12,9 @@ In order to publish DEI Data Standard data using the 360Giving Data Standard DEI
 The following sections cover these steps in more detail, providing guidance for publishing data in [spreadsheet](#dei-extension-field-guidance) and [JSON file formats](#json-format-guidance-for-developers).
 
 <div class="box box--teal">
-    <h2 class="box__heading">Not sure what file format to use?</h2>
+    <h2 class="box__heading">Not sure which file format to use?</h2>
     <p>
-      Read our <a href = "../../guidance/prepare-data.md#choosing-your-file-format">guidance on choosing a file format</a>
+      Read our <a href = "https://www.360giving.org/publish/guidance/prepare/prepare-your-data/#-choose-your-file-format">guidance on choosing a file format</a>
        </p>
 </div>
 
@@ -26,8 +26,7 @@ The data collected through the application of the DEI Data Standard can be compl
 
 The DEI Extension has been designed to be as straightforward as possible however it is more complicated than the commonly used parts of the 360Giving Data Standard.
 
-```eval_rst
-.. contents::
+```{contents}
    :local:
    :depth: 3
    :backlinks: none
@@ -127,12 +126,6 @@ The reason for using codes instead of names is because it avoids issues caused b
 
 There are four codelists available for use in the DEI Extension.
 
-<!--```eval_rst
-.. contents::
-   :local:
-   :depth: 3
-```-->
-
 #### Asked Status
 
 A codelist to declare whether DEI Data Standard questions were asked for this grant, and how.
@@ -154,11 +147,10 @@ For grants where the **questions were asked** there are two options:
 * The questions were asked **during** the application process (AS200). This code would be used by funders asking for DEI Data Standard questions at any point before the decision to make the award was made. Whether the DEI questions are asked via a separate form or as part of the assessment process, you would still use this code.
 * The questions were asked **after** the application process (AS201). This code would be used for any grants where the DEI questions were asked to grant recipients after the award decision.
 
-```eval_rst
-.. csv-table::
-   :file: ../../extras/extensions/dei/codelists/askedStatus.csv
-   :header-rows: 1
-   :widths: auto
+```{csv-table} Asked Status Codelist
+:file: ../../extras/extensions/dei/codelists/askedStatus.csv
+:header-rows: 1
+:widths: auto
 ```
 
 #### Available Options
@@ -187,8 +179,7 @@ Finally there is a code to indicate if respondents were given the option to answ
 
 It is possible that, depending on the range of options available to respondents, all seven codes could be included in this field (AO100;AO101;AO102;AO200;AO201;AO300;AO301).
 
-```eval_rst
-.. csv-table::
+```{csv-table} Available Options Codelist
    :file: ../../extras/extensions/dei/codelists/availableOptions.csv
    :header-rows: 1
    :widths: auto
@@ -215,11 +206,10 @@ Each of these fields can only be included once with a single code per grant, whi
 
 Note that the values declared in the Available Options are expected to align with the values declared in the Reply Status field for each application. If the codes **General** (AO300) and **Prefer Not To Say** (AO301) have been declared in the Available Options field, it will be possible to declare Reply Status codes **Reply was General** (RS201) or **Reply was Prefer not to say** (RS202) when appropriate. However, if these were not declared as being available options, it is expected that the range of valid responses in the Reply Status field would be either **No Reply** (RS100), **Reply Got** (RS200) or **Reply Got but no permissions** (RS203).
 
-```eval_rst
-.. csv-table::
-   :file: ../../extras/extensions/dei/codelists/replyStatus.csv
-   :header-rows: 1
-   :widths: auto
+```{csv-table} Reply Status Codelist
+:file: ../../extras/extensions/dei/codelists/replyStatus.csv
+:header-rows: 1
+:widths: auto
 ```
 
 #### Taxonomy Codes
@@ -238,21 +228,17 @@ These fields are used to provide the answers provided by organisations in respon
 
 Note that the DEI Data Standard criteria for each application area require that a population group be represented by a majority of the project/service users or the leadership of an organisation. This means that responses may be taken from multiple different population groups but it is not possible for there to be multiple categories or sub-categories answers taken from the same population group.
 
-``` eval_rst
-.. admonition:: \
-
- For further guidance on the criteria and definitions for each application area see the DEI Data Standard documentation on the `DEI Data Standard section of the Funders Collaborative Hub`_.
-
-.. _DEI Data Standard section of the Funders Collaborative Hub: https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard
+```{hint}
+For further guidance on the criteria and definitions for each application area see the DEI Data Standard documentation on the [DEI Data Standard section of the Funders Collaborative Hub](https://www.funderscollaborativehub.org.uk/collaborations/dei-data-standard).
 ```
+
 <a id="taxonomy-codes-codelist" href = "#taxonomy-codes-codelist-end" >Skip to end of table</a>
 
 
-```eval_rst
-.. csv-table::
-   :file: ../../extras/extensions/dei/codelists/taxonomyCodes.csv
-   :header-rows: 1
-   :widths: auto
+```{csv-table} Taxonomy Codes
+:file: ../../extras/extensions/dei/codelists/taxonomyCodes.csv
+:header-rows: 1
+:widths: auto
 ```
 <a id="taxonomy-codes-codelist-end" href = "#taxonomy-codes-codelist">Go to top of table</a>
 

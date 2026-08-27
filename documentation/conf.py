@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# 360Giving sphinx base documentation build configuration file,
+# Open Data Services sphinx base documentation build configuration file,
 # created by sphinx-quickstart on Wed Nov  2 14:17:45 2016.
-# https://github.com/OpenDataServices/sphinx-base/blob/master/docs/conf.py
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -18,25 +17,14 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
+
 import os
 import json
 import sys
 import datetime
-import sphinx_rtd_theme
-sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.transform import AutoStructify
-from recommonmark.parser import CommonMarkParser
-
-# -- Read the Docs --------------------------------------------------------
-
-# Define the canonical URL if you are using a custom domain on Read the Docs
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
-
-# Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    if "html_context" not in globals():
-        html_context = {}
-    html_context["READTHEDOCS"] = True
 
 # -- General configuration ------------------------------------------------
 
@@ -47,8 +35,13 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.opendataservices', 'toctemplate', 'myst_parser']
-
+extensions = ['myst_parser',
+              'sphinxcontrib.opendataservices',
+              'sphinxcontrib.jsonschema',
+              'sphinx_rtd_theme',
+              'sphinx.ext.todo',
+              'sphinx.ext.autodoc',
+              'sphinx_togglebutton',]
 
 # Autogenerate anchors for Markdown headings (h1…h6)
 myst_heading_anchors = 6
@@ -60,9 +53,6 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_parsers = {
-    '.md': CommonMarkParser,
-    }
 
 source_suffix = ['.rst', '.md']
 
@@ -74,9 +64,13 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
+
+copyright_year = datetime.datetime.now().strftime("%Y") # Used in footer to keep the copyright year up to date
+
 project = '360Giving Data Standard'
-copyright = '2016-2017, 360Giving'
+copyright = "2016-{}, 360Giving. 360Giving is a trading name of Funders Together. Funders Together is a charitable company registered in England and Wales, Company Number: 5596299 and Charity Number: 1116201".format(copyright_year)
 author = '360Giving'
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -144,29 +138,36 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 
-# We don't do a check for RTD environment anymore since https://github.com/ThreeSixtyGiving/standard/pull/371
+# The 360Giving docs has a strange mix of CSS applied at different levels in the project in order to get the 360Giving branding atop of the sphinx_rtd_theme
+
+# html_theme is set to "sphinx_rtd_theme" to set the base template. This gets us lots of nice features and layout from the sphinx_rtd_theme
+
+# html_style is set to a custom css template, which sphinx looks for in the _static/css directory
+# The reason for this is to override parts of the parent theme in order to apply the 360Giving styling
+# The alternative is either developing a theme from scratch or overriding parts of the sphinx_rtd_theme, which causes its own problems
+
+# The custom.css file then *imports* the sphinx_rtd_theme's main css file. If we don't do this, then we lose all the nice layout things that the theme does. This follows guidance from RTD themselves.
+# See: https://docs.readthedocs.com/platform/stable/guides/adding-custom-css.html#overriding-or-replacing-a-theme-s-stylesheet
+
+# Finally, we import the bulk of the 360Giving branding styles from their CDN, via sphinx's built-in html_css_files variable. 
 
 html_theme = 'sphinx_rtd_theme'
 
+html_style = 'css/custom.css'
 
-# This started causing errors, so removing it from the conditional statement and replacing it with the above lines
-# import os
-# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-#
-# if not on_rtd:  # only import and set the theme if we're building docs locally
-#     import sphinx_rtd_theme
-#     html_theme = 'sphinx_rtd_theme'
-#     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-# otherwise, readthedocs.org uses their theme by default, so no need to specify it
+html_css_files = [
+        "https://cdn.threesixtygiving.org/css/main.css", # Main 360 CSS theme
+        "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
+        ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+# See https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
+
+html_theme_options = {"logo_only": True}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -174,7 +175,7 @@ html_theme = 'sphinx_rtd_theme'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = '360Giving Data Standard'
+html_title = '360Giving Standard Documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -183,7 +184,7 @@ html_theme = 'sphinx_rtd_theme'
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-# html_logo = None
+html_logo = "../360standard-color.png"
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -215,7 +216,14 @@ html_static_path = ['_static', '../schema']
 
 # Custom sidebar templates, maps document names to template names.
 #
-# html_sidebars = {}
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        'relations.html',
+        'sourcelink.html',
+        'searchbox.html'
+        ]
+        }
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -273,16 +281,20 @@ html_static_path = ['_static', '../schema']
 #
 # html_search_scorer = 'scorer.js'
 
-# additional variables for templates
-with open(os.path.join(os.path.dirname(__file__), 'footer.json')) as a:
-    settings360 = json.load(a)
-html_context = {
-    'now': datetime.datetime.now(),
-    'settings360': settings360,
-}
-
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxdoc'
+
+
+# -- Custom HTML theme options -------------------------------------------
+
+# Here we set some variables which are used in specific templates
+
+# THis is used by the old 360Giving footer, with the complex branding. It was commented out as part of the MVP for the new docs infrastructure
+# See https://github.com/ThreeSixtyGiving/standard/pull/450
+#html_context = {
+#    'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
+#        }
+#
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -307,10 +319,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'sphinx.tex', '360Giving Data Standard',
-     '360Giving', 'manual'),
-]
+#latex_documents = [
+#    (master_doc, 'sphinx.tex', 'Open Data Services Sphinx Base',
+#     'Open Data Services', 'manual'),
+#]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -349,10 +361,10 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'sphinx', '360Giving Data Standard',
-     [author], 1)
-]
+#man_pages = [
+#    (master_doc, 'sphinx', 'Open Data Services Sphinx Base',
+#     [author], 1)
+#]
 
 # If true, show URL addresses after external links.
 #
@@ -364,11 +376,11 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'sphinx', '360Giving Data Standard',
-     author, 'sphinx', 'One line description of project.',
-     'Miscellaneous'),
-]
+#texinfo_documents = [
+#    (master_doc, 'sphinx', 'Open Data Services Sphinx Base',
+#     author, 'sphinx', 'One line description of project.',
+#     'Miscellaneous'),
+#]
 
 # Documents to append as an appendix to all manuals.
 #
@@ -386,10 +398,14 @@ texinfo_documents = [
 #
 # texinfo_no_detailmenu = False
 
-
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
+togglebutton_hint = ""
+
+#-------------------------------------------------------------------------------------------
+# Generate the spreadsheet templates via flatten-tool
+#-------------------------------------------------------------------------------------------
 
 import flattentool
 import shutil
@@ -429,9 +445,8 @@ for output_format in ['csv', 'xlsx']:
 
 import requests
 
-schema_extensions = ['dei'] # ADD NEW EXTENSIONS HERE
+schema_extensions = ['dei'] # Add new extensions here. Use the "code" which maps to the file name in the registry: https://github.com/ThreeSixtyGiving/extensions-registry/tree/main/extensions
 
-# IMPORTANT: Update this URL when the dei extension is merged in
 base_url = "https://raw.githubusercontent.com/ThreeSixtyGiving/extensions-registry/main/extensions/"
 
 if not os.path.exists("./extras"):
@@ -464,19 +479,3 @@ for extension in schema_extensions:
 
         with open(f"{extension_path}/codelists/{codelist_name}", 'w') as codelist_file:
             codelist_file.write(codelist_content)
-
-#-------------------------------------------------------------------------------------------
-#-------------------------------------------------------------------------------------------
-# End fetch extension schemas at build
-#-------------------------------------------------------------------------------------------
-
-#mv README.md 360-giving-schema-titles.csv/
-
-
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_eval_rst': True
-        }, True)
-    app.add_transform(AutoStructify)
