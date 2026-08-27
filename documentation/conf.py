@@ -64,8 +64,11 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
+
+copyright_year = datetime.datetime.now().strftime("%Y") # Used in footer to keep the copyright year up to date
+
 project = '360Giving Data Standard'
-copyright = '2016-2017, 360Giving'
+copyright = "2016-{}, 360Giving. 360Giving is a trading name of Funders Together. Funders Together is a charitable company registered in England and Wales, Company Number: 5596299 and Charity Number: 1116201".format(copyright_year)
 author = '360Giving'
 
 
@@ -136,19 +139,35 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
+# The 360Giving docs has a strange mix of CSS applied at different levels in the project in order to get the 360Giving branding atop of the sphinx_rtd_theme
+
+# html_theme is set to "sphinx_rtd_theme" to set the base template. This gets us lots of nice features and layout from the sphinx_rtd_theme
+
+# html_style is set to a custom css template, which sphinx looks for in the _static/css directory
+# The reason for this is to override parts of the parent theme in order to apply the 360Giving styling
+# The alternative is either developing a theme from scratch or overriding parts of the sphinx_rtd_theme, which causes its own problems
+
+# The custom.css file then *imports* the sphinx_rtd_theme's main css file. If we don't do this, then we lose all the nice layout things that the theme does. This follows guidance from RTD themselves.
+# See: https://docs.readthedocs.com/platform/stable/guides/adding-custom-css.html#overriding-or-replacing-a-theme-s-stylesheet
+
+# Finally, we import the bulk of the 360Giving branding styles from their CDN, via sphinx's built-in html_css_files variable. 
+
 html_theme = 'sphinx_rtd_theme'
 
+html_style = 'css/custom.css'
+
 html_css_files = [
-    'custom.css',
-    'https://cdn.threesixtygiving.org/css/main.css',
-    'https://fonts.googleapis.com/icon?family=Material+Icons'
-]
+        "https://cdn.threesixtygiving.org/css/main.css", # Main 360 CSS theme
+        "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
+        ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+# See https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
+
+html_theme_options = {"logo_only": True}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -156,7 +175,7 @@ html_css_files = [
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Open Data Services Sphinx Base'
+html_title = '360Giving Standard Documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -165,7 +184,7 @@ html_css_files = [
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-# html_logo = None
+html_logo = "../360standard-color.png"
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -270,14 +289,12 @@ htmlhelp_basename = 'sphinxdoc'
 
 # Here we set some variables which are used in specific templates
 
-html_context = {
-    'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
-        }
-
-html_css_files = [
-        "https://cdn.threesixtygiving.org/css/main.css", # Main 360 CSS theme
-        "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
-        ]
+# THis is used by the old 360Giving footer, with the complex branding. It was commented out as part of the MVP for the new docs infrastructure
+# See https://github.com/ThreeSixtyGiving/standard/pull/450
+#html_context = {
+#    'now': datetime.datetime.now() # Used in footer to keep the copyright year up to date
+#        }
+#
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -302,10 +319,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'sphinx.tex', 'Open Data Services Sphinx Base',
-     'Open Data Services', 'manual'),
-]
+#latex_documents = [
+#    (master_doc, 'sphinx.tex', 'Open Data Services Sphinx Base',
+#     'Open Data Services', 'manual'),
+#]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -344,10 +361,10 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'sphinx', 'Open Data Services Sphinx Base',
-     [author], 1)
-]
+#man_pages = [
+#    (master_doc, 'sphinx', 'Open Data Services Sphinx Base',
+#     [author], 1)
+#]
 
 # If true, show URL addresses after external links.
 #
@@ -359,11 +376,11 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'sphinx', 'Open Data Services Sphinx Base',
-     author, 'sphinx', 'One line description of project.',
-     'Miscellaneous'),
-]
+#texinfo_documents = [
+#    (master_doc, 'sphinx', 'Open Data Services Sphinx Base',
+#     author, 'sphinx', 'One line description of project.',
+#     'Miscellaneous'),
+#]
 
 # Documents to append as an appendix to all manuals.
 #
