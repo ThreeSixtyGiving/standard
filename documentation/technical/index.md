@@ -20,15 +20,13 @@ In this guidance you will find:
 - Guidance about metadata
 - Guidance about codelists
 
-If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](../guidance/index.md)
+If you are just getting started with sharing 360Giving data, start by reading the [Guidance for publishers section.](https://www.360giving.org/publish/guidance/)
 
-```eval_rst
-.. toctree::
-   :maxdepth: 3
+```{toctree}
+:maxdepth: 3
 
-   reference
-   identifiers
-   metadata
-   codelists
-
+reference
+identifiers
+metadata
+codelists
 ```
