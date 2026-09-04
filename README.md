@@ -15,7 +15,7 @@ Full documentation of the data standard is provided at [https://standard.threesi
 
 From Version 1.0 of the schema and onwards:
 
-* The authoritative source of the standard is found in [360-giving-schema.json](schema/360-giving-schema.json) and [360-giving-package-schema.json](schema/360-giving-package-schema.sjon) in [JSON Schema](http://json-schema.org/) format (the former describes what a grant should look like, the second describes how to package up multiple grants into a single JSON file).
+* The authoritative source of the standard is found in [360-giving-schema.json](schema/360-giving-schema.json) and [360-giving-package-schema.json](schema/360-giving-package-schema.sjon) in [JSON Schema](https://json-schema.org/) format (the former describes what a grant should look like, the second describes how to package up multiple grants into a single JSON file).
 * Two secondary serialisation templates are generated using the [flatten-tool](https://github.com/opendataservices/flatten-tool): a summary table (CSV/XLS), and multi-table template (XLS)
 * A JSON Table Schema is provided for the summary table
 
