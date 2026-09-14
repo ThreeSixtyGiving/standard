@@ -161,6 +161,12 @@ html_css_files = [
         "https://fonts.googleapis.com/icon?family=Material+Icons" # Material font and icons
         ]
 
+
+# Also import the analytics code using html_js_files, stored  under _static/js
+html_js_files = [
+        "js/matamo.js"
+        ]
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
