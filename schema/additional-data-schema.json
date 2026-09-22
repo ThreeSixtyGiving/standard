@@ -1,0 +1,739 @@
+{
+  "$id": "https://raw.githubusercontent.com/ThreeSixtyGiving/standard/main/schema/additional-data-schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "360Giving Additional Data Schema",
+  "type": "object",
+  "properties": {
+    "codeListLookup": {
+      "type": "object",
+      "title": "Codelist Lookup",
+      "properties": {
+        "beneficiaryLocation_countryCode": {
+          "type": "string",
+          "title": "Beneficiary Location Country Name"
+        },
+        "fundingOrg_location_countryCode": {
+          "type": "string",
+          "title": "Funding Organisation Country Name"
+        },
+        "locationScope": {
+          "type": "string",
+          "title": "Location Scope"
+        },
+        "recipientOrg_location_countryCode": {
+          "type": "string",
+          "title": "Recipient Organisation Country Name"
+        },
+        "regrantType": {
+          "type": "string",
+          "title": "Regrant Type"
+        },
+        "toIndividualsDetails": {
+          "type": "object",
+          "title": "To Individuals Details",
+          "properties": {
+            "grantPurpose": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "title": "Grant Purpose"
+            },
+            "primaryGrantReason": {
+              "type": "string",
+              "title": "Primary Grant Reason"
+            },
+            "secondaryGrantReason": {
+              "type": "string",
+              "title": "Secondary Grant Reason"
+            }
+          }
+        }
+      }
+    },
+    "locationLookup": {
+      "type": "array",
+      "title": "Location Lookup",
+      "items": {
+        "type": "object",
+        "properties": {
+          "areacode": {
+            "type": "string",
+            "title": "Focal Area Code"
+          },
+          "areaname": {
+            "type": "string",
+            "title": "Focal Area Name"
+          },
+          "areatype": {
+            "type": "string",
+            "title": "Area Type"
+          },
+          "cauthcd": {
+            "type": "string",
+            "title": "Combined Authority Code"
+          },
+          "cauthnm": {
+            "type": "string",
+            "title": "Combined Authority Name"
+          },
+          "ctrycd": {
+            "type": "string",
+            "title": "Country Code"
+          },
+          "ctrynm": {
+            "type": "string",
+            "title": "Country Name"
+          },
+          "ewcd": {
+            "type": "string",
+            "title": "England & Wales Code"
+          },
+          "ewnm": {
+            "type": "string",
+            "title": "England & Wales Name"
+          },
+          "gbcd": {
+            "type": "string",
+            "title": "Great Britain Code"
+          },
+          "gbnm": {
+            "type": "string",
+            "title": "Great Britain Name"
+          },
+          "ladcd": {
+            "type": "string",
+            "title": "Local Authority District Code"
+          },
+          "ladcd_active": {
+            "type": "string",
+            "title": "Active Local Authority District Code"
+          },
+          "ladnm": {
+            "type": "string",
+            "title": "Local Authority District Name"
+          },
+          "ladnm_active": {
+            "type": "string",
+            "title": "Active Local Authority District Name"
+          },
+          "latitude": {
+            "type": "number",
+            "title": "Latitude"
+          },
+          "longitude": {
+            "type": "number",
+            "title": "Longitude"
+          },
+          "lsoa11cd": {
+            "type": "string",
+            "title": "Lower Layer Super Output Area Code (2011)"
+          },
+          "lsoa11nm": {
+            "type": "string",
+            "title": "Lower Layer Super Output Area Name (2011)"
+          },
+          "lsoa21cd": {
+            "type": "string",
+            "title": "Lower Layer Super Output Area Code (2021)"
+          },
+          "msoa11cd": {
+            "type": "string",
+            "title": "Middle Layer Super Output Area Code (2011)"
+          },
+          "msoa11hclnm": {
+            "type": "string",
+            "title": "Middle Layer Super Output Area Hierarchy Classification Name (2011)"
+          },
+          "msoa11nm": {
+            "type": "string",
+            "title": "Middle Layer Super Output Area Name (2011)"
+          },
+          "msoacd": {
+            "type": "string",
+            "title": "Middle Layer Super Output Area Code"
+          },
+          "msoahclnm": {
+            "type": "string",
+            "title": "Middle Layer Super Output Area Hierarchy Classification Name"
+          },
+          "msoanm": {
+            "type": "string",
+            "title": "Middle Layer Super Output Area Name"
+          },
+          "rgncd": {
+            "type": "string",
+            "title": "Region Code"
+          },
+          "rgnnm": {
+            "type": "string",
+            "title": "Region Name"
+          },
+          "source": {
+            "type": "string",
+            "title": "360Giving Source Field"
+          },
+          "sourceCode": {
+            "type": "string",
+            "title": "360Giving Source Value"
+          },
+          "ukcd": {
+            "type": "string",
+            "title": "UK Code"
+          },
+          "uknm": {
+            "type": "string",
+            "title": "UK Name"
+          },
+          "utlacd": {
+            "type": "string",
+            "title": "Upper Tier Local Authority Code"
+          },
+          "utlanm": {
+            "type": "string",
+            "title": "Upper Tier Local Authority Name"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "title": "Metadata",
+      "properties": {
+        "source_license": {
+          "type": "string",
+          "title": "Source License URL"
+        },
+        "source_license_name": {
+          "type": "string",
+          "title": "Source License Name"
+        },
+        "sources_metadata": {
+          "type": "object",
+          "title": "Sources Metadata",
+          "properties": {
+            "codeListLookup": {
+              "type": "object",
+              "title": "Codelist Lookup",
+              "properties": {
+                "license": {
+                  "type": "string",
+                  "title": "License"
+                }
+              }
+            },
+            "locationLookup": {
+              "type": "object",
+              "title": "Location Lookup",
+              "properties": {
+                "license": {
+                  "type": "string",
+                  "title": "License"
+                }
+              }
+            },
+            "recipientOrganizationLocation": {
+              "type": "object",
+              "title": "Recipient Organisation Location",
+              "properties": {
+                "license": {
+                  "type": "string",
+                  "title": "License"
+                }
+              }
+            },
+            "recipientOrgInfos": {
+              "type": "object",
+              "title": "Recipient Organisation Info",
+              "properties": {
+                "license": {
+                  "type": "string",
+                  "title": "License"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "recipientCountryName": {
+      "type": "string",
+      "title": "Recipient Country Name"
+    },
+    "recipientDistrictGeoCode": {
+      "type": "string",
+      "title": "Recipient District Geographic Code"
+    },
+    "recipientDistrictName": {
+      "type": "string",
+      "title": "Recipient District Name"
+    },
+    "recipientLocation": {
+      "type": "string",
+      "title": "Recipient Location"
+    },
+    "recipientOrganizationLocation": {
+      "type": "object",
+      "title": "Recipient Organisation Location",
+      "properties": {
+        "bua22": {
+          "type": "string",
+          "title": "Built-up Area Code"
+        },
+        "bua22_name": {
+          "type": "string",
+          "title": "Built-up Area Name"
+        },
+        "ced": {
+          "type": "string",
+          "title": "County Electoral Division Code"
+        },
+        "ctry": {
+          "type": "string",
+          "title": "Country Code"
+        },
+        "ctry_name": {
+          "type": "string",
+          "title": "Country Name"
+        },
+        "cty": {
+          "type": "string",
+          "title": "County Code"
+        },
+        "dointr": {
+          "type": "string",
+          "title": "Date of Introduction"
+        },
+        "doterm": {
+          "type": "string",
+          "title": "Date of Termination"
+        },
+        "hash": {
+          "type": "string",
+          "title": "Hash"
+        },
+        "icb": {
+          "type": "string",
+          "title": "Integrated Care Board Code"
+        },
+        "icb_name": {
+          "type": "string",
+          "title": "Integrated Care Board Name"
+        },
+        "imd": {
+          "type": "number",
+          "title": "Index of Multiple Deprivation Rank"
+        },
+        "itl": {
+          "type": "string",
+          "title": "International Territorial Level Code"
+        },
+        "itl_name": {
+          "type": "string",
+          "title": "International Territorial Level Name"
+        },
+        "lat": {
+          "type": "number",
+          "title": "Latitude"
+        },
+        "laua": {
+          "type": "string",
+          "title": "Local Authority District Code"
+        },
+        "laua_name": {
+          "type": "string",
+          "title": "Local Authority District Name"
+        },
+        "lep1": {
+          "type": "string",
+          "title": "Local Enterprise Partnership Code (Primary)"
+        },
+        "lep1_name": {
+          "type": "string",
+          "title": "Local Enterprise Partnership Name (Primary)"
+        },
+        "lep2": {
+          "type": "string",
+          "title": "Local Enterprise Partnership Code (Secondary)"
+        },
+        "location": {
+          "type": "object",
+          "title": "Location",
+          "properties": {
+            "lat": {
+              "type": "number",
+              "title": "Latitude"
+            },
+            "lon": {
+              "type": "number",
+              "title": "Longitude"
+            }
+          }
+        },
+        "long": {
+          "type": "number",
+          "title": "Longitude"
+        },
+        "lsoa21": {
+          "type": "string",
+          "title": "Lower Layer Super Output Area Code (2021)"
+        },
+        "lsoa21_name": {
+          "type": "string",
+          "title": "Lower Layer Super Output Area Name (2021)"
+        },
+        "msoa21": {
+          "type": "string",
+          "title": "Middle Layer Super Output Area Code (2021)"
+        },
+        "msoa21_name": {
+          "type": "string",
+          "title": "Middle Layer Super Output Area Name (2021)"
+        },
+        "nhser": {
+          "type": "string",
+          "title": "NHS England Region Code"
+        },
+        "nhser_name": {
+          "type": "string",
+          "title": "NHS England Region Name"
+        },
+        "npark": {
+          "type": "string",
+          "title": "National Park Code"
+        },
+        "npark_name": {
+          "type": "string",
+          "title": "National Park Name"
+        },
+        "oa21": {
+          "type": "string",
+          "title": "Output Area Code (2021)"
+        },
+        "oa21_name": {
+          "type": "string",
+          "title": "Output Area Name (2021)"
+        },
+        "oac11": {
+          "type": "string",
+          "title": "Output Area Classification (2011)"
+        },
+        "oseast1m": {
+          "type": "number",
+          "title": "Ordnance Survey Easting Coordinate"
+        },
+        "osgrdind": {
+          "type": "number",
+          "title": "Ordnance Survey Grid Indicator"
+        },
+        "osnrth1m": {
+          "type": "number",
+          "title": "Ordnance Survey Northing Coordinate"
+        },
+        "pcd": {
+          "type": "string",
+          "title": "Postcode"
+        },
+        "pcd2": {
+          "type": "string",
+          "title": "Postcode (Formatted)"
+        },
+        "pcds": {
+          "type": "string",
+          "title": "Postcode (Space-separated)"
+        },
+        "pcon": {
+          "type": "string",
+          "title": "Parliamentary Constituency Code"
+        },
+        "pcon_name": {
+          "type": "string",
+          "title": "Parliamentary Constituency Name"
+        },
+        "pfa": {
+          "type": "string",
+          "title": "Police Force Area Code"
+        },
+        "pfa_name": {
+          "type": "string",
+          "title": "Police Force Area Name"
+        },
+        "rgn": {
+          "type": "string",
+          "title": "Region Code"
+        },
+        "rgn_name": {
+          "type": "string",
+          "title": "Region Name"
+        },
+        "ru11ind": {
+          "type": "string",
+          "title": "Rural Urban Indicator (2011)"
+        },
+        "sicbl": {
+          "type": "string",
+          "title": "Sub-Integrated Care Board Location Code"
+        },
+        "sicbl_name": {
+          "type": "string",
+          "title": "Sub-Integrated Care Board Location Name"
+        },
+        "ttwa": {
+          "type": "string",
+          "title": "Travel to Work Area Code"
+        },
+        "ttwa_name": {
+          "type": "string",
+          "title": "Travel to Work Area Name"
+        },
+        "usertype": {
+          "type": "number",
+          "title": "User Type"
+        },
+        "ward": {
+          "type": "string",
+          "title": "Ward Code"
+        },
+        "ward_name": {
+          "type": "string",
+          "title": "Ward Name"
+        },
+        "wz11": {
+          "type": "string",
+          "title": "Workplace Zone Code (2011)"
+        },
+        "wz11_name": {
+          "type": "string",
+          "title": "Workplace Zone Name (2011)"
+        }
+      }
+    },
+    "recipientOrgInfos": {
+      "type": "array",
+      "title": "Recipient Org Info",
+      "items": {
+        "type": "object",
+        "properties": {
+          "active": {
+            "type": "string",
+            "title": "Is Active"
+          },
+          "charityNumber": {
+            "type": "string",
+            "title": "Charity Number"
+          },
+          "companyNumber": {
+            "type": "string",
+            "title": "Company Number"
+          },
+          "dateModified": {
+            "type": "string",
+            "title": "Date Modified"
+          },
+          "dateRegistered": {
+            "type": "string",
+            "title": "Date Registered"
+          },
+          "dateRemoved": {
+            "type": "string",
+            "title": "Date Removed"
+          },
+          "id": {
+            "type": "string",
+            "title": "Identifier"
+          },
+          "latestIncome": {
+            "type": "string",
+            "title": "Latest Income"
+          },
+          "latestIncomeDate": {
+            "type": "string",
+            "title": "Latest Income Date"
+          },
+          "linked_orgs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "title": "Linked Organisations"
+          },
+          "linked_orgs_verified": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "title": "Linked Organisations (Verified)"
+          },
+          "name": {
+            "type": "string",
+            "title": "Recipient Organisation Name"
+          },
+          "organisationType": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "title": "Organisation Type"
+          },
+          "organisationTypePrimary": {
+            "type": "string",
+            "title": "Primary Organisation Type"
+          },
+          "orgIDs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "title": "Organisation Identifiers"
+          },
+          "postalCode": {
+            "type": "string",
+            "title": "Postal Code"
+          },
+          "source": {
+            "type": "string",
+            "title": "Data Source"
+          },
+          "url": {
+            "type": "string",
+            "title": "URL"
+          }
+        }
+      }
+    },
+    "recipientRegionName": {
+      "type": "string",
+      "title": "Recipient Region Name"
+    },
+    "TSGFundingOrgType": {
+      "type": "string",
+      "title": "360Giving Funding Organisation Type"
+    },
+    "TSGRecipientType": {
+      "type": "string",
+      "title": "360Giving Recipient Type"
+    },
+    "recipientWardName": {
+      "type": "string",
+      "title": "Ward Name"
+    },
+    "recipientWardNameGeoCode": {
+      "type": "string",
+      "title": "Ward Name Geo Code"
+    },
+    "GNCanonicalRecipientOrgName": {
+      "type": "string",
+      "title": "Recipient Org: Canonical Name"
+    },
+    "GNCanonicalRecipientOrgId": {
+      "type": "string",
+      "title": "Recipient Org: Canonical Org ID"
+    },
+    "GNCanonicalFundingOrgName": {
+      "type": "string",
+      "title": "Funding Org: Canonical Name"
+    },
+    "GNCanonicalFundingOrgId": {
+      "type": "string",
+      "title": "Funding Org: Canonical Org ID"
+    },
+    "recipientOrganizationCanonical": {
+      "type": "object",
+      "title": "Recipient Org: Canonical",
+      "properties": {
+        "id": {
+          "type": "string",
+          "title": "Recipient Org: Canonical Org ID"
+        },
+        "name": {
+          "type": "string",
+          "title": "Recipient Org: Canonical Name"
+        }
+      }
+    },
+    "fundingOrganizationCanonical": {
+      "type": "object",
+      "title": "Funding Org: Canonical",
+      "properties": {
+        "id": {
+          "type": "string",
+          "title": "Funding Org: Canonical Org ID"
+        },
+        "name": {
+          "type": "string",
+          "title": "Funding Org: Canonical Name"
+        }
+      }
+    },
+    "GNRecipientOrgInfo0": {
+      "type": "object",
+      "title": "Recipient Org Info (First Match)",
+      "properties": {
+        "latestIncome": {
+          "type": "string",
+          "title": "Recipient Org: Latest Income"
+        },
+        "ageWhenAwarded": {
+          "type": "string",
+          "title": "Recipient Org: Age When Awarded"
+        }
+      }
+    },
+    "GNRecipientOrgCountryName": {
+      "type": "string",
+      "title": "Recipient Org Country Name"
+    },
+    "GNBeneficiaryCountryName": {
+      "type": "string",
+      "title": "Beneficiary Country Name"
+    },
+    "GNBeneficiaryDistrictName": {
+      "type": "string",
+      "title": "Beneficiary District Name"
+    },
+    "GNBeneficiaryDistrictGeoCode": {
+      "type": "string",
+      "title": "Beneficiary District Geographic Code"
+    },
+    "GNBeneficiaryCountyName": {
+      "type": "string",
+      "title": "Beneficiary County Name"
+    },
+    "GNBeneficiaryRegionName": {
+      "type": "string",
+      "title": "Beneficiary Region Name"
+    },
+    "GNBeneficiaryRegionGeoCode": {
+      "type": "string",
+      "title": "Beneficiary Region Geographic Code"
+    },
+    "GNRecipientOrgCountyName": {
+      "type": "string",
+      "title": "Recipient Org County Name"
+    },
+    "GNRecipientOrgDistrictName": {
+      "type": "string",
+      "title": "Recipient Org District Name"
+    },
+    "GNRecipientOrgDistrictGeoCode": {
+      "type": "string",
+      "title": "Recipient Org District Geographic Code"
+    },
+    "GNRecipientOrgRegionName": {
+      "type": "string",
+      "title": "Recipient Org Region Name"
+    },
+    "GNRecipientOrgRegionGeoCode": {
+      "type": "string",
+      "title": "Recipient Org Region Geographic Code"
+    },
+    "GNBestCountyName": {
+      "type": "string",
+      "title": "Best Available County Name"
+    },
+    "GNBestCountryName": {
+      "type": "string",
+      "title": "Best Available Country Name"
+    }
+  }
+}
