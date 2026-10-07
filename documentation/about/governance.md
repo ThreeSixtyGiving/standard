@@ -30,7 +30,7 @@ For further information about 360Giving visit: [https://360giving.org/about/](ht
 
 ### Governance
 
-360Giving is the steward of the 360Giving Data Standard. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [Open Data Services Coop](https://opendataservices.coop/).
+360Giving is the steward of the 360Giving Data Standard. Our CEO is responsible for its day-to-day management, supported by a Product Manager and an external specialist technical team, [ODS](https://opendataservices.coop/).
 
 The 360Giving Board of Trustees are responsible for setting the strategy of the charity and Standard, and both the Board and CEO are supported in the maintenance and development of the Standard by the 360Giving Data Standard Stewardship Committee.
 

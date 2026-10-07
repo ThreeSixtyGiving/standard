@@ -46,7 +46,7 @@ Matomo also it’s own opt out mechanism:
 <!-- opt out iframe - clicking this will mean people can opt out of tracking -->
 <iframe style="border: 1; height: 150px; width: 600px;" src="https://analytics.threesixtygiving.org/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en"></iframe>
 
-Data processors: Open Data Services Co-operative Limited, Bytemark.
+Data processors: Open Data Services Limited, Bytemark.
 
 No data is transferred to third countries or international organisations.
 
