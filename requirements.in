@@ -6,3 +6,4 @@ sphinxcontrib-opendataservices-jsonschema
 sphinx-intl
 sphinx_rtd_theme
 myst-parser
+certifi>=2026.10.19         # Response to eMudhra/emSign CA certificate security incident.
