@@ -276,7 +276,7 @@ In some cases, award date data exported from grant systems includes the time of 
 
 
 ```{hint}
-You can set Excel to present a date column in YYYY-MM-DD format using a custom format [as described here](https://superuser.com/questions/409896/how-do-i-enter-dates-in-iso-8601-date-format-yyyy-mm-dd-in-excel-and-have-exc/409899#409899)
+You can set Excel to present a date column in YYYY-MM-DD format using a custom format [as described here](https://support.microsoft.com/en-us/excel/format-a-date-the-way-you-want-in-excel). If you use LibreOffice, you can use [this guidance](https://www.libreofficehelp.com/date-time-formats-libreoffice-calc/#Date_Formats) to achieve the same effect.
 ```
 
 ##### Uncertain dates (Planned Dates and Actual Dates)
